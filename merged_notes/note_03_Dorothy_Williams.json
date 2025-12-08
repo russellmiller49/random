@@ -1,0 +1,1226 @@
+{
+  "base_note": {
+    "note_text": "PROCEDURE NOTE - INTERVENTIONAL PULMONOLOGY\n\nDATE: 2025-01-19\nPATIENT: Dorothy Williams\nMRN: 1553685\nDOB: 02/14/1940\nAGE: 84 years old\nSEX: Female\n\nATTENDING: Dr. Michael Santos, MD\nLOCATION: Cardiac Pavilion, Johns Hopkins Hospital, Baltimore, MD\n\nPREOPERATIVE DIAGNOSIS:\n1. Recurrent bilateral pleural effusions\n2. New York Heart Association Class IV heart failure with reduced ejection fraction (EF 15%)\n3. Not candidate for mechanical circulatory support or transplant\n\nPOSTOPERATIVE DIAGNOSIS: Same\n\nPROCEDURE: Left-sided tunneled indwelling pleural catheter (PleurX) placement\n\nINDICATION: This 84-year-old female with end-stage heart failure has required hospitalization 6 times in the past 3 months for symptomatic bilateral pleural effusions despite maximum medical therapy. After multidisciplinary discussion including heart failure, palliative care, and IP, decision was made for left-sided IPC given larger effusion on left. Patient and family understand palliative intent.\n\nANESTHESIA: Local anesthesia only (2% lidocaine) - patient unable to tolerate any sedation given severity of cardiac dysfunction.\n\nPROCEDURE:\nPatient positioned semi-recumbent at 45 degrees (unable to lay flat due to orthopnea). Timeout completed. Ultrasound identified large left pleural effusion. Skin marked at 6th intercostal space, anterior axillary line.\n\nSkin prepped with ChloraPrep. Local anesthesia infiltrated liberally along proposed tract. 3cm skin incision made. Tunneling device used to create 8cm subcutaneous tunnel anteriorly. PleurX 15.5Fr catheter threaded through tunnel.\n\nPleural space entered using Seldinger technique under ultrasound guidance. Catheter advanced without difficulty. Initial drainage of 800mL clear yellow fluid - drainage stopped per institutional protocol for heart failure patients (max 500-1000mL to avoid re-expansion issues and volume shifts).\n\nCatheter secured with suture. Dry sterile dressing applied. Post-procedure portable CXR confirms good catheter position, no pneumothorax.\n\nFluid sent for: Cell count, chemistry, NT-proBNP\n\nESTIMATED BLOOD LOSS: Minimal\n\nCOMPLICATIONS: None. Patient tolerated procedure well with no hemodynamic changes.\n\nPLAN:\n1. Overnight telemetry monitoring\n2. Home health for IPC drainage teaching\n3. Drainage frequency to be determined based on symptoms - anticipate every 2-3 days\n4. Continue diuretics and guideline-directed medical therapy\n5. Follow-up with heart failure team and IP clinic\n\nDr. Michael Santos, MD\nInterventional Pulmonology",
+    "cpt_codes": [
+      32550
+    ],
+    "registry_entry": {
+      "patient_mrn": "1553685",
+      "procedure_date": "2025-01-19",
+      "patient_age": 84,
+      "gender": "Female",
+      "asa_class": 4,
+      "primary_indication": "Recurrent pleural effusions from end-stage heart failure",
+      "sedation_type": "Local only",
+      "airway_type": "Native",
+      "final_diagnosis_prelim": "Non-malignant",
+      "cpt_codes": [
+        32550
+      ],
+      "evidence": {
+        "procedure_date": "DATE: 2025-01-19",
+        "primary_indication": "NYHA Class IV heart failure, EF 15%, recurrent bilateral effusions",
+        "anesthesia": "Local anesthesia only - patient unable to tolerate sedation"
+      },
+      "institution_name": "Johns Hopkins Hospital, Baltimore, MD",
+      "molecular_testing_requested": false,
+      "disposition": "Inpatient admission",
+      "bleeding_severity": "None",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "pleural_procedure_type": "Tunneled Catheter",
+      "pleural_guidance": "Ultrasound",
+      "pleural_side": "Left",
+      "pleural_intercostal_space": "6th",
+      "pleural_fluid_appearance": "Clear yellow",
+      "pleural_volume_drained_ml": 800,
+      "pleurodesis_performed": false,
+      "procedures_performed": {
+        "ipc": {
+          "performed": true,
+          "action": "Insertion",
+          "side": "Left",
+          "catheter_brand": "PleurX",
+          "indication": "Heart failure",
+          "tunneled": true
+        }
+      },
+      "clinical_context": {
+        "asa_class": 4,
+        "primary_indication": "Recurrent pleural effusions secondary to end-stage heart failure",
+        "indication_category": "Pleural Effusion - Therapeutic"
+      },
+      "providers": {
+        "attending_name": "Michael Santos",
+        "fellow_name": null,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": null
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:53:15.902129"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "32550",
+          "final_codes": [
+            "32550"
+          ],
+          "modifiers": [],
+          "changes_made": false,
+          "code_rationales": {
+            "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) for heart failure-related recurrent effusion. Palliative indication in end-stage HFrEF patient."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 4.69,
+          "facility_total_payment": 152.0,
+          "per_code": {
+            "32550": {
+              "facility_rvu": 4.69,
+              "facility_payment": 152
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_8.json"
+        },
+        "overall_assessment": "Appropriate code for IPC insertion. Heart failure is an accepted indication for tunneled catheter when medical therapy is maximized."
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "32550",
+            "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+            "units": 1
+          }
+        ],
+        "work_rvu": 3.92,
+        "practice_expense_rvu": 1.6,
+        "malpractice_rvu": 0.36,
+        "total_rvu": 5.88
+      }
+    },
+    "source_file": "synthetic_ipc_placement_v2_8.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.8",
+      "valid_codes": [
+        "32550"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 3,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Diana Nelson",
+      "patient_age": 88,
+      "patient_mrn": "9927671",
+      "procedure_date": "2025-03-11",
+      "note_text": "OPERATIVE NOTE\n\nMRN: 9927671\n\nDx: ANESTHESIA: Local anesthesia only (2% lidocaine) - patient unable to tolerate an\nProc: Recurrent pleural effusions from end-stage heart failure\n\nActions:\n\u2022 Ipc\n\nCPT: 32550\nComplications: None. Patient tolerated procedure well with no hemodynamic changes.\nDispo: Interventional Pulmonology\n",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "9927671",
+        "procedure_date": "2025-03-11",
+        "patient_age": 88,
+        "gender": "Female",
+        "asa_class": 4,
+        "primary_indication": "Recurrent pleural effusions from end-stage heart failure",
+        "sedation_type": "Local only",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Non-malignant",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "DATE: 2025-01-19",
+          "primary_indication": "NYHA Class IV heart failure, EF 15%, recurrent bilateral effusions",
+          "anesthesia": "Local anesthesia only - patient unable to tolerate sedation"
+        },
+        "institution_name": "Johns Hopkins Hospital, Baltimore, MD",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient admission",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Left",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Clear yellow",
+        "pleural_volume_drained_ml": 800,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Left",
+            "catheter_brand": "PleurX",
+            "indication": "Heart failure",
+            "tunneled": true
+          }
+        },
+        "clinical_context": {
+          "asa_class": 4,
+          "primary_indication": "Recurrent pleural effusions secondary to end-stage heart failure",
+          "indication_category": "Pleural Effusion - Therapeutic"
+        },
+        "providers": {
+          "attending_name": "Michael Santos",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902129"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) for heart failure-related recurrent effusion. Palliative indication in end-stage HFrEF patient."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for IPC insertion. Heart failure is an accepted indication for tunneled catheter when medical therapy is maximized."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 3,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Joan Fisher",
+      "patient_age": 86,
+      "patient_mrn": "6788110",
+      "procedure_date": "2024-12-22",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: As documented\nMedical Record Number: 6788110\nDate of Birth: 02/14/1938\nAge at Procedure: 86 years\nProcedure Date: N/A\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with recurrent pleural effusions from end-stage heart failure. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nIpc:\n\n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\nDetailed airway examination was performed with findings as documented in the procedural narrative.\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 32550\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "6788110",
+        "procedure_date": "2024-12-22",
+        "patient_age": 86,
+        "gender": "Female",
+        "asa_class": 4,
+        "primary_indication": "Recurrent pleural effusions from end-stage heart failure",
+        "sedation_type": "Local only",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Non-malignant",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "DATE: 2025-01-19",
+          "primary_indication": "NYHA Class IV heart failure, EF 15%, recurrent bilateral effusions",
+          "anesthesia": "Local anesthesia only - patient unable to tolerate sedation"
+        },
+        "institution_name": "Johns Hopkins Hospital, Baltimore, MD",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient admission",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Left",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Clear yellow",
+        "pleural_volume_drained_ml": 800,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Left",
+            "catheter_brand": "PleurX",
+            "indication": "Heart failure",
+            "tunneled": true
+          }
+        },
+        "clinical_context": {
+          "asa_class": 4,
+          "primary_indication": "Recurrent pleural effusions secondary to end-stage heart failure",
+          "indication_category": "Pleural Effusion - Therapeutic"
+        },
+        "providers": {
+          "attending_name": "Michael Santos",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902129"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) for heart failure-related recurrent effusion. Palliative indication in end-stage HFrEF patient."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for IPC insertion. Heart failure is an accepted indication for tunneled catheter when medical therapy is maximized."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 3,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Marilyn Johnson",
+      "patient_age": 84,
+      "patient_mrn": "9572568",
+      "procedure_date": "2025-11-16",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: None | MRN: 9572568 | DOS: None\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 32550:\n  Rationale: Insertion of tunneled indwelling pleural catheter (PleurX) for heart failure-related recurrent effusion. Palliative indication in end-stage HFrEF patient.\n  Facility RVU: 4.69\n  Facility Payment: $152\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n  \u2022 PleurX\n  \u2022 Ultrasound\n  \u2022 ultrasound\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nIPC:\n  - Action: Insertion\n  - Side: Left\n  - Catheter Brand: PleurX\n  - Indication: Heart failure\n  - Tunneled: True\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: 4.69\n  Total Facility Payment: $152.0\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "9572568",
+        "procedure_date": "2025-11-16",
+        "patient_age": 84,
+        "gender": "Female",
+        "asa_class": 4,
+        "primary_indication": "Recurrent pleural effusions from end-stage heart failure",
+        "sedation_type": "Local only",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Non-malignant",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "DATE: 2025-01-19",
+          "primary_indication": "NYHA Class IV heart failure, EF 15%, recurrent bilateral effusions",
+          "anesthesia": "Local anesthesia only - patient unable to tolerate sedation"
+        },
+        "institution_name": "Johns Hopkins Hospital, Baltimore, MD",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient admission",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Left",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Clear yellow",
+        "pleural_volume_drained_ml": 800,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Left",
+            "catheter_brand": "PleurX",
+            "indication": "Heart failure",
+            "tunneled": true
+          }
+        },
+        "clinical_context": {
+          "asa_class": 4,
+          "primary_indication": "Recurrent pleural effusions secondary to end-stage heart failure",
+          "indication_category": "Pleural Effusion - Therapeutic"
+        },
+        "providers": {
+          "attending_name": "Michael Santos",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902129"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) for heart failure-related recurrent effusion. Palliative indication in end-stage HFrEF patient."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for IPC insertion. Heart failure is an accepted indication for tunneled catheter when medical therapy is maximized."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 3,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Danielle Perry",
+      "patient_age": 80,
+      "patient_mrn": "9877472",
+      "procedure_date": "2025-01-03",
+      "note_text": "PROCEDURE NOTE\n\nDate: None\nPatient: None\nMRN: 9877472\nAge/Sex: 80yo F\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nRecurrent pleural effusions from end-stage heart failure\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nLocal only\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Ipc performed\n5. Scope withdrawn\n6. Patient recovered without complication\n\nSPECIMENS:\nAs documented above\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nInpatient admission\n\nCPT CODES: 32550\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "9877472",
+        "procedure_date": "2025-01-03",
+        "patient_age": 80,
+        "gender": "Female",
+        "asa_class": 4,
+        "primary_indication": "Recurrent pleural effusions from end-stage heart failure",
+        "sedation_type": "Local only",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Non-malignant",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "DATE: 2025-01-19",
+          "primary_indication": "NYHA Class IV heart failure, EF 15%, recurrent bilateral effusions",
+          "anesthesia": "Local anesthesia only - patient unable to tolerate sedation"
+        },
+        "institution_name": "Johns Hopkins Hospital, Baltimore, MD",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient admission",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Left",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Clear yellow",
+        "pleural_volume_drained_ml": 800,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Left",
+            "catheter_brand": "PleurX",
+            "indication": "Heart failure",
+            "tunneled": true
+          }
+        },
+        "clinical_context": {
+          "asa_class": 4,
+          "primary_indication": "Recurrent pleural effusions secondary to end-stage heart failure",
+          "indication_category": "Pleural Effusion - Therapeutic"
+        },
+        "providers": {
+          "attending_name": "Michael Santos",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902129"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) for heart failure-related recurrent effusion. Palliative indication in end-stage HFrEF patient."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for IPC insertion. Heart failure is an accepted indication for tunneled catheter when medical therapy is maximized."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 3,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Beverly Evans",
+      "patient_age": 83,
+      "patient_mrn": "2377737",
+      "procedure_date": "2025-02-04",
+      "note_text": "procedure note None pt None mrn 2377737\n\nindication recurrent pleural effusions from end-stage heart failure patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp ipc performed \n\ncomplication none ebl minimal patient tolerated well disposition Inpatient admission \n\ncpt 32550\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "2377737",
+        "procedure_date": "2025-02-04",
+        "patient_age": 83,
+        "gender": "Female",
+        "asa_class": 4,
+        "primary_indication": "Recurrent pleural effusions from end-stage heart failure",
+        "sedation_type": "Local only",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Non-malignant",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "DATE: 2025-01-19",
+          "primary_indication": "NYHA Class IV heart failure, EF 15%, recurrent bilateral effusions",
+          "anesthesia": "Local anesthesia only - patient unable to tolerate sedation"
+        },
+        "institution_name": "Johns Hopkins Hospital, Baltimore, MD",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient admission",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Left",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Clear yellow",
+        "pleural_volume_drained_ml": 800,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Left",
+            "catheter_brand": "PleurX",
+            "indication": "Heart failure",
+            "tunneled": true
+          }
+        },
+        "clinical_context": {
+          "asa_class": 4,
+          "primary_indication": "Recurrent pleural effusions secondary to end-stage heart failure",
+          "indication_category": "Pleural Effusion - Therapeutic"
+        },
+        "providers": {
+          "attending_name": "Michael Santos",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902129"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) for heart failure-related recurrent effusion. Palliative indication in end-stage HFrEF patient."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for IPC insertion. Heart failure is an accepted indication for tunneled catheter when medical therapy is maximized."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 3,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Madison Harris",
+      "patient_age": 85,
+      "patient_mrn": "1620873",
+      "procedure_date": "2025-06-14",
+      "note_text": "PROCEDURE NOTE - INTERVENTIONAL PULMONOLOGY\n\nDATE: 2025-01-19\nPATIENT: Dorothy Williams\nMRN: 1620873\nDOB: 02/14/1940\nAGE: 84 years old\nSEX: Female\n\nATTENDING: Dr. Michael Santos, MD\nLOCATION: Cardiac Pavilion, Johns Hopkins Hospital, Baltimore, MD\n\n1. Recurrent bilateral pleural effusions\n2. New York Heart Association Class IV heart failure with reduced ejection fraction (EF 15%)\n3. Not candidate for mechanical circulatory support or transplant\n\nPOSTOPERATIVE DIAGNOSIS: Same\n\nPROCEDURE: Left-sided tunneled indwelling pleural catheter (PleurX) placement\n\nINDICATION: This 85-year-old female with end-stage heart failure has required hospitalization 6 times in the past 3 months for symptomatic bilateral pleural effusions despite maximum medical therapy. After multidisciplinary discussion including heart failure, palliative care, and IP, decision was made for left-sided IPC given larger effusion on left. Patient and family understand palliative intent.\n\nANESTHESIA: Local anesthesia only (2% lidocaine) - patient unable to tolerate any sedation given severity of cardiac dysfunction.\n\nPatient positioned semi-recumbent at 45 degrees (unable to lay flat due to orthopnea). Timeout completed. Ultrasound identified large left pleural effusion. Skin marked at 6th intercostal space, anterior axillary line.\n\nSkin prepped with ChloraPrep. Local anesthesia infiltrated liberally along proposed tract. 3cm skin incision made. Tunneling device used to create 8cm subcutaneous tunnel anteriorly. PleurX 15.5Fr catheter threaded through tunnel.\n\nPleural space entered using Seldinger technique under ultrasound guidance. Catheter advanced without difficulty. Initial drainage of 800mL clear yellow fluid - drainage stopped per institutional protocol for heart failure patients (max 500-1000mL to avoid re-expansion issues and volume shifts).\n\nCatheter secured with suture. Dry sterile dressing applied. Post-procedure portable CXR confirms good catheter position, no pneumothorax.\n\nFluid sent for: Cell count, chemistry, NT-proBNP\n\nESTIMATED BLOOD LOSS: Minimal\n\nCOMPLICATIONS: None. Patient tolerated procedure well with no hemodynamic changes.\n\n1. Overnight telemetry monitoring\n2. Home health for IPC drainage teaching\n3. Drainage frequency to be determined based on symptoms - anticipate every 2-3 days\n4. Continue diuretics and guideline-directed medical therapy\n5. Follow-up with heart failure team and IP clinic\n\nDr. Michael Santos, MD\nInterventional Pulmonology",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "1620873",
+        "procedure_date": "2025-06-14",
+        "patient_age": 85,
+        "gender": "Female",
+        "asa_class": 4,
+        "primary_indication": "Recurrent pleural effusions from end-stage heart failure",
+        "sedation_type": "Local only",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Non-malignant",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "DATE: 2025-01-19",
+          "primary_indication": "NYHA Class IV heart failure, EF 15%, recurrent bilateral effusions",
+          "anesthesia": "Local anesthesia only - patient unable to tolerate sedation"
+        },
+        "institution_name": "Johns Hopkins Hospital, Baltimore, MD",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient admission",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Left",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Clear yellow",
+        "pleural_volume_drained_ml": 800,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Left",
+            "catheter_brand": "PleurX",
+            "indication": "Heart failure",
+            "tunneled": true
+          }
+        },
+        "clinical_context": {
+          "asa_class": 4,
+          "primary_indication": "Recurrent pleural effusions secondary to end-stage heart failure",
+          "indication_category": "Pleural Effusion - Therapeutic"
+        },
+        "providers": {
+          "attending_name": "Michael Santos",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902129"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) for heart failure-related recurrent effusion. Palliative indication in end-stage HFrEF patient."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for IPC insertion. Heart failure is an accepted indication for tunneled catheter when medical therapy is maximized."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 3,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Victoria Hughes",
+      "patient_age": 80,
+      "patient_mrn": "8578790",
+      "procedure_date": "2025-03-25",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: None\nMRN: 8578790\nDOB: 02/14/1945\nAge: 80\nDate: None\n\n[INDICATION]\nRecurrent pleural effusions from end-stage heart failure\n\n[ANESTHESIA]\nType: Local only\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Ipc: Performed\n  \u2022 action: Insertion\n  \u2022 side: Left\n  \u2022 catheter brand: PleurX\n  \u2022 indication: Heart failure\n  \u2022 tunneled: Yes\n\n[FINDINGS]\nAssessment: Non-malignant\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: Inpatient admission\n\n[CODING]\nCPT: 32550\n",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "8578790",
+        "procedure_date": "2025-03-25",
+        "patient_age": 80,
+        "gender": "Female",
+        "asa_class": 4,
+        "primary_indication": "Recurrent pleural effusions from end-stage heart failure",
+        "sedation_type": "Local only",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Non-malignant",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "DATE: 2025-01-19",
+          "primary_indication": "NYHA Class IV heart failure, EF 15%, recurrent bilateral effusions",
+          "anesthesia": "Local anesthesia only - patient unable to tolerate sedation"
+        },
+        "institution_name": "Johns Hopkins Hospital, Baltimore, MD",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient admission",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Left",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Clear yellow",
+        "pleural_volume_drained_ml": 800,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Left",
+            "catheter_brand": "PleurX",
+            "indication": "Heart failure",
+            "tunneled": true
+          }
+        },
+        "clinical_context": {
+          "asa_class": 4,
+          "primary_indication": "Recurrent pleural effusions secondary to end-stage heart failure",
+          "indication_category": "Pleural Effusion - Therapeutic"
+        },
+        "providers": {
+          "attending_name": "Michael Santos",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902129"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) for heart failure-related recurrent effusion. Palliative indication in end-stage HFrEF patient."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for IPC insertion. Heart failure is an accepted indication for tunneled catheter when medical therapy is maximized."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 3,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Jean Anderson",
+      "patient_age": 83,
+      "patient_mrn": "9199035",
+      "procedure_date": "2025-11-19",
+      "note_text": "On None, None, a 83-year-old female (MRN 9199035), underwent bronchoscopic evaluation for Recurrent pleural effusions from end-stage heart failure. The patient received Local only and the procedure was performed in standard fashion. The procedure included ipc. \n\nOn examination, the airways were systematically inspected. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is non-malignant. \n\nProcedural coding: 32550.",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "9199035",
+        "procedure_date": "2025-11-19",
+        "patient_age": 83,
+        "gender": "Female",
+        "asa_class": 4,
+        "primary_indication": "Recurrent pleural effusions from end-stage heart failure",
+        "sedation_type": "Local only",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Non-malignant",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "DATE: 2025-01-19",
+          "primary_indication": "NYHA Class IV heart failure, EF 15%, recurrent bilateral effusions",
+          "anesthesia": "Local anesthesia only - patient unable to tolerate sedation"
+        },
+        "institution_name": "Johns Hopkins Hospital, Baltimore, MD",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient admission",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Left",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Clear yellow",
+        "pleural_volume_drained_ml": 800,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Left",
+            "catheter_brand": "PleurX",
+            "indication": "Heart failure",
+            "tunneled": true
+          }
+        },
+        "clinical_context": {
+          "asa_class": 4,
+          "primary_indication": "Recurrent pleural effusions secondary to end-stage heart failure",
+          "indication_category": "Pleural Effusion - Therapeutic"
+        },
+        "providers": {
+          "attending_name": "Michael Santos",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902129"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) for heart failure-related recurrent effusion. Palliative indication in end-stage HFrEF patient."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for IPC insertion. Heart failure is an accepted indication for tunneled catheter when medical therapy is maximized."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 3,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Madison Ramos",
+      "patient_age": 80,
+      "patient_mrn": "7720166",
+      "procedure_date": "2024-06-30",
+      "note_text": "PROCEDURE NOTE - INTERVENTIONAL PULMONOLOGY\n\nDATE: 2025-01-19\nPATIENT: Dorothy Williams\nMRN: 7720166\nDOB: 02/14/1944\nAGE: 84 years old\nSEX: Female\n\nATTENDING: Dr. Michael Santos, MD\nLOCATION: Cardiac Pavilion, Johns Hopkins Hospital, Baltimore, MD\n\nPREOPERATIVE DIAGNOSIS:\n1. Recurrent bilateral pleural effusions\n2. New York Heart Association Class IV heart failure with reduced ejection fraction (EF 15%)\n3. Not candidate for mechanical circulatory support or transplant\n\nPOSTOPERATIVE DIAGNOSIS: Same\n\nPROCEDURE: Left-sided tunneled indwelling pleural catheter (PleurX) placement\n\nINDICATION: This 80-year-old female with end-stage heart failure has required hospitalization 6 times in the past 3 months for symptomatic bilateral pleural effusions despite maximum medical therapy. After multidisciplinary discussion including heart failure, palliative care, and IP, decision was made for left-sided IPC given larger effusion on left. Patient and family understand palliative intent.\n\nANESTHESIA: Local anesthesia only (2% lidocaine) - patient unable to tolerate any sedation given severity of cardiac dysfunction.\n\nPROCEDURE:\nPatient positioned semi-recumbent at 45 degrees (unable to lay flat due to orthopnea). Timeout completed. Ultrasound located large left pleural effusion. Skin marked at 6th intercostal space, anterior axillary line.\n\nSkin prepped with ChloraPrep. Local anesthesia infiltrated liberally along proposed tract. 3cm skin incision made. Tunneling device used to create 8cm subcutaneous tunnel anteriorly. PleurX 15.5Fr catheter threaded through tunnel.\n\nPleural space entered using Seldinger technique under ultrasound guidance. Catheter guided without difficulty. Initial drainage of 800mL clear yellow fluid - drainage stopped per institutional protocol for heart failure patients (max 500-1000mL to avoid re-expansion issues and volume shifts).\n\nCatheter secured with suture. Dry sterile dressing applied. Post-procedure portable CXR confirms good catheter position, no pneumothorax.\n\nFluid sent for: Cell count, chemistry, NT-proBNP\n\nESTIMATED BLOOD LOSS: Minimal\n\nCOMPLICATIONS: None. Patient tolerated procedure well with no hemodynamic changes.\n\nPLAN:\n1. Overnight telemetry monitoring\n2. Home health for IPC drainage teaching\n3. Drainage frequency to be determined based on symptoms - anticipate every 2-3 days\n4. Continue diuretics and guideline-directed medical therapy\n5. Follow-up with heart failure team and IP clinic\n\nDr. Michael Santos, MD\nInterventional Pulmonology",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "7720166",
+        "procedure_date": "2024-06-30",
+        "patient_age": 80,
+        "gender": "Female",
+        "asa_class": 4,
+        "primary_indication": "Recurrent pleural effusions from end-stage heart failure",
+        "sedation_type": "Local only",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Non-malignant",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "DATE: 2025-01-19",
+          "primary_indication": "NYHA Class IV heart failure, EF 15%, recurrent bilateral effusions",
+          "anesthesia": "Local anesthesia only - patient unable to tolerate sedation"
+        },
+        "institution_name": "Johns Hopkins Hospital, Baltimore, MD",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient admission",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Left",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Clear yellow",
+        "pleural_volume_drained_ml": 800,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Left",
+            "catheter_brand": "PleurX",
+            "indication": "Heart failure",
+            "tunneled": true
+          }
+        },
+        "clinical_context": {
+          "asa_class": 4,
+          "primary_indication": "Recurrent pleural effusions secondary to end-stage heart failure",
+          "indication_category": "Pleural Effusion - Therapeutic"
+        },
+        "providers": {
+          "attending_name": "Michael Santos",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902129"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) for heart failure-related recurrent effusion. Palliative indication in end-stage HFrEF patient."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for IPC insertion. Heart failure is an accepted indication for tunneled catheter when medical therapy is maximized."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    }
+  ]
+}

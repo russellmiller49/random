@@ -1,0 +1,2942 @@
+{
+  "base_note": {
+    "case_number": 7,
+    "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE NOTE\n\nPatient: Ashley Martin\nMRN: 5287814\nDOB: 06/10/1943 (82 years old)\nGender: Male\nDate of Service: 04/12/2025\nLocation: Academic Health System, Miami, FL\n\nCARE TEAM\nAttending Physician: Dr. Rachel Goldman\n\nAnesthesiologist: On service\nROSE Cytopathologist: Present\n\nCLINICAL INDICATION\nPeripheral nodule and bilateral hilar adenopathy\n\nPREOPERATIVE DIAGNOSIS\n1. Lung nodule/mass requiring tissue diagnosis\n2. Mediastinal lymphadenopathy requiring staging\n\nPOSTOPERATIVE DIAGNOSIS\nSame as preoperative, pending final pathology\n\nPROCEDURES PERFORMED\n1. Linear endobronchial ultrasound with transbronchial needle aspiration (EBUS-TBNA) for mediastinal staging\n2. Robotic-assisted bronchoscopy (Ion platform) with peripheral lung biopsy\n3. Radial EBUS for peripheral lesion localization\n4. Transbronchial lung biopsy\n\nANESTHESIA\nType: General anesthesia with endotracheal intubation\nASA Class: 2\n\nPROCEDURE START TIME: 08:15\nPROCEDURE END TIME: 10:09\nTOTAL PROCEDURE TIME: 114 minutes\n\nEQUIPMENT\n- Linear EBUS scope: Pentax EB-1990i\n- EBUS needle: Cook EchoTip ProCore (22G FNB/ProCore)\n- Robotic platform: Ion (Intuitive Surgical)\n- Radial EBUS probe: 20 MHz miniprobe\n\nPROCEDURE DETAILS\n\nPART 1: LINEAR EBUS FOR MEDIASTINAL STAGING\n\nThe patient was brought to the procedure suite and placed in supine position. After induction of general anesthesia and endotracheal intubation with an 8.0 mm ETT, the linear EBUS bronchoscope was advanced through the ETT.\n\nSystematic mediastinal lymph node sampling was performed at the following stations:\n\nStation 2L: Identified homogeneous lymph node measuring 14.8mm (short axis) x 28.3mm (long axis). 3 passes performed with 22G needle. ROSE: Atypical cells.\nStation 4L: Identified homogeneous lymph node measuring 24.3mm (short axis) x 25.6mm (long axis). 2 passes performed with 22G needle. ROSE: Malignant - squamous cell carcinoma.\nStation 10R: Identified hypoechoic lymph node measuring 12.9mm (short axis) x 30.7mm (long axis). 2 passes performed with 22G needle. ROSE: Malignant - NSCLC NOS.\nStation 10L: Identified hypoechoic lymph node measuring 18.8mm (short axis) x 34.6mm (long axis). 3 passes performed with 22G needle. ROSE: Suspicious for malignancy.\nStation 11L: Identified hypoechoic lymph node measuring 18.7mm (short axis) x 20.8mm (long axis). 2 passes performed with 22G needle. ROSE: Malignant - adenocarcinoma.\n\nPART 2: ROBOTIC BRONCHOSCOPY FOR PERIPHERAL LESION\n\nFollowing completion of mediastinal staging, the Ion robotic bronchoscopy system was deployed.\n\nTarget lesion: LUL apicoposterior (B1+2)\nLesion characteristics:\n- Size: 14.0 mm\n- Distance from pleura: 23.9 mm\n- CT appearance: Ground-glass\n- Bronchus sign: Negative\n- PET SUV max: 17.6\n\nNavigation was performed successfully with registration error < 3mm. The robotic catheter was advanced to the target location. Radial EBUS probe was deployed confirming concentric view of the lesion.\n\nTool-in-lesion confirmation: Fluoroscopy\n\nSampling performed:\n- Transbronchial forceps biopsies: 7 specimens\n- TBNA: 2 passes\n- Brushings: 2 specimens\n\nROSE result from peripheral lesion: Adequate lymphocytes, no malignancy\n\nSPECIMENS COLLECTED\n1. EBUS-TBNA specimens from stations 2L, 4L, 10R, 10L, 11L - sent for cytology, cell block, and flow cytometry\n2. Transbronchial biopsies from LUL - sent for surgical pathology\n3. Brushings from LUL - sent for cytology\n4. BAL from LUL - sent for cultures (bacterial, fungal, AFB)\n\nCOMPLICATIONS\nNone. No significant bleeding. No pneumothorax noted on post-procedure imaging.\n\nESTIMATED BLOOD LOSS\nMinimal (<10 mL)\n\nIMPRESSION\n1. Successful EBUS-TBNA mediastinal staging with sampling of 5 lymph node stations\n2. Successful robotic bronchoscopy with peripheral nodule biopsy\n3. ROSE adequate at all sampled sites\n4. Await final pathology and molecular testing if indicated\n\nPLAN\n1. Monitor in recovery for 2 hours\n2. Post-procedure chest X-ray - completed, no pneumothorax\n3. Discharge to home if stable with standard post-bronchoscopy precautions\n4. Results conference scheduled\n5. Final pathology will determine staging and treatment planning\n\nRachel Goldman\nInterventional Pulmonology\nAcademic Health System\n\nCPT CODES: 31653, 31627, 31654, 31628\n",
+    "cpt_codes": [
+      31653,
+      31627,
+      31654,
+      31628
+    ],
+    "registry_entry": {
+      "patient_mrn": "5287814",
+      "procedure_date": "2025-04-12",
+      "procedure_start_time": "08:15",
+      "procedure_end_time": "10:09",
+      "procedure_duration_minutes": 114,
+      "providers": {
+        "attending_name": "Rachel Goldman",
+        "attending_npi": null,
+        "fellow_name": null,
+        "fellow_pgy_level": null,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": false,
+        "rose_present": true
+      },
+      "patient_demographics": {
+        "age_years": 82,
+        "gender": "Male",
+        "smoking_status": "Current",
+        "pack_years": 34
+      },
+      "clinical_context": {
+        "asa_class": 2,
+        "primary_indication": "Peripheral nodule and bilateral hilar adenopathy",
+        "indication_category": "Lung Cancer Staging",
+        "lesion_size_mm": 14.0,
+        "lesion_location": "LUL apicoposterior (B1+2)",
+        "pet_avid": true,
+        "suv_max": 17.6,
+        "bronchus_sign": "Negative"
+      },
+      "procedures_performed": {
+        "linear_ebus": {
+          "performed": true,
+          "scope_model": "Pentax EB-1990i",
+          "needle_gauge": 22,
+          "needle_type": "FNB/ProCore",
+          "stations_sampled": [
+            "2L",
+            "4L",
+            "10R",
+            "10L",
+            "11L"
+          ],
+          "systematic_staging": true,
+          "rose_available": true,
+          "elastography_used": false
+        },
+        "navigational_bronchoscopy": {
+          "performed": true,
+          "platform": "Ion",
+          "platform_manufacturer": "Intuitive Surgical",
+          "registration_method": "CT-to-body",
+          "registration_error_mm": 1.5,
+          "sampling_tools_used": [
+            "Forceps",
+            "Needle"
+          ]
+        },
+        "radial_ebus": {
+          "performed": true,
+          "probe_position": "Concentric"
+        },
+        "transbronchial_biopsy": {
+          "performed": true,
+          "lobe": "LUL",
+          "number_of_samples": 7,
+          "forceps_type": "Standard"
+        },
+        "bal": {
+          "performed": true,
+          "location": "LUL"
+        },
+        "brushings": {
+          "performed": true,
+          "locations": [
+            "LUL"
+          ]
+        }
+      },
+      "sedation": {
+        "type": "General",
+        "airway": "ETT",
+        "airway_size": "8.0"
+      },
+      "outcomes": {
+        "procedure_completed": true,
+        "complications": [],
+        "bleeding_severity": "None/Scant",
+        "pneumothorax": false,
+        "disposition": "Outpatient discharge"
+      },
+      "granular_data": {
+        "linear_ebus_stations_detail": [
+          {
+            "station": "2L",
+            "short_axis_mm": 14.8,
+            "long_axis_mm": 28.3,
+            "shape": "round",
+            "echogenicity": "homogeneous",
+            "chs_present": true,
+            "sampled": true,
+            "needle_gauge": 22,
+            "needle_type": "Acquire",
+            "number_of_passes": 3,
+            "rose_performed": true,
+            "rose_result": "Atypical cells",
+            "rose_adequacy": true
+          },
+          {
+            "station": "4L",
+            "short_axis_mm": 24.3,
+            "long_axis_mm": 25.6,
+            "shape": "irregular",
+            "echogenicity": "homogeneous",
+            "chs_present": true,
+            "sampled": true,
+            "needle_gauge": 22,
+            "needle_type": "FNB/ProCore",
+            "number_of_passes": 2,
+            "rose_performed": true,
+            "rose_result": "Malignant - squamous cell carcinoma",
+            "rose_adequacy": true
+          },
+          {
+            "station": "10R",
+            "short_axis_mm": 12.9,
+            "long_axis_mm": 30.7,
+            "shape": "irregular",
+            "echogenicity": "heterogeneous",
+            "chs_present": true,
+            "sampled": true,
+            "needle_gauge": 22,
+            "needle_type": "FNB/ProCore",
+            "number_of_passes": 2,
+            "rose_performed": true,
+            "rose_result": "Malignant - NSCLC NOS",
+            "rose_adequacy": true
+          },
+          {
+            "station": "10L",
+            "short_axis_mm": 18.8,
+            "long_axis_mm": 34.6,
+            "shape": "irregular",
+            "echogenicity": "heterogeneous",
+            "chs_present": true,
+            "sampled": true,
+            "needle_gauge": 19,
+            "needle_type": "FNB/ProCore",
+            "number_of_passes": 3,
+            "rose_performed": true,
+            "rose_result": "Suspicious for malignancy",
+            "rose_adequacy": true
+          },
+          {
+            "station": "11L",
+            "short_axis_mm": 18.7,
+            "long_axis_mm": 20.8,
+            "shape": "round",
+            "echogenicity": "heterogeneous",
+            "chs_present": false,
+            "sampled": true,
+            "needle_gauge": 22,
+            "needle_type": "Standard FNA",
+            "number_of_passes": 2,
+            "rose_performed": true,
+            "rose_result": "Malignant - adenocarcinoma",
+            "rose_adequacy": true
+          }
+        ],
+        "navigation_targets": [
+          {
+            "target_number": 1,
+            "target_location_text": "LUL apicoposterior (B1+2)",
+            "target_lobe": "LUL",
+            "target_segment": "apicoposterior (B1+2)",
+            "lesion_size_mm": 14.0,
+            "distance_from_pleura_mm": 23.9,
+            "bronchus_sign": "Negative",
+            "ct_characteristics": "Ground-glass",
+            "pet_suv_max": 17.6,
+            "navigation_successful": true,
+            "rebus_used": true,
+            "rebus_view": "Concentric",
+            "tool_in_lesion_confirmed": true,
+            "confirmation_method": "Fluoroscopy",
+            "sampling_tools_used": [
+              "Forceps",
+              "Needle"
+            ],
+            "number_of_forceps_biopsies": 7,
+            "number_of_needle_passes": 2,
+            "rose_performed": true,
+            "rose_result": "Adequate lymphocytes, no malignancy",
+            "immediate_complication": "None"
+          }
+        ]
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.8",
+        "generated_at": "2025-12-08T19:14:04.518442",
+        "institution_name": "Academic Health System",
+        "institution_city": "Miami, FL"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "Synthetic_Generator",
+        "cpt_summary": {
+          "primary_code": "31653",
+          "final_codes": [
+            "31653",
+            "31627",
+            "31654",
+            "31628"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31653": "EBUS-TBNA of 5 mediastinal/hilar lymph node stations for staging",
+            "31627": "Computer-assisted image-guided navigation (robotic bronchoscopy)",
+            "31654": "Radial EBUS for peripheral lesion localization",
+            "31628": "Transbronchial lung biopsy of peripheral lesion"
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 18.41,
+          "facility_total_payment": 595,
+          "per_code": {
+            "31653": {
+              "facility_rvu": 7.7,
+              "facility_payment": 249,
+              "description": "EBUS-TBNA 3+ stations"
+            },
+            "31627": {
+              "facility_rvu": 3.07,
+              "facility_payment": 99,
+              "description": "Navigation add-on"
+            },
+            "31654": {
+              "facility_rvu": 2.11,
+              "facility_payment": 68,
+              "description": "Radial EBUS add-on"
+            },
+            "31628": {
+              "facility_rvu": 5.53,
+              "facility_payment": 179,
+              "description": "TBLB single lobe"
+            }
+          }
+        },
+        "overall_assessment": "Combined EBUS mediastinal staging (5 stations) with robotic bronchoscopy (Ion) for peripheral lesion sampling. All codes appropriately documented."
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31628",
+            "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+            "units": 1
+          },
+          {
+            "code": "31624",
+            "description": "Bronchoscopy; with bronchoalveolar lavage",
+            "units": 1
+          }
+        ],
+        "work_rvu": 6.18,
+        "practice_expense_rvu": 2.91,
+        "malpractice_rvu": 0.68,
+        "total_rvu": 9.77
+      }
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_case_number": 7,
+      "variation_number": 1,
+      "style": "terse_surgeon",
+      "note_text": "Pt: Kyle Powell | MRN: 3768071 | 77yo M\nDate: 09/18/2025\nAttending: Rachel Goldman\n\nDx: Lung Cancer Staging\nProc: EBUS-TBNA + Robotic Bronch (Ion)\n\n\u2022 GA/ETT\n\u2022 Linear EBUS: Pentax EB-1990i\n\u2022 Stations: 2L (3x), 4L (2x), 10R (2x), 10L (3x), 11L (2x)\n\u2022 Nav to LUL apicoposterior (B1+2)\n\u2022 rEBUS: Concentric view\n\u2022 TIL confirmed: Fluoroscopy\n\u2022 Bx x7, TBNA x2\n\u2022 ROSE+: Atypical cells\n\nComplications: None\nEBL: <10mL\nDispo: Home\n\nRachel Goldman MD",
+      "cpt_codes": [
+        31653,
+        31627,
+        31654,
+        31628
+      ],
+      "registry_entry": {
+        "patient_mrn": "3768071",
+        "procedure_date": "2025-09-18",
+        "procedure_start_time": "08:15",
+        "procedure_end_time": "10:09",
+        "procedure_duration_minutes": 114,
+        "providers": {
+          "attending_name": "Rachel Goldman",
+          "attending_npi": null,
+          "fellow_name": null,
+          "fellow_pgy_level": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": false,
+          "rose_present": true
+        },
+        "patient_demographics": {
+          "age_years": 77,
+          "gender": "Male",
+          "smoking_status": "Current",
+          "pack_years": 34
+        },
+        "clinical_context": {
+          "asa_class": 2,
+          "primary_indication": "Peripheral nodule and bilateral hilar adenopathy",
+          "indication_category": "Lung Cancer Staging",
+          "lesion_size_mm": 14.0,
+          "lesion_location": "LUL apicoposterior (B1+2)",
+          "pet_avid": true,
+          "suv_max": 17.6,
+          "bronchus_sign": "Negative"
+        },
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "scope_model": "Pentax EB-1990i",
+            "needle_gauge": 22,
+            "needle_type": "FNB/ProCore",
+            "stations_sampled": [
+              "2L",
+              "4L",
+              "10R",
+              "10L",
+              "11L"
+            ],
+            "systematic_staging": true,
+            "rose_available": true,
+            "elastography_used": false
+          },
+          "navigational_bronchoscopy": {
+            "performed": true,
+            "platform": "Ion",
+            "platform_manufacturer": "Intuitive Surgical",
+            "registration_method": "CT-to-body",
+            "registration_error_mm": 1.5,
+            "sampling_tools_used": [
+              "Forceps",
+              "Needle"
+            ]
+          },
+          "radial_ebus": {
+            "performed": true,
+            "probe_position": "Concentric"
+          },
+          "transbronchial_biopsy": {
+            "performed": true,
+            "lobe": "LUL",
+            "number_of_samples": 7,
+            "forceps_type": "Standard"
+          },
+          "bal": {
+            "performed": true,
+            "location": "LUL"
+          },
+          "brushings": {
+            "performed": true,
+            "locations": [
+              "LUL"
+            ]
+          }
+        },
+        "sedation": {
+          "type": "General",
+          "airway": "ETT",
+          "airway_size": "8.0"
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "complications": [],
+          "bleeding_severity": "None/Scant",
+          "pneumothorax": false,
+          "disposition": "Outpatient discharge"
+        },
+        "granular_data": {
+          "linear_ebus_stations_detail": [
+            {
+              "station": "2L",
+              "short_axis_mm": 14.8,
+              "long_axis_mm": 28.3,
+              "shape": "round",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "Acquire",
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Atypical cells",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4L",
+              "short_axis_mm": 24.3,
+              "long_axis_mm": 25.6,
+              "shape": "irregular",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - squamous cell carcinoma",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10R",
+              "short_axis_mm": 12.9,
+              "long_axis_mm": 30.7,
+              "shape": "irregular",
+              "echogenicity": "heterogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - NSCLC NOS",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10L",
+              "short_axis_mm": 18.8,
+              "long_axis_mm": 34.6,
+              "shape": "irregular",
+              "echogenicity": "heterogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 19,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Suspicious for malignancy",
+              "rose_adequacy": true
+            },
+            {
+              "station": "11L",
+              "short_axis_mm": 18.7,
+              "long_axis_mm": 20.8,
+              "shape": "round",
+              "echogenicity": "heterogeneous",
+              "chs_present": false,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "Standard FNA",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - adenocarcinoma",
+              "rose_adequacy": true
+            }
+          ],
+          "navigation_targets": [
+            {
+              "target_number": 1,
+              "target_location_text": "LUL apicoposterior (B1+2)",
+              "target_lobe": "LUL",
+              "target_segment": "apicoposterior (B1+2)",
+              "lesion_size_mm": 14.0,
+              "distance_from_pleura_mm": 23.9,
+              "bronchus_sign": "Negative",
+              "ct_characteristics": "Ground-glass",
+              "pet_suv_max": 17.6,
+              "navigation_successful": true,
+              "rebus_used": true,
+              "rebus_view": "Concentric",
+              "tool_in_lesion_confirmed": true,
+              "confirmation_method": "Fluoroscopy",
+              "sampling_tools_used": [
+                "Forceps",
+                "Needle"
+              ],
+              "number_of_forceps_biopsies": 7,
+              "number_of_needle_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes, no malignancy",
+              "immediate_complication": "None"
+            }
+          ]
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8",
+          "generated_at": "2025-12-08T19:14:04.518442",
+          "institution_name": "Academic Health System",
+          "institution_city": "Miami, FL"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "Synthetic_Generator",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653",
+              "31627",
+              "31654",
+              "31628"
+            ],
+            "modifiers": [],
+            "code_rationales": {
+              "31653": "EBUS-TBNA of 5 mediastinal/hilar lymph node stations for staging",
+              "31627": "Computer-assisted image-guided navigation (robotic bronchoscopy)",
+              "31654": "Radial EBUS for peripheral lesion localization",
+              "31628": "Transbronchial lung biopsy of peripheral lesion"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 18.41,
+            "facility_total_payment": 595,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249,
+                "description": "EBUS-TBNA 3+ stations"
+              },
+              "31627": {
+                "facility_rvu": 3.07,
+                "facility_payment": 99,
+                "description": "Navigation add-on"
+              },
+              "31654": {
+                "facility_rvu": 2.11,
+                "facility_payment": 68,
+                "description": "Radial EBUS add-on"
+              },
+              "31628": {
+                "facility_rvu": 5.53,
+                "facility_payment": 179,
+                "description": "TBLB single lobe"
+              }
+            }
+          },
+          "overall_assessment": "Combined EBUS mediastinal staging (5 stations) with robotic bronchoscopy (Ion) for peripheral lesion sampling. All codes appropriately documented."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_case_number": 7,
+      "variation_number": 2,
+      "style": "academic_attending",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n\nPatient Identification: Rebecca Stewart\nMedical Record Number: 1825180\nDate of Birth: 10/19/1945 (Age: 79 years)\nBiological Sex: Male\nDate of Procedure: 08/31/2024\nInstitution: Academic Health System, Miami, FL\n\nCLINICAL PRESENTATION AND PROCEDURAL INDICATION\n\nThis 79-year-old male patient with a pertinent oncologic history presented for comprehensive bronchoscopic evaluation. The primary indication for this procedure encompassed peripheral nodule and bilateral hilar adenopathy. Preprocedural imaging demonstrated a 14.0 mm ground-glass pulmonary parenchymal lesion localized to the LUL apicoposterior (B1+2), with negative bronchus sign on computed tomographic assessment. Positron emission tomography demonstrated metabolic hyperactivity with standardized uptake value maximum of 17.6.\n\nANESTHETIC CONSIDERATIONS\n\nThe patient was classified as American Society of Anesthesiologists physical status 2. General endotracheal anesthesia was administered, with successful orotracheal intubation utilizing a 8.0 mm endotracheal tube.\n\nPROCEDURAL TECHNIQUE\n\nCOMPONENT I: ENDOBRONCHIAL ULTRASOUND-GUIDED TRANSBRONCHIAL NEEDLE ASPIRATION\n\nThe convex-probe endobronchial ultrasound bronchoscope (Pentax EB-1990i) was advanced through the endotracheal tube into the tracheobronchial tree. Systematic mediastinal and hilar lymph node evaluation was performed according to established staging protocols.\n\nStation 2L demonstrated a homogeneous lymph node measuring 14.8 mm in short axis diameter. Transbronchial needle aspiration was performed utilizing 3 passes with a 22-gauge FNB/ProCore needle. Rapid on-site cytological evaluation revealed atypical cells. Station 4L demonstrated a homogeneous lymph node measuring 24.3 mm in short axis diameter. Transbronchial needle aspiration was performed utilizing 2 passes with a 22-gauge FNB/ProCore needle. Rapid on-site cytological evaluation revealed malignant - squamous cell carcinoma. Station 10R demonstrated a heterogeneous lymph node measuring 12.9 mm in short axis diameter. Transbronchial needle aspiration was performed utilizing 2 passes with a 22-gauge FNB/ProCore needle. Rapid on-site cytological evaluation revealed malignant - nsclc nos. Station 10L demonstrated a heterogeneous lymph node measuring 18.8 mm in short axis diameter. Transbronchial needle aspiration was performed utilizing 3 passes with a 22-gauge FNB/ProCore needle. Rapid on-site cytological evaluation revealed suspicious for malignancy. Station 11L demonstrated a heterogeneous lymph node measuring 18.7 mm in short axis diameter. Transbronchial needle aspiration was performed utilizing 2 passes with a 22-gauge FNB/ProCore needle. Rapid on-site cytological evaluation revealed malignant - adenocarcinoma.\n\nCOMPONENT II: ROBOTIC-ASSISTED BRONCHOSCOPIC NAVIGATION\n\nFollowing completion of mediastinal staging, the Ion robotic bronchoscopy platform (Intuitive Surgical) was deployed. Electromagnetic navigation registration achieved acceptable accuracy with registration error of 1.5 mm. The robotic catheter was successfully advanced to the target lesion in the LUL apicoposterior (B1+2).\n\nRadial endobronchial ultrasonography demonstrated concentric visualization of the target lesion. Tool-in-lesion confirmation was achieved via fluoroscopy.\n\nTissue acquisition was performed utilizing multiple modalities: transbronchial forceps biopsy (7 specimens), transbronchial needle aspiration (2 passes), and bronchial brushings (2 specimens). Bronchoalveolar lavage was obtained for microbiological analysis.\n\nRAPID ON-SITE CYTOLOGICAL EVALUATION\n\nOn-site cytopathological assessment of the peripheral lesion specimens revealed adequate lymphocytes, no malignancy.\n\nPROCEDURAL OUTCOMES AND COMPLICATIONS\n\nThe procedure was completed without complication. Hemostasis was achieved spontaneously with minimal blood loss (<10 mL). Post-procedural chest radiography demonstrated no evidence of pneumothorax or other acute pulmonary parenchymal abnormality.\n\nIMPRESSION AND RECOMMENDATIONS\n\n1. Successful endobronchial ultrasound-guided mediastinal staging with sampling of 5 lymph node stations\n2. Successful robotic-assisted bronchoscopic biopsy of LUL pulmonary lesion\n3. Cytological evaluation suggestive of atypical cells\n4. Recommend correlation with final surgical pathology and consideration of molecular profiling if malignancy confirmed\n\nTotal Procedure Duration: 114 minutes\n\nElectronically Signed,\nRachel Goldman, MD\nDivision of Interventional Pulmonology\nAcademic Health System",
+      "cpt_codes": [
+        31653,
+        31627,
+        31654,
+        31628
+      ],
+      "registry_entry": {
+        "patient_mrn": "1825180",
+        "procedure_date": "2024-08-31",
+        "procedure_start_time": "08:15",
+        "procedure_end_time": "10:09",
+        "procedure_duration_minutes": 114,
+        "providers": {
+          "attending_name": "Rachel Goldman",
+          "attending_npi": null,
+          "fellow_name": null,
+          "fellow_pgy_level": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": false,
+          "rose_present": true
+        },
+        "patient_demographics": {
+          "age_years": 79,
+          "gender": "Male",
+          "smoking_status": "Current",
+          "pack_years": 34
+        },
+        "clinical_context": {
+          "asa_class": 2,
+          "primary_indication": "Peripheral nodule and bilateral hilar adenopathy",
+          "indication_category": "Lung Cancer Staging",
+          "lesion_size_mm": 14.0,
+          "lesion_location": "LUL apicoposterior (B1+2)",
+          "pet_avid": true,
+          "suv_max": 17.6,
+          "bronchus_sign": "Negative"
+        },
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "scope_model": "Pentax EB-1990i",
+            "needle_gauge": 22,
+            "needle_type": "FNB/ProCore",
+            "stations_sampled": [
+              "2L",
+              "4L",
+              "10R",
+              "10L",
+              "11L"
+            ],
+            "systematic_staging": true,
+            "rose_available": true,
+            "elastography_used": false
+          },
+          "navigational_bronchoscopy": {
+            "performed": true,
+            "platform": "Ion",
+            "platform_manufacturer": "Intuitive Surgical",
+            "registration_method": "CT-to-body",
+            "registration_error_mm": 1.5,
+            "sampling_tools_used": [
+              "Forceps",
+              "Needle"
+            ]
+          },
+          "radial_ebus": {
+            "performed": true,
+            "probe_position": "Concentric"
+          },
+          "transbronchial_biopsy": {
+            "performed": true,
+            "lobe": "LUL",
+            "number_of_samples": 7,
+            "forceps_type": "Standard"
+          },
+          "bal": {
+            "performed": true,
+            "location": "LUL"
+          },
+          "brushings": {
+            "performed": true,
+            "locations": [
+              "LUL"
+            ]
+          }
+        },
+        "sedation": {
+          "type": "General",
+          "airway": "ETT",
+          "airway_size": "8.0"
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "complications": [],
+          "bleeding_severity": "None/Scant",
+          "pneumothorax": false,
+          "disposition": "Outpatient discharge"
+        },
+        "granular_data": {
+          "linear_ebus_stations_detail": [
+            {
+              "station": "2L",
+              "short_axis_mm": 14.8,
+              "long_axis_mm": 28.3,
+              "shape": "round",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "Acquire",
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Atypical cells",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4L",
+              "short_axis_mm": 24.3,
+              "long_axis_mm": 25.6,
+              "shape": "irregular",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - squamous cell carcinoma",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10R",
+              "short_axis_mm": 12.9,
+              "long_axis_mm": 30.7,
+              "shape": "irregular",
+              "echogenicity": "heterogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - NSCLC NOS",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10L",
+              "short_axis_mm": 18.8,
+              "long_axis_mm": 34.6,
+              "shape": "irregular",
+              "echogenicity": "heterogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 19,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Suspicious for malignancy",
+              "rose_adequacy": true
+            },
+            {
+              "station": "11L",
+              "short_axis_mm": 18.7,
+              "long_axis_mm": 20.8,
+              "shape": "round",
+              "echogenicity": "heterogeneous",
+              "chs_present": false,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "Standard FNA",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - adenocarcinoma",
+              "rose_adequacy": true
+            }
+          ],
+          "navigation_targets": [
+            {
+              "target_number": 1,
+              "target_location_text": "LUL apicoposterior (B1+2)",
+              "target_lobe": "LUL",
+              "target_segment": "apicoposterior (B1+2)",
+              "lesion_size_mm": 14.0,
+              "distance_from_pleura_mm": 23.9,
+              "bronchus_sign": "Negative",
+              "ct_characteristics": "Ground-glass",
+              "pet_suv_max": 17.6,
+              "navigation_successful": true,
+              "rebus_used": true,
+              "rebus_view": "Concentric",
+              "tool_in_lesion_confirmed": true,
+              "confirmation_method": "Fluoroscopy",
+              "sampling_tools_used": [
+                "Forceps",
+                "Needle"
+              ],
+              "number_of_forceps_biopsies": 7,
+              "number_of_needle_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes, no malignancy",
+              "immediate_complication": "None"
+            }
+          ]
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8",
+          "generated_at": "2025-12-08T19:14:04.518442",
+          "institution_name": "Academic Health System",
+          "institution_city": "Miami, FL"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "Synthetic_Generator",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653",
+              "31627",
+              "31654",
+              "31628"
+            ],
+            "modifiers": [],
+            "code_rationales": {
+              "31653": "EBUS-TBNA of 5 mediastinal/hilar lymph node stations for staging",
+              "31627": "Computer-assisted image-guided navigation (robotic bronchoscopy)",
+              "31654": "Radial EBUS for peripheral lesion localization",
+              "31628": "Transbronchial lung biopsy of peripheral lesion"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 18.41,
+            "facility_total_payment": 595,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249,
+                "description": "EBUS-TBNA 3+ stations"
+              },
+              "31627": {
+                "facility_rvu": 3.07,
+                "facility_payment": 99,
+                "description": "Navigation add-on"
+              },
+              "31654": {
+                "facility_rvu": 2.11,
+                "facility_payment": 68,
+                "description": "Radial EBUS add-on"
+              },
+              "31628": {
+                "facility_rvu": 5.53,
+                "facility_payment": 179,
+                "description": "TBLB single lobe"
+              }
+            }
+          },
+          "overall_assessment": "Combined EBUS mediastinal staging (5 stations) with robotic bronchoscopy (Ion) for peripheral lesion sampling. All codes appropriately documented."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_case_number": 7,
+      "variation_number": 3,
+      "style": "billing_coder",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n\nPatient: Stephen James | MRN: 5664513 | DOB: 01/10/1945\nDate of Service: 08/17/2025\nPerforming Physician: Rachel Goldman, MD\nFacility: Academic Health System\n\nPROCEDURES PERFORMED WITH CPT CODE JUSTIFICATION:\n\n1. ENDOBRONCHIAL ULTRASOUND-GUIDED TRANSBRONCHIAL NEEDLE ASPIRATION (CPT 31653)\n   - Equipment: Pentax EB-1990i linear EBUS bronchoscope\n   - Needle: 22-gauge FNB/ProCore (Acquire)\n   - STATIONS SAMPLED: 5 DISTINCT MEDIASTINAL/HILAR LYMPH NODE STATIONS\n     * Station 2L: 3 passes, short axis 14.8mm\n     * Station 4L: 2 passes, short axis 24.3mm\n     * Station 10R: 2 passes, short axis 12.9mm\n     * Station 10L: 3 passes, short axis 18.8mm\n     * Station 11L: 2 passes, short axis 18.7mm\n   - ROSE performed at each station: YES\n   - Code justification: \u22653 mediastinal/hilar lymph node stations sampled under real-time ultrasound guidance\n\n2. COMPUTER-ASSISTED IMAGE-GUIDED NAVIGATION (CPT +31627)\n   - Platform: Ion Robotic Bronchoscopy System (Intuitive Surgical)\n   - Registration method: CT-to-body\n   - Registration accuracy: 1.5 mm\n   - Navigation to peripheral lesion: LUL apicoposterior (B1+2)\n   - Code justification: Computer-assisted electromagnetic navigation used to guide bronchoscope to peripheral lung lesion beyond direct visualization\n\n3. ENDOBRONCHIAL ULTRASOUND FOR PERIPHERAL LESION (CPT +31654)\n   - Equipment: 20 MHz radial EBUS miniprobe\n   - Probe visualization: Concentric view of 14.0mm lesion\n   - Used to confirm catheter position relative to peripheral target\n   - Code justification: Radial EBUS performed to localize peripheral pulmonary lesion during bronchoscopic intervention\n\n4. TRANSBRONCHIAL LUNG BIOPSY, SINGLE LOBE (CPT 31628)\n   - Location: LUL lobe\n   - Forceps biopsies obtained: 7 specimens\n   - Additional TBNA: 2 passes\n   - Brushings: 2 specimens\n   - Tool-in-lesion confirmed via: Fluoroscopy\n   - Code justification: Multiple transbronchial biopsies obtained from single lobe for tissue diagnosis\n\nSPECIMEN DOCUMENTATION:\n- EBUS-TBNA specimens: Cytology, cell block, flow cytometry\n- Transbronchial biopsies: Surgical pathology, molecular testing\n- Brushings: Cytology\n- BAL: Bacterial, fungal, AFB cultures\n\nPROCEDURE TIME: 08:15 - 10:09 (114 minutes)\nANESTHESIA: General anesthesia (ASA 2)\nCOMPLICATIONS: None\n\nCPT CODES SUBMITTED: 31653, 31627, 31654, 31628\nTOTAL FACILITY RVU: 18.41\nESTIMATED FACILITY PAYMENT: $595\n\nAttestation: I personally performed all documented procedures. Documentation supports medical necessity and code selection.\n\nRachel Goldman, MD\n08/17/2025",
+      "cpt_codes": [
+        31653,
+        31627,
+        31654,
+        31628
+      ],
+      "registry_entry": {
+        "patient_mrn": "5664513",
+        "procedure_date": "2025-08-17",
+        "procedure_start_time": "08:15",
+        "procedure_end_time": "10:09",
+        "procedure_duration_minutes": 114,
+        "providers": {
+          "attending_name": "Rachel Goldman",
+          "attending_npi": null,
+          "fellow_name": null,
+          "fellow_pgy_level": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": false,
+          "rose_present": true
+        },
+        "patient_demographics": {
+          "age_years": 80,
+          "gender": "Male",
+          "smoking_status": "Current",
+          "pack_years": 34
+        },
+        "clinical_context": {
+          "asa_class": 2,
+          "primary_indication": "Peripheral nodule and bilateral hilar adenopathy",
+          "indication_category": "Lung Cancer Staging",
+          "lesion_size_mm": 14.0,
+          "lesion_location": "LUL apicoposterior (B1+2)",
+          "pet_avid": true,
+          "suv_max": 17.6,
+          "bronchus_sign": "Negative"
+        },
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "scope_model": "Pentax EB-1990i",
+            "needle_gauge": 22,
+            "needle_type": "FNB/ProCore",
+            "stations_sampled": [
+              "2L",
+              "4L",
+              "10R",
+              "10L",
+              "11L"
+            ],
+            "systematic_staging": true,
+            "rose_available": true,
+            "elastography_used": false
+          },
+          "navigational_bronchoscopy": {
+            "performed": true,
+            "platform": "Ion",
+            "platform_manufacturer": "Intuitive Surgical",
+            "registration_method": "CT-to-body",
+            "registration_error_mm": 1.5,
+            "sampling_tools_used": [
+              "Forceps",
+              "Needle"
+            ]
+          },
+          "radial_ebus": {
+            "performed": true,
+            "probe_position": "Concentric"
+          },
+          "transbronchial_biopsy": {
+            "performed": true,
+            "lobe": "LUL",
+            "number_of_samples": 7,
+            "forceps_type": "Standard"
+          },
+          "bal": {
+            "performed": true,
+            "location": "LUL"
+          },
+          "brushings": {
+            "performed": true,
+            "locations": [
+              "LUL"
+            ]
+          }
+        },
+        "sedation": {
+          "type": "General",
+          "airway": "ETT",
+          "airway_size": "8.0"
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "complications": [],
+          "bleeding_severity": "None/Scant",
+          "pneumothorax": false,
+          "disposition": "Outpatient discharge"
+        },
+        "granular_data": {
+          "linear_ebus_stations_detail": [
+            {
+              "station": "2L",
+              "short_axis_mm": 14.8,
+              "long_axis_mm": 28.3,
+              "shape": "round",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "Acquire",
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Atypical cells",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4L",
+              "short_axis_mm": 24.3,
+              "long_axis_mm": 25.6,
+              "shape": "irregular",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - squamous cell carcinoma",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10R",
+              "short_axis_mm": 12.9,
+              "long_axis_mm": 30.7,
+              "shape": "irregular",
+              "echogenicity": "heterogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - NSCLC NOS",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10L",
+              "short_axis_mm": 18.8,
+              "long_axis_mm": 34.6,
+              "shape": "irregular",
+              "echogenicity": "heterogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 19,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Suspicious for malignancy",
+              "rose_adequacy": true
+            },
+            {
+              "station": "11L",
+              "short_axis_mm": 18.7,
+              "long_axis_mm": 20.8,
+              "shape": "round",
+              "echogenicity": "heterogeneous",
+              "chs_present": false,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "Standard FNA",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - adenocarcinoma",
+              "rose_adequacy": true
+            }
+          ],
+          "navigation_targets": [
+            {
+              "target_number": 1,
+              "target_location_text": "LUL apicoposterior (B1+2)",
+              "target_lobe": "LUL",
+              "target_segment": "apicoposterior (B1+2)",
+              "lesion_size_mm": 14.0,
+              "distance_from_pleura_mm": 23.9,
+              "bronchus_sign": "Negative",
+              "ct_characteristics": "Ground-glass",
+              "pet_suv_max": 17.6,
+              "navigation_successful": true,
+              "rebus_used": true,
+              "rebus_view": "Concentric",
+              "tool_in_lesion_confirmed": true,
+              "confirmation_method": "Fluoroscopy",
+              "sampling_tools_used": [
+                "Forceps",
+                "Needle"
+              ],
+              "number_of_forceps_biopsies": 7,
+              "number_of_needle_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes, no malignancy",
+              "immediate_complication": "None"
+            }
+          ]
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8",
+          "generated_at": "2025-12-08T19:14:04.518442",
+          "institution_name": "Academic Health System",
+          "institution_city": "Miami, FL"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "Synthetic_Generator",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653",
+              "31627",
+              "31654",
+              "31628"
+            ],
+            "modifiers": [],
+            "code_rationales": {
+              "31653": "EBUS-TBNA of 5 mediastinal/hilar lymph node stations for staging",
+              "31627": "Computer-assisted image-guided navigation (robotic bronchoscopy)",
+              "31654": "Radial EBUS for peripheral lesion localization",
+              "31628": "Transbronchial lung biopsy of peripheral lesion"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 18.41,
+            "facility_total_payment": 595,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249,
+                "description": "EBUS-TBNA 3+ stations"
+              },
+              "31627": {
+                "facility_rvu": 3.07,
+                "facility_payment": 99,
+                "description": "Navigation add-on"
+              },
+              "31654": {
+                "facility_rvu": 2.11,
+                "facility_payment": 68,
+                "description": "Radial EBUS add-on"
+              },
+              "31628": {
+                "facility_rvu": 5.53,
+                "facility_payment": 179,
+                "description": "TBLB single lobe"
+              }
+            }
+          },
+          "overall_assessment": "Combined EBUS mediastinal staging (5 stations) with robotic bronchoscopy (Ion) for peripheral lesion sampling. All codes appropriately documented."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_case_number": 7,
+      "variation_number": 4,
+      "style": "trainee_resident",
+      "note_text": "BRONCHOSCOPY PROCEDURE NOTE\n\nPatient Name: Dorothy Hill\nMRN: 7100991\nDate: 06/12/2024\nAttending: Rachel Goldman, MD\nFellow: N/A\nLocation: Academic Health System\n\nPATIENT IDENTIFICATION:\nAge: 85 years\nSex: Male\nASA Class: 2\n\nPRE-PROCEDURE:\n1. Patient identity confirmed with two identifiers\n2. Informed consent verified on chart\n3. NPO status confirmed (>8 hours)\n4. Anticoagulation status reviewed - not on anticoagulation\n5. Allergies reviewed - NKDA\n6. Time-out performed with all team members\n\nINDICATION:\nPeripheral nodule and bilateral hilar adenopathy\nTarget lesion: 14.0mm ground-glass nodule, LUL apicoposterior (B1+2)\nBronchus sign: Negative\n\nANESTHESIA:\nType: General anesthesia\nAirway: 8.0mm ETT, oral\nInduction: Standard IV induction by anesthesia team\n\nEQUIPMENT USED:\n- Linear EBUS scope: Pentax EB-1990i\n- EBUS needle: 22G FNB/ProCore\n- Robotic platform: Ion (Intuitive Surgical)\n- Radial EBUS: 20 MHz miniprobe\n- Biopsy forceps: Standard\n- Cytology brushes: Standard\n\nPROCEDURE STEPS:\n\nPART A - LINEAR EBUS FOR STAGING:\n1. Bronchoscope inserted through ETT\n2. Standard airway inspection performed - airways patent, no endobronchial lesions\n3. Linear EBUS scope exchanged\n4. Systematic lymph node survey performed\n5. Following stations identified and sampled:\n   - Station 2L: 14.8mm, 3 passes\n   - Station 4L: 24.3mm, 2 passes\n   - Station 10R: 12.9mm, 2 passes\n   - Station 10L: 18.8mm, 3 passes\n6. ROSE performed - cytopathologist present\n7. ROSE results: Atypical cells\n\nPART B - ROBOTIC NAVIGATION:\n1. Ion system prepared and registered\n2. Registration error: 1.5mm (acceptable)\n3. Robotic catheter advanced to LUL apicoposterior (B1+2)\n4. Radial EBUS deployed - Concentric view obtained\n5. Tool-in-lesion confirmed with Fluoroscopy\n6. Sampling performed:\n   - Forceps biopsies: 7\n   - TBNA passes: 2\n   - Brushings: 2\n7. ROSE performed - Adequate lymphocytes, no malignancy\n8. BAL obtained from LUL\n\nPOST-PROCEDURE:\n1. Airways inspected - no active bleeding\n2. Bronchoscope removed\n3. Patient extubated without difficulty\n4. Post-procedure CXR ordered - no pneumothorax\n5. Patient to recovery area\n\nSPECIMENS SENT:\n1. EBUS-TBNA (stations 2L, 4L, 10R, 10L, 11L) \u2192 Cytology, cell block\n2. TBBx LUL \u2192 Surgical pathology\n3. Brushings \u2192 Cytology\n4. BAL \u2192 Cultures (bacterial, fungal, AFB)\n\nCOMPLICATIONS: None\nESTIMATED BLOOD LOSS: <10 mL\n\nIMPRESSION:\n1. Completed EBUS-TBNA mediastinal staging\n2. Completed robotic bronchoscopy with peripheral lung biopsy\n3. No immediate complications\n\nPLAN:\n1. Monitor in recovery x 2 hours\n2. Discharge home if stable\n3. Follow-up in clinic for pathology results\n4. Results to be discussed at tumor board\n\nProcedure performed under direct supervision of Rachel Goldman, MD\n\nFellow, PGY-None\nRachel Goldman, MD (Attending - present for entire procedure)",
+      "cpt_codes": [
+        31653,
+        31627,
+        31654,
+        31628
+      ],
+      "registry_entry": {
+        "patient_mrn": "7100991",
+        "procedure_date": "2024-06-12",
+        "procedure_start_time": "08:15",
+        "procedure_end_time": "10:09",
+        "procedure_duration_minutes": 114,
+        "providers": {
+          "attending_name": "Rachel Goldman",
+          "attending_npi": null,
+          "fellow_name": null,
+          "fellow_pgy_level": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": false,
+          "rose_present": true
+        },
+        "patient_demographics": {
+          "age_years": 85,
+          "gender": "Male",
+          "smoking_status": "Current",
+          "pack_years": 34
+        },
+        "clinical_context": {
+          "asa_class": 2,
+          "primary_indication": "Peripheral nodule and bilateral hilar adenopathy",
+          "indication_category": "Lung Cancer Staging",
+          "lesion_size_mm": 14.0,
+          "lesion_location": "LUL apicoposterior (B1+2)",
+          "pet_avid": true,
+          "suv_max": 17.6,
+          "bronchus_sign": "Negative"
+        },
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "scope_model": "Pentax EB-1990i",
+            "needle_gauge": 22,
+            "needle_type": "FNB/ProCore",
+            "stations_sampled": [
+              "2L",
+              "4L",
+              "10R",
+              "10L",
+              "11L"
+            ],
+            "systematic_staging": true,
+            "rose_available": true,
+            "elastography_used": false
+          },
+          "navigational_bronchoscopy": {
+            "performed": true,
+            "platform": "Ion",
+            "platform_manufacturer": "Intuitive Surgical",
+            "registration_method": "CT-to-body",
+            "registration_error_mm": 1.5,
+            "sampling_tools_used": [
+              "Forceps",
+              "Needle"
+            ]
+          },
+          "radial_ebus": {
+            "performed": true,
+            "probe_position": "Concentric"
+          },
+          "transbronchial_biopsy": {
+            "performed": true,
+            "lobe": "LUL",
+            "number_of_samples": 7,
+            "forceps_type": "Standard"
+          },
+          "bal": {
+            "performed": true,
+            "location": "LUL"
+          },
+          "brushings": {
+            "performed": true,
+            "locations": [
+              "LUL"
+            ]
+          }
+        },
+        "sedation": {
+          "type": "General",
+          "airway": "ETT",
+          "airway_size": "8.0"
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "complications": [],
+          "bleeding_severity": "None/Scant",
+          "pneumothorax": false,
+          "disposition": "Outpatient discharge"
+        },
+        "granular_data": {
+          "linear_ebus_stations_detail": [
+            {
+              "station": "2L",
+              "short_axis_mm": 14.8,
+              "long_axis_mm": 28.3,
+              "shape": "round",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "Acquire",
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Atypical cells",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4L",
+              "short_axis_mm": 24.3,
+              "long_axis_mm": 25.6,
+              "shape": "irregular",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - squamous cell carcinoma",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10R",
+              "short_axis_mm": 12.9,
+              "long_axis_mm": 30.7,
+              "shape": "irregular",
+              "echogenicity": "heterogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - NSCLC NOS",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10L",
+              "short_axis_mm": 18.8,
+              "long_axis_mm": 34.6,
+              "shape": "irregular",
+              "echogenicity": "heterogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 19,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Suspicious for malignancy",
+              "rose_adequacy": true
+            },
+            {
+              "station": "11L",
+              "short_axis_mm": 18.7,
+              "long_axis_mm": 20.8,
+              "shape": "round",
+              "echogenicity": "heterogeneous",
+              "chs_present": false,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "Standard FNA",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - adenocarcinoma",
+              "rose_adequacy": true
+            }
+          ],
+          "navigation_targets": [
+            {
+              "target_number": 1,
+              "target_location_text": "LUL apicoposterior (B1+2)",
+              "target_lobe": "LUL",
+              "target_segment": "apicoposterior (B1+2)",
+              "lesion_size_mm": 14.0,
+              "distance_from_pleura_mm": 23.9,
+              "bronchus_sign": "Negative",
+              "ct_characteristics": "Ground-glass",
+              "pet_suv_max": 17.6,
+              "navigation_successful": true,
+              "rebus_used": true,
+              "rebus_view": "Concentric",
+              "tool_in_lesion_confirmed": true,
+              "confirmation_method": "Fluoroscopy",
+              "sampling_tools_used": [
+                "Forceps",
+                "Needle"
+              ],
+              "number_of_forceps_biopsies": 7,
+              "number_of_needle_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes, no malignancy",
+              "immediate_complication": "None"
+            }
+          ]
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8",
+          "generated_at": "2025-12-08T19:14:04.518442",
+          "institution_name": "Academic Health System",
+          "institution_city": "Miami, FL"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "Synthetic_Generator",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653",
+              "31627",
+              "31654",
+              "31628"
+            ],
+            "modifiers": [],
+            "code_rationales": {
+              "31653": "EBUS-TBNA of 5 mediastinal/hilar lymph node stations for staging",
+              "31627": "Computer-assisted image-guided navigation (robotic bronchoscopy)",
+              "31654": "Radial EBUS for peripheral lesion localization",
+              "31628": "Transbronchial lung biopsy of peripheral lesion"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 18.41,
+            "facility_total_payment": 595,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249,
+                "description": "EBUS-TBNA 3+ stations"
+              },
+              "31627": {
+                "facility_rvu": 3.07,
+                "facility_payment": 99,
+                "description": "Navigation add-on"
+              },
+              "31654": {
+                "facility_rvu": 2.11,
+                "facility_payment": 68,
+                "description": "Radial EBUS add-on"
+              },
+              "31628": {
+                "facility_rvu": 5.53,
+                "facility_payment": 179,
+                "description": "TBLB single lobe"
+              }
+            }
+          },
+          "overall_assessment": "Combined EBUS mediastinal staging (5 stations) with robotic bronchoscopy (Ion) for peripheral lesion sampling. All codes appropriately documented."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_case_number": 7,
+      "variation_number": 5,
+      "style": "sloppy_dictation",
+      "note_text": "bronchoscopy note - 09/19/2025\n\npt Kathleen Rogers mrn 8900444 is a 85yo male here for bronch w EBUS staging and robotic biopsy of a 14.0mm LUL nodule that was ground-glass on CT, bronchus sign was negative, PET showed SUV 17.6.\n\nunder general we did linear EBUS first using the Pentax EB-1990i scope with 22g needle and sampled stations 2L x3, 4L x2, 10R x2, 10L x3, 11L x2, ROSE was there and showed Atypical cells at multiple stations.\n\nthen switched to Ion robot and navigated to the LUL apicoposterior (B1+2) lesion, registration was 1.5mm which is fine, got radial EBUS showing concentric view and did tool in lesion confirmation with fluoroscopy. took 7 forceps bx, 2 needle passes, brushings x2, BAL sent for cultures.\n\nROSE from the nodule was Adequate lymphocytes, no malignancy.\n\nno bleeding no ptx   patient did well\n\nspecimens to path for cyto, surgical path, cell block, flow, molecular if needed\n\nd/c home after recovery with standard precautions, f/u 1-2wks for path\n\nRachel Goldman md\nip attending",
+      "cpt_codes": [
+        31653,
+        31627,
+        31654,
+        31628
+      ],
+      "registry_entry": {
+        "patient_mrn": "8900444",
+        "procedure_date": "2025-09-19",
+        "procedure_start_time": "08:15",
+        "procedure_end_time": "10:09",
+        "procedure_duration_minutes": 114,
+        "providers": {
+          "attending_name": "Rachel Goldman",
+          "attending_npi": null,
+          "fellow_name": null,
+          "fellow_pgy_level": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": false,
+          "rose_present": true
+        },
+        "patient_demographics": {
+          "age_years": 85,
+          "gender": "Male",
+          "smoking_status": "Current",
+          "pack_years": 34
+        },
+        "clinical_context": {
+          "asa_class": 2,
+          "primary_indication": "Peripheral nodule and bilateral hilar adenopathy",
+          "indication_category": "Lung Cancer Staging",
+          "lesion_size_mm": 14.0,
+          "lesion_location": "LUL apicoposterior (B1+2)",
+          "pet_avid": true,
+          "suv_max": 17.6,
+          "bronchus_sign": "Negative"
+        },
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "scope_model": "Pentax EB-1990i",
+            "needle_gauge": 22,
+            "needle_type": "FNB/ProCore",
+            "stations_sampled": [
+              "2L",
+              "4L",
+              "10R",
+              "10L",
+              "11L"
+            ],
+            "systematic_staging": true,
+            "rose_available": true,
+            "elastography_used": false
+          },
+          "navigational_bronchoscopy": {
+            "performed": true,
+            "platform": "Ion",
+            "platform_manufacturer": "Intuitive Surgical",
+            "registration_method": "CT-to-body",
+            "registration_error_mm": 1.5,
+            "sampling_tools_used": [
+              "Forceps",
+              "Needle"
+            ]
+          },
+          "radial_ebus": {
+            "performed": true,
+            "probe_position": "Concentric"
+          },
+          "transbronchial_biopsy": {
+            "performed": true,
+            "lobe": "LUL",
+            "number_of_samples": 7,
+            "forceps_type": "Standard"
+          },
+          "bal": {
+            "performed": true,
+            "location": "LUL"
+          },
+          "brushings": {
+            "performed": true,
+            "locations": [
+              "LUL"
+            ]
+          }
+        },
+        "sedation": {
+          "type": "General",
+          "airway": "ETT",
+          "airway_size": "8.0"
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "complications": [],
+          "bleeding_severity": "None/Scant",
+          "pneumothorax": false,
+          "disposition": "Outpatient discharge"
+        },
+        "granular_data": {
+          "linear_ebus_stations_detail": [
+            {
+              "station": "2L",
+              "short_axis_mm": 14.8,
+              "long_axis_mm": 28.3,
+              "shape": "round",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "Acquire",
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Atypical cells",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4L",
+              "short_axis_mm": 24.3,
+              "long_axis_mm": 25.6,
+              "shape": "irregular",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - squamous cell carcinoma",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10R",
+              "short_axis_mm": 12.9,
+              "long_axis_mm": 30.7,
+              "shape": "irregular",
+              "echogenicity": "heterogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - NSCLC NOS",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10L",
+              "short_axis_mm": 18.8,
+              "long_axis_mm": 34.6,
+              "shape": "irregular",
+              "echogenicity": "heterogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 19,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Suspicious for malignancy",
+              "rose_adequacy": true
+            },
+            {
+              "station": "11L",
+              "short_axis_mm": 18.7,
+              "long_axis_mm": 20.8,
+              "shape": "round",
+              "echogenicity": "heterogeneous",
+              "chs_present": false,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "Standard FNA",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - adenocarcinoma",
+              "rose_adequacy": true
+            }
+          ],
+          "navigation_targets": [
+            {
+              "target_number": 1,
+              "target_location_text": "LUL apicoposterior (B1+2)",
+              "target_lobe": "LUL",
+              "target_segment": "apicoposterior (B1+2)",
+              "lesion_size_mm": 14.0,
+              "distance_from_pleura_mm": 23.9,
+              "bronchus_sign": "Negative",
+              "ct_characteristics": "Ground-glass",
+              "pet_suv_max": 17.6,
+              "navigation_successful": true,
+              "rebus_used": true,
+              "rebus_view": "Concentric",
+              "tool_in_lesion_confirmed": true,
+              "confirmation_method": "Fluoroscopy",
+              "sampling_tools_used": [
+                "Forceps",
+                "Needle"
+              ],
+              "number_of_forceps_biopsies": 7,
+              "number_of_needle_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes, no malignancy",
+              "immediate_complication": "None"
+            }
+          ]
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8",
+          "generated_at": "2025-12-08T19:14:04.518442",
+          "institution_name": "Academic Health System",
+          "institution_city": "Miami, FL"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "Synthetic_Generator",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653",
+              "31627",
+              "31654",
+              "31628"
+            ],
+            "modifiers": [],
+            "code_rationales": {
+              "31653": "EBUS-TBNA of 5 mediastinal/hilar lymph node stations for staging",
+              "31627": "Computer-assisted image-guided navigation (robotic bronchoscopy)",
+              "31654": "Radial EBUS for peripheral lesion localization",
+              "31628": "Transbronchial lung biopsy of peripheral lesion"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 18.41,
+            "facility_total_payment": 595,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249,
+                "description": "EBUS-TBNA 3+ stations"
+              },
+              "31627": {
+                "facility_rvu": 3.07,
+                "facility_payment": 99,
+                "description": "Navigation add-on"
+              },
+              "31654": {
+                "facility_rvu": 2.11,
+                "facility_payment": 68,
+                "description": "Radial EBUS add-on"
+              },
+              "31628": {
+                "facility_rvu": 5.53,
+                "facility_payment": 179,
+                "description": "TBLB single lobe"
+              }
+            }
+          },
+          "overall_assessment": "Combined EBUS mediastinal staging (5 stations) with robotic bronchoscopy (Ion) for peripheral lesion sampling. All codes appropriately documented."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_case_number": 7,
+      "variation_number": 6,
+      "style": "headerless",
+      "note_text": "Ronald Bell, MRN 4830228, a 82-year-old male underwent combined endobronchial ultrasound-guided transbronchial needle aspiration for mediastinal staging and robotic bronchoscopy with peripheral lung biopsy at Academic Health System on 05/22/2024. The indication was peripheral nodule and bilateral hilar adenopathy with a 14.0mm ground-glass lesion in the LUL apicoposterior (B1+2), bronchus sign negative, PET SUV max 17.6. The patient was ASA class 2 with smoking history of 34 pack-years (current). General anesthesia was induced and the patient was intubated with a 8.0mm endotracheal tube.\n\nLinear EBUS was performed using the Pentax EB-1990i bronchoscope with 22-gauge FNB/ProCore needle. The following mediastinal and hilar lymph node stations were systematically sampled: station 2L (14.8mm, 3 passes, ROSE: Atypical cells); station 4L (24.3mm, 2 passes, ROSE: Malignant - squamous cell carcinoma); station 10R (12.9mm, 2 passes, ROSE: Malignant - NSCLC NOS); station 10L (18.8mm, 3 passes, ROSE: Suspicious for malignancy); station 11L (18.7mm, 2 passes, ROSE: Malignant - adenocarcinoma). Rapid on-site evaluation was available for all stations.\n\nThe Ion robotic bronchoscopy system (Intuitive Surgical) was then utilized for navigation to the peripheral target. CT-to-body registration was performed with registration error of 1.5mm. The robotic catheter was advanced to the LUL apicoposterior (B1+2) and radial EBUS probe deployment revealed concentric view of the lesion. Tool-in-lesion was confirmed by fluoroscopy. Transbronchial forceps biopsies (7 specimens), transbronchial needle aspiration (2 passes), and brushings (2) were obtained. Bronchoalveolar lavage was collected for microbiological studies. ROSE evaluation of the peripheral specimens showed adequate lymphocytes, no malignancy.\n\nThe procedure was completed without complications. Estimated blood loss was less than 10mL. Post-procedure chest radiograph showed no pneumothorax. The patient was discharged home in stable condition with follow-up scheduled for pathology review. Specimens were sent for cytology, cell block, surgical pathology, and cultures.\n\nProcedure time: 114 minutes. Attending physician: Rachel Goldman, MD.",
+      "cpt_codes": [
+        31653,
+        31627,
+        31654,
+        31628
+      ],
+      "registry_entry": {
+        "patient_mrn": "4830228",
+        "procedure_date": "2024-05-22",
+        "procedure_start_time": "08:15",
+        "procedure_end_time": "10:09",
+        "procedure_duration_minutes": 114,
+        "providers": {
+          "attending_name": "Rachel Goldman",
+          "attending_npi": null,
+          "fellow_name": null,
+          "fellow_pgy_level": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": false,
+          "rose_present": true
+        },
+        "patient_demographics": {
+          "age_years": 82,
+          "gender": "Male",
+          "smoking_status": "Current",
+          "pack_years": 34
+        },
+        "clinical_context": {
+          "asa_class": 2,
+          "primary_indication": "Peripheral nodule and bilateral hilar adenopathy",
+          "indication_category": "Lung Cancer Staging",
+          "lesion_size_mm": 14.0,
+          "lesion_location": "LUL apicoposterior (B1+2)",
+          "pet_avid": true,
+          "suv_max": 17.6,
+          "bronchus_sign": "Negative"
+        },
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "scope_model": "Pentax EB-1990i",
+            "needle_gauge": 22,
+            "needle_type": "FNB/ProCore",
+            "stations_sampled": [
+              "2L",
+              "4L",
+              "10R",
+              "10L",
+              "11L"
+            ],
+            "systematic_staging": true,
+            "rose_available": true,
+            "elastography_used": false
+          },
+          "navigational_bronchoscopy": {
+            "performed": true,
+            "platform": "Ion",
+            "platform_manufacturer": "Intuitive Surgical",
+            "registration_method": "CT-to-body",
+            "registration_error_mm": 1.5,
+            "sampling_tools_used": [
+              "Forceps",
+              "Needle"
+            ]
+          },
+          "radial_ebus": {
+            "performed": true,
+            "probe_position": "Concentric"
+          },
+          "transbronchial_biopsy": {
+            "performed": true,
+            "lobe": "LUL",
+            "number_of_samples": 7,
+            "forceps_type": "Standard"
+          },
+          "bal": {
+            "performed": true,
+            "location": "LUL"
+          },
+          "brushings": {
+            "performed": true,
+            "locations": [
+              "LUL"
+            ]
+          }
+        },
+        "sedation": {
+          "type": "General",
+          "airway": "ETT",
+          "airway_size": "8.0"
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "complications": [],
+          "bleeding_severity": "None/Scant",
+          "pneumothorax": false,
+          "disposition": "Outpatient discharge"
+        },
+        "granular_data": {
+          "linear_ebus_stations_detail": [
+            {
+              "station": "2L",
+              "short_axis_mm": 14.8,
+              "long_axis_mm": 28.3,
+              "shape": "round",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "Acquire",
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Atypical cells",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4L",
+              "short_axis_mm": 24.3,
+              "long_axis_mm": 25.6,
+              "shape": "irregular",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - squamous cell carcinoma",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10R",
+              "short_axis_mm": 12.9,
+              "long_axis_mm": 30.7,
+              "shape": "irregular",
+              "echogenicity": "heterogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - NSCLC NOS",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10L",
+              "short_axis_mm": 18.8,
+              "long_axis_mm": 34.6,
+              "shape": "irregular",
+              "echogenicity": "heterogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 19,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Suspicious for malignancy",
+              "rose_adequacy": true
+            },
+            {
+              "station": "11L",
+              "short_axis_mm": 18.7,
+              "long_axis_mm": 20.8,
+              "shape": "round",
+              "echogenicity": "heterogeneous",
+              "chs_present": false,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "Standard FNA",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - adenocarcinoma",
+              "rose_adequacy": true
+            }
+          ],
+          "navigation_targets": [
+            {
+              "target_number": 1,
+              "target_location_text": "LUL apicoposterior (B1+2)",
+              "target_lobe": "LUL",
+              "target_segment": "apicoposterior (B1+2)",
+              "lesion_size_mm": 14.0,
+              "distance_from_pleura_mm": 23.9,
+              "bronchus_sign": "Negative",
+              "ct_characteristics": "Ground-glass",
+              "pet_suv_max": 17.6,
+              "navigation_successful": true,
+              "rebus_used": true,
+              "rebus_view": "Concentric",
+              "tool_in_lesion_confirmed": true,
+              "confirmation_method": "Fluoroscopy",
+              "sampling_tools_used": [
+                "Forceps",
+                "Needle"
+              ],
+              "number_of_forceps_biopsies": 7,
+              "number_of_needle_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes, no malignancy",
+              "immediate_complication": "None"
+            }
+          ]
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8",
+          "generated_at": "2025-12-08T19:14:04.518442",
+          "institution_name": "Academic Health System",
+          "institution_city": "Miami, FL"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "Synthetic_Generator",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653",
+              "31627",
+              "31654",
+              "31628"
+            ],
+            "modifiers": [],
+            "code_rationales": {
+              "31653": "EBUS-TBNA of 5 mediastinal/hilar lymph node stations for staging",
+              "31627": "Computer-assisted image-guided navigation (robotic bronchoscopy)",
+              "31654": "Radial EBUS for peripheral lesion localization",
+              "31628": "Transbronchial lung biopsy of peripheral lesion"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 18.41,
+            "facility_total_payment": 595,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249,
+                "description": "EBUS-TBNA 3+ stations"
+              },
+              "31627": {
+                "facility_rvu": 3.07,
+                "facility_payment": 99,
+                "description": "Navigation add-on"
+              },
+              "31654": {
+                "facility_rvu": 2.11,
+                "facility_payment": 68,
+                "description": "Radial EBUS add-on"
+              },
+              "31628": {
+                "facility_rvu": 5.53,
+                "facility_payment": 179,
+                "description": "TBLB single lobe"
+              }
+            }
+          },
+          "overall_assessment": "Combined EBUS mediastinal staging (5 stations) with robotic bronchoscopy (Ion) for peripheral lesion sampling. All codes appropriately documented."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_case_number": 7,
+      "variation_number": 7,
+      "style": "templated",
+      "note_text": "===============================================\nBRONCHOSCOPY PROCEDURE REPORT\n===============================================\nPatient: Carolyn Walker\nMRN: 4978533\nDOB: 04/10/1940\nDate: 04/03/2025\nPhysician: Rachel Goldman, MD\n===============================================\n\n[INDICATION]\nPrimary: Peripheral nodule and bilateral hilar adenopathy\nCategory: Lung Cancer Staging\nTarget: 14.0mm Ground-glass lesion, LUL apicoposterior (B1+2)\nBronchus Sign: Negative\nPET SUV: 17.6\n\n[ANESTHESIA]\nType: General endotracheal anesthesia\nASA Class: 2\nAirway: 8.0mm ETT\nDuration: 114 minutes\n\n[DESCRIPTION]\nProcedure 1: Linear EBUS-TBNA\n- Scope: Pentax EB-1990i\n- Needle: 22G FNB/ProCore\n- Stations sampled: 2L, 4L, 10R, 10L, 11L\n- Number of stations: 5 (\u22653)\n- ROSE available: Yes\n- ROSE result: Atypical cells\n\nProcedure 2: Robotic Bronchoscopy\n- Platform: Ion (Intuitive Surgical)\n- Registration: CT-to-body, error 1.5mm\n- Target: LUL apicoposterior (B1+2)\n\nProcedure 3: Radial EBUS\n- View: Concentric\n- Confirmation: Fluoroscopy\n\nProcedure 4: Transbronchial Biopsy\n- Forceps biopsies: 7\n- TBNA passes: 2\n- Brushings: 2\n- ROSE result: Adequate lymphocytes, no malignancy\n\nSpecimens: Cytology, cell block, surgical pathology, BAL cultures\nComplications: None\nEBL: <10mL\n\n[PLAN]\n1. Post-procedure monitoring x2 hours\n2. Chest X-ray - completed, no pneumothorax\n3. Discharge to home if stable\n4. Follow-up: 1-2 weeks for pathology\n5. Tumor board review pending final results\n6. Molecular testing if malignancy confirmed\n\n===============================================\nElectronically signed: Rachel Goldman, MD\nDate: 04/03/2025\n===============================================",
+      "cpt_codes": [
+        31653,
+        31627,
+        31654,
+        31628
+      ],
+      "registry_entry": {
+        "patient_mrn": "4978533",
+        "procedure_date": "2025-04-03",
+        "procedure_start_time": "08:15",
+        "procedure_end_time": "10:09",
+        "procedure_duration_minutes": 114,
+        "providers": {
+          "attending_name": "Rachel Goldman",
+          "attending_npi": null,
+          "fellow_name": null,
+          "fellow_pgy_level": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": false,
+          "rose_present": true
+        },
+        "patient_demographics": {
+          "age_years": 85,
+          "gender": "Male",
+          "smoking_status": "Current",
+          "pack_years": 34
+        },
+        "clinical_context": {
+          "asa_class": 2,
+          "primary_indication": "Peripheral nodule and bilateral hilar adenopathy",
+          "indication_category": "Lung Cancer Staging",
+          "lesion_size_mm": 14.0,
+          "lesion_location": "LUL apicoposterior (B1+2)",
+          "pet_avid": true,
+          "suv_max": 17.6,
+          "bronchus_sign": "Negative"
+        },
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "scope_model": "Pentax EB-1990i",
+            "needle_gauge": 22,
+            "needle_type": "FNB/ProCore",
+            "stations_sampled": [
+              "2L",
+              "4L",
+              "10R",
+              "10L",
+              "11L"
+            ],
+            "systematic_staging": true,
+            "rose_available": true,
+            "elastography_used": false
+          },
+          "navigational_bronchoscopy": {
+            "performed": true,
+            "platform": "Ion",
+            "platform_manufacturer": "Intuitive Surgical",
+            "registration_method": "CT-to-body",
+            "registration_error_mm": 1.5,
+            "sampling_tools_used": [
+              "Forceps",
+              "Needle"
+            ]
+          },
+          "radial_ebus": {
+            "performed": true,
+            "probe_position": "Concentric"
+          },
+          "transbronchial_biopsy": {
+            "performed": true,
+            "lobe": "LUL",
+            "number_of_samples": 7,
+            "forceps_type": "Standard"
+          },
+          "bal": {
+            "performed": true,
+            "location": "LUL"
+          },
+          "brushings": {
+            "performed": true,
+            "locations": [
+              "LUL"
+            ]
+          }
+        },
+        "sedation": {
+          "type": "General",
+          "airway": "ETT",
+          "airway_size": "8.0"
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "complications": [],
+          "bleeding_severity": "None/Scant",
+          "pneumothorax": false,
+          "disposition": "Outpatient discharge"
+        },
+        "granular_data": {
+          "linear_ebus_stations_detail": [
+            {
+              "station": "2L",
+              "short_axis_mm": 14.8,
+              "long_axis_mm": 28.3,
+              "shape": "round",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "Acquire",
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Atypical cells",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4L",
+              "short_axis_mm": 24.3,
+              "long_axis_mm": 25.6,
+              "shape": "irregular",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - squamous cell carcinoma",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10R",
+              "short_axis_mm": 12.9,
+              "long_axis_mm": 30.7,
+              "shape": "irregular",
+              "echogenicity": "heterogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - NSCLC NOS",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10L",
+              "short_axis_mm": 18.8,
+              "long_axis_mm": 34.6,
+              "shape": "irregular",
+              "echogenicity": "heterogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 19,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Suspicious for malignancy",
+              "rose_adequacy": true
+            },
+            {
+              "station": "11L",
+              "short_axis_mm": 18.7,
+              "long_axis_mm": 20.8,
+              "shape": "round",
+              "echogenicity": "heterogeneous",
+              "chs_present": false,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "Standard FNA",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - adenocarcinoma",
+              "rose_adequacy": true
+            }
+          ],
+          "navigation_targets": [
+            {
+              "target_number": 1,
+              "target_location_text": "LUL apicoposterior (B1+2)",
+              "target_lobe": "LUL",
+              "target_segment": "apicoposterior (B1+2)",
+              "lesion_size_mm": 14.0,
+              "distance_from_pleura_mm": 23.9,
+              "bronchus_sign": "Negative",
+              "ct_characteristics": "Ground-glass",
+              "pet_suv_max": 17.6,
+              "navigation_successful": true,
+              "rebus_used": true,
+              "rebus_view": "Concentric",
+              "tool_in_lesion_confirmed": true,
+              "confirmation_method": "Fluoroscopy",
+              "sampling_tools_used": [
+                "Forceps",
+                "Needle"
+              ],
+              "number_of_forceps_biopsies": 7,
+              "number_of_needle_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes, no malignancy",
+              "immediate_complication": "None"
+            }
+          ]
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8",
+          "generated_at": "2025-12-08T19:14:04.518442",
+          "institution_name": "Academic Health System",
+          "institution_city": "Miami, FL"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "Synthetic_Generator",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653",
+              "31627",
+              "31654",
+              "31628"
+            ],
+            "modifiers": [],
+            "code_rationales": {
+              "31653": "EBUS-TBNA of 5 mediastinal/hilar lymph node stations for staging",
+              "31627": "Computer-assisted image-guided navigation (robotic bronchoscopy)",
+              "31654": "Radial EBUS for peripheral lesion localization",
+              "31628": "Transbronchial lung biopsy of peripheral lesion"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 18.41,
+            "facility_total_payment": 595,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249,
+                "description": "EBUS-TBNA 3+ stations"
+              },
+              "31627": {
+                "facility_rvu": 3.07,
+                "facility_payment": 99,
+                "description": "Navigation add-on"
+              },
+              "31654": {
+                "facility_rvu": 2.11,
+                "facility_payment": 68,
+                "description": "Radial EBUS add-on"
+              },
+              "31628": {
+                "facility_rvu": 5.53,
+                "facility_payment": 179,
+                "description": "TBLB single lobe"
+              }
+            }
+          },
+          "overall_assessment": "Combined EBUS mediastinal staging (5 stations) with robotic bronchoscopy (Ion) for peripheral lesion sampling. All codes appropriately documented."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_case_number": 7,
+      "variation_number": 8,
+      "style": "narrative_flow",
+      "note_text": "BRONCHOSCOPY PROCEDURE NARRATIVE\n\nOn 07/01/2025, Julie Mitchell, a 82-year-old male patient, presented to Academic Health System in Miami, FL for a combined bronchoscopic procedure consisting of endobronchial ultrasound-guided mediastinal staging and robotic bronchoscopy with peripheral lung biopsy. The procedure was performed by Rachel Goldman, MD.\n\nThe clinical indication for this procedure was peripheral nodule and bilateral hilar adenopathy. Preprocedural imaging had demonstrated a 14.0 millimeter ground-glass pulmonary nodule located in the LUL lobe, specifically within the apicoposterior (B1+2) segment. The lesion exhibited a negative bronchus sign on computed tomography. Positron emission tomography scanning revealed hypermetabolic activity with a maximum standardized uptake value of 17.6. Given the combination of peripheral nodule requiring tissue diagnosis and mediastinal lymphadenopathy necessitating staging, a combined approach was deemed appropriate.\n\nThe patient's medical history included a significant smoking history of 34 pack-years as a current smoker. The American Society of Anesthesiologists physical status classification was 2.\n\nFollowing the administration of general anesthesia by the anesthesiology team, the patient was intubated with a 8.0 millimeter endotracheal tube. The procedure commenced at 08:15.\n\nThe first component of the procedure involved systematic mediastinal lymph node evaluation using linear endobronchial ultrasound. The Pentax EB-1990i bronchoscope was advanced through the endotracheal tube, and a thorough airway inspection was performed, revealing no endobronchial abnormalities. Mediastinal and hilar lymph node stations were then surveyed systematically.\n\nAt station 2L, a homogeneous lymph node was identified measuring 14.8 millimeters in short axis and 28.3 millimeters in long axis. The node appeared round in shape. Using the 22-gauge needle, 3 aspiration passes were performed. The on-site cytopathologist evaluated the specimen and reported atypical cells. At station 4L, a homogeneous lymph node was identified measuring 24.3 millimeters in short axis and 25.6 millimeters in long axis. The node appeared irregular in shape. Using the 22-gauge needle, 2 aspiration passes were performed. The on-site cytopathologist evaluated the specimen and reported malignant - squamous cell carcinoma. At station 10R, a heterogeneous lymph node was identified measuring 12.9 millimeters in short axis and 30.7 millimeters in long axis. The node appeared irregular in shape. Using the 22-gauge needle, 2 aspiration passes were performed. The on-site cytopathologist evaluated the specimen and reported malignant - nsclc nos. At station 10L, a heterogeneous lymph node was identified measuring 18.8 millimeters in short axis and 34.6 millimeters in long axis. The node appeared irregular in shape. Using the 22-gauge needle, 3 aspiration passes were performed. The on-site cytopathologist evaluated the specimen and reported suspicious for malignancy. At station 11L, a heterogeneous lymph node was identified measuring 18.7 millimeters in short axis and 20.8 millimeters in long axis. The node appeared round in shape. Using the 22-gauge needle, 2 aspiration passes were performed. The on-site cytopathologist evaluated the specimen and reported malignant - adenocarcinoma.\n\nFollowing completion of the mediastinal staging component, the procedure transitioned to robotic bronchoscopy for peripheral lesion sampling. The Ion robotic bronchoscopy system, manufactured by Intuitive Surgical, was prepared and registered using CT-to-body methodology. The registration achieved an accuracy of 1.5 millimeters, which was within acceptable parameters for proceeding with navigation.\n\nThe robotic catheter was advanced through the bronchial tree toward the target lesion in the LUL apicoposterior (B1+2). Navigation was successful, and the catheter reached the planned trajectory endpoint. A twenty-megahertz radial endobronchial ultrasound probe was then deployed through the working channel, revealing a concentric view of the target lesion. This confirmed appropriate positioning relative to the lesion. Additional confirmation of tool-in-lesion was obtained using fluoroscopy.\n\nTissue sampling was then performed using multiple modalities to maximize diagnostic yield. Transbronchial forceps biopsies were obtained, totaling 7 specimens. Transbronchial needle aspiration was performed with 2 passes through the lesion. Two bronchial brushing specimens were also collected. The on-site cytopathologist evaluated the peripheral specimens and reported adequate lymphocytes, no malignancy. Finally, bronchoalveolar lavage was performed from the LUL lobe and sent for microbiological analysis including bacterial, fungal, and acid-fast bacilli cultures.\n\nThe procedure was completed at 10:09, for a total procedure time of 114 minutes. No complications were encountered during the procedure. There was no significant bleeding, and hemostasis was achieved spontaneously. The estimated blood loss was less than ten milliliters. A post-procedure chest radiograph was obtained and demonstrated no evidence of pneumothorax or other acute abnormality.\n\nThe patient was transferred to the recovery area in stable condition. After an uneventful observation period, the patient was discharged home with standard post-bronchoscopy precautions. Follow-up was arranged for review of final pathology results.\n\nIn summary, this was a successful combined procedure achieving both mediastinal staging and peripheral lesion tissue diagnosis. The final pathology results will guide subsequent oncologic management and will be reviewed at multidisciplinary tumor board.\n\nRachel Goldman, MD\nInterventional Pulmonology",
+      "cpt_codes": [
+        31653,
+        31627,
+        31654,
+        31628
+      ],
+      "registry_entry": {
+        "patient_mrn": "2453744",
+        "procedure_date": "2025-07-01",
+        "procedure_start_time": "08:15",
+        "procedure_end_time": "10:09",
+        "procedure_duration_minutes": 114,
+        "providers": {
+          "attending_name": "Rachel Goldman",
+          "attending_npi": null,
+          "fellow_name": null,
+          "fellow_pgy_level": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": false,
+          "rose_present": true
+        },
+        "patient_demographics": {
+          "age_years": 82,
+          "gender": "Male",
+          "smoking_status": "Current",
+          "pack_years": 34
+        },
+        "clinical_context": {
+          "asa_class": 2,
+          "primary_indication": "Peripheral nodule and bilateral hilar adenopathy",
+          "indication_category": "Lung Cancer Staging",
+          "lesion_size_mm": 14.0,
+          "lesion_location": "LUL apicoposterior (B1+2)",
+          "pet_avid": true,
+          "suv_max": 17.6,
+          "bronchus_sign": "Negative"
+        },
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "scope_model": "Pentax EB-1990i",
+            "needle_gauge": 22,
+            "needle_type": "FNB/ProCore",
+            "stations_sampled": [
+              "2L",
+              "4L",
+              "10R",
+              "10L",
+              "11L"
+            ],
+            "systematic_staging": true,
+            "rose_available": true,
+            "elastography_used": false
+          },
+          "navigational_bronchoscopy": {
+            "performed": true,
+            "platform": "Ion",
+            "platform_manufacturer": "Intuitive Surgical",
+            "registration_method": "CT-to-body",
+            "registration_error_mm": 1.5,
+            "sampling_tools_used": [
+              "Forceps",
+              "Needle"
+            ]
+          },
+          "radial_ebus": {
+            "performed": true,
+            "probe_position": "Concentric"
+          },
+          "transbronchial_biopsy": {
+            "performed": true,
+            "lobe": "LUL",
+            "number_of_samples": 7,
+            "forceps_type": "Standard"
+          },
+          "bal": {
+            "performed": true,
+            "location": "LUL"
+          },
+          "brushings": {
+            "performed": true,
+            "locations": [
+              "LUL"
+            ]
+          }
+        },
+        "sedation": {
+          "type": "General",
+          "airway": "ETT",
+          "airway_size": "8.0"
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "complications": [],
+          "bleeding_severity": "None/Scant",
+          "pneumothorax": false,
+          "disposition": "Outpatient discharge"
+        },
+        "granular_data": {
+          "linear_ebus_stations_detail": [
+            {
+              "station": "2L",
+              "short_axis_mm": 14.8,
+              "long_axis_mm": 28.3,
+              "shape": "round",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "Acquire",
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Atypical cells",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4L",
+              "short_axis_mm": 24.3,
+              "long_axis_mm": 25.6,
+              "shape": "irregular",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - squamous cell carcinoma",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10R",
+              "short_axis_mm": 12.9,
+              "long_axis_mm": 30.7,
+              "shape": "irregular",
+              "echogenicity": "heterogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - NSCLC NOS",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10L",
+              "short_axis_mm": 18.8,
+              "long_axis_mm": 34.6,
+              "shape": "irregular",
+              "echogenicity": "heterogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 19,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Suspicious for malignancy",
+              "rose_adequacy": true
+            },
+            {
+              "station": "11L",
+              "short_axis_mm": 18.7,
+              "long_axis_mm": 20.8,
+              "shape": "round",
+              "echogenicity": "heterogeneous",
+              "chs_present": false,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "Standard FNA",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - adenocarcinoma",
+              "rose_adequacy": true
+            }
+          ],
+          "navigation_targets": [
+            {
+              "target_number": 1,
+              "target_location_text": "LUL apicoposterior (B1+2)",
+              "target_lobe": "LUL",
+              "target_segment": "apicoposterior (B1+2)",
+              "lesion_size_mm": 14.0,
+              "distance_from_pleura_mm": 23.9,
+              "bronchus_sign": "Negative",
+              "ct_characteristics": "Ground-glass",
+              "pet_suv_max": 17.6,
+              "navigation_successful": true,
+              "rebus_used": true,
+              "rebus_view": "Concentric",
+              "tool_in_lesion_confirmed": true,
+              "confirmation_method": "Fluoroscopy",
+              "sampling_tools_used": [
+                "Forceps",
+                "Needle"
+              ],
+              "number_of_forceps_biopsies": 7,
+              "number_of_needle_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes, no malignancy",
+              "immediate_complication": "None"
+            }
+          ]
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8",
+          "generated_at": "2025-12-08T19:14:04.518442",
+          "institution_name": "Academic Health System",
+          "institution_city": "Miami, FL"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "Synthetic_Generator",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653",
+              "31627",
+              "31654",
+              "31628"
+            ],
+            "modifiers": [],
+            "code_rationales": {
+              "31653": "EBUS-TBNA of 5 mediastinal/hilar lymph node stations for staging",
+              "31627": "Computer-assisted image-guided navigation (robotic bronchoscopy)",
+              "31654": "Radial EBUS for peripheral lesion localization",
+              "31628": "Transbronchial lung biopsy of peripheral lesion"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 18.41,
+            "facility_total_payment": 595,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249,
+                "description": "EBUS-TBNA 3+ stations"
+              },
+              "31627": {
+                "facility_rvu": 3.07,
+                "facility_payment": 99,
+                "description": "Navigation add-on"
+              },
+              "31654": {
+                "facility_rvu": 2.11,
+                "facility_payment": 68,
+                "description": "Radial EBUS add-on"
+              },
+              "31628": {
+                "facility_rvu": 5.53,
+                "facility_payment": 179,
+                "description": "TBLB single lobe"
+              }
+            }
+          },
+          "overall_assessment": "Combined EBUS mediastinal staging (5 stations) with robotic bronchoscopy (Ion) for peripheral lesion sampling. All codes appropriately documented."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_case_number": 7,
+      "variation_number": 9,
+      "style": "synonym_swapper",
+      "note_text": "INTERVENTIONAL PULMONOLOGY OPERATIVE REPORT\n\nPatient: Melissa Roberts\nMedical Record: 3459527\nService Date: 02/11/2025\nOperator: Rachel Goldman, MD\n\nCLINICAL RATIONALE\nPeripheral nodule and bilateral hilar adenopathy. Target lesion: 14.0mm ground-glass nodule localized to LUL apicoposterior (B1+2).\n\nSEDATION DETAILS\nGeneral endotracheal sedation administered. 8.0mm airway device deployed orally.\n\nOPERATIVE NARRATIVE\n\nSEGMENT 1: LINEAR EBUS MEDIASTINAL ASSESSMENT\n\nThe convex-probe ultrasound bronchoscope (Pentax EB-1990i) was advanced through the endotracheal conduit. Systematic mediastinal survey was executed. Lymph nodes were visualized at multiple stations and sampled utilizing 22-gauge aspiration needle (FNB/ProCore).\n\nStation 2L: Visualized homogeneous node (14.8x28.3mm). Executed 3 aspiration passes. ROSE yielded: Atypical cells.\nStation 4L: Visualized homogeneous node (24.3x25.6mm). Executed 2 aspiration passes. ROSE yielded: Malignant - squamous cell carcinoma.\nStation 10R: Visualized heterogeneous node (12.9x30.7mm). Executed 2 aspiration passes. ROSE yielded: Malignant - NSCLC NOS.\nStation 10L: Visualized heterogeneous node (18.8x34.6mm). Executed 3 aspiration passes. ROSE yielded: Suspicious for malignancy.\nStation 11L: Visualized heterogeneous node (18.7x20.8mm). Executed 2 aspiration passes. ROSE yielded: Malignant - adenocarcinoma.\n\nSEGMENT 2: ROBOTIC-ASSISTED PERIPHERAL NAVIGATION\n\nThe Ion robotic navigation platform (Intuitive Surgical) was initialized and calibrated. Registration accuracy measured 1.5mm. The articulating catheter was maneuvered to the LUL apicoposterior (B1+2) target zone.\n\nRadial ultrasound miniprobe was deployed, yielding concentric visualization of the lesion. Instrument-within-target was verified via fluoroscopy.\n\nTISSUE ACQUISITION:\n- Grasping forceps specimens acquired: 7\n- Aspiration needle passes executed: 2  \n- Cytology brushings harvested: 2\n- Lavage fluid extracted from LUL\n\nROSE assessment yielded: Adequate lymphocytes, no malignancy\n\nSPECIMEN DISPOSITION\n- EBUS aspirates dispatched to: Cytology, cell block, flow cytometry\n- Parenchymal samples dispatched to: Surgical pathology, molecular analysis\n- Brushings dispatched to: Cytology\n- Lavage dispatched to: Microbiology (bacterial, mycobacterial, fungal)\n\nOUTCOME ASSESSMENT\nProcedure concluded without adverse events. Hemorrhage: negligible (<10mL). Post-procedure radiograph: unremarkable, pneumothorax excluded.\n\nDISPOSITION\nPatient conveyed to recovery suite. Discharged to residence following observation period. Outpatient follow-up scheduled for pathology review.\n\nSUMMARY\n1. EBUS-guided mediastinal staging successfully executed (5 stations sampled)\n2. Robotic navigation to peripheral target successfully accomplished\n3. Tissue acquisition achieved via multiple modalities\n4. Zero procedural complications documented\n\nElectronically attested,\nRachel Goldman, MD\nDivision of Interventional Pulmonology\nAcademic Health System",
+      "cpt_codes": [
+        31653,
+        31627,
+        31654,
+        31628
+      ],
+      "registry_entry": {
+        "patient_mrn": "3459527",
+        "procedure_date": "2025-02-11",
+        "procedure_start_time": "08:15",
+        "procedure_end_time": "10:09",
+        "procedure_duration_minutes": 114,
+        "providers": {
+          "attending_name": "Rachel Goldman",
+          "attending_npi": null,
+          "fellow_name": null,
+          "fellow_pgy_level": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": false,
+          "rose_present": true
+        },
+        "patient_demographics": {
+          "age_years": 81,
+          "gender": "Male",
+          "smoking_status": "Current",
+          "pack_years": 34
+        },
+        "clinical_context": {
+          "asa_class": 2,
+          "primary_indication": "Peripheral nodule and bilateral hilar adenopathy",
+          "indication_category": "Lung Cancer Staging",
+          "lesion_size_mm": 14.0,
+          "lesion_location": "LUL apicoposterior (B1+2)",
+          "pet_avid": true,
+          "suv_max": 17.6,
+          "bronchus_sign": "Negative"
+        },
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "scope_model": "Pentax EB-1990i",
+            "needle_gauge": 22,
+            "needle_type": "FNB/ProCore",
+            "stations_sampled": [
+              "2L",
+              "4L",
+              "10R",
+              "10L",
+              "11L"
+            ],
+            "systematic_staging": true,
+            "rose_available": true,
+            "elastography_used": false
+          },
+          "navigational_bronchoscopy": {
+            "performed": true,
+            "platform": "Ion",
+            "platform_manufacturer": "Intuitive Surgical",
+            "registration_method": "CT-to-body",
+            "registration_error_mm": 1.5,
+            "sampling_tools_used": [
+              "Forceps",
+              "Needle"
+            ]
+          },
+          "radial_ebus": {
+            "performed": true,
+            "probe_position": "Concentric"
+          },
+          "transbronchial_biopsy": {
+            "performed": true,
+            "lobe": "LUL",
+            "number_of_samples": 7,
+            "forceps_type": "Standard"
+          },
+          "bal": {
+            "performed": true,
+            "location": "LUL"
+          },
+          "brushings": {
+            "performed": true,
+            "locations": [
+              "LUL"
+            ]
+          }
+        },
+        "sedation": {
+          "type": "General",
+          "airway": "ETT",
+          "airway_size": "8.0"
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "complications": [],
+          "bleeding_severity": "None/Scant",
+          "pneumothorax": false,
+          "disposition": "Outpatient discharge"
+        },
+        "granular_data": {
+          "linear_ebus_stations_detail": [
+            {
+              "station": "2L",
+              "short_axis_mm": 14.8,
+              "long_axis_mm": 28.3,
+              "shape": "round",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "Acquire",
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Atypical cells",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4L",
+              "short_axis_mm": 24.3,
+              "long_axis_mm": 25.6,
+              "shape": "irregular",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - squamous cell carcinoma",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10R",
+              "short_axis_mm": 12.9,
+              "long_axis_mm": 30.7,
+              "shape": "irregular",
+              "echogenicity": "heterogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - NSCLC NOS",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10L",
+              "short_axis_mm": 18.8,
+              "long_axis_mm": 34.6,
+              "shape": "irregular",
+              "echogenicity": "heterogeneous",
+              "chs_present": true,
+              "sampled": true,
+              "needle_gauge": 19,
+              "needle_type": "FNB/ProCore",
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Suspicious for malignancy",
+              "rose_adequacy": true
+            },
+            {
+              "station": "11L",
+              "short_axis_mm": 18.7,
+              "long_axis_mm": 20.8,
+              "shape": "round",
+              "echogenicity": "heterogeneous",
+              "chs_present": false,
+              "sampled": true,
+              "needle_gauge": 22,
+              "needle_type": "Standard FNA",
+              "number_of_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Malignant - adenocarcinoma",
+              "rose_adequacy": true
+            }
+          ],
+          "navigation_targets": [
+            {
+              "target_number": 1,
+              "target_location_text": "LUL apicoposterior (B1+2)",
+              "target_lobe": "LUL",
+              "target_segment": "apicoposterior (B1+2)",
+              "lesion_size_mm": 14.0,
+              "distance_from_pleura_mm": 23.9,
+              "bronchus_sign": "Negative",
+              "ct_characteristics": "Ground-glass",
+              "pet_suv_max": 17.6,
+              "navigation_successful": true,
+              "rebus_used": true,
+              "rebus_view": "Concentric",
+              "tool_in_lesion_confirmed": true,
+              "confirmation_method": "Fluoroscopy",
+              "sampling_tools_used": [
+                "Forceps",
+                "Needle"
+              ],
+              "number_of_forceps_biopsies": 7,
+              "number_of_needle_passes": 2,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes, no malignancy",
+              "immediate_complication": "None"
+            }
+          ]
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8",
+          "generated_at": "2025-12-08T19:14:04.518442",
+          "institution_name": "Academic Health System",
+          "institution_city": "Miami, FL"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "Synthetic_Generator",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653",
+              "31627",
+              "31654",
+              "31628"
+            ],
+            "modifiers": [],
+            "code_rationales": {
+              "31653": "EBUS-TBNA of 5 mediastinal/hilar lymph node stations for staging",
+              "31627": "Computer-assisted image-guided navigation (robotic bronchoscopy)",
+              "31654": "Radial EBUS for peripheral lesion localization",
+              "31628": "Transbronchial lung biopsy of peripheral lesion"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 18.41,
+            "facility_total_payment": 595,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249,
+                "description": "EBUS-TBNA 3+ stations"
+              },
+              "31627": {
+                "facility_rvu": 3.07,
+                "facility_payment": 99,
+                "description": "Navigation add-on"
+              },
+              "31654": {
+                "facility_rvu": 2.11,
+                "facility_payment": 68,
+                "description": "Radial EBUS add-on"
+              },
+              "31628": {
+                "facility_rvu": 5.53,
+                "facility_payment": 179,
+                "description": "TBLB single lobe"
+              }
+            }
+          },
+          "overall_assessment": "Combined EBUS mediastinal staging (5 stations) with robotic bronchoscopy (Ion) for peripheral lesion sampling. All codes appropriately documented."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    }
+  ]
+}

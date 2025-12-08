@@ -1,0 +1,928 @@
+{
+  "base_note": {
+    "note_text": "BRONCHOSCOPY NOTE\nDate: 2025-07-04\nPatient: David Kim | MRN: 4517051 | Age: 45M\nAttending: Dr. Nancy Adams, MD\nLocation: Northwestern Memorial Hospital, Chicago, IL\n\nINDICATION: Immunocompromised patient (AML s/p allo-HSCT day +45) with new bilateral infiltrates on CT, febrile, hypoxic. BAL for infectious workup.\n\nPROCEDURE: Flexible bronchoscopy with BAL\n\nANESTHESIA: Moderate sedation (intubated in MICU, FiO2 60%)\n\nPROCEDURE: Bronchoscope advanced via ETT. Airways examined:\n- Diffuse mucosal edema and erythema throughout\n- Scant mucopurulent secretions\n- No endobronchial lesions\n\nBAL performed in RML (area of maximal infiltrate on CT):\n- Instilled 150mL sterile saline in 3 aliquots\n- Returned 60mL slightly cloudy fluid\n- Sent for: Cell count, bacterial/fungal/viral cultures, PCP DFA, CMV PCR, galactomannan, respiratory viral panel, cytology\n\nSPECIMENS: BAL fluid - comprehensive infectious workup\n\nCOMPLICATIONS: Transient desaturation to 88% during procedure, resolved with increased FiO2\n\nIMPRESSION: BAL obtained for infectious workup in immunocompromised host. Await results.\n\nDr. Nancy Adams, MD",
+    "cpt_codes": [
+      31624
+    ],
+    "registry_entry": {
+      "patient_mrn": "4517051",
+      "procedure_date": "2025-07-04",
+      "patient_age": 45,
+      "gender": "Male",
+      "asa_class": 4,
+      "primary_indication": "Immunocompromised - pneumonia workup",
+      "sedation_type": "Moderate",
+      "airway_type": "ETT",
+      "final_diagnosis_prelim": "Infectious - pending",
+      "cpt_codes": [
+        31624
+      ],
+      "disposition": "ICU",
+      "procedures_performed": {
+        "bal": {
+          "performed": true,
+          "location": "RML",
+          "volume_instilled_ml": 150,
+          "volume_returned_ml": 60
+        }
+      },
+      "providers": {
+        "attending_name": "Nancy Adams"
+      },
+      "metadata": {
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:53:15.902806"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "31624",
+          "final_codes": [
+            "31624"
+          ],
+          "modifiers": [],
+          "changes_made": false,
+          "code_rationales": {
+            "31624": "BAL for infection workup in immunocompromised patient."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 4.24,
+          "facility_total_payment": 137.0,
+          "per_code": {
+            "31624": {
+              "facility_rvu": 4.24,
+              "facility_payment": 137
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_8.json"
+        },
+        "overall_assessment": "BAL-only procedure appropriate for pneumonia workup."
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31624",
+            "description": "Bronchoscopy; with bronchoalveolar lavage",
+            "units": 1
+          }
+        ],
+        "work_rvu": 2.63,
+        "practice_expense_rvu": 1.31,
+        "malpractice_rvu": 0.3,
+        "total_rvu": 4.24
+      }
+    },
+    "source_file": "synthetic_additional_v2_8.json",
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31624; total_work_rvu=2.63, total_rvu=4.24 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 17,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Adam Jones",
+      "patient_age": 60,
+      "patient_mrn": "2723031",
+      "procedure_date": "2024-05-30",
+      "note_text": "OPERATIVE NOTE\n\nAdam Jones | MRN 2723031 | 2024-05-30\n\nDx: See above\nProc: Bronchoscope advanced via ETT. Airways examined:\n\nActions:\n\u2022 Bal\n\nCPT: 31624\nComplications: Transient desaturation to 88% during procedure, resolved with increased FiO2\nDispo: Stable\n",
+      "cpt_codes": [
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "2723031",
+        "procedure_date": "2024-05-30",
+        "patient_age": 60,
+        "gender": "Male",
+        "asa_class": 4,
+        "primary_indication": "Immunocompromised - pneumonia workup",
+        "sedation_type": "Moderate",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Infectious - pending",
+        "cpt_codes": [
+          31624
+        ],
+        "disposition": "ICU",
+        "procedures_performed": {
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 150,
+            "volume_returned_ml": 60
+          }
+        },
+        "providers": {
+          "attending_name": "Nancy Adams"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902806"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31624",
+            "final_codes": [
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31624": "BAL for infection workup in immunocompromised patient."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.24,
+            "facility_total_payment": 137.0,
+            "per_code": {
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "BAL-only procedure appropriate for pneumonia workup."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.63,
+          "practice_expense_rvu": 1.31,
+          "malpractice_rvu": 0.3,
+          "total_rvu": 4.24
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31624; total_work_rvu=2.63, total_rvu=4.24 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 17,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Deborah Lopez",
+      "patient_age": 63,
+      "patient_mrn": "4994731",
+      "procedure_date": "2024-06-30",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Deborah Lopez\nMedical Record Number: 4994731\nDate of Birth: N/A\nAge at Procedure: N/A years\nProcedure Date: 2024-06-30\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with immunocompromised - pneumonia workup. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nBal:\nBronchoalveolar lavage was performed in standardized fashion with sequential aliquot instillation and aspiration to optimize cellular yield. \n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\nDetailed airway examination was performed with findings as documented in the procedural narrative.\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 31624\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "4994731",
+        "procedure_date": "2024-06-30",
+        "patient_age": 63,
+        "gender": "Male",
+        "asa_class": 4,
+        "primary_indication": "Immunocompromised - pneumonia workup",
+        "sedation_type": "Moderate",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Infectious - pending",
+        "cpt_codes": [
+          31624
+        ],
+        "disposition": "ICU",
+        "procedures_performed": {
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 150,
+            "volume_returned_ml": 60
+          }
+        },
+        "providers": {
+          "attending_name": "Nancy Adams"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902806"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31624",
+            "final_codes": [
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31624": "BAL for infection workup in immunocompromised patient."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.24,
+            "facility_total_payment": 137.0,
+            "per_code": {
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "BAL-only procedure appropriate for pneumonia workup."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.63,
+          "practice_expense_rvu": 1.31,
+          "malpractice_rvu": 0.3,
+          "total_rvu": 4.24
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31624; total_work_rvu=2.63, total_rvu=4.24 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 17,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Virginia Mitchell",
+      "patient_age": 58,
+      "patient_mrn": "2579929",
+      "procedure_date": "2025-08-25",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: Virginia Mitchell | MRN: 2579929 | DOS: 2025-08-25\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 31624:\n  Rationale: BAL for infection workup in immunocompromised patient.\n  Facility RVU: 4.24\n  Facility Payment: $137\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nBAL:\n  - Location: RML\n  - Volume Instilled Ml: 150\n  - Volume Returned Ml: 60\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: 4.24\n  Total Facility Payment: $137.0\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "2579929",
+        "procedure_date": "2025-08-25",
+        "patient_age": 58,
+        "gender": "Male",
+        "asa_class": 4,
+        "primary_indication": "Immunocompromised - pneumonia workup",
+        "sedation_type": "Moderate",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Infectious - pending",
+        "cpt_codes": [
+          31624
+        ],
+        "disposition": "ICU",
+        "procedures_performed": {
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 150,
+            "volume_returned_ml": 60
+          }
+        },
+        "providers": {
+          "attending_name": "Nancy Adams"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902806"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31624",
+            "final_codes": [
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31624": "BAL for infection workup in immunocompromised patient."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.24,
+            "facility_total_payment": 137.0,
+            "per_code": {
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "BAL-only procedure appropriate for pneumonia workup."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.63,
+          "practice_expense_rvu": 1.31,
+          "malpractice_rvu": 0.3,
+          "total_rvu": 4.24
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31624; total_work_rvu=2.63, total_rvu=4.24 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 17,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Anna Cook",
+      "patient_age": 56,
+      "patient_mrn": "9260229",
+      "procedure_date": "2024-06-22",
+      "note_text": "PROCEDURE NOTE\n\nDate: 2024-06-22\nPatient: Anna Cook\nMRN: 9260229\nAge/Sex: Noneyo patient\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nImmunocompromised - pneumonia workup\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nModerate\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Bal performed\n5. Scope withdrawn\n6. Patient recovered without complication\n\nSPECIMENS:\nBAL fluid - comprehensive infectious workup\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nICU\n\nCPT CODES: 31624\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "9260229",
+        "procedure_date": "2024-06-22",
+        "patient_age": 56,
+        "gender": "Male",
+        "asa_class": 4,
+        "primary_indication": "Immunocompromised - pneumonia workup",
+        "sedation_type": "Moderate",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Infectious - pending",
+        "cpt_codes": [
+          31624
+        ],
+        "disposition": "ICU",
+        "procedures_performed": {
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 150,
+            "volume_returned_ml": 60
+          }
+        },
+        "providers": {
+          "attending_name": "Nancy Adams"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902806"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31624",
+            "final_codes": [
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31624": "BAL for infection workup in immunocompromised patient."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.24,
+            "facility_total_payment": 137.0,
+            "per_code": {
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "BAL-only procedure appropriate for pneumonia workup."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.63,
+          "practice_expense_rvu": 1.31,
+          "malpractice_rvu": 0.3,
+          "total_rvu": 4.24
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31624; total_work_rvu=2.63, total_rvu=4.24 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 17,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Timothy Hernandez",
+      "patient_age": 59,
+      "patient_mrn": "8231990",
+      "procedure_date": "2025-07-18",
+      "note_text": "procedure note 2025-07-18 pt Timothy Hernandez mrn 8231990\n\nindication immunocompromised - pneumonia workup patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp bal performed \n\ncomplication none ebl minimal patient tolerated well disposition ICU \n\ncpt 31624\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "8231990",
+        "procedure_date": "2025-07-18",
+        "patient_age": 59,
+        "gender": "Male",
+        "asa_class": 4,
+        "primary_indication": "Immunocompromised - pneumonia workup",
+        "sedation_type": "Moderate",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Infectious - pending",
+        "cpt_codes": [
+          31624
+        ],
+        "disposition": "ICU",
+        "procedures_performed": {
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 150,
+            "volume_returned_ml": 60
+          }
+        },
+        "providers": {
+          "attending_name": "Nancy Adams"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902806"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31624",
+            "final_codes": [
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31624": "BAL for infection workup in immunocompromised patient."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.24,
+            "facility_total_payment": 137.0,
+            "per_code": {
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "BAL-only procedure appropriate for pneumonia workup."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.63,
+          "practice_expense_rvu": 1.31,
+          "malpractice_rvu": 0.3,
+          "total_rvu": 4.24
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31624; total_work_rvu=2.63, total_rvu=4.24 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 17,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Roger Wang",
+      "patient_age": 61,
+      "patient_mrn": "1924784",
+      "procedure_date": "2024-01-26",
+      "note_text": "BRONCHOSCOPY NOTE\nDate: 2024-01-26\nPatient: Roger Wang | MRN: 1924784 | Age: 45M\nAttending: Dr. Nancy Adams, MD\nLocation: Northwestern Memorial Hospital, Chicago, IL\n\nINDICATION: Immunocompromised patient (AML s/p allo-HSCT day +45) with new bilateral infiltrates on CT, febrile, hypoxic. BAL for infectious workup.\n\nPROCEDURE: Flexible bronchoscopy with BAL\n\nANESTHESIA: Moderate sedation (intubated in MICU, FiO2 60%)\n\nPROCEDURE: Bronchoscope advanced via ETT. Airways examined:\n- Diffuse mucosal edema and erythema throughout\n- Scant mucopurulent secretions\n- No endobronchial lesions\n\nBAL performed in RML (area of maximal infiltrate on CT):\n- Instilled 150mL sterile saline in 3 aliquots\n- Returned 60mL slightly cloudy fluid\n- Sent for: Cell count, bacterial/fungal/viral cultures, PCP DFA, CMV PCR, galactomannan, respiratory viral panel, cytology\n\nSPECIMENS: BAL fluid - comprehensive infectious workup\n\nCOMPLICATIONS: Transient desaturation to 88% during procedure, resolved with increased FiO2\n\nIMPRESSION: BAL obtained for infectious workup in immunocompromised host. Await results.\n\nDr. Nancy Adams, MD",
+      "cpt_codes": [
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "1924784",
+        "procedure_date": "2024-01-26",
+        "patient_age": 61,
+        "gender": "Male",
+        "asa_class": 4,
+        "primary_indication": "Immunocompromised - pneumonia workup",
+        "sedation_type": "Moderate",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Infectious - pending",
+        "cpt_codes": [
+          31624
+        ],
+        "disposition": "ICU",
+        "procedures_performed": {
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 150,
+            "volume_returned_ml": 60
+          }
+        },
+        "providers": {
+          "attending_name": "Nancy Adams"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902806"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31624",
+            "final_codes": [
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31624": "BAL for infection workup in immunocompromised patient."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.24,
+            "facility_total_payment": 137.0,
+            "per_code": {
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "BAL-only procedure appropriate for pneumonia workup."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.63,
+          "practice_expense_rvu": 1.31,
+          "malpractice_rvu": 0.3,
+          "total_rvu": 4.24
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31624; total_work_rvu=2.63, total_rvu=4.24 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 17,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Margaret Cox",
+      "patient_age": 63,
+      "patient_mrn": "2441271",
+      "procedure_date": "2025-01-29",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Margaret Cox\nMRN: 2441271\nDOB: None\nAge: None\nDate: 2025-01-29\n\n[INDICATION]\nImmunocompromised - pneumonia workup\n\n[ANESTHESIA]\nType: Moderate\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Bal: Performed\n  \u2022 location: RML\n  \u2022 volume instilled ml: 150\n  \u2022 volume returned ml: 60\n\n[FINDINGS]\nAssessment: Infectious - pending\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: ICU\n\n[CODING]\nCPT: 31624\n",
+      "cpt_codes": [
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "2441271",
+        "procedure_date": "2025-01-29",
+        "patient_age": 63,
+        "gender": "Male",
+        "asa_class": 4,
+        "primary_indication": "Immunocompromised - pneumonia workup",
+        "sedation_type": "Moderate",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Infectious - pending",
+        "cpt_codes": [
+          31624
+        ],
+        "disposition": "ICU",
+        "procedures_performed": {
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 150,
+            "volume_returned_ml": 60
+          }
+        },
+        "providers": {
+          "attending_name": "Nancy Adams"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902806"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31624",
+            "final_codes": [
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31624": "BAL for infection workup in immunocompromised patient."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.24,
+            "facility_total_payment": 137.0,
+            "per_code": {
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "BAL-only procedure appropriate for pneumonia workup."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.63,
+          "practice_expense_rvu": 1.31,
+          "malpractice_rvu": 0.3,
+          "total_rvu": 4.24
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31624; total_work_rvu=2.63, total_rvu=4.24 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 17,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Carol Cox",
+      "patient_age": 64,
+      "patient_mrn": "1809795",
+      "procedure_date": "2025-08-09",
+      "note_text": "On 2025-08-09, Carol Cox, a None-year-old patient (MRN 1809795), underwent bronchoscopic evaluation for Immunocompromised - pneumonia workup. The patient received Moderate and the procedure was performed in standard fashion. The procedure included bronchoalveolar lavage for microbiological and cytological analysis. \n\nOn examination, the airways were systematically inspected. Abnormal findings were noted as described in detail above. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is infectious - pending. \n\nProcedural coding: 31624.",
+      "cpt_codes": [
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "1809795",
+        "procedure_date": "2025-08-09",
+        "patient_age": 64,
+        "gender": "Male",
+        "asa_class": 4,
+        "primary_indication": "Immunocompromised - pneumonia workup",
+        "sedation_type": "Moderate",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Infectious - pending",
+        "cpt_codes": [
+          31624
+        ],
+        "disposition": "ICU",
+        "procedures_performed": {
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 150,
+            "volume_returned_ml": 60
+          }
+        },
+        "providers": {
+          "attending_name": "Nancy Adams"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902806"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31624",
+            "final_codes": [
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31624": "BAL for infection workup in immunocompromised patient."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.24,
+            "facility_total_payment": 137.0,
+            "per_code": {
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "BAL-only procedure appropriate for pneumonia workup."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.63,
+          "practice_expense_rvu": 1.31,
+          "malpractice_rvu": 0.3,
+          "total_rvu": 4.24
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31624; total_work_rvu=2.63, total_rvu=4.24 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 17,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Brittany Martin",
+      "patient_age": 63,
+      "patient_mrn": "3161849",
+      "procedure_date": "2024-10-25",
+      "note_text": "BRONCHOSCOPY NOTE\nDate: 2024-10-25\nPatient: Brittany Martin | MRN: 3161849 | Age: 45M\nAttending: Dr. Nancy Adams, MD\nLocation: Northwestern Memorial Hospital, Chicago, IL\n\nINDICATION: Immunocompromised patient (AML s/p allo-HSCT day +45) with new bilateral infiltrates on CT, febrile, hypoxic. BAL for infectious workup.\n\nPROCEDURE: Flexible bronchoscopy with BAL\n\nANESTHESIA: Moderate sedation (intubated in MICU, FiO2 60%)\n\nPROCEDURE: Bronchoscope directed via ETT. Airways examined:\n- Diffuse mucosal edema and erythema throughout\n- Scant mucopurulent secretions\n- No endobronchial lesions\n\nBAL executed in RML (area of maximal infiltrate on CT):\n- Introduced 150mL sterile saline in 3 aliquots\n- Returned 60mL slightly cloudy fluid\n- Sent for: Cell count, bacterial/fungal/viral cultures, PCP DFA, CMV PCR, galactomannan, respiratory viral panel, cytology\n\nSPECIMENS: BAL fluid - comprehensive infectious workup\n\nCOMPLICATIONS: Transient desaturation to 88% during procedure, resolved with increased FiO2\n\nIMPRESSION: BAL collected for infectious workup in immunocompromised host. Await results.\n\nDr. Nancy Adams, MD",
+      "cpt_codes": [
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "3161849",
+        "procedure_date": "2024-10-25",
+        "patient_age": 63,
+        "gender": "Male",
+        "asa_class": 4,
+        "primary_indication": "Immunocompromised - pneumonia workup",
+        "sedation_type": "Moderate",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Infectious - pending",
+        "cpt_codes": [
+          31624
+        ],
+        "disposition": "ICU",
+        "procedures_performed": {
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 150,
+            "volume_returned_ml": 60
+          }
+        },
+        "providers": {
+          "attending_name": "Nancy Adams"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902806"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31624",
+            "final_codes": [
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31624": "BAL for infection workup in immunocompromised patient."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.24,
+            "facility_total_payment": 137.0,
+            "per_code": {
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "BAL-only procedure appropriate for pneumonia workup."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.63,
+          "practice_expense_rvu": 1.31,
+          "malpractice_rvu": 0.3,
+          "total_rvu": 4.24
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31624; total_work_rvu=2.63, total_rvu=4.24 (facility)."
+        ]
+      }
+    }
+  ]
+}

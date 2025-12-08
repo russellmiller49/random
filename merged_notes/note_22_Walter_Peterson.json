@@ -1,0 +1,1838 @@
+{
+  "base_note": {
+    "note_text": "BLVR PROCEDURE NOTE\nDate: 2025-04-03\nPatient: Walter Peterson | MRN: 6504899 | Age: 67M\nAttending: Dr. Sarah Kim, MD\nLocation: Temple University Hospital, Philadelphia, PA\n\nINDICATION: Severe heterogeneous emphysema, upper lobe predominant, hyperinflation with RV 240%. FEV1 28% predicted. CT shows intact fissures. Candidate for endobronchial valve therapy (BLVR).\n\nPROCEDURE: \n1. Flexible bronchoscopy\n2. Chartis collateral ventilation assessment (LUL)\n3. Endobronchial valve placement (LUL)\n\nANESTHESIA: General anesthesia\n\nCHARTIS ASSESSMENT:\nLUL evaluated using Chartis system via balloon catheter at LB1+2 combined orifice:\n- Adequate seal obtained\n- Measurement duration: 5 minutes\n- Flow pattern: Decreasing to zero\n- Result: CV NEGATIVE (favorable for valve therapy)\n\nVALVE PLACEMENT:\nBased on CV negative result and CT planning, Zephyr valves (Pulmonx) placed:\n1. LB1+2: Zephyr 5.5mm - deployed, seal confirmed\n2. LB3: Zephyr 5.0mm - deployed, seal confirmed  \n3. LB4+5 (Lingula): Zephyr 4.0-LP - deployed, seal confirmed\n4. LB6: Zephyr 5.5mm - deployed, seal confirmed\n\nTotal: 4 Zephyr valves placed in complete LUL lobar occlusion\n\nPost-procedure bronchoscopy confirmed all valves seated with no visible air leak.\n\nCOMPLICATIONS: None\nDISPOSITION: Admit overnight for pneumothorax monitoring. CXR q6h x 24hr.\n\nFOLLOW-UP: CT chest in 6-8 weeks, PFTs at 3 months, 6 months.\n\nDr. Sarah Kim, MD",
+    "cpt_codes": [
+      31647,
+      31651,
+      31634
+    ],
+    "registry_entry": {
+      "patient_mrn": "6504899",
+      "procedure_date": "2025-04-03",
+      "patient_age": 67,
+      "gender": "Male",
+      "asa_class": 3,
+      "primary_indication": "Severe heterogeneous emphysema - BLVR candidate",
+      "sedation_type": "General",
+      "airway_type": "ETT",
+      "final_diagnosis_prelim": "Emphysema",
+      "cpt_codes": [
+        31647,
+        31651,
+        31634
+      ],
+      "blvr_target_lobe": "LUL",
+      "blvr_valve_type": "Zephyr (Pulmonx)",
+      "blvr_number_of_valves": 4,
+      "blvr_cv_assessment_method": "Chartis",
+      "blvr_chartis_result": "CV Negative",
+      "procedures_performed": {
+        "blvr": {
+          "performed": true,
+          "indication": "Emphysema - lung volume reduction",
+          "valve_type": "Zephyr (Pulmonx)",
+          "number_of_valves": 4,
+          "target_lobes": [
+            "LUL"
+          ],
+          "chartis_performed": true,
+          "chartis_result": "CV Negative"
+        }
+      },
+      "granular_data": {
+        "blvr_chartis_measurements": [
+          {
+            "lobe_assessed": "LUL",
+            "segment_assessed": "LB1+2",
+            "measurement_duration_seconds": 300,
+            "adequate_seal": true,
+            "cv_result": "CV Negative",
+            "flow_pattern_description": "Decreasing to zero"
+          }
+        ],
+        "blvr_valve_placements": [
+          {
+            "valve_number": 1,
+            "target_lobe": "LUL",
+            "segment": "LB1+2",
+            "valve_size": "5.5",
+            "valve_type": "Zephyr (Pulmonx)",
+            "deployment_successful": true,
+            "seal_confirmed": true
+          },
+          {
+            "valve_number": 2,
+            "target_lobe": "LUL",
+            "segment": "LB3",
+            "valve_size": "5.0",
+            "valve_type": "Zephyr (Pulmonx)",
+            "deployment_successful": true,
+            "seal_confirmed": true
+          },
+          {
+            "valve_number": 3,
+            "target_lobe": "Lingula",
+            "segment": "LB4+5",
+            "valve_size": "4.0-LP",
+            "valve_type": "Zephyr (Pulmonx)",
+            "deployment_successful": true,
+            "seal_confirmed": true
+          },
+          {
+            "valve_number": 4,
+            "target_lobe": "LUL",
+            "segment": "LB6",
+            "valve_size": "5.5",
+            "valve_type": "Zephyr (Pulmonx)",
+            "deployment_successful": true,
+            "seal_confirmed": true
+          }
+        ]
+      },
+      "clinical_context": {
+        "indication_category": "BLVR Treatment",
+        "radiographic_findings": "Severe heterogeneous emphysema, upper lobe predominant, intact fissures"
+      },
+      "providers": {
+        "attending_name": "Sarah Kim"
+      },
+      "metadata": {
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:55:23.778493"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "31647",
+          "final_codes": [
+            "31647",
+            "31651",
+            "31634"
+          ],
+          "modifiers": [],
+          "changes_made": false,
+          "code_rationales": {
+            "31647": "BLVR valve placement, initial lobe",
+            "31651": "Additional valves in same lobe (add-on) x3",
+            "31634": "Chartis CV assessment - NCCI allows separate reporting when performed in non-target lobe or distinct service"
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 25.84,
+          "facility_total_payment": 836,
+          "per_code": {
+            "31647": {
+              "facility_rvu": 11.15,
+              "facility_payment": 361
+            },
+            "31651": {
+              "facility_rvu": 12.84,
+              "facility_payment": 414
+            },
+            "31634": {
+              "facility_rvu": 1.85,
+              "facility_payment": 61
+            }
+          }
+        },
+        "overall_assessment": "True BLVR for emphysema with Chartis assessment and complete lobar occlusion."
+      },
+      "procedure_families": [
+        "blvr"
+      ],
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31647",
+            "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+            "units": 1
+          },
+          {
+            "code": "+31651",
+            "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+            "units": 3
+          },
+          {
+            "code": "31634",
+            "description": "Bronchoscopy; with balloon occlusion, assessment of air leak, airway sizing, and documentation",
+            "units": 1
+          }
+        ],
+        "work_rvu": 18.5,
+        "practice_expense_rvu": 8.5,
+        "malpractice_rvu": 2.02,
+        "total_rvu": 29.02
+      }
+    },
+    "source_file": "synthetic_additional_v2_8.json",
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651, 31634; total_work_rvu=18.5, total_rvu=29.02 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 22,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Roger Anderson",
+      "patient_age": 58,
+      "patient_mrn": "6381622",
+      "procedure_date": "2025-08-26",
+      "note_text": "OPERATIVE NOTE\n\nRoger Anderson | MRN 6381622 | 2025-08-26\n\nDx: See above\nProc: Severe heterogeneous emphysema - BLVR candidate\n\nActions:\n\u2022 Blvr\n\nCPT: 31647, 31651, 31634\nComplications: None\nDispo: Dr. Sarah Kim, MD\n",
+      "cpt_codes": [
+        31647,
+        31651,
+        31634
+      ],
+      "registry_entry": {
+        "patient_mrn": "6381622",
+        "procedure_date": "2025-08-26",
+        "patient_age": 58,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Severe heterogeneous emphysema - BLVR candidate",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Emphysema",
+        "cpt_codes": [
+          31647,
+          31651,
+          31634
+        ],
+        "blvr_target_lobe": "LUL",
+        "blvr_valve_type": "Zephyr (Pulmonx)",
+        "blvr_number_of_valves": 4,
+        "blvr_cv_assessment_method": "Chartis",
+        "blvr_chartis_result": "CV Negative",
+        "procedures_performed": {
+          "blvr": {
+            "performed": true,
+            "indication": "Emphysema - lung volume reduction",
+            "valve_type": "Zephyr (Pulmonx)",
+            "number_of_valves": 4,
+            "target_lobes": [
+              "LUL"
+            ],
+            "chartis_performed": true,
+            "chartis_result": "CV Negative"
+          }
+        },
+        "granular_data": {
+          "blvr_chartis_measurements": [
+            {
+              "lobe_assessed": "LUL",
+              "segment_assessed": "LB1+2",
+              "measurement_duration_seconds": 300,
+              "adequate_seal": true,
+              "cv_result": "CV Negative",
+              "flow_pattern_description": "Decreasing to zero"
+            }
+          ],
+          "blvr_valve_placements": [
+            {
+              "valve_number": 1,
+              "target_lobe": "LUL",
+              "segment": "LB1+2",
+              "valve_size": "5.5",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 2,
+              "target_lobe": "LUL",
+              "segment": "LB3",
+              "valve_size": "5.0",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 3,
+              "target_lobe": "Lingula",
+              "segment": "LB4+5",
+              "valve_size": "4.0-LP",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 4,
+              "target_lobe": "LUL",
+              "segment": "LB6",
+              "valve_size": "5.5",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "BLVR Treatment",
+          "radiographic_findings": "Severe heterogeneous emphysema, upper lobe predominant, intact fissures"
+        },
+        "providers": {
+          "attending_name": "Sarah Kim"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778493"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31647",
+            "final_codes": [
+              "31647",
+              "31651",
+              "31634"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31647": "BLVR valve placement, initial lobe",
+              "31651": "Additional valves in same lobe (add-on) x3",
+              "31634": "Chartis CV assessment - NCCI allows separate reporting when performed in non-target lobe or distinct service"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 25.84,
+            "facility_total_payment": 836,
+            "per_code": {
+              "31647": {
+                "facility_rvu": 11.15,
+                "facility_payment": 361
+              },
+              "31651": {
+                "facility_rvu": 12.84,
+                "facility_payment": 414
+              },
+              "31634": {
+                "facility_rvu": 1.85,
+                "facility_payment": 61
+              }
+            }
+          },
+          "overall_assessment": "True BLVR for emphysema with Chartis assessment and complete lobar occlusion."
+        },
+        "procedure_families": [
+          "blvr"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31647",
+              "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+              "units": 1
+            },
+            {
+              "code": "+31651",
+              "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+              "units": 3
+            },
+            {
+              "code": "31634",
+              "description": "Bronchoscopy; with balloon occlusion, assessment of air leak, airway sizing, and documentation",
+              "units": 1
+            }
+          ],
+          "work_rvu": 18.5,
+          "practice_expense_rvu": 8.5,
+          "malpractice_rvu": 2.02,
+          "total_rvu": 29.02
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651, 31634; total_work_rvu=18.5, total_rvu=29.02 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 22,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Anthony Carter",
+      "patient_age": 57,
+      "patient_mrn": "5373775",
+      "procedure_date": "2025-11-22",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Anthony Carter\nMedical Record Number: 5373775\nDate of Birth: N/A\nAge at Procedure: N/A years\nProcedure Date: 2025-11-22\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with severe heterogeneous emphysema - blvr candidate. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nBlvr:\nEndobronchial valve deployment was performed following comprehensive collateral ventilation assessment to ensure treatment candidacy. \n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\nDetailed airway examination was performed with findings as documented in the procedural narrative.\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 31647, 31651, 31634\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        31647,
+        31651,
+        31634
+      ],
+      "registry_entry": {
+        "patient_mrn": "5373775",
+        "procedure_date": "2025-11-22",
+        "patient_age": 57,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Severe heterogeneous emphysema - BLVR candidate",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Emphysema",
+        "cpt_codes": [
+          31647,
+          31651,
+          31634
+        ],
+        "blvr_target_lobe": "LUL",
+        "blvr_valve_type": "Zephyr (Pulmonx)",
+        "blvr_number_of_valves": 4,
+        "blvr_cv_assessment_method": "Chartis",
+        "blvr_chartis_result": "CV Negative",
+        "procedures_performed": {
+          "blvr": {
+            "performed": true,
+            "indication": "Emphysema - lung volume reduction",
+            "valve_type": "Zephyr (Pulmonx)",
+            "number_of_valves": 4,
+            "target_lobes": [
+              "LUL"
+            ],
+            "chartis_performed": true,
+            "chartis_result": "CV Negative"
+          }
+        },
+        "granular_data": {
+          "blvr_chartis_measurements": [
+            {
+              "lobe_assessed": "LUL",
+              "segment_assessed": "LB1+2",
+              "measurement_duration_seconds": 300,
+              "adequate_seal": true,
+              "cv_result": "CV Negative",
+              "flow_pattern_description": "Decreasing to zero"
+            }
+          ],
+          "blvr_valve_placements": [
+            {
+              "valve_number": 1,
+              "target_lobe": "LUL",
+              "segment": "LB1+2",
+              "valve_size": "5.5",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 2,
+              "target_lobe": "LUL",
+              "segment": "LB3",
+              "valve_size": "5.0",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 3,
+              "target_lobe": "Lingula",
+              "segment": "LB4+5",
+              "valve_size": "4.0-LP",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 4,
+              "target_lobe": "LUL",
+              "segment": "LB6",
+              "valve_size": "5.5",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "BLVR Treatment",
+          "radiographic_findings": "Severe heterogeneous emphysema, upper lobe predominant, intact fissures"
+        },
+        "providers": {
+          "attending_name": "Sarah Kim"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778493"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31647",
+            "final_codes": [
+              "31647",
+              "31651",
+              "31634"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31647": "BLVR valve placement, initial lobe",
+              "31651": "Additional valves in same lobe (add-on) x3",
+              "31634": "Chartis CV assessment - NCCI allows separate reporting when performed in non-target lobe or distinct service"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 25.84,
+            "facility_total_payment": 836,
+            "per_code": {
+              "31647": {
+                "facility_rvu": 11.15,
+                "facility_payment": 361
+              },
+              "31651": {
+                "facility_rvu": 12.84,
+                "facility_payment": 414
+              },
+              "31634": {
+                "facility_rvu": 1.85,
+                "facility_payment": 61
+              }
+            }
+          },
+          "overall_assessment": "True BLVR for emphysema with Chartis assessment and complete lobar occlusion."
+        },
+        "procedure_families": [
+          "blvr"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31647",
+              "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+              "units": 1
+            },
+            {
+              "code": "+31651",
+              "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+              "units": 3
+            },
+            {
+              "code": "31634",
+              "description": "Bronchoscopy; with balloon occlusion, assessment of air leak, airway sizing, and documentation",
+              "units": 1
+            }
+          ],
+          "work_rvu": 18.5,
+          "practice_expense_rvu": 8.5,
+          "malpractice_rvu": 2.02,
+          "total_rvu": 29.02
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651, 31634; total_work_rvu=18.5, total_rvu=29.02 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 22,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "David Ruiz",
+      "patient_age": 63,
+      "patient_mrn": "5035668",
+      "procedure_date": "2024-08-22",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: David Ruiz | MRN: 5035668 | DOS: 2024-08-22\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 31647:\n  Rationale: BLVR valve placement, initial lobe\n  Facility RVU: 11.15\n  Facility Payment: $361\n\nCPT 31651:\n  Rationale: Additional valves in same lobe (add-on) x3\n  Facility RVU: 12.84\n  Facility Payment: $414\n\nCPT 31634:\n  Rationale: Chartis CV assessment - NCCI allows separate reporting when performed in non-target lobe or distinct service\n  Facility RVU: 1.85\n  Facility Payment: $61\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n  \u2022 CHARTIS\n  \u2022 Chartis\n  \u2022 Zephyr 4\n  \u2022 Zephyr 5\n  \u2022 Zephyr valves\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nBLVR:\n  - Indication: Emphysema - lung volume reduction\n  - Valve Type: Zephyr (Pulmonx)\n  - Number Of Valves: 4\n  - Target Lobes: ['LUL']\n  - Chartis Performed: True\n  - Chartis Result: CV Negative\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: 25.84\n  Total Facility Payment: $836\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        31647,
+        31651,
+        31634
+      ],
+      "registry_entry": {
+        "patient_mrn": "5035668",
+        "procedure_date": "2024-08-22",
+        "patient_age": 63,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Severe heterogeneous emphysema - BLVR candidate",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Emphysema",
+        "cpt_codes": [
+          31647,
+          31651,
+          31634
+        ],
+        "blvr_target_lobe": "LUL",
+        "blvr_valve_type": "Zephyr (Pulmonx)",
+        "blvr_number_of_valves": 4,
+        "blvr_cv_assessment_method": "Chartis",
+        "blvr_chartis_result": "CV Negative",
+        "procedures_performed": {
+          "blvr": {
+            "performed": true,
+            "indication": "Emphysema - lung volume reduction",
+            "valve_type": "Zephyr (Pulmonx)",
+            "number_of_valves": 4,
+            "target_lobes": [
+              "LUL"
+            ],
+            "chartis_performed": true,
+            "chartis_result": "CV Negative"
+          }
+        },
+        "granular_data": {
+          "blvr_chartis_measurements": [
+            {
+              "lobe_assessed": "LUL",
+              "segment_assessed": "LB1+2",
+              "measurement_duration_seconds": 300,
+              "adequate_seal": true,
+              "cv_result": "CV Negative",
+              "flow_pattern_description": "Decreasing to zero"
+            }
+          ],
+          "blvr_valve_placements": [
+            {
+              "valve_number": 1,
+              "target_lobe": "LUL",
+              "segment": "LB1+2",
+              "valve_size": "5.5",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 2,
+              "target_lobe": "LUL",
+              "segment": "LB3",
+              "valve_size": "5.0",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 3,
+              "target_lobe": "Lingula",
+              "segment": "LB4+5",
+              "valve_size": "4.0-LP",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 4,
+              "target_lobe": "LUL",
+              "segment": "LB6",
+              "valve_size": "5.5",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "BLVR Treatment",
+          "radiographic_findings": "Severe heterogeneous emphysema, upper lobe predominant, intact fissures"
+        },
+        "providers": {
+          "attending_name": "Sarah Kim"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778493"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31647",
+            "final_codes": [
+              "31647",
+              "31651",
+              "31634"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31647": "BLVR valve placement, initial lobe",
+              "31651": "Additional valves in same lobe (add-on) x3",
+              "31634": "Chartis CV assessment - NCCI allows separate reporting when performed in non-target lobe or distinct service"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 25.84,
+            "facility_total_payment": 836,
+            "per_code": {
+              "31647": {
+                "facility_rvu": 11.15,
+                "facility_payment": 361
+              },
+              "31651": {
+                "facility_rvu": 12.84,
+                "facility_payment": 414
+              },
+              "31634": {
+                "facility_rvu": 1.85,
+                "facility_payment": 61
+              }
+            }
+          },
+          "overall_assessment": "True BLVR for emphysema with Chartis assessment and complete lobar occlusion."
+        },
+        "procedure_families": [
+          "blvr"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31647",
+              "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+              "units": 1
+            },
+            {
+              "code": "+31651",
+              "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+              "units": 3
+            },
+            {
+              "code": "31634",
+              "description": "Bronchoscopy; with balloon occlusion, assessment of air leak, airway sizing, and documentation",
+              "units": 1
+            }
+          ],
+          "work_rvu": 18.5,
+          "practice_expense_rvu": 8.5,
+          "malpractice_rvu": 2.02,
+          "total_rvu": 29.02
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651, 31634; total_work_rvu=18.5, total_rvu=29.02 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 22,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Nathan Carter",
+      "patient_age": 60,
+      "patient_mrn": "7830206",
+      "procedure_date": "2025-01-07",
+      "note_text": "PROCEDURE NOTE\n\nDate: 2025-01-07\nPatient: Nathan Carter\nMRN: 7830206\nAge/Sex: Noneyo patient\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nSevere heterogeneous emphysema - BLVR candidate\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nGeneral\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Blvr performed\n5. Scope withdrawn\n6. Patient recovered without complication\n\nSPECIMENS:\nAs documented above\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nTo recovery, stable condition\n\nCPT CODES: 31647, 31651, 31634\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        31647,
+        31651,
+        31634
+      ],
+      "registry_entry": {
+        "patient_mrn": "7830206",
+        "procedure_date": "2025-01-07",
+        "patient_age": 60,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Severe heterogeneous emphysema - BLVR candidate",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Emphysema",
+        "cpt_codes": [
+          31647,
+          31651,
+          31634
+        ],
+        "blvr_target_lobe": "LUL",
+        "blvr_valve_type": "Zephyr (Pulmonx)",
+        "blvr_number_of_valves": 4,
+        "blvr_cv_assessment_method": "Chartis",
+        "blvr_chartis_result": "CV Negative",
+        "procedures_performed": {
+          "blvr": {
+            "performed": true,
+            "indication": "Emphysema - lung volume reduction",
+            "valve_type": "Zephyr (Pulmonx)",
+            "number_of_valves": 4,
+            "target_lobes": [
+              "LUL"
+            ],
+            "chartis_performed": true,
+            "chartis_result": "CV Negative"
+          }
+        },
+        "granular_data": {
+          "blvr_chartis_measurements": [
+            {
+              "lobe_assessed": "LUL",
+              "segment_assessed": "LB1+2",
+              "measurement_duration_seconds": 300,
+              "adequate_seal": true,
+              "cv_result": "CV Negative",
+              "flow_pattern_description": "Decreasing to zero"
+            }
+          ],
+          "blvr_valve_placements": [
+            {
+              "valve_number": 1,
+              "target_lobe": "LUL",
+              "segment": "LB1+2",
+              "valve_size": "5.5",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 2,
+              "target_lobe": "LUL",
+              "segment": "LB3",
+              "valve_size": "5.0",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 3,
+              "target_lobe": "Lingula",
+              "segment": "LB4+5",
+              "valve_size": "4.0-LP",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 4,
+              "target_lobe": "LUL",
+              "segment": "LB6",
+              "valve_size": "5.5",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "BLVR Treatment",
+          "radiographic_findings": "Severe heterogeneous emphysema, upper lobe predominant, intact fissures"
+        },
+        "providers": {
+          "attending_name": "Sarah Kim"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778493"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31647",
+            "final_codes": [
+              "31647",
+              "31651",
+              "31634"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31647": "BLVR valve placement, initial lobe",
+              "31651": "Additional valves in same lobe (add-on) x3",
+              "31634": "Chartis CV assessment - NCCI allows separate reporting when performed in non-target lobe or distinct service"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 25.84,
+            "facility_total_payment": 836,
+            "per_code": {
+              "31647": {
+                "facility_rvu": 11.15,
+                "facility_payment": 361
+              },
+              "31651": {
+                "facility_rvu": 12.84,
+                "facility_payment": 414
+              },
+              "31634": {
+                "facility_rvu": 1.85,
+                "facility_payment": 61
+              }
+            }
+          },
+          "overall_assessment": "True BLVR for emphysema with Chartis assessment and complete lobar occlusion."
+        },
+        "procedure_families": [
+          "blvr"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31647",
+              "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+              "units": 1
+            },
+            {
+              "code": "+31651",
+              "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+              "units": 3
+            },
+            {
+              "code": "31634",
+              "description": "Bronchoscopy; with balloon occlusion, assessment of air leak, airway sizing, and documentation",
+              "units": 1
+            }
+          ],
+          "work_rvu": 18.5,
+          "practice_expense_rvu": 8.5,
+          "malpractice_rvu": 2.02,
+          "total_rvu": 29.02
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651, 31634; total_work_rvu=18.5, total_rvu=29.02 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 22,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Ann Taylor",
+      "patient_age": 55,
+      "patient_mrn": "1761122",
+      "procedure_date": "2025-05-16",
+      "note_text": "procedure note 2025-05-16 pt Ann Taylor mrn 1761122\n\nindication severe heterogeneous emphysema - blvr candidate patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp blvr performed valves deployed good seal \n\ncomplication none ebl minimal patient tolerated well disposition to recovery \n\ncpt 31647 31651 31634\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        31647,
+        31651,
+        31634
+      ],
+      "registry_entry": {
+        "patient_mrn": "1761122",
+        "procedure_date": "2025-05-16",
+        "patient_age": 55,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Severe heterogeneous emphysema - BLVR candidate",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Emphysema",
+        "cpt_codes": [
+          31647,
+          31651,
+          31634
+        ],
+        "blvr_target_lobe": "LUL",
+        "blvr_valve_type": "Zephyr (Pulmonx)",
+        "blvr_number_of_valves": 4,
+        "blvr_cv_assessment_method": "Chartis",
+        "blvr_chartis_result": "CV Negative",
+        "procedures_performed": {
+          "blvr": {
+            "performed": true,
+            "indication": "Emphysema - lung volume reduction",
+            "valve_type": "Zephyr (Pulmonx)",
+            "number_of_valves": 4,
+            "target_lobes": [
+              "LUL"
+            ],
+            "chartis_performed": true,
+            "chartis_result": "CV Negative"
+          }
+        },
+        "granular_data": {
+          "blvr_chartis_measurements": [
+            {
+              "lobe_assessed": "LUL",
+              "segment_assessed": "LB1+2",
+              "measurement_duration_seconds": 300,
+              "adequate_seal": true,
+              "cv_result": "CV Negative",
+              "flow_pattern_description": "Decreasing to zero"
+            }
+          ],
+          "blvr_valve_placements": [
+            {
+              "valve_number": 1,
+              "target_lobe": "LUL",
+              "segment": "LB1+2",
+              "valve_size": "5.5",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 2,
+              "target_lobe": "LUL",
+              "segment": "LB3",
+              "valve_size": "5.0",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 3,
+              "target_lobe": "Lingula",
+              "segment": "LB4+5",
+              "valve_size": "4.0-LP",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 4,
+              "target_lobe": "LUL",
+              "segment": "LB6",
+              "valve_size": "5.5",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "BLVR Treatment",
+          "radiographic_findings": "Severe heterogeneous emphysema, upper lobe predominant, intact fissures"
+        },
+        "providers": {
+          "attending_name": "Sarah Kim"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778493"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31647",
+            "final_codes": [
+              "31647",
+              "31651",
+              "31634"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31647": "BLVR valve placement, initial lobe",
+              "31651": "Additional valves in same lobe (add-on) x3",
+              "31634": "Chartis CV assessment - NCCI allows separate reporting when performed in non-target lobe or distinct service"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 25.84,
+            "facility_total_payment": 836,
+            "per_code": {
+              "31647": {
+                "facility_rvu": 11.15,
+                "facility_payment": 361
+              },
+              "31651": {
+                "facility_rvu": 12.84,
+                "facility_payment": 414
+              },
+              "31634": {
+                "facility_rvu": 1.85,
+                "facility_payment": 61
+              }
+            }
+          },
+          "overall_assessment": "True BLVR for emphysema with Chartis assessment and complete lobar occlusion."
+        },
+        "procedure_families": [
+          "blvr"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31647",
+              "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+              "units": 1
+            },
+            {
+              "code": "+31651",
+              "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+              "units": 3
+            },
+            {
+              "code": "31634",
+              "description": "Bronchoscopy; with balloon occlusion, assessment of air leak, airway sizing, and documentation",
+              "units": 1
+            }
+          ],
+          "work_rvu": 18.5,
+          "practice_expense_rvu": 8.5,
+          "malpractice_rvu": 2.02,
+          "total_rvu": 29.02
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651, 31634; total_work_rvu=18.5, total_rvu=29.02 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 22,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Dorothy Price",
+      "patient_age": 56,
+      "patient_mrn": "6766087",
+      "procedure_date": "2024-08-14",
+      "note_text": "BLVR PROCEDURE NOTE\nDate: 2024-08-14\nPatient: Dorothy Price | MRN: 6766087 | Age: 67M\nAttending: Dr. Sarah Kim, MD\nLocation: Temple University Hospital, Philadelphia, PA\n\nINDICATION: Severe heterogeneous emphysema, upper lobe predominant, hyperinflation with RV 240%. FEV1 28% predicted. CT shows intact fissures. Candidate for endobronchial valve therapy (BLVR).\n\n1. Flexible bronchoscopy\n2. Chartis collateral ventilation assessment (LUL)\n3. Endobronchial valve placement (LUL)\n\nANESTHESIA: General anesthesia\n\nLUL evaluated using Chartis system via balloon catheter at LB1+2 combined orifice:\n- Adequate seal obtained\n- Measurement duration: 5 minutes\n- Flow pattern: Decreasing to zero\n- Result: CV NEGATIVE (favorable for valve therapy)\n\nBased on CV negative result and CT planning, Zephyr valves (Pulmonx) placed:\n1. LB1+2: Zephyr 5.5mm - deployed, seal confirmed\n2. LB3: Zephyr 5.0mm - deployed, seal confirmed  \n3. LB4+5 (Lingula): Zephyr 4.0-LP - deployed, seal confirmed\n4. LB6: Zephyr 5.5mm - deployed, seal confirmed\n\nTotal: 4 Zephyr valves placed in complete LUL lobar occlusion\n\nPost-procedure bronchoscopy confirmed all valves seated with no visible air leak.\n\nCOMPLICATIONS: None\nDISPOSITION: Admit overnight for pneumothorax monitoring. CXR q6h x 24hr.\n\nFOLLOW-UP: CT chest in 6-8 weeks, PFTs at 3 months, 6 months.\n\nDr. Sarah Kim, MD",
+      "cpt_codes": [
+        31647,
+        31651,
+        31634
+      ],
+      "registry_entry": {
+        "patient_mrn": "6766087",
+        "procedure_date": "2024-08-14",
+        "patient_age": 56,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Severe heterogeneous emphysema - BLVR candidate",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Emphysema",
+        "cpt_codes": [
+          31647,
+          31651,
+          31634
+        ],
+        "blvr_target_lobe": "LUL",
+        "blvr_valve_type": "Zephyr (Pulmonx)",
+        "blvr_number_of_valves": 4,
+        "blvr_cv_assessment_method": "Chartis",
+        "blvr_chartis_result": "CV Negative",
+        "procedures_performed": {
+          "blvr": {
+            "performed": true,
+            "indication": "Emphysema - lung volume reduction",
+            "valve_type": "Zephyr (Pulmonx)",
+            "number_of_valves": 4,
+            "target_lobes": [
+              "LUL"
+            ],
+            "chartis_performed": true,
+            "chartis_result": "CV Negative"
+          }
+        },
+        "granular_data": {
+          "blvr_chartis_measurements": [
+            {
+              "lobe_assessed": "LUL",
+              "segment_assessed": "LB1+2",
+              "measurement_duration_seconds": 300,
+              "adequate_seal": true,
+              "cv_result": "CV Negative",
+              "flow_pattern_description": "Decreasing to zero"
+            }
+          ],
+          "blvr_valve_placements": [
+            {
+              "valve_number": 1,
+              "target_lobe": "LUL",
+              "segment": "LB1+2",
+              "valve_size": "5.5",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 2,
+              "target_lobe": "LUL",
+              "segment": "LB3",
+              "valve_size": "5.0",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 3,
+              "target_lobe": "Lingula",
+              "segment": "LB4+5",
+              "valve_size": "4.0-LP",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 4,
+              "target_lobe": "LUL",
+              "segment": "LB6",
+              "valve_size": "5.5",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "BLVR Treatment",
+          "radiographic_findings": "Severe heterogeneous emphysema, upper lobe predominant, intact fissures"
+        },
+        "providers": {
+          "attending_name": "Sarah Kim"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778493"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31647",
+            "final_codes": [
+              "31647",
+              "31651",
+              "31634"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31647": "BLVR valve placement, initial lobe",
+              "31651": "Additional valves in same lobe (add-on) x3",
+              "31634": "Chartis CV assessment - NCCI allows separate reporting when performed in non-target lobe or distinct service"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 25.84,
+            "facility_total_payment": 836,
+            "per_code": {
+              "31647": {
+                "facility_rvu": 11.15,
+                "facility_payment": 361
+              },
+              "31651": {
+                "facility_rvu": 12.84,
+                "facility_payment": 414
+              },
+              "31634": {
+                "facility_rvu": 1.85,
+                "facility_payment": 61
+              }
+            }
+          },
+          "overall_assessment": "True BLVR for emphysema with Chartis assessment and complete lobar occlusion."
+        },
+        "procedure_families": [
+          "blvr"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31647",
+              "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+              "units": 1
+            },
+            {
+              "code": "+31651",
+              "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+              "units": 3
+            },
+            {
+              "code": "31634",
+              "description": "Bronchoscopy; with balloon occlusion, assessment of air leak, airway sizing, and documentation",
+              "units": 1
+            }
+          ],
+          "work_rvu": 18.5,
+          "practice_expense_rvu": 8.5,
+          "malpractice_rvu": 2.02,
+          "total_rvu": 29.02
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651, 31634; total_work_rvu=18.5, total_rvu=29.02 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 22,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Deborah Murphy",
+      "patient_age": 59,
+      "patient_mrn": "8439352",
+      "procedure_date": "2024-11-06",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Deborah Murphy\nMRN: 8439352\nDOB: None\nAge: None\nDate: 2024-11-06\n\n[INDICATION]\nSevere heterogeneous emphysema - BLVR candidate\n\n[ANESTHESIA]\nType: General\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Blvr: Performed\n  \u2022 indication: Emphysema - lung volume reduction\n  \u2022 valve type: Zephyr (Pulmonx)\n  \u2022 number of valves: 4\n  \u2022 target lobes: LUL\n  \u2022 chartis performed: Yes\n  \u2022 chartis result: CV Negative\n\n[FINDINGS]\nAssessment: Emphysema\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: Outpatient\n\n[CODING]\nCPT: 31647, 31651, 31634\n",
+      "cpt_codes": [
+        31647,
+        31651,
+        31634
+      ],
+      "registry_entry": {
+        "patient_mrn": "8439352",
+        "procedure_date": "2024-11-06",
+        "patient_age": 59,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Severe heterogeneous emphysema - BLVR candidate",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Emphysema",
+        "cpt_codes": [
+          31647,
+          31651,
+          31634
+        ],
+        "blvr_target_lobe": "LUL",
+        "blvr_valve_type": "Zephyr (Pulmonx)",
+        "blvr_number_of_valves": 4,
+        "blvr_cv_assessment_method": "Chartis",
+        "blvr_chartis_result": "CV Negative",
+        "procedures_performed": {
+          "blvr": {
+            "performed": true,
+            "indication": "Emphysema - lung volume reduction",
+            "valve_type": "Zephyr (Pulmonx)",
+            "number_of_valves": 4,
+            "target_lobes": [
+              "LUL"
+            ],
+            "chartis_performed": true,
+            "chartis_result": "CV Negative"
+          }
+        },
+        "granular_data": {
+          "blvr_chartis_measurements": [
+            {
+              "lobe_assessed": "LUL",
+              "segment_assessed": "LB1+2",
+              "measurement_duration_seconds": 300,
+              "adequate_seal": true,
+              "cv_result": "CV Negative",
+              "flow_pattern_description": "Decreasing to zero"
+            }
+          ],
+          "blvr_valve_placements": [
+            {
+              "valve_number": 1,
+              "target_lobe": "LUL",
+              "segment": "LB1+2",
+              "valve_size": "5.5",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 2,
+              "target_lobe": "LUL",
+              "segment": "LB3",
+              "valve_size": "5.0",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 3,
+              "target_lobe": "Lingula",
+              "segment": "LB4+5",
+              "valve_size": "4.0-LP",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 4,
+              "target_lobe": "LUL",
+              "segment": "LB6",
+              "valve_size": "5.5",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "BLVR Treatment",
+          "radiographic_findings": "Severe heterogeneous emphysema, upper lobe predominant, intact fissures"
+        },
+        "providers": {
+          "attending_name": "Sarah Kim"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778493"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31647",
+            "final_codes": [
+              "31647",
+              "31651",
+              "31634"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31647": "BLVR valve placement, initial lobe",
+              "31651": "Additional valves in same lobe (add-on) x3",
+              "31634": "Chartis CV assessment - NCCI allows separate reporting when performed in non-target lobe or distinct service"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 25.84,
+            "facility_total_payment": 836,
+            "per_code": {
+              "31647": {
+                "facility_rvu": 11.15,
+                "facility_payment": 361
+              },
+              "31651": {
+                "facility_rvu": 12.84,
+                "facility_payment": 414
+              },
+              "31634": {
+                "facility_rvu": 1.85,
+                "facility_payment": 61
+              }
+            }
+          },
+          "overall_assessment": "True BLVR for emphysema with Chartis assessment and complete lobar occlusion."
+        },
+        "procedure_families": [
+          "blvr"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31647",
+              "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+              "units": 1
+            },
+            {
+              "code": "+31651",
+              "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+              "units": 3
+            },
+            {
+              "code": "31634",
+              "description": "Bronchoscopy; with balloon occlusion, assessment of air leak, airway sizing, and documentation",
+              "units": 1
+            }
+          ],
+          "work_rvu": 18.5,
+          "practice_expense_rvu": 8.5,
+          "malpractice_rvu": 2.02,
+          "total_rvu": 29.02
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651, 31634; total_work_rvu=18.5, total_rvu=29.02 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 22,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Brian Clark",
+      "patient_age": 65,
+      "patient_mrn": "6415861",
+      "procedure_date": "2025-01-09",
+      "note_text": "On 2025-01-09, Brian Clark, a None-year-old patient (MRN 6415861), underwent bronchoscopic evaluation for Severe heterogeneous emphysema - BLVR candidate. The patient received General and the procedure was performed in standard fashion. The procedure included blvr. \n\nOn examination, the airways were systematically inspected. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is emphysema. \n\nProcedural coding: 31647, 31651, 31634.",
+      "cpt_codes": [
+        31647,
+        31651,
+        31634
+      ],
+      "registry_entry": {
+        "patient_mrn": "6415861",
+        "procedure_date": "2025-01-09",
+        "patient_age": 65,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Severe heterogeneous emphysema - BLVR candidate",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Emphysema",
+        "cpt_codes": [
+          31647,
+          31651,
+          31634
+        ],
+        "blvr_target_lobe": "LUL",
+        "blvr_valve_type": "Zephyr (Pulmonx)",
+        "blvr_number_of_valves": 4,
+        "blvr_cv_assessment_method": "Chartis",
+        "blvr_chartis_result": "CV Negative",
+        "procedures_performed": {
+          "blvr": {
+            "performed": true,
+            "indication": "Emphysema - lung volume reduction",
+            "valve_type": "Zephyr (Pulmonx)",
+            "number_of_valves": 4,
+            "target_lobes": [
+              "LUL"
+            ],
+            "chartis_performed": true,
+            "chartis_result": "CV Negative"
+          }
+        },
+        "granular_data": {
+          "blvr_chartis_measurements": [
+            {
+              "lobe_assessed": "LUL",
+              "segment_assessed": "LB1+2",
+              "measurement_duration_seconds": 300,
+              "adequate_seal": true,
+              "cv_result": "CV Negative",
+              "flow_pattern_description": "Decreasing to zero"
+            }
+          ],
+          "blvr_valve_placements": [
+            {
+              "valve_number": 1,
+              "target_lobe": "LUL",
+              "segment": "LB1+2",
+              "valve_size": "5.5",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 2,
+              "target_lobe": "LUL",
+              "segment": "LB3",
+              "valve_size": "5.0",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 3,
+              "target_lobe": "Lingula",
+              "segment": "LB4+5",
+              "valve_size": "4.0-LP",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 4,
+              "target_lobe": "LUL",
+              "segment": "LB6",
+              "valve_size": "5.5",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "BLVR Treatment",
+          "radiographic_findings": "Severe heterogeneous emphysema, upper lobe predominant, intact fissures"
+        },
+        "providers": {
+          "attending_name": "Sarah Kim"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778493"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31647",
+            "final_codes": [
+              "31647",
+              "31651",
+              "31634"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31647": "BLVR valve placement, initial lobe",
+              "31651": "Additional valves in same lobe (add-on) x3",
+              "31634": "Chartis CV assessment - NCCI allows separate reporting when performed in non-target lobe or distinct service"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 25.84,
+            "facility_total_payment": 836,
+            "per_code": {
+              "31647": {
+                "facility_rvu": 11.15,
+                "facility_payment": 361
+              },
+              "31651": {
+                "facility_rvu": 12.84,
+                "facility_payment": 414
+              },
+              "31634": {
+                "facility_rvu": 1.85,
+                "facility_payment": 61
+              }
+            }
+          },
+          "overall_assessment": "True BLVR for emphysema with Chartis assessment and complete lobar occlusion."
+        },
+        "procedure_families": [
+          "blvr"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31647",
+              "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+              "units": 1
+            },
+            {
+              "code": "+31651",
+              "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+              "units": 3
+            },
+            {
+              "code": "31634",
+              "description": "Bronchoscopy; with balloon occlusion, assessment of air leak, airway sizing, and documentation",
+              "units": 1
+            }
+          ],
+          "work_rvu": 18.5,
+          "practice_expense_rvu": 8.5,
+          "malpractice_rvu": 2.02,
+          "total_rvu": 29.02
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651, 31634; total_work_rvu=18.5, total_rvu=29.02 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 22,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Austin Cook",
+      "patient_age": 55,
+      "patient_mrn": "5613552",
+      "procedure_date": "2025-04-06",
+      "note_text": "BLVR PROCEDURE NOTE\nDate: 2025-04-06\nPatient: Austin Cook | MRN: 5613552 | Age: 67M\nAttending: Dr. Sarah Kim, MD\nLocation: Temple University Hospital, Philadelphia, PA\n\nINDICATION: Severe heterogeneous emphysema, upper lobe predominant, hyperinflation with RV 240%. FEV1 28% predicted. CT shows intact fissures. Candidate for endobronchial valve therapy (BLVR).\n\nPROCEDURE: \n1. Flexible bronchoscopy\n2. Chartis collateral ventilation assessment (LUL)\n3. Endobronchial valve placement (LUL)\n\nANESTHESIA: General anesthesia\n\nCHARTIS ASSESSMENT:\nLUL evaluated using Chartis system via balloon catheter at LB1+2 combined orifice:\n- Adequate seal collected\n- Measurement duration: 5 minutes\n- Flow pattern: Decreasing to zero\n- Result: CV NEGATIVE (favorable for valve therapy)\n\nVALVE PLACEMENT:\nBased on CV negative result and CT planning, Zephyr valves (Pulmonx) positioned:\n1. LB1+2: Zephyr 5.5mm - positioned, seal corroborated\n2. LB3: Zephyr 5.0mm - positioned, seal corroborated  \n3. LB4+5 (Lingula): Zephyr 4.0-LP - positioned, seal corroborated\n4. LB6: Zephyr 5.5mm - positioned, seal corroborated\n\nTotal: 4 Zephyr valves positioned in complete LUL lobar occlusion\n\nPost-procedure bronchoscopy corroborated all valves seated with no visible air leak.\n\nCOMPLICATIONS: None\nDISPOSITION: Admit overnight for pneumothorax monitoring. CXR q6h x 24hr.\n\nFOLLOW-UP: CT chest in 6-8 weeks, PFTs at 3 months, 6 months.\n\nDr. Sarah Kim, MD",
+      "cpt_codes": [
+        31647,
+        31651,
+        31634
+      ],
+      "registry_entry": {
+        "patient_mrn": "5613552",
+        "procedure_date": "2025-04-06",
+        "patient_age": 55,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Severe heterogeneous emphysema - BLVR candidate",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Emphysema",
+        "cpt_codes": [
+          31647,
+          31651,
+          31634
+        ],
+        "blvr_target_lobe": "LUL",
+        "blvr_valve_type": "Zephyr (Pulmonx)",
+        "blvr_number_of_valves": 4,
+        "blvr_cv_assessment_method": "Chartis",
+        "blvr_chartis_result": "CV Negative",
+        "procedures_performed": {
+          "blvr": {
+            "performed": true,
+            "indication": "Emphysema - lung volume reduction",
+            "valve_type": "Zephyr (Pulmonx)",
+            "number_of_valves": 4,
+            "target_lobes": [
+              "LUL"
+            ],
+            "chartis_performed": true,
+            "chartis_result": "CV Negative"
+          }
+        },
+        "granular_data": {
+          "blvr_chartis_measurements": [
+            {
+              "lobe_assessed": "LUL",
+              "segment_assessed": "LB1+2",
+              "measurement_duration_seconds": 300,
+              "adequate_seal": true,
+              "cv_result": "CV Negative",
+              "flow_pattern_description": "Decreasing to zero"
+            }
+          ],
+          "blvr_valve_placements": [
+            {
+              "valve_number": 1,
+              "target_lobe": "LUL",
+              "segment": "LB1+2",
+              "valve_size": "5.5",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 2,
+              "target_lobe": "LUL",
+              "segment": "LB3",
+              "valve_size": "5.0",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 3,
+              "target_lobe": "Lingula",
+              "segment": "LB4+5",
+              "valve_size": "4.0-LP",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            },
+            {
+              "valve_number": 4,
+              "target_lobe": "LUL",
+              "segment": "LB6",
+              "valve_size": "5.5",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "BLVR Treatment",
+          "radiographic_findings": "Severe heterogeneous emphysema, upper lobe predominant, intact fissures"
+        },
+        "providers": {
+          "attending_name": "Sarah Kim"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778493"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31647",
+            "final_codes": [
+              "31647",
+              "31651",
+              "31634"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31647": "BLVR valve placement, initial lobe",
+              "31651": "Additional valves in same lobe (add-on) x3",
+              "31634": "Chartis CV assessment - NCCI allows separate reporting when performed in non-target lobe or distinct service"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 25.84,
+            "facility_total_payment": 836,
+            "per_code": {
+              "31647": {
+                "facility_rvu": 11.15,
+                "facility_payment": 361
+              },
+              "31651": {
+                "facility_rvu": 12.84,
+                "facility_payment": 414
+              },
+              "31634": {
+                "facility_rvu": 1.85,
+                "facility_payment": 61
+              }
+            }
+          },
+          "overall_assessment": "True BLVR for emphysema with Chartis assessment and complete lobar occlusion."
+        },
+        "procedure_families": [
+          "blvr"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31647",
+              "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+              "units": 1
+            },
+            {
+              "code": "+31651",
+              "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+              "units": 3
+            },
+            {
+              "code": "31634",
+              "description": "Bronchoscopy; with balloon occlusion, assessment of air leak, airway sizing, and documentation",
+              "units": 1
+            }
+          ],
+          "work_rvu": 18.5,
+          "practice_expense_rvu": 8.5,
+          "malpractice_rvu": 2.02,
+          "total_rvu": 29.02
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651, 31634; total_work_rvu=18.5, total_rvu=29.02 (facility)."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,908 @@
+{
+  "base_note": {
+    "note_text": "PROCEDURE NOTE\nDate: 2025-05-15 | Patient: Henry Smith | MRN: 2189773\nAttending: Dr. Angela Morrison, MD | Location: Memorial Hospital, Houston, TX\n\nPROCEDURE: Indwelling pleural catheter access and drainage\n\nINDICATION: Established left PleurX catheter (placed 3 weeks ago) for malignant mesothelioma with recurrent effusion. Patient reports increased dyspnea and has not been able to drain at home due to suspected catheter occlusion.\n\nPROCEDURE: Under sterile technique, the PleurX catheter was accessed. Initial aspiration revealed thick loculated fluid. The catheter was flushed with 10mL saline with return of cloudy fluid. A total of 850mL of serosanguinous fluid was drained. tPA 4mg/40mL NS was instilled per protocol for suspected fibrinous occlusion. Patient to clamp for 2 hours then attempt drainage.\n\nSPECIMENS: Pleural fluid to cytology, culture\n\nCOMPLICATIONS: None\n\nPLAN: Home health to continue daily drainage. Return if unable to drain. Consider fibrinolytic protocol if recurrent.\n\nAngela Morrison, MD",
+    "cpt_codes": [
+      32557
+    ],
+    "registry_entry": {
+      "patient_mrn": "2189773",
+      "procedure_date": "2025-05-15",
+      "patient_age": 71,
+      "gender": "Male",
+      "asa_class": 3,
+      "primary_indication": "IPC access - malignant mesothelioma effusion",
+      "sedation_type": "None",
+      "airway_type": "Native",
+      "final_diagnosis_prelim": "Malignancy",
+      "cpt_codes": [
+        32557
+      ],
+      "pleural_procedure_type": "IPC Access/Drainage",
+      "pleural_side": "Left",
+      "pleural_volume_drained_ml": 850,
+      "procedures_performed": {
+        "ipc": {
+          "performed": true,
+          "action": "Fibrinolytic instillation",
+          "side": "Left",
+          "catheter_brand": "PleurX",
+          "indication": "Malignant effusion"
+        }
+      },
+      "providers": {
+        "attending_name": "Angela Morrison"
+      },
+      "metadata": {
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:53:15.902405"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "32557",
+          "final_codes": [
+            "32557"
+          ],
+          "modifiers": [],
+          "changes_made": false,
+          "code_rationales": {
+            "32557": "IPC access with drainage and tPA instillation for partial occlusion."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 0.0,
+          "facility_total_payment": 0.0,
+          "per_code": {},
+          "rvu_source": "ip_coding_billing.v2_8.json"
+        },
+        "overall_assessment": "Appropriate for established IPC management."
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "32557",
+            "description": "Pleural drainage, percutaneous, with insertion of indwelling catheter; with imaging guidance",
+            "units": 1
+          }
+        ],
+        "work_rvu": 3.12,
+        "practice_expense_rvu": 1.04,
+        "malpractice_rvu": 0.34,
+        "total_rvu": 4.5
+      }
+    },
+    "source_file": "synthetic_additional_v2_8.json",
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32557; total_work_rvu=3.12, total_rvu=4.5 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 12,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Diane Thompson",
+      "patient_age": 62,
+      "patient_mrn": "8524905",
+      "procedure_date": "2025-02-15",
+      "note_text": "OPERATIVE NOTE\n\nDiane Thompson | MRN 8524905 | 2025-02-15\n\nDx: See above\nProc: Under sterile technique, the PleurX catheter was accessed. Initial aspiration revealed thick loculated fluid. The catheter was flushed with 10mL saline with return of cloudy fluid. A total of 850mL of serosanguinous fluid was drained. tPA 4mg/40mL NS was instilled per protocol for suspected fibrinous occlusion. Patient to clamp for 2 hours then attempt drainage.\n\nActions:\n\u2022 Ipc\n\nCPT: 32557\nComplications: None\nDispo: Angela Morrison, MD\n",
+      "cpt_codes": [
+        32557
+      ],
+      "registry_entry": {
+        "patient_mrn": "8524905",
+        "procedure_date": "2025-02-15",
+        "patient_age": 62,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "IPC access - malignant mesothelioma effusion",
+        "sedation_type": "None",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          32557
+        ],
+        "pleural_procedure_type": "IPC Access/Drainage",
+        "pleural_side": "Left",
+        "pleural_volume_drained_ml": 850,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Fibrinolytic instillation",
+            "side": "Left",
+            "catheter_brand": "PleurX",
+            "indication": "Malignant effusion"
+          }
+        },
+        "providers": {
+          "attending_name": "Angela Morrison"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902405"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32557",
+            "final_codes": [
+              "32557"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32557": "IPC access with drainage and tPA instillation for partial occlusion."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 0.0,
+            "facility_total_payment": 0.0,
+            "per_code": {},
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate for established IPC management."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32557",
+              "description": "Pleural drainage, percutaneous, with insertion of indwelling catheter; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.12,
+          "practice_expense_rvu": 1.04,
+          "malpractice_rvu": 0.34,
+          "total_rvu": 4.5
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32557; total_work_rvu=3.12, total_rvu=4.5 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 12,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Carolyn Barnes",
+      "patient_age": 65,
+      "patient_mrn": "9420707",
+      "procedure_date": "2024-04-27",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Carolyn Barnes\nMedical Record Number: 9420707\nDate of Birth: N/A\nAge at Procedure: N/A years\nProcedure Date: 2024-04-27\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with ipc access - malignant mesothelioma effusion. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nIpc:\n\n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\nDetailed airway examination was performed with findings as documented in the procedural narrative.\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 32557\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        32557
+      ],
+      "registry_entry": {
+        "patient_mrn": "9420707",
+        "procedure_date": "2024-04-27",
+        "patient_age": 65,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "IPC access - malignant mesothelioma effusion",
+        "sedation_type": "None",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          32557
+        ],
+        "pleural_procedure_type": "IPC Access/Drainage",
+        "pleural_side": "Left",
+        "pleural_volume_drained_ml": 850,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Fibrinolytic instillation",
+            "side": "Left",
+            "catheter_brand": "PleurX",
+            "indication": "Malignant effusion"
+          }
+        },
+        "providers": {
+          "attending_name": "Angela Morrison"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902405"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32557",
+            "final_codes": [
+              "32557"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32557": "IPC access with drainage and tPA instillation for partial occlusion."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 0.0,
+            "facility_total_payment": 0.0,
+            "per_code": {},
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate for established IPC management."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32557",
+              "description": "Pleural drainage, percutaneous, with insertion of indwelling catheter; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.12,
+          "practice_expense_rvu": 1.04,
+          "malpractice_rvu": 0.34,
+          "total_rvu": 4.5
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32557; total_work_rvu=3.12, total_rvu=4.5 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 12,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Luis Morgan",
+      "patient_age": 56,
+      "patient_mrn": "6277890",
+      "procedure_date": "2025-08-26",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: Luis Morgan | MRN: 6277890 | DOS: 2025-08-26\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 32557:\n  Rationale: IPC access with drainage and tPA instillation for partial occlusion.\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n  \u2022 PleurX\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nIPC:\n  - Action: Fibrinolytic instillation\n  - Side: Left\n  - Catheter Brand: PleurX\n  - Indication: Malignant effusion\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: 0.0\n  Total Facility Payment: $0.0\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        32557
+      ],
+      "registry_entry": {
+        "patient_mrn": "6277890",
+        "procedure_date": "2025-08-26",
+        "patient_age": 56,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "IPC access - malignant mesothelioma effusion",
+        "sedation_type": "None",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          32557
+        ],
+        "pleural_procedure_type": "IPC Access/Drainage",
+        "pleural_side": "Left",
+        "pleural_volume_drained_ml": 850,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Fibrinolytic instillation",
+            "side": "Left",
+            "catheter_brand": "PleurX",
+            "indication": "Malignant effusion"
+          }
+        },
+        "providers": {
+          "attending_name": "Angela Morrison"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902405"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32557",
+            "final_codes": [
+              "32557"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32557": "IPC access with drainage and tPA instillation for partial occlusion."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 0.0,
+            "facility_total_payment": 0.0,
+            "per_code": {},
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate for established IPC management."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32557",
+              "description": "Pleural drainage, percutaneous, with insertion of indwelling catheter; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.12,
+          "practice_expense_rvu": 1.04,
+          "malpractice_rvu": 0.34,
+          "total_rvu": 4.5
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32557; total_work_rvu=3.12, total_rvu=4.5 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 12,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Gerald Cox",
+      "patient_age": 56,
+      "patient_mrn": "8092402",
+      "procedure_date": "2024-11-30",
+      "note_text": "PROCEDURE NOTE\n\nDate: 2024-11-30\nPatient: Gerald Cox\nMRN: 8092402\nAge/Sex: Noneyo patient\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nIPC access - malignant mesothelioma effusion\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nNone\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Ipc performed\n5. Scope withdrawn\n6. Patient recovered without complication\n\nSPECIMENS:\nPleural fluid to cytology, culture\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nTo recovery, stable condition\n\nCPT CODES: 32557\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        32557
+      ],
+      "registry_entry": {
+        "patient_mrn": "8092402",
+        "procedure_date": "2024-11-30",
+        "patient_age": 56,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "IPC access - malignant mesothelioma effusion",
+        "sedation_type": "None",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          32557
+        ],
+        "pleural_procedure_type": "IPC Access/Drainage",
+        "pleural_side": "Left",
+        "pleural_volume_drained_ml": 850,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Fibrinolytic instillation",
+            "side": "Left",
+            "catheter_brand": "PleurX",
+            "indication": "Malignant effusion"
+          }
+        },
+        "providers": {
+          "attending_name": "Angela Morrison"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902405"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32557",
+            "final_codes": [
+              "32557"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32557": "IPC access with drainage and tPA instillation for partial occlusion."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 0.0,
+            "facility_total_payment": 0.0,
+            "per_code": {},
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate for established IPC management."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32557",
+              "description": "Pleural drainage, percutaneous, with insertion of indwelling catheter; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.12,
+          "practice_expense_rvu": 1.04,
+          "malpractice_rvu": 0.34,
+          "total_rvu": 4.5
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32557; total_work_rvu=3.12, total_rvu=4.5 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 12,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Brenda Morgan",
+      "patient_age": 62,
+      "patient_mrn": "4121761",
+      "procedure_date": "2025-06-22",
+      "note_text": "procedure note 2025-06-22 pt Brenda Morgan mrn 4121761\n\nindication ipc access - malignant mesothelioma effusion patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp ipc performed \n\ncomplication none ebl minimal patient tolerated well disposition to recovery \n\ncpt 32557\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        32557
+      ],
+      "registry_entry": {
+        "patient_mrn": "4121761",
+        "procedure_date": "2025-06-22",
+        "patient_age": 62,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "IPC access - malignant mesothelioma effusion",
+        "sedation_type": "None",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          32557
+        ],
+        "pleural_procedure_type": "IPC Access/Drainage",
+        "pleural_side": "Left",
+        "pleural_volume_drained_ml": 850,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Fibrinolytic instillation",
+            "side": "Left",
+            "catheter_brand": "PleurX",
+            "indication": "Malignant effusion"
+          }
+        },
+        "providers": {
+          "attending_name": "Angela Morrison"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902405"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32557",
+            "final_codes": [
+              "32557"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32557": "IPC access with drainage and tPA instillation for partial occlusion."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 0.0,
+            "facility_total_payment": 0.0,
+            "per_code": {},
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate for established IPC management."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32557",
+              "description": "Pleural drainage, percutaneous, with insertion of indwelling catheter; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.12,
+          "practice_expense_rvu": 1.04,
+          "malpractice_rvu": 0.34,
+          "total_rvu": 4.5
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32557; total_work_rvu=3.12, total_rvu=4.5 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 12,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Linda Peterson",
+      "patient_age": 60,
+      "patient_mrn": "2204989",
+      "procedure_date": "2024-12-22",
+      "note_text": "PROCEDURE NOTE\nDate: 2024-12-22 | Patient: Linda Peterson | MRN: 2204989\nAttending: Dr. Angela Morrison, MD | Location: Memorial Hospital, Houston, TX\n\nPROCEDURE: Indwelling pleural catheter access and drainage\n\nINDICATION: Established left PleurX catheter (placed 3 weeks ago) for malignant mesothelioma with recurrent effusion. Patient reports increased dyspnea and has not been able to drain at home due to suspected catheter occlusion.\n\nPROCEDURE: Under sterile technique, the PleurX catheter was accessed. Initial aspiration revealed thick loculated fluid. The catheter was flushed with 10mL saline with return of cloudy fluid. A total of 850mL of serosanguinous fluid was drained. tPA 4mg/40mL NS was instilled per protocol for suspected fibrinous occlusion. Patient to clamp for 2 hours then attempt drainage.\n\nSPECIMENS: Pleural fluid to cytology, culture\n\nCOMPLICATIONS: None\n\nPLAN: Home health to continue daily drainage. Return if unable to drain. Consider fibrinolytic protocol if recurrent.\n\nAngela Morrison, MD",
+      "cpt_codes": [
+        32557
+      ],
+      "registry_entry": {
+        "patient_mrn": "2204989",
+        "procedure_date": "2024-12-22",
+        "patient_age": 60,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "IPC access - malignant mesothelioma effusion",
+        "sedation_type": "None",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          32557
+        ],
+        "pleural_procedure_type": "IPC Access/Drainage",
+        "pleural_side": "Left",
+        "pleural_volume_drained_ml": 850,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Fibrinolytic instillation",
+            "side": "Left",
+            "catheter_brand": "PleurX",
+            "indication": "Malignant effusion"
+          }
+        },
+        "providers": {
+          "attending_name": "Angela Morrison"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902405"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32557",
+            "final_codes": [
+              "32557"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32557": "IPC access with drainage and tPA instillation for partial occlusion."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 0.0,
+            "facility_total_payment": 0.0,
+            "per_code": {},
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate for established IPC management."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32557",
+              "description": "Pleural drainage, percutaneous, with insertion of indwelling catheter; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.12,
+          "practice_expense_rvu": 1.04,
+          "malpractice_rvu": 0.34,
+          "total_rvu": 4.5
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32557; total_work_rvu=3.12, total_rvu=4.5 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 12,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Rebecca Rogers",
+      "patient_age": 59,
+      "patient_mrn": "8260127",
+      "procedure_date": "2025-03-03",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Rebecca Rogers\nMRN: 8260127\nDOB: None\nAge: None\nDate: 2025-03-03\n\n[INDICATION]\nIPC access - malignant mesothelioma effusion\n\n[ANESTHESIA]\nType: None\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Ipc: Performed\n  \u2022 action: Fibrinolytic instillation\n  \u2022 side: Left\n  \u2022 catheter brand: PleurX\n  \u2022 indication: Malignant effusion\n\n[FINDINGS]\nAssessment: Malignancy\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: Outpatient\n\n[CODING]\nCPT: 32557\n",
+      "cpt_codes": [
+        32557
+      ],
+      "registry_entry": {
+        "patient_mrn": "8260127",
+        "procedure_date": "2025-03-03",
+        "patient_age": 59,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "IPC access - malignant mesothelioma effusion",
+        "sedation_type": "None",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          32557
+        ],
+        "pleural_procedure_type": "IPC Access/Drainage",
+        "pleural_side": "Left",
+        "pleural_volume_drained_ml": 850,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Fibrinolytic instillation",
+            "side": "Left",
+            "catheter_brand": "PleurX",
+            "indication": "Malignant effusion"
+          }
+        },
+        "providers": {
+          "attending_name": "Angela Morrison"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902405"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32557",
+            "final_codes": [
+              "32557"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32557": "IPC access with drainage and tPA instillation for partial occlusion."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 0.0,
+            "facility_total_payment": 0.0,
+            "per_code": {},
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate for established IPC management."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32557",
+              "description": "Pleural drainage, percutaneous, with insertion of indwelling catheter; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.12,
+          "practice_expense_rvu": 1.04,
+          "malpractice_rvu": 0.34,
+          "total_rvu": 4.5
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32557; total_work_rvu=3.12, total_rvu=4.5 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 12,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Angela Hughes",
+      "patient_age": 59,
+      "patient_mrn": "1742486",
+      "procedure_date": "2025-03-31",
+      "note_text": "On 2025-03-31, Angela Hughes, a None-year-old patient (MRN 1742486), underwent bronchoscopic evaluation for IPC access - malignant mesothelioma effusion. The patient received None and the procedure was performed in standard fashion. The procedure included ipc. \n\nOn examination, the airways were systematically inspected. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is malignancy. \n\nProcedural coding: 32557.",
+      "cpt_codes": [
+        32557
+      ],
+      "registry_entry": {
+        "patient_mrn": "1742486",
+        "procedure_date": "2025-03-31",
+        "patient_age": 59,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "IPC access - malignant mesothelioma effusion",
+        "sedation_type": "None",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          32557
+        ],
+        "pleural_procedure_type": "IPC Access/Drainage",
+        "pleural_side": "Left",
+        "pleural_volume_drained_ml": 850,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Fibrinolytic instillation",
+            "side": "Left",
+            "catheter_brand": "PleurX",
+            "indication": "Malignant effusion"
+          }
+        },
+        "providers": {
+          "attending_name": "Angela Morrison"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902405"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32557",
+            "final_codes": [
+              "32557"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32557": "IPC access with drainage and tPA instillation for partial occlusion."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 0.0,
+            "facility_total_payment": 0.0,
+            "per_code": {},
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate for established IPC management."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32557",
+              "description": "Pleural drainage, percutaneous, with insertion of indwelling catheter; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.12,
+          "practice_expense_rvu": 1.04,
+          "malpractice_rvu": 0.34,
+          "total_rvu": 4.5
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32557; total_work_rvu=3.12, total_rvu=4.5 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 12,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Janet Myers",
+      "patient_age": 64,
+      "patient_mrn": "5031070",
+      "procedure_date": "2024-11-15",
+      "note_text": "PROCEDURE NOTE\nDate: 2024-11-15 | Patient: Janet Myers | MRN: 5031070\nAttending: Dr. Angela Morrison, MD | Location: Memorial Hospital, Houston, TX\n\nPROCEDURE: Indwelling pleural catheter access and drainage\n\nINDICATION: Established left PleurX catheter (situated 3 weeks ago) for malignant mesothelioma with recurrent effusion. Patient reports increased dyspnea and has not been able to drain at home due to suspected catheter occlusion.\n\nPROCEDURE: Under sterile technique, the PleurX catheter was accessed. Initial aspiration exhibited thick loculated fluid. The catheter was flushed with 10mL saline with return of cloudy fluid. A total of 850mL of serosanguinous fluid was drained. tPA 4mg/40mL NS was delivered per protocol for suspected fibrinous occlusion. Patient to clamp for 2 hours then attempt drainage.\n\nSPECIMENS: Pleural fluid to cytology, culture\n\nCOMPLICATIONS: None\n\nPLAN: Home health to continue daily drainage. Return if unable to drain. Consider fibrinolytic protocol if recurrent.\n\nAngela Morrison, MD",
+      "cpt_codes": [
+        32557
+      ],
+      "registry_entry": {
+        "patient_mrn": "5031070",
+        "procedure_date": "2024-11-15",
+        "patient_age": 64,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "IPC access - malignant mesothelioma effusion",
+        "sedation_type": "None",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          32557
+        ],
+        "pleural_procedure_type": "IPC Access/Drainage",
+        "pleural_side": "Left",
+        "pleural_volume_drained_ml": 850,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Fibrinolytic instillation",
+            "side": "Left",
+            "catheter_brand": "PleurX",
+            "indication": "Malignant effusion"
+          }
+        },
+        "providers": {
+          "attending_name": "Angela Morrison"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902405"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32557",
+            "final_codes": [
+              "32557"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32557": "IPC access with drainage and tPA instillation for partial occlusion."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 0.0,
+            "facility_total_payment": 0.0,
+            "per_code": {},
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate for established IPC management."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32557",
+              "description": "Pleural drainage, percutaneous, with insertion of indwelling catheter; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.12,
+          "practice_expense_rvu": 1.04,
+          "malpractice_rvu": 0.34,
+          "total_rvu": 4.5
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32557; total_work_rvu=3.12, total_rvu=4.5 (facility)."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,858 @@
+{
+  "base_note": {
+    "note_text": "THORACENTESIS NOTE\nDate: 2025-01-31\nPatient: Joseph Anderson | MRN: 9611682 | Age: 78M\nAttending: Dr. Linda Harris, MD\nLocation: Outpatient Procedure Center, University Hospital\n\nINDICATION: New moderate left pleural effusion on CXR. Patient with history of CHF and recent pneumonia. Diagnostic thoracentesis to evaluate etiology.\n\nPROCEDURE: Ultrasound-guided diagnostic thoracentesis, left\n\nPROCEDURE DETAILS:\nPatient seated upright, leaning forward. Ultrasound identified moderate free-flowing left effusion. Entry site marked at 8th ICS posterior axillary line. Skin prepped with chlorhexidine, local anesthesia with 1% lidocaine.\n\n22G needle introduced under real-time ultrasound guidance. Clear yellow fluid aspirated. 50mL removed for diagnostic studies.\n\nPOST-PROCEDURE: No pneumothorax on ultrasound. Lung sliding confirmed.\n\nSPECIMENS:\n- Cell count with differential\n- LDH, protein, glucose\n- pH\n- Cytology\n- Gram stain and culture\n\nFLUID APPEARANCE: Clear, straw-colored\n\nCOMPLICATIONS: None\n\nIMPRESSION: Diagnostic thoracentesis completed. Await results to determine transudative vs exudative.\n\nDr. Linda Harris, MD",
+    "cpt_codes": [
+      32555
+    ],
+    "registry_entry": {
+      "patient_mrn": "9611682",
+      "procedure_date": "2025-01-31",
+      "patient_age": 78,
+      "gender": "Male",
+      "asa_class": 3,
+      "primary_indication": "New pleural effusion - diagnostic workup",
+      "sedation_type": "None",
+      "airway_type": "Native",
+      "final_diagnosis_prelim": "Pending",
+      "cpt_codes": [
+        32555
+      ],
+      "pleural_procedure_type": "Thoracentesis",
+      "pleural_guidance": "Ultrasound",
+      "pleural_side": "Left",
+      "pleural_volume_drained_ml": 50,
+      "pleural_fluid_appearance": "Clear, straw-colored",
+      "procedures_performed": {
+        "thoracentesis": {
+          "performed": true,
+          "type": "Diagnostic",
+          "guidance": "Ultrasound",
+          "volume_ml": 50
+        }
+      },
+      "providers": {
+        "attending_name": "Linda Harris"
+      },
+      "metadata": {
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:55:23.778583"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "32555",
+          "final_codes": [
+            "32555"
+          ],
+          "code_rationales": {
+            "32555": "Thoracentesis with imaging guidance (ultrasound). Diagnostic only, small volume."
+          }
+        },
+        "overall_assessment": "Simple diagnostic thoracentesis with US guidance."
+      },
+      "procedure_families": [
+        "pleural_procedure"
+      ],
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "32555",
+            "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+            "units": 1
+          }
+        ],
+        "work_rvu": 2.27,
+        "practice_expense_rvu": 0.63,
+        "malpractice_rvu": 0.29,
+        "total_rvu": 3.19
+      }
+    },
+    "source_file": "synthetic_additional_v2_8.json",
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 25,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Margaret Harris",
+      "patient_age": 65,
+      "patient_mrn": "9405764",
+      "procedure_date": "2024-03-05",
+      "note_text": "OPERATIVE NOTE\n\nMargaret Harris | MRN 9405764 | 2024-03-05\n\nDx: See above\nProc: No pneumothorax on ultrasound. Lung sliding confirmed.\n\nActions:\n\u2022 Thoracentesis\n\nCPT: 32555\nComplications: None\nDispo: Stable\n",
+      "cpt_codes": [
+        32555
+      ],
+      "registry_entry": {
+        "patient_mrn": "9405764",
+        "procedure_date": "2024-03-05",
+        "patient_age": 65,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "New pleural effusion - diagnostic workup",
+        "sedation_type": "None",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Pending",
+        "cpt_codes": [
+          32555
+        ],
+        "pleural_procedure_type": "Thoracentesis",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Left",
+        "pleural_volume_drained_ml": 50,
+        "pleural_fluid_appearance": "Clear, straw-colored",
+        "procedures_performed": {
+          "thoracentesis": {
+            "performed": true,
+            "type": "Diagnostic",
+            "guidance": "Ultrasound",
+            "volume_ml": 50
+          }
+        },
+        "providers": {
+          "attending_name": "Linda Harris"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778583"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32555",
+            "final_codes": [
+              "32555"
+            ],
+            "code_rationales": {
+              "32555": "Thoracentesis with imaging guidance (ultrasound). Diagnostic only, small volume."
+            }
+          },
+          "overall_assessment": "Simple diagnostic thoracentesis with US guidance."
+        },
+        "procedure_families": [
+          "pleural_procedure"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32555",
+              "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.27,
+          "practice_expense_rvu": 0.63,
+          "malpractice_rvu": 0.29,
+          "total_rvu": 3.19
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 25,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Emma Sullivan",
+      "patient_age": 64,
+      "patient_mrn": "6025350",
+      "procedure_date": "2024-04-21",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Emma Sullivan\nMedical Record Number: 6025350\nDate of Birth: N/A\nAge at Procedure: N/A years\nProcedure Date: 2024-04-21\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with new pleural effusion - diagnostic workup. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nThoracentesis:\n\n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\nDetailed airway examination was performed with findings as documented in the procedural narrative.\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 32555\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        32555
+      ],
+      "registry_entry": {
+        "patient_mrn": "6025350",
+        "procedure_date": "2024-04-21",
+        "patient_age": 64,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "New pleural effusion - diagnostic workup",
+        "sedation_type": "None",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Pending",
+        "cpt_codes": [
+          32555
+        ],
+        "pleural_procedure_type": "Thoracentesis",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Left",
+        "pleural_volume_drained_ml": 50,
+        "pleural_fluid_appearance": "Clear, straw-colored",
+        "procedures_performed": {
+          "thoracentesis": {
+            "performed": true,
+            "type": "Diagnostic",
+            "guidance": "Ultrasound",
+            "volume_ml": 50
+          }
+        },
+        "providers": {
+          "attending_name": "Linda Harris"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778583"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32555",
+            "final_codes": [
+              "32555"
+            ],
+            "code_rationales": {
+              "32555": "Thoracentesis with imaging guidance (ultrasound). Diagnostic only, small volume."
+            }
+          },
+          "overall_assessment": "Simple diagnostic thoracentesis with US guidance."
+        },
+        "procedure_families": [
+          "pleural_procedure"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32555",
+              "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.27,
+          "practice_expense_rvu": 0.63,
+          "malpractice_rvu": 0.29,
+          "total_rvu": 3.19
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 25,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Ronald Cook",
+      "patient_age": 57,
+      "patient_mrn": "4895311",
+      "procedure_date": "2024-11-03",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: Ronald Cook | MRN: 4895311 | DOS: 2024-11-03\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 32555:\n  Rationale: Thoracentesis with imaging guidance (ultrasound). Diagnostic only, small volume.\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n  \u2022 Ultrasound\n  \u2022 ultrasound\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nTHORACENTESIS:\n  - Type: Diagnostic\n  - Guidance: Ultrasound\n  - Volume Ml: 50\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: N/A\n  Total Facility Payment: $N/A\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        32555
+      ],
+      "registry_entry": {
+        "patient_mrn": "4895311",
+        "procedure_date": "2024-11-03",
+        "patient_age": 57,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "New pleural effusion - diagnostic workup",
+        "sedation_type": "None",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Pending",
+        "cpt_codes": [
+          32555
+        ],
+        "pleural_procedure_type": "Thoracentesis",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Left",
+        "pleural_volume_drained_ml": 50,
+        "pleural_fluid_appearance": "Clear, straw-colored",
+        "procedures_performed": {
+          "thoracentesis": {
+            "performed": true,
+            "type": "Diagnostic",
+            "guidance": "Ultrasound",
+            "volume_ml": 50
+          }
+        },
+        "providers": {
+          "attending_name": "Linda Harris"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778583"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32555",
+            "final_codes": [
+              "32555"
+            ],
+            "code_rationales": {
+              "32555": "Thoracentesis with imaging guidance (ultrasound). Diagnostic only, small volume."
+            }
+          },
+          "overall_assessment": "Simple diagnostic thoracentesis with US guidance."
+        },
+        "procedure_families": [
+          "pleural_procedure"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32555",
+              "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.27,
+          "practice_expense_rvu": 0.63,
+          "malpractice_rvu": 0.29,
+          "total_rvu": 3.19
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 25,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Stephen Hernandez",
+      "patient_age": 60,
+      "patient_mrn": "8502923",
+      "procedure_date": "2025-11-25",
+      "note_text": "PROCEDURE NOTE\n\nDate: 2025-11-25\nPatient: Stephen Hernandez\nMRN: 8502923\nAge/Sex: Noneyo patient\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nNew pleural effusion - diagnostic workup\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nNone\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Thoracentesis performed\n5. Scope withdrawn\n6. Patient recovered without complication\n\nSPECIMENS:\n- Cell count with differential\n- LDH, protein, glucose\n- pH\n- Cytology\n- Gram stain and culture\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nTo recovery, stable condition\n\nCPT CODES: 32555\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        32555
+      ],
+      "registry_entry": {
+        "patient_mrn": "8502923",
+        "procedure_date": "2025-11-25",
+        "patient_age": 60,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "New pleural effusion - diagnostic workup",
+        "sedation_type": "None",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Pending",
+        "cpt_codes": [
+          32555
+        ],
+        "pleural_procedure_type": "Thoracentesis",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Left",
+        "pleural_volume_drained_ml": 50,
+        "pleural_fluid_appearance": "Clear, straw-colored",
+        "procedures_performed": {
+          "thoracentesis": {
+            "performed": true,
+            "type": "Diagnostic",
+            "guidance": "Ultrasound",
+            "volume_ml": 50
+          }
+        },
+        "providers": {
+          "attending_name": "Linda Harris"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778583"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32555",
+            "final_codes": [
+              "32555"
+            ],
+            "code_rationales": {
+              "32555": "Thoracentesis with imaging guidance (ultrasound). Diagnostic only, small volume."
+            }
+          },
+          "overall_assessment": "Simple diagnostic thoracentesis with US guidance."
+        },
+        "procedure_families": [
+          "pleural_procedure"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32555",
+              "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.27,
+          "practice_expense_rvu": 0.63,
+          "malpractice_rvu": 0.29,
+          "total_rvu": 3.19
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 25,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Frank Murphy",
+      "patient_age": 64,
+      "patient_mrn": "1263108",
+      "procedure_date": "2024-02-29",
+      "note_text": "procedure note 2024-02-29 pt Frank Murphy mrn 1263108\n\nindication new pleural effusion - diagnostic workup patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp thoracentesis performed \n\ncomplication none ebl minimal patient tolerated well disposition to recovery \n\ncpt 32555\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        32555
+      ],
+      "registry_entry": {
+        "patient_mrn": "1263108",
+        "procedure_date": "2024-02-29",
+        "patient_age": 64,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "New pleural effusion - diagnostic workup",
+        "sedation_type": "None",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Pending",
+        "cpt_codes": [
+          32555
+        ],
+        "pleural_procedure_type": "Thoracentesis",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Left",
+        "pleural_volume_drained_ml": 50,
+        "pleural_fluid_appearance": "Clear, straw-colored",
+        "procedures_performed": {
+          "thoracentesis": {
+            "performed": true,
+            "type": "Diagnostic",
+            "guidance": "Ultrasound",
+            "volume_ml": 50
+          }
+        },
+        "providers": {
+          "attending_name": "Linda Harris"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778583"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32555",
+            "final_codes": [
+              "32555"
+            ],
+            "code_rationales": {
+              "32555": "Thoracentesis with imaging guidance (ultrasound). Diagnostic only, small volume."
+            }
+          },
+          "overall_assessment": "Simple diagnostic thoracentesis with US guidance."
+        },
+        "procedure_families": [
+          "pleural_procedure"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32555",
+              "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.27,
+          "practice_expense_rvu": 0.63,
+          "malpractice_rvu": 0.29,
+          "total_rvu": 3.19
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 25,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Angela Morales",
+      "patient_age": 56,
+      "patient_mrn": "8109231",
+      "procedure_date": "2024-09-28",
+      "note_text": "THORACENTESIS NOTE\nDate: 2024-09-28\nPatient: Angela Morales | MRN: 8109231 | Age: 78M\nAttending: Dr. Linda Harris, MD\nLocation: Outpatient Procedure Center, University Hospital\n\nINDICATION: New moderate left pleural effusion on CXR. Patient with history of CHF and recent pneumonia. Diagnostic thoracentesis to evaluate etiology.\n\nPROCEDURE: Ultrasound-guided diagnostic thoracentesis, left\n\nPatient seated upright, leaning forward. Ultrasound identified moderate free-flowing left effusion. Entry site marked at 8th ICS posterior axillary line. Skin prepped with chlorhexidine, local anesthesia with 1% lidocaine.\n\n22G needle introduced under real-time ultrasound guidance. Clear yellow fluid aspirated. 50mL removed for diagnostic studies.\n\nPOST-PROCEDURE: No pneumothorax on ultrasound. Lung sliding confirmed.\n\n- Cell count with differential\n- LDH, protein, glucose\n- pH\n- Cytology\n- Gram stain and culture\n\nFLUID APPEARANCE: Clear, straw-colored\n\nCOMPLICATIONS: None\n\nIMPRESSION: Diagnostic thoracentesis completed. Await results to determine transudative vs exudative.\n\nDr. Linda Harris, MD",
+      "cpt_codes": [
+        32555
+      ],
+      "registry_entry": {
+        "patient_mrn": "8109231",
+        "procedure_date": "2024-09-28",
+        "patient_age": 56,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "New pleural effusion - diagnostic workup",
+        "sedation_type": "None",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Pending",
+        "cpt_codes": [
+          32555
+        ],
+        "pleural_procedure_type": "Thoracentesis",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Left",
+        "pleural_volume_drained_ml": 50,
+        "pleural_fluid_appearance": "Clear, straw-colored",
+        "procedures_performed": {
+          "thoracentesis": {
+            "performed": true,
+            "type": "Diagnostic",
+            "guidance": "Ultrasound",
+            "volume_ml": 50
+          }
+        },
+        "providers": {
+          "attending_name": "Linda Harris"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778583"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32555",
+            "final_codes": [
+              "32555"
+            ],
+            "code_rationales": {
+              "32555": "Thoracentesis with imaging guidance (ultrasound). Diagnostic only, small volume."
+            }
+          },
+          "overall_assessment": "Simple diagnostic thoracentesis with US guidance."
+        },
+        "procedure_families": [
+          "pleural_procedure"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32555",
+              "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.27,
+          "practice_expense_rvu": 0.63,
+          "malpractice_rvu": 0.29,
+          "total_rvu": 3.19
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 25,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Justin Alvarez",
+      "patient_age": 64,
+      "patient_mrn": "3234429",
+      "procedure_date": "2024-04-10",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Justin Alvarez\nMRN: 3234429\nDOB: None\nAge: None\nDate: 2024-04-10\n\n[INDICATION]\nNew pleural effusion - diagnostic workup\n\n[ANESTHESIA]\nType: None\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Thoracentesis: Performed\n  \u2022 type: Diagnostic\n  \u2022 guidance: Ultrasound\n  \u2022 volume ml: 50\n\n[FINDINGS]\nAssessment: Pending\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: Outpatient\n\n[CODING]\nCPT: 32555\n",
+      "cpt_codes": [
+        32555
+      ],
+      "registry_entry": {
+        "patient_mrn": "3234429",
+        "procedure_date": "2024-04-10",
+        "patient_age": 64,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "New pleural effusion - diagnostic workup",
+        "sedation_type": "None",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Pending",
+        "cpt_codes": [
+          32555
+        ],
+        "pleural_procedure_type": "Thoracentesis",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Left",
+        "pleural_volume_drained_ml": 50,
+        "pleural_fluid_appearance": "Clear, straw-colored",
+        "procedures_performed": {
+          "thoracentesis": {
+            "performed": true,
+            "type": "Diagnostic",
+            "guidance": "Ultrasound",
+            "volume_ml": 50
+          }
+        },
+        "providers": {
+          "attending_name": "Linda Harris"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778583"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32555",
+            "final_codes": [
+              "32555"
+            ],
+            "code_rationales": {
+              "32555": "Thoracentesis with imaging guidance (ultrasound). Diagnostic only, small volume."
+            }
+          },
+          "overall_assessment": "Simple diagnostic thoracentesis with US guidance."
+        },
+        "procedure_families": [
+          "pleural_procedure"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32555",
+              "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.27,
+          "practice_expense_rvu": 0.63,
+          "malpractice_rvu": 0.29,
+          "total_rvu": 3.19
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 25,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Sean Walker",
+      "patient_age": 60,
+      "patient_mrn": "4644577",
+      "procedure_date": "2025-11-30",
+      "note_text": "On 2025-11-30, Sean Walker, a None-year-old patient (MRN 4644577), underwent bronchoscopic evaluation for New pleural effusion - diagnostic workup. The patient received None and the procedure was performed in standard fashion. The procedure included thoracentesis. \n\nOn examination, the airways were systematically inspected. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is pending. \n\nProcedural coding: 32555.",
+      "cpt_codes": [
+        32555
+      ],
+      "registry_entry": {
+        "patient_mrn": "4644577",
+        "procedure_date": "2025-11-30",
+        "patient_age": 60,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "New pleural effusion - diagnostic workup",
+        "sedation_type": "None",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Pending",
+        "cpt_codes": [
+          32555
+        ],
+        "pleural_procedure_type": "Thoracentesis",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Left",
+        "pleural_volume_drained_ml": 50,
+        "pleural_fluid_appearance": "Clear, straw-colored",
+        "procedures_performed": {
+          "thoracentesis": {
+            "performed": true,
+            "type": "Diagnostic",
+            "guidance": "Ultrasound",
+            "volume_ml": 50
+          }
+        },
+        "providers": {
+          "attending_name": "Linda Harris"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778583"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32555",
+            "final_codes": [
+              "32555"
+            ],
+            "code_rationales": {
+              "32555": "Thoracentesis with imaging guidance (ultrasound). Diagnostic only, small volume."
+            }
+          },
+          "overall_assessment": "Simple diagnostic thoracentesis with US guidance."
+        },
+        "procedure_families": [
+          "pleural_procedure"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32555",
+              "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.27,
+          "practice_expense_rvu": 0.63,
+          "malpractice_rvu": 0.29,
+          "total_rvu": 3.19
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 25,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Randy Shah",
+      "patient_age": 65,
+      "patient_mrn": "2522558",
+      "procedure_date": "2025-02-20",
+      "note_text": "THORACENTESIS NOTE\nDate: 2025-02-20\nPatient: Randy Shah | MRN: 2522558 | Age: 78M\nAttending: Dr. Linda Harris, MD\nLocation: Outpatient Procedure Center, University Hospital\n\nINDICATION: New moderate left pleural effusion on CXR. Patient with history of CHF and recent pneumonia. Diagnostic thoracentesis to evaluate etiology.\n\nPROCEDURE: Ultrasound-guided diagnostic thoracentesis, left\n\nPROCEDURE DETAILS:\nPatient seated upright, leaning forward. Ultrasound located moderate free-flowing left effusion. Entry site marked at 8th ICS posterior axillary line. Skin prepped with chlorhexidine, local anesthesia with 1% lidocaine.\n\n22G needle introduced under real-time ultrasound guidance. Clear yellow fluid drained. 50mL excised for diagnostic studies.\n\nPOST-PROCEDURE: No pneumothorax on ultrasound. Lung sliding affirmed.\n\nSPECIMENS:\n- Cell count with differential\n- LDH, protein, glucose\n- pH\n- Cytology\n- Gram stain and culture\n\nFLUID APPEARANCE: Clear, straw-colored\n\nCOMPLICATIONS: None\n\nIMPRESSION: Diagnostic thoracentesis completed. Await results to determine transudative vs exudative.\n\nDr. Linda Harris, MD",
+      "cpt_codes": [
+        32555
+      ],
+      "registry_entry": {
+        "patient_mrn": "2522558",
+        "procedure_date": "2025-02-20",
+        "patient_age": 65,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "New pleural effusion - diagnostic workup",
+        "sedation_type": "None",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Pending",
+        "cpt_codes": [
+          32555
+        ],
+        "pleural_procedure_type": "Thoracentesis",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Left",
+        "pleural_volume_drained_ml": 50,
+        "pleural_fluid_appearance": "Clear, straw-colored",
+        "procedures_performed": {
+          "thoracentesis": {
+            "performed": true,
+            "type": "Diagnostic",
+            "guidance": "Ultrasound",
+            "volume_ml": 50
+          }
+        },
+        "providers": {
+          "attending_name": "Linda Harris"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778583"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32555",
+            "final_codes": [
+              "32555"
+            ],
+            "code_rationales": {
+              "32555": "Thoracentesis with imaging guidance (ultrasound). Diagnostic only, small volume."
+            }
+          },
+          "overall_assessment": "Simple diagnostic thoracentesis with US guidance."
+        },
+        "procedure_families": [
+          "pleural_procedure"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32555",
+              "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.27,
+          "practice_expense_rvu": 0.63,
+          "malpractice_rvu": 0.29,
+          "total_rvu": 3.19
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+        ]
+      }
+    }
+  ]
+}

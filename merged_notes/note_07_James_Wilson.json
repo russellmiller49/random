@@ -1,0 +1,1527 @@
+{
+  "base_note": {
+    "note_text": "BRONCHOSCOPY REPORT\n\nPatient: James Wilson\nMRN: 2866345\nDate of Birth: 11/03/1985\nDate of Procedure: 2025-07-15\nLocation: Cleveland Clinic, Cleveland, OH\n\nAttending: Dr. Erin McCarthy, MD\nFellow: Dr. Alex Rivera, MD (PGY-7)\nRN: Jennifer Adams\nRT: Marcus Thompson\n\nINDICATION: 39-year-old African American male with bilateral hilar lymphadenopathy and scattered bilateral upper lobe perilymphatic nodules on CT chest. Clinical presentation consistent with pulmonary sarcoidosis. Bronchoscopy for tissue diagnosis.\n\nPREOPERATIVE DIAGNOSIS: Suspected pulmonary sarcoidosis, Stage II\n\nPOSTOPERATIVE DIAGNOSIS: Same (pending pathology)\n\nPROCEDURE:\n1. Flexible bronchoscopy\n2. Bronchoalveolar lavage\n3. Fluoroscopic-guided transbronchial lung biopsy, right upper lobe\n\nSEDATION: Moderate sedation (Versed 3mg, Fentanyl 75mcg) with topical lidocaine\n\nPROCEDURE NOTE:\nPatient was sedated and bronchoscope introduced via oral route. Airway examination revealed normal vocal cords, patent trachea, and normal-appearing carina. All visible airways were free of endobronchial abnormalities. Mucosa appeared normal throughout.\n\nBAL was performed in the right middle lobe using 150mL sterile saline (3 x 50mL). Approximately 75mL of slightly turbid fluid was recovered and sent for cell count, differential, CD4/CD8 ratio, cultures, and cytology.\n\nFor transbronchial biopsies, the bronchoscope was advanced into the right upper lobe. Using biplanar fluoroscopy (AP and lateral views), the biopsy forceps (standard cup forceps) were advanced into the RUL anterior segment (RB3) and positioned approximately 2cm from the pleural surface. 8 biopsies were obtained from the right upper lobe, targeting areas of perilymphatic nodularity.\n\nEach specimen was placed in formalin and examined visually - multiple fragments appeared adequate in size. Minimal bleeding occurred, controlled with wedge technique. Repeat fluoroscopy at end of procedure showed no pneumothorax.\n\nFLUOROSCOPY DATA:\n- Total fluoro time: 1.8 min\n- DAP: 24 mGy\u00b7cm\u00b2\n\nSPECIMENS:\n1. BAL - Cell count/diff, CD4/CD8 ratio, bacterial/fungal/AFB cultures, PCP DFA, cytology\n2. TBLB RUL x 8 - Surgical pathology with request for special stains (GMS, AFB)\n\nCOMPLICATIONS: None\n\nESTIMATED BLOOD LOSS: <5mL\n\nPOST-PROCEDURE: Patient recovered well. CXR 2 hours post-procedure showed no pneumothorax. Patient discharged home in stable condition.\n\nIMPRESSION: Airways grossly normal. TBLB and BAL obtained for suspected sarcoidosis workup. Await pathology for non-caseating granulomas and BAL lymphocytosis/elevated CD4:CD8 ratio to confirm diagnosis.\n\nFOLLOW-UP: Return to sarcoidosis clinic in 2 weeks for results.\n\nErin McCarthy, MD\nAlex Rivera, MD",
+    "cpt_codes": [
+      31628,
+      31624
+    ],
+    "registry_entry": {
+      "patient_mrn": "2866345",
+      "procedure_date": "2025-07-15",
+      "patient_age": 39,
+      "gender": "Male",
+      "asa_class": 2,
+      "primary_indication": "Suspected pulmonary sarcoidosis Stage II",
+      "sedation_type": "Moderate",
+      "airway_type": "Native",
+      "final_diagnosis_prelim": "Granulomatous - pending",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "evidence": {
+        "procedure_date": "Date of Procedure: 2025-07-15",
+        "primary_indication": "Bilateral hilar LAD, perilymphatic nodules - suspected sarcoidosis",
+        "guidance": "Biplanar fluoroscopy (AP and lateral)",
+        "tblb_technique": "Standard cup forceps under fluoroscopy"
+      },
+      "institution_name": "Cleveland Clinic, Cleveland, OH",
+      "molecular_testing_requested": false,
+      "disposition": "Outpatient discharge",
+      "bleeding_severity": "Mild",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "bronch_guidance": "Fluoroscopy",
+      "bronch_location_lobe": [
+        "RUL"
+      ],
+      "bronch_num_tbbx": 8,
+      "bronch_tbbx_tool": "Cup forceps",
+      "fluoro_time_min": 1.8,
+      "radiation_dap_gycm2": 0.024,
+      "procedures_performed": {
+        "transbronchial_biopsy": {
+          "performed": true,
+          "number_of_samples": 8,
+          "lobes_biopsied": [
+            "RUL"
+          ],
+          "forceps_type": "Cup",
+          "guidance": "Fluoroscopy",
+          "navigation_used": false
+        },
+        "bal": {
+          "performed": true,
+          "location": "RML",
+          "volume_instilled_ml": 150,
+          "volume_returned_ml": 75,
+          "tests_ordered": [
+            "Cell count",
+            "CD4/CD8 ratio",
+            "Cultures",
+            "Cytology"
+          ]
+        }
+      },
+      "clinical_context": {
+        "indication_category": "Mediastinal Lymphadenopathy",
+        "radiographic_findings": "Bilateral hilar LAD, perilymphatic nodules RUL",
+        "bronchus_sign": "Not assessed"
+      },
+      "providers": {
+        "attending_name": "Erin McCarthy",
+        "fellow_name": "Alex Rivera",
+        "fellow_pgy_level": 7,
+        "assistant_name": "Jennifer Adams",
+        "assistant_role": "RN",
+        "trainee_present": true
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:53:15.902297"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "31628",
+          "final_codes": [
+            "31628",
+            "31624"
+          ],
+          "modifiers": [],
+          "changes_made": false,
+          "code_rationales": {
+            "31628": "Transbronchial lung biopsy single lobe (RUL) - 8 specimens obtained using conventional fluoroscopic guidance for suspected sarcoidosis.",
+            "31624": "Bronchoalveolar lavage performed in RML."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 9.62,
+          "facility_total_payment": 311.0,
+          "per_code": {
+            "31628": {
+              "facility_rvu": 5.38,
+              "facility_payment": 174
+            },
+            "31624": {
+              "facility_rvu": 4.24,
+              "facility_payment": 137
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_8.json"
+        },
+        "overall_assessment": "Standard fluoroscopic TBLB - no navigation system used. This is appropriate coding for conventional TBLB for diffuse parenchymal lung disease workup."
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31628",
+            "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+            "units": 1
+          },
+          {
+            "code": "31624",
+            "description": "Bronchoscopy; with bronchoalveolar lavage",
+            "units": 1
+          }
+        ],
+        "work_rvu": 6.18,
+        "practice_expense_rvu": 2.91,
+        "malpractice_rvu": 0.68,
+        "total_rvu": 9.77
+      }
+    },
+    "source_file": "synthetic_tblb_v2_8.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.8",
+      "valid_codes": [
+        "31628",
+        "31624"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 7,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Paul Ramos",
+      "patient_age": 43,
+      "patient_mrn": "9571108",
+      "procedure_date": "2024-04-07",
+      "note_text": "OPERATIVE NOTE\n\nPaul Ramos | MRN 9571108 | 2024-04-07\n\nDx: PREOPERATIVE DIAGNOSIS: Suspected pulmonary sarcoidosis, Stage II\nProc: Patient recovered well. CXR 2 hours post-procedure showed no pneumothorax. Patient discharged home in stable condition.\n\nActions:\n\u2022 Transbronchial Biopsy\n\u2022 Bal\n\nCPT: 31628, 31624\nComplications: None\nDispo: Stable\n",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "9571108",
+        "procedure_date": "2024-04-07",
+        "patient_age": 43,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Suspected pulmonary sarcoidosis Stage II",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Granulomatous - pending",
+        "cpt_codes": [
+          31628,
+          31624
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-07-15",
+          "primary_indication": "Bilateral hilar LAD, perilymphatic nodules - suspected sarcoidosis",
+          "guidance": "Biplanar fluoroscopy (AP and lateral)",
+          "tblb_technique": "Standard cup forceps under fluoroscopy"
+        },
+        "institution_name": "Cleveland Clinic, Cleveland, OH",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "bronch_guidance": "Fluoroscopy",
+        "bronch_location_lobe": [
+          "RUL"
+        ],
+        "bronch_num_tbbx": 8,
+        "bronch_tbbx_tool": "Cup forceps",
+        "fluoro_time_min": 1.8,
+        "radiation_dap_gycm2": 0.024,
+        "procedures_performed": {
+          "transbronchial_biopsy": {
+            "performed": true,
+            "number_of_samples": 8,
+            "lobes_biopsied": [
+              "RUL"
+            ],
+            "forceps_type": "Cup",
+            "guidance": "Fluoroscopy",
+            "navigation_used": false
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 150,
+            "volume_returned_ml": 75,
+            "tests_ordered": [
+              "Cell count",
+              "CD4/CD8 ratio",
+              "Cultures",
+              "Cytology"
+            ]
+          }
+        },
+        "clinical_context": {
+          "indication_category": "Mediastinal Lymphadenopathy",
+          "radiographic_findings": "Bilateral hilar LAD, perilymphatic nodules RUL",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Erin McCarthy",
+          "fellow_name": "Alex Rivera",
+          "fellow_pgy_level": 7,
+          "assistant_name": "Jennifer Adams",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902297"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy single lobe (RUL) - 8 specimens obtained using conventional fluoroscopic guidance for suspected sarcoidosis.",
+              "31624": "Bronchoalveolar lavage performed in RML."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 9.62,
+            "facility_total_payment": 311.0,
+            "per_code": {
+              "31628": {
+                "facility_rvu": 5.38,
+                "facility_payment": 174
+              },
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Standard fluoroscopic TBLB - no navigation system used. This is appropriate coding for conventional TBLB for diffuse parenchymal lung disease workup."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 7,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Edward Liu",
+      "patient_age": 37,
+      "patient_mrn": "6855565",
+      "procedure_date": "2024-11-06",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Edward Liu\nMedical Record Number: 6855565\nDate of Birth: N/A\nAge at Procedure: 37 years\nProcedure Date: 2024-11-06\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with suspected pulmonary sarcoidosis stage ii. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nTransbronchial Biopsy:\nTransbronchial lung parenchymal sampling was performed utilizing standard forceps technique with fluoroscopic localization to minimize pneumothorax risk. \nBal:\nBronchoalveolar lavage was performed in standardized fashion with sequential aliquot instillation and aspiration to optimize cellular yield. \n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\nDetailed airway examination was performed with findings as documented in the procedural narrative.\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 31628, 31624\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "6855565",
+        "procedure_date": "2024-11-06",
+        "patient_age": 37,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Suspected pulmonary sarcoidosis Stage II",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Granulomatous - pending",
+        "cpt_codes": [
+          31628,
+          31624
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-07-15",
+          "primary_indication": "Bilateral hilar LAD, perilymphatic nodules - suspected sarcoidosis",
+          "guidance": "Biplanar fluoroscopy (AP and lateral)",
+          "tblb_technique": "Standard cup forceps under fluoroscopy"
+        },
+        "institution_name": "Cleveland Clinic, Cleveland, OH",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "bronch_guidance": "Fluoroscopy",
+        "bronch_location_lobe": [
+          "RUL"
+        ],
+        "bronch_num_tbbx": 8,
+        "bronch_tbbx_tool": "Cup forceps",
+        "fluoro_time_min": 1.8,
+        "radiation_dap_gycm2": 0.024,
+        "procedures_performed": {
+          "transbronchial_biopsy": {
+            "performed": true,
+            "number_of_samples": 8,
+            "lobes_biopsied": [
+              "RUL"
+            ],
+            "forceps_type": "Cup",
+            "guidance": "Fluoroscopy",
+            "navigation_used": false
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 150,
+            "volume_returned_ml": 75,
+            "tests_ordered": [
+              "Cell count",
+              "CD4/CD8 ratio",
+              "Cultures",
+              "Cytology"
+            ]
+          }
+        },
+        "clinical_context": {
+          "indication_category": "Mediastinal Lymphadenopathy",
+          "radiographic_findings": "Bilateral hilar LAD, perilymphatic nodules RUL",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Erin McCarthy",
+          "fellow_name": "Alex Rivera",
+          "fellow_pgy_level": 7,
+          "assistant_name": "Jennifer Adams",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902297"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy single lobe (RUL) - 8 specimens obtained using conventional fluoroscopic guidance for suspected sarcoidosis.",
+              "31624": "Bronchoalveolar lavage performed in RML."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 9.62,
+            "facility_total_payment": 311.0,
+            "per_code": {
+              "31628": {
+                "facility_rvu": 5.38,
+                "facility_payment": 174
+              },
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Standard fluoroscopic TBLB - no navigation system used. This is appropriate coding for conventional TBLB for diffuse parenchymal lung disease workup."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 7,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Scott Scott",
+      "patient_age": 44,
+      "patient_mrn": "2603272",
+      "procedure_date": "2024-03-24",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: Scott Scott | MRN: 2603272 | DOS: 2024-03-24\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 31628:\n  Rationale: Transbronchial lung biopsy single lobe (RUL) - 8 specimens obtained using conventional fluoroscopic guidance for suspected sarcoidosis.\n  Facility RVU: 5.38\n  Facility Payment: $174\n\nCPT 31624:\n  Rationale: Bronchoalveolar lavage performed in RML.\n  Facility RVU: 4.24\n  Facility Payment: $137\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n  \u2022 FLUOROSCOPY\n  \u2022 Fluoroscopic\n  \u2022 fluoroscopy\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nTRANSBRONCHIAL BIOPSY:\n  - Number Of Samples: 8\n  - Lobes Biopsied: ['RUL']\n  - Forceps Type: Cup\n  - Guidance: Fluoroscopy\n  - Navigation Used: False\n\nBAL:\n  - Location: RML\n  - Volume Instilled Ml: 150\n  - Volume Returned Ml: 75\n  - Tests Ordered: ['Cell count', 'CD4/CD8 ratio', 'Cultures', 'Cytology']\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: 9.62\n  Total Facility Payment: $311.0\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "2603272",
+        "procedure_date": "2024-03-24",
+        "patient_age": 44,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Suspected pulmonary sarcoidosis Stage II",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Granulomatous - pending",
+        "cpt_codes": [
+          31628,
+          31624
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-07-15",
+          "primary_indication": "Bilateral hilar LAD, perilymphatic nodules - suspected sarcoidosis",
+          "guidance": "Biplanar fluoroscopy (AP and lateral)",
+          "tblb_technique": "Standard cup forceps under fluoroscopy"
+        },
+        "institution_name": "Cleveland Clinic, Cleveland, OH",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "bronch_guidance": "Fluoroscopy",
+        "bronch_location_lobe": [
+          "RUL"
+        ],
+        "bronch_num_tbbx": 8,
+        "bronch_tbbx_tool": "Cup forceps",
+        "fluoro_time_min": 1.8,
+        "radiation_dap_gycm2": 0.024,
+        "procedures_performed": {
+          "transbronchial_biopsy": {
+            "performed": true,
+            "number_of_samples": 8,
+            "lobes_biopsied": [
+              "RUL"
+            ],
+            "forceps_type": "Cup",
+            "guidance": "Fluoroscopy",
+            "navigation_used": false
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 150,
+            "volume_returned_ml": 75,
+            "tests_ordered": [
+              "Cell count",
+              "CD4/CD8 ratio",
+              "Cultures",
+              "Cytology"
+            ]
+          }
+        },
+        "clinical_context": {
+          "indication_category": "Mediastinal Lymphadenopathy",
+          "radiographic_findings": "Bilateral hilar LAD, perilymphatic nodules RUL",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Erin McCarthy",
+          "fellow_name": "Alex Rivera",
+          "fellow_pgy_level": 7,
+          "assistant_name": "Jennifer Adams",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902297"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy single lobe (RUL) - 8 specimens obtained using conventional fluoroscopic guidance for suspected sarcoidosis.",
+              "31624": "Bronchoalveolar lavage performed in RML."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 9.62,
+            "facility_total_payment": 311.0,
+            "per_code": {
+              "31628": {
+                "facility_rvu": 5.38,
+                "facility_payment": 174
+              },
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Standard fluoroscopic TBLB - no navigation system used. This is appropriate coding for conventional TBLB for diffuse parenchymal lung disease workup."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 7,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Alexander Henderson",
+      "patient_age": 37,
+      "patient_mrn": "1285500",
+      "procedure_date": "2024-06-19",
+      "note_text": "PROCEDURE NOTE\n\nDate: 2024-06-19\nPatient: Alexander Henderson\nMRN: 1285500\nAge/Sex: 37yo M\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nSuspected pulmonary sarcoidosis Stage II\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nModerate\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Transbronchial Biopsy performed\n5. Bal performed\n6. Scope withdrawn\n7. Patient recovered without complication\n\nSPECIMENS:\nwas placed in formalin and examined visually - multiple fragments appeared adequate in size. Minimal bleeding occurred, controlled with wedge technique. Repeat fluoroscopy at end of procedure showed n\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nOutpatient discharge\n\nCPT CODES: 31628, 31624\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "1285500",
+        "procedure_date": "2024-06-19",
+        "patient_age": 37,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Suspected pulmonary sarcoidosis Stage II",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Granulomatous - pending",
+        "cpt_codes": [
+          31628,
+          31624
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-07-15",
+          "primary_indication": "Bilateral hilar LAD, perilymphatic nodules - suspected sarcoidosis",
+          "guidance": "Biplanar fluoroscopy (AP and lateral)",
+          "tblb_technique": "Standard cup forceps under fluoroscopy"
+        },
+        "institution_name": "Cleveland Clinic, Cleveland, OH",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "bronch_guidance": "Fluoroscopy",
+        "bronch_location_lobe": [
+          "RUL"
+        ],
+        "bronch_num_tbbx": 8,
+        "bronch_tbbx_tool": "Cup forceps",
+        "fluoro_time_min": 1.8,
+        "radiation_dap_gycm2": 0.024,
+        "procedures_performed": {
+          "transbronchial_biopsy": {
+            "performed": true,
+            "number_of_samples": 8,
+            "lobes_biopsied": [
+              "RUL"
+            ],
+            "forceps_type": "Cup",
+            "guidance": "Fluoroscopy",
+            "navigation_used": false
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 150,
+            "volume_returned_ml": 75,
+            "tests_ordered": [
+              "Cell count",
+              "CD4/CD8 ratio",
+              "Cultures",
+              "Cytology"
+            ]
+          }
+        },
+        "clinical_context": {
+          "indication_category": "Mediastinal Lymphadenopathy",
+          "radiographic_findings": "Bilateral hilar LAD, perilymphatic nodules RUL",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Erin McCarthy",
+          "fellow_name": "Alex Rivera",
+          "fellow_pgy_level": 7,
+          "assistant_name": "Jennifer Adams",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902297"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy single lobe (RUL) - 8 specimens obtained using conventional fluoroscopic guidance for suspected sarcoidosis.",
+              "31624": "Bronchoalveolar lavage performed in RML."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 9.62,
+            "facility_total_payment": 311.0,
+            "per_code": {
+              "31628": {
+                "facility_rvu": 5.38,
+                "facility_payment": 174
+              },
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Standard fluoroscopic TBLB - no navigation system used. This is appropriate coding for conventional TBLB for diffuse parenchymal lung disease workup."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 7,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Thomas Torres",
+      "patient_age": 39,
+      "patient_mrn": "7404754",
+      "procedure_date": "2025-08-21",
+      "note_text": "procedure note 2025-08-21 pt Thomas Torres mrn 7404754\n\nindication suspected pulmonary sarcoidosis stage ii patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp transbronchial biopsy bal performed airways inspected all patent no masses samples obtained sent to path stent placed good position confirmed on fluoro \n\ncomplication none ebl minimal patient tolerated well disposition Outpatient discharge \n\ncpt 31628 31624\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "7404754",
+        "procedure_date": "2025-08-21",
+        "patient_age": 39,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Suspected pulmonary sarcoidosis Stage II",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Granulomatous - pending",
+        "cpt_codes": [
+          31628,
+          31624
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-07-15",
+          "primary_indication": "Bilateral hilar LAD, perilymphatic nodules - suspected sarcoidosis",
+          "guidance": "Biplanar fluoroscopy (AP and lateral)",
+          "tblb_technique": "Standard cup forceps under fluoroscopy"
+        },
+        "institution_name": "Cleveland Clinic, Cleveland, OH",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "bronch_guidance": "Fluoroscopy",
+        "bronch_location_lobe": [
+          "RUL"
+        ],
+        "bronch_num_tbbx": 8,
+        "bronch_tbbx_tool": "Cup forceps",
+        "fluoro_time_min": 1.8,
+        "radiation_dap_gycm2": 0.024,
+        "procedures_performed": {
+          "transbronchial_biopsy": {
+            "performed": true,
+            "number_of_samples": 8,
+            "lobes_biopsied": [
+              "RUL"
+            ],
+            "forceps_type": "Cup",
+            "guidance": "Fluoroscopy",
+            "navigation_used": false
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 150,
+            "volume_returned_ml": 75,
+            "tests_ordered": [
+              "Cell count",
+              "CD4/CD8 ratio",
+              "Cultures",
+              "Cytology"
+            ]
+          }
+        },
+        "clinical_context": {
+          "indication_category": "Mediastinal Lymphadenopathy",
+          "radiographic_findings": "Bilateral hilar LAD, perilymphatic nodules RUL",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Erin McCarthy",
+          "fellow_name": "Alex Rivera",
+          "fellow_pgy_level": 7,
+          "assistant_name": "Jennifer Adams",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902297"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy single lobe (RUL) - 8 specimens obtained using conventional fluoroscopic guidance for suspected sarcoidosis.",
+              "31624": "Bronchoalveolar lavage performed in RML."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 9.62,
+            "facility_total_payment": 311.0,
+            "per_code": {
+              "31628": {
+                "facility_rvu": 5.38,
+                "facility_payment": 174
+              },
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Standard fluoroscopic TBLB - no navigation system used. This is appropriate coding for conventional TBLB for diffuse parenchymal lung disease workup."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 7,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Tyler Taylor",
+      "patient_age": 42,
+      "patient_mrn": "6349126",
+      "procedure_date": "2025-05-19",
+      "note_text": "BRONCHOSCOPY REPORT\n\nPatient: Tyler Taylor\nMRN: 6349126\nDate of Birth: 11/03/1985\nDate of Procedure: 2025-05-19\nLocation: Cleveland Clinic, Cleveland, OH\n\nAttending: Dr. Erin McCarthy, MD\nFellow: Dr. Alex Rivera, MD (PGY-7)\nRN: Jennifer Adams\nRT: Marcus Thompson\n\nINDICATION: 42-year-old African American male with bilateral hilar lymphadenopathy and scattered bilateral upper lobe perilymphatic nodules on CT chest. Clinical presentation consistent with pulmonary sarcoidosis. Bronchoscopy for tissue diagnosis.\n\nPREOPERATIVE DIAGNOSIS: Suspected pulmonary sarcoidosis, Stage II\n\nPOSTOPERATIVE DIAGNOSIS: Same (pending pathology)\n\n1. Flexible bronchoscopy\n2. Bronchoalveolar lavage\n3. Fluoroscopic-guided transbronchial lung biopsy, right upper lobe\n\nSEDATION: Moderate sedation (Versed 3mg, Fentanyl 75mcg) with topical lidocaine\n\nPatient was sedated and bronchoscope introduced via oral route. Airway examination revealed normal vocal cords, patent trachea, and normal-appearing carina. All visible airways were free of endobronchial abnormalities. Mucosa appeared normal throughout.\n\nBAL was performed in the right middle lobe using 150mL sterile saline (3 x 50mL). Approximately 75mL of slightly turbid fluid was recovered and sent for cell count, differential, CD4/CD8 ratio, cultures, and cytology.\n\nFor transbronchial biopsies, the bronchoscope was advanced into the right upper lobe. Using biplanar fluoroscopy (AP and lateral views), the biopsy forceps (standard cup forceps) were advanced into the RUL anterior segment (RB3) and positioned approximately 2cm from the pleural surface. 8 biopsies were obtained from the right upper lobe, targeting areas of perilymphatic nodularity.\n\nEach specimen was placed in formalin and examined visually - multiple fragments appeared adequate in size. Minimal bleeding occurred, controlled with wedge technique. Repeat fluoroscopy at end of procedure showed no pneumothorax.\n\n- Total fluoro time: 1.8 min\n- DAP: 24 mGy\u00b7cm\u00b2\n\n1. BAL - Cell count/diff, CD4/CD8 ratio, bacterial/fungal/AFB cultures, PCP DFA, cytology\n2. TBLB RUL x 8 - Surgical pathology with request for special stains (GMS, AFB)\n\nCOMPLICATIONS: None\n\nESTIMATED BLOOD LOSS: <5mL\n\nPOST-PROCEDURE: Patient recovered well. CXR 2 hours post-procedure showed no pneumothorax. Patient discharged home in stable condition.\n\nIMPRESSION: Airways grossly normal. TBLB and BAL obtained for suspected sarcoidosis workup. Await pathology for non-caseating granulomas and BAL lymphocytosis/elevated CD4:CD8 ratio to confirm diagnosis.\n\nFOLLOW-UP: Return to sarcoidosis clinic in 2 weeks for results.\n\nErin McCarthy, MD\nAlex Rivera, MD",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "6349126",
+        "procedure_date": "2025-05-19",
+        "patient_age": 42,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Suspected pulmonary sarcoidosis Stage II",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Granulomatous - pending",
+        "cpt_codes": [
+          31628,
+          31624
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-07-15",
+          "primary_indication": "Bilateral hilar LAD, perilymphatic nodules - suspected sarcoidosis",
+          "guidance": "Biplanar fluoroscopy (AP and lateral)",
+          "tblb_technique": "Standard cup forceps under fluoroscopy"
+        },
+        "institution_name": "Cleveland Clinic, Cleveland, OH",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "bronch_guidance": "Fluoroscopy",
+        "bronch_location_lobe": [
+          "RUL"
+        ],
+        "bronch_num_tbbx": 8,
+        "bronch_tbbx_tool": "Cup forceps",
+        "fluoro_time_min": 1.8,
+        "radiation_dap_gycm2": 0.024,
+        "procedures_performed": {
+          "transbronchial_biopsy": {
+            "performed": true,
+            "number_of_samples": 8,
+            "lobes_biopsied": [
+              "RUL"
+            ],
+            "forceps_type": "Cup",
+            "guidance": "Fluoroscopy",
+            "navigation_used": false
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 150,
+            "volume_returned_ml": 75,
+            "tests_ordered": [
+              "Cell count",
+              "CD4/CD8 ratio",
+              "Cultures",
+              "Cytology"
+            ]
+          }
+        },
+        "clinical_context": {
+          "indication_category": "Mediastinal Lymphadenopathy",
+          "radiographic_findings": "Bilateral hilar LAD, perilymphatic nodules RUL",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Erin McCarthy",
+          "fellow_name": "Alex Rivera",
+          "fellow_pgy_level": 7,
+          "assistant_name": "Jennifer Adams",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902297"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy single lobe (RUL) - 8 specimens obtained using conventional fluoroscopic guidance for suspected sarcoidosis.",
+              "31624": "Bronchoalveolar lavage performed in RML."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 9.62,
+            "facility_total_payment": 311.0,
+            "per_code": {
+              "31628": {
+                "facility_rvu": 5.38,
+                "facility_payment": 174
+              },
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Standard fluoroscopic TBLB - no navigation system used. This is appropriate coding for conventional TBLB for diffuse parenchymal lung disease workup."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 7,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Paul Chavez",
+      "patient_age": 36,
+      "patient_mrn": "9726403",
+      "procedure_date": "2025-07-29",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Paul Chavez\nMRN: 9726403\nDOB: None\nAge: 36\nDate: 2025-07-29\n\n[INDICATION]\nSuspected pulmonary sarcoidosis Stage II\n\n[ANESTHESIA]\nType: Moderate\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Transbronchial Biopsy: Performed\n  \u2022 number of samples: 8\n  \u2022 lobes biopsied: RUL\n  \u2022 forceps type: Cup\n  \u2022 guidance: Fluoroscopy\n  \u2022 navigation used: No\n- Bal: Performed\n  \u2022 location: RML\n  \u2022 volume instilled ml: 150\n  \u2022 volume returned ml: 75\n  \u2022 tests ordered: Cell count, CD4/CD8 ratio, Cultures, Cytology\n\n[FINDINGS]\nAssessment: Granulomatous - pending\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: Outpatient discharge\n\n[CODING]\nCPT: 31628, 31624\n",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "9726403",
+        "procedure_date": "2025-07-29",
+        "patient_age": 36,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Suspected pulmonary sarcoidosis Stage II",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Granulomatous - pending",
+        "cpt_codes": [
+          31628,
+          31624
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-07-15",
+          "primary_indication": "Bilateral hilar LAD, perilymphatic nodules - suspected sarcoidosis",
+          "guidance": "Biplanar fluoroscopy (AP and lateral)",
+          "tblb_technique": "Standard cup forceps under fluoroscopy"
+        },
+        "institution_name": "Cleveland Clinic, Cleveland, OH",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "bronch_guidance": "Fluoroscopy",
+        "bronch_location_lobe": [
+          "RUL"
+        ],
+        "bronch_num_tbbx": 8,
+        "bronch_tbbx_tool": "Cup forceps",
+        "fluoro_time_min": 1.8,
+        "radiation_dap_gycm2": 0.024,
+        "procedures_performed": {
+          "transbronchial_biopsy": {
+            "performed": true,
+            "number_of_samples": 8,
+            "lobes_biopsied": [
+              "RUL"
+            ],
+            "forceps_type": "Cup",
+            "guidance": "Fluoroscopy",
+            "navigation_used": false
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 150,
+            "volume_returned_ml": 75,
+            "tests_ordered": [
+              "Cell count",
+              "CD4/CD8 ratio",
+              "Cultures",
+              "Cytology"
+            ]
+          }
+        },
+        "clinical_context": {
+          "indication_category": "Mediastinal Lymphadenopathy",
+          "radiographic_findings": "Bilateral hilar LAD, perilymphatic nodules RUL",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Erin McCarthy",
+          "fellow_name": "Alex Rivera",
+          "fellow_pgy_level": 7,
+          "assistant_name": "Jennifer Adams",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902297"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy single lobe (RUL) - 8 specimens obtained using conventional fluoroscopic guidance for suspected sarcoidosis.",
+              "31624": "Bronchoalveolar lavage performed in RML."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 9.62,
+            "facility_total_payment": 311.0,
+            "per_code": {
+              "31628": {
+                "facility_rvu": 5.38,
+                "facility_payment": 174
+              },
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Standard fluoroscopic TBLB - no navigation system used. This is appropriate coding for conventional TBLB for diffuse parenchymal lung disease workup."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 7,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Antonio Martin",
+      "patient_age": 39,
+      "patient_mrn": "8548428",
+      "procedure_date": "2025-06-29",
+      "note_text": "On 2025-06-29, Antonio Martin, a 39-year-old male (MRN 8548428), underwent bronchoscopic evaluation for Suspected pulmonary sarcoidosis Stage II. The patient received Moderate and the procedure was performed in standard fashion. The procedure included transbronchial biopsy for tissue sampling, and bronchoalveolar lavage for microbiological and cytological analysis. \n\nOn examination, the airways were systematically inspected. The visualized airways appeared patent without significant abnormality. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is granulomatous - pending. \n\nProcedural coding: 31628, 31624.",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "8548428",
+        "procedure_date": "2025-06-29",
+        "patient_age": 39,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Suspected pulmonary sarcoidosis Stage II",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Granulomatous - pending",
+        "cpt_codes": [
+          31628,
+          31624
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-07-15",
+          "primary_indication": "Bilateral hilar LAD, perilymphatic nodules - suspected sarcoidosis",
+          "guidance": "Biplanar fluoroscopy (AP and lateral)",
+          "tblb_technique": "Standard cup forceps under fluoroscopy"
+        },
+        "institution_name": "Cleveland Clinic, Cleveland, OH",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "bronch_guidance": "Fluoroscopy",
+        "bronch_location_lobe": [
+          "RUL"
+        ],
+        "bronch_num_tbbx": 8,
+        "bronch_tbbx_tool": "Cup forceps",
+        "fluoro_time_min": 1.8,
+        "radiation_dap_gycm2": 0.024,
+        "procedures_performed": {
+          "transbronchial_biopsy": {
+            "performed": true,
+            "number_of_samples": 8,
+            "lobes_biopsied": [
+              "RUL"
+            ],
+            "forceps_type": "Cup",
+            "guidance": "Fluoroscopy",
+            "navigation_used": false
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 150,
+            "volume_returned_ml": 75,
+            "tests_ordered": [
+              "Cell count",
+              "CD4/CD8 ratio",
+              "Cultures",
+              "Cytology"
+            ]
+          }
+        },
+        "clinical_context": {
+          "indication_category": "Mediastinal Lymphadenopathy",
+          "radiographic_findings": "Bilateral hilar LAD, perilymphatic nodules RUL",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Erin McCarthy",
+          "fellow_name": "Alex Rivera",
+          "fellow_pgy_level": 7,
+          "assistant_name": "Jennifer Adams",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902297"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy single lobe (RUL) - 8 specimens obtained using conventional fluoroscopic guidance for suspected sarcoidosis.",
+              "31624": "Bronchoalveolar lavage performed in RML."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 9.62,
+            "facility_total_payment": 311.0,
+            "per_code": {
+              "31628": {
+                "facility_rvu": 5.38,
+                "facility_payment": 174
+              },
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Standard fluoroscopic TBLB - no navigation system used. This is appropriate coding for conventional TBLB for diffuse parenchymal lung disease workup."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 7,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Brian Robinson",
+      "patient_age": 36,
+      "patient_mrn": "6520042",
+      "procedure_date": "2024-01-26",
+      "note_text": "BRONCHOSCOPY REPORT\n\nPatient: Brian Robinson\nMRN: 6520042\nDate of Birth: 11/03/1985\nDate of Procedure: 2024-01-26\nLocation: Cleveland Clinic, Cleveland, OH\n\nAttending: Dr. Erin McCarthy, MD\nFellow: Dr. Alex Rivera, MD (PGY-7)\nRN: Jennifer Adams\nRT: Marcus Thompson\n\nINDICATION: 36-year-old African American male with bilateral hilar lymphadenopathy and scattered bilateral upper lobe perilymphatic nodules on CT chest. Clinical presentation consistent with pulmonary sarcoidosis. Bronchoscopy for tissue diagnosis.\n\nPREOPERATIVE DIAGNOSIS: Suspected pulmonary sarcoidosis, Stage II\n\nPOSTOPERATIVE DIAGNOSIS: Same (pending pathology)\n\nPROCEDURE:\n1. Flexible bronchoscopy\n2. Bronchoalveolar lavage\n3. Fluoroscopic-guided transbronchial lung biopsy, right upper lobe\n\nSEDATION: Moderate sedation (Versed 3mg, Fentanyl 75mcg) with topical lidocaine\n\nPROCEDURE NOTE:\nPatient was sedated and bronchoscope introduced via oral route. Airway examination indicated normal vocal cords, clear trachea, and normal-appearing carina. All visible airways were free of endobronchial abnormalities. Mucosa appeared normal throughout.\n\nBAL was carried out in the right middle lobe using 150mL sterile saline (3 x 50mL). Approximately 75mL of slightly turbid fluid was recovered and sent for cell count, differential, CD4/CD8 ratio, cultures, and cytology.\n\nFor transbronchial biopsies, the bronchoscope was passed into the right upper lobe. Using biplanar fluoroscopy (AP and lateral views), the biopsy forceps (standard cup forceps) were passed into the RUL anterior segment (RB3) and positioned approximately 2cm from the pleural surface. 8 biopsies were acquired from the right upper lobe, targeting areas of perilymphatic nodularity.\n\nEach specimen was situated in formalin and examined visually - multiple fragments appeared adequate in size. Minimal bleeding occurred, controlled with wedge technique. Repeat fluoroscopy at end of procedure displayed no pneumothorax.\n\nFLUOROSCOPY DATA:\n- Total fluoro time: 1.8 min\n- DAP: 24 mGy\u00b7cm\u00b2\n\nSPECIMENS:\n1. BAL - Cell count/diff, CD4/CD8 ratio, bacterial/fungal/AFB cultures, PCP DFA, cytology\n2. TBLB RUL x 8 - Surgical pathology with request for special stains (GMS, AFB)\n\nCOMPLICATIONS: None\n\nESTIMATED BLOOD LOSS: <5mL\n\nPOST-PROCEDURE: Patient recovered well. CXR 2 hours post-procedure displayed no pneumothorax. Patient discharged home in stable condition.\n\nIMPRESSION: Airways grossly normal. TBLB and BAL acquired for suspected sarcoidosis workup. Await pathology for non-caseating granulomas and BAL lymphocytosis/elevated CD4:CD8 ratio to confirm diagnosis.\n\nFOLLOW-UP: Return to sarcoidosis clinic in 2 weeks for results.\n\nErin McCarthy, MD\nAlex Rivera, MD",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "6520042",
+        "procedure_date": "2024-01-26",
+        "patient_age": 36,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Suspected pulmonary sarcoidosis Stage II",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Granulomatous - pending",
+        "cpt_codes": [
+          31628,
+          31624
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-07-15",
+          "primary_indication": "Bilateral hilar LAD, perilymphatic nodules - suspected sarcoidosis",
+          "guidance": "Biplanar fluoroscopy (AP and lateral)",
+          "tblb_technique": "Standard cup forceps under fluoroscopy"
+        },
+        "institution_name": "Cleveland Clinic, Cleveland, OH",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "bronch_guidance": "Fluoroscopy",
+        "bronch_location_lobe": [
+          "RUL"
+        ],
+        "bronch_num_tbbx": 8,
+        "bronch_tbbx_tool": "Cup forceps",
+        "fluoro_time_min": 1.8,
+        "radiation_dap_gycm2": 0.024,
+        "procedures_performed": {
+          "transbronchial_biopsy": {
+            "performed": true,
+            "number_of_samples": 8,
+            "lobes_biopsied": [
+              "RUL"
+            ],
+            "forceps_type": "Cup",
+            "guidance": "Fluoroscopy",
+            "navigation_used": false
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 150,
+            "volume_returned_ml": 75,
+            "tests_ordered": [
+              "Cell count",
+              "CD4/CD8 ratio",
+              "Cultures",
+              "Cytology"
+            ]
+          }
+        },
+        "clinical_context": {
+          "indication_category": "Mediastinal Lymphadenopathy",
+          "radiographic_findings": "Bilateral hilar LAD, perilymphatic nodules RUL",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Erin McCarthy",
+          "fellow_name": "Alex Rivera",
+          "fellow_pgy_level": 7,
+          "assistant_name": "Jennifer Adams",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902297"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy single lobe (RUL) - 8 specimens obtained using conventional fluoroscopic guidance for suspected sarcoidosis.",
+              "31624": "Bronchoalveolar lavage performed in RML."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 9.62,
+            "facility_total_payment": 311.0,
+            "per_code": {
+              "31628": {
+                "facility_rvu": 5.38,
+                "facility_payment": 174
+              },
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Standard fluoroscopic TBLB - no navigation system used. This is appropriate coding for conventional TBLB for diffuse parenchymal lung disease workup."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    }
+  ]
+}

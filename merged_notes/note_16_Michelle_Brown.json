@@ -1,0 +1,1048 @@
+{
+  "base_note": {
+    "note_text": "EBUS PROCEDURE NOTE\nDate: 2025-07-05\nPatient: Michelle Brown | MRN: 3427249 | Age: 34F\nAttending: Dr. Steven Williams, MD\nLocation: Duke University Hospital, Durham, NC\n\nINDICATION: 34F with bilateral hilar and mediastinal lymphadenopathy, erythema nodosum, uveitis. Clinical suspicion for sarcoidosis.\n\nPROCEDURE: EBUS-TBNA of mediastinal lymph nodes\n\nANESTHESIA: Moderate sedation\n\nTECHNIQUE: EBUS (Olympus BF-UC190F) introduced. Systematic staging performed.\n\nStation 7: 25mm, sampled x 4 passes - ROSE: Non-caseating granulomas! Diagnostic.\nStation 4R: 15mm, sampled x 3 passes - ROSE: Granulomas\nStation 11L: 12mm, sampled x 2 passes - ROSE: Reactive lymphocytes\nStation 11R: 10mm, sampled x 2 passes - ROSE: Lymphocytes with granulomas\n\nAll specimens sent for cell block, AFB stain, fungal stain to rule out infection.\n\nFINDINGS: ROSE positive for non-caseating granulomas at multiple stations - consistent with sarcoidosis. No necrosis identified.\n\nCOMPLICATIONS: None\nDISPOSITION: Outpatient discharge. Follow-up in sarcoidosis clinic.\n\nIMPRESSION: EBUS findings consistent with pulmonary sarcoidosis. Await final pathology and infectious stains.\n\nDr. Steven Williams, MD",
+    "cpt_codes": [
+      31653
+    ],
+    "registry_entry": {
+      "patient_mrn": "3427249",
+      "procedure_date": "2025-07-05",
+      "patient_age": 34,
+      "gender": "Female",
+      "asa_class": 1,
+      "primary_indication": "Suspected sarcoidosis",
+      "sedation_type": "Moderate",
+      "airway_type": "Native",
+      "final_diagnosis_prelim": "Granulomatous disease - sarcoidosis",
+      "cpt_codes": [
+        31653
+      ],
+      "ebus_stations_sampled": [
+        "7",
+        "4R",
+        "11L",
+        "11R"
+      ],
+      "ebus_rose_available": true,
+      "ebus_rose_result": "Non-caseating granulomas - sarcoidosis",
+      "procedures_performed": {
+        "linear_ebus": {
+          "performed": true,
+          "stations_sampled": [
+            "7",
+            "4R",
+            "11L",
+            "11R"
+          ],
+          "station_count": 4,
+          "rose_performed": true
+        }
+      },
+      "providers": {
+        "attending_name": "Steven Williams"
+      },
+      "metadata": {
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:53:15.902791"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "31653",
+          "final_codes": [
+            "31653"
+          ],
+          "modifiers": [],
+          "changes_made": false,
+          "code_rationales": {
+            "31653": "EBUS-TBNA 3+ stations for sarcoidosis diagnosis. ROSE positive for granulomas."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 7.7,
+          "facility_total_payment": 249.0,
+          "per_code": {
+            "31653": {
+              "facility_rvu": 7.7,
+              "facility_payment": 249
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_8.json"
+        },
+        "overall_assessment": "4 stations sampled, diagnostic for sarcoidosis."
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31653",
+            "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+            "units": 1
+          }
+        ],
+        "work_rvu": 4.96,
+        "practice_expense_rvu": 2.22,
+        "malpractice_rvu": 0.52,
+        "total_rvu": 7.7
+      }
+    },
+    "source_file": "synthetic_additional_v2_8.json",
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 16,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Donna Gonzales",
+      "patient_age": 64,
+      "patient_mrn": "3469578",
+      "procedure_date": "2024-03-07",
+      "note_text": "OPERATIVE NOTE\n\nDonna Gonzales | MRN 3469578 | 2024-03-07\n\nDx: See above\nProc: EBUS-TBNA of mediastinal lymph nodes\n\nActions:\n\u2022 Linear Ebus\n\u2022 Station 7: 25mm, sampled x 4 passes - ROSE: Non-caseating gr\n\u2022 Station 4R: 15mm, sampled x 3 passes - ROSE: Granulomas\n\u2022 Station 11L: 12mm, sampled x 2 passes - ROSE: Reactive lymph\n\u2022 Station 11R: 10mm, sampled x 2 passes - ROSE: Lymphocytes wi\n\nCPT: 31653\nComplications: None\nDispo: Stable\n",
+      "cpt_codes": [
+        31653
+      ],
+      "registry_entry": {
+        "patient_mrn": "3469578",
+        "procedure_date": "2024-03-07",
+        "patient_age": 64,
+        "gender": "Female",
+        "asa_class": 1,
+        "primary_indication": "Suspected sarcoidosis",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Granulomatous disease - sarcoidosis",
+        "cpt_codes": [
+          31653
+        ],
+        "ebus_stations_sampled": [
+          "7",
+          "4R",
+          "11L",
+          "11R"
+        ],
+        "ebus_rose_available": true,
+        "ebus_rose_result": "Non-caseating granulomas - sarcoidosis",
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "stations_sampled": [
+              "7",
+              "4R",
+              "11L",
+              "11R"
+            ],
+            "station_count": 4,
+            "rose_performed": true
+          }
+        },
+        "providers": {
+          "attending_name": "Steven Williams"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902791"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31653": "EBUS-TBNA 3+ stations for sarcoidosis diagnosis. ROSE positive for granulomas."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 7.7,
+            "facility_total_payment": 249.0,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "4 stations sampled, diagnostic for sarcoidosis."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.96,
+          "practice_expense_rvu": 2.22,
+          "malpractice_rvu": 0.52,
+          "total_rvu": 7.7
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 16,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Roger Smith",
+      "patient_age": 62,
+      "patient_mrn": "1824495",
+      "procedure_date": "2024-02-12",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Roger Smith\nMedical Record Number: 1824495\nDate of Birth: N/A\nAge at Procedure: N/A years\nProcedure Date: 2024-02-12\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with suspected sarcoidosis. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nLinear Ebus:\nEndobronchial ultrasound-guided transbronchial needle aspiration was performed utilizing real-time sonographic guidance for precise lymph node targeting. Systematic sampling was conducted at stations 7, 4R, 11L, 11R. Rapid on-site cytological evaluation was employed to ensure specimen adequacy. \n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\nROSE positive for non-caseating granulomas at multiple stations - consistent with sarcoidosis. No necrosis identified.\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 31653\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        31653
+      ],
+      "registry_entry": {
+        "patient_mrn": "1824495",
+        "procedure_date": "2024-02-12",
+        "patient_age": 62,
+        "gender": "Female",
+        "asa_class": 1,
+        "primary_indication": "Suspected sarcoidosis",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Granulomatous disease - sarcoidosis",
+        "cpt_codes": [
+          31653
+        ],
+        "ebus_stations_sampled": [
+          "7",
+          "4R",
+          "11L",
+          "11R"
+        ],
+        "ebus_rose_available": true,
+        "ebus_rose_result": "Non-caseating granulomas - sarcoidosis",
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "stations_sampled": [
+              "7",
+              "4R",
+              "11L",
+              "11R"
+            ],
+            "station_count": 4,
+            "rose_performed": true
+          }
+        },
+        "providers": {
+          "attending_name": "Steven Williams"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902791"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31653": "EBUS-TBNA 3+ stations for sarcoidosis diagnosis. ROSE positive for granulomas."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 7.7,
+            "facility_total_payment": 249.0,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "4 stations sampled, diagnostic for sarcoidosis."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.96,
+          "practice_expense_rvu": 2.22,
+          "malpractice_rvu": 0.52,
+          "total_rvu": 7.7
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 16,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Harold Jimenez",
+      "patient_age": 58,
+      "patient_mrn": "7518583",
+      "procedure_date": "2025-11-03",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: Harold Jimenez | MRN: 7518583 | DOS: 2025-11-03\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 31653:\n  Rationale: EBUS-TBNA 3+ stations for sarcoidosis diagnosis. ROSE positive for granulomas.\n  Facility RVU: 7.7\n  Facility Payment: $249\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n  \u2022 Olympus BF-UC190F\n  \u2022 ROSE\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nLINEAR EBUS:\n  - Stations Sampled: ['7', '4R', '11L', '11R']\n  - Station Count: 4\n  - Rose Performed: True\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: 7.7\n  Total Facility Payment: $249.0\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        31653
+      ],
+      "registry_entry": {
+        "patient_mrn": "7518583",
+        "procedure_date": "2025-11-03",
+        "patient_age": 58,
+        "gender": "Female",
+        "asa_class": 1,
+        "primary_indication": "Suspected sarcoidosis",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Granulomatous disease - sarcoidosis",
+        "cpt_codes": [
+          31653
+        ],
+        "ebus_stations_sampled": [
+          "7",
+          "4R",
+          "11L",
+          "11R"
+        ],
+        "ebus_rose_available": true,
+        "ebus_rose_result": "Non-caseating granulomas - sarcoidosis",
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "stations_sampled": [
+              "7",
+              "4R",
+              "11L",
+              "11R"
+            ],
+            "station_count": 4,
+            "rose_performed": true
+          }
+        },
+        "providers": {
+          "attending_name": "Steven Williams"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902791"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31653": "EBUS-TBNA 3+ stations for sarcoidosis diagnosis. ROSE positive for granulomas."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 7.7,
+            "facility_total_payment": 249.0,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "4 stations sampled, diagnostic for sarcoidosis."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.96,
+          "practice_expense_rvu": 2.22,
+          "malpractice_rvu": 0.52,
+          "total_rvu": 7.7
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 16,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Pamela Wood",
+      "patient_age": 57,
+      "patient_mrn": "1823237",
+      "procedure_date": "2024-08-26",
+      "note_text": "PROCEDURE NOTE\n\nDate: 2024-08-26\nPatient: Pamela Wood\nMRN: 1823237\nAge/Sex: Noneyo patient\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nSuspected sarcoidosis\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nModerate\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Linear Ebus performed\n5. Scope withdrawn\n6. Patient recovered without complication\n\nSPECIMENS:\nsent for cell block, AFB stain, fungal stain to rule out infection.\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nTo recovery, stable condition\n\nCPT CODES: 31653\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        31653
+      ],
+      "registry_entry": {
+        "patient_mrn": "1823237",
+        "procedure_date": "2024-08-26",
+        "patient_age": 57,
+        "gender": "Female",
+        "asa_class": 1,
+        "primary_indication": "Suspected sarcoidosis",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Granulomatous disease - sarcoidosis",
+        "cpt_codes": [
+          31653
+        ],
+        "ebus_stations_sampled": [
+          "7",
+          "4R",
+          "11L",
+          "11R"
+        ],
+        "ebus_rose_available": true,
+        "ebus_rose_result": "Non-caseating granulomas - sarcoidosis",
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "stations_sampled": [
+              "7",
+              "4R",
+              "11L",
+              "11R"
+            ],
+            "station_count": 4,
+            "rose_performed": true
+          }
+        },
+        "providers": {
+          "attending_name": "Steven Williams"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902791"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31653": "EBUS-TBNA 3+ stations for sarcoidosis diagnosis. ROSE positive for granulomas."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 7.7,
+            "facility_total_payment": 249.0,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "4 stations sampled, diagnostic for sarcoidosis."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.96,
+          "practice_expense_rvu": 2.22,
+          "malpractice_rvu": 0.52,
+          "total_rvu": 7.7
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 16,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Laura Shah",
+      "patient_age": 63,
+      "patient_mrn": "5907063",
+      "procedure_date": "2025-09-26",
+      "note_text": "procedure note 2025-09-26 pt Laura Shah mrn 5907063\n\nindication suspected sarcoidosis patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp linear ebus performed samples obtained sent to path stent placed good position confirmed on fluoro \n\ncomplication none ebl minimal patient tolerated well disposition to recovery \n\ncpt 31653\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        31653
+      ],
+      "registry_entry": {
+        "patient_mrn": "5907063",
+        "procedure_date": "2025-09-26",
+        "patient_age": 63,
+        "gender": "Female",
+        "asa_class": 1,
+        "primary_indication": "Suspected sarcoidosis",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Granulomatous disease - sarcoidosis",
+        "cpt_codes": [
+          31653
+        ],
+        "ebus_stations_sampled": [
+          "7",
+          "4R",
+          "11L",
+          "11R"
+        ],
+        "ebus_rose_available": true,
+        "ebus_rose_result": "Non-caseating granulomas - sarcoidosis",
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "stations_sampled": [
+              "7",
+              "4R",
+              "11L",
+              "11R"
+            ],
+            "station_count": 4,
+            "rose_performed": true
+          }
+        },
+        "providers": {
+          "attending_name": "Steven Williams"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902791"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31653": "EBUS-TBNA 3+ stations for sarcoidosis diagnosis. ROSE positive for granulomas."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 7.7,
+            "facility_total_payment": 249.0,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "4 stations sampled, diagnostic for sarcoidosis."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.96,
+          "practice_expense_rvu": 2.22,
+          "malpractice_rvu": 0.52,
+          "total_rvu": 7.7
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 16,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Martin Chavez",
+      "patient_age": 56,
+      "patient_mrn": "1136849",
+      "procedure_date": "2024-02-17",
+      "note_text": "EBUS PROCEDURE NOTE\nDate: 2024-02-17\nPatient: Martin Chavez | MRN: 1136849 | Age: 34F\nAttending: Dr. Steven Williams, MD\nLocation: Duke University Hospital, Durham, NC\n\nINDICATION: 34F with bilateral hilar and mediastinal lymphadenopathy, erythema nodosum, uveitis. Clinical suspicion for sarcoidosis.\n\nPROCEDURE: EBUS-TBNA of mediastinal lymph nodes\n\nANESTHESIA: Moderate sedation\n\nTECHNIQUE: EBUS (Olympus BF-UC190F) introduced. Systematic staging performed.\n\nStation 7: 25mm, sampled x 4 passes - ROSE: Non-caseating granulomas! Diagnostic.\nStation 4R: 15mm, sampled x 3 passes - ROSE: Granulomas\nStation 11L: 12mm, sampled x 2 passes - ROSE: Reactive lymphocytes\nStation 11R: 10mm, sampled x 2 passes - ROSE: Lymphocytes with granulomas\n\nAll specimens sent for cell block, AFB stain, fungal stain to rule out infection.\n\nFINDINGS: ROSE positive for non-caseating granulomas at multiple stations - consistent with sarcoidosis. No necrosis identified.\n\nCOMPLICATIONS: None\nDISPOSITION: Outpatient discharge. Follow-up in sarcoidosis clinic.\n\nIMPRESSION: EBUS findings consistent with pulmonary sarcoidosis. Await final pathology and infectious stains.\n\nDr. Steven Williams, MD",
+      "cpt_codes": [
+        31653
+      ],
+      "registry_entry": {
+        "patient_mrn": "1136849",
+        "procedure_date": "2024-02-17",
+        "patient_age": 56,
+        "gender": "Female",
+        "asa_class": 1,
+        "primary_indication": "Suspected sarcoidosis",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Granulomatous disease - sarcoidosis",
+        "cpt_codes": [
+          31653
+        ],
+        "ebus_stations_sampled": [
+          "7",
+          "4R",
+          "11L",
+          "11R"
+        ],
+        "ebus_rose_available": true,
+        "ebus_rose_result": "Non-caseating granulomas - sarcoidosis",
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "stations_sampled": [
+              "7",
+              "4R",
+              "11L",
+              "11R"
+            ],
+            "station_count": 4,
+            "rose_performed": true
+          }
+        },
+        "providers": {
+          "attending_name": "Steven Williams"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902791"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31653": "EBUS-TBNA 3+ stations for sarcoidosis diagnosis. ROSE positive for granulomas."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 7.7,
+            "facility_total_payment": 249.0,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "4 stations sampled, diagnostic for sarcoidosis."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.96,
+          "practice_expense_rvu": 2.22,
+          "malpractice_rvu": 0.52,
+          "total_rvu": 7.7
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 16,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Dylan Rodriguez",
+      "patient_age": 60,
+      "patient_mrn": "5388573",
+      "procedure_date": "2025-03-11",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Dylan Rodriguez\nMRN: 5388573\nDOB: None\nAge: None\nDate: 2025-03-11\n\n[INDICATION]\nSuspected sarcoidosis\n\n[ANESTHESIA]\nType: Moderate\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Linear Ebus: Performed\n  \u2022 stations sampled: 7, 4R, 11L, 11R\n  \u2022 station count: 4\n  \u2022 rose performed: Yes\n\n[FINDINGS]\nAssessment: Granulomatous disease - sarcoidosis\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: Outpatient\n\n[CODING]\nCPT: 31653\n",
+      "cpt_codes": [
+        31653
+      ],
+      "registry_entry": {
+        "patient_mrn": "5388573",
+        "procedure_date": "2025-03-11",
+        "patient_age": 60,
+        "gender": "Female",
+        "asa_class": 1,
+        "primary_indication": "Suspected sarcoidosis",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Granulomatous disease - sarcoidosis",
+        "cpt_codes": [
+          31653
+        ],
+        "ebus_stations_sampled": [
+          "7",
+          "4R",
+          "11L",
+          "11R"
+        ],
+        "ebus_rose_available": true,
+        "ebus_rose_result": "Non-caseating granulomas - sarcoidosis",
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "stations_sampled": [
+              "7",
+              "4R",
+              "11L",
+              "11R"
+            ],
+            "station_count": 4,
+            "rose_performed": true
+          }
+        },
+        "providers": {
+          "attending_name": "Steven Williams"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902791"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31653": "EBUS-TBNA 3+ stations for sarcoidosis diagnosis. ROSE positive for granulomas."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 7.7,
+            "facility_total_payment": 249.0,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "4 stations sampled, diagnostic for sarcoidosis."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.96,
+          "practice_expense_rvu": 2.22,
+          "malpractice_rvu": 0.52,
+          "total_rvu": 7.7
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 16,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Kimberly Bailey",
+      "patient_age": 57,
+      "patient_mrn": "7113581",
+      "procedure_date": "2025-05-12",
+      "note_text": "On 2025-05-12, Kimberly Bailey, a None-year-old patient (MRN 7113581), underwent bronchoscopic evaluation for Suspected sarcoidosis. The patient received Moderate and the procedure was performed in standard fashion. The procedure included endobronchial ultrasound-guided sampling of lymph node stations 7, 4R, 11L, 11R with rapid on-site evaluation. \n\nOn examination, the airways were systematically inspected. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is granulomatous disease - sarcoidosis. \n\nProcedural coding: 31653.",
+      "cpt_codes": [
+        31653
+      ],
+      "registry_entry": {
+        "patient_mrn": "7113581",
+        "procedure_date": "2025-05-12",
+        "patient_age": 57,
+        "gender": "Female",
+        "asa_class": 1,
+        "primary_indication": "Suspected sarcoidosis",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Granulomatous disease - sarcoidosis",
+        "cpt_codes": [
+          31653
+        ],
+        "ebus_stations_sampled": [
+          "7",
+          "4R",
+          "11L",
+          "11R"
+        ],
+        "ebus_rose_available": true,
+        "ebus_rose_result": "Non-caseating granulomas - sarcoidosis",
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "stations_sampled": [
+              "7",
+              "4R",
+              "11L",
+              "11R"
+            ],
+            "station_count": 4,
+            "rose_performed": true
+          }
+        },
+        "providers": {
+          "attending_name": "Steven Williams"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902791"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31653": "EBUS-TBNA 3+ stations for sarcoidosis diagnosis. ROSE positive for granulomas."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 7.7,
+            "facility_total_payment": 249.0,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "4 stations sampled, diagnostic for sarcoidosis."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.96,
+          "practice_expense_rvu": 2.22,
+          "malpractice_rvu": 0.52,
+          "total_rvu": 7.7
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 16,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Jonathan Carter",
+      "patient_age": 63,
+      "patient_mrn": "4377137",
+      "procedure_date": "2025-01-04",
+      "note_text": "EBUS PROCEDURE NOTE\nDate: 2025-01-04\nPatient: Jonathan Carter | MRN: 4377137 | Age: 34F\nAttending: Dr. Steven Williams, MD\nLocation: Duke University Hospital, Durham, NC\n\nINDICATION: 34F with bilateral hilar and mediastinal lymphadenopathy, erythema nodosum, uveitis. Clinical suspicion for sarcoidosis.\n\nPROCEDURE: EBUS-TBNA of mediastinal lymph nodes\n\nANESTHESIA: Moderate sedation\n\nTECHNIQUE: EBUS (Olympus BF-UC190F) introduced. Systematic staging executed.\n\nStation 7: 25mm, obtained specimens from x 4 passes - ROSE: Non-caseating granulomas! Diagnostic.\nStation 4R: 15mm, obtained specimens from x 3 passes - ROSE: Granulomas\nStation 11L: 12mm, obtained specimens from x 2 passes - ROSE: Reactive lymphocytes\nStation 11R: 10mm, obtained specimens from x 2 passes - ROSE: Lymphocytes with granulomas\n\nAll specimens sent for cell block, AFB stain, fungal stain to rule out infection.\n\nFINDINGS: ROSE positive for non-caseating granulomas at multiple stations - consistent with sarcoidosis. No necrosis discovered.\n\nCOMPLICATIONS: None\nDISPOSITION: Outpatient discharge. Follow-up in sarcoidosis clinic.\n\nIMPRESSION: EBUS findings consistent with pulmonary sarcoidosis. Await final pathology and infectious stains.\n\nDr. Steven Williams, MD",
+      "cpt_codes": [
+        31653
+      ],
+      "registry_entry": {
+        "patient_mrn": "4377137",
+        "procedure_date": "2025-01-04",
+        "patient_age": 63,
+        "gender": "Female",
+        "asa_class": 1,
+        "primary_indication": "Suspected sarcoidosis",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Granulomatous disease - sarcoidosis",
+        "cpt_codes": [
+          31653
+        ],
+        "ebus_stations_sampled": [
+          "7",
+          "4R",
+          "11L",
+          "11R"
+        ],
+        "ebus_rose_available": true,
+        "ebus_rose_result": "Non-caseating granulomas - sarcoidosis",
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "stations_sampled": [
+              "7",
+              "4R",
+              "11L",
+              "11R"
+            ],
+            "station_count": 4,
+            "rose_performed": true
+          }
+        },
+        "providers": {
+          "attending_name": "Steven Williams"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902791"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31653": "EBUS-TBNA 3+ stations for sarcoidosis diagnosis. ROSE positive for granulomas."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 7.7,
+            "facility_total_payment": 249.0,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "4 stations sampled, diagnostic for sarcoidosis."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.96,
+          "practice_expense_rvu": 2.22,
+          "malpractice_rvu": 0.52,
+          "total_rvu": 7.7
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+        ]
+      }
+    }
+  ]
+}

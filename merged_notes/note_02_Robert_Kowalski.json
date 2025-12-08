@@ -1,0 +1,1186 @@
+{
+  "base_note": {
+    "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE NOTE\n\nPatient: Robert Kowalski\nMRN: 6957003\nDOB: 11/08/1961 (63 years old)\nDate of Service: 2025-04-17\nLocation: University Medical Center, Phoenix, AZ\n\nAttending Physician: Dr. James Park, MD\nFellow: Dr. Lisa Tran, MD (PGY-6)\nRN: Sarah Mitchell, RN\nRT: David Chen, RRT\n\nINDICATION: Refractory hepatic hydrothorax in patient with decompensated cirrhosis (Child-Pugh C, MELD 24). Prior TIPS revision unsuccessful. Requiring twice-weekly thoracenteses with significant symptom burden. Not a liver transplant candidate.\n\nPREOPERATIVE DIAGNOSIS: Right hepatic hydrothorax\n\nPOSTOPERATIVE DIAGNOSIS: Same\n\nPROCEDURE: Tunneled indwelling pleural catheter placement, right hemithorax\n\nANESTHESIA: Moderate sedation (Midazolam 2mg IV, Fentanyl 75mcg IV) with local anesthesia (1% lidocaine with epinephrine)\n\nPROCEDURE NARRATIVE:\nPatient positioned in left lateral decubitus. Standard surgical timeout completed confirming right side, procedure, and patient identity. Pre-procedure ultrasound demonstrated large right pleural effusion with no loculations. Optimal entry point identified at 6th intercostal space, posterior axillary line.\n\nThe skin was prepped with chlorhexidine and draped in sterile fashion. Local anesthesia was administered along the proposed insertion tract and subcutaneous tunnel. A 15mm skin incision was made at the insertion point.\n\nUsing the Rocket Medical tunneling system, a 12cm subcutaneous tunnel was created from the insertion site anteriorly toward the anterior axillary line. The Rocket IPC was threaded through the tunnel with the Dacron cuff positioned approximately 2cm from the exit site to promote tissue ingrowth.\n\nThe pleural space was accessed using modified Seldinger technique. Real-time ultrasound confirmed the guidewire position in the pleural space. The dilator and peel-away sheath were introduced, and the 15.5Fr Rocket catheter was advanced into the pleural space. The position was confirmed with aspiration of clear, straw-colored fluid.\n\n1,800mL of transudative-appearing fluid was drained. Pleural fluid samples sent for cell count, chemistry, culture, and cytology. The catheter was secured with 2-0 Prolene sutures. Exit site dressed with sterile gauze and Tegaderm.\n\nPost-procedure CXR showed catheter tip in dependent right hemithorax, significant improvement in effusion, no pneumothorax.\n\nFINDINGS:\n- Large free-flowing right pleural effusion\n- Transudative appearing fluid\n- No loculations or septations\n- Catheter positioned in posterior dependent space\n\nCOMPLICATIONS: None\n\nEBL: <5mL\n\nDISPOSITION: Admitted for overnight observation given hepatic encephalopathy risk with large volume drainage. Home health arranged for daily drainage (max 1000mL/day).\n\nFOLLOW-UP: Interventional pulmonology clinic in 2 weeks.\n\nElectronically signed by:\nJames Park, MD\nLisa Tran, MD (Fellow)",
+    "cpt_codes": [
+      32550
+    ],
+    "registry_entry": {
+      "patient_mrn": "6957003",
+      "procedure_date": "2025-04-17",
+      "patient_age": 63,
+      "gender": "Male",
+      "asa_class": 4,
+      "primary_indication": "Refractory hepatic hydrothorax",
+      "sedation_type": "Moderate",
+      "airway_type": "Native",
+      "final_diagnosis_prelim": "Non-malignant",
+      "cpt_codes": [
+        32550
+      ],
+      "evidence": {
+        "procedure_date": "Date of Service: 2025-04-17",
+        "primary_indication": "Refractory hepatic hydrothorax - decompensated cirrhosis",
+        "sedation_type": "Moderate sedation (Midazolam 2mg IV, Fentanyl 75mcg IV)"
+      },
+      "institution_name": "University Medical Center, Phoenix, AZ",
+      "molecular_testing_requested": false,
+      "disposition": "Inpatient admission",
+      "bleeding_severity": "None",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "pleural_procedure_type": "Tunneled Catheter",
+      "pleural_guidance": "Ultrasound",
+      "pleural_side": "Right",
+      "pleural_intercostal_space": "6th",
+      "pleural_fluid_appearance": "Straw-colored/Transudative",
+      "pleural_volume_drained_ml": 1800,
+      "pleurodesis_performed": false,
+      "procedures_performed": {
+        "ipc": {
+          "performed": true,
+          "action": "Insertion",
+          "side": "Right",
+          "catheter_brand": "Rocket",
+          "indication": "Hepatic hydrothorax",
+          "tunneled": true
+        }
+      },
+      "providers": {
+        "attending_name": "James Park",
+        "fellow_name": "Lisa Tran",
+        "fellow_pgy_level": 6,
+        "assistant_name": "Sarah Mitchell",
+        "assistant_role": "RN",
+        "trainee_present": true
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:53:15.902102"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "32550",
+          "final_codes": [
+            "32550"
+          ],
+          "modifiers": [],
+          "changes_made": false,
+          "code_rationales": {
+            "32550": "Insertion of tunneled indwelling pleural catheter (Rocket) with subcutaneous tunneling for hepatic hydrothorax."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 4.69,
+          "facility_total_payment": 152.0,
+          "per_code": {
+            "32550": {
+              "facility_rvu": 4.69,
+              "facility_payment": 152
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_8.json"
+        },
+        "overall_assessment": "Appropriate code for new IPC insertion. Hepatic hydrothorax is valid indication for tunneled catheter when medical management and TIPS have failed."
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "32550",
+            "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+            "units": 1
+          }
+        ],
+        "work_rvu": 3.92,
+        "practice_expense_rvu": 1.6,
+        "malpractice_rvu": 0.36,
+        "total_rvu": 5.88
+      }
+    },
+    "source_file": "synthetic_ipc_placement_v2_8.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.8",
+      "valid_codes": [
+        "32550"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 2,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Juan Howard",
+      "patient_age": 66,
+      "patient_mrn": "1866395",
+      "procedure_date": "2024-06-19",
+      "note_text": "OPERATIVE NOTE\n\nJuan Howard | MRN 1866395 | Date: N/A\n\nDx: PREOPERATIVE DIAGNOSIS: Right hepatic hydrothorax\nProc: Tunneled indwelling pleural catheter placement, right hemithorax\n\nActions:\n\u2022 Ipc\n\nCPT: 32550\nComplications: None\nDispo: Lisa Tran, MD (Fellow)\n",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "1866395",
+        "procedure_date": "2024-06-19",
+        "patient_age": 66,
+        "gender": "Male",
+        "asa_class": 4,
+        "primary_indication": "Refractory hepatic hydrothorax",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Non-malignant",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "Date of Service: 2025-04-17",
+          "primary_indication": "Refractory hepatic hydrothorax - decompensated cirrhosis",
+          "sedation_type": "Moderate sedation (Midazolam 2mg IV, Fentanyl 75mcg IV)"
+        },
+        "institution_name": "University Medical Center, Phoenix, AZ",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient admission",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Straw-colored/Transudative",
+        "pleural_volume_drained_ml": 1800,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Right",
+            "catheter_brand": "Rocket",
+            "indication": "Hepatic hydrothorax",
+            "tunneled": true
+          }
+        },
+        "providers": {
+          "attending_name": "James Park",
+          "fellow_name": "Lisa Tran",
+          "fellow_pgy_level": 6,
+          "assistant_name": "Sarah Mitchell",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902102"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (Rocket) with subcutaneous tunneling for hepatic hydrothorax."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for new IPC insertion. Hepatic hydrothorax is valid indication for tunneled catheter when medical management and TIPS have failed."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 2,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Gabriel Wood",
+      "patient_age": 59,
+      "patient_mrn": "8541848",
+      "procedure_date": "2025-09-24",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Gabriel Wood\nMedical Record Number: 8541848\nDate of Birth: 11/08/1966\nAge at Procedure: 59 years\nProcedure Date: N/A\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with refractory hepatic hydrothorax. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nIpc:\n\n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\n- Large free-flowing right pleural effusion\n- Transudative appearing fluid\n- No loculations or septations\n- Catheter positioned in posterior dependent space\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 32550\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "8541848",
+        "procedure_date": "2025-09-24",
+        "patient_age": 59,
+        "gender": "Male",
+        "asa_class": 4,
+        "primary_indication": "Refractory hepatic hydrothorax",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Non-malignant",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "Date of Service: 2025-04-17",
+          "primary_indication": "Refractory hepatic hydrothorax - decompensated cirrhosis",
+          "sedation_type": "Moderate sedation (Midazolam 2mg IV, Fentanyl 75mcg IV)"
+        },
+        "institution_name": "University Medical Center, Phoenix, AZ",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient admission",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Straw-colored/Transudative",
+        "pleural_volume_drained_ml": 1800,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Right",
+            "catheter_brand": "Rocket",
+            "indication": "Hepatic hydrothorax",
+            "tunneled": true
+          }
+        },
+        "providers": {
+          "attending_name": "James Park",
+          "fellow_name": "Lisa Tran",
+          "fellow_pgy_level": 6,
+          "assistant_name": "Sarah Mitchell",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902102"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (Rocket) with subcutaneous tunneling for hepatic hydrothorax."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for new IPC insertion. Hepatic hydrothorax is valid indication for tunneled catheter when medical management and TIPS have failed."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 2,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Thomas Torres",
+      "patient_age": 58,
+      "patient_mrn": "8367170",
+      "procedure_date": "2024-06-23",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: Thomas Torres | MRN: 8367170 | DOS: None\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 32550:\n  Rationale: Insertion of tunneled indwelling pleural catheter (Rocket) with subcutaneous tunneling for hepatic hydrothorax.\n  Facility RVU: 4.69\n  Facility Payment: $152\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n  \u2022 Rocket\n  \u2022 ultrasound\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nIPC:\n  - Action: Insertion\n  - Side: Right\n  - Catheter Brand: Rocket\n  - Indication: Hepatic hydrothorax\n  - Tunneled: True\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: 4.69\n  Total Facility Payment: $152.0\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "8367170",
+        "procedure_date": "2024-06-23",
+        "patient_age": 58,
+        "gender": "Male",
+        "asa_class": 4,
+        "primary_indication": "Refractory hepatic hydrothorax",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Non-malignant",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "Date of Service: 2025-04-17",
+          "primary_indication": "Refractory hepatic hydrothorax - decompensated cirrhosis",
+          "sedation_type": "Moderate sedation (Midazolam 2mg IV, Fentanyl 75mcg IV)"
+        },
+        "institution_name": "University Medical Center, Phoenix, AZ",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient admission",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Straw-colored/Transudative",
+        "pleural_volume_drained_ml": 1800,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Right",
+            "catheter_brand": "Rocket",
+            "indication": "Hepatic hydrothorax",
+            "tunneled": true
+          }
+        },
+        "providers": {
+          "attending_name": "James Park",
+          "fellow_name": "Lisa Tran",
+          "fellow_pgy_level": 6,
+          "assistant_name": "Sarah Mitchell",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902102"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (Rocket) with subcutaneous tunneling for hepatic hydrothorax."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for new IPC insertion. Hepatic hydrothorax is valid indication for tunneled catheter when medical management and TIPS have failed."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 2,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Dylan Martin",
+      "patient_age": 65,
+      "patient_mrn": "7803511",
+      "procedure_date": "2025-05-28",
+      "note_text": "PROCEDURE NOTE\n\nDate: None\nPatient: Dylan Martin\nMRN: 7803511\nAge/Sex: 65yo patient\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nRefractory hepatic hydrothorax\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nModerate\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Ipc performed\n5. Scope withdrawn\n6. Patient recovered without complication\n\nSPECIMENS:\nAs documented above\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nInpatient admission\n\nCPT CODES: 32550\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "7803511",
+        "procedure_date": "2025-05-28",
+        "patient_age": 65,
+        "gender": "Male",
+        "asa_class": 4,
+        "primary_indication": "Refractory hepatic hydrothorax",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Non-malignant",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "Date of Service: 2025-04-17",
+          "primary_indication": "Refractory hepatic hydrothorax - decompensated cirrhosis",
+          "sedation_type": "Moderate sedation (Midazolam 2mg IV, Fentanyl 75mcg IV)"
+        },
+        "institution_name": "University Medical Center, Phoenix, AZ",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient admission",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Straw-colored/Transudative",
+        "pleural_volume_drained_ml": 1800,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Right",
+            "catheter_brand": "Rocket",
+            "indication": "Hepatic hydrothorax",
+            "tunneled": true
+          }
+        },
+        "providers": {
+          "attending_name": "James Park",
+          "fellow_name": "Lisa Tran",
+          "fellow_pgy_level": 6,
+          "assistant_name": "Sarah Mitchell",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902102"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (Rocket) with subcutaneous tunneling for hepatic hydrothorax."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for new IPC insertion. Hepatic hydrothorax is valid indication for tunneled catheter when medical management and TIPS have failed."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 2,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Joan Smith",
+      "patient_age": 62,
+      "patient_mrn": "7669581",
+      "procedure_date": "2025-05-06",
+      "note_text": "procedure note None pt Joan Smith mrn 7669581\n\nindication refractory hepatic hydrothorax patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp ipc performed samples obtained sent to path \n\ncomplication none ebl minimal patient tolerated well disposition Inpatient admission \n\ncpt 32550\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "7669581",
+        "procedure_date": "2025-05-06",
+        "patient_age": 62,
+        "gender": "Male",
+        "asa_class": 4,
+        "primary_indication": "Refractory hepatic hydrothorax",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Non-malignant",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "Date of Service: 2025-04-17",
+          "primary_indication": "Refractory hepatic hydrothorax - decompensated cirrhosis",
+          "sedation_type": "Moderate sedation (Midazolam 2mg IV, Fentanyl 75mcg IV)"
+        },
+        "institution_name": "University Medical Center, Phoenix, AZ",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient admission",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Straw-colored/Transudative",
+        "pleural_volume_drained_ml": 1800,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Right",
+            "catheter_brand": "Rocket",
+            "indication": "Hepatic hydrothorax",
+            "tunneled": true
+          }
+        },
+        "providers": {
+          "attending_name": "James Park",
+          "fellow_name": "Lisa Tran",
+          "fellow_pgy_level": 6,
+          "assistant_name": "Sarah Mitchell",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902102"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (Rocket) with subcutaneous tunneling for hepatic hydrothorax."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for new IPC insertion. Hepatic hydrothorax is valid indication for tunneled catheter when medical management and TIPS have failed."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 2,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Christine Roberts",
+      "patient_age": 64,
+      "patient_mrn": "1628081",
+      "procedure_date": "2025-08-31",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE NOTE\n\nPatient: Christine Roberts\nMRN: 1628081\nDOB: 11/08/1961 (64 years old)\nDate of Service: 2025-04-17\nLocation: University Medical Center, Phoenix, AZ\n\nAttending Physician: Dr. James Park, MD\nFellow: Dr. Lisa Tran, MD (PGY-6)\nRN: Sarah Mitchell, RN\nRT: David Chen, RRT\n\nINDICATION: Refractory hepatic hydrothorax in patient with decompensated cirrhosis (Child-Pugh C, MELD 24). Prior TIPS revision unsuccessful. Requiring twice-weekly thoracenteses with significant symptom burden. Not a liver transplant candidate.\n\nPREOPERATIVE DIAGNOSIS: Right hepatic hydrothorax\n\nPOSTOPERATIVE DIAGNOSIS: Same\n\nPROCEDURE: Tunneled indwelling pleural catheter placement, right hemithorax\n\nANESTHESIA: Moderate sedation (Midazolam 2mg IV, Fentanyl 75mcg IV) with local anesthesia (1% lidocaine with epinephrine)\n\nPatient positioned in left lateral decubitus. Standard surgical timeout completed confirming right side, procedure, and patient identity. Pre-procedure ultrasound demonstrated large right pleural effusion with no loculations. Optimal entry point identified at 6th intercostal space, posterior axillary line.\n\nThe skin was prepped with chlorhexidine and draped in sterile fashion. Local anesthesia was administered along the proposed insertion tract and subcutaneous tunnel. A 15mm skin incision was made at the insertion point.\n\nUsing the Rocket Medical tunneling system, a 12cm subcutaneous tunnel was created from the insertion site anteriorly toward the anterior axillary line. The Rocket IPC was threaded through the tunnel with the Dacron cuff positioned approximately 2cm from the exit site to promote tissue ingrowth.\n\nThe pleural space was accessed using modified Seldinger technique. Real-time ultrasound confirmed the guidewire position in the pleural space. The dilator and peel-away sheath were introduced, and the 15.5Fr Rocket catheter was advanced into the pleural space. The position was confirmed with aspiration of clear, straw-colored fluid.\n\n1,800mL of transudative-appearing fluid was drained. Pleural fluid samples sent for cell count, chemistry, culture, and cytology. The catheter was secured with 2-0 Prolene sutures. Exit site dressed with sterile gauze and Tegaderm.\n\nPost-procedure CXR showed catheter tip in dependent right hemithorax, significant improvement in effusion, no pneumothorax.\n\n- Large free-flowing right pleural effusion\n- Transudative appearing fluid\n- No loculations or septations\n- Catheter positioned in posterior dependent space\n\nCOMPLICATIONS: None\n\nEBL: <5mL\n\nDISPOSITION: Admitted for overnight observation given hepatic encephalopathy risk with large volume drainage. Home health arranged for daily drainage (max 1000mL/day).\n\nFOLLOW-UP: Interventional pulmonology clinic in 2 weeks.\n\nElectronically signed by:\nJames Park, MD\nLisa Tran, MD (Fellow)",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "1628081",
+        "procedure_date": "2025-08-31",
+        "patient_age": 64,
+        "gender": "Male",
+        "asa_class": 4,
+        "primary_indication": "Refractory hepatic hydrothorax",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Non-malignant",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "Date of Service: 2025-04-17",
+          "primary_indication": "Refractory hepatic hydrothorax - decompensated cirrhosis",
+          "sedation_type": "Moderate sedation (Midazolam 2mg IV, Fentanyl 75mcg IV)"
+        },
+        "institution_name": "University Medical Center, Phoenix, AZ",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient admission",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Straw-colored/Transudative",
+        "pleural_volume_drained_ml": 1800,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Right",
+            "catheter_brand": "Rocket",
+            "indication": "Hepatic hydrothorax",
+            "tunneled": true
+          }
+        },
+        "providers": {
+          "attending_name": "James Park",
+          "fellow_name": "Lisa Tran",
+          "fellow_pgy_level": 6,
+          "assistant_name": "Sarah Mitchell",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902102"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (Rocket) with subcutaneous tunneling for hepatic hydrothorax."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for new IPC insertion. Hepatic hydrothorax is valid indication for tunneled catheter when medical management and TIPS have failed."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 2,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Luis Patel",
+      "patient_age": 67,
+      "patient_mrn": "7626718",
+      "procedure_date": "2024-11-11",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Luis Patel\nMRN: 7626718\nDOB: 11/08/1957\nAge: 67\nDate: None\n\n[INDICATION]\nRefractory hepatic hydrothorax\n\n[ANESTHESIA]\nType: Moderate\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Ipc: Performed\n  \u2022 action: Insertion\n  \u2022 side: Right\n  \u2022 catheter brand: Rocket\n  \u2022 indication: Hepatic hydrothorax\n  \u2022 tunneled: Yes\n\n[FINDINGS]\nAssessment: Non-malignant\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: Inpatient admission\n\n[CODING]\nCPT: 32550\n",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "7626718",
+        "procedure_date": "2024-11-11",
+        "patient_age": 67,
+        "gender": "Male",
+        "asa_class": 4,
+        "primary_indication": "Refractory hepatic hydrothorax",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Non-malignant",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "Date of Service: 2025-04-17",
+          "primary_indication": "Refractory hepatic hydrothorax - decompensated cirrhosis",
+          "sedation_type": "Moderate sedation (Midazolam 2mg IV, Fentanyl 75mcg IV)"
+        },
+        "institution_name": "University Medical Center, Phoenix, AZ",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient admission",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Straw-colored/Transudative",
+        "pleural_volume_drained_ml": 1800,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Right",
+            "catheter_brand": "Rocket",
+            "indication": "Hepatic hydrothorax",
+            "tunneled": true
+          }
+        },
+        "providers": {
+          "attending_name": "James Park",
+          "fellow_name": "Lisa Tran",
+          "fellow_pgy_level": 6,
+          "assistant_name": "Sarah Mitchell",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902102"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (Rocket) with subcutaneous tunneling for hepatic hydrothorax."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for new IPC insertion. Hepatic hydrothorax is valid indication for tunneled catheter when medical management and TIPS have failed."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 2,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Jessica Watson",
+      "patient_age": 63,
+      "patient_mrn": "1440741",
+      "procedure_date": "2024-01-01",
+      "note_text": "On None, Jessica Watson, a 63-year-old patient (MRN 1440741), underwent bronchoscopic evaluation for Refractory hepatic hydrothorax. The patient received Moderate and the procedure was performed in standard fashion. The procedure included ipc. \n\nOn examination, the airways were systematically inspected. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is non-malignant. \n\nProcedural coding: 32550.",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "1440741",
+        "procedure_date": "2024-01-01",
+        "patient_age": 63,
+        "gender": "Male",
+        "asa_class": 4,
+        "primary_indication": "Refractory hepatic hydrothorax",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Non-malignant",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "Date of Service: 2025-04-17",
+          "primary_indication": "Refractory hepatic hydrothorax - decompensated cirrhosis",
+          "sedation_type": "Moderate sedation (Midazolam 2mg IV, Fentanyl 75mcg IV)"
+        },
+        "institution_name": "University Medical Center, Phoenix, AZ",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient admission",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Straw-colored/Transudative",
+        "pleural_volume_drained_ml": 1800,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Right",
+            "catheter_brand": "Rocket",
+            "indication": "Hepatic hydrothorax",
+            "tunneled": true
+          }
+        },
+        "providers": {
+          "attending_name": "James Park",
+          "fellow_name": "Lisa Tran",
+          "fellow_pgy_level": 6,
+          "assistant_name": "Sarah Mitchell",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902102"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (Rocket) with subcutaneous tunneling for hepatic hydrothorax."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for new IPC insertion. Hepatic hydrothorax is valid indication for tunneled catheter when medical management and TIPS have failed."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 2,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Anna Edwards",
+      "patient_age": 62,
+      "patient_mrn": "1539901",
+      "procedure_date": "2024-03-10",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE NOTE\n\nPatient: Anna Edwards\nMRN: 1539901\nDOB: 11/08/1962 (62 years old)\nDate of Service: 2025-04-17\nLocation: University Medical Center, Phoenix, AZ\n\nAttending Physician: Dr. James Park, MD\nFellow: Dr. Lisa Tran, MD (PGY-6)\nRN: Sarah Mitchell, RN\nRT: David Chen, RRT\n\nINDICATION: Refractory hepatic hydrothorax in patient with decompensated cirrhosis (Child-Pugh C, MELD 24). Prior TIPS revision unsuccessful. Requiring twice-weekly thoracenteses with significant symptom burden. Not a liver transplant candidate.\n\nPREOPERATIVE DIAGNOSIS: Right hepatic hydrothorax\n\nPOSTOPERATIVE DIAGNOSIS: Same\n\nPROCEDURE: Tunneled indwelling pleural catheter placement, right hemithorax\n\nANESTHESIA: Moderate sedation (Midazolam 2mg IV, Fentanyl 75mcg IV) with local anesthesia (1% lidocaine with epinephrine)\n\nPROCEDURE NARRATIVE:\nPatient positioned in left lateral decubitus. Standard surgical timeout completed confirming right side, procedure, and patient identity. Pre-procedure ultrasound demonstrated large right pleural effusion with no loculations. Optimal entry point located at 6th intercostal space, posterior axillary line.\n\nThe skin was prepped with chlorhexidine and draped in sterile fashion. Local anesthesia was administered along the proposed insertion tract and subcutaneous tunnel. A 15mm skin incision was made at the insertion point.\n\nUsing the Rocket Medical tunneling system, a 12cm subcutaneous tunnel was created from the insertion site anteriorly toward the anterior axillary line. The Rocket IPC was threaded through the tunnel with the Dacron cuff positioned approximately 2cm from the exit site to promote tissue ingrowth.\n\nThe pleural space was accessed using modified Seldinger technique. Real-time ultrasound affirmed the guidewire position in the pleural space. The dilator and peel-away sheath were introduced, and the 15.5Fr Rocket catheter was maneuvered into the pleural space. The position was affirmed with aspiration of clear, straw-colored fluid.\n\n1,800mL of transudative-appearing fluid was drained. Pleural fluid samples sent for cell count, chemistry, culture, and cytology. The catheter was secured with 2-0 Prolene sutures. Exit site dressed with sterile gauze and Tegaderm.\n\nPost-procedure CXR demonstrated catheter tip in dependent right hemithorax, significant improvement in effusion, no pneumothorax.\n\nFINDINGS:\n- Large free-flowing right pleural effusion\n- Transudative appearing fluid\n- No loculations or septations\n- Catheter positioned in posterior dependent space\n\nCOMPLICATIONS: None\n\nEBL: <5mL\n\nDISPOSITION: Admitted for overnight observation given hepatic encephalopathy risk with large volume drainage. Home health arranged for daily drainage (max 1000mL/day).\n\nFOLLOW-UP: Interventional pulmonology clinic in 2 weeks.\n\nElectronically signed by:\nJames Park, MD\nLisa Tran, MD (Fellow)",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "1539901",
+        "procedure_date": "2024-03-10",
+        "patient_age": 62,
+        "gender": "Male",
+        "asa_class": 4,
+        "primary_indication": "Refractory hepatic hydrothorax",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Non-malignant",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "Date of Service: 2025-04-17",
+          "primary_indication": "Refractory hepatic hydrothorax - decompensated cirrhosis",
+          "sedation_type": "Moderate sedation (Midazolam 2mg IV, Fentanyl 75mcg IV)"
+        },
+        "institution_name": "University Medical Center, Phoenix, AZ",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient admission",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Straw-colored/Transudative",
+        "pleural_volume_drained_ml": 1800,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Right",
+            "catheter_brand": "Rocket",
+            "indication": "Hepatic hydrothorax",
+            "tunneled": true
+          }
+        },
+        "providers": {
+          "attending_name": "James Park",
+          "fellow_name": "Lisa Tran",
+          "fellow_pgy_level": 6,
+          "assistant_name": "Sarah Mitchell",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902102"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (Rocket) with subcutaneous tunneling for hepatic hydrothorax."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for new IPC insertion. Hepatic hydrothorax is valid indication for tunneled catheter when medical management and TIPS have failed."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    }
+  ]
+}

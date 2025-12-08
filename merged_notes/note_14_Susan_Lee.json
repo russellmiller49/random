@@ -1,0 +1,1388 @@
+{
+  "base_note": {
+    "note_text": "NAVIGATION BRONCHOSCOPY NOTE\nDate: 2025-09-13\nPatient: Susan Lee | MRN: 2885591 | Age: 58F\nAttending: Dr. Michael Park, MD | Fellow: Dr. Karen Chen (PGY-6)\nLocation: UCSF Medical Center, San Francisco, CA\n\nINDICATION: 15mm LUL ground-glass nodule (SUV 3.2), bronchus sign positive. Biopsy for diagnosis.\n\nPROCEDURE: Ion robotic bronchoscopy with transbronchial cryobiopsy\n\nUnder GA, Ion platform registration performed (fiducial-less, registration error 1.2mm). Navigation to LUL anterior segment (LB3). Radial EBUS showed concentric lesion view. Target lock confirmed. \n\nCryoprobe (1.9mm) advanced under augmented fluoroscopy. Tool-in-lesion confirmed on CBCT. 3 cryobiopsies obtained (4-second freeze time each). Specimens 3-4mm, sent to surgical pathology. Mild bleeding controlled with wedge technique. No pneumothorax on completion fluoro.\n\nFINDINGS: r-EBUS concentric view, CBCT TIL confirmed, adequate specimens\n\nSPECIMENS: Cryobiopsy LUL x 3 - surgical pathology\n\nCOMPLICATIONS: Mild bleeding - self-limited\nDISPOSITION: Outpatient discharge after 2hr CXR\n\nDr. Michael Park, MD",
+    "cpt_codes": [
+      31627,
+      31654,
+      31629
+    ],
+    "registry_entry": {
+      "patient_mrn": "2885591",
+      "procedure_date": "2025-09-13",
+      "patient_age": 58,
+      "gender": "Female",
+      "asa_class": 2,
+      "primary_indication": "LUL ground-glass nodule workup",
+      "sedation_type": "General",
+      "airway_type": "ETT",
+      "final_diagnosis_prelim": "Pending",
+      "cpt_codes": [
+        31627,
+        31654,
+        31629
+      ],
+      "nav_platform": "Ion (Intuitive)",
+      "nav_registration_method": "Fiducial-less",
+      "nav_registration_error_mm": 1.2,
+      "nav_rebus_used": true,
+      "nav_rebus_view": "Concentric",
+      "nav_imaging_verification": "CBCT",
+      "nav_tool_in_lesion": true,
+      "nav_sampling_tools": [
+        "Cryoprobe"
+      ],
+      "nav_cryobiopsy_for_nodule": true,
+      "procedures_performed": {
+        "navigational_bronchoscopy": {
+          "performed": true,
+          "platform": "Ion",
+          "target_lobe": "LUL",
+          "registration_error_mm": 1.2
+        },
+        "radial_ebus": {
+          "performed": true,
+          "probe_position": "Concentric"
+        },
+        "transbronchial_cryobiopsy": {
+          "performed": true,
+          "number_of_samples": 3,
+          "cryoprobe_size_mm": 1.9,
+          "freeze_time_seconds": 4
+        }
+      },
+      "clinical_context": {
+        "lesion_size_mm": 15,
+        "lesion_location": "LUL",
+        "pet_avidity": true,
+        "suv_max": 3.2,
+        "bronchus_sign": "Positive"
+      },
+      "providers": {
+        "attending_name": "Michael Park",
+        "fellow_name": "Karen Chen"
+      },
+      "metadata": {
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:53:15.902747"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "31627",
+          "final_codes": [
+            "31627",
+            "31654",
+            "31629"
+          ],
+          "modifiers": [],
+          "changes_made": false,
+          "code_rationales": {
+            "31627": "Navigational bronchoscopy (Ion robotic) add-on",
+            "31654": "Radial EBUS for peripheral lesion (add-on)",
+            "31629": "TBNA for parenchymal lesion sampling (cryobiopsy)"
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 2.11,
+          "facility_total_payment": 68.0,
+          "per_code": {
+            "31654": {
+              "facility_rvu": 2.11,
+              "facility_payment": 68
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_8.json"
+        },
+        "overall_assessment": "Robotic navigation with radial EBUS and cryobiopsy for nodule diagnosis."
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "+31627",
+            "description": "Bronchoscopy; with computer-assisted, image-guided navigation (add-on)",
+            "units": 1
+          },
+          {
+            "code": "+31654",
+            "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+            "units": 1
+          },
+          {
+            "code": "31629",
+            "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s)",
+            "units": 1
+          }
+        ],
+        "work_rvu": 7.42,
+        "practice_expense_rvu": 2.85,
+        "malpractice_rvu": 0.8,
+        "total_rvu": 11.07
+      }
+    },
+    "source_file": "synthetic_additional_v2_8.json",
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes +31627, +31654, 31629; total_work_rvu=7.42, total_rvu=11.07 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 14,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Joseph Lewis",
+      "patient_age": 61,
+      "patient_mrn": "4501501",
+      "procedure_date": "2024-03-15",
+      "note_text": "OPERATIVE NOTE\n\nJoseph Lewis | MRN 4501501 | 2024-03-15\n\nDx: See above\nProc: Ion robotic bronchoscopy with transbronchial cryobiopsy\n\nActions:\n\u2022 Navigational Bronchoscopy\n\u2022 Radial Ebus\n\u2022 Transbronchial Cryobiopsy\n\nCPT: 31627, 31654, 31629\nComplications: Mild bleeding - self-limited\nDispo: Dr. Michael Park, MD\n",
+      "cpt_codes": [
+        31627,
+        31654,
+        31629
+      ],
+      "registry_entry": {
+        "patient_mrn": "4501501",
+        "procedure_date": "2024-03-15",
+        "patient_age": 61,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "LUL ground-glass nodule workup",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Pending",
+        "cpt_codes": [
+          31627,
+          31654,
+          31629
+        ],
+        "nav_platform": "Ion (Intuitive)",
+        "nav_registration_method": "Fiducial-less",
+        "nav_registration_error_mm": 1.2,
+        "nav_rebus_used": true,
+        "nav_rebus_view": "Concentric",
+        "nav_imaging_verification": "CBCT",
+        "nav_tool_in_lesion": true,
+        "nav_sampling_tools": [
+          "Cryoprobe"
+        ],
+        "nav_cryobiopsy_for_nodule": true,
+        "procedures_performed": {
+          "navigational_bronchoscopy": {
+            "performed": true,
+            "platform": "Ion",
+            "target_lobe": "LUL",
+            "registration_error_mm": 1.2
+          },
+          "radial_ebus": {
+            "performed": true,
+            "probe_position": "Concentric"
+          },
+          "transbronchial_cryobiopsy": {
+            "performed": true,
+            "number_of_samples": 3,
+            "cryoprobe_size_mm": 1.9,
+            "freeze_time_seconds": 4
+          }
+        },
+        "clinical_context": {
+          "lesion_size_mm": 15,
+          "lesion_location": "LUL",
+          "pet_avidity": true,
+          "suv_max": 3.2,
+          "bronchus_sign": "Positive"
+        },
+        "providers": {
+          "attending_name": "Michael Park",
+          "fellow_name": "Karen Chen"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902747"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31627",
+            "final_codes": [
+              "31627",
+              "31654",
+              "31629"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31627": "Navigational bronchoscopy (Ion robotic) add-on",
+              "31654": "Radial EBUS for peripheral lesion (add-on)",
+              "31629": "TBNA for parenchymal lesion sampling (cryobiopsy)"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 2.11,
+            "facility_total_payment": 68.0,
+            "per_code": {
+              "31654": {
+                "facility_rvu": 2.11,
+                "facility_payment": 68
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Robotic navigation with radial EBUS and cryobiopsy for nodule diagnosis."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "+31627",
+              "description": "Bronchoscopy; with computer-assisted, image-guided navigation (add-on)",
+              "units": 1
+            },
+            {
+              "code": "+31654",
+              "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+              "units": 1
+            },
+            {
+              "code": "31629",
+              "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 7.42,
+          "practice_expense_rvu": 2.85,
+          "malpractice_rvu": 0.8,
+          "total_rvu": 11.07
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes +31627, +31654, 31629; total_work_rvu=7.42, total_rvu=11.07 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 14,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Pamela Reyes",
+      "patient_age": 59,
+      "patient_mrn": "4322142",
+      "procedure_date": "2025-11-05",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Pamela Reyes\nMedical Record Number: 4322142\nDate of Birth: N/A\nAge at Procedure: N/A years\nProcedure Date: 2025-11-05\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with lul ground-glass nodule workup. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nNavigational Bronchoscopy:\n\nRadial Ebus:\nEndobronchial ultrasound-guided transbronchial needle aspiration was performed utilizing real-time sonographic guidance for precise lymph node targeting. \nTransbronchial Cryobiopsy:\nTransbronchial lung parenchymal sampling was performed utilizing standard forceps technique with fluoroscopic localization to minimize pneumothorax risk. \n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\nr-EBUS concentric view, CBCT TIL confirmed, adequate specimens\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 31627, 31654, 31629\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        31627,
+        31654,
+        31629
+      ],
+      "registry_entry": {
+        "patient_mrn": "4322142",
+        "procedure_date": "2025-11-05",
+        "patient_age": 59,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "LUL ground-glass nodule workup",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Pending",
+        "cpt_codes": [
+          31627,
+          31654,
+          31629
+        ],
+        "nav_platform": "Ion (Intuitive)",
+        "nav_registration_method": "Fiducial-less",
+        "nav_registration_error_mm": 1.2,
+        "nav_rebus_used": true,
+        "nav_rebus_view": "Concentric",
+        "nav_imaging_verification": "CBCT",
+        "nav_tool_in_lesion": true,
+        "nav_sampling_tools": [
+          "Cryoprobe"
+        ],
+        "nav_cryobiopsy_for_nodule": true,
+        "procedures_performed": {
+          "navigational_bronchoscopy": {
+            "performed": true,
+            "platform": "Ion",
+            "target_lobe": "LUL",
+            "registration_error_mm": 1.2
+          },
+          "radial_ebus": {
+            "performed": true,
+            "probe_position": "Concentric"
+          },
+          "transbronchial_cryobiopsy": {
+            "performed": true,
+            "number_of_samples": 3,
+            "cryoprobe_size_mm": 1.9,
+            "freeze_time_seconds": 4
+          }
+        },
+        "clinical_context": {
+          "lesion_size_mm": 15,
+          "lesion_location": "LUL",
+          "pet_avidity": true,
+          "suv_max": 3.2,
+          "bronchus_sign": "Positive"
+        },
+        "providers": {
+          "attending_name": "Michael Park",
+          "fellow_name": "Karen Chen"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902747"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31627",
+            "final_codes": [
+              "31627",
+              "31654",
+              "31629"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31627": "Navigational bronchoscopy (Ion robotic) add-on",
+              "31654": "Radial EBUS for peripheral lesion (add-on)",
+              "31629": "TBNA for parenchymal lesion sampling (cryobiopsy)"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 2.11,
+            "facility_total_payment": 68.0,
+            "per_code": {
+              "31654": {
+                "facility_rvu": 2.11,
+                "facility_payment": 68
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Robotic navigation with radial EBUS and cryobiopsy for nodule diagnosis."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "+31627",
+              "description": "Bronchoscopy; with computer-assisted, image-guided navigation (add-on)",
+              "units": 1
+            },
+            {
+              "code": "+31654",
+              "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+              "units": 1
+            },
+            {
+              "code": "31629",
+              "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 7.42,
+          "practice_expense_rvu": 2.85,
+          "malpractice_rvu": 0.8,
+          "total_rvu": 11.07
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes +31627, +31654, 31629; total_work_rvu=7.42, total_rvu=11.07 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 14,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Angela Singh",
+      "patient_age": 56,
+      "patient_mrn": "2208897",
+      "procedure_date": "2024-12-26",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: Angela Singh | MRN: 2208897 | DOS: 2024-12-26\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 31627:\n  Rationale: Navigational bronchoscopy (Ion robotic) add-on\n\nCPT 31654:\n  Rationale: Radial EBUS for peripheral lesion (add-on)\n  Facility RVU: 2.11\n  Facility Payment: $68\n\nCPT 31629:\n  Rationale: TBNA for parenchymal lesion sampling (cryobiopsy)\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n  \u2022 Cryoprobe\n  \u2022 Ion robotic\n  \u2022 fluoroscopy\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nNAVIGATIONAL BRONCHOSCOPY:\n  - Platform: Ion\n  - Target Lobe: LUL\n  - Registration Error Mm: 1.2\n\nRADIAL EBUS:\n  - Probe Position: Concentric\n\nTRANSBRONCHIAL CRYOBIOPSY:\n  - Number Of Samples: 3\n  - Cryoprobe Size Mm: 1.9\n  - Freeze Time Seconds: 4\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: 2.11\n  Total Facility Payment: $68.0\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        31627,
+        31654,
+        31629
+      ],
+      "registry_entry": {
+        "patient_mrn": "2208897",
+        "procedure_date": "2024-12-26",
+        "patient_age": 56,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "LUL ground-glass nodule workup",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Pending",
+        "cpt_codes": [
+          31627,
+          31654,
+          31629
+        ],
+        "nav_platform": "Ion (Intuitive)",
+        "nav_registration_method": "Fiducial-less",
+        "nav_registration_error_mm": 1.2,
+        "nav_rebus_used": true,
+        "nav_rebus_view": "Concentric",
+        "nav_imaging_verification": "CBCT",
+        "nav_tool_in_lesion": true,
+        "nav_sampling_tools": [
+          "Cryoprobe"
+        ],
+        "nav_cryobiopsy_for_nodule": true,
+        "procedures_performed": {
+          "navigational_bronchoscopy": {
+            "performed": true,
+            "platform": "Ion",
+            "target_lobe": "LUL",
+            "registration_error_mm": 1.2
+          },
+          "radial_ebus": {
+            "performed": true,
+            "probe_position": "Concentric"
+          },
+          "transbronchial_cryobiopsy": {
+            "performed": true,
+            "number_of_samples": 3,
+            "cryoprobe_size_mm": 1.9,
+            "freeze_time_seconds": 4
+          }
+        },
+        "clinical_context": {
+          "lesion_size_mm": 15,
+          "lesion_location": "LUL",
+          "pet_avidity": true,
+          "suv_max": 3.2,
+          "bronchus_sign": "Positive"
+        },
+        "providers": {
+          "attending_name": "Michael Park",
+          "fellow_name": "Karen Chen"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902747"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31627",
+            "final_codes": [
+              "31627",
+              "31654",
+              "31629"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31627": "Navigational bronchoscopy (Ion robotic) add-on",
+              "31654": "Radial EBUS for peripheral lesion (add-on)",
+              "31629": "TBNA for parenchymal lesion sampling (cryobiopsy)"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 2.11,
+            "facility_total_payment": 68.0,
+            "per_code": {
+              "31654": {
+                "facility_rvu": 2.11,
+                "facility_payment": 68
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Robotic navigation with radial EBUS and cryobiopsy for nodule diagnosis."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "+31627",
+              "description": "Bronchoscopy; with computer-assisted, image-guided navigation (add-on)",
+              "units": 1
+            },
+            {
+              "code": "+31654",
+              "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+              "units": 1
+            },
+            {
+              "code": "31629",
+              "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 7.42,
+          "practice_expense_rvu": 2.85,
+          "malpractice_rvu": 0.8,
+          "total_rvu": 11.07
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes +31627, +31654, 31629; total_work_rvu=7.42, total_rvu=11.07 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 14,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Diana Hall",
+      "patient_age": 56,
+      "patient_mrn": "4926968",
+      "procedure_date": "2025-10-06",
+      "note_text": "PROCEDURE NOTE\n\nDate: 2025-10-06\nPatient: Diana Hall\nMRN: 4926968\nAge/Sex: Noneyo patient\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nLUL ground-glass nodule workup\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nGeneral\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Navigational Bronchoscopy performed\n5. Radial Ebus performed\n6. Transbronchial Cryobiopsy performed\n7. Scope withdrawn\n8. Patient recovered without complication\n\nSPECIMENS:\n3-4mm, sent to surgical pathology. Mild bleeding controlled with wedge technique. No pneumothorax on completion fluoro.\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nTo recovery, stable condition\n\nCPT CODES: 31627, 31654, 31629\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        31627,
+        31654,
+        31629
+      ],
+      "registry_entry": {
+        "patient_mrn": "4926968",
+        "procedure_date": "2025-10-06",
+        "patient_age": 56,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "LUL ground-glass nodule workup",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Pending",
+        "cpt_codes": [
+          31627,
+          31654,
+          31629
+        ],
+        "nav_platform": "Ion (Intuitive)",
+        "nav_registration_method": "Fiducial-less",
+        "nav_registration_error_mm": 1.2,
+        "nav_rebus_used": true,
+        "nav_rebus_view": "Concentric",
+        "nav_imaging_verification": "CBCT",
+        "nav_tool_in_lesion": true,
+        "nav_sampling_tools": [
+          "Cryoprobe"
+        ],
+        "nav_cryobiopsy_for_nodule": true,
+        "procedures_performed": {
+          "navigational_bronchoscopy": {
+            "performed": true,
+            "platform": "Ion",
+            "target_lobe": "LUL",
+            "registration_error_mm": 1.2
+          },
+          "radial_ebus": {
+            "performed": true,
+            "probe_position": "Concentric"
+          },
+          "transbronchial_cryobiopsy": {
+            "performed": true,
+            "number_of_samples": 3,
+            "cryoprobe_size_mm": 1.9,
+            "freeze_time_seconds": 4
+          }
+        },
+        "clinical_context": {
+          "lesion_size_mm": 15,
+          "lesion_location": "LUL",
+          "pet_avidity": true,
+          "suv_max": 3.2,
+          "bronchus_sign": "Positive"
+        },
+        "providers": {
+          "attending_name": "Michael Park",
+          "fellow_name": "Karen Chen"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902747"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31627",
+            "final_codes": [
+              "31627",
+              "31654",
+              "31629"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31627": "Navigational bronchoscopy (Ion robotic) add-on",
+              "31654": "Radial EBUS for peripheral lesion (add-on)",
+              "31629": "TBNA for parenchymal lesion sampling (cryobiopsy)"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 2.11,
+            "facility_total_payment": 68.0,
+            "per_code": {
+              "31654": {
+                "facility_rvu": 2.11,
+                "facility_payment": 68
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Robotic navigation with radial EBUS and cryobiopsy for nodule diagnosis."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "+31627",
+              "description": "Bronchoscopy; with computer-assisted, image-guided navigation (add-on)",
+              "units": 1
+            },
+            {
+              "code": "+31654",
+              "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+              "units": 1
+            },
+            {
+              "code": "31629",
+              "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 7.42,
+          "practice_expense_rvu": 2.85,
+          "malpractice_rvu": 0.8,
+          "total_rvu": 11.07
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes +31627, +31654, 31629; total_work_rvu=7.42, total_rvu=11.07 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 14,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Christina Sanchez",
+      "patient_age": 57,
+      "patient_mrn": "7397901",
+      "procedure_date": "2024-01-24",
+      "note_text": "procedure note 2024-01-24 pt Christina Sanchez mrn 7397901\n\nindication lul ground-glass nodule workup patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp navigational bronchoscopy radial ebus transbronchial cryobiopsy performed samples obtained sent to path \n\ncomplication none ebl minimal patient tolerated well disposition to recovery \n\ncpt 31627 31654 31629\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        31627,
+        31654,
+        31629
+      ],
+      "registry_entry": {
+        "patient_mrn": "7397901",
+        "procedure_date": "2024-01-24",
+        "patient_age": 57,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "LUL ground-glass nodule workup",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Pending",
+        "cpt_codes": [
+          31627,
+          31654,
+          31629
+        ],
+        "nav_platform": "Ion (Intuitive)",
+        "nav_registration_method": "Fiducial-less",
+        "nav_registration_error_mm": 1.2,
+        "nav_rebus_used": true,
+        "nav_rebus_view": "Concentric",
+        "nav_imaging_verification": "CBCT",
+        "nav_tool_in_lesion": true,
+        "nav_sampling_tools": [
+          "Cryoprobe"
+        ],
+        "nav_cryobiopsy_for_nodule": true,
+        "procedures_performed": {
+          "navigational_bronchoscopy": {
+            "performed": true,
+            "platform": "Ion",
+            "target_lobe": "LUL",
+            "registration_error_mm": 1.2
+          },
+          "radial_ebus": {
+            "performed": true,
+            "probe_position": "Concentric"
+          },
+          "transbronchial_cryobiopsy": {
+            "performed": true,
+            "number_of_samples": 3,
+            "cryoprobe_size_mm": 1.9,
+            "freeze_time_seconds": 4
+          }
+        },
+        "clinical_context": {
+          "lesion_size_mm": 15,
+          "lesion_location": "LUL",
+          "pet_avidity": true,
+          "suv_max": 3.2,
+          "bronchus_sign": "Positive"
+        },
+        "providers": {
+          "attending_name": "Michael Park",
+          "fellow_name": "Karen Chen"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902747"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31627",
+            "final_codes": [
+              "31627",
+              "31654",
+              "31629"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31627": "Navigational bronchoscopy (Ion robotic) add-on",
+              "31654": "Radial EBUS for peripheral lesion (add-on)",
+              "31629": "TBNA for parenchymal lesion sampling (cryobiopsy)"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 2.11,
+            "facility_total_payment": 68.0,
+            "per_code": {
+              "31654": {
+                "facility_rvu": 2.11,
+                "facility_payment": 68
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Robotic navigation with radial EBUS and cryobiopsy for nodule diagnosis."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "+31627",
+              "description": "Bronchoscopy; with computer-assisted, image-guided navigation (add-on)",
+              "units": 1
+            },
+            {
+              "code": "+31654",
+              "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+              "units": 1
+            },
+            {
+              "code": "31629",
+              "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 7.42,
+          "practice_expense_rvu": 2.85,
+          "malpractice_rvu": 0.8,
+          "total_rvu": 11.07
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes +31627, +31654, 31629; total_work_rvu=7.42, total_rvu=11.07 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 14,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Jose Butler",
+      "patient_age": 63,
+      "patient_mrn": "2656460",
+      "procedure_date": "2025-06-17",
+      "note_text": "NAVIGATION BRONCHOSCOPY NOTE\nDate: 2025-06-17\nPatient: Jose Butler | MRN: 2656460 | Age: 58F\nAttending: Dr. Michael Park, MD | Fellow: Dr. Karen Chen (PGY-6)\nLocation: UCSF Medical Center, San Francisco, CA\n\nINDICATION: 15mm LUL ground-glass nodule (SUV 3.2), bronchus sign positive. Biopsy for diagnosis.\n\nPROCEDURE: Ion robotic bronchoscopy with transbronchial cryobiopsy\n\nUnder GA, Ion platform registration performed (fiducial-less, registration error 1.2mm). Navigation to LUL anterior segment (LB3). Radial EBUS showed concentric lesion view. Target lock confirmed. \n\nCryoprobe (1.9mm) advanced under augmented fluoroscopy. Tool-in-lesion confirmed on CBCT. 3 cryobiopsies obtained (4-second freeze time each). Specimens 3-4mm, sent to surgical pathology. Mild bleeding controlled with wedge technique. No pneumothorax on completion fluoro.\n\nFINDINGS: r-EBUS concentric view, CBCT TIL confirmed, adequate specimens\n\nSPECIMENS: Cryobiopsy LUL x 3 - surgical pathology\n\nCOMPLICATIONS: Mild bleeding - self-limited\nDISPOSITION: Outpatient discharge after 2hr CXR\n\nDr. Michael Park, MD",
+      "cpt_codes": [
+        31627,
+        31654,
+        31629
+      ],
+      "registry_entry": {
+        "patient_mrn": "2656460",
+        "procedure_date": "2025-06-17",
+        "patient_age": 63,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "LUL ground-glass nodule workup",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Pending",
+        "cpt_codes": [
+          31627,
+          31654,
+          31629
+        ],
+        "nav_platform": "Ion (Intuitive)",
+        "nav_registration_method": "Fiducial-less",
+        "nav_registration_error_mm": 1.2,
+        "nav_rebus_used": true,
+        "nav_rebus_view": "Concentric",
+        "nav_imaging_verification": "CBCT",
+        "nav_tool_in_lesion": true,
+        "nav_sampling_tools": [
+          "Cryoprobe"
+        ],
+        "nav_cryobiopsy_for_nodule": true,
+        "procedures_performed": {
+          "navigational_bronchoscopy": {
+            "performed": true,
+            "platform": "Ion",
+            "target_lobe": "LUL",
+            "registration_error_mm": 1.2
+          },
+          "radial_ebus": {
+            "performed": true,
+            "probe_position": "Concentric"
+          },
+          "transbronchial_cryobiopsy": {
+            "performed": true,
+            "number_of_samples": 3,
+            "cryoprobe_size_mm": 1.9,
+            "freeze_time_seconds": 4
+          }
+        },
+        "clinical_context": {
+          "lesion_size_mm": 15,
+          "lesion_location": "LUL",
+          "pet_avidity": true,
+          "suv_max": 3.2,
+          "bronchus_sign": "Positive"
+        },
+        "providers": {
+          "attending_name": "Michael Park",
+          "fellow_name": "Karen Chen"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902747"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31627",
+            "final_codes": [
+              "31627",
+              "31654",
+              "31629"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31627": "Navigational bronchoscopy (Ion robotic) add-on",
+              "31654": "Radial EBUS for peripheral lesion (add-on)",
+              "31629": "TBNA for parenchymal lesion sampling (cryobiopsy)"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 2.11,
+            "facility_total_payment": 68.0,
+            "per_code": {
+              "31654": {
+                "facility_rvu": 2.11,
+                "facility_payment": 68
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Robotic navigation with radial EBUS and cryobiopsy for nodule diagnosis."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "+31627",
+              "description": "Bronchoscopy; with computer-assisted, image-guided navigation (add-on)",
+              "units": 1
+            },
+            {
+              "code": "+31654",
+              "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+              "units": 1
+            },
+            {
+              "code": "31629",
+              "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 7.42,
+          "practice_expense_rvu": 2.85,
+          "malpractice_rvu": 0.8,
+          "total_rvu": 11.07
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes +31627, +31654, 31629; total_work_rvu=7.42, total_rvu=11.07 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 14,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Emily Sullivan",
+      "patient_age": 61,
+      "patient_mrn": "1959748",
+      "procedure_date": "2024-04-16",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Emily Sullivan\nMRN: 1959748\nDOB: None\nAge: None\nDate: 2024-04-16\n\n[INDICATION]\nLUL ground-glass nodule workup\n\n[ANESTHESIA]\nType: General\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Navigational Bronchoscopy: Performed\n  \u2022 platform: Ion\n  \u2022 target lobe: LUL\n  \u2022 registration error mm: 1.2\n- Radial Ebus: Performed\n  \u2022 probe position: Concentric\n- Transbronchial Cryobiopsy: Performed\n  \u2022 number of samples: 3\n  \u2022 cryoprobe size mm: 1.9\n  \u2022 freeze time seconds: 4\n\n[FINDINGS]\nAssessment: Pending\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: Outpatient\n\n[CODING]\nCPT: 31627, 31654, 31629\n",
+      "cpt_codes": [
+        31627,
+        31654,
+        31629
+      ],
+      "registry_entry": {
+        "patient_mrn": "1959748",
+        "procedure_date": "2024-04-16",
+        "patient_age": 61,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "LUL ground-glass nodule workup",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Pending",
+        "cpt_codes": [
+          31627,
+          31654,
+          31629
+        ],
+        "nav_platform": "Ion (Intuitive)",
+        "nav_registration_method": "Fiducial-less",
+        "nav_registration_error_mm": 1.2,
+        "nav_rebus_used": true,
+        "nav_rebus_view": "Concentric",
+        "nav_imaging_verification": "CBCT",
+        "nav_tool_in_lesion": true,
+        "nav_sampling_tools": [
+          "Cryoprobe"
+        ],
+        "nav_cryobiopsy_for_nodule": true,
+        "procedures_performed": {
+          "navigational_bronchoscopy": {
+            "performed": true,
+            "platform": "Ion",
+            "target_lobe": "LUL",
+            "registration_error_mm": 1.2
+          },
+          "radial_ebus": {
+            "performed": true,
+            "probe_position": "Concentric"
+          },
+          "transbronchial_cryobiopsy": {
+            "performed": true,
+            "number_of_samples": 3,
+            "cryoprobe_size_mm": 1.9,
+            "freeze_time_seconds": 4
+          }
+        },
+        "clinical_context": {
+          "lesion_size_mm": 15,
+          "lesion_location": "LUL",
+          "pet_avidity": true,
+          "suv_max": 3.2,
+          "bronchus_sign": "Positive"
+        },
+        "providers": {
+          "attending_name": "Michael Park",
+          "fellow_name": "Karen Chen"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902747"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31627",
+            "final_codes": [
+              "31627",
+              "31654",
+              "31629"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31627": "Navigational bronchoscopy (Ion robotic) add-on",
+              "31654": "Radial EBUS for peripheral lesion (add-on)",
+              "31629": "TBNA for parenchymal lesion sampling (cryobiopsy)"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 2.11,
+            "facility_total_payment": 68.0,
+            "per_code": {
+              "31654": {
+                "facility_rvu": 2.11,
+                "facility_payment": 68
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Robotic navigation with radial EBUS and cryobiopsy for nodule diagnosis."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "+31627",
+              "description": "Bronchoscopy; with computer-assisted, image-guided navigation (add-on)",
+              "units": 1
+            },
+            {
+              "code": "+31654",
+              "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+              "units": 1
+            },
+            {
+              "code": "31629",
+              "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 7.42,
+          "practice_expense_rvu": 2.85,
+          "malpractice_rvu": 0.8,
+          "total_rvu": 11.07
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes +31627, +31654, 31629; total_work_rvu=7.42, total_rvu=11.07 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 14,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Mary Walker",
+      "patient_age": 65,
+      "patient_mrn": "5792032",
+      "procedure_date": "2024-09-12",
+      "note_text": "On 2024-09-12, Mary Walker, a None-year-old patient (MRN 5792032), underwent bronchoscopic evaluation for LUL ground-glass nodule workup. The patient received General and the procedure was performed in standard fashion. The procedure included navigational bronchoscopy, radial ebus, and transbronchial biopsy for tissue sampling. \n\nOn examination, the airways were systematically inspected. Abnormal findings were noted as described in detail above. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is pending. \n\nProcedural coding: 31627, 31654, 31629.",
+      "cpt_codes": [
+        31627,
+        31654,
+        31629
+      ],
+      "registry_entry": {
+        "patient_mrn": "5792032",
+        "procedure_date": "2024-09-12",
+        "patient_age": 65,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "LUL ground-glass nodule workup",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Pending",
+        "cpt_codes": [
+          31627,
+          31654,
+          31629
+        ],
+        "nav_platform": "Ion (Intuitive)",
+        "nav_registration_method": "Fiducial-less",
+        "nav_registration_error_mm": 1.2,
+        "nav_rebus_used": true,
+        "nav_rebus_view": "Concentric",
+        "nav_imaging_verification": "CBCT",
+        "nav_tool_in_lesion": true,
+        "nav_sampling_tools": [
+          "Cryoprobe"
+        ],
+        "nav_cryobiopsy_for_nodule": true,
+        "procedures_performed": {
+          "navigational_bronchoscopy": {
+            "performed": true,
+            "platform": "Ion",
+            "target_lobe": "LUL",
+            "registration_error_mm": 1.2
+          },
+          "radial_ebus": {
+            "performed": true,
+            "probe_position": "Concentric"
+          },
+          "transbronchial_cryobiopsy": {
+            "performed": true,
+            "number_of_samples": 3,
+            "cryoprobe_size_mm": 1.9,
+            "freeze_time_seconds": 4
+          }
+        },
+        "clinical_context": {
+          "lesion_size_mm": 15,
+          "lesion_location": "LUL",
+          "pet_avidity": true,
+          "suv_max": 3.2,
+          "bronchus_sign": "Positive"
+        },
+        "providers": {
+          "attending_name": "Michael Park",
+          "fellow_name": "Karen Chen"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902747"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31627",
+            "final_codes": [
+              "31627",
+              "31654",
+              "31629"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31627": "Navigational bronchoscopy (Ion robotic) add-on",
+              "31654": "Radial EBUS for peripheral lesion (add-on)",
+              "31629": "TBNA for parenchymal lesion sampling (cryobiopsy)"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 2.11,
+            "facility_total_payment": 68.0,
+            "per_code": {
+              "31654": {
+                "facility_rvu": 2.11,
+                "facility_payment": 68
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Robotic navigation with radial EBUS and cryobiopsy for nodule diagnosis."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "+31627",
+              "description": "Bronchoscopy; with computer-assisted, image-guided navigation (add-on)",
+              "units": 1
+            },
+            {
+              "code": "+31654",
+              "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+              "units": 1
+            },
+            {
+              "code": "31629",
+              "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 7.42,
+          "practice_expense_rvu": 2.85,
+          "malpractice_rvu": 0.8,
+          "total_rvu": 11.07
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes +31627, +31654, 31629; total_work_rvu=7.42, total_rvu=11.07 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 14,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Donald Lee",
+      "patient_age": 61,
+      "patient_mrn": "7754071",
+      "procedure_date": "2025-01-13",
+      "note_text": "NAVIGATION BRONCHOSCOPY NOTE\nDate: 2025-01-13\nPatient: Donald Lee | MRN: 7754071 | Age: 58F\nAttending: Dr. Michael Park, MD | Fellow: Dr. Karen Chen (PGY-6)\nLocation: UCSF Medical Center, San Francisco, CA\n\nINDICATION: 15mm LUL ground-glass nodule (SUV 3.2), bronchus sign positive. Biopsy for diagnosis.\n\nPROCEDURE: Ion robotic bronchoscopy with transbronchial cryobiopsy\n\nUnder GA, Ion platform registration completed (fiducial-less, registration error 1.2mm). Navigation to LUL anterior segment (LB3). Radial EBUS exhibited concentric lesion view. Target lock established. \n\nCryoprobe (1.9mm) guided under augmented fluoroscopy. Tool-in-lesion established on CBCT. 3 cryobiopsies secured (4-second freeze time each). Specimens 3-4mm, sent to surgical pathology. Mild bleeding controlled with wedge technique. No pneumothorax on completion fluoro.\n\nFINDINGS: r-EBUS concentric view, CBCT TIL established, adequate specimens\n\nSPECIMENS: Cryobiopsy LUL x 3 - surgical pathology\n\nCOMPLICATIONS: Mild bleeding - self-limited\nDISPOSITION: Outpatient discharge after 2hr CXR\n\nDr. Michael Park, MD",
+      "cpt_codes": [
+        31627,
+        31654,
+        31629
+      ],
+      "registry_entry": {
+        "patient_mrn": "7754071",
+        "procedure_date": "2025-01-13",
+        "patient_age": 61,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "LUL ground-glass nodule workup",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Pending",
+        "cpt_codes": [
+          31627,
+          31654,
+          31629
+        ],
+        "nav_platform": "Ion (Intuitive)",
+        "nav_registration_method": "Fiducial-less",
+        "nav_registration_error_mm": 1.2,
+        "nav_rebus_used": true,
+        "nav_rebus_view": "Concentric",
+        "nav_imaging_verification": "CBCT",
+        "nav_tool_in_lesion": true,
+        "nav_sampling_tools": [
+          "Cryoprobe"
+        ],
+        "nav_cryobiopsy_for_nodule": true,
+        "procedures_performed": {
+          "navigational_bronchoscopy": {
+            "performed": true,
+            "platform": "Ion",
+            "target_lobe": "LUL",
+            "registration_error_mm": 1.2
+          },
+          "radial_ebus": {
+            "performed": true,
+            "probe_position": "Concentric"
+          },
+          "transbronchial_cryobiopsy": {
+            "performed": true,
+            "number_of_samples": 3,
+            "cryoprobe_size_mm": 1.9,
+            "freeze_time_seconds": 4
+          }
+        },
+        "clinical_context": {
+          "lesion_size_mm": 15,
+          "lesion_location": "LUL",
+          "pet_avidity": true,
+          "suv_max": 3.2,
+          "bronchus_sign": "Positive"
+        },
+        "providers": {
+          "attending_name": "Michael Park",
+          "fellow_name": "Karen Chen"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902747"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31627",
+            "final_codes": [
+              "31627",
+              "31654",
+              "31629"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31627": "Navigational bronchoscopy (Ion robotic) add-on",
+              "31654": "Radial EBUS for peripheral lesion (add-on)",
+              "31629": "TBNA for parenchymal lesion sampling (cryobiopsy)"
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 2.11,
+            "facility_total_payment": 68.0,
+            "per_code": {
+              "31654": {
+                "facility_rvu": 2.11,
+                "facility_payment": 68
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Robotic navigation with radial EBUS and cryobiopsy for nodule diagnosis."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "+31627",
+              "description": "Bronchoscopy; with computer-assisted, image-guided navigation (add-on)",
+              "units": 1
+            },
+            {
+              "code": "+31654",
+              "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+              "units": 1
+            },
+            {
+              "code": "31629",
+              "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 7.42,
+          "practice_expense_rvu": 2.85,
+          "malpractice_rvu": 0.8,
+          "total_rvu": 11.07
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes +31627, +31654, 31629; total_work_rvu=7.42, total_rvu=11.07 (facility)."
+        ]
+      }
+    }
+  ]
+}

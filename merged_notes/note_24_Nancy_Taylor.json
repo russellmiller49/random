@@ -1,0 +1,1268 @@
+{
+  "base_note": {
+    "note_text": "TRANSBRONCHIAL CRYOBIOPSY NOTE\nDate: 2025-04-13\nPatient: Nancy Taylor | MRN: 4019379 | Age: 62F\nAttending: Dr. Michael Roberts, MD\nLocation: University of Pennsylvania, Philadelphia, PA\n\nINDICATION: Progressive ILD with UIP pattern on HRCT. Multidisciplinary discussion recommends tissue diagnosis to guide therapy. TBLC (transbronchial lung cryobiopsy) preferred over surgical lung biopsy given comorbidities.\n\nPROCEDURE:\n1. Flexible bronchoscopy\n2. Transbronchial cryobiopsy (RLL, 2 sites)\n3. BAL (RML)\n\nANESTHESIA: General anesthesia with ETT, blocker on standby\n\nPROCEDURE DETAILS:\nUnder GA, bronchoscope advanced. Airways inspected - no endobronchial lesions.\n\nBAL performed in RML (120mL instilled, 65mL return).\n\nTBLC performed in RLL using 1.9mm cryoprobe (Erbe):\n\nSite 1 - RB9:\n- Fluoroscopy confirmed position 2cm from pleural surface\n- Freeze time: 5 seconds x 3 biopsies\n- Specimens 4-5mm, excellent quality\n- Mild bleeding, controlled with Fogarty balloon\n\nSite 2 - RB10:\n- Freeze time: 5 seconds x 2 biopsies\n- Specimens 3-4mm, good quality\n- Minimal bleeding\n\nTotal: 5 cryobiopsies from 2 sites\n\nNo pneumothorax on completion fluoroscopy.\n\nSPECIMENS: Cryobiopsy RLL x 5 (surgical pathology for ILD workup)\nCOMPLICATIONS: Mild bleeding - controlled with blocker\nDISPOSITION: 4-hour observation, CXR, discharge if stable\n\nDr. Michael Roberts, MD",
+    "cpt_codes": [
+      31628,
+      31624
+    ],
+    "registry_entry": {
+      "patient_mrn": "4019379",
+      "procedure_date": "2025-04-13",
+      "patient_age": 62,
+      "gender": "Female",
+      "asa_class": 3,
+      "primary_indication": "ILD - UIP pattern, tissue diagnosis",
+      "sedation_type": "General",
+      "airway_type": "ETT",
+      "final_diagnosis_prelim": "ILD - pending",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "bleeding_severity": "Mild",
+      "procedures_performed": {
+        "transbronchial_cryobiopsy": {
+          "performed": true,
+          "number_of_samples": 5,
+          "cryoprobe_size_mm": 1.9,
+          "freeze_time_seconds": 5,
+          "locations": [
+            "RLL RB9",
+            "RLL RB10"
+          ]
+        },
+        "bal": {
+          "performed": true,
+          "location": "RML"
+        }
+      },
+      "granular_data": {
+        "cryobiopsy_sites": [
+          {
+            "site_number": 1,
+            "lobe": "RLL",
+            "segment": "RB9",
+            "distance_from_pleura": ">2cm",
+            "probe_size_mm": 1.9,
+            "freeze_time_seconds": 5,
+            "number_of_biopsies": 3,
+            "blocker_used": true,
+            "blocker_type": "Fogarty",
+            "bleeding_severity": "Mild"
+          },
+          {
+            "site_number": 2,
+            "lobe": "RLL",
+            "segment": "RB10",
+            "probe_size_mm": 1.9,
+            "freeze_time_seconds": 5,
+            "number_of_biopsies": 2,
+            "bleeding_severity": "None/Scant"
+          }
+        ]
+      },
+      "clinical_context": {
+        "indication_category": "ILD Evaluation"
+      },
+      "providers": {
+        "attending_name": "Michael Roberts"
+      },
+      "metadata": {
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:55:23.778568"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "31628",
+          "final_codes": [
+            "31628",
+            "31624"
+          ],
+          "code_rationales": {
+            "31628": "Transbronchial lung biopsy - cryobiopsy is coded as TBLB (31628). No separate cryobiopsy code exists.",
+            "31624": "BAL performed in separate lobe"
+          }
+        },
+        "overall_assessment": "TBLC for ILD workup. Cryobiopsy coded as standard TBLB (31628). Multiple biopsies from same lobe do not warrant additional code."
+      },
+      "procedure_families": [
+        "transbronchial_cryobiopsy"
+      ],
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31628",
+            "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+            "units": 1
+          },
+          {
+            "code": "31624",
+            "description": "Bronchoscopy; with bronchoalveolar lavage",
+            "units": 1
+          }
+        ],
+        "work_rvu": 6.18,
+        "practice_expense_rvu": 2.91,
+        "malpractice_rvu": 0.68,
+        "total_rvu": 9.77
+      }
+    },
+    "source_file": "synthetic_additional_v2_8.json",
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 24,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Michelle Brown",
+      "patient_age": 64,
+      "patient_mrn": "5783341",
+      "procedure_date": "2025-03-08",
+      "note_text": "OPERATIVE NOTE\n\nMichelle Brown | MRN 5783341 | 2025-03-08\n\nDx: See above\nProc: ILD - UIP pattern, tissue diagnosis\n\nActions:\n\u2022 Transbronchial Cryobiopsy\n\u2022 Bal\n\nCPT: 31628, 31624\nComplications: Mild bleeding - controlled with blocker\nDispo: Dr. Michael Roberts, MD\n",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "5783341",
+        "procedure_date": "2025-03-08",
+        "patient_age": 64,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "ILD - UIP pattern, tissue diagnosis",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "ILD - pending",
+        "cpt_codes": [
+          31628,
+          31624
+        ],
+        "bleeding_severity": "Mild",
+        "procedures_performed": {
+          "transbronchial_cryobiopsy": {
+            "performed": true,
+            "number_of_samples": 5,
+            "cryoprobe_size_mm": 1.9,
+            "freeze_time_seconds": 5,
+            "locations": [
+              "RLL RB9",
+              "RLL RB10"
+            ]
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML"
+          }
+        },
+        "granular_data": {
+          "cryobiopsy_sites": [
+            {
+              "site_number": 1,
+              "lobe": "RLL",
+              "segment": "RB9",
+              "distance_from_pleura": ">2cm",
+              "probe_size_mm": 1.9,
+              "freeze_time_seconds": 5,
+              "number_of_biopsies": 3,
+              "blocker_used": true,
+              "blocker_type": "Fogarty",
+              "bleeding_severity": "Mild"
+            },
+            {
+              "site_number": 2,
+              "lobe": "RLL",
+              "segment": "RB10",
+              "probe_size_mm": 1.9,
+              "freeze_time_seconds": 5,
+              "number_of_biopsies": 2,
+              "bleeding_severity": "None/Scant"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "ILD Evaluation"
+        },
+        "providers": {
+          "attending_name": "Michael Roberts"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778568"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31624"
+            ],
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy - cryobiopsy is coded as TBLB (31628). No separate cryobiopsy code exists.",
+              "31624": "BAL performed in separate lobe"
+            }
+          },
+          "overall_assessment": "TBLC for ILD workup. Cryobiopsy coded as standard TBLB (31628). Multiple biopsies from same lobe do not warrant additional code."
+        },
+        "procedure_families": [
+          "transbronchial_cryobiopsy"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 24,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Dennis Sanders",
+      "patient_age": 55,
+      "patient_mrn": "6502731",
+      "procedure_date": "2025-04-18",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Dennis Sanders\nMedical Record Number: 6502731\nDate of Birth: N/A\nAge at Procedure: N/A years\nProcedure Date: 2025-04-18\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with ild - uip pattern, tissue diagnosis. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nTransbronchial Cryobiopsy:\nTransbronchial lung parenchymal sampling was performed utilizing standard forceps technique with fluoroscopic localization to minimize pneumothorax risk. \nBal:\nBronchoalveolar lavage was performed in standardized fashion with sequential aliquot instillation and aspiration to optimize cellular yield. \n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\nDetailed airway examination was performed with findings as documented in the procedural narrative.\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 31628, 31624\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "6502731",
+        "procedure_date": "2025-04-18",
+        "patient_age": 55,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "ILD - UIP pattern, tissue diagnosis",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "ILD - pending",
+        "cpt_codes": [
+          31628,
+          31624
+        ],
+        "bleeding_severity": "Mild",
+        "procedures_performed": {
+          "transbronchial_cryobiopsy": {
+            "performed": true,
+            "number_of_samples": 5,
+            "cryoprobe_size_mm": 1.9,
+            "freeze_time_seconds": 5,
+            "locations": [
+              "RLL RB9",
+              "RLL RB10"
+            ]
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML"
+          }
+        },
+        "granular_data": {
+          "cryobiopsy_sites": [
+            {
+              "site_number": 1,
+              "lobe": "RLL",
+              "segment": "RB9",
+              "distance_from_pleura": ">2cm",
+              "probe_size_mm": 1.9,
+              "freeze_time_seconds": 5,
+              "number_of_biopsies": 3,
+              "blocker_used": true,
+              "blocker_type": "Fogarty",
+              "bleeding_severity": "Mild"
+            },
+            {
+              "site_number": 2,
+              "lobe": "RLL",
+              "segment": "RB10",
+              "probe_size_mm": 1.9,
+              "freeze_time_seconds": 5,
+              "number_of_biopsies": 2,
+              "bleeding_severity": "None/Scant"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "ILD Evaluation"
+        },
+        "providers": {
+          "attending_name": "Michael Roberts"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778568"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31624"
+            ],
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy - cryobiopsy is coded as TBLB (31628). No separate cryobiopsy code exists.",
+              "31624": "BAL performed in separate lobe"
+            }
+          },
+          "overall_assessment": "TBLC for ILD workup. Cryobiopsy coded as standard TBLB (31628). Multiple biopsies from same lobe do not warrant additional code."
+        },
+        "procedure_families": [
+          "transbronchial_cryobiopsy"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 24,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Donna Cook",
+      "patient_age": 55,
+      "patient_mrn": "8499366",
+      "procedure_date": "2025-03-17",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: Donna Cook | MRN: 8499366 | DOS: 2025-03-17\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 31628:\n  Rationale: Transbronchial lung biopsy - cryobiopsy is coded as TBLB (31628). No separate cryobiopsy code exists.\n\nCPT 31624:\n  Rationale: BAL performed in separate lobe\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n  \u2022 Fluoroscopy\n  \u2022 cryoprobe\n  \u2022 fluoroscopy\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nTRANSBRONCHIAL CRYOBIOPSY:\n  - Number Of Samples: 5\n  - Cryoprobe Size Mm: 1.9\n  - Freeze Time Seconds: 5\n  - Locations: ['RLL RB9', 'RLL RB10']\n\nBAL:\n  - Location: RML\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: N/A\n  Total Facility Payment: $N/A\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "8499366",
+        "procedure_date": "2025-03-17",
+        "patient_age": 55,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "ILD - UIP pattern, tissue diagnosis",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "ILD - pending",
+        "cpt_codes": [
+          31628,
+          31624
+        ],
+        "bleeding_severity": "Mild",
+        "procedures_performed": {
+          "transbronchial_cryobiopsy": {
+            "performed": true,
+            "number_of_samples": 5,
+            "cryoprobe_size_mm": 1.9,
+            "freeze_time_seconds": 5,
+            "locations": [
+              "RLL RB9",
+              "RLL RB10"
+            ]
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML"
+          }
+        },
+        "granular_data": {
+          "cryobiopsy_sites": [
+            {
+              "site_number": 1,
+              "lobe": "RLL",
+              "segment": "RB9",
+              "distance_from_pleura": ">2cm",
+              "probe_size_mm": 1.9,
+              "freeze_time_seconds": 5,
+              "number_of_biopsies": 3,
+              "blocker_used": true,
+              "blocker_type": "Fogarty",
+              "bleeding_severity": "Mild"
+            },
+            {
+              "site_number": 2,
+              "lobe": "RLL",
+              "segment": "RB10",
+              "probe_size_mm": 1.9,
+              "freeze_time_seconds": 5,
+              "number_of_biopsies": 2,
+              "bleeding_severity": "None/Scant"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "ILD Evaluation"
+        },
+        "providers": {
+          "attending_name": "Michael Roberts"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778568"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31624"
+            ],
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy - cryobiopsy is coded as TBLB (31628). No separate cryobiopsy code exists.",
+              "31624": "BAL performed in separate lobe"
+            }
+          },
+          "overall_assessment": "TBLC for ILD workup. Cryobiopsy coded as standard TBLB (31628). Multiple biopsies from same lobe do not warrant additional code."
+        },
+        "procedure_families": [
+          "transbronchial_cryobiopsy"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 24,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Janet Reed",
+      "patient_age": 61,
+      "patient_mrn": "5028712",
+      "procedure_date": "2024-11-12",
+      "note_text": "PROCEDURE NOTE\n\nDate: 2024-11-12\nPatient: Janet Reed\nMRN: 5028712\nAge/Sex: Noneyo patient\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nILD - UIP pattern, tissue diagnosis\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nGeneral\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Transbronchial Cryobiopsy performed\n5. Bal performed\n6. Scope withdrawn\n7. Patient recovered without complication\n\nSPECIMENS:\n4-5mm, excellent quality\n- Mild bleeding, controlled with Fogarty balloon\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nTo recovery, stable condition\n\nCPT CODES: 31628, 31624\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "5028712",
+        "procedure_date": "2024-11-12",
+        "patient_age": 61,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "ILD - UIP pattern, tissue diagnosis",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "ILD - pending",
+        "cpt_codes": [
+          31628,
+          31624
+        ],
+        "bleeding_severity": "Mild",
+        "procedures_performed": {
+          "transbronchial_cryobiopsy": {
+            "performed": true,
+            "number_of_samples": 5,
+            "cryoprobe_size_mm": 1.9,
+            "freeze_time_seconds": 5,
+            "locations": [
+              "RLL RB9",
+              "RLL RB10"
+            ]
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML"
+          }
+        },
+        "granular_data": {
+          "cryobiopsy_sites": [
+            {
+              "site_number": 1,
+              "lobe": "RLL",
+              "segment": "RB9",
+              "distance_from_pleura": ">2cm",
+              "probe_size_mm": 1.9,
+              "freeze_time_seconds": 5,
+              "number_of_biopsies": 3,
+              "blocker_used": true,
+              "blocker_type": "Fogarty",
+              "bleeding_severity": "Mild"
+            },
+            {
+              "site_number": 2,
+              "lobe": "RLL",
+              "segment": "RB10",
+              "probe_size_mm": 1.9,
+              "freeze_time_seconds": 5,
+              "number_of_biopsies": 2,
+              "bleeding_severity": "None/Scant"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "ILD Evaluation"
+        },
+        "providers": {
+          "attending_name": "Michael Roberts"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778568"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31624"
+            ],
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy - cryobiopsy is coded as TBLB (31628). No separate cryobiopsy code exists.",
+              "31624": "BAL performed in separate lobe"
+            }
+          },
+          "overall_assessment": "TBLC for ILD workup. Cryobiopsy coded as standard TBLB (31628). Multiple biopsies from same lobe do not warrant additional code."
+        },
+        "procedure_families": [
+          "transbronchial_cryobiopsy"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 24,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "George Wang",
+      "patient_age": 65,
+      "patient_mrn": "6485586",
+      "procedure_date": "2025-09-19",
+      "note_text": "procedure note 2025-09-19 pt George Wang mrn 6485586\n\nindication ild - uip pattern, tissue diagnosis patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp transbronchial cryobiopsy bal performed samples obtained sent to path \n\ncomplication none ebl minimal patient tolerated well disposition to recovery \n\ncpt 31628 31624\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "6485586",
+        "procedure_date": "2025-09-19",
+        "patient_age": 65,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "ILD - UIP pattern, tissue diagnosis",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "ILD - pending",
+        "cpt_codes": [
+          31628,
+          31624
+        ],
+        "bleeding_severity": "Mild",
+        "procedures_performed": {
+          "transbronchial_cryobiopsy": {
+            "performed": true,
+            "number_of_samples": 5,
+            "cryoprobe_size_mm": 1.9,
+            "freeze_time_seconds": 5,
+            "locations": [
+              "RLL RB9",
+              "RLL RB10"
+            ]
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML"
+          }
+        },
+        "granular_data": {
+          "cryobiopsy_sites": [
+            {
+              "site_number": 1,
+              "lobe": "RLL",
+              "segment": "RB9",
+              "distance_from_pleura": ">2cm",
+              "probe_size_mm": 1.9,
+              "freeze_time_seconds": 5,
+              "number_of_biopsies": 3,
+              "blocker_used": true,
+              "blocker_type": "Fogarty",
+              "bleeding_severity": "Mild"
+            },
+            {
+              "site_number": 2,
+              "lobe": "RLL",
+              "segment": "RB10",
+              "probe_size_mm": 1.9,
+              "freeze_time_seconds": 5,
+              "number_of_biopsies": 2,
+              "bleeding_severity": "None/Scant"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "ILD Evaluation"
+        },
+        "providers": {
+          "attending_name": "Michael Roberts"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778568"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31624"
+            ],
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy - cryobiopsy is coded as TBLB (31628). No separate cryobiopsy code exists.",
+              "31624": "BAL performed in separate lobe"
+            }
+          },
+          "overall_assessment": "TBLC for ILD workup. Cryobiopsy coded as standard TBLB (31628). Multiple biopsies from same lobe do not warrant additional code."
+        },
+        "procedure_families": [
+          "transbronchial_cryobiopsy"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 24,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Bobby Ward",
+      "patient_age": 65,
+      "patient_mrn": "9020544",
+      "procedure_date": "2025-07-24",
+      "note_text": "TRANSBRONCHIAL CRYOBIOPSY NOTE\nDate: 2025-07-24\nPatient: Bobby Ward | MRN: 9020544 | Age: 62F\nAttending: Dr. Michael Roberts, MD\nLocation: University of Pennsylvania, Philadelphia, PA\n\nINDICATION: Progressive ILD with UIP pattern on HRCT. Multidisciplinary discussion recommends tissue diagnosis to guide therapy. TBLC (transbronchial lung cryobiopsy) preferred over surgical lung biopsy given comorbidities.\n\n1. Flexible bronchoscopy\n2. Transbronchial cryobiopsy (RLL, 2 sites)\n3. BAL (RML)\n\nANESTHESIA: General anesthesia with ETT, blocker on standby\n\nUnder GA, bronchoscope advanced. Airways inspected - no endobronchial lesions.\n\nBAL performed in RML (120mL instilled, 65mL return).\n\nTBLC performed in RLL using 1.9mm cryoprobe (Erbe):\n\nSite 1 - RB9:\n- Fluoroscopy confirmed position 2cm from pleural surface\n- Freeze time: 5 seconds x 3 biopsies\n- Specimens 4-5mm, excellent quality\n- Mild bleeding, controlled with Fogarty balloon\n\nSite 2 - RB10:\n- Freeze time: 5 seconds x 2 biopsies\n- Specimens 3-4mm, good quality\n- Minimal bleeding\n\nTotal: 5 cryobiopsies from 2 sites\n\nNo pneumothorax on completion fluoroscopy.\n\nSPECIMENS: Cryobiopsy RLL x 5 (surgical pathology for ILD workup)\nCOMPLICATIONS: Mild bleeding - controlled with blocker\nDISPOSITION: 4-hour observation, CXR, discharge if stable\n\nDr. Michael Roberts, MD",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "9020544",
+        "procedure_date": "2025-07-24",
+        "patient_age": 65,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "ILD - UIP pattern, tissue diagnosis",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "ILD - pending",
+        "cpt_codes": [
+          31628,
+          31624
+        ],
+        "bleeding_severity": "Mild",
+        "procedures_performed": {
+          "transbronchial_cryobiopsy": {
+            "performed": true,
+            "number_of_samples": 5,
+            "cryoprobe_size_mm": 1.9,
+            "freeze_time_seconds": 5,
+            "locations": [
+              "RLL RB9",
+              "RLL RB10"
+            ]
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML"
+          }
+        },
+        "granular_data": {
+          "cryobiopsy_sites": [
+            {
+              "site_number": 1,
+              "lobe": "RLL",
+              "segment": "RB9",
+              "distance_from_pleura": ">2cm",
+              "probe_size_mm": 1.9,
+              "freeze_time_seconds": 5,
+              "number_of_biopsies": 3,
+              "blocker_used": true,
+              "blocker_type": "Fogarty",
+              "bleeding_severity": "Mild"
+            },
+            {
+              "site_number": 2,
+              "lobe": "RLL",
+              "segment": "RB10",
+              "probe_size_mm": 1.9,
+              "freeze_time_seconds": 5,
+              "number_of_biopsies": 2,
+              "bleeding_severity": "None/Scant"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "ILD Evaluation"
+        },
+        "providers": {
+          "attending_name": "Michael Roberts"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778568"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31624"
+            ],
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy - cryobiopsy is coded as TBLB (31628). No separate cryobiopsy code exists.",
+              "31624": "BAL performed in separate lobe"
+            }
+          },
+          "overall_assessment": "TBLC for ILD workup. Cryobiopsy coded as standard TBLB (31628). Multiple biopsies from same lobe do not warrant additional code."
+        },
+        "procedure_families": [
+          "transbronchial_cryobiopsy"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 24,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Dorothy Miller",
+      "patient_age": 63,
+      "patient_mrn": "5891403",
+      "procedure_date": "2024-08-23",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Dorothy Miller\nMRN: 5891403\nDOB: None\nAge: None\nDate: 2024-08-23\n\n[INDICATION]\nILD - UIP pattern, tissue diagnosis\n\n[ANESTHESIA]\nType: General\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Transbronchial Cryobiopsy: Performed\n  \u2022 number of samples: 5\n  \u2022 cryoprobe size mm: 1.9\n  \u2022 freeze time seconds: 5\n  \u2022 locations: RLL RB9, RLL RB10\n- Bal: Performed\n  \u2022 location: RML\n\n[FINDINGS]\nAssessment: ILD - pending\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: Outpatient\n\n[CODING]\nCPT: 31628, 31624\n",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "5891403",
+        "procedure_date": "2024-08-23",
+        "patient_age": 63,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "ILD - UIP pattern, tissue diagnosis",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "ILD - pending",
+        "cpt_codes": [
+          31628,
+          31624
+        ],
+        "bleeding_severity": "Mild",
+        "procedures_performed": {
+          "transbronchial_cryobiopsy": {
+            "performed": true,
+            "number_of_samples": 5,
+            "cryoprobe_size_mm": 1.9,
+            "freeze_time_seconds": 5,
+            "locations": [
+              "RLL RB9",
+              "RLL RB10"
+            ]
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML"
+          }
+        },
+        "granular_data": {
+          "cryobiopsy_sites": [
+            {
+              "site_number": 1,
+              "lobe": "RLL",
+              "segment": "RB9",
+              "distance_from_pleura": ">2cm",
+              "probe_size_mm": 1.9,
+              "freeze_time_seconds": 5,
+              "number_of_biopsies": 3,
+              "blocker_used": true,
+              "blocker_type": "Fogarty",
+              "bleeding_severity": "Mild"
+            },
+            {
+              "site_number": 2,
+              "lobe": "RLL",
+              "segment": "RB10",
+              "probe_size_mm": 1.9,
+              "freeze_time_seconds": 5,
+              "number_of_biopsies": 2,
+              "bleeding_severity": "None/Scant"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "ILD Evaluation"
+        },
+        "providers": {
+          "attending_name": "Michael Roberts"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778568"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31624"
+            ],
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy - cryobiopsy is coded as TBLB (31628). No separate cryobiopsy code exists.",
+              "31624": "BAL performed in separate lobe"
+            }
+          },
+          "overall_assessment": "TBLC for ILD workup. Cryobiopsy coded as standard TBLB (31628). Multiple biopsies from same lobe do not warrant additional code."
+        },
+        "procedure_families": [
+          "transbronchial_cryobiopsy"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 24,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Scott Phillips",
+      "patient_age": 55,
+      "patient_mrn": "5481176",
+      "procedure_date": "2025-05-02",
+      "note_text": "On 2025-05-02, Scott Phillips, a None-year-old patient (MRN 5481176), underwent bronchoscopic evaluation for ILD - UIP pattern, tissue diagnosis. The patient received General and the procedure was performed in standard fashion. The procedure included transbronchial biopsy for tissue sampling, and bronchoalveolar lavage for microbiological and cytological analysis. \n\nOn examination, the airways were systematically inspected. Abnormal findings were noted as described in detail above. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is ild - pending. \n\nProcedural coding: 31628, 31624.",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "5481176",
+        "procedure_date": "2025-05-02",
+        "patient_age": 55,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "ILD - UIP pattern, tissue diagnosis",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "ILD - pending",
+        "cpt_codes": [
+          31628,
+          31624
+        ],
+        "bleeding_severity": "Mild",
+        "procedures_performed": {
+          "transbronchial_cryobiopsy": {
+            "performed": true,
+            "number_of_samples": 5,
+            "cryoprobe_size_mm": 1.9,
+            "freeze_time_seconds": 5,
+            "locations": [
+              "RLL RB9",
+              "RLL RB10"
+            ]
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML"
+          }
+        },
+        "granular_data": {
+          "cryobiopsy_sites": [
+            {
+              "site_number": 1,
+              "lobe": "RLL",
+              "segment": "RB9",
+              "distance_from_pleura": ">2cm",
+              "probe_size_mm": 1.9,
+              "freeze_time_seconds": 5,
+              "number_of_biopsies": 3,
+              "blocker_used": true,
+              "blocker_type": "Fogarty",
+              "bleeding_severity": "Mild"
+            },
+            {
+              "site_number": 2,
+              "lobe": "RLL",
+              "segment": "RB10",
+              "probe_size_mm": 1.9,
+              "freeze_time_seconds": 5,
+              "number_of_biopsies": 2,
+              "bleeding_severity": "None/Scant"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "ILD Evaluation"
+        },
+        "providers": {
+          "attending_name": "Michael Roberts"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778568"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31624"
+            ],
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy - cryobiopsy is coded as TBLB (31628). No separate cryobiopsy code exists.",
+              "31624": "BAL performed in separate lobe"
+            }
+          },
+          "overall_assessment": "TBLC for ILD workup. Cryobiopsy coded as standard TBLB (31628). Multiple biopsies from same lobe do not warrant additional code."
+        },
+        "procedure_families": [
+          "transbronchial_cryobiopsy"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 24,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Martha Mendoza",
+      "patient_age": 62,
+      "patient_mrn": "2224273",
+      "procedure_date": "2024-12-15",
+      "note_text": "TRANSBRONCHIAL CRYOBIOPSY NOTE\nDate: 2024-12-15\nPatient: Martha Mendoza | MRN: 2224273 | Age: 62F\nAttending: Dr. Michael Roberts, MD\nLocation: University of Pennsylvania, Philadelphia, PA\n\nINDICATION: Progressive ILD with UIP pattern on HRCT. Multidisciplinary discussion recommends tissue diagnosis to guide therapy. TBLC (transbronchial lung cryobiopsy) preferred over surgical lung biopsy given comorbidities.\n\nPROCEDURE:\n1. Flexible bronchoscopy\n2. Transbronchial cryobiopsy (RLL, 2 sites)\n3. BAL (RML)\n\nANESTHESIA: General anesthesia with ETT, blocker on standby\n\nPROCEDURE DETAILS:\nUnder GA, bronchoscope advanced. Airways examined - no endobronchial lesions.\n\nBAL executed in RML (120mL infused, 65mL return).\n\nTBLC executed in RLL using 1.9mm cryoprobe (Erbe):\n\nSite 1 - RB9:\n- Fluoroscopy corroborated position 2cm from pleural surface\n- Freeze time: 5 seconds x 3 biopsies\n- Specimens 4-5mm, excellent quality\n- Mild bleeding, controlled with Fogarty balloon\n\nSite 2 - RB10:\n- Freeze time: 5 seconds x 2 biopsies\n- Specimens 3-4mm, good quality\n- Minimal bleeding\n\nTotal: 5 cryobiopsies from 2 sites\n\nNo pneumothorax on completion fluoroscopy.\n\nSPECIMENS: Cryobiopsy RLL x 5 (surgical pathology for ILD workup)\nCOMPLICATIONS: Mild bleeding - controlled with blocker\nDISPOSITION: 4-hour observation, CXR, discharge if stable\n\nDr. Michael Roberts, MD",
+      "cpt_codes": [
+        31628,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "2224273",
+        "procedure_date": "2024-12-15",
+        "patient_age": 62,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "ILD - UIP pattern, tissue diagnosis",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "ILD - pending",
+        "cpt_codes": [
+          31628,
+          31624
+        ],
+        "bleeding_severity": "Mild",
+        "procedures_performed": {
+          "transbronchial_cryobiopsy": {
+            "performed": true,
+            "number_of_samples": 5,
+            "cryoprobe_size_mm": 1.9,
+            "freeze_time_seconds": 5,
+            "locations": [
+              "RLL RB9",
+              "RLL RB10"
+            ]
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML"
+          }
+        },
+        "granular_data": {
+          "cryobiopsy_sites": [
+            {
+              "site_number": 1,
+              "lobe": "RLL",
+              "segment": "RB9",
+              "distance_from_pleura": ">2cm",
+              "probe_size_mm": 1.9,
+              "freeze_time_seconds": 5,
+              "number_of_biopsies": 3,
+              "blocker_used": true,
+              "blocker_type": "Fogarty",
+              "bleeding_severity": "Mild"
+            },
+            {
+              "site_number": 2,
+              "lobe": "RLL",
+              "segment": "RB10",
+              "probe_size_mm": 1.9,
+              "freeze_time_seconds": 5,
+              "number_of_biopsies": 2,
+              "bleeding_severity": "None/Scant"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "ILD Evaluation"
+        },
+        "providers": {
+          "attending_name": "Michael Roberts"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778568"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31624"
+            ],
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy - cryobiopsy is coded as TBLB (31628). No separate cryobiopsy code exists.",
+              "31624": "BAL performed in separate lobe"
+            }
+          },
+          "overall_assessment": "TBLC for ILD workup. Cryobiopsy coded as standard TBLB (31628). Multiple biopsies from same lobe do not warrant additional code."
+        },
+        "procedure_families": [
+          "transbronchial_cryobiopsy"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 6.18,
+          "practice_expense_rvu": 2.91,
+          "malpractice_rvu": 0.68,
+          "total_rvu": 9.77
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, 31624; total_work_rvu=6.18, total_rvu=9.77 (facility)."
+        ]
+      }
+    }
+  ]
+}

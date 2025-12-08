@@ -1,0 +1,2246 @@
+{
+  "base_note": {
+    "note_text": "BRONCHOSCOPY PROCEDURE NOTE\n\nDate: 2025-04-17\nPatient: Patricia Wong\nMRN: 3983760\nDOB: 12/05/1962 (62 years old)\n\nAttending: Dr. Robert Chen, MD\nCytopathologist: Dr. Elizabeth Taylor, MD (ROSE)\nLocation: UCLA Medical Center, Los Angeles, CA\n\nINDICATION: 62-year-old female non-smoker with 2.8cm RUL spiculated nodule (PET avid, SUVmax 8.2) and enlarged mediastinal lymph nodes on CT (Station 4R 1.8cm, Station 7 2.1cm, Station 4L 1.2cm). Referred for EBUS-TBNA staging prior to planned surgical resection if N2/N3 negative.\n\nPREOPERATIVE DIAGNOSIS: Right upper lobe lung mass concerning for primary lung malignancy; mediastinal lymphadenopathy for staging\n\nPOSTOPERATIVE DIAGNOSIS: Same; mediastinal lymph nodes sampled - ROSE benign at all stations\n\nPROCEDURE: Linear EBUS bronchoscopy with transbronchial needle aspiration of mediastinal and hilar lymph nodes (5 stations)\n\nANESTHESIA: General anesthesia with LMA\n\nPROCEDURE NARRATIVE:\nThe EBUS bronchoscope (Olympus BF-UC180F) was introduced through the LMA. Systematic mediastinal staging was performed.\n\nSTATION-BY-STATION SAMPLING:\n\nStation 7 (Subcarinal):\n- Size: 22mm short axis, oval, heterogeneous, no CHS\n- Elastography: Score 4 (suspicious)\n- Sampling: 22G FNA needle, 4 passes\n- ROSE: Abundant lymphocytes, no malignant cells, ADEQUATE - BENIGN\n\nStation 4R (Right lower paratracheal):\n- Size: 18mm short axis, round, heterogeneous\n- Elastography: Score 3 (indeterminate)\n- Sampling: 22G FNA needle, 4 passes  \n- ROSE: Lymphocytes with scattered histiocytes, no malignant cells, ADEQUATE - BENIGN\n\nStation 4L (Left lower paratracheal):\n- Size: 12mm short axis, oval, homogeneous, CHS present\n- Elastography: Score 2 (benign-appearing)\n- Sampling: 22G FNA needle, 3 passes\n- ROSE: Reactive lymphocytes, ADEQUATE - BENIGN\n\nStation 10R (Right hilar):\n- Size: 14mm short axis\n- Sampling: 22G FNA needle, 3 passes\n- ROSE: Lymphocytes and bronchial cells, ADEQUATE - BENIGN\n\nStation 11R (Right interlobar):\n- Size: 11mm short axis\n- Sampling: 22G FNA needle, 3 passes\n- ROSE: Lymphocytes, ADEQUATE - BENIGN\n\nAll samples sent for cell block and final cytopathology.\n\nNo complications. Airways examined and appeared normal. No endobronchial lesion at RUL orifice.\n\nROSE SUMMARY (Dr. Taylor):\n\"5 stations sampled with adequate lymphocyte material at all stations. No malignant cells identified at any station. Recommend final pathology confirmation. If staging remains N0 on final path, patient may proceed with planned surgical resection. If clinical suspicion remains high despite negative EBUS, recommend surgical staging (mediastinoscopy) given substantial adenopathy and risk of sampling error.\"\n\nSPECIMENS:\n- Station 7: Cytology, cell block\n- Station 4R: Cytology, cell block\n- Station 4L: Cytology, cell block\n- Station 10R: Cytology, cell block\n- Station 11R: Cytology, cell block\n\nCOMPLICATIONS: None\n\nEBL: <5mL\n\nIMPRESSION:\n1. EBUS-TBNA of 5 mediastinal/hilar stations performed for lung cancer staging\n2. ROSE negative for malignancy at all stations\n3. Pending final cytopathology confirmation\n\nPLAN:\n1. Await final pathology (3-5 days)\n2. Discussed with patient: If final pathology benign at all stations, will recommend surgical mediastinoscopy given size of station 7 and 4R nodes and high suspicion for malignancy based on primary lesion PET characteristics\n3. Thoracic surgery consultation placed for mediastinoscopy\n4. If mediastinoscopy also negative, patient will proceed with lobectomy + lymph node dissection\n\nDr. Robert Chen, MD\nInterventional Pulmonology",
+    "cpt_codes": [
+      31653
+    ],
+    "registry_entry": {
+      "patient_mrn": "3983760",
+      "procedure_date": "2025-04-17",
+      "patient_age": 62,
+      "gender": "Female",
+      "asa_class": 2,
+      "primary_indication": "Mediastinal staging for RUL lung mass",
+      "sedation_type": "General",
+      "airway_type": "LMA",
+      "final_diagnosis_prelim": "Benign lymph nodes - pending final path",
+      "cpt_codes": [
+        31653
+      ],
+      "evidence": {
+        "procedure_date": "Date: 2025-04-17",
+        "primary_indication": "RUL 2.8cm mass (SUV 8.2), mediastinal LAD - staging EBUS",
+        "rose_result": "All 5 stations ROSE negative - benign lymphocytes",
+        "disposition": "Referral to surgical mediastinoscopy"
+      },
+      "institution_name": "UCLA Medical Center, Los Angeles, CA",
+      "molecular_testing_requested": false,
+      "disposition": "Outpatient discharge - surgical consult pending",
+      "bleeding_severity": "None",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "ebus_stations_sampled": [
+        "7",
+        "4R",
+        "4L",
+        "10R",
+        "11R"
+      ],
+      "linear_ebus_stations": [
+        "7",
+        "4R",
+        "4L",
+        "10R",
+        "11R"
+      ],
+      "ebus_needle_gauge": 22,
+      "ebus_needle_type": "Standard FNA",
+      "ebus_systematic_staging": true,
+      "ebus_rose_available": true,
+      "ebus_rose_result": "All benign",
+      "ebus_elastography_used": true,
+      "procedures_performed": {
+        "linear_ebus": {
+          "performed": true,
+          "stations_sampled": [
+            "7",
+            "4R",
+            "4L",
+            "10R",
+            "11R"
+          ],
+          "station_count": 5,
+          "needle_gauge": 22,
+          "rose_performed": true,
+          "rose_malignant": false,
+          "elastography_performed": true
+        }
+      },
+      "granular_data": {
+        "linear_ebus_stations_detail": [
+          {
+            "station": "7",
+            "short_axis_mm": 22,
+            "shape": "oval",
+            "echogenicity": "heterogeneous",
+            "chs_present": false,
+            "elastography_performed": true,
+            "elastography_score": 4,
+            "sampled": true,
+            "needle_gauge": 22,
+            "number_of_passes": 4,
+            "rose_performed": true,
+            "rose_result": "Adequate lymphocytes",
+            "rose_adequacy": true
+          },
+          {
+            "station": "4R",
+            "short_axis_mm": 18,
+            "shape": "round",
+            "echogenicity": "heterogeneous",
+            "elastography_performed": true,
+            "elastography_score": 3,
+            "sampled": true,
+            "needle_gauge": 22,
+            "number_of_passes": 4,
+            "rose_performed": true,
+            "rose_result": "Adequate lymphocytes",
+            "rose_adequacy": true
+          },
+          {
+            "station": "4L",
+            "short_axis_mm": 12,
+            "shape": "oval",
+            "echogenicity": "homogeneous",
+            "chs_present": true,
+            "elastography_performed": true,
+            "elastography_score": 2,
+            "sampled": true,
+            "needle_gauge": 22,
+            "number_of_passes": 3,
+            "rose_performed": true,
+            "rose_result": "Adequate lymphocytes",
+            "rose_adequacy": true
+          },
+          {
+            "station": "10R",
+            "short_axis_mm": 14,
+            "sampled": true,
+            "needle_gauge": 22,
+            "number_of_passes": 3,
+            "rose_performed": true,
+            "rose_result": "Adequate lymphocytes",
+            "rose_adequacy": true
+          },
+          {
+            "station": "11R",
+            "short_axis_mm": 11,
+            "sampled": true,
+            "needle_gauge": 22,
+            "number_of_passes": 3,
+            "rose_performed": true,
+            "rose_result": "Adequate lymphocytes",
+            "rose_adequacy": true
+          }
+        ]
+      },
+      "clinical_context": {
+        "indication_category": "Lung Cancer Staging",
+        "radiographic_findings": "RUL 2.8cm spiculated mass, mediastinal LAD",
+        "lesion_size_mm": 28,
+        "lesion_location": "RUL",
+        "pet_avidity": true,
+        "suv_max": 8.2,
+        "bronchus_sign": "Not assessed"
+      },
+      "providers": {
+        "attending_name": "Robert Chen",
+        "fellow_name": null,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": null,
+        "rose_present": true
+      },
+      "outcomes": {
+        "procedure_completed": true,
+        "rose_positive": false,
+        "recommendation": "Surgical mediastinoscopy given high clinical suspicion despite negative EBUS"
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:53:15.902386"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "31653",
+          "final_codes": [
+            "31653"
+          ],
+          "modifiers": [],
+          "changes_made": false,
+          "code_rationales": {
+            "31653": "EBUS-TBNA of 3+ mediastinal/hilar lymph node stations (5 stations sampled). All stations ROSE negative but adequate for diagnosis. Surgical referral recommended."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 7.7,
+          "facility_total_payment": 249.0,
+          "per_code": {
+            "31653": {
+              "facility_rvu": 7.7,
+              "facility_payment": 249
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_8.json"
+        },
+        "overall_assessment": "ROSE NEGATIVE CASE: Complete EBUS staging with 5 stations sampled, all showing benign lymphocytes. Despite technically adequate procedure, clinical decision is to proceed with mediastinoscopy due to high suspicion. This tests model's ability to handle 'negative' diagnostic findings that still lead to surgical referral."
+      },
+      "procedure_families": [
+        "linear_ebus"
+      ],
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31653",
+            "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+            "units": 1
+          }
+        ],
+        "work_rvu": 4.96,
+        "practice_expense_rvu": 2.22,
+        "malpractice_rvu": 0.52,
+        "total_rvu": 7.7
+      }
+    },
+    "source_file": "synthetic_edge_cases_v2_8.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.8",
+      "valid_codes": [
+        "31653"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 11,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Brenda Davis",
+      "patient_age": 64,
+      "patient_mrn": "9861767",
+      "procedure_date": "2025-11-20",
+      "note_text": "OPERATIVE NOTE\n\nBrenda Davis | MRN 9861767 | 2025-11-20\n\nDx: PREOPERATIVE DIAGNOSIS: Right upper lobe lung mass concerning for primary lung m\nProc: Linear EBUS bronchoscopy with transbronchial needle aspiration of mediastinal and hilar lymph nodes (5 stations)\n\nActions:\n\u2022 Linear Ebus\n\u2022 The EBUS bronchoscope (Olympus BF-UC180F) was introduced thr\n\nCPT: 31653\nComplications: None\nDispo: Interventional Pulmonology\n",
+      "cpt_codes": [
+        31653
+      ],
+      "registry_entry": {
+        "patient_mrn": "9861767",
+        "procedure_date": "2025-11-20",
+        "patient_age": 64,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Mediastinal staging for RUL lung mass",
+        "sedation_type": "General",
+        "airway_type": "LMA",
+        "final_diagnosis_prelim": "Benign lymph nodes - pending final path",
+        "cpt_codes": [
+          31653
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-04-17",
+          "primary_indication": "RUL 2.8cm mass (SUV 8.2), mediastinal LAD - staging EBUS",
+          "rose_result": "All 5 stations ROSE negative - benign lymphocytes",
+          "disposition": "Referral to surgical mediastinoscopy"
+        },
+        "institution_name": "UCLA Medical Center, Los Angeles, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge - surgical consult pending",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "ebus_stations_sampled": [
+          "7",
+          "4R",
+          "4L",
+          "10R",
+          "11R"
+        ],
+        "linear_ebus_stations": [
+          "7",
+          "4R",
+          "4L",
+          "10R",
+          "11R"
+        ],
+        "ebus_needle_gauge": 22,
+        "ebus_needle_type": "Standard FNA",
+        "ebus_systematic_staging": true,
+        "ebus_rose_available": true,
+        "ebus_rose_result": "All benign",
+        "ebus_elastography_used": true,
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "stations_sampled": [
+              "7",
+              "4R",
+              "4L",
+              "10R",
+              "11R"
+            ],
+            "station_count": 5,
+            "needle_gauge": 22,
+            "rose_performed": true,
+            "rose_malignant": false,
+            "elastography_performed": true
+          }
+        },
+        "granular_data": {
+          "linear_ebus_stations_detail": [
+            {
+              "station": "7",
+              "short_axis_mm": 22,
+              "shape": "oval",
+              "echogenicity": "heterogeneous",
+              "chs_present": false,
+              "elastography_performed": true,
+              "elastography_score": 4,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 4,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4R",
+              "short_axis_mm": 18,
+              "shape": "round",
+              "echogenicity": "heterogeneous",
+              "elastography_performed": true,
+              "elastography_score": 3,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 4,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4L",
+              "short_axis_mm": 12,
+              "shape": "oval",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "elastography_performed": true,
+              "elastography_score": 2,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10R",
+              "short_axis_mm": 14,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "11R",
+              "short_axis_mm": 11,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Lung Cancer Staging",
+          "radiographic_findings": "RUL 2.8cm spiculated mass, mediastinal LAD",
+          "lesion_size_mm": 28,
+          "lesion_location": "RUL",
+          "pet_avidity": true,
+          "suv_max": 8.2,
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Robert Chen",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null,
+          "rose_present": true
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "rose_positive": false,
+          "recommendation": "Surgical mediastinoscopy given high clinical suspicion despite negative EBUS"
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902386"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31653": "EBUS-TBNA of 3+ mediastinal/hilar lymph node stations (5 stations sampled). All stations ROSE negative but adequate for diagnosis. Surgical referral recommended."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 7.7,
+            "facility_total_payment": 249.0,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "ROSE NEGATIVE CASE: Complete EBUS staging with 5 stations sampled, all showing benign lymphocytes. Despite technically adequate procedure, clinical decision is to proceed with mediastinoscopy due to high suspicion. This tests model's ability to handle 'negative' diagnostic findings that still lead to surgical referral."
+        },
+        "procedure_families": [
+          "linear_ebus"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.96,
+          "practice_expense_rvu": 2.22,
+          "malpractice_rvu": 0.52,
+          "total_rvu": 7.7
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 11,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Beverly Castillo",
+      "patient_age": 61,
+      "patient_mrn": "8387312",
+      "procedure_date": "2025-05-20",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Beverly Castillo\nMedical Record Number: 8387312\nDate of Birth: 12/05/1964\nAge at Procedure: 61 years\nProcedure Date: 2025-05-20\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with mediastinal staging for rul lung mass. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nLinear Ebus:\nEndobronchial ultrasound-guided transbronchial needle aspiration was performed utilizing real-time sonographic guidance for precise lymph node targeting. Systematic sampling was conducted at stations 7, 4R, 4L, 10R, 11R. Rapid on-site cytological evaluation was employed to ensure specimen adequacy. \n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\nDetailed airway examination was performed with findings as documented in the procedural narrative.\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 31653\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        31653
+      ],
+      "registry_entry": {
+        "patient_mrn": "8387312",
+        "procedure_date": "2025-05-20",
+        "patient_age": 61,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Mediastinal staging for RUL lung mass",
+        "sedation_type": "General",
+        "airway_type": "LMA",
+        "final_diagnosis_prelim": "Benign lymph nodes - pending final path",
+        "cpt_codes": [
+          31653
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-04-17",
+          "primary_indication": "RUL 2.8cm mass (SUV 8.2), mediastinal LAD - staging EBUS",
+          "rose_result": "All 5 stations ROSE negative - benign lymphocytes",
+          "disposition": "Referral to surgical mediastinoscopy"
+        },
+        "institution_name": "UCLA Medical Center, Los Angeles, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge - surgical consult pending",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "ebus_stations_sampled": [
+          "7",
+          "4R",
+          "4L",
+          "10R",
+          "11R"
+        ],
+        "linear_ebus_stations": [
+          "7",
+          "4R",
+          "4L",
+          "10R",
+          "11R"
+        ],
+        "ebus_needle_gauge": 22,
+        "ebus_needle_type": "Standard FNA",
+        "ebus_systematic_staging": true,
+        "ebus_rose_available": true,
+        "ebus_rose_result": "All benign",
+        "ebus_elastography_used": true,
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "stations_sampled": [
+              "7",
+              "4R",
+              "4L",
+              "10R",
+              "11R"
+            ],
+            "station_count": 5,
+            "needle_gauge": 22,
+            "rose_performed": true,
+            "rose_malignant": false,
+            "elastography_performed": true
+          }
+        },
+        "granular_data": {
+          "linear_ebus_stations_detail": [
+            {
+              "station": "7",
+              "short_axis_mm": 22,
+              "shape": "oval",
+              "echogenicity": "heterogeneous",
+              "chs_present": false,
+              "elastography_performed": true,
+              "elastography_score": 4,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 4,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4R",
+              "short_axis_mm": 18,
+              "shape": "round",
+              "echogenicity": "heterogeneous",
+              "elastography_performed": true,
+              "elastography_score": 3,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 4,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4L",
+              "short_axis_mm": 12,
+              "shape": "oval",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "elastography_performed": true,
+              "elastography_score": 2,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10R",
+              "short_axis_mm": 14,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "11R",
+              "short_axis_mm": 11,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Lung Cancer Staging",
+          "radiographic_findings": "RUL 2.8cm spiculated mass, mediastinal LAD",
+          "lesion_size_mm": 28,
+          "lesion_location": "RUL",
+          "pet_avidity": true,
+          "suv_max": 8.2,
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Robert Chen",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null,
+          "rose_present": true
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "rose_positive": false,
+          "recommendation": "Surgical mediastinoscopy given high clinical suspicion despite negative EBUS"
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902386"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31653": "EBUS-TBNA of 3+ mediastinal/hilar lymph node stations (5 stations sampled). All stations ROSE negative but adequate for diagnosis. Surgical referral recommended."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 7.7,
+            "facility_total_payment": 249.0,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "ROSE NEGATIVE CASE: Complete EBUS staging with 5 stations sampled, all showing benign lymphocytes. Despite technically adequate procedure, clinical decision is to proceed with mediastinoscopy due to high suspicion. This tests model's ability to handle 'negative' diagnostic findings that still lead to surgical referral."
+        },
+        "procedure_families": [
+          "linear_ebus"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.96,
+          "practice_expense_rvu": 2.22,
+          "malpractice_rvu": 0.52,
+          "total_rvu": 7.7
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 11,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Melissa Thomas",
+      "patient_age": 64,
+      "patient_mrn": "1237674",
+      "procedure_date": "2025-09-14",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: Melissa Thomas | MRN: 1237674 | DOS: 2025-09-14\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 31653:\n  Rationale: EBUS-TBNA of 3+ mediastinal/hilar lymph node stations (5 stations sampled). All stations ROSE negative but adequate for diagnosis. Surgical referral recommended.\n  Facility RVU: 7.7\n  Facility Payment: $249\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n  \u2022 Olympus BF-UC180F\n  \u2022 ROSE\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nLINEAR EBUS:\n  - Stations Sampled: ['7', '4R', '4L', '10R', '11R']\n  - Station Count: 5\n  - Needle Gauge: 22\n  - Rose Performed: True\n  - Rose Malignant: False\n  - Elastography Performed: True\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: 7.7\n  Total Facility Payment: $249.0\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        31653
+      ],
+      "registry_entry": {
+        "patient_mrn": "1237674",
+        "procedure_date": "2025-09-14",
+        "patient_age": 64,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Mediastinal staging for RUL lung mass",
+        "sedation_type": "General",
+        "airway_type": "LMA",
+        "final_diagnosis_prelim": "Benign lymph nodes - pending final path",
+        "cpt_codes": [
+          31653
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-04-17",
+          "primary_indication": "RUL 2.8cm mass (SUV 8.2), mediastinal LAD - staging EBUS",
+          "rose_result": "All 5 stations ROSE negative - benign lymphocytes",
+          "disposition": "Referral to surgical mediastinoscopy"
+        },
+        "institution_name": "UCLA Medical Center, Los Angeles, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge - surgical consult pending",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "ebus_stations_sampled": [
+          "7",
+          "4R",
+          "4L",
+          "10R",
+          "11R"
+        ],
+        "linear_ebus_stations": [
+          "7",
+          "4R",
+          "4L",
+          "10R",
+          "11R"
+        ],
+        "ebus_needle_gauge": 22,
+        "ebus_needle_type": "Standard FNA",
+        "ebus_systematic_staging": true,
+        "ebus_rose_available": true,
+        "ebus_rose_result": "All benign",
+        "ebus_elastography_used": true,
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "stations_sampled": [
+              "7",
+              "4R",
+              "4L",
+              "10R",
+              "11R"
+            ],
+            "station_count": 5,
+            "needle_gauge": 22,
+            "rose_performed": true,
+            "rose_malignant": false,
+            "elastography_performed": true
+          }
+        },
+        "granular_data": {
+          "linear_ebus_stations_detail": [
+            {
+              "station": "7",
+              "short_axis_mm": 22,
+              "shape": "oval",
+              "echogenicity": "heterogeneous",
+              "chs_present": false,
+              "elastography_performed": true,
+              "elastography_score": 4,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 4,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4R",
+              "short_axis_mm": 18,
+              "shape": "round",
+              "echogenicity": "heterogeneous",
+              "elastography_performed": true,
+              "elastography_score": 3,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 4,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4L",
+              "short_axis_mm": 12,
+              "shape": "oval",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "elastography_performed": true,
+              "elastography_score": 2,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10R",
+              "short_axis_mm": 14,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "11R",
+              "short_axis_mm": 11,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Lung Cancer Staging",
+          "radiographic_findings": "RUL 2.8cm spiculated mass, mediastinal LAD",
+          "lesion_size_mm": 28,
+          "lesion_location": "RUL",
+          "pet_avidity": true,
+          "suv_max": 8.2,
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Robert Chen",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null,
+          "rose_present": true
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "rose_positive": false,
+          "recommendation": "Surgical mediastinoscopy given high clinical suspicion despite negative EBUS"
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902386"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31653": "EBUS-TBNA of 3+ mediastinal/hilar lymph node stations (5 stations sampled). All stations ROSE negative but adequate for diagnosis. Surgical referral recommended."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 7.7,
+            "facility_total_payment": 249.0,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "ROSE NEGATIVE CASE: Complete EBUS staging with 5 stations sampled, all showing benign lymphocytes. Despite technically adequate procedure, clinical decision is to proceed with mediastinoscopy due to high suspicion. This tests model's ability to handle 'negative' diagnostic findings that still lead to surgical referral."
+        },
+        "procedure_families": [
+          "linear_ebus"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.96,
+          "practice_expense_rvu": 2.22,
+          "malpractice_rvu": 0.52,
+          "total_rvu": 7.7
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 11,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Madison Patel",
+      "patient_age": 65,
+      "patient_mrn": "4699123",
+      "procedure_date": "2025-09-28",
+      "note_text": "PROCEDURE NOTE\n\nDate: 2025-09-28\nPatient: Madison Patel\nMRN: 4699123\nAge/Sex: 65yo F\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nMediastinal staging for RUL lung mass\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nGeneral\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Linear Ebus performed\n5. Scope withdrawn\n6. Patient recovered without complication\n\nSPECIMENS:\n- Station 7: Cytology, cell block\n- Station 4R: Cytology, cell block\n- Station 4L: Cytology, cell block\n- Station 10R: Cytology, cell block\n- Station 11R: Cytology, cell block\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nOutpatient discharge - surgical consult pending\n\nCPT CODES: 31653\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        31653
+      ],
+      "registry_entry": {
+        "patient_mrn": "4699123",
+        "procedure_date": "2025-09-28",
+        "patient_age": 65,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Mediastinal staging for RUL lung mass",
+        "sedation_type": "General",
+        "airway_type": "LMA",
+        "final_diagnosis_prelim": "Benign lymph nodes - pending final path",
+        "cpt_codes": [
+          31653
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-04-17",
+          "primary_indication": "RUL 2.8cm mass (SUV 8.2), mediastinal LAD - staging EBUS",
+          "rose_result": "All 5 stations ROSE negative - benign lymphocytes",
+          "disposition": "Referral to surgical mediastinoscopy"
+        },
+        "institution_name": "UCLA Medical Center, Los Angeles, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge - surgical consult pending",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "ebus_stations_sampled": [
+          "7",
+          "4R",
+          "4L",
+          "10R",
+          "11R"
+        ],
+        "linear_ebus_stations": [
+          "7",
+          "4R",
+          "4L",
+          "10R",
+          "11R"
+        ],
+        "ebus_needle_gauge": 22,
+        "ebus_needle_type": "Standard FNA",
+        "ebus_systematic_staging": true,
+        "ebus_rose_available": true,
+        "ebus_rose_result": "All benign",
+        "ebus_elastography_used": true,
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "stations_sampled": [
+              "7",
+              "4R",
+              "4L",
+              "10R",
+              "11R"
+            ],
+            "station_count": 5,
+            "needle_gauge": 22,
+            "rose_performed": true,
+            "rose_malignant": false,
+            "elastography_performed": true
+          }
+        },
+        "granular_data": {
+          "linear_ebus_stations_detail": [
+            {
+              "station": "7",
+              "short_axis_mm": 22,
+              "shape": "oval",
+              "echogenicity": "heterogeneous",
+              "chs_present": false,
+              "elastography_performed": true,
+              "elastography_score": 4,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 4,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4R",
+              "short_axis_mm": 18,
+              "shape": "round",
+              "echogenicity": "heterogeneous",
+              "elastography_performed": true,
+              "elastography_score": 3,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 4,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4L",
+              "short_axis_mm": 12,
+              "shape": "oval",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "elastography_performed": true,
+              "elastography_score": 2,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10R",
+              "short_axis_mm": 14,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "11R",
+              "short_axis_mm": 11,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Lung Cancer Staging",
+          "radiographic_findings": "RUL 2.8cm spiculated mass, mediastinal LAD",
+          "lesion_size_mm": 28,
+          "lesion_location": "RUL",
+          "pet_avidity": true,
+          "suv_max": 8.2,
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Robert Chen",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null,
+          "rose_present": true
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "rose_positive": false,
+          "recommendation": "Surgical mediastinoscopy given high clinical suspicion despite negative EBUS"
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902386"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31653": "EBUS-TBNA of 3+ mediastinal/hilar lymph node stations (5 stations sampled). All stations ROSE negative but adequate for diagnosis. Surgical referral recommended."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 7.7,
+            "facility_total_payment": 249.0,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "ROSE NEGATIVE CASE: Complete EBUS staging with 5 stations sampled, all showing benign lymphocytes. Despite technically adequate procedure, clinical decision is to proceed with mediastinoscopy due to high suspicion. This tests model's ability to handle 'negative' diagnostic findings that still lead to surgical referral."
+        },
+        "procedure_families": [
+          "linear_ebus"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.96,
+          "practice_expense_rvu": 2.22,
+          "malpractice_rvu": 0.52,
+          "total_rvu": 7.7
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 11,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Amber Cruz",
+      "patient_age": 60,
+      "patient_mrn": "7437572",
+      "procedure_date": "2024-04-04",
+      "note_text": "procedure note 2024-04-04 pt Amber Cruz mrn 7437572\n\nindication mediastinal staging for rul lung mass patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp linear ebus performed samples obtained sent to path \n\ncomplication none ebl minimal patient tolerated well disposition Outpatient discharge - surgical consult pending \n\ncpt 31653\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        31653
+      ],
+      "registry_entry": {
+        "patient_mrn": "7437572",
+        "procedure_date": "2024-04-04",
+        "patient_age": 60,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Mediastinal staging for RUL lung mass",
+        "sedation_type": "General",
+        "airway_type": "LMA",
+        "final_diagnosis_prelim": "Benign lymph nodes - pending final path",
+        "cpt_codes": [
+          31653
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-04-17",
+          "primary_indication": "RUL 2.8cm mass (SUV 8.2), mediastinal LAD - staging EBUS",
+          "rose_result": "All 5 stations ROSE negative - benign lymphocytes",
+          "disposition": "Referral to surgical mediastinoscopy"
+        },
+        "institution_name": "UCLA Medical Center, Los Angeles, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge - surgical consult pending",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "ebus_stations_sampled": [
+          "7",
+          "4R",
+          "4L",
+          "10R",
+          "11R"
+        ],
+        "linear_ebus_stations": [
+          "7",
+          "4R",
+          "4L",
+          "10R",
+          "11R"
+        ],
+        "ebus_needle_gauge": 22,
+        "ebus_needle_type": "Standard FNA",
+        "ebus_systematic_staging": true,
+        "ebus_rose_available": true,
+        "ebus_rose_result": "All benign",
+        "ebus_elastography_used": true,
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "stations_sampled": [
+              "7",
+              "4R",
+              "4L",
+              "10R",
+              "11R"
+            ],
+            "station_count": 5,
+            "needle_gauge": 22,
+            "rose_performed": true,
+            "rose_malignant": false,
+            "elastography_performed": true
+          }
+        },
+        "granular_data": {
+          "linear_ebus_stations_detail": [
+            {
+              "station": "7",
+              "short_axis_mm": 22,
+              "shape": "oval",
+              "echogenicity": "heterogeneous",
+              "chs_present": false,
+              "elastography_performed": true,
+              "elastography_score": 4,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 4,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4R",
+              "short_axis_mm": 18,
+              "shape": "round",
+              "echogenicity": "heterogeneous",
+              "elastography_performed": true,
+              "elastography_score": 3,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 4,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4L",
+              "short_axis_mm": 12,
+              "shape": "oval",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "elastography_performed": true,
+              "elastography_score": 2,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10R",
+              "short_axis_mm": 14,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "11R",
+              "short_axis_mm": 11,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Lung Cancer Staging",
+          "radiographic_findings": "RUL 2.8cm spiculated mass, mediastinal LAD",
+          "lesion_size_mm": 28,
+          "lesion_location": "RUL",
+          "pet_avidity": true,
+          "suv_max": 8.2,
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Robert Chen",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null,
+          "rose_present": true
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "rose_positive": false,
+          "recommendation": "Surgical mediastinoscopy given high clinical suspicion despite negative EBUS"
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902386"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31653": "EBUS-TBNA of 3+ mediastinal/hilar lymph node stations (5 stations sampled). All stations ROSE negative but adequate for diagnosis. Surgical referral recommended."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 7.7,
+            "facility_total_payment": 249.0,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "ROSE NEGATIVE CASE: Complete EBUS staging with 5 stations sampled, all showing benign lymphocytes. Despite technically adequate procedure, clinical decision is to proceed with mediastinoscopy due to high suspicion. This tests model's ability to handle 'negative' diagnostic findings that still lead to surgical referral."
+        },
+        "procedure_families": [
+          "linear_ebus"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.96,
+          "practice_expense_rvu": 2.22,
+          "malpractice_rvu": 0.52,
+          "total_rvu": 7.7
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 11,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Stephanie Allen",
+      "patient_age": 60,
+      "patient_mrn": "1760974",
+      "procedure_date": "2025-04-04",
+      "note_text": "BRONCHOSCOPY PROCEDURE NOTE\n\nDate: 2025-04-04\nPatient: Stephanie Allen\nMRN: 1760974\nDOB: 12/05/1965 (60 years old)\n\nAttending: Dr. Robert Chen, MD\nCytopathologist: Dr. Elizabeth Taylor, MD (ROSE)\nLocation: UCLA Medical Center, Los Angeles, CA\n\nINDICATION: 60-year-old female non-smoker with 2.8cm RUL spiculated nodule (PET avid, SUVmax 8.2) and enlarged mediastinal lymph nodes on CT (Station 4R 1.8cm, Station 7 2.1cm, Station 4L 1.2cm). Referred for EBUS-TBNA staging prior to planned surgical resection if N2/N3 negative.\n\nPREOPERATIVE DIAGNOSIS: Right upper lobe lung mass concerning for primary lung malignancy; mediastinal lymphadenopathy for staging\n\nPOSTOPERATIVE DIAGNOSIS: Same; mediastinal lymph nodes sampled - ROSE benign at all stations\n\nPROCEDURE: Linear EBUS bronchoscopy with transbronchial needle aspiration of mediastinal and hilar lymph nodes (5 stations)\n\nANESTHESIA: General anesthesia with LMA\n\nThe EBUS bronchoscope (Olympus BF-UC180F) was introduced through the LMA. Systematic mediastinal staging was performed.\n\nSTATION-BY-STATION SAMPLING:\n\nStation 7 (Subcarinal):\n- Size: 22mm short axis, oval, heterogeneous, no CHS\n- Elastography: Score 4 (suspicious)\n- Sampling: 22G FNA needle, 4 passes\n- ROSE: Abundant lymphocytes, no malignant cells, ADEQUATE - BENIGN\n\nStation 4R (Right lower paratracheal):\n- Size: 18mm short axis, round, heterogeneous\n- Elastography: Score 3 (indeterminate)\n- Sampling: 22G FNA needle, 4 passes  \n- ROSE: Lymphocytes with scattered histiocytes, no malignant cells, ADEQUATE - BENIGN\n\nStation 4L (Left lower paratracheal):\n- Size: 12mm short axis, oval, homogeneous, CHS present\n- Elastography: Score 2 (benign-appearing)\n- Sampling: 22G FNA needle, 3 passes\n- ROSE: Reactive lymphocytes, ADEQUATE - BENIGN\n\nStation 10R (Right hilar):\n- Size: 14mm short axis\n- Sampling: 22G FNA needle, 3 passes\n- ROSE: Lymphocytes and bronchial cells, ADEQUATE - BENIGN\n\nStation 11R (Right interlobar):\n- Size: 11mm short axis\n- Sampling: 22G FNA needle, 3 passes\n- ROSE: Lymphocytes, ADEQUATE - BENIGN\n\nAll samples sent for cell block and final cytopathology.\n\nNo complications. Airways examined and appeared normal. No endobronchial lesion at RUL orifice.\n\nROSE SUMMARY (Dr. Taylor):\n\"5 stations sampled with adequate lymphocyte material at all stations. No malignant cells identified at any station. Recommend final pathology confirmation. If staging remains N0 on final path, patient may proceed with planned surgical resection. If clinical suspicion remains high despite negative EBUS, recommend surgical staging (mediastinoscopy) given substantial adenopathy and risk of sampling error.\"\n\n- Station 7: Cytology, cell block\n- Station 4R: Cytology, cell block\n- Station 4L: Cytology, cell block\n- Station 10R: Cytology, cell block\n- Station 11R: Cytology, cell block\n\nCOMPLICATIONS: None\n\nEBL: <5mL\n\n1. EBUS-TBNA of 5 mediastinal/hilar stations performed for lung cancer staging\n2. ROSE negative for malignancy at all stations\n3. Pending final cytopathology confirmation\n\n1. Await final pathology (3-5 days)\n2. Discussed with patient: If final pathology benign at all stations, will recommend surgical mediastinoscopy given size of station 7 and 4R nodes and high suspicion for malignancy based on primary lesion PET characteristics\n3. Thoracic surgery consultation placed for mediastinoscopy\n4. If mediastinoscopy also negative, patient will proceed with lobectomy + lymph node dissection\n\nDr. Robert Chen, MD\nInterventional Pulmonology",
+      "cpt_codes": [
+        31653
+      ],
+      "registry_entry": {
+        "patient_mrn": "1760974",
+        "procedure_date": "2025-04-04",
+        "patient_age": 60,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Mediastinal staging for RUL lung mass",
+        "sedation_type": "General",
+        "airway_type": "LMA",
+        "final_diagnosis_prelim": "Benign lymph nodes - pending final path",
+        "cpt_codes": [
+          31653
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-04-17",
+          "primary_indication": "RUL 2.8cm mass (SUV 8.2), mediastinal LAD - staging EBUS",
+          "rose_result": "All 5 stations ROSE negative - benign lymphocytes",
+          "disposition": "Referral to surgical mediastinoscopy"
+        },
+        "institution_name": "UCLA Medical Center, Los Angeles, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge - surgical consult pending",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "ebus_stations_sampled": [
+          "7",
+          "4R",
+          "4L",
+          "10R",
+          "11R"
+        ],
+        "linear_ebus_stations": [
+          "7",
+          "4R",
+          "4L",
+          "10R",
+          "11R"
+        ],
+        "ebus_needle_gauge": 22,
+        "ebus_needle_type": "Standard FNA",
+        "ebus_systematic_staging": true,
+        "ebus_rose_available": true,
+        "ebus_rose_result": "All benign",
+        "ebus_elastography_used": true,
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "stations_sampled": [
+              "7",
+              "4R",
+              "4L",
+              "10R",
+              "11R"
+            ],
+            "station_count": 5,
+            "needle_gauge": 22,
+            "rose_performed": true,
+            "rose_malignant": false,
+            "elastography_performed": true
+          }
+        },
+        "granular_data": {
+          "linear_ebus_stations_detail": [
+            {
+              "station": "7",
+              "short_axis_mm": 22,
+              "shape": "oval",
+              "echogenicity": "heterogeneous",
+              "chs_present": false,
+              "elastography_performed": true,
+              "elastography_score": 4,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 4,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4R",
+              "short_axis_mm": 18,
+              "shape": "round",
+              "echogenicity": "heterogeneous",
+              "elastography_performed": true,
+              "elastography_score": 3,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 4,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4L",
+              "short_axis_mm": 12,
+              "shape": "oval",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "elastography_performed": true,
+              "elastography_score": 2,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10R",
+              "short_axis_mm": 14,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "11R",
+              "short_axis_mm": 11,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Lung Cancer Staging",
+          "radiographic_findings": "RUL 2.8cm spiculated mass, mediastinal LAD",
+          "lesion_size_mm": 28,
+          "lesion_location": "RUL",
+          "pet_avidity": true,
+          "suv_max": 8.2,
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Robert Chen",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null,
+          "rose_present": true
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "rose_positive": false,
+          "recommendation": "Surgical mediastinoscopy given high clinical suspicion despite negative EBUS"
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902386"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31653": "EBUS-TBNA of 3+ mediastinal/hilar lymph node stations (5 stations sampled). All stations ROSE negative but adequate for diagnosis. Surgical referral recommended."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 7.7,
+            "facility_total_payment": 249.0,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "ROSE NEGATIVE CASE: Complete EBUS staging with 5 stations sampled, all showing benign lymphocytes. Despite technically adequate procedure, clinical decision is to proceed with mediastinoscopy due to high suspicion. This tests model's ability to handle 'negative' diagnostic findings that still lead to surgical referral."
+        },
+        "procedure_families": [
+          "linear_ebus"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.96,
+          "practice_expense_rvu": 2.22,
+          "malpractice_rvu": 0.52,
+          "total_rvu": 7.7
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 11,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Linda Jenkins",
+      "patient_age": 60,
+      "patient_mrn": "4053139",
+      "procedure_date": "2025-02-04",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Linda Jenkins\nMRN: 4053139\nDOB: 12/05/1965\nAge: 60\nDate: 2025-02-04\n\n[INDICATION]\nMediastinal staging for RUL lung mass\n\n[ANESTHESIA]\nType: General\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Linear Ebus: Performed\n  \u2022 stations sampled: 7, 4R, 4L, 10R, 11R\n  \u2022 station count: 5\n  \u2022 needle gauge: 22\n  \u2022 rose performed: Yes\n  \u2022 rose malignant: No\n  \u2022 elastography performed: Yes\n\n[FINDINGS]\nAssessment: Benign lymph nodes - pending final path\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: Outpatient discharge - surgical consult pending\n\n[CODING]\nCPT: 31653\n",
+      "cpt_codes": [
+        31653
+      ],
+      "registry_entry": {
+        "patient_mrn": "4053139",
+        "procedure_date": "2025-02-04",
+        "patient_age": 60,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Mediastinal staging for RUL lung mass",
+        "sedation_type": "General",
+        "airway_type": "LMA",
+        "final_diagnosis_prelim": "Benign lymph nodes - pending final path",
+        "cpt_codes": [
+          31653
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-04-17",
+          "primary_indication": "RUL 2.8cm mass (SUV 8.2), mediastinal LAD - staging EBUS",
+          "rose_result": "All 5 stations ROSE negative - benign lymphocytes",
+          "disposition": "Referral to surgical mediastinoscopy"
+        },
+        "institution_name": "UCLA Medical Center, Los Angeles, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge - surgical consult pending",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "ebus_stations_sampled": [
+          "7",
+          "4R",
+          "4L",
+          "10R",
+          "11R"
+        ],
+        "linear_ebus_stations": [
+          "7",
+          "4R",
+          "4L",
+          "10R",
+          "11R"
+        ],
+        "ebus_needle_gauge": 22,
+        "ebus_needle_type": "Standard FNA",
+        "ebus_systematic_staging": true,
+        "ebus_rose_available": true,
+        "ebus_rose_result": "All benign",
+        "ebus_elastography_used": true,
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "stations_sampled": [
+              "7",
+              "4R",
+              "4L",
+              "10R",
+              "11R"
+            ],
+            "station_count": 5,
+            "needle_gauge": 22,
+            "rose_performed": true,
+            "rose_malignant": false,
+            "elastography_performed": true
+          }
+        },
+        "granular_data": {
+          "linear_ebus_stations_detail": [
+            {
+              "station": "7",
+              "short_axis_mm": 22,
+              "shape": "oval",
+              "echogenicity": "heterogeneous",
+              "chs_present": false,
+              "elastography_performed": true,
+              "elastography_score": 4,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 4,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4R",
+              "short_axis_mm": 18,
+              "shape": "round",
+              "echogenicity": "heterogeneous",
+              "elastography_performed": true,
+              "elastography_score": 3,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 4,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4L",
+              "short_axis_mm": 12,
+              "shape": "oval",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "elastography_performed": true,
+              "elastography_score": 2,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10R",
+              "short_axis_mm": 14,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "11R",
+              "short_axis_mm": 11,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Lung Cancer Staging",
+          "radiographic_findings": "RUL 2.8cm spiculated mass, mediastinal LAD",
+          "lesion_size_mm": 28,
+          "lesion_location": "RUL",
+          "pet_avidity": true,
+          "suv_max": 8.2,
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Robert Chen",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null,
+          "rose_present": true
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "rose_positive": false,
+          "recommendation": "Surgical mediastinoscopy given high clinical suspicion despite negative EBUS"
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902386"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31653": "EBUS-TBNA of 3+ mediastinal/hilar lymph node stations (5 stations sampled). All stations ROSE negative but adequate for diagnosis. Surgical referral recommended."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 7.7,
+            "facility_total_payment": 249.0,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "ROSE NEGATIVE CASE: Complete EBUS staging with 5 stations sampled, all showing benign lymphocytes. Despite technically adequate procedure, clinical decision is to proceed with mediastinoscopy due to high suspicion. This tests model's ability to handle 'negative' diagnostic findings that still lead to surgical referral."
+        },
+        "procedure_families": [
+          "linear_ebus"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.96,
+          "practice_expense_rvu": 2.22,
+          "malpractice_rvu": 0.52,
+          "total_rvu": 7.7
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 11,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Hannah Evans",
+      "patient_age": 61,
+      "patient_mrn": "5316138",
+      "procedure_date": "2025-09-27",
+      "note_text": "On 2025-09-27, Hannah Evans, a 61-year-old female (MRN 5316138), underwent bronchoscopic evaluation for Mediastinal staging for RUL lung mass. The patient received General and the procedure was performed in standard fashion. The procedure included endobronchial ultrasound-guided sampling of lymph node stations 7, 4R, 4L, 10R, 11R with rapid on-site evaluation. \n\nOn examination, the airways were systematically inspected. Abnormal findings were noted as described in detail above. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is benign lymph nodes - pending final path. \n\nProcedural coding: 31653.",
+      "cpt_codes": [
+        31653
+      ],
+      "registry_entry": {
+        "patient_mrn": "5316138",
+        "procedure_date": "2025-09-27",
+        "patient_age": 61,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Mediastinal staging for RUL lung mass",
+        "sedation_type": "General",
+        "airway_type": "LMA",
+        "final_diagnosis_prelim": "Benign lymph nodes - pending final path",
+        "cpt_codes": [
+          31653
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-04-17",
+          "primary_indication": "RUL 2.8cm mass (SUV 8.2), mediastinal LAD - staging EBUS",
+          "rose_result": "All 5 stations ROSE negative - benign lymphocytes",
+          "disposition": "Referral to surgical mediastinoscopy"
+        },
+        "institution_name": "UCLA Medical Center, Los Angeles, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge - surgical consult pending",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "ebus_stations_sampled": [
+          "7",
+          "4R",
+          "4L",
+          "10R",
+          "11R"
+        ],
+        "linear_ebus_stations": [
+          "7",
+          "4R",
+          "4L",
+          "10R",
+          "11R"
+        ],
+        "ebus_needle_gauge": 22,
+        "ebus_needle_type": "Standard FNA",
+        "ebus_systematic_staging": true,
+        "ebus_rose_available": true,
+        "ebus_rose_result": "All benign",
+        "ebus_elastography_used": true,
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "stations_sampled": [
+              "7",
+              "4R",
+              "4L",
+              "10R",
+              "11R"
+            ],
+            "station_count": 5,
+            "needle_gauge": 22,
+            "rose_performed": true,
+            "rose_malignant": false,
+            "elastography_performed": true
+          }
+        },
+        "granular_data": {
+          "linear_ebus_stations_detail": [
+            {
+              "station": "7",
+              "short_axis_mm": 22,
+              "shape": "oval",
+              "echogenicity": "heterogeneous",
+              "chs_present": false,
+              "elastography_performed": true,
+              "elastography_score": 4,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 4,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4R",
+              "short_axis_mm": 18,
+              "shape": "round",
+              "echogenicity": "heterogeneous",
+              "elastography_performed": true,
+              "elastography_score": 3,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 4,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4L",
+              "short_axis_mm": 12,
+              "shape": "oval",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "elastography_performed": true,
+              "elastography_score": 2,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10R",
+              "short_axis_mm": 14,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "11R",
+              "short_axis_mm": 11,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Lung Cancer Staging",
+          "radiographic_findings": "RUL 2.8cm spiculated mass, mediastinal LAD",
+          "lesion_size_mm": 28,
+          "lesion_location": "RUL",
+          "pet_avidity": true,
+          "suv_max": 8.2,
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Robert Chen",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null,
+          "rose_present": true
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "rose_positive": false,
+          "recommendation": "Surgical mediastinoscopy given high clinical suspicion despite negative EBUS"
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902386"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31653": "EBUS-TBNA of 3+ mediastinal/hilar lymph node stations (5 stations sampled). All stations ROSE negative but adequate for diagnosis. Surgical referral recommended."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 7.7,
+            "facility_total_payment": 249.0,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "ROSE NEGATIVE CASE: Complete EBUS staging with 5 stations sampled, all showing benign lymphocytes. Despite technically adequate procedure, clinical decision is to proceed with mediastinoscopy due to high suspicion. This tests model's ability to handle 'negative' diagnostic findings that still lead to surgical referral."
+        },
+        "procedure_families": [
+          "linear_ebus"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.96,
+          "practice_expense_rvu": 2.22,
+          "malpractice_rvu": 0.52,
+          "total_rvu": 7.7
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 11,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Virginia Perry",
+      "patient_age": 67,
+      "patient_mrn": "4743036",
+      "procedure_date": "2024-08-13",
+      "note_text": "BRONCHOSCOPY PROCEDURE NOTE\n\nDate: 2024-08-13\nPatient: Virginia Perry\nMRN: 4743036\nDOB: 12/05/1957 (67 years old)\n\nAttending: Dr. Robert Chen, MD\nCytopathologist: Dr. Elizabeth Taylor, MD (ROSE)\nLocation: UCLA Medical Center, Los Angeles, CA\n\nINDICATION: 67-year-old female non-smoker with 2.8cm RUL spiculated nodule (PET avid, SUVmax 8.2) and enlarged mediastinal lymph nodes on CT (Station 4R 1.8cm, Station 7 2.1cm, Station 4L 1.2cm). Referred for EBUS-TBNA staging prior to planned surgical resection if N2/N3 negative.\n\nPREOPERATIVE DIAGNOSIS: Right upper lobe lung mass concerning for primary lung malignancy; mediastinal lymphadenopathy for staging\n\nPOSTOPERATIVE DIAGNOSIS: Same; mediastinal lymph nodes procured tissue from - ROSE benign at all stations\n\nPROCEDURE: Linear EBUS bronchoscopy with transbronchial needle aspiration of mediastinal and hilar lymph nodes (5 stations)\n\nANESTHESIA: General anesthesia with LMA\n\nPROCEDURE NARRATIVE:\nThe EBUS bronchoscope (Olympus BF-UC180F) was introduced through the LMA. Systematic mediastinal staging was accomplished.\n\nSTATION-BY-STATION SAMPLING:\n\nStation 7 (Subcarinal):\n- Size: 22mm short axis, oval, heterogeneous, no CHS\n- Elastography: Score 4 (suspicious)\n- Sampling: 22G FNA needle, 4 passes\n- ROSE: Abundant lymphocytes, no malignant cells, ADEQUATE - BENIGN\n\nStation 4R (Right lower paratracheal):\n- Size: 18mm short axis, round, heterogeneous\n- Elastography: Score 3 (indeterminate)\n- Sampling: 22G FNA needle, 4 passes  \n- ROSE: Lymphocytes with scattered histiocytes, no malignant cells, ADEQUATE - BENIGN\n\nStation 4L (Left lower paratracheal):\n- Size: 12mm short axis, oval, homogeneous, CHS present\n- Elastography: Score 2 (benign-appearing)\n- Sampling: 22G FNA needle, 3 passes\n- ROSE: Reactive lymphocytes, ADEQUATE - BENIGN\n\nStation 10R (Right hilar):\n- Size: 14mm short axis\n- Sampling: 22G FNA needle, 3 passes\n- ROSE: Lymphocytes and bronchial cells, ADEQUATE - BENIGN\n\nStation 11R (Right interlobar):\n- Size: 11mm short axis\n- Sampling: 22G FNA needle, 3 passes\n- ROSE: Lymphocytes, ADEQUATE - BENIGN\n\nAll samples sent for cell block and final cytopathology.\n\nNo complications. Airways examined and appeared normal. No endobronchial lesion at RUL orifice.\n\nROSE SUMMARY (Dr. Taylor):\n\"5 stations procured tissue from with adequate lymphocyte material at all stations. No malignant cells located at any station. Recommend final pathology confirmation. If staging remains N0 on final path, patient may proceed with planned surgical resection. If clinical suspicion remains high despite negative EBUS, recommend surgical staging (mediastinoscopy) given substantial adenopathy and risk of sampling error.\"\n\nSPECIMENS:\n- Station 7: Cytology, cell block\n- Station 4R: Cytology, cell block\n- Station 4L: Cytology, cell block\n- Station 10R: Cytology, cell block\n- Station 11R: Cytology, cell block\n\nCOMPLICATIONS: None\n\nEBL: <5mL\n\nIMPRESSION:\n1. EBUS-TBNA of 5 mediastinal/hilar stations accomplished for lung cancer staging\n2. ROSE negative for malignancy at all stations\n3. Pending final cytopathology confirmation\n\nPLAN:\n1. Await final pathology (3-5 days)\n2. Discussed with patient: If final pathology benign at all stations, will recommend surgical mediastinoscopy given size of station 7 and 4R nodes and high suspicion for malignancy based on primary lesion PET characteristics\n3. Thoracic surgery consultation installed for mediastinoscopy\n4. If mediastinoscopy also negative, patient will proceed with lobectomy + lymph node dissection\n\nDr. Robert Chen, MD\nInterventional Pulmonology",
+      "cpt_codes": [
+        31653
+      ],
+      "registry_entry": {
+        "patient_mrn": "4743036",
+        "procedure_date": "2024-08-13",
+        "patient_age": 67,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Mediastinal staging for RUL lung mass",
+        "sedation_type": "General",
+        "airway_type": "LMA",
+        "final_diagnosis_prelim": "Benign lymph nodes - pending final path",
+        "cpt_codes": [
+          31653
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-04-17",
+          "primary_indication": "RUL 2.8cm mass (SUV 8.2), mediastinal LAD - staging EBUS",
+          "rose_result": "All 5 stations ROSE negative - benign lymphocytes",
+          "disposition": "Referral to surgical mediastinoscopy"
+        },
+        "institution_name": "UCLA Medical Center, Los Angeles, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge - surgical consult pending",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "ebus_stations_sampled": [
+          "7",
+          "4R",
+          "4L",
+          "10R",
+          "11R"
+        ],
+        "linear_ebus_stations": [
+          "7",
+          "4R",
+          "4L",
+          "10R",
+          "11R"
+        ],
+        "ebus_needle_gauge": 22,
+        "ebus_needle_type": "Standard FNA",
+        "ebus_systematic_staging": true,
+        "ebus_rose_available": true,
+        "ebus_rose_result": "All benign",
+        "ebus_elastography_used": true,
+        "procedures_performed": {
+          "linear_ebus": {
+            "performed": true,
+            "stations_sampled": [
+              "7",
+              "4R",
+              "4L",
+              "10R",
+              "11R"
+            ],
+            "station_count": 5,
+            "needle_gauge": 22,
+            "rose_performed": true,
+            "rose_malignant": false,
+            "elastography_performed": true
+          }
+        },
+        "granular_data": {
+          "linear_ebus_stations_detail": [
+            {
+              "station": "7",
+              "short_axis_mm": 22,
+              "shape": "oval",
+              "echogenicity": "heterogeneous",
+              "chs_present": false,
+              "elastography_performed": true,
+              "elastography_score": 4,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 4,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4R",
+              "short_axis_mm": 18,
+              "shape": "round",
+              "echogenicity": "heterogeneous",
+              "elastography_performed": true,
+              "elastography_score": 3,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 4,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "4L",
+              "short_axis_mm": 12,
+              "shape": "oval",
+              "echogenicity": "homogeneous",
+              "chs_present": true,
+              "elastography_performed": true,
+              "elastography_score": 2,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "10R",
+              "short_axis_mm": 14,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            },
+            {
+              "station": "11R",
+              "short_axis_mm": 11,
+              "sampled": true,
+              "needle_gauge": 22,
+              "number_of_passes": 3,
+              "rose_performed": true,
+              "rose_result": "Adequate lymphocytes",
+              "rose_adequacy": true
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Lung Cancer Staging",
+          "radiographic_findings": "RUL 2.8cm spiculated mass, mediastinal LAD",
+          "lesion_size_mm": 28,
+          "lesion_location": "RUL",
+          "pet_avidity": true,
+          "suv_max": 8.2,
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Robert Chen",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null,
+          "rose_present": true
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "rose_positive": false,
+          "recommendation": "Surgical mediastinoscopy given high clinical suspicion despite negative EBUS"
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902386"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31653",
+            "final_codes": [
+              "31653"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31653": "EBUS-TBNA of 3+ mediastinal/hilar lymph node stations (5 stations sampled). All stations ROSE negative but adequate for diagnosis. Surgical referral recommended."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 7.7,
+            "facility_total_payment": 249.0,
+            "per_code": {
+              "31653": {
+                "facility_rvu": 7.7,
+                "facility_payment": 249
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "ROSE NEGATIVE CASE: Complete EBUS staging with 5 stations sampled, all showing benign lymphocytes. Despite technically adequate procedure, clinical decision is to proceed with mediastinoscopy due to high suspicion. This tests model's ability to handle 'negative' diagnostic findings that still lead to surgical referral."
+        },
+        "procedure_families": [
+          "linear_ebus"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.96,
+          "practice_expense_rvu": 2.22,
+          "malpractice_rvu": 0.52,
+          "total_rvu": 7.7
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31653; total_work_rvu=4.96, total_rvu=7.7 (facility)."
+        ]
+      }
+    }
+  ]
+}

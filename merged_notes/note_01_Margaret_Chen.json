@@ -1,0 +1,1176 @@
+{
+  "base_note": {
+    "note_text": "Patient: Margaret Chen || MRN: 5264363 || DOB: 05/22/1952\nDate of Procedure: 2025-10-17 || Location: Mercy General Hospital, Portland, OR\nAttending: Dr. Amanda Rodriguez, MD, FCCP\n\nPREOPERATIVE DIAGNOSIS: Recurrent right-sided malignant pleural effusion secondary to metastatic breast carcinoma\n\nPOSTOPERATIVE DIAGNOSIS: Same\n\nPROCEDURE PERFORMED: Ultrasound-guided right-sided tunneled indwelling pleural catheter (PleurX) insertion\n\nINDICATION: 72-year-old female with metastatic breast cancer presenting with recurrent symptomatic right malignant pleural effusion requiring weekly thoracenteses. Decision made for tunneled pleural catheter for home drainage.\n\nINFORMED CONSENT: Procedure risks, benefits, and alternatives discussed. Patient understands and consents.\n\nPROCEDURE DETAILS:\nWith the patient in left lateral decubitus position, timeout performed confirming right side. The right lateral chest wall was prepped and draped in sterile fashion. Ultrasound used to identify optimal insertion site in the 5th intercostal space, mid-axillary line. Pocket of fluid confirmed, pleural sliding absent confirming adhesions.\n\nLocal anesthesia with 1% lidocaine infiltrated along proposed tract and subcutaneous tunnel path. A 3cm incision was made at the insertion site. Using the tunneling trocar, a 10cm subcutaneous tunnel was created anteriorly ending approximately 5cm from the axilla. The PleurX catheter was drawn through the tunnel with the polyester cuff positioned 2cm from the exit site.\n\nThe pleural space was entered using Seldinger technique under real-time ultrasound guidance. The 15.5Fr PleurX catheter was advanced over the guidewire and positioned in the posterior pleural space. Good flow confirmed with drainage of 1,200mL of bloody, viscous fluid which was sent for cytology, cell count, and chemistry.\n\nThe catheter was secured with 2-0 silk suture at the exit site. Sterile dressing applied. Chest X-ray obtained showing catheter in good position with improved aeration of right lung base, no pneumothorax.\n\nSPECIMENS: Pleural fluid to cytology, cell count, LDH, protein, glucose\n\nCOMPLICATIONS: None\n\nESTIMATED BLOOD LOSS: Minimal (<10mL)\n\nDISPOSITION: Discharge home with PleurX drainage supplies and home health nursing arranged for drainage teaching and supervision.\n\nFOLLOW-UP: Return to clinic in 1 week for wound check and drainage log review.\n\nAmanda Rodriguez, MD, FCCP\nInterventional Pulmonology",
+    "cpt_codes": [
+      32550
+    ],
+    "registry_entry": {
+      "patient_mrn": "5264363",
+      "procedure_date": "2025-10-17",
+      "patient_age": 72,
+      "gender": "Female",
+      "asa_class": 3,
+      "primary_indication": "Recurrent malignant pleural effusion",
+      "sedation_type": "Local with sedation",
+      "airway_type": "Native",
+      "final_diagnosis_prelim": "Malignancy",
+      "cpt_codes": [
+        32550
+      ],
+      "evidence": {
+        "procedure_date": "Date of Procedure: 2025-10-17",
+        "primary_indication": "Recurrent right-sided malignant pleural effusion secondary to metastatic breast carcinoma",
+        "pleural_procedure_type": "PleurX catheter insertion with tunneling"
+      },
+      "institution_name": "Mercy General Hospital, Portland, OR",
+      "molecular_testing_requested": false,
+      "disposition": "Outpatient discharge",
+      "bleeding_severity": "None",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "pleural_procedure_type": "Tunneled Catheter",
+      "pleural_guidance": "Ultrasound",
+      "pleural_side": "Right",
+      "pleural_intercostal_space": "5th",
+      "pleural_fluid_appearance": "Bloody",
+      "pleural_volume_drained_ml": 1200,
+      "pleurodesis_performed": false,
+      "procedures_performed": {
+        "ipc": {
+          "performed": true,
+          "action": "Insertion",
+          "side": "Right",
+          "catheter_brand": "PleurX",
+          "indication": "Malignant effusion",
+          "tunneled": true
+        }
+      },
+      "providers": {
+        "attending_name": "Amanda Rodriguez",
+        "fellow_name": null,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": null
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:53:15.902059"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "32550",
+          "final_codes": [
+            "32550"
+          ],
+          "modifiers": [],
+          "changes_made": false,
+          "code_rationales": {
+            "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) with subcutaneous tunneling for malignant pleural effusion."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 4.69,
+          "facility_total_payment": 152.0,
+          "per_code": {
+            "32550": {
+              "facility_rvu": 4.69,
+              "facility_payment": 152
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_8.json"
+        },
+        "overall_assessment": "Appropriate code for new IPC insertion with tunneling. Ultrasound guidance is inherent to 32550."
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "32550",
+            "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+            "units": 1
+          }
+        ],
+        "work_rvu": 3.92,
+        "practice_expense_rvu": 1.6,
+        "malpractice_rvu": 0.36,
+        "total_rvu": 5.88
+      }
+    },
+    "source_file": "synthetic_ipc_placement_v2_8.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.8",
+      "valid_codes": [
+        "32550"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 1,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Cheryl Rivera",
+      "patient_age": 72,
+      "patient_mrn": "2331887",
+      "procedure_date": "2024-02-04",
+      "note_text": "OPERATIVE NOTE\n\nCheryl Rivera | MRN 2331887 | 2024-02-04\n\nDx: INFORMED CONSENT: Procedure risks, benefits, and alternatives discussed. Patient\nProc: Ultrasound-guided right-sided tunneled indwelling pleural catheter (PleurX) insertion\n\nActions:\n\u2022 Ipc\n\u2022 The catheter was secured with 2-0 silk suture at the exit si\n\nCPT: 32550\nComplications: None\nDispo: Interventional Pulmonology\n",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "2331887",
+        "procedure_date": "2024-02-04",
+        "patient_age": 72,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "Recurrent malignant pleural effusion",
+        "sedation_type": "Local with sedation",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-10-17",
+          "primary_indication": "Recurrent right-sided malignant pleural effusion secondary to metastatic breast carcinoma",
+          "pleural_procedure_type": "PleurX catheter insertion with tunneling"
+        },
+        "institution_name": "Mercy General Hospital, Portland, OR",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "5th",
+        "pleural_fluid_appearance": "Bloody",
+        "pleural_volume_drained_ml": 1200,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Right",
+            "catheter_brand": "PleurX",
+            "indication": "Malignant effusion",
+            "tunneled": true
+          }
+        },
+        "providers": {
+          "attending_name": "Amanda Rodriguez",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902059"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) with subcutaneous tunneling for malignant pleural effusion."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for new IPC insertion with tunneling. Ultrasound guidance is inherent to 32550."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 1,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Debra Parker",
+      "patient_age": 71,
+      "patient_mrn": "8700666",
+      "procedure_date": "2025-04-21",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Debra Parker\nMedical Record Number: 8700666\nDate of Birth: 05/22/1954\nAge at Procedure: 71 years\nProcedure Date: 2025-04-21\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with recurrent malignant pleural effusion. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nIpc:\n\n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\nDetailed airway examination was performed with findings as documented in the procedural narrative.\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 32550\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "8700666",
+        "procedure_date": "2025-04-21",
+        "patient_age": 71,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "Recurrent malignant pleural effusion",
+        "sedation_type": "Local with sedation",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-10-17",
+          "primary_indication": "Recurrent right-sided malignant pleural effusion secondary to metastatic breast carcinoma",
+          "pleural_procedure_type": "PleurX catheter insertion with tunneling"
+        },
+        "institution_name": "Mercy General Hospital, Portland, OR",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "5th",
+        "pleural_fluid_appearance": "Bloody",
+        "pleural_volume_drained_ml": 1200,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Right",
+            "catheter_brand": "PleurX",
+            "indication": "Malignant effusion",
+            "tunneled": true
+          }
+        },
+        "providers": {
+          "attending_name": "Amanda Rodriguez",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902059"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) with subcutaneous tunneling for malignant pleural effusion."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for new IPC insertion with tunneling. Ultrasound guidance is inherent to 32550."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 1,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Donna Thompson",
+      "patient_age": 74,
+      "patient_mrn": "3496252",
+      "procedure_date": "2025-09-18",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: Donna Thompson | MRN: 3496252 | DOS: 2025-09-18\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 32550:\n  Rationale: Insertion of tunneled indwelling pleural catheter (PleurX) with subcutaneous tunneling for malignant pleural effusion.\n  Facility RVU: 4.69\n  Facility Payment: $152\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n  \u2022 PleurX\n  \u2022 Ultrasound\n  \u2022 ultrasound\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nIPC:\n  - Action: Insertion\n  - Side: Right\n  - Catheter Brand: PleurX\n  - Indication: Malignant effusion\n  - Tunneled: True\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: 4.69\n  Total Facility Payment: $152.0\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "3496252",
+        "procedure_date": "2025-09-18",
+        "patient_age": 74,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "Recurrent malignant pleural effusion",
+        "sedation_type": "Local with sedation",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-10-17",
+          "primary_indication": "Recurrent right-sided malignant pleural effusion secondary to metastatic breast carcinoma",
+          "pleural_procedure_type": "PleurX catheter insertion with tunneling"
+        },
+        "institution_name": "Mercy General Hospital, Portland, OR",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "5th",
+        "pleural_fluid_appearance": "Bloody",
+        "pleural_volume_drained_ml": 1200,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Right",
+            "catheter_brand": "PleurX",
+            "indication": "Malignant effusion",
+            "tunneled": true
+          }
+        },
+        "providers": {
+          "attending_name": "Amanda Rodriguez",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902059"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) with subcutaneous tunneling for malignant pleural effusion."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for new IPC insertion with tunneling. Ultrasound guidance is inherent to 32550."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 1,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Margaret Gomez",
+      "patient_age": 77,
+      "patient_mrn": "5854956",
+      "procedure_date": "2025-01-12",
+      "note_text": "PROCEDURE NOTE\n\nDate: 2025-01-12\nPatient: Margaret Gomez\nMRN: 5854956\nAge/Sex: 77yo F\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nRecurrent malignant pleural effusion\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nLocal with sedation\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Ipc performed\n5. Scope withdrawn\n6. Patient recovered without complication\n\nSPECIMENS:\nPleural fluid to cytology, cell count, LDH, protein, glucose\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nOutpatient discharge\n\nCPT CODES: 32550\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "5854956",
+        "procedure_date": "2025-01-12",
+        "patient_age": 77,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "Recurrent malignant pleural effusion",
+        "sedation_type": "Local with sedation",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-10-17",
+          "primary_indication": "Recurrent right-sided malignant pleural effusion secondary to metastatic breast carcinoma",
+          "pleural_procedure_type": "PleurX catheter insertion with tunneling"
+        },
+        "institution_name": "Mercy General Hospital, Portland, OR",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "5th",
+        "pleural_fluid_appearance": "Bloody",
+        "pleural_volume_drained_ml": 1200,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Right",
+            "catheter_brand": "PleurX",
+            "indication": "Malignant effusion",
+            "tunneled": true
+          }
+        },
+        "providers": {
+          "attending_name": "Amanda Rodriguez",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902059"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) with subcutaneous tunneling for malignant pleural effusion."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for new IPC insertion with tunneling. Ultrasound guidance is inherent to 32550."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 1,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Brenda Li",
+      "patient_age": 69,
+      "patient_mrn": "3761472",
+      "procedure_date": "2025-11-16",
+      "note_text": "procedure note 2025-11-16 pt Brenda Li mrn 3761472\n\nindication recurrent malignant pleural effusion patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp ipc performed \n\ncomplication none ebl minimal patient tolerated well disposition Outpatient discharge \n\ncpt 32550\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "3761472",
+        "procedure_date": "2025-11-16",
+        "patient_age": 69,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "Recurrent malignant pleural effusion",
+        "sedation_type": "Local with sedation",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-10-17",
+          "primary_indication": "Recurrent right-sided malignant pleural effusion secondary to metastatic breast carcinoma",
+          "pleural_procedure_type": "PleurX catheter insertion with tunneling"
+        },
+        "institution_name": "Mercy General Hospital, Portland, OR",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "5th",
+        "pleural_fluid_appearance": "Bloody",
+        "pleural_volume_drained_ml": 1200,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Right",
+            "catheter_brand": "PleurX",
+            "indication": "Malignant effusion",
+            "tunneled": true
+          }
+        },
+        "providers": {
+          "attending_name": "Amanda Rodriguez",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902059"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) with subcutaneous tunneling for malignant pleural effusion."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for new IPC insertion with tunneling. Ultrasound guidance is inherent to 32550."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 1,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Amber Rivera",
+      "patient_age": 73,
+      "patient_mrn": "8982897",
+      "procedure_date": "2025-10-15",
+      "note_text": "Patient: Amber Rivera || MRN: 8982897 || DOB: 05/22/1952\nDate of Procedure: 2025-10-15 || Location: Mercy General Hospital, Portland, OR\nAttending: Dr. Amanda Rodriguez, MD, FCCP\n\nPREOPERATIVE DIAGNOSIS: Recurrent right-sided malignant pleural effusion secondary to metastatic breast carcinoma\n\nPOSTOPERATIVE DIAGNOSIS: Same\n\nPROCEDURE PERFORMED: Ultrasound-guided right-sided tunneled indwelling pleural catheter (PleurX) insertion\n\nINDICATION: 73-year-old female with metastatic breast cancer presenting with recurrent symptomatic right malignant pleural effusion requiring weekly thoracenteses. Decision made for tunneled pleural catheter for home drainage.\n\nINFORMED CONSENT: Procedure risks, benefits, and alternatives discussed. Patient understands and consents.\n\nWith the patient in left lateral decubitus position, timeout performed confirming right side. The right lateral chest wall was prepped and draped in sterile fashion. Ultrasound used to identify optimal insertion site in the 5th intercostal space, mid-axillary line. Pocket of fluid confirmed, pleural sliding absent confirming adhesions.\n\nLocal anesthesia with 1% lidocaine infiltrated along proposed tract and subcutaneous tunnel path. A 3cm incision was made at the insertion site. Using the tunneling trocar, a 10cm subcutaneous tunnel was created anteriorly ending approximately 5cm from the axilla. The PleurX catheter was drawn through the tunnel with the polyester cuff positioned 2cm from the exit site.\n\nThe pleural space was entered using Seldinger technique under real-time ultrasound guidance. The 15.5Fr PleurX catheter was advanced over the guidewire and positioned in the posterior pleural space. Good flow confirmed with drainage of 1,200mL of bloody, viscous fluid which was sent for cytology, cell count, and chemistry.\n\nThe catheter was secured with 2-0 silk suture at the exit site. Sterile dressing applied. Chest X-ray obtained showing catheter in good position with improved aeration of right lung base, no pneumothorax.\n\nSPECIMENS: Pleural fluid to cytology, cell count, LDH, protein, glucose\n\nCOMPLICATIONS: None\n\nESTIMATED BLOOD LOSS: Minimal (<10mL)\n\nDISPOSITION: Discharge home with PleurX drainage supplies and home health nursing arranged for drainage teaching and supervision.\n\nFOLLOW-UP: Return to clinic in 1 week for wound check and drainage log review.\n\nAmanda Rodriguez, MD, FCCP\nInterventional Pulmonology",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "8982897",
+        "procedure_date": "2025-10-15",
+        "patient_age": 73,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "Recurrent malignant pleural effusion",
+        "sedation_type": "Local with sedation",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-10-17",
+          "primary_indication": "Recurrent right-sided malignant pleural effusion secondary to metastatic breast carcinoma",
+          "pleural_procedure_type": "PleurX catheter insertion with tunneling"
+        },
+        "institution_name": "Mercy General Hospital, Portland, OR",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "5th",
+        "pleural_fluid_appearance": "Bloody",
+        "pleural_volume_drained_ml": 1200,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Right",
+            "catheter_brand": "PleurX",
+            "indication": "Malignant effusion",
+            "tunneled": true
+          }
+        },
+        "providers": {
+          "attending_name": "Amanda Rodriguez",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902059"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) with subcutaneous tunneling for malignant pleural effusion."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for new IPC insertion with tunneling. Ultrasound guidance is inherent to 32550."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 1,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Anna Nguyen",
+      "patient_age": 73,
+      "patient_mrn": "1243098",
+      "procedure_date": "2025-07-26",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Anna Nguyen\nMRN: 1243098\nDOB: 05/22/1952\nAge: 73\nDate: 2025-07-26\n\n[INDICATION]\nRecurrent malignant pleural effusion\n\n[ANESTHESIA]\nType: Local with sedation\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Ipc: Performed\n  \u2022 action: Insertion\n  \u2022 side: Right\n  \u2022 catheter brand: PleurX\n  \u2022 indication: Malignant effusion\n  \u2022 tunneled: Yes\n\n[FINDINGS]\nAssessment: Malignancy\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: Outpatient discharge\n\n[CODING]\nCPT: 32550\n",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "1243098",
+        "procedure_date": "2025-07-26",
+        "patient_age": 73,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "Recurrent malignant pleural effusion",
+        "sedation_type": "Local with sedation",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-10-17",
+          "primary_indication": "Recurrent right-sided malignant pleural effusion secondary to metastatic breast carcinoma",
+          "pleural_procedure_type": "PleurX catheter insertion with tunneling"
+        },
+        "institution_name": "Mercy General Hospital, Portland, OR",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "5th",
+        "pleural_fluid_appearance": "Bloody",
+        "pleural_volume_drained_ml": 1200,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Right",
+            "catheter_brand": "PleurX",
+            "indication": "Malignant effusion",
+            "tunneled": true
+          }
+        },
+        "providers": {
+          "attending_name": "Amanda Rodriguez",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902059"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) with subcutaneous tunneling for malignant pleural effusion."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for new IPC insertion with tunneling. Ultrasound guidance is inherent to 32550."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 1,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Michelle Gutierrez",
+      "patient_age": 77,
+      "patient_mrn": "7384937",
+      "procedure_date": "2025-01-12",
+      "note_text": "On 2025-01-12, Michelle Gutierrez, a 77-year-old female (MRN 7384937), underwent bronchoscopic evaluation for Recurrent malignant pleural effusion. The patient received Local with sedation and the procedure was performed in standard fashion. The procedure included ipc. \n\nOn examination, the airways were systematically inspected. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is malignancy. \n\nProcedural coding: 32550.",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "7384937",
+        "procedure_date": "2025-01-12",
+        "patient_age": 77,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "Recurrent malignant pleural effusion",
+        "sedation_type": "Local with sedation",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-10-17",
+          "primary_indication": "Recurrent right-sided malignant pleural effusion secondary to metastatic breast carcinoma",
+          "pleural_procedure_type": "PleurX catheter insertion with tunneling"
+        },
+        "institution_name": "Mercy General Hospital, Portland, OR",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "5th",
+        "pleural_fluid_appearance": "Bloody",
+        "pleural_volume_drained_ml": 1200,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Right",
+            "catheter_brand": "PleurX",
+            "indication": "Malignant effusion",
+            "tunneled": true
+          }
+        },
+        "providers": {
+          "attending_name": "Amanda Rodriguez",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902059"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) with subcutaneous tunneling for malignant pleural effusion."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for new IPC insertion with tunneling. Ultrasound guidance is inherent to 32550."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 1,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Charlotte Mitchell",
+      "patient_age": 71,
+      "patient_mrn": "7227303",
+      "procedure_date": "2024-08-27",
+      "note_text": "Patient: Charlotte Mitchell || MRN: 7227303 || DOB: 05/22/1953\nDate of Procedure: 2024-08-27 || Location: Mercy General Hospital, Portland, OR\nAttending: Dr. Amanda Rodriguez, MD, FCCP\n\nPREOPERATIVE DIAGNOSIS: Recurrent right-sided malignant pleural effusion secondary to metastatic breast carcinoma\n\nPOSTOPERATIVE DIAGNOSIS: Same\n\nPROCEDURE EXECUTED: Ultrasound-guided right-sided tunneled indwelling pleural catheter (PleurX) insertion\n\nINDICATION: 71-year-old female with metastatic breast cancer presenting with recurrent symptomatic right malignant pleural effusion requiring weekly thoracenteses. Decision made for tunneled pleural catheter for home drainage.\n\nINFORMED CONSENT: Procedure risks, benefits, and alternatives discussed. Patient understands and consents.\n\nPROCEDURE DETAILS:\nWith the patient in left lateral decubitus position, timeout executed confirming right side. The right lateral chest wall was prepped and draped in sterile fashion. Ultrasound used to identify optimal insertion site in the 5th intercostal space, mid-axillary line. Pocket of fluid established, pleural sliding absent confirming adhesions.\n\nLocal anesthesia with 1% lidocaine infiltrated along proposed tract and subcutaneous tunnel path. A 3cm incision was made at the insertion site. Using the tunneling trocar, a 10cm subcutaneous tunnel was created anteriorly ending approximately 5cm from the axilla. The PleurX catheter was drawn through the tunnel with the polyester cuff positioned 2cm from the exit site.\n\nThe pleural space was entered using Seldinger technique under real-time ultrasound guidance. The 15.5Fr PleurX catheter was passed over the guidewire and positioned in the posterior pleural space. Good flow established with drainage of 1,200mL of bloody, viscous fluid which was sent for cytology, cell count, and chemistry.\n\nThe catheter was secured with 2-0 silk suture at the exit site. Sterile dressing applied. Chest X-ray secured showing catheter in good position with improved aeration of right lung base, no pneumothorax.\n\nSPECIMENS: Pleural fluid to cytology, cell count, LDH, protein, glucose\n\nCOMPLICATIONS: None\n\nESTIMATED BLOOD LOSS: Minimal (<10mL)\n\nDISPOSITION: Discharge home with PleurX drainage supplies and home health nursing arranged for drainage teaching and supervision.\n\nFOLLOW-UP: Return to clinic in 1 week for wound check and drainage log review.\n\nAmanda Rodriguez, MD, FCCP\nInterventional Pulmonology",
+      "cpt_codes": [
+        32550
+      ],
+      "registry_entry": {
+        "patient_mrn": "7227303",
+        "procedure_date": "2024-08-27",
+        "patient_age": 71,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "Recurrent malignant pleural effusion",
+        "sedation_type": "Local with sedation",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          32550
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-10-17",
+          "primary_indication": "Recurrent right-sided malignant pleural effusion secondary to metastatic breast carcinoma",
+          "pleural_procedure_type": "PleurX catheter insertion with tunneling"
+        },
+        "institution_name": "Mercy General Hospital, Portland, OR",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Tunneled Catheter",
+        "pleural_guidance": "Ultrasound",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "5th",
+        "pleural_fluid_appearance": "Bloody",
+        "pleural_volume_drained_ml": 1200,
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "ipc": {
+            "performed": true,
+            "action": "Insertion",
+            "side": "Right",
+            "catheter_brand": "PleurX",
+            "indication": "Malignant effusion",
+            "tunneled": true
+          }
+        },
+        "providers": {
+          "attending_name": "Amanda Rodriguez",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902059"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32550",
+            "final_codes": [
+              "32550"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32550": "Insertion of tunneled indwelling pleural catheter (PleurX) with subcutaneous tunneling for malignant pleural effusion."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.69,
+            "facility_total_payment": 152.0,
+            "per_code": {
+              "32550": {
+                "facility_rvu": 4.69,
+                "facility_payment": 152
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Appropriate code for new IPC insertion with tunneling. Ultrasound guidance is inherent to 32550."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32550",
+              "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.92,
+          "practice_expense_rvu": 1.6,
+          "malpractice_rvu": 0.36,
+          "total_rvu": 5.88
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32550; total_work_rvu=3.92, total_rvu=5.88 (facility)."
+        ]
+      }
+    }
+  ]
+}

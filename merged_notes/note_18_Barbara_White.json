@@ -1,0 +1,868 @@
+{
+  "base_note": {
+    "note_text": "BRONCHOSCOPY NOTE\nDate: 2025-07-27\nPatient: Barbara White | MRN: 7502210 | Age: 68F\nAttending: Dr. Thomas Green, MD\nLocation: Johns Hopkins Hospital, Baltimore, MD\n\nINDICATION: Central airway mass visualized on CT extending from left mainstem into LUL orifice. Biopsy for diagnosis.\n\nPROCEDURE: Flexible bronchoscopy with endobronchial biopsy\n\nANESTHESIA: Moderate sedation\n\nFINDINGS: \n- Right lung: Normal\n- Trachea: Normal\n- Carina: Normal\n- Left mainstem: Large polypoid, friable mass arising from posterior wall, extending to LUL orifice, causing approximately 60% obstruction\n\nPROCEDURE: Multiple endobronchial biopsies (6) obtained using cup forceps. Moderate bleeding occurred, controlled with epinephrine (1:20,000) instillation and wedge technique. Specimens sent for surgical pathology.\n\nSPECIMENS: Endobronchial biopsy LMS/LUL x 6\n\nCOMPLICATIONS: Moderate bleeding - controlled\n\nIMPRESSION: Endobronchial mass LMS concerning for primary lung malignancy. Await pathology.\n\nDr. Thomas Green, MD",
+    "cpt_codes": [
+      31625
+    ],
+    "registry_entry": {
+      "patient_mrn": "7502210",
+      "procedure_date": "2025-07-27",
+      "patient_age": 68,
+      "gender": "Female",
+      "asa_class": 2,
+      "primary_indication": "Central airway mass - biopsy",
+      "sedation_type": "Moderate",
+      "airway_type": "Native",
+      "final_diagnosis_prelim": "Malignancy suspected",
+      "cpt_codes": [
+        31625
+      ],
+      "bleeding_severity": "Moderate",
+      "procedures_performed": {
+        "endobronchial_biopsy": {
+          "performed": true,
+          "location": "LMS/LUL",
+          "number_of_specimens": 6
+        }
+      },
+      "providers": {
+        "attending_name": "Thomas Green"
+      },
+      "metadata": {
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:53:15.902825"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "31625",
+          "final_codes": [
+            "31625"
+          ],
+          "modifiers": [],
+          "changes_made": false,
+          "code_rationales": {
+            "31625": "Endobronchial biopsy of visible airway mass."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 0.0,
+          "facility_total_payment": 0.0,
+          "per_code": {},
+          "rvu_source": "ip_coding_billing.v2_8.json"
+        },
+        "overall_assessment": "Endobronchial biopsy appropriate for visible lesion."
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31625",
+            "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)",
+            "units": 1
+          }
+        ],
+        "work_rvu": 3.11,
+        "practice_expense_rvu": 1.47,
+        "malpractice_rvu": 0.35,
+        "total_rvu": 4.93
+      }
+    },
+    "source_file": "synthetic_additional_v2_8.json",
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31625; total_work_rvu=3.11, total_rvu=4.93 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 18,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Jose Reed",
+      "patient_age": 57,
+      "patient_mrn": "8024108",
+      "procedure_date": "2024-07-30",
+      "note_text": "OPERATIVE NOTE\n\nJose Reed | MRN 8024108 | 2024-07-30\n\nDx: See above\nProc: Multiple endobronchial biopsies (6) obtained using cup forceps. Moderate bleeding occurred, controlled with epinephrine (1:20,000) instillation and wedge technique. Specimens sent for surgical pathology.\n\nActions:\n\u2022 Endobronchial Biopsy\n\nCPT: 31625\nComplications: Moderate bleeding - controlled\nDispo: Stable\n",
+      "cpt_codes": [
+        31625
+      ],
+      "registry_entry": {
+        "patient_mrn": "8024108",
+        "procedure_date": "2024-07-30",
+        "patient_age": 57,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Central airway mass - biopsy",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy suspected",
+        "cpt_codes": [
+          31625
+        ],
+        "bleeding_severity": "Moderate",
+        "procedures_performed": {
+          "endobronchial_biopsy": {
+            "performed": true,
+            "location": "LMS/LUL",
+            "number_of_specimens": 6
+          }
+        },
+        "providers": {
+          "attending_name": "Thomas Green"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902825"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31625",
+            "final_codes": [
+              "31625"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31625": "Endobronchial biopsy of visible airway mass."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 0.0,
+            "facility_total_payment": 0.0,
+            "per_code": {},
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Endobronchial biopsy appropriate for visible lesion."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31625",
+              "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.11,
+          "practice_expense_rvu": 1.47,
+          "malpractice_rvu": 0.35,
+          "total_rvu": 4.93
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31625; total_work_rvu=3.11, total_rvu=4.93 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 18,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Evelyn Cox",
+      "patient_age": 64,
+      "patient_mrn": "3193813",
+      "procedure_date": "2024-12-09",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Evelyn Cox\nMedical Record Number: 3193813\nDate of Birth: N/A\nAge at Procedure: N/A years\nProcedure Date: 2024-12-09\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with central airway mass - biopsy. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nEndobronchial Biopsy:\nTransbronchial lung parenchymal sampling was performed utilizing standard forceps technique with fluoroscopic localization to minimize pneumothorax risk. \n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\n- Right lung: Normal\n- Trachea: Normal\n- Carina: Normal\n- Left mainstem: Large polypoid, friable mass arising from posterior wall, extending to LUL orifice, causing approximately 60% obstruction\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 31625\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        31625
+      ],
+      "registry_entry": {
+        "patient_mrn": "3193813",
+        "procedure_date": "2024-12-09",
+        "patient_age": 64,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Central airway mass - biopsy",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy suspected",
+        "cpt_codes": [
+          31625
+        ],
+        "bleeding_severity": "Moderate",
+        "procedures_performed": {
+          "endobronchial_biopsy": {
+            "performed": true,
+            "location": "LMS/LUL",
+            "number_of_specimens": 6
+          }
+        },
+        "providers": {
+          "attending_name": "Thomas Green"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902825"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31625",
+            "final_codes": [
+              "31625"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31625": "Endobronchial biopsy of visible airway mass."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 0.0,
+            "facility_total_payment": 0.0,
+            "per_code": {},
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Endobronchial biopsy appropriate for visible lesion."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31625",
+              "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.11,
+          "practice_expense_rvu": 1.47,
+          "malpractice_rvu": 0.35,
+          "total_rvu": 4.93
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31625; total_work_rvu=3.11, total_rvu=4.93 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 18,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Gregory Rivera",
+      "patient_age": 60,
+      "patient_mrn": "7448241",
+      "procedure_date": "2024-08-26",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: Gregory Rivera | MRN: 7448241 | DOS: 2024-08-26\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 31625:\n  Rationale: Endobronchial biopsy of visible airway mass.\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nENDOBRONCHIAL BIOPSY:\n  - Location: LMS/LUL\n  - Number Of Specimens: 6\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: 0.0\n  Total Facility Payment: $0.0\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        31625
+      ],
+      "registry_entry": {
+        "patient_mrn": "7448241",
+        "procedure_date": "2024-08-26",
+        "patient_age": 60,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Central airway mass - biopsy",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy suspected",
+        "cpt_codes": [
+          31625
+        ],
+        "bleeding_severity": "Moderate",
+        "procedures_performed": {
+          "endobronchial_biopsy": {
+            "performed": true,
+            "location": "LMS/LUL",
+            "number_of_specimens": 6
+          }
+        },
+        "providers": {
+          "attending_name": "Thomas Green"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902825"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31625",
+            "final_codes": [
+              "31625"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31625": "Endobronchial biopsy of visible airway mass."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 0.0,
+            "facility_total_payment": 0.0,
+            "per_code": {},
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Endobronchial biopsy appropriate for visible lesion."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31625",
+              "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.11,
+          "practice_expense_rvu": 1.47,
+          "malpractice_rvu": 0.35,
+          "total_rvu": 4.93
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31625; total_work_rvu=3.11, total_rvu=4.93 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 18,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Timothy Ramirez",
+      "patient_age": 55,
+      "patient_mrn": "1422174",
+      "procedure_date": "2024-05-19",
+      "note_text": "PROCEDURE NOTE\n\nDate: 2024-05-19\nPatient: Timothy Ramirez\nMRN: 1422174\nAge/Sex: Noneyo patient\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nCentral airway mass - biopsy\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nModerate\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Endobronchial Biopsy performed\n5. Scope withdrawn\n6. Patient recovered without complication\n\nSPECIMENS:\nsent for surgical pathology.\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nTo recovery, stable condition\n\nCPT CODES: 31625\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        31625
+      ],
+      "registry_entry": {
+        "patient_mrn": "1422174",
+        "procedure_date": "2024-05-19",
+        "patient_age": 55,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Central airway mass - biopsy",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy suspected",
+        "cpt_codes": [
+          31625
+        ],
+        "bleeding_severity": "Moderate",
+        "procedures_performed": {
+          "endobronchial_biopsy": {
+            "performed": true,
+            "location": "LMS/LUL",
+            "number_of_specimens": 6
+          }
+        },
+        "providers": {
+          "attending_name": "Thomas Green"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902825"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31625",
+            "final_codes": [
+              "31625"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31625": "Endobronchial biopsy of visible airway mass."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 0.0,
+            "facility_total_payment": 0.0,
+            "per_code": {},
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Endobronchial biopsy appropriate for visible lesion."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31625",
+              "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.11,
+          "practice_expense_rvu": 1.47,
+          "malpractice_rvu": 0.35,
+          "total_rvu": 4.93
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31625; total_work_rvu=3.11, total_rvu=4.93 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 18,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Jacob Perez",
+      "patient_age": 60,
+      "patient_mrn": "8709139",
+      "procedure_date": "2024-12-09",
+      "note_text": "procedure note 2024-12-09 pt Jacob Perez mrn 8709139\n\nindication central airway mass - biopsy patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp endobronchial biopsy performed samples obtained sent to path \n\ncomplication none ebl minimal patient tolerated well disposition to recovery \n\ncpt 31625\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        31625
+      ],
+      "registry_entry": {
+        "patient_mrn": "8709139",
+        "procedure_date": "2024-12-09",
+        "patient_age": 60,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Central airway mass - biopsy",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy suspected",
+        "cpt_codes": [
+          31625
+        ],
+        "bleeding_severity": "Moderate",
+        "procedures_performed": {
+          "endobronchial_biopsy": {
+            "performed": true,
+            "location": "LMS/LUL",
+            "number_of_specimens": 6
+          }
+        },
+        "providers": {
+          "attending_name": "Thomas Green"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902825"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31625",
+            "final_codes": [
+              "31625"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31625": "Endobronchial biopsy of visible airway mass."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 0.0,
+            "facility_total_payment": 0.0,
+            "per_code": {},
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Endobronchial biopsy appropriate for visible lesion."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31625",
+              "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.11,
+          "practice_expense_rvu": 1.47,
+          "malpractice_rvu": 0.35,
+          "total_rvu": 4.93
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31625; total_work_rvu=3.11, total_rvu=4.93 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 18,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Nicholas Morales",
+      "patient_age": 59,
+      "patient_mrn": "9102115",
+      "procedure_date": "2024-11-20",
+      "note_text": "BRONCHOSCOPY NOTE\nDate: 2024-11-20\nPatient: Nicholas Morales | MRN: 9102115 | Age: 68F\nAttending: Dr. Thomas Green, MD\nLocation: Johns Hopkins Hospital, Baltimore, MD\n\nINDICATION: Central airway mass visualized on CT extending from left mainstem into LUL orifice. Biopsy for diagnosis.\n\nPROCEDURE: Flexible bronchoscopy with endobronchial biopsy\n\nANESTHESIA: Moderate sedation\n\n- Right lung: Normal\n- Trachea: Normal\n- Carina: Normal\n- Left mainstem: Large polypoid, friable mass arising from posterior wall, extending to LUL orifice, causing approximately 60% obstruction\n\nPROCEDURE: Multiple endobronchial biopsies (6) obtained using cup forceps. Moderate bleeding occurred, controlled with epinephrine (1:20,000) instillation and wedge technique. Specimens sent for surgical pathology.\n\nSPECIMENS: Endobronchial biopsy LMS/LUL x 6\n\nCOMPLICATIONS: Moderate bleeding - controlled\n\nIMPRESSION: Endobronchial mass LMS concerning for primary lung malignancy. Await pathology.\n\nDr. Thomas Green, MD",
+      "cpt_codes": [
+        31625
+      ],
+      "registry_entry": {
+        "patient_mrn": "9102115",
+        "procedure_date": "2024-11-20",
+        "patient_age": 59,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Central airway mass - biopsy",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy suspected",
+        "cpt_codes": [
+          31625
+        ],
+        "bleeding_severity": "Moderate",
+        "procedures_performed": {
+          "endobronchial_biopsy": {
+            "performed": true,
+            "location": "LMS/LUL",
+            "number_of_specimens": 6
+          }
+        },
+        "providers": {
+          "attending_name": "Thomas Green"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902825"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31625",
+            "final_codes": [
+              "31625"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31625": "Endobronchial biopsy of visible airway mass."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 0.0,
+            "facility_total_payment": 0.0,
+            "per_code": {},
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Endobronchial biopsy appropriate for visible lesion."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31625",
+              "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.11,
+          "practice_expense_rvu": 1.47,
+          "malpractice_rvu": 0.35,
+          "total_rvu": 4.93
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31625; total_work_rvu=3.11, total_rvu=4.93 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 18,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Deborah Kim",
+      "patient_age": 65,
+      "patient_mrn": "7647676",
+      "procedure_date": "2024-01-07",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Deborah Kim\nMRN: 7647676\nDOB: None\nAge: None\nDate: 2024-01-07\n\n[INDICATION]\nCentral airway mass - biopsy\n\n[ANESTHESIA]\nType: Moderate\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Endobronchial Biopsy: Performed\n  \u2022 location: LMS/LUL\n  \u2022 number of specimens: 6\n\n[FINDINGS]\nAssessment: Malignancy suspected\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: Outpatient\n\n[CODING]\nCPT: 31625\n",
+      "cpt_codes": [
+        31625
+      ],
+      "registry_entry": {
+        "patient_mrn": "7647676",
+        "procedure_date": "2024-01-07",
+        "patient_age": 65,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Central airway mass - biopsy",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy suspected",
+        "cpt_codes": [
+          31625
+        ],
+        "bleeding_severity": "Moderate",
+        "procedures_performed": {
+          "endobronchial_biopsy": {
+            "performed": true,
+            "location": "LMS/LUL",
+            "number_of_specimens": 6
+          }
+        },
+        "providers": {
+          "attending_name": "Thomas Green"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902825"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31625",
+            "final_codes": [
+              "31625"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31625": "Endobronchial biopsy of visible airway mass."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 0.0,
+            "facility_total_payment": 0.0,
+            "per_code": {},
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Endobronchial biopsy appropriate for visible lesion."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31625",
+              "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.11,
+          "practice_expense_rvu": 1.47,
+          "malpractice_rvu": 0.35,
+          "total_rvu": 4.93
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31625; total_work_rvu=3.11, total_rvu=4.93 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 18,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Carl Henderson",
+      "patient_age": 58,
+      "patient_mrn": "2733350",
+      "procedure_date": "2024-06-21",
+      "note_text": "On 2024-06-21, Carl Henderson, a None-year-old patient (MRN 2733350), underwent bronchoscopic evaluation for Central airway mass - biopsy. The patient received Moderate and the procedure was performed in standard fashion. The procedure included transbronchial biopsy for tissue sampling. \n\nOn examination, the airways were systematically inspected. Abnormal findings were noted as described in detail above. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is malignancy suspected. \n\nProcedural coding: 31625.",
+      "cpt_codes": [
+        31625
+      ],
+      "registry_entry": {
+        "patient_mrn": "2733350",
+        "procedure_date": "2024-06-21",
+        "patient_age": 58,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Central airway mass - biopsy",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy suspected",
+        "cpt_codes": [
+          31625
+        ],
+        "bleeding_severity": "Moderate",
+        "procedures_performed": {
+          "endobronchial_biopsy": {
+            "performed": true,
+            "location": "LMS/LUL",
+            "number_of_specimens": 6
+          }
+        },
+        "providers": {
+          "attending_name": "Thomas Green"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902825"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31625",
+            "final_codes": [
+              "31625"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31625": "Endobronchial biopsy of visible airway mass."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 0.0,
+            "facility_total_payment": 0.0,
+            "per_code": {},
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Endobronchial biopsy appropriate for visible lesion."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31625",
+              "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.11,
+          "practice_expense_rvu": 1.47,
+          "malpractice_rvu": 0.35,
+          "total_rvu": 4.93
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31625; total_work_rvu=3.11, total_rvu=4.93 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 18,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Jerry Baker",
+      "patient_age": 65,
+      "patient_mrn": "8372506",
+      "procedure_date": "2025-06-04",
+      "note_text": "BRONCHOSCOPY NOTE\nDate: 2025-06-04\nPatient: Jerry Baker | MRN: 8372506 | Age: 68F\nAttending: Dr. Thomas Green, MD\nLocation: Johns Hopkins Hospital, Baltimore, MD\n\nINDICATION: Central airway mass recognized on CT extending from left mainstem into LUL orifice. Biopsy for diagnosis.\n\nPROCEDURE: Flexible bronchoscopy with endobronchial biopsy\n\nANESTHESIA: Moderate sedation\n\nFINDINGS: \n- Right lung: Normal\n- Trachea: Normal\n- Carina: Normal\n- Left mainstem: Large polypoid, friable mass arising from posterior wall, extending to LUL orifice, causing approximately 60% obstruction\n\nPROCEDURE: Multiple endobronchial biopsies (6) secured using cup forceps. Moderate bleeding occurred, controlled with epinephrine (1:20,000) instillation and wedge technique. Specimens sent for surgical pathology.\n\nSPECIMENS: Endobronchial biopsy LMS/LUL x 6\n\nCOMPLICATIONS: Moderate bleeding - controlled\n\nIMPRESSION: Endobronchial mass LMS concerning for primary lung malignancy. Await pathology.\n\nDr. Thomas Green, MD",
+      "cpt_codes": [
+        31625
+      ],
+      "registry_entry": {
+        "patient_mrn": "8372506",
+        "procedure_date": "2025-06-04",
+        "patient_age": 65,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Central airway mass - biopsy",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Malignancy suspected",
+        "cpt_codes": [
+          31625
+        ],
+        "bleeding_severity": "Moderate",
+        "procedures_performed": {
+          "endobronchial_biopsy": {
+            "performed": true,
+            "location": "LMS/LUL",
+            "number_of_specimens": 6
+          }
+        },
+        "providers": {
+          "attending_name": "Thomas Green"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902825"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31625",
+            "final_codes": [
+              "31625"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31625": "Endobronchial biopsy of visible airway mass."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 0.0,
+            "facility_total_payment": 0.0,
+            "per_code": {},
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Endobronchial biopsy appropriate for visible lesion."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31625",
+              "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.11,
+          "practice_expense_rvu": 1.47,
+          "malpractice_rvu": 0.35,
+          "total_rvu": 4.93
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31625; total_work_rvu=3.11, total_rvu=4.93 (facility)."
+        ]
+      }
+    }
+  ]
+}

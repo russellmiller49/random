@@ -1,0 +1,1608 @@
+{
+  "base_note": {
+    "note_text": "BRONCHOSCOPY PROCEDURE NOTE\n\nDate: 2025-03-07\nPatient: Maria Garcia\nMRN: 5517703\nDOB: 07/22/1968 (56 years old)\n\nAttending Physician: Dr. Samuel Johnson, MD\nLocation: Community Medical Center, Denver, CO\n\nINDICATION: Diffuse bilateral reticular opacities on CT chest, clinical concern for hypersensitivity pneumonitis vs. idiopathic pulmonary fibrosis. Pulmonary function shows restrictive pattern with DLCO 52% predicted.\n\nPREOPERATIVE DIAGNOSIS: Interstitial lung disease, undefined\n\nPOSTOPERATIVE DIAGNOSIS: Same (pending pathology)\n\nPROCEDURE: \n1. Flexible bronchoscopy with bronchoalveolar lavage\n2. Fluoroscopic-guided transbronchial lung biopsy, right lower lobe\n3. Fluoroscopic-guided transbronchial lung biopsy, left lower lobe\n\nANESTHESIA: Moderate sedation (Midazolam 4mg, Fentanyl 100mcg)\n\nPROCEDURE DETAILS:\nFollowing IV sedation with continuous monitoring, flexible bronchoscope (Olympus BF-1TH190) advanced through the oropharynx. Vocal cords normal, trachea patent. All segmental bronchi visualized and appeared normal with no endobronchial lesions.\n\nAIRWAY INSPECTION: Complete inspection of airways to subsegmental level bilaterally. No mucosal abnormalities, masses, or obstruction.\n\nBAL: Performed in the right middle lobe (RB4) using 3 x 60mL aliquots of sterile saline. Return approximately 90mL of slightly cloudy fluid. Sent for cell count with differential, cultures (bacterial, fungal, AFB), and cytology.\n\nTRANSBRONCHIAL BIOPSIES:\nUsing fluoroscopic guidance (C-arm positioned for AP view), the bronchoscope was advanced into the right lower lobe basal segments. The forceps (2.0mm alligator-type) were advanced under fluoroscopic visualization, positioning the forceps approximately 1-2cm from the pleural surface. 6 transbronchial biopsies were obtained from RB9 and RB10.\n\nThe bronchoscope was then repositioned to the left lower lobe. Under fluoroscopy, 5 transbronchial biopsies were obtained from the left lower lobe (LB9-10), again positioning 1-2cm from the pleura.\n\nAfter biopsies, the biopsy sites were irrigated with cold saline. Bleeding was minimal and self-limited. Final bronchoscopic inspection showed no significant bleeding or airway abnormality.\n\nFLUOROSCOPY TIME: 2.3 minutes\nRADIATION DOSE: 38 mGy\u00b7cm\u00b2\n\nSPECIMENS:\n- BAL: Cytology, cell count with diff, bacterial/fungal/AFB culture\n- TBLB RLL (6 specimens): Surgical pathology\n- TBLB LLL (5 specimens): Surgical pathology\n\nCOMPLICATIONS: None. No pneumothorax on post-procedure CXR.\n\nEBL: <10mL\n\nDISPOSITION: Recovery in PACU x 2 hours. Post-procedure CXR negative for pneumothorax. Discharge home with standard bronchoscopy precautions.\n\nFOLLOW-UP: Return to clinic in 1 week for pathology results. If non-diagnostic, will discuss transbronchial cryobiopsy vs. surgical lung biopsy.\n\nSamuel Johnson, MD\nPulmonary & Critical Care Medicine",
+    "cpt_codes": [
+      31628,
+      31632,
+      31624
+    ],
+    "registry_entry": {
+      "patient_mrn": "5517703",
+      "procedure_date": "2025-03-07",
+      "patient_age": 56,
+      "gender": "Female",
+      "asa_class": 2,
+      "primary_indication": "Interstitial lung disease evaluation",
+      "sedation_type": "Moderate",
+      "airway_type": "Native",
+      "final_diagnosis_prelim": "ILD - pending",
+      "cpt_codes": [
+        31628,
+        31632,
+        31624
+      ],
+      "evidence": {
+        "procedure_date": "Date: 2025-03-07",
+        "primary_indication": "Diffuse bilateral reticular opacities - ILD workup",
+        "guidance": "Fluoroscopic guidance (conventional, no navigation system)",
+        "tblb_technique": "Standard forceps TBLB under fluoroscopy"
+      },
+      "institution_name": "Community Medical Center, Denver, CO",
+      "molecular_testing_requested": false,
+      "disposition": "Outpatient discharge",
+      "bleeding_severity": "Mild",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "bronch_guidance": "Fluoroscopy",
+      "bronch_location_lobe": [
+        "RLL",
+        "LLL"
+      ],
+      "bronch_num_tbbx": 11,
+      "bronch_tbbx_tool": "Alligator forceps",
+      "fluoro_time_min": 2.3,
+      "radiation_dap_gycm2": 0.038,
+      "procedures_performed": {
+        "transbronchial_biopsy": {
+          "performed": true,
+          "number_of_samples": 11,
+          "lobes_biopsied": [
+            "RLL",
+            "LLL"
+          ],
+          "forceps_type": "Alligator",
+          "guidance": "Fluoroscopy",
+          "navigation_used": false
+        },
+        "bal": {
+          "performed": true,
+          "location": "RML",
+          "volume_instilled_ml": 180,
+          "volume_returned_ml": 90
+        }
+      },
+      "clinical_context": {
+        "indication_category": "ILD Evaluation",
+        "radiographic_findings": "Bilateral reticular opacities",
+        "bronchus_sign": "Not assessed"
+      },
+      "providers": {
+        "attending_name": "Samuel Johnson",
+        "fellow_name": null,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": null
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:53:15.902273"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "31628",
+          "final_codes": [
+            "31628",
+            "31632",
+            "31624"
+          ],
+          "modifiers": [],
+          "changes_made": false,
+          "code_rationales": {
+            "31628": "Transbronchial lung biopsy, first lobe (RLL) - 6 specimens obtained under fluoroscopic guidance.",
+            "31632": "Transbronchial lung biopsy, additional lobe (LLL) - 5 specimens. Add-on code for second lobe.",
+            "31624": "Bronchoalveolar lavage performed in RML."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 11.83,
+          "facility_total_payment": 382.0,
+          "per_code": {
+            "31628": {
+              "facility_rvu": 5.38,
+              "facility_payment": 174
+            },
+            "31632": {
+              "facility_rvu": 2.21,
+              "facility_payment": 71
+            },
+            "31624": {
+              "facility_rvu": 4.24,
+              "facility_payment": 137
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_8.json"
+        },
+        "overall_assessment": "Standard fluoroscopic-guided TBLB without navigation platform. This is conventional TBLB, distinct from navigational bronchoscopy. No radial EBUS or navigation add-ons applicable."
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31628",
+            "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+            "units": 1
+          },
+          {
+            "code": "+31632",
+            "description": "Bronchoscopy; with transbronchial lung biopsy(s), each additional lobe (add-on)",
+            "units": 1
+          },
+          {
+            "code": "31624",
+            "description": "Bronchoscopy; with bronchoalveolar lavage",
+            "units": 1
+          }
+        ],
+        "work_rvu": 7.18,
+        "practice_expense_rvu": 3.33,
+        "malpractice_rvu": 0.8,
+        "total_rvu": 11.31
+      }
+    },
+    "source_file": "synthetic_tblb_v2_8.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.8",
+      "valid_codes": [
+        "31628",
+        "31632",
+        "31624"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, +31632, 31624; total_work_rvu=7.18, total_rvu=11.31 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 6,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Rebecca Morgan",
+      "patient_age": 59,
+      "patient_mrn": "6985370",
+      "procedure_date": "2024-12-11",
+      "note_text": "OPERATIVE NOTE\n\nRebecca Morgan | MRN 6985370 | 2024-12-11\n\nDx: PREOPERATIVE DIAGNOSIS: Interstitial lung disease, undefined\nProc: Interstitial lung disease evaluation\n\nActions:\n\u2022 Transbronchial Biopsy\n\u2022 Bal\n\nCPT: 31628, 31632, 31624\nComplications: None. No pneumothorax on post-procedure CXR.\nDispo: Pulmonary & Critical Care Medicine\n",
+      "cpt_codes": [
+        31628,
+        31632,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "6985370",
+        "procedure_date": "2024-12-11",
+        "patient_age": 59,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Interstitial lung disease evaluation",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "ILD - pending",
+        "cpt_codes": [
+          31628,
+          31632,
+          31624
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-03-07",
+          "primary_indication": "Diffuse bilateral reticular opacities - ILD workup",
+          "guidance": "Fluoroscopic guidance (conventional, no navigation system)",
+          "tblb_technique": "Standard forceps TBLB under fluoroscopy"
+        },
+        "institution_name": "Community Medical Center, Denver, CO",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "bronch_guidance": "Fluoroscopy",
+        "bronch_location_lobe": [
+          "RLL",
+          "LLL"
+        ],
+        "bronch_num_tbbx": 11,
+        "bronch_tbbx_tool": "Alligator forceps",
+        "fluoro_time_min": 2.3,
+        "radiation_dap_gycm2": 0.038,
+        "procedures_performed": {
+          "transbronchial_biopsy": {
+            "performed": true,
+            "number_of_samples": 11,
+            "lobes_biopsied": [
+              "RLL",
+              "LLL"
+            ],
+            "forceps_type": "Alligator",
+            "guidance": "Fluoroscopy",
+            "navigation_used": false
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 180,
+            "volume_returned_ml": 90
+          }
+        },
+        "clinical_context": {
+          "indication_category": "ILD Evaluation",
+          "radiographic_findings": "Bilateral reticular opacities",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Samuel Johnson",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902273"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31632",
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy, first lobe (RLL) - 6 specimens obtained under fluoroscopic guidance.",
+              "31632": "Transbronchial lung biopsy, additional lobe (LLL) - 5 specimens. Add-on code for second lobe.",
+              "31624": "Bronchoalveolar lavage performed in RML."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 11.83,
+            "facility_total_payment": 382.0,
+            "per_code": {
+              "31628": {
+                "facility_rvu": 5.38,
+                "facility_payment": 174
+              },
+              "31632": {
+                "facility_rvu": 2.21,
+                "facility_payment": 71
+              },
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Standard fluoroscopic-guided TBLB without navigation platform. This is conventional TBLB, distinct from navigational bronchoscopy. No radial EBUS or navigation add-ons applicable."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "+31632",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), each additional lobe (add-on)",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 7.18,
+          "practice_expense_rvu": 3.33,
+          "malpractice_rvu": 0.8,
+          "total_rvu": 11.31
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, +31632, 31624; total_work_rvu=7.18, total_rvu=11.31 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 6,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Anthony Gonzalez",
+      "patient_age": 55,
+      "patient_mrn": "4534202",
+      "procedure_date": "2024-01-24",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Anthony Gonzalez\nMedical Record Number: 4534202\nDate of Birth: 07/22/1969\nAge at Procedure: 55 years\nProcedure Date: 2024-01-24\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with interstitial lung disease evaluation. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nTransbronchial Biopsy:\nTransbronchial lung parenchymal sampling was performed utilizing standard forceps technique with fluoroscopic localization to minimize pneumothorax risk. \nBal:\nBronchoalveolar lavage was performed in standardized fashion with sequential aliquot instillation and aspiration to optimize cellular yield. \n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\nDetailed airway examination was performed with findings as documented in the procedural narrative.\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 31628, 31632, 31624\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        31628,
+        31632,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "4534202",
+        "procedure_date": "2024-01-24",
+        "patient_age": 55,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Interstitial lung disease evaluation",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "ILD - pending",
+        "cpt_codes": [
+          31628,
+          31632,
+          31624
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-03-07",
+          "primary_indication": "Diffuse bilateral reticular opacities - ILD workup",
+          "guidance": "Fluoroscopic guidance (conventional, no navigation system)",
+          "tblb_technique": "Standard forceps TBLB under fluoroscopy"
+        },
+        "institution_name": "Community Medical Center, Denver, CO",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "bronch_guidance": "Fluoroscopy",
+        "bronch_location_lobe": [
+          "RLL",
+          "LLL"
+        ],
+        "bronch_num_tbbx": 11,
+        "bronch_tbbx_tool": "Alligator forceps",
+        "fluoro_time_min": 2.3,
+        "radiation_dap_gycm2": 0.038,
+        "procedures_performed": {
+          "transbronchial_biopsy": {
+            "performed": true,
+            "number_of_samples": 11,
+            "lobes_biopsied": [
+              "RLL",
+              "LLL"
+            ],
+            "forceps_type": "Alligator",
+            "guidance": "Fluoroscopy",
+            "navigation_used": false
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 180,
+            "volume_returned_ml": 90
+          }
+        },
+        "clinical_context": {
+          "indication_category": "ILD Evaluation",
+          "radiographic_findings": "Bilateral reticular opacities",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Samuel Johnson",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902273"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31632",
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy, first lobe (RLL) - 6 specimens obtained under fluoroscopic guidance.",
+              "31632": "Transbronchial lung biopsy, additional lobe (LLL) - 5 specimens. Add-on code for second lobe.",
+              "31624": "Bronchoalveolar lavage performed in RML."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 11.83,
+            "facility_total_payment": 382.0,
+            "per_code": {
+              "31628": {
+                "facility_rvu": 5.38,
+                "facility_payment": 174
+              },
+              "31632": {
+                "facility_rvu": 2.21,
+                "facility_payment": 71
+              },
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Standard fluoroscopic-guided TBLB without navigation platform. This is conventional TBLB, distinct from navigational bronchoscopy. No radial EBUS or navigation add-ons applicable."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "+31632",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), each additional lobe (add-on)",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 7.18,
+          "practice_expense_rvu": 3.33,
+          "malpractice_rvu": 0.8,
+          "total_rvu": 11.31
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, +31632, 31624; total_work_rvu=7.18, total_rvu=11.31 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 6,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Alice Kim",
+      "patient_age": 52,
+      "patient_mrn": "1248176",
+      "procedure_date": "2024-09-18",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: Alice Kim | MRN: 1248176 | DOS: 2024-09-18\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 31628:\n  Rationale: Transbronchial lung biopsy, first lobe (RLL) - 6 specimens obtained under fluoroscopic guidance.\n  Facility RVU: 5.38\n  Facility Payment: $174\n\nCPT 31632:\n  Rationale: Transbronchial lung biopsy, additional lobe (LLL) - 5 specimens. Add-on code for second lobe.\n  Facility RVU: 2.21\n  Facility Payment: $71\n\nCPT 31624:\n  Rationale: Bronchoalveolar lavage performed in RML.\n  Facility RVU: 4.24\n  Facility Payment: $137\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n  \u2022 FLUOROSCOPY\n  \u2022 Fluoroscopic\n  \u2022 Olympus BF-1TH190\n  \u2022 fluoroscopic\n  \u2022 fluoroscopy\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nTRANSBRONCHIAL BIOPSY:\n  - Number Of Samples: 11\n  - Lobes Biopsied: ['RLL', 'LLL']\n  - Forceps Type: Alligator\n  - Guidance: Fluoroscopy\n  - Navigation Used: False\n\nBAL:\n  - Location: RML\n  - Volume Instilled Ml: 180\n  - Volume Returned Ml: 90\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: 11.83\n  Total Facility Payment: $382.0\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        31628,
+        31632,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "1248176",
+        "procedure_date": "2024-09-18",
+        "patient_age": 52,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Interstitial lung disease evaluation",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "ILD - pending",
+        "cpt_codes": [
+          31628,
+          31632,
+          31624
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-03-07",
+          "primary_indication": "Diffuse bilateral reticular opacities - ILD workup",
+          "guidance": "Fluoroscopic guidance (conventional, no navigation system)",
+          "tblb_technique": "Standard forceps TBLB under fluoroscopy"
+        },
+        "institution_name": "Community Medical Center, Denver, CO",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "bronch_guidance": "Fluoroscopy",
+        "bronch_location_lobe": [
+          "RLL",
+          "LLL"
+        ],
+        "bronch_num_tbbx": 11,
+        "bronch_tbbx_tool": "Alligator forceps",
+        "fluoro_time_min": 2.3,
+        "radiation_dap_gycm2": 0.038,
+        "procedures_performed": {
+          "transbronchial_biopsy": {
+            "performed": true,
+            "number_of_samples": 11,
+            "lobes_biopsied": [
+              "RLL",
+              "LLL"
+            ],
+            "forceps_type": "Alligator",
+            "guidance": "Fluoroscopy",
+            "navigation_used": false
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 180,
+            "volume_returned_ml": 90
+          }
+        },
+        "clinical_context": {
+          "indication_category": "ILD Evaluation",
+          "radiographic_findings": "Bilateral reticular opacities",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Samuel Johnson",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902273"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31632",
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy, first lobe (RLL) - 6 specimens obtained under fluoroscopic guidance.",
+              "31632": "Transbronchial lung biopsy, additional lobe (LLL) - 5 specimens. Add-on code for second lobe.",
+              "31624": "Bronchoalveolar lavage performed in RML."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 11.83,
+            "facility_total_payment": 382.0,
+            "per_code": {
+              "31628": {
+                "facility_rvu": 5.38,
+                "facility_payment": 174
+              },
+              "31632": {
+                "facility_rvu": 2.21,
+                "facility_payment": 71
+              },
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Standard fluoroscopic-guided TBLB without navigation platform. This is conventional TBLB, distinct from navigational bronchoscopy. No radial EBUS or navigation add-ons applicable."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "+31632",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), each additional lobe (add-on)",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 7.18,
+          "practice_expense_rvu": 3.33,
+          "malpractice_rvu": 0.8,
+          "total_rvu": 11.31
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, +31632, 31624; total_work_rvu=7.18, total_rvu=11.31 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 6,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Antonio Collins",
+      "patient_age": 61,
+      "patient_mrn": "9017140",
+      "procedure_date": "2024-03-20",
+      "note_text": "PROCEDURE NOTE\n\nDate: 2024-03-20\nPatient: Antonio Collins\nMRN: 9017140\nAge/Sex: 61yo patient\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nInterstitial lung disease evaluation\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nModerate\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Transbronchial Biopsy performed\n5. Bal performed\n6. Scope withdrawn\n7. Patient recovered without complication\n\nSPECIMENS:\n- BAL: Cytology, cell count with diff, bacterial/fungal/AFB culture\n- TBLB RLL (6 specimens): Surgical pathology\n- TBLB LLL (5 specimens): Surgical pathology\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nOutpatient discharge\n\nCPT CODES: 31628, 31632, 31624\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        31628,
+        31632,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "9017140",
+        "procedure_date": "2024-03-20",
+        "patient_age": 61,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Interstitial lung disease evaluation",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "ILD - pending",
+        "cpt_codes": [
+          31628,
+          31632,
+          31624
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-03-07",
+          "primary_indication": "Diffuse bilateral reticular opacities - ILD workup",
+          "guidance": "Fluoroscopic guidance (conventional, no navigation system)",
+          "tblb_technique": "Standard forceps TBLB under fluoroscopy"
+        },
+        "institution_name": "Community Medical Center, Denver, CO",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "bronch_guidance": "Fluoroscopy",
+        "bronch_location_lobe": [
+          "RLL",
+          "LLL"
+        ],
+        "bronch_num_tbbx": 11,
+        "bronch_tbbx_tool": "Alligator forceps",
+        "fluoro_time_min": 2.3,
+        "radiation_dap_gycm2": 0.038,
+        "procedures_performed": {
+          "transbronchial_biopsy": {
+            "performed": true,
+            "number_of_samples": 11,
+            "lobes_biopsied": [
+              "RLL",
+              "LLL"
+            ],
+            "forceps_type": "Alligator",
+            "guidance": "Fluoroscopy",
+            "navigation_used": false
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 180,
+            "volume_returned_ml": 90
+          }
+        },
+        "clinical_context": {
+          "indication_category": "ILD Evaluation",
+          "radiographic_findings": "Bilateral reticular opacities",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Samuel Johnson",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902273"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31632",
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy, first lobe (RLL) - 6 specimens obtained under fluoroscopic guidance.",
+              "31632": "Transbronchial lung biopsy, additional lobe (LLL) - 5 specimens. Add-on code for second lobe.",
+              "31624": "Bronchoalveolar lavage performed in RML."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 11.83,
+            "facility_total_payment": 382.0,
+            "per_code": {
+              "31628": {
+                "facility_rvu": 5.38,
+                "facility_payment": 174
+              },
+              "31632": {
+                "facility_rvu": 2.21,
+                "facility_payment": 71
+              },
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Standard fluoroscopic-guided TBLB without navigation platform. This is conventional TBLB, distinct from navigational bronchoscopy. No radial EBUS or navigation add-ons applicable."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "+31632",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), each additional lobe (add-on)",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 7.18,
+          "practice_expense_rvu": 3.33,
+          "malpractice_rvu": 0.8,
+          "total_rvu": 11.31
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, +31632, 31624; total_work_rvu=7.18, total_rvu=11.31 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 6,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Julie Hughes",
+      "patient_age": 53,
+      "patient_mrn": "1349165",
+      "procedure_date": "2024-04-21",
+      "note_text": "procedure note 2024-04-21 pt Julie Hughes mrn 1349165\n\nindication interstitial lung disease evaluation patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp transbronchial biopsy bal performed airways inspected all patent no masses samples obtained sent to path \n\ncomplication none ebl minimal patient tolerated well disposition Outpatient discharge \n\ncpt 31628 31632 31624\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        31628,
+        31632,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "1349165",
+        "procedure_date": "2024-04-21",
+        "patient_age": 53,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Interstitial lung disease evaluation",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "ILD - pending",
+        "cpt_codes": [
+          31628,
+          31632,
+          31624
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-03-07",
+          "primary_indication": "Diffuse bilateral reticular opacities - ILD workup",
+          "guidance": "Fluoroscopic guidance (conventional, no navigation system)",
+          "tblb_technique": "Standard forceps TBLB under fluoroscopy"
+        },
+        "institution_name": "Community Medical Center, Denver, CO",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "bronch_guidance": "Fluoroscopy",
+        "bronch_location_lobe": [
+          "RLL",
+          "LLL"
+        ],
+        "bronch_num_tbbx": 11,
+        "bronch_tbbx_tool": "Alligator forceps",
+        "fluoro_time_min": 2.3,
+        "radiation_dap_gycm2": 0.038,
+        "procedures_performed": {
+          "transbronchial_biopsy": {
+            "performed": true,
+            "number_of_samples": 11,
+            "lobes_biopsied": [
+              "RLL",
+              "LLL"
+            ],
+            "forceps_type": "Alligator",
+            "guidance": "Fluoroscopy",
+            "navigation_used": false
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 180,
+            "volume_returned_ml": 90
+          }
+        },
+        "clinical_context": {
+          "indication_category": "ILD Evaluation",
+          "radiographic_findings": "Bilateral reticular opacities",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Samuel Johnson",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902273"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31632",
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy, first lobe (RLL) - 6 specimens obtained under fluoroscopic guidance.",
+              "31632": "Transbronchial lung biopsy, additional lobe (LLL) - 5 specimens. Add-on code for second lobe.",
+              "31624": "Bronchoalveolar lavage performed in RML."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 11.83,
+            "facility_total_payment": 382.0,
+            "per_code": {
+              "31628": {
+                "facility_rvu": 5.38,
+                "facility_payment": 174
+              },
+              "31632": {
+                "facility_rvu": 2.21,
+                "facility_payment": 71
+              },
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Standard fluoroscopic-guided TBLB without navigation platform. This is conventional TBLB, distinct from navigational bronchoscopy. No radial EBUS or navigation add-ons applicable."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "+31632",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), each additional lobe (add-on)",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 7.18,
+          "practice_expense_rvu": 3.33,
+          "malpractice_rvu": 0.8,
+          "total_rvu": 11.31
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, +31632, 31624; total_work_rvu=7.18, total_rvu=11.31 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 6,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Isabella Bell",
+      "patient_age": 52,
+      "patient_mrn": "8487377",
+      "procedure_date": "2024-07-20",
+      "note_text": "BRONCHOSCOPY PROCEDURE NOTE\n\nDate: 2024-07-20\nPatient: Isabella Bell\nMRN: 8487377\nDOB: 07/22/1972 (52 years old)\n\nAttending Physician: Dr. Samuel Johnson, MD\nLocation: Community Medical Center, Denver, CO\n\nINDICATION: Diffuse bilateral reticular opacities on CT chest, clinical concern for hypersensitivity pneumonitis vs. idiopathic pulmonary fibrosis. Pulmonary function shows restrictive pattern with DLCO 52% predicted.\n\nPREOPERATIVE DIAGNOSIS: Interstitial lung disease, undefined\n\nPOSTOPERATIVE DIAGNOSIS: Same (pending pathology)\n\n1. Flexible bronchoscopy with bronchoalveolar lavage\n2. Fluoroscopic-guided transbronchial lung biopsy, right lower lobe\n3. Fluoroscopic-guided transbronchial lung biopsy, left lower lobe\n\nANESTHESIA: Moderate sedation (Midazolam 4mg, Fentanyl 100mcg)\n\nFollowing IV sedation with continuous monitoring, flexible bronchoscope (Olympus BF-1TH190) advanced through the oropharynx. Vocal cords normal, trachea patent. All segmental bronchi visualized and appeared normal with no endobronchial lesions.\n\nAIRWAY INSPECTION: Complete inspection of airways to subsegmental level bilaterally. No mucosal abnormalities, masses, or obstruction.\n\nBAL: Performed in the right middle lobe (RB4) using 3 x 60mL aliquots of sterile saline. Return approximately 90mL of slightly cloudy fluid. Sent for cell count with differential, cultures (bacterial, fungal, AFB), and cytology.\n\nUsing fluoroscopic guidance (C-arm positioned for AP view), the bronchoscope was advanced into the right lower lobe basal segments. The forceps (2.0mm alligator-type) were advanced under fluoroscopic visualization, positioning the forceps approximately 1-2cm from the pleural surface. 6 transbronchial biopsies were obtained from RB9 and RB10.\n\nThe bronchoscope was then repositioned to the left lower lobe. Under fluoroscopy, 5 transbronchial biopsies were obtained from the left lower lobe (LB9-10), again positioning 1-2cm from the pleura.\n\nAfter biopsies, the biopsy sites were irrigated with cold saline. Bleeding was minimal and self-limited. Final bronchoscopic inspection showed no significant bleeding or airway abnormality.\n\nFLUOROSCOPY TIME: 2.3 minutes\nRADIATION DOSE: 38 mGy\u00b7cm\u00b2\n\n- BAL: Cytology, cell count with diff, bacterial/fungal/AFB culture\n- TBLB RLL (6 specimens): Surgical pathology\n- TBLB LLL (5 specimens): Surgical pathology\n\nCOMPLICATIONS: None. No pneumothorax on post-procedure CXR.\n\nEBL: <10mL\n\nDISPOSITION: Recovery in PACU x 2 hours. Post-procedure CXR negative for pneumothorax. Discharge home with standard bronchoscopy precautions.\n\nFOLLOW-UP: Return to clinic in 1 week for pathology results. If non-diagnostic, will discuss transbronchial cryobiopsy vs. surgical lung biopsy.\n\nSamuel Johnson, MD\nPulmonary & Critical Care Medicine",
+      "cpt_codes": [
+        31628,
+        31632,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "8487377",
+        "procedure_date": "2024-07-20",
+        "patient_age": 52,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Interstitial lung disease evaluation",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "ILD - pending",
+        "cpt_codes": [
+          31628,
+          31632,
+          31624
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-03-07",
+          "primary_indication": "Diffuse bilateral reticular opacities - ILD workup",
+          "guidance": "Fluoroscopic guidance (conventional, no navigation system)",
+          "tblb_technique": "Standard forceps TBLB under fluoroscopy"
+        },
+        "institution_name": "Community Medical Center, Denver, CO",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "bronch_guidance": "Fluoroscopy",
+        "bronch_location_lobe": [
+          "RLL",
+          "LLL"
+        ],
+        "bronch_num_tbbx": 11,
+        "bronch_tbbx_tool": "Alligator forceps",
+        "fluoro_time_min": 2.3,
+        "radiation_dap_gycm2": 0.038,
+        "procedures_performed": {
+          "transbronchial_biopsy": {
+            "performed": true,
+            "number_of_samples": 11,
+            "lobes_biopsied": [
+              "RLL",
+              "LLL"
+            ],
+            "forceps_type": "Alligator",
+            "guidance": "Fluoroscopy",
+            "navigation_used": false
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 180,
+            "volume_returned_ml": 90
+          }
+        },
+        "clinical_context": {
+          "indication_category": "ILD Evaluation",
+          "radiographic_findings": "Bilateral reticular opacities",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Samuel Johnson",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902273"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31632",
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy, first lobe (RLL) - 6 specimens obtained under fluoroscopic guidance.",
+              "31632": "Transbronchial lung biopsy, additional lobe (LLL) - 5 specimens. Add-on code for second lobe.",
+              "31624": "Bronchoalveolar lavage performed in RML."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 11.83,
+            "facility_total_payment": 382.0,
+            "per_code": {
+              "31628": {
+                "facility_rvu": 5.38,
+                "facility_payment": 174
+              },
+              "31632": {
+                "facility_rvu": 2.21,
+                "facility_payment": 71
+              },
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Standard fluoroscopic-guided TBLB without navigation platform. This is conventional TBLB, distinct from navigational bronchoscopy. No radial EBUS or navigation add-ons applicable."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "+31632",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), each additional lobe (add-on)",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 7.18,
+          "practice_expense_rvu": 3.33,
+          "malpractice_rvu": 0.8,
+          "total_rvu": 11.31
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, +31632, 31624; total_work_rvu=7.18, total_rvu=11.31 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 6,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Diana Johnson",
+      "patient_age": 60,
+      "patient_mrn": "2557796",
+      "procedure_date": "2025-04-05",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Diana Johnson\nMRN: 2557796\nDOB: 07/22/1965\nAge: 60\nDate: 2025-04-05\n\n[INDICATION]\nInterstitial lung disease evaluation\n\n[ANESTHESIA]\nType: Moderate\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Transbronchial Biopsy: Performed\n  \u2022 number of samples: 11\n  \u2022 lobes biopsied: RLL, LLL\n  \u2022 forceps type: Alligator\n  \u2022 guidance: Fluoroscopy\n  \u2022 navigation used: No\n- Bal: Performed\n  \u2022 location: RML\n  \u2022 volume instilled ml: 180\n  \u2022 volume returned ml: 90\n\n[FINDINGS]\nAssessment: ILD - pending\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: Outpatient discharge\n\n[CODING]\nCPT: 31628, 31632, 31624\n",
+      "cpt_codes": [
+        31628,
+        31632,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "2557796",
+        "procedure_date": "2025-04-05",
+        "patient_age": 60,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Interstitial lung disease evaluation",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "ILD - pending",
+        "cpt_codes": [
+          31628,
+          31632,
+          31624
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-03-07",
+          "primary_indication": "Diffuse bilateral reticular opacities - ILD workup",
+          "guidance": "Fluoroscopic guidance (conventional, no navigation system)",
+          "tblb_technique": "Standard forceps TBLB under fluoroscopy"
+        },
+        "institution_name": "Community Medical Center, Denver, CO",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "bronch_guidance": "Fluoroscopy",
+        "bronch_location_lobe": [
+          "RLL",
+          "LLL"
+        ],
+        "bronch_num_tbbx": 11,
+        "bronch_tbbx_tool": "Alligator forceps",
+        "fluoro_time_min": 2.3,
+        "radiation_dap_gycm2": 0.038,
+        "procedures_performed": {
+          "transbronchial_biopsy": {
+            "performed": true,
+            "number_of_samples": 11,
+            "lobes_biopsied": [
+              "RLL",
+              "LLL"
+            ],
+            "forceps_type": "Alligator",
+            "guidance": "Fluoroscopy",
+            "navigation_used": false
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 180,
+            "volume_returned_ml": 90
+          }
+        },
+        "clinical_context": {
+          "indication_category": "ILD Evaluation",
+          "radiographic_findings": "Bilateral reticular opacities",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Samuel Johnson",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902273"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31632",
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy, first lobe (RLL) - 6 specimens obtained under fluoroscopic guidance.",
+              "31632": "Transbronchial lung biopsy, additional lobe (LLL) - 5 specimens. Add-on code for second lobe.",
+              "31624": "Bronchoalveolar lavage performed in RML."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 11.83,
+            "facility_total_payment": 382.0,
+            "per_code": {
+              "31628": {
+                "facility_rvu": 5.38,
+                "facility_payment": 174
+              },
+              "31632": {
+                "facility_rvu": 2.21,
+                "facility_payment": 71
+              },
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Standard fluoroscopic-guided TBLB without navigation platform. This is conventional TBLB, distinct from navigational bronchoscopy. No radial EBUS or navigation add-ons applicable."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "+31632",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), each additional lobe (add-on)",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 7.18,
+          "practice_expense_rvu": 3.33,
+          "malpractice_rvu": 0.8,
+          "total_rvu": 11.31
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, +31632, 31624; total_work_rvu=7.18, total_rvu=11.31 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 6,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Heather Taylor",
+      "patient_age": 61,
+      "patient_mrn": "6060797",
+      "procedure_date": "2025-03-30",
+      "note_text": "On 2025-03-30, Heather Taylor, a 61-year-old patient (MRN 6060797), underwent bronchoscopic evaluation for Interstitial lung disease evaluation. The patient received Moderate and the procedure was performed in standard fashion. The procedure included transbronchial biopsy for tissue sampling, and bronchoalveolar lavage for microbiological and cytological analysis. \n\nOn examination, the airways were systematically inspected. The visualized airways appeared patent without significant abnormality. Abnormal findings were noted as described in detail above. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is ild - pending. \n\nProcedural coding: 31628, 31632, 31624.",
+      "cpt_codes": [
+        31628,
+        31632,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "6060797",
+        "procedure_date": "2025-03-30",
+        "patient_age": 61,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Interstitial lung disease evaluation",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "ILD - pending",
+        "cpt_codes": [
+          31628,
+          31632,
+          31624
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-03-07",
+          "primary_indication": "Diffuse bilateral reticular opacities - ILD workup",
+          "guidance": "Fluoroscopic guidance (conventional, no navigation system)",
+          "tblb_technique": "Standard forceps TBLB under fluoroscopy"
+        },
+        "institution_name": "Community Medical Center, Denver, CO",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "bronch_guidance": "Fluoroscopy",
+        "bronch_location_lobe": [
+          "RLL",
+          "LLL"
+        ],
+        "bronch_num_tbbx": 11,
+        "bronch_tbbx_tool": "Alligator forceps",
+        "fluoro_time_min": 2.3,
+        "radiation_dap_gycm2": 0.038,
+        "procedures_performed": {
+          "transbronchial_biopsy": {
+            "performed": true,
+            "number_of_samples": 11,
+            "lobes_biopsied": [
+              "RLL",
+              "LLL"
+            ],
+            "forceps_type": "Alligator",
+            "guidance": "Fluoroscopy",
+            "navigation_used": false
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 180,
+            "volume_returned_ml": 90
+          }
+        },
+        "clinical_context": {
+          "indication_category": "ILD Evaluation",
+          "radiographic_findings": "Bilateral reticular opacities",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Samuel Johnson",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902273"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31632",
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy, first lobe (RLL) - 6 specimens obtained under fluoroscopic guidance.",
+              "31632": "Transbronchial lung biopsy, additional lobe (LLL) - 5 specimens. Add-on code for second lobe.",
+              "31624": "Bronchoalveolar lavage performed in RML."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 11.83,
+            "facility_total_payment": 382.0,
+            "per_code": {
+              "31628": {
+                "facility_rvu": 5.38,
+                "facility_payment": 174
+              },
+              "31632": {
+                "facility_rvu": 2.21,
+                "facility_payment": 71
+              },
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Standard fluoroscopic-guided TBLB without navigation platform. This is conventional TBLB, distinct from navigational bronchoscopy. No radial EBUS or navigation add-ons applicable."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "+31632",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), each additional lobe (add-on)",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 7.18,
+          "practice_expense_rvu": 3.33,
+          "malpractice_rvu": 0.8,
+          "total_rvu": 11.31
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, +31632, 31624; total_work_rvu=7.18, total_rvu=11.31 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 6,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Justin Nelson",
+      "patient_age": 54,
+      "patient_mrn": "6728785",
+      "procedure_date": "2025-01-20",
+      "note_text": "BRONCHOSCOPY PROCEDURE NOTE\n\nDate: 2025-01-20\nPatient: Justin Nelson\nMRN: 6728785\nDOB: 07/22/1971 (54 years old)\n\nAttending Physician: Dr. Samuel Johnson, MD\nLocation: Community Medical Center, Denver, CO\n\nINDICATION: Diffuse bilateral reticular opacities on CT chest, clinical concern for hypersensitivity pneumonitis vs. idiopathic pulmonary fibrosis. Pulmonary function shows restrictive pattern with DLCO 52% predicted.\n\nPREOPERATIVE DIAGNOSIS: Interstitial lung disease, undefined\n\nPOSTOPERATIVE DIAGNOSIS: Same (pending pathology)\n\nPROCEDURE: \n1. Flexible bronchoscopy with bronchoalveolar lavage\n2. Fluoroscopic-guided transbronchial lung biopsy, right lower lobe\n3. Fluoroscopic-guided transbronchial lung biopsy, left lower lobe\n\nANESTHESIA: Moderate sedation (Midazolam 4mg, Fentanyl 100mcg)\n\nPROCEDURE DETAILS:\nFollowing IV sedation with continuous monitoring, flexible bronchoscope (Olympus BF-1TH190) passed through the oropharynx. Vocal cords normal, trachea clear. All segmental bronchi examined and appeared normal with no endobronchial lesions.\n\nAIRWAY INSPECTION: Complete inspection of airways to subsegmental level bilaterally. No mucosal abnormalities, masses, or obstruction.\n\nBAL: Completed in the right middle lobe (RB4) using 3 x 60mL aliquots of sterile saline. Return approximately 90mL of slightly cloudy fluid. Sent for cell count with differential, cultures (bacterial, fungal, AFB), and cytology.\n\nTRANSBRONCHIAL BIOPSIES:\nUsing fluoroscopic guidance (C-arm positioned for AP view), the bronchoscope was passed into the right lower lobe basal segments. The forceps (2.0mm alligator-type) were passed under fluoroscopic visualization, positioning the forceps approximately 1-2cm from the pleural surface. 6 transbronchial biopsies were acquired from RB9 and RB10.\n\nThe bronchoscope was then repositioned to the left lower lobe. Under fluoroscopy, 5 transbronchial biopsies were acquired from the left lower lobe (LB9-10), again positioning 1-2cm from the pleura.\n\nAfter biopsies, the biopsy sites were irrigated with cold saline. Bleeding was minimal and self-limited. Final bronchoscopic inspection exhibited no significant bleeding or airway abnormality.\n\nFLUOROSCOPY TIME: 2.3 minutes\nRADIATION DOSE: 38 mGy\u00b7cm\u00b2\n\nSPECIMENS:\n- BAL: Cytology, cell count with diff, bacterial/fungal/AFB culture\n- TBLB RLL (6 specimens): Surgical pathology\n- TBLB LLL (5 specimens): Surgical pathology\n\nCOMPLICATIONS: None. No pneumothorax on post-procedure CXR.\n\nEBL: <10mL\n\nDISPOSITION: Recovery in PACU x 2 hours. Post-procedure CXR negative for pneumothorax. Discharge home with standard bronchoscopy precautions.\n\nFOLLOW-UP: Return to clinic in 1 week for pathology results. If non-diagnostic, will discuss transbronchial cryobiopsy vs. surgical lung biopsy.\n\nSamuel Johnson, MD\nPulmonary & Critical Care Medicine",
+      "cpt_codes": [
+        31628,
+        31632,
+        31624
+      ],
+      "registry_entry": {
+        "patient_mrn": "6728785",
+        "procedure_date": "2025-01-20",
+        "patient_age": 54,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Interstitial lung disease evaluation",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "ILD - pending",
+        "cpt_codes": [
+          31628,
+          31632,
+          31624
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-03-07",
+          "primary_indication": "Diffuse bilateral reticular opacities - ILD workup",
+          "guidance": "Fluoroscopic guidance (conventional, no navigation system)",
+          "tblb_technique": "Standard forceps TBLB under fluoroscopy"
+        },
+        "institution_name": "Community Medical Center, Denver, CO",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "bronch_guidance": "Fluoroscopy",
+        "bronch_location_lobe": [
+          "RLL",
+          "LLL"
+        ],
+        "bronch_num_tbbx": 11,
+        "bronch_tbbx_tool": "Alligator forceps",
+        "fluoro_time_min": 2.3,
+        "radiation_dap_gycm2": 0.038,
+        "procedures_performed": {
+          "transbronchial_biopsy": {
+            "performed": true,
+            "number_of_samples": 11,
+            "lobes_biopsied": [
+              "RLL",
+              "LLL"
+            ],
+            "forceps_type": "Alligator",
+            "guidance": "Fluoroscopy",
+            "navigation_used": false
+          },
+          "bal": {
+            "performed": true,
+            "location": "RML",
+            "volume_instilled_ml": 180,
+            "volume_returned_ml": 90
+          }
+        },
+        "clinical_context": {
+          "indication_category": "ILD Evaluation",
+          "radiographic_findings": "Bilateral reticular opacities",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Samuel Johnson",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902273"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31628",
+            "final_codes": [
+              "31628",
+              "31632",
+              "31624"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31628": "Transbronchial lung biopsy, first lobe (RLL) - 6 specimens obtained under fluoroscopic guidance.",
+              "31632": "Transbronchial lung biopsy, additional lobe (LLL) - 5 specimens. Add-on code for second lobe.",
+              "31624": "Bronchoalveolar lavage performed in RML."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 11.83,
+            "facility_total_payment": 382.0,
+            "per_code": {
+              "31628": {
+                "facility_rvu": 5.38,
+                "facility_payment": 174
+              },
+              "31632": {
+                "facility_rvu": 2.21,
+                "facility_payment": 71
+              },
+              "31624": {
+                "facility_rvu": 4.24,
+                "facility_payment": 137
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Standard fluoroscopic-guided TBLB without navigation platform. This is conventional TBLB, distinct from navigational bronchoscopy. No radial EBUS or navigation add-ons applicable."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1
+            },
+            {
+              "code": "+31632",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), each additional lobe (add-on)",
+              "units": 1
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1
+            }
+          ],
+          "work_rvu": 7.18,
+          "practice_expense_rvu": 3.33,
+          "malpractice_rvu": 0.8,
+          "total_rvu": 11.31
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31628, +31632, 31624; total_work_rvu=7.18, total_rvu=11.31 (facility)."
+        ]
+      }
+    }
+  ]
+}

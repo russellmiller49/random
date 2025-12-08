@@ -1,0 +1,1367 @@
+{
+  "base_note": {
+    "note_text": "BRONCHOSCOPY PROCEDURE NOTE\n\nPatient: Thomas Henderson\nMRN: 1005321\nDOB: 08/30/1978 (46 years old)\nDate: 2025-10-28\nLocation: University of Colorado Hospital, Aurora, CO\n\nAttending: Dr. Rachel Kim, MD\nFellow: Dr. Ahmed Hassan, MD (PGY-5)\n\nPREOPERATIVE DIAGNOSIS: Recurrent post-intubation tracheal stenosis\n\nPOSTOPERATIVE DIAGNOSIS: Same - Grade III tracheal stenosis, 8mm web-like\n\nPROCEDURE:\n1. Rigid bronchoscopy\n2. Balloon dilation of tracheal stenosis\n3. Biodegradable tracheal stent placement (BD-Stent, Merit Endotek)\n\nINDICATION: 46-year-old male with history of prolonged intubation (28 days) for ARDS secondary to COVID-19 in 2021. Developed tracheal stenosis requiring multiple dilations. Has failed 3 prior balloon dilations with recurrence within 4-6 weeks. After discussion of options including T-tube, surgical resection, and biodegradable stent, patient elected for biodegradable stent trial given relatively young age and desire to avoid permanent stent or surgery.\n\nANESTHESIA: Total intravenous anesthesia (propofol/remifentanil)\n\nPROCEDURE DETAILS:\nUnder TIVA, rigid bronchoscopy performed using 12mm Storz ventilating rigid bronchoscope. Airway anatomy:\n- Subglottic region: Normal\n- Tracheal stenosis: Located 2.5cm below vocal cords, approximately 8mm thick web-like stenosis narrowing the lumen to 5mm (Grade III, Myer-Cotton)\n- Distal trachea and bilateral mainstem: Normal\n\nBalloon dilation performed using 15mm x 40mm CRE balloon (Boston Scientific). Balloon inflated to 8 ATM x 60 seconds x 3 inflations with radial fracturing of the stenosis observed. Post-dilation diameter approximately 12mm.\n\nMerit Endotek BD-Stent (18mm diameter x 30mm length, polydioxanone-based) selected based on tracheal measurements. Stent delivery system advanced through the rigid bronchoscope and deployed under direct visualization with the proximal and distal markers positioned 1cm beyond the stenosis margins. Stent expanded fully to approximately 16mm. Confirmation of good apposition to tracheal wall.\n\nPost-procedure bronchoscopy confirmed patent airway through the stent with no evidence of stent migration. Mucosa intact with minimal bleeding from dilation site.\n\nSPECIMENS: None\n\nCOMPLICATIONS: None\n\nEBL: <5mL\n\nDISPOSITION: PACU recovery, discharge home same day with post-procedure instructions. No activity restrictions. Soft diet x 24 hours.\n\nFOLLOW-UP:\n- Bronchoscopy in 8 weeks for stent assessment\n- BD-Stent expected to degrade over 4-6 months\n- CT airway in 3 months\n\nDr. Rachel Kim, MD\nDr. Ahmed Hassan, MD",
+    "cpt_codes": [
+      31631,
+      31630
+    ],
+    "registry_entry": {
+      "patient_mrn": "1005321",
+      "procedure_date": "2025-10-28",
+      "patient_age": 46,
+      "gender": "Male",
+      "asa_class": 3,
+      "primary_indication": "Recurrent post-intubation tracheal stenosis",
+      "sedation_type": "General",
+      "airway_type": "Rigid",
+      "final_diagnosis_prelim": "Benign",
+      "cpt_codes": [
+        31631,
+        31630
+      ],
+      "evidence": {
+        "procedure_date": "Date: 2025-10-28",
+        "primary_indication": "Post-intubation tracheal stenosis - Grade III",
+        "stent_type": "Biodegradable (BD-Stent, Merit Endotek, polydioxanone)"
+      },
+      "institution_name": "University of Colorado Hospital, Aurora, CO",
+      "molecular_testing_requested": false,
+      "disposition": "Outpatient discharge",
+      "bleeding_severity": "Mild",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "procedures_performed": {
+        "airway_stent": {
+          "performed": true,
+          "action": "Placement",
+          "stent_type": "Other",
+          "stent_brand": "Merit Endotek BD-Stent (Biodegradable)",
+          "diameter_mm": 18,
+          "length_mm": 30,
+          "location": "Trachea",
+          "indication": "Benign stenosis",
+          "deployment_successful": true
+        },
+        "dilation": {
+          "performed": true,
+          "balloon_size_mm": 15,
+          "inflation_pressure_atm": 8,
+          "location": "Proximal trachea"
+        }
+      },
+      "stent_type": "Biodegradable",
+      "stent_deployment_method": "Direct",
+      "stent_diameter_mm": 18,
+      "stent_length_mm": 30,
+      "stent_location": "Trachea",
+      "cao_obstruction_pre_pct": 70,
+      "cao_obstruction_post_pct": 0,
+      "providers": {
+        "attending_name": "Rachel Kim",
+        "fellow_name": "Ahmed Hassan",
+        "fellow_pgy_level": 5,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": true
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:53:15.902147"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "31631",
+          "final_codes": [
+            "31631",
+            "31630"
+          ],
+          "modifiers": [],
+          "changes_made": false,
+          "code_rationales": {
+            "31631": "Tracheal stent placement (biodegradable BD-Stent) for recurrent post-intubation stenosis.",
+            "31630": "Balloon dilation of tracheal stenosis prior to stent placement at same session, distinct therapeutic maneuver. Modifier -59 may apply per NCCI guidance."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 6.94,
+          "facility_total_payment": 224.0,
+          "per_code": {
+            "31631": {
+              "facility_rvu": 6.94,
+              "facility_payment": 224
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_8.json"
+        },
+        "overall_assessment": "Biodegradable stent is coded same as other airway stents. Dilation at same site prior to stenting may be separately reportable per NCCI if documented as distinct procedure."
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31631",
+            "description": "Bronchoscopy; with placement of tracheal stent(s)",
+            "units": 1
+          },
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1
+          }
+        ],
+        "work_rvu": 8.17,
+        "practice_expense_rvu": 4.35,
+        "malpractice_rvu": 0.9,
+        "total_rvu": 13.42
+      }
+    },
+    "source_file": "synthetic_stent_v2_8.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.8",
+      "valid_codes": [
+        "31631",
+        "31630"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31631, 31630; total_work_rvu=8.17, total_rvu=13.42 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 4,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Roger Sanders",
+      "patient_age": 43,
+      "patient_mrn": "2638658",
+      "procedure_date": "2024-04-16",
+      "note_text": "OPERATIVE NOTE\n\nRoger Sanders | MRN 2638658 | 2024-04-16\n\nDx: ANESTHESIA: Total intravenous anesthesia (propofol/remifentanil)\nProc: Recurrent post-intubation tracheal stenosis\n\nActions:\n\u2022 Airway Stent\n\u2022 Dilation\n\nCPT: 31631, 31630\nComplications: None\nDispo: Dr. Ahmed Hassan, MD\n",
+      "cpt_codes": [
+        31631,
+        31630
+      ],
+      "registry_entry": {
+        "patient_mrn": "2638658",
+        "procedure_date": "2024-04-16",
+        "patient_age": 43,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Recurrent post-intubation tracheal stenosis",
+        "sedation_type": "General",
+        "airway_type": "Rigid",
+        "final_diagnosis_prelim": "Benign",
+        "cpt_codes": [
+          31631,
+          31630
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-10-28",
+          "primary_indication": "Post-intubation tracheal stenosis - Grade III",
+          "stent_type": "Biodegradable (BD-Stent, Merit Endotek, polydioxanone)"
+        },
+        "institution_name": "University of Colorado Hospital, Aurora, CO",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "procedures_performed": {
+          "airway_stent": {
+            "performed": true,
+            "action": "Placement",
+            "stent_type": "Other",
+            "stent_brand": "Merit Endotek BD-Stent (Biodegradable)",
+            "diameter_mm": 18,
+            "length_mm": 30,
+            "location": "Trachea",
+            "indication": "Benign stenosis",
+            "deployment_successful": true
+          },
+          "dilation": {
+            "performed": true,
+            "balloon_size_mm": 15,
+            "inflation_pressure_atm": 8,
+            "location": "Proximal trachea"
+          }
+        },
+        "stent_type": "Biodegradable",
+        "stent_deployment_method": "Direct",
+        "stent_diameter_mm": 18,
+        "stent_length_mm": 30,
+        "stent_location": "Trachea",
+        "cao_obstruction_pre_pct": 70,
+        "cao_obstruction_post_pct": 0,
+        "providers": {
+          "attending_name": "Rachel Kim",
+          "fellow_name": "Ahmed Hassan",
+          "fellow_pgy_level": 5,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902147"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31631",
+            "final_codes": [
+              "31631",
+              "31630"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31631": "Tracheal stent placement (biodegradable BD-Stent) for recurrent post-intubation stenosis.",
+              "31630": "Balloon dilation of tracheal stenosis prior to stent placement at same session, distinct therapeutic maneuver. Modifier -59 may apply per NCCI guidance."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 6.94,
+            "facility_total_payment": 224.0,
+            "per_code": {
+              "31631": {
+                "facility_rvu": 6.94,
+                "facility_payment": 224
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Biodegradable stent is coded same as other airway stents. Dilation at same site prior to stenting may be separately reportable per NCCI if documented as distinct procedure."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31631",
+              "description": "Bronchoscopy; with placement of tracheal stent(s)",
+              "units": 1
+            },
+            {
+              "code": "31630",
+              "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+              "units": 1
+            }
+          ],
+          "work_rvu": 8.17,
+          "practice_expense_rvu": 4.35,
+          "malpractice_rvu": 0.9,
+          "total_rvu": 13.42
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31631, 31630; total_work_rvu=8.17, total_rvu=13.42 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 4,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Jesse Brown",
+      "patient_age": 51,
+      "patient_mrn": "6272942",
+      "procedure_date": "2024-05-10",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Jesse Brown\nMedical Record Number: 6272942\nDate of Birth: 08/30/1973\nAge at Procedure: 51 years\nProcedure Date: 2024-05-10\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with recurrent post-intubation tracheal stenosis. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nAirway Stent:\nAirway stent deployment was executed with fluoroscopic and bronchoscopic guidance to ensure optimal positioning and mucosal apposition. \nDilation:\n\n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\nDetailed airway examination was performed with findings as documented in the procedural narrative.\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 31631, 31630\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        31631,
+        31630
+      ],
+      "registry_entry": {
+        "patient_mrn": "6272942",
+        "procedure_date": "2024-05-10",
+        "patient_age": 51,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Recurrent post-intubation tracheal stenosis",
+        "sedation_type": "General",
+        "airway_type": "Rigid",
+        "final_diagnosis_prelim": "Benign",
+        "cpt_codes": [
+          31631,
+          31630
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-10-28",
+          "primary_indication": "Post-intubation tracheal stenosis - Grade III",
+          "stent_type": "Biodegradable (BD-Stent, Merit Endotek, polydioxanone)"
+        },
+        "institution_name": "University of Colorado Hospital, Aurora, CO",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "procedures_performed": {
+          "airway_stent": {
+            "performed": true,
+            "action": "Placement",
+            "stent_type": "Other",
+            "stent_brand": "Merit Endotek BD-Stent (Biodegradable)",
+            "diameter_mm": 18,
+            "length_mm": 30,
+            "location": "Trachea",
+            "indication": "Benign stenosis",
+            "deployment_successful": true
+          },
+          "dilation": {
+            "performed": true,
+            "balloon_size_mm": 15,
+            "inflation_pressure_atm": 8,
+            "location": "Proximal trachea"
+          }
+        },
+        "stent_type": "Biodegradable",
+        "stent_deployment_method": "Direct",
+        "stent_diameter_mm": 18,
+        "stent_length_mm": 30,
+        "stent_location": "Trachea",
+        "cao_obstruction_pre_pct": 70,
+        "cao_obstruction_post_pct": 0,
+        "providers": {
+          "attending_name": "Rachel Kim",
+          "fellow_name": "Ahmed Hassan",
+          "fellow_pgy_level": 5,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902147"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31631",
+            "final_codes": [
+              "31631",
+              "31630"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31631": "Tracheal stent placement (biodegradable BD-Stent) for recurrent post-intubation stenosis.",
+              "31630": "Balloon dilation of tracheal stenosis prior to stent placement at same session, distinct therapeutic maneuver. Modifier -59 may apply per NCCI guidance."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 6.94,
+            "facility_total_payment": 224.0,
+            "per_code": {
+              "31631": {
+                "facility_rvu": 6.94,
+                "facility_payment": 224
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Biodegradable stent is coded same as other airway stents. Dilation at same site prior to stenting may be separately reportable per NCCI if documented as distinct procedure."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31631",
+              "description": "Bronchoscopy; with placement of tracheal stent(s)",
+              "units": 1
+            },
+            {
+              "code": "31630",
+              "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+              "units": 1
+            }
+          ],
+          "work_rvu": 8.17,
+          "practice_expense_rvu": 4.35,
+          "malpractice_rvu": 0.9,
+          "total_rvu": 13.42
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31631, 31630; total_work_rvu=8.17, total_rvu=13.42 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 4,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Wayne Ortiz",
+      "patient_age": 50,
+      "patient_mrn": "1870544",
+      "procedure_date": "2025-09-04",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: Wayne Ortiz | MRN: 1870544 | DOS: 2025-09-04\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 31631:\n  Rationale: Tracheal stent placement (biodegradable BD-Stent) for recurrent post-intubation stenosis.\n  Facility RVU: 6.94\n  Facility Payment: $224\n\nCPT 31630:\n  Rationale: Balloon dilation of tracheal stenosis prior to stent placement at same session, distinct therapeutic maneuver. Modifier -59 may apply per NCCI guidance.\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n  \u2022 Balloon dilation\n  \u2022 balloon dilations\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nAIRWAY STENT:\n  - Action: Placement\n  - Stent Type: Other\n  - Stent Brand: Merit Endotek BD-Stent (Biodegradable)\n  - Diameter Mm: 18\n  - Length Mm: 30\n  - Location: Trachea\n  - Indication: Benign stenosis\n  - Deployment Successful: True\n\nDILATION:\n  - Balloon Size Mm: 15\n  - Inflation Pressure Atm: 8\n  - Location: Proximal trachea\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: 6.94\n  Total Facility Payment: $224.0\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        31631,
+        31630
+      ],
+      "registry_entry": {
+        "patient_mrn": "1870544",
+        "procedure_date": "2025-09-04",
+        "patient_age": 50,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Recurrent post-intubation tracheal stenosis",
+        "sedation_type": "General",
+        "airway_type": "Rigid",
+        "final_diagnosis_prelim": "Benign",
+        "cpt_codes": [
+          31631,
+          31630
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-10-28",
+          "primary_indication": "Post-intubation tracheal stenosis - Grade III",
+          "stent_type": "Biodegradable (BD-Stent, Merit Endotek, polydioxanone)"
+        },
+        "institution_name": "University of Colorado Hospital, Aurora, CO",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "procedures_performed": {
+          "airway_stent": {
+            "performed": true,
+            "action": "Placement",
+            "stent_type": "Other",
+            "stent_brand": "Merit Endotek BD-Stent (Biodegradable)",
+            "diameter_mm": 18,
+            "length_mm": 30,
+            "location": "Trachea",
+            "indication": "Benign stenosis",
+            "deployment_successful": true
+          },
+          "dilation": {
+            "performed": true,
+            "balloon_size_mm": 15,
+            "inflation_pressure_atm": 8,
+            "location": "Proximal trachea"
+          }
+        },
+        "stent_type": "Biodegradable",
+        "stent_deployment_method": "Direct",
+        "stent_diameter_mm": 18,
+        "stent_length_mm": 30,
+        "stent_location": "Trachea",
+        "cao_obstruction_pre_pct": 70,
+        "cao_obstruction_post_pct": 0,
+        "providers": {
+          "attending_name": "Rachel Kim",
+          "fellow_name": "Ahmed Hassan",
+          "fellow_pgy_level": 5,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902147"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31631",
+            "final_codes": [
+              "31631",
+              "31630"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31631": "Tracheal stent placement (biodegradable BD-Stent) for recurrent post-intubation stenosis.",
+              "31630": "Balloon dilation of tracheal stenosis prior to stent placement at same session, distinct therapeutic maneuver. Modifier -59 may apply per NCCI guidance."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 6.94,
+            "facility_total_payment": 224.0,
+            "per_code": {
+              "31631": {
+                "facility_rvu": 6.94,
+                "facility_payment": 224
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Biodegradable stent is coded same as other airway stents. Dilation at same site prior to stenting may be separately reportable per NCCI if documented as distinct procedure."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31631",
+              "description": "Bronchoscopy; with placement of tracheal stent(s)",
+              "units": 1
+            },
+            {
+              "code": "31630",
+              "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+              "units": 1
+            }
+          ],
+          "work_rvu": 8.17,
+          "practice_expense_rvu": 4.35,
+          "malpractice_rvu": 0.9,
+          "total_rvu": 13.42
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31631, 31630; total_work_rvu=8.17, total_rvu=13.42 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 4,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Joseph Green",
+      "patient_age": 45,
+      "patient_mrn": "8898264",
+      "procedure_date": "2025-11-27",
+      "note_text": "PROCEDURE NOTE\n\nDate: 2025-11-27\nPatient: Joseph Green\nMRN: 8898264\nAge/Sex: 45yo M\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nRecurrent post-intubation tracheal stenosis\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nGeneral\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Airway Stent performed\n5. Dilation performed\n6. Scope withdrawn\n7. Patient recovered without complication\n\nSPECIMENS:\nNone\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nOutpatient discharge\n\nCPT CODES: 31631, 31630\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        31631,
+        31630
+      ],
+      "registry_entry": {
+        "patient_mrn": "8898264",
+        "procedure_date": "2025-11-27",
+        "patient_age": 45,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Recurrent post-intubation tracheal stenosis",
+        "sedation_type": "General",
+        "airway_type": "Rigid",
+        "final_diagnosis_prelim": "Benign",
+        "cpt_codes": [
+          31631,
+          31630
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-10-28",
+          "primary_indication": "Post-intubation tracheal stenosis - Grade III",
+          "stent_type": "Biodegradable (BD-Stent, Merit Endotek, polydioxanone)"
+        },
+        "institution_name": "University of Colorado Hospital, Aurora, CO",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "procedures_performed": {
+          "airway_stent": {
+            "performed": true,
+            "action": "Placement",
+            "stent_type": "Other",
+            "stent_brand": "Merit Endotek BD-Stent (Biodegradable)",
+            "diameter_mm": 18,
+            "length_mm": 30,
+            "location": "Trachea",
+            "indication": "Benign stenosis",
+            "deployment_successful": true
+          },
+          "dilation": {
+            "performed": true,
+            "balloon_size_mm": 15,
+            "inflation_pressure_atm": 8,
+            "location": "Proximal trachea"
+          }
+        },
+        "stent_type": "Biodegradable",
+        "stent_deployment_method": "Direct",
+        "stent_diameter_mm": 18,
+        "stent_length_mm": 30,
+        "stent_location": "Trachea",
+        "cao_obstruction_pre_pct": 70,
+        "cao_obstruction_post_pct": 0,
+        "providers": {
+          "attending_name": "Rachel Kim",
+          "fellow_name": "Ahmed Hassan",
+          "fellow_pgy_level": 5,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902147"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31631",
+            "final_codes": [
+              "31631",
+              "31630"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31631": "Tracheal stent placement (biodegradable BD-Stent) for recurrent post-intubation stenosis.",
+              "31630": "Balloon dilation of tracheal stenosis prior to stent placement at same session, distinct therapeutic maneuver. Modifier -59 may apply per NCCI guidance."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 6.94,
+            "facility_total_payment": 224.0,
+            "per_code": {
+              "31631": {
+                "facility_rvu": 6.94,
+                "facility_payment": 224
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Biodegradable stent is coded same as other airway stents. Dilation at same site prior to stenting may be separately reportable per NCCI if documented as distinct procedure."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31631",
+              "description": "Bronchoscopy; with placement of tracheal stent(s)",
+              "units": 1
+            },
+            {
+              "code": "31630",
+              "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+              "units": 1
+            }
+          ],
+          "work_rvu": 8.17,
+          "practice_expense_rvu": 4.35,
+          "malpractice_rvu": 0.9,
+          "total_rvu": 13.42
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31631, 31630; total_work_rvu=8.17, total_rvu=13.42 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 4,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Larry Reed",
+      "patient_age": 42,
+      "patient_mrn": "1764376",
+      "procedure_date": "2025-06-01",
+      "note_text": "procedure note 2025-06-01 pt Larry Reed mrn 1764376\n\nindication recurrent post-intubation tracheal stenosis patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp airway stent dilation performed airways inspected all patent no masses stent placed good position confirmed on fluoro \n\ncomplication none ebl minimal patient tolerated well disposition Outpatient discharge \n\ncpt 31631 31630\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        31631,
+        31630
+      ],
+      "registry_entry": {
+        "patient_mrn": "1764376",
+        "procedure_date": "2025-06-01",
+        "patient_age": 42,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Recurrent post-intubation tracheal stenosis",
+        "sedation_type": "General",
+        "airway_type": "Rigid",
+        "final_diagnosis_prelim": "Benign",
+        "cpt_codes": [
+          31631,
+          31630
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-10-28",
+          "primary_indication": "Post-intubation tracheal stenosis - Grade III",
+          "stent_type": "Biodegradable (BD-Stent, Merit Endotek, polydioxanone)"
+        },
+        "institution_name": "University of Colorado Hospital, Aurora, CO",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "procedures_performed": {
+          "airway_stent": {
+            "performed": true,
+            "action": "Placement",
+            "stent_type": "Other",
+            "stent_brand": "Merit Endotek BD-Stent (Biodegradable)",
+            "diameter_mm": 18,
+            "length_mm": 30,
+            "location": "Trachea",
+            "indication": "Benign stenosis",
+            "deployment_successful": true
+          },
+          "dilation": {
+            "performed": true,
+            "balloon_size_mm": 15,
+            "inflation_pressure_atm": 8,
+            "location": "Proximal trachea"
+          }
+        },
+        "stent_type": "Biodegradable",
+        "stent_deployment_method": "Direct",
+        "stent_diameter_mm": 18,
+        "stent_length_mm": 30,
+        "stent_location": "Trachea",
+        "cao_obstruction_pre_pct": 70,
+        "cao_obstruction_post_pct": 0,
+        "providers": {
+          "attending_name": "Rachel Kim",
+          "fellow_name": "Ahmed Hassan",
+          "fellow_pgy_level": 5,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902147"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31631",
+            "final_codes": [
+              "31631",
+              "31630"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31631": "Tracheal stent placement (biodegradable BD-Stent) for recurrent post-intubation stenosis.",
+              "31630": "Balloon dilation of tracheal stenosis prior to stent placement at same session, distinct therapeutic maneuver. Modifier -59 may apply per NCCI guidance."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 6.94,
+            "facility_total_payment": 224.0,
+            "per_code": {
+              "31631": {
+                "facility_rvu": 6.94,
+                "facility_payment": 224
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Biodegradable stent is coded same as other airway stents. Dilation at same site prior to stenting may be separately reportable per NCCI if documented as distinct procedure."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31631",
+              "description": "Bronchoscopy; with placement of tracheal stent(s)",
+              "units": 1
+            },
+            {
+              "code": "31630",
+              "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+              "units": 1
+            }
+          ],
+          "work_rvu": 8.17,
+          "practice_expense_rvu": 4.35,
+          "malpractice_rvu": 0.9,
+          "total_rvu": 13.42
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31631, 31630; total_work_rvu=8.17, total_rvu=13.42 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 4,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Miguel Perez",
+      "patient_age": 44,
+      "patient_mrn": "6391046",
+      "procedure_date": "2025-06-17",
+      "note_text": "BRONCHOSCOPY PROCEDURE NOTE\n\nPatient: Miguel Perez\nMRN: 6391046\nDOB: 08/30/1981 (44 years old)\nDate: 2025-06-17\nLocation: University of Colorado Hospital, Aurora, CO\n\nAttending: Dr. Rachel Kim, MD\nFellow: Dr. Ahmed Hassan, MD (PGY-5)\n\nPREOPERATIVE DIAGNOSIS: Recurrent post-intubation tracheal stenosis\n\nPOSTOPERATIVE DIAGNOSIS: Same - Grade III tracheal stenosis, 8mm web-like\n\n1. Rigid bronchoscopy\n2. Balloon dilation of tracheal stenosis\n3. Biodegradable tracheal stent placement (BD-Stent, Merit Endotek)\n\nINDICATION: 44-year-old male with history of prolonged intubation (28 days) for ARDS secondary to COVID-19 in 2021. Developed tracheal stenosis requiring multiple dilations. Has failed 3 prior balloon dilations with recurrence within 4-6 weeks. After discussion of options including T-tube, surgical resection, and biodegradable stent, patient elected for biodegradable stent trial given relatively young age and desire to avoid permanent stent or surgery.\n\nANESTHESIA: Total intravenous anesthesia (propofol/remifentanil)\n\nUnder TIVA, rigid bronchoscopy performed using 12mm Storz ventilating rigid bronchoscope. Airway anatomy:\n- Subglottic region: Normal\n- Tracheal stenosis: Located 2.5cm below vocal cords, approximately 8mm thick web-like stenosis narrowing the lumen to 5mm (Grade III, Myer-Cotton)\n- Distal trachea and bilateral mainstem: Normal\n\nBalloon dilation performed using 15mm x 40mm CRE balloon (Boston Scientific). Balloon inflated to 8 ATM x 60 seconds x 3 inflations with radial fracturing of the stenosis observed. Post-dilation diameter approximately 12mm.\n\nMerit Endotek BD-Stent (18mm diameter x 30mm length, polydioxanone-based) selected based on tracheal measurements. Stent delivery system advanced through the rigid bronchoscope and deployed under direct visualization with the proximal and distal markers positioned 1cm beyond the stenosis margins. Stent expanded fully to approximately 16mm. Confirmation of good apposition to tracheal wall.\n\nPost-procedure bronchoscopy confirmed patent airway through the stent with no evidence of stent migration. Mucosa intact with minimal bleeding from dilation site.\n\nSPECIMENS: None\n\nCOMPLICATIONS: None\n\nEBL: <5mL\n\nDISPOSITION: PACU recovery, discharge home same day with post-procedure instructions. No activity restrictions. Soft diet x 24 hours.\n\nFOLLOW-UP:\n- Bronchoscopy in 8 weeks for stent assessment\n- BD-Stent expected to degrade over 4-6 months\n- CT airway in 3 months\n\nDr. Rachel Kim, MD\nDr. Ahmed Hassan, MD",
+      "cpt_codes": [
+        31631,
+        31630
+      ],
+      "registry_entry": {
+        "patient_mrn": "6391046",
+        "procedure_date": "2025-06-17",
+        "patient_age": 44,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Recurrent post-intubation tracheal stenosis",
+        "sedation_type": "General",
+        "airway_type": "Rigid",
+        "final_diagnosis_prelim": "Benign",
+        "cpt_codes": [
+          31631,
+          31630
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-10-28",
+          "primary_indication": "Post-intubation tracheal stenosis - Grade III",
+          "stent_type": "Biodegradable (BD-Stent, Merit Endotek, polydioxanone)"
+        },
+        "institution_name": "University of Colorado Hospital, Aurora, CO",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "procedures_performed": {
+          "airway_stent": {
+            "performed": true,
+            "action": "Placement",
+            "stent_type": "Other",
+            "stent_brand": "Merit Endotek BD-Stent (Biodegradable)",
+            "diameter_mm": 18,
+            "length_mm": 30,
+            "location": "Trachea",
+            "indication": "Benign stenosis",
+            "deployment_successful": true
+          },
+          "dilation": {
+            "performed": true,
+            "balloon_size_mm": 15,
+            "inflation_pressure_atm": 8,
+            "location": "Proximal trachea"
+          }
+        },
+        "stent_type": "Biodegradable",
+        "stent_deployment_method": "Direct",
+        "stent_diameter_mm": 18,
+        "stent_length_mm": 30,
+        "stent_location": "Trachea",
+        "cao_obstruction_pre_pct": 70,
+        "cao_obstruction_post_pct": 0,
+        "providers": {
+          "attending_name": "Rachel Kim",
+          "fellow_name": "Ahmed Hassan",
+          "fellow_pgy_level": 5,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902147"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31631",
+            "final_codes": [
+              "31631",
+              "31630"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31631": "Tracheal stent placement (biodegradable BD-Stent) for recurrent post-intubation stenosis.",
+              "31630": "Balloon dilation of tracheal stenosis prior to stent placement at same session, distinct therapeutic maneuver. Modifier -59 may apply per NCCI guidance."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 6.94,
+            "facility_total_payment": 224.0,
+            "per_code": {
+              "31631": {
+                "facility_rvu": 6.94,
+                "facility_payment": 224
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Biodegradable stent is coded same as other airway stents. Dilation at same site prior to stenting may be separately reportable per NCCI if documented as distinct procedure."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31631",
+              "description": "Bronchoscopy; with placement of tracheal stent(s)",
+              "units": 1
+            },
+            {
+              "code": "31630",
+              "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+              "units": 1
+            }
+          ],
+          "work_rvu": 8.17,
+          "practice_expense_rvu": 4.35,
+          "malpractice_rvu": 0.9,
+          "total_rvu": 13.42
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31631, 31630; total_work_rvu=8.17, total_rvu=13.42 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 4,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Gregory Gomez",
+      "patient_age": 48,
+      "patient_mrn": "1565163",
+      "procedure_date": "2025-08-16",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Gregory Gomez\nMRN: 1565163\nDOB: 08/30/1977\nAge: 48\nDate: 2025-08-16\n\n[INDICATION]\nRecurrent post-intubation tracheal stenosis\n\n[ANESTHESIA]\nType: General\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Airway Stent: Performed\n  \u2022 action: Placement\n  \u2022 stent type: Other\n  \u2022 stent brand: Merit Endotek BD-Stent (Biodegradable)\n  \u2022 diameter mm: 18\n  \u2022 length mm: 30\n  \u2022 location: Trachea\n  \u2022 indication: Benign stenosis\n  \u2022 deployment successful: Yes\n- Dilation: Performed\n  \u2022 balloon size mm: 15\n  \u2022 inflation pressure atm: 8\n  \u2022 location: Proximal trachea\n\n[FINDINGS]\nAssessment: Benign\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: Outpatient discharge\n\n[CODING]\nCPT: 31631, 31630\n",
+      "cpt_codes": [
+        31631,
+        31630
+      ],
+      "registry_entry": {
+        "patient_mrn": "1565163",
+        "procedure_date": "2025-08-16",
+        "patient_age": 48,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Recurrent post-intubation tracheal stenosis",
+        "sedation_type": "General",
+        "airway_type": "Rigid",
+        "final_diagnosis_prelim": "Benign",
+        "cpt_codes": [
+          31631,
+          31630
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-10-28",
+          "primary_indication": "Post-intubation tracheal stenosis - Grade III",
+          "stent_type": "Biodegradable (BD-Stent, Merit Endotek, polydioxanone)"
+        },
+        "institution_name": "University of Colorado Hospital, Aurora, CO",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "procedures_performed": {
+          "airway_stent": {
+            "performed": true,
+            "action": "Placement",
+            "stent_type": "Other",
+            "stent_brand": "Merit Endotek BD-Stent (Biodegradable)",
+            "diameter_mm": 18,
+            "length_mm": 30,
+            "location": "Trachea",
+            "indication": "Benign stenosis",
+            "deployment_successful": true
+          },
+          "dilation": {
+            "performed": true,
+            "balloon_size_mm": 15,
+            "inflation_pressure_atm": 8,
+            "location": "Proximal trachea"
+          }
+        },
+        "stent_type": "Biodegradable",
+        "stent_deployment_method": "Direct",
+        "stent_diameter_mm": 18,
+        "stent_length_mm": 30,
+        "stent_location": "Trachea",
+        "cao_obstruction_pre_pct": 70,
+        "cao_obstruction_post_pct": 0,
+        "providers": {
+          "attending_name": "Rachel Kim",
+          "fellow_name": "Ahmed Hassan",
+          "fellow_pgy_level": 5,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902147"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31631",
+            "final_codes": [
+              "31631",
+              "31630"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31631": "Tracheal stent placement (biodegradable BD-Stent) for recurrent post-intubation stenosis.",
+              "31630": "Balloon dilation of tracheal stenosis prior to stent placement at same session, distinct therapeutic maneuver. Modifier -59 may apply per NCCI guidance."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 6.94,
+            "facility_total_payment": 224.0,
+            "per_code": {
+              "31631": {
+                "facility_rvu": 6.94,
+                "facility_payment": 224
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Biodegradable stent is coded same as other airway stents. Dilation at same site prior to stenting may be separately reportable per NCCI if documented as distinct procedure."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31631",
+              "description": "Bronchoscopy; with placement of tracheal stent(s)",
+              "units": 1
+            },
+            {
+              "code": "31630",
+              "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+              "units": 1
+            }
+          ],
+          "work_rvu": 8.17,
+          "practice_expense_rvu": 4.35,
+          "malpractice_rvu": 0.9,
+          "total_rvu": 13.42
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31631, 31630; total_work_rvu=8.17, total_rvu=13.42 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 4,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Christian Robinson",
+      "patient_age": 41,
+      "patient_mrn": "5948849",
+      "procedure_date": "2024-11-15",
+      "note_text": "On 2024-11-15, Christian Robinson, a 41-year-old male (MRN 5948849), underwent bronchoscopic evaluation for Recurrent post-intubation tracheal stenosis. The patient received General and the procedure was performed in standard fashion. The procedure included placement of Other, and dilation. \n\nOn examination, the airways were systematically inspected. The visualized airways appeared patent without significant abnormality. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is benign. \n\nProcedural coding: 31631, 31630.",
+      "cpt_codes": [
+        31631,
+        31630
+      ],
+      "registry_entry": {
+        "patient_mrn": "5948849",
+        "procedure_date": "2024-11-15",
+        "patient_age": 41,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Recurrent post-intubation tracheal stenosis",
+        "sedation_type": "General",
+        "airway_type": "Rigid",
+        "final_diagnosis_prelim": "Benign",
+        "cpt_codes": [
+          31631,
+          31630
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-10-28",
+          "primary_indication": "Post-intubation tracheal stenosis - Grade III",
+          "stent_type": "Biodegradable (BD-Stent, Merit Endotek, polydioxanone)"
+        },
+        "institution_name": "University of Colorado Hospital, Aurora, CO",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "procedures_performed": {
+          "airway_stent": {
+            "performed": true,
+            "action": "Placement",
+            "stent_type": "Other",
+            "stent_brand": "Merit Endotek BD-Stent (Biodegradable)",
+            "diameter_mm": 18,
+            "length_mm": 30,
+            "location": "Trachea",
+            "indication": "Benign stenosis",
+            "deployment_successful": true
+          },
+          "dilation": {
+            "performed": true,
+            "balloon_size_mm": 15,
+            "inflation_pressure_atm": 8,
+            "location": "Proximal trachea"
+          }
+        },
+        "stent_type": "Biodegradable",
+        "stent_deployment_method": "Direct",
+        "stent_diameter_mm": 18,
+        "stent_length_mm": 30,
+        "stent_location": "Trachea",
+        "cao_obstruction_pre_pct": 70,
+        "cao_obstruction_post_pct": 0,
+        "providers": {
+          "attending_name": "Rachel Kim",
+          "fellow_name": "Ahmed Hassan",
+          "fellow_pgy_level": 5,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902147"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31631",
+            "final_codes": [
+              "31631",
+              "31630"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31631": "Tracheal stent placement (biodegradable BD-Stent) for recurrent post-intubation stenosis.",
+              "31630": "Balloon dilation of tracheal stenosis prior to stent placement at same session, distinct therapeutic maneuver. Modifier -59 may apply per NCCI guidance."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 6.94,
+            "facility_total_payment": 224.0,
+            "per_code": {
+              "31631": {
+                "facility_rvu": 6.94,
+                "facility_payment": 224
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Biodegradable stent is coded same as other airway stents. Dilation at same site prior to stenting may be separately reportable per NCCI if documented as distinct procedure."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31631",
+              "description": "Bronchoscopy; with placement of tracheal stent(s)",
+              "units": 1
+            },
+            {
+              "code": "31630",
+              "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+              "units": 1
+            }
+          ],
+          "work_rvu": 8.17,
+          "practice_expense_rvu": 4.35,
+          "malpractice_rvu": 0.9,
+          "total_rvu": 13.42
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31631, 31630; total_work_rvu=8.17, total_rvu=13.42 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 4,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Ryan Ross",
+      "patient_age": 51,
+      "patient_mrn": "9803864",
+      "procedure_date": "2024-06-23",
+      "note_text": "BRONCHOSCOPY PROCEDURE NOTE\n\nPatient: Ryan Ross\nMRN: 9803864\nDOB: 08/30/1973 (51 years old)\nDate: 2024-06-23\nLocation: University of Colorado Hospital, Aurora, CO\n\nAttending: Dr. Rachel Kim, MD\nFellow: Dr. Ahmed Hassan, MD (PGY-5)\n\nPREOPERATIVE DIAGNOSIS: Recurrent post-intubation tracheal stenosis\n\nPOSTOPERATIVE DIAGNOSIS: Same - Grade III tracheal stenosis, 8mm web-like\n\nPROCEDURE:\n1. Rigid bronchoscopy\n2. Balloon dilation of tracheal stenosis\n3. Biodegradable tracheal stent placement (BD-Stent, Merit Endotek)\n\nINDICATION: 51-year-old male with history of prolonged intubation (28 days) for ARDS secondary to COVID-19 in 2021. Developed tracheal stenosis requiring multiple dilations. Has failed 3 prior balloon dilations with recurrence within 4-6 weeks. After discussion of options including T-tube, surgical resection, and biodegradable stent, patient elected for biodegradable stent trial given relatively young age and desire to avoid permanent stent or surgery.\n\nANESTHESIA: Total intravenous anesthesia (propofol/remifentanil)\n\nPROCEDURE DETAILS:\nUnder TIVA, rigid bronchoscopy carried out using 12mm Storz ventilating rigid bronchoscope. Airway anatomy:\n- Subglottic region: Normal\n- Tracheal stenosis: Located 2.5cm below vocal cords, approximately 8mm thick web-like stenosis narrowing the lumen to 5mm (Grade III, Myer-Cotton)\n- Distal trachea and bilateral mainstem: Normal\n\nBalloon dilation carried out using 15mm x 40mm CRE balloon (Boston Scientific). Balloon inflated to 8 ATM x 60 seconds x 3 inflations with radial fracturing of the stenosis observed. Post-dilation diameter approximately 12mm.\n\nMerit Endotek BD-Stent (18mm diameter x 30mm length, polydioxanone-based) selected based on tracheal measurements. Stent delivery system maneuvered through the rigid bronchoscope and placed under direct visualization with the proximal and distal markers positioned 1cm beyond the stenosis margins. Stent expanded fully to approximately 16mm. Confirmation of good apposition to tracheal wall.\n\nPost-procedure bronchoscopy verified clear airway through the stent with no evidence of stent migration. Mucosa intact with minimal bleeding from dilation site.\n\nSPECIMENS: None\n\nCOMPLICATIONS: None\n\nEBL: <5mL\n\nDISPOSITION: PACU recovery, discharge home same day with post-procedure instructions. No activity restrictions. Soft diet x 24 hours.\n\nFOLLOW-UP:\n- Bronchoscopy in 8 weeks for stent assessment\n- BD-Stent expected to degrade over 4-6 months\n- CT airway in 3 months\n\nDr. Rachel Kim, MD\nDr. Ahmed Hassan, MD",
+      "cpt_codes": [
+        31631,
+        31630
+      ],
+      "registry_entry": {
+        "patient_mrn": "9803864",
+        "procedure_date": "2024-06-23",
+        "patient_age": 51,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Recurrent post-intubation tracheal stenosis",
+        "sedation_type": "General",
+        "airway_type": "Rigid",
+        "final_diagnosis_prelim": "Benign",
+        "cpt_codes": [
+          31631,
+          31630
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-10-28",
+          "primary_indication": "Post-intubation tracheal stenosis - Grade III",
+          "stent_type": "Biodegradable (BD-Stent, Merit Endotek, polydioxanone)"
+        },
+        "institution_name": "University of Colorado Hospital, Aurora, CO",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "procedures_performed": {
+          "airway_stent": {
+            "performed": true,
+            "action": "Placement",
+            "stent_type": "Other",
+            "stent_brand": "Merit Endotek BD-Stent (Biodegradable)",
+            "diameter_mm": 18,
+            "length_mm": 30,
+            "location": "Trachea",
+            "indication": "Benign stenosis",
+            "deployment_successful": true
+          },
+          "dilation": {
+            "performed": true,
+            "balloon_size_mm": 15,
+            "inflation_pressure_atm": 8,
+            "location": "Proximal trachea"
+          }
+        },
+        "stent_type": "Biodegradable",
+        "stent_deployment_method": "Direct",
+        "stent_diameter_mm": 18,
+        "stent_length_mm": 30,
+        "stent_location": "Trachea",
+        "cao_obstruction_pre_pct": 70,
+        "cao_obstruction_post_pct": 0,
+        "providers": {
+          "attending_name": "Rachel Kim",
+          "fellow_name": "Ahmed Hassan",
+          "fellow_pgy_level": 5,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902147"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31631",
+            "final_codes": [
+              "31631",
+              "31630"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31631": "Tracheal stent placement (biodegradable BD-Stent) for recurrent post-intubation stenosis.",
+              "31630": "Balloon dilation of tracheal stenosis prior to stent placement at same session, distinct therapeutic maneuver. Modifier -59 may apply per NCCI guidance."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 6.94,
+            "facility_total_payment": 224.0,
+            "per_code": {
+              "31631": {
+                "facility_rvu": 6.94,
+                "facility_payment": 224
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "Biodegradable stent is coded same as other airway stents. Dilation at same site prior to stenting may be separately reportable per NCCI if documented as distinct procedure."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31631",
+              "description": "Bronchoscopy; with placement of tracheal stent(s)",
+              "units": 1
+            },
+            {
+              "code": "31630",
+              "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+              "units": 1
+            }
+          ],
+          "work_rvu": 8.17,
+          "practice_expense_rvu": 4.35,
+          "malpractice_rvu": 0.9,
+          "total_rvu": 13.42
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31631, 31630; total_work_rvu=8.17, total_rvu=13.42 (facility)."
+        ]
+      }
+    }
+  ]
+}

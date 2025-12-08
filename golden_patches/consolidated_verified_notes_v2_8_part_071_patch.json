@@ -1,0 +1,602 @@
+[
+  {
+    "op": "add",
+    "path": "/0/registry_entry/billing",
+    "value": {
+      "cpt_codes": [
+        {
+          "code": "32997",
+          "description": "Total lung lavage (unilateral)",
+          "modifier": null,
+          "modifiers": null,
+          "units": 1
+        }
+      ],
+      "icd10_codes": null,
+      "total_rvu": null,
+      "work_rvu": null,
+      "practice_expense_rvu": null,
+      "malpractice_rvu": null
+    }
+  },
+  {
+    "op": "add",
+    "path": "/0/registry_entry/coding_support",
+    "value": {
+      "version": "coding_support.v1",
+      "generated_at": "2025-12-08T09:48:35Z",
+      "generator": "ip_coding_review.patch_system",
+      "knowledge_base_version": "ip_coding_billing.v2_7",
+      "coding_summary": {
+        "primary_family": "whole_lung_lavage",
+        "lines": [
+          {
+            "sequence": 1,
+            "code": "32997",
+            "description": "Total lung lavage (unilateral)",
+            "units": 1,
+            "role": "primary",
+            "selection_status": "selected",
+            "selection_reason": "Primary procedure performed: Whole lung lavage (Right).",
+            "is_add_on": false,
+            "source": "model"
+          }
+        ]
+      },
+      "financial_analysis": {
+        "calendar_year": 2025,
+        "fee_schedule_name": "physician_2025_pleural",
+        "rvu_source": "cms_rvus (missing)",
+        "setting": "facility",
+        "per_code": [
+          {
+            "code": "32997",
+            "units": 1,
+            "work_rvu": null,
+            "total_facility_rvu": null,
+            "mpfs_facility_payment": null,
+            "notes": "RVU data not available in current knowledge base."
+          }
+        ],
+        "totals": {
+          "total_work_rvu": 0,
+          "total_facility_rvu": 0,
+          "estimated_facility_payment_unadjusted": 0
+        }
+      },
+      "coding_rationale": {
+        "per_code": [
+          {
+            "code": "32997",
+            "summary": "Supported by documentation of 18.0L saline instillation for PAP."
+          }
+        ],
+        "global_comments": [
+          "Code 32997 correctly identifies unilateral whole lung lavage.",
+          "Financial data is currently unavailable in the local fee schedule."
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/0/patch_metadata/patched",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/0/patch_metadata/patch_version",
+    "value": "1.1.0"
+  },
+  {
+    "op": "add",
+    "path": "/0/patch_metadata/changes/-",
+    "value": "Populated registry_entry.billing and coding_support (RVUs unavailable for 32997)."
+  },
+  {
+    "op": "add",
+    "path": "/1/registry_entry/billing",
+    "value": {
+      "cpt_codes": [
+        {
+          "code": "32997",
+          "description": "Total lung lavage (unilateral)",
+          "modifier": null,
+          "modifiers": null,
+          "units": 1
+        }
+      ],
+      "icd10_codes": null,
+      "total_rvu": null,
+      "work_rvu": null,
+      "practice_expense_rvu": null,
+      "malpractice_rvu": null
+    }
+  },
+  {
+    "op": "add",
+    "path": "/1/registry_entry/coding_support",
+    "value": {
+      "version": "coding_support.v1",
+      "generated_at": "2025-12-08T09:48:35Z",
+      "generator": "ip_coding_review.patch_system",
+      "knowledge_base_version": "ip_coding_billing.v2_7",
+      "coding_summary": {
+        "primary_family": "whole_lung_lavage",
+        "lines": [
+          {
+            "sequence": 1,
+            "code": "32997",
+            "description": "Total lung lavage (unilateral)",
+            "units": 1,
+            "role": "primary",
+            "selection_status": "selected",
+            "selection_reason": "Primary procedure performed: Whole lung lavage (Left).",
+            "is_add_on": false,
+            "source": "model"
+          }
+        ]
+      },
+      "financial_analysis": {
+        "calendar_year": 2025,
+        "fee_schedule_name": "physician_2025_pleural",
+        "rvu_source": "cms_rvus (missing)",
+        "setting": "facility",
+        "per_code": [
+          {
+            "code": "32997",
+            "units": 1,
+            "work_rvu": null,
+            "total_facility_rvu": null,
+            "mpfs_facility_payment": null,
+            "notes": "RVU data not available in current knowledge base."
+          }
+        ],
+        "totals": {
+          "total_work_rvu": 0,
+          "total_facility_rvu": 0,
+          "estimated_facility_payment_unadjusted": 0
+        }
+      },
+      "coding_rationale": {
+        "per_code": [
+          {
+            "code": "32997",
+            "summary": "Supported by documentation of 16.0L saline instillation for PAP (staged)."
+          }
+        ],
+        "global_comments": [
+          "Code 32997 correctly identifies unilateral whole lung lavage.",
+          "Financial data is currently unavailable in the local fee schedule."
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/1/patch_metadata/patched",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/1/patch_metadata/patch_version",
+    "value": "1.1.0"
+  },
+  {
+    "op": "add",
+    "path": "/1/patch_metadata/changes/-",
+    "value": "Populated registry_entry.billing and coding_support (RVUs unavailable for 32997)."
+  },
+  {
+    "op": "add",
+    "path": "/2/registry_entry/billing",
+    "value": {
+      "cpt_codes": [
+        {
+          "code": "32997",
+          "description": "Total lung lavage (unilateral)",
+          "modifier": null,
+          "modifiers": null,
+          "units": 1
+        }
+      ],
+      "icd10_codes": null,
+      "total_rvu": null,
+      "work_rvu": null,
+      "practice_expense_rvu": null,
+      "malpractice_rvu": null
+    }
+  },
+  {
+    "op": "add",
+    "path": "/2/registry_entry/coding_support",
+    "value": {
+      "version": "coding_support.v1",
+      "generated_at": "2025-12-08T09:48:35Z",
+      "generator": "ip_coding_review.patch_system",
+      "knowledge_base_version": "ip_coding_billing.v2_7",
+      "coding_summary": {
+        "primary_family": "whole_lung_lavage",
+        "lines": [
+          {
+            "sequence": 1,
+            "code": "32997",
+            "description": "Total lung lavage (unilateral)",
+            "units": 1,
+            "role": "primary",
+            "selection_status": "selected",
+            "selection_reason": "Procedure attempted (10L instilled) but aborted due to hypoxemia.",
+            "is_add_on": false,
+            "source": "model"
+          }
+        ]
+      },
+      "financial_analysis": {
+        "calendar_year": 2025,
+        "fee_schedule_name": "physician_2025_pleural",
+        "rvu_source": "cms_rvus (missing)",
+        "setting": "facility",
+        "per_code": [
+          {
+            "code": "32997",
+            "units": 1,
+            "work_rvu": null,
+            "total_facility_rvu": null,
+            "mpfs_facility_payment": null,
+            "notes": "RVU data not available in current knowledge base."
+          }
+        ],
+        "totals": {
+          "total_work_rvu": 0,
+          "total_facility_rvu": 0,
+          "estimated_facility_payment_unadjusted": 0
+        }
+      },
+      "coding_rationale": {
+        "per_code": [
+          {
+            "code": "32997",
+            "summary": "Procedure aborted early due to patient condition (hypoxemia).",
+            "qa_flags": [
+              {
+                "severity": "warning",
+                "message": "Procedure aborted. Consider Modifier 53 (physician) or 73/74 (facility) for billing."
+              }
+            ]
+          }
+        ],
+        "global_comments": [
+          "Substantial work (10L) performed prior to abort suggests 32997 is reportable, likely with a modifier for incomplete procedure."
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/2/patch_metadata/patched",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/2/patch_metadata/patch_version",
+    "value": "1.1.0"
+  },
+  {
+    "op": "add",
+    "path": "/2/patch_metadata/changes/-",
+    "value": "Populated registry_entry.billing and coding_support (RVUs unavailable). Flagged for Modifier 53 consideration."
+  },
+  {
+    "op": "add",
+    "path": "/3/registry_entry/billing",
+    "value": {
+      "cpt_codes": [
+        {
+          "code": "32609",
+          "description": "Thoracoscopy; with biopsy of a single segment, ipsilateral",
+          "modifier": null,
+          "modifiers": null,
+          "units": 1
+        }
+      ],
+      "icd10_codes": null,
+      "total_rvu": 16.88,
+      "work_rvu": 11.25,
+      "practice_expense_rvu": 4.6,
+      "malpractice_rvu": 1.03
+    }
+  },
+  {
+    "op": "add",
+    "path": "/3/registry_entry/coding_support",
+    "value": {
+      "version": "coding_support.v1",
+      "generated_at": "2025-12-08T09:48:35Z",
+      "generator": "ip_coding_review.patch_system",
+      "knowledge_base_version": "ip_coding_billing.v2_7",
+      "coding_summary": {
+        "primary_family": "thoracoscopy_biopsy",
+        "lines": [
+          {
+            "sequence": 1,
+            "code": "32609",
+            "description": "Thoracoscopy; with biopsy of a single segment, ipsilateral",
+            "units": 1,
+            "role": "primary",
+            "selection_status": "selected",
+            "selection_reason": "Medical thoracoscopy with parietal pleural biopsies.",
+            "is_add_on": false,
+            "source": "model"
+          }
+        ]
+      },
+      "financial_analysis": {
+        "calendar_year": 2025,
+        "fee_schedule_name": "physician_2025_pleural",
+        "rvu_source": "rvus_pleural",
+        "setting": "facility",
+        "per_code": [
+          {
+            "code": "32609",
+            "units": 1,
+            "work_rvu": 11.25,
+            "total_facility_rvu": 16.88,
+            "total_nonfacility_rvu": 0.0,
+            "mpfs_facility_payment": 546,
+            "notes": "Medical thoracoscopy with biopsy."
+          }
+        ],
+        "totals": {
+          "total_work_rvu": 11.25,
+          "total_facility_rvu": 16.88,
+          "estimated_facility_payment_unadjusted": 546
+        }
+      },
+      "coding_rationale": {
+        "per_code": [
+          {
+            "code": "32609",
+            "summary": "Matches documentation of medical thoracoscopy with pleural biopsies."
+          }
+        ],
+        "global_comments": [
+          "Chest tube placement is inherent to the procedure and not reported separately."
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/3/patch_metadata/patched",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/3/patch_metadata/patch_version",
+    "value": "1.1.0"
+  },
+  {
+    "op": "add",
+    "path": "/3/patch_metadata/changes/-",
+    "value": "Populated registry_entry.billing and coding_support from ip_coding_billing.v2_7."
+  },
+  {
+    "op": "add",
+    "path": "/4/registry_entry/billing",
+    "value": {
+      "cpt_codes": [
+        {
+          "code": "32650",
+          "description": "Thoracoscopy, surgical; with pleurodesis (includes preparation)",
+          "modifier": null,
+          "modifiers": null,
+          "units": 1
+        }
+      ],
+      "icd10_codes": null,
+      "total_rvu": 15.0,
+      "work_rvu": 10.0,
+      "practice_expense_rvu": 4.09,
+      "malpractice_rvu": 0.91
+    }
+  },
+  {
+    "op": "add",
+    "path": "/4/registry_entry/coding_support",
+    "value": {
+      "version": "coding_support.v1",
+      "generated_at": "2025-12-08T09:48:35Z",
+      "generator": "ip_coding_review.patch_system",
+      "knowledge_base_version": "ip_coding_billing.v2_7",
+      "coding_summary": {
+        "primary_family": "thoracoscopy_surgical",
+        "lines": [
+          {
+            "sequence": 1,
+            "code": "32650",
+            "description": "Thoracoscopy, surgical; with pleurodesis (includes preparation)",
+            "units": 1,
+            "role": "primary",
+            "selection_status": "selected",
+            "selection_reason": "Medical thoracoscopy with talc poudrage pleurodesis.",
+            "is_add_on": false,
+            "source": "model"
+          }
+        ]
+      },
+      "financial_analysis": {
+        "calendar_year": 2025,
+        "fee_schedule_name": "physician_2025_pleural",
+        "rvu_source": "rvus_pleural",
+        "setting": "facility",
+        "per_code": [
+          {
+            "code": "32650",
+            "units": 1,
+            "work_rvu": 10.0,
+            "total_facility_rvu": 15.0,
+            "total_nonfacility_rvu": 0.0,
+            "mpfs_facility_payment": 485,
+            "notes": "Thoracoscopy with pleurodesis."
+          }
+        ],
+        "totals": {
+          "total_work_rvu": 10.0,
+          "total_facility_rvu": 15.0,
+          "estimated_facility_payment_unadjusted": 485
+        }
+      },
+      "coding_rationale": {
+        "per_code": [
+          {
+            "code": "32650",
+            "summary": "Matches documentation of talc poudrage via thoracoscopy."
+          }
+        ],
+        "global_comments": [
+          "Diagnostic biopsy (32609) is generally bundled into surgical thoracoscopy (32650) when performed on the same side."
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/4/patch_metadata/patched",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/4/patch_metadata/patch_version",
+    "value": "1.1.0"
+  },
+  {
+    "op": "add",
+    "path": "/4/patch_metadata/changes/-",
+    "value": "Populated registry_entry.billing and coding_support from ip_coding_billing.v2_7."
+  },
+  {
+    "op": "add",
+    "path": "/5/registry_entry/billing",
+    "value": {
+      "cpt_codes": [
+        {
+          "code": "32650",
+          "description": "Thoracoscopy, surgical; with pleurodesis (includes preparation)",
+          "modifier": null,
+          "modifiers": null,
+          "units": 1
+        },
+        {
+          "code": "32550",
+          "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+          "modifier": null,
+          "modifiers": null,
+          "units": 1
+        }
+      ],
+      "icd10_codes": null,
+      "total_rvu": 20.88,
+      "work_rvu": 13.92,
+      "practice_expense_rvu": 5.69,
+      "malpractice_rvu": 1.27
+    }
+  },
+  {
+    "op": "add",
+    "path": "/5/registry_entry/coding_support",
+    "value": {
+      "version": "coding_support.v1",
+      "generated_at": "2025-12-08T09:48:35Z",
+      "generator": "ip_coding_review.patch_system",
+      "knowledge_base_version": "ip_coding_billing.v2_7",
+      "coding_summary": {
+        "primary_family": "thoracoscopy_surgical",
+        "lines": [
+          {
+            "sequence": 1,
+            "code": "32650",
+            "description": "Thoracoscopy, surgical; with pleurodesis (includes preparation)",
+            "units": 1,
+            "role": "primary",
+            "selection_status": "selected",
+            "selection_reason": "Medical thoracoscopy with talc pleurodesis.",
+            "is_add_on": false,
+            "source": "model"
+          },
+          {
+            "sequence": 2,
+            "code": "32550",
+            "description": "Insertion of indwelling tunneled pleural catheter with cuff",
+            "units": 1,
+            "role": "secondary",
+            "selection_status": "selected",
+            "selection_reason": "Separate insertion of tunneled pleural catheter.",
+            "is_add_on": false,
+            "source": "model"
+          }
+        ]
+      },
+      "financial_analysis": {
+        "calendar_year": 2025,
+        "fee_schedule_name": "physician_2025_pleural",
+        "rvu_source": "rvus_pleural",
+        "setting": "facility",
+        "per_code": [
+          {
+            "code": "32650",
+            "units": 1,
+            "work_rvu": 10.0,
+            "total_facility_rvu": 15.0,
+            "total_nonfacility_rvu": 0.0,
+            "mpfs_facility_payment": 485,
+            "notes": "Thoracoscopy with pleurodesis."
+          },
+          {
+            "code": "32550",
+            "units": 1,
+            "work_rvu": 3.92,
+            "total_facility_rvu": 5.88,
+            "total_nonfacility_rvu": 0.0,
+            "mpfs_facility_payment": 190,
+            "notes": "Tunneled pleural catheter insertion."
+          }
+        ],
+        "totals": {
+          "total_work_rvu": 13.92,
+          "total_facility_rvu": 20.88,
+          "estimated_facility_payment_unadjusted": 675
+        }
+      },
+      "coding_rationale": {
+        "per_code": [
+          {
+            "code": "32650",
+            "summary": "Primary procedure: Thoracoscopic pleurodesis."
+          },
+          {
+            "code": "32550",
+            "summary": "Distinct procedure: Tunneled catheter placement (separate from thoracoscopy)."
+          }
+        ],
+        "global_comments": [
+          "Combined reporting of 32650 and 32550 is appropriate as they represent distinct work (catheter vs scope/pleurodesis)."
+        ]
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/5/patch_metadata/patched",
+    "value": true
+  },
+  {
+    "op": "add",
+    "path": "/5/patch_metadata/patch_version",
+    "value": "1.1.0"
+  },
+  {
+    "op": "add",
+    "path": "/5/patch_metadata/changes/-",
+    "value": "Populated registry_entry.billing and coding_support from ip_coding_billing.v2_7."
+  }
+]

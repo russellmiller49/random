@@ -1,0 +1,1687 @@
+{
+  "base_note": {
+    "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE NOTE\n\nPatient: Charles Davis\nMRN: 8684379\nDOB: 06/20/1958 (66 years old)\nDate of Procedure: 2025-03-07\nLocation: Stanford Medical Center, Palo Alto, CA\n\nAttending: Dr. Priya Patel, MD\nFellow: Dr. Kevin Nguyen, MD (PGY-6)\nRN: Anna Martinez\nRT: Brian Lee\n\nPREOPERATIVE DIAGNOSIS: Persistent bronchopleural fistula (BPF) with prolonged air leak, post right upper lobectomy for lung cancer (POD #14)\n\nPOSTOPERATIVE DIAGNOSIS: Same\n\nPROCEDURE: Flexible bronchoscopy with endobronchial valve placement for bronchopleural fistula/air leak closure\n\nINDICATION: 66-year-old male status post right upper lobectomy for stage IIA squamous cell carcinoma 14 days ago, complicated by persistent air leak via chest tube (continuous, >500mL/breath). CT chest shows persistent right apical pneumothorax with bronchial stump intact but suspected peripheral alveolar-pleural fistula in the remaining RML/RLL. Given poor surgical candidacy for re-thoracotomy (COPD, recent surgery, poor nutritional status), endobronchial valve placement was planned for non-surgical management of the air leak.\n\nNOTE: This is NOT a BLVR procedure for emphysema/lung volume reduction. The indication is therapeutic air leak closure in the setting of BPF.\n\nANESTHESIA: General anesthesia (TIVA) with single-lumen ETT\n\nPROCEDURE NARRATIVE:\nPatient intubated and positioned supine. Flexible bronchoscopy performed. Airway inspection revealed:\n- Trachea: Normal\n- Right bronchial stump: Healing well, no gross leak\n- Right bronchus intermedius: Patent\n- Right middle lobe: Patent, normal appearance\n- Right lower lobe: Segmental bronchi appeared inflamed but patent\n- Left lung: Normal\n\nBalloon occlusion testing was performed to identify the leaking segment. Sequential balloon occlusion of right lower lobe segments revealed:\n- RB6 (superior segment): Partial reduction in air leak\n- RB7-10 (basal segments): Further reduction with RB9 occlusion\n- Combined RB6 + RB9 occlusion: Complete cessation of air leak\n\nBased on balloon occlusion testing, decision was made to place endobronchial valves in RB6 and RB9.\n\nValve placement:\n1. RB6 (superior segment): Zephyr 4.0mm EBV deployed. Good fit, no air flow around valve.\n2. RB9 (lateral basal segment): Zephyr 4.0-LP EBV deployed. Good fit.\n\nPost-valve bronchoscopy confirmed valves in good position. Patient's chest tube placed to water seal at end of procedure.\n\nImmediate post-procedure assessment showed COMPLETE CESSATION of air leak on the chest tube drainage system.\n\nDEVICES:\n- Zephyr EBV 4.0mm x 1 (RB6)\n- Zephyr EBV 4.0-LP x 1 (RB9)\n\nSPECIMENS: None\n\nCOMPLICATIONS: None\n\nEBL: Minimal\n\nDISPOSITION: Return to thoracic surgery floor. Chest tube to water seal. If no air leak for 48 hours, will remove chest tube.\n\nFOLLOW-UP: Will monitor for valve expectoration. Repeat bronchoscopy in 6-8 weeks for potential valve removal if air leak remains resolved. Valves may be permanent if necessary.\n\nDr. Priya Patel, MD\nDr. Kevin Nguyen, MD",
+    "cpt_codes": [
+      31647,
+      31651
+    ],
+    "registry_entry": {
+      "patient_mrn": "8684379",
+      "procedure_date": "2025-03-07",
+      "patient_age": 66,
+      "gender": "Male",
+      "asa_class": 3,
+      "primary_indication": "Bronchopleural fistula with persistent air leak - post lobectomy",
+      "sedation_type": "General",
+      "airway_type": "ETT",
+      "final_diagnosis_prelim": "BPF/Air leak - post-surgical",
+      "cpt_codes": [
+        31647,
+        31651
+      ],
+      "evidence": {
+        "procedure_date": "Date of Procedure: 2025-03-07",
+        "primary_indication": "Persistent BPF/air leak POD#14 post RUL lobectomy",
+        "valve_indication": "Air leak closure, NOT emphysema/BLVR"
+      },
+      "institution_name": "Stanford Medical Center, Palo Alto, CA",
+      "molecular_testing_requested": false,
+      "disposition": "Inpatient (floor)",
+      "bleeding_severity": "None",
+      "pneumothorax": true,
+      "pneumothorax_intervention": "Chest tube - water seal",
+      "blvr_target_lobe": "RLL",
+      "blvr_valve_type": "Zephyr (Pulmonx)",
+      "blvr_number_of_valves": 2,
+      "procedures_performed": {
+        "blvr": {
+          "performed": true,
+          "indication": "Bronchopleural fistula/air leak",
+          "indication_not_emphysema": true,
+          "valve_type": "Zephyr (Pulmonx)",
+          "number_of_valves": 2,
+          "target_lobes": [
+            "RLL"
+          ],
+          "chartis_performed": false,
+          "balloon_occlusion_testing": true
+        }
+      },
+      "granular_data": {
+        "blvr_valve_placements": [
+          {
+            "valve_number": 1,
+            "target_lobe": "RLL",
+            "segment": "RB6 (superior)",
+            "valve_size": "4.0",
+            "valve_type": "Zephyr (Pulmonx)",
+            "deployment_successful": true,
+            "seal_confirmed": true,
+            "notes": "First valve for BPF closure"
+          },
+          {
+            "valve_number": 2,
+            "target_lobe": "RLL",
+            "segment": "RB9 (lateral basal)",
+            "valve_size": "4.0-LP",
+            "valve_type": "Zephyr (Pulmonx)",
+            "deployment_successful": true,
+            "seal_confirmed": true,
+            "notes": "Second valve - complete air leak cessation achieved"
+          }
+        ]
+      },
+      "clinical_context": {
+        "indication_category": "Fistula",
+        "radiographic_findings": "Right apical pneumothorax, post-lobectomy changes",
+        "bronchus_sign": "Not assessed"
+      },
+      "providers": {
+        "attending_name": "Priya Patel",
+        "fellow_name": "Kevin Nguyen",
+        "fellow_pgy_level": 6,
+        "assistant_name": "Anna Martinez",
+        "assistant_role": "RN",
+        "trainee_present": true
+      },
+      "outcomes": {
+        "procedure_completed": true,
+        "immediate_success": true,
+        "air_leak_cessation": true
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:53:15.902357"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "31647",
+          "final_codes": [
+            "31647",
+            "31651"
+          ],
+          "modifiers": [],
+          "changes_made": false,
+          "code_rationales": {
+            "31647": "Bronchoscopy with placement of bronchial valve(s), initial lobe. Same CPT codes (31647/31651) are used for valve placement regardless of indication (BPF vs emphysema/BLVR).",
+            "31651": "Add-on for additional valve in same lobe (second valve in RLL)."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 15.43,
+          "facility_total_payment": 499.0,
+          "per_code": {
+            "31647": {
+              "facility_rvu": 11.15,
+              "facility_payment": 361
+            },
+            "31651": {
+              "facility_rvu": 4.28,
+              "facility_payment": 138
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_8.json"
+        },
+        "overall_assessment": "BPF/AIR LEAK VALVE CASE: Endobronchial valves placed for bronchopleural fistula air leak management, NOT for lung volume reduction/emphysema. Same CPT codes apply but registry/tagging should distinguish this from true BLVR cases. Label should be 'blvr' but with indication noted as 'Fistula/Air Leak'."
+      },
+      "procedure_families": [
+        "blvr"
+      ],
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31647",
+            "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+            "units": 1
+          },
+          {
+            "code": "+31651",
+            "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+            "units": 1
+          }
+        ],
+        "work_rvu": 10.0,
+        "practice_expense_rvu": 4.75,
+        "malpractice_rvu": 1.08,
+        "total_rvu": 15.83
+      }
+    },
+    "source_file": "synthetic_edge_cases_v2_8.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.8",
+      "valid_codes": [
+        "31647",
+        "31651"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651; total_work_rvu=10.0, total_rvu=15.83 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 10,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Juan Ramirez",
+      "patient_age": 70,
+      "patient_mrn": "6114648",
+      "procedure_date": "2025-01-09",
+      "note_text": "OPERATIVE NOTE\n\nJuan Ramirez | MRN 6114648 | 2025-01-09\n\nDx: ANESTHESIA: General anesthesia (TIVA) with single-lumen ETT\nProc: Flexible bronchoscopy with endobronchial valve placement for bronchopleural fistula/air leak closure\n\nActions:\n\u2022 Blvr\n\u2022 Patient intubated and positioned supine. Flexible bronchosco\n\u2022 Balloon occlusion testing was performed to identify the leak\n\u2022 1. RB6 (superior segment): Zephyr 4.0mm EBV deployed. Good f\n\u2022 2. RB9 (lateral basal segment): Zephyr 4.0-LP EBV deployed. \n\u2022 Post-valve bronchoscopy confirmed valves in good position. P\n\nCPT: 31647, 31651\nComplications: None\nDispo: Dr. Kevin Nguyen, MD\n",
+      "cpt_codes": [
+        31647,
+        31651
+      ],
+      "registry_entry": {
+        "patient_mrn": "6114648",
+        "procedure_date": "2025-01-09",
+        "patient_age": 70,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Bronchopleural fistula with persistent air leak - post lobectomy",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "BPF/Air leak - post-surgical",
+        "cpt_codes": [
+          31647,
+          31651
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-03-07",
+          "primary_indication": "Persistent BPF/air leak POD#14 post RUL lobectomy",
+          "valve_indication": "Air leak closure, NOT emphysema/BLVR"
+        },
+        "institution_name": "Stanford Medical Center, Palo Alto, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient (floor)",
+        "bleeding_severity": "None",
+        "pneumothorax": true,
+        "pneumothorax_intervention": "Chest tube - water seal",
+        "blvr_target_lobe": "RLL",
+        "blvr_valve_type": "Zephyr (Pulmonx)",
+        "blvr_number_of_valves": 2,
+        "procedures_performed": {
+          "blvr": {
+            "performed": true,
+            "indication": "Bronchopleural fistula/air leak",
+            "indication_not_emphysema": true,
+            "valve_type": "Zephyr (Pulmonx)",
+            "number_of_valves": 2,
+            "target_lobes": [
+              "RLL"
+            ],
+            "chartis_performed": false,
+            "balloon_occlusion_testing": true
+          }
+        },
+        "granular_data": {
+          "blvr_valve_placements": [
+            {
+              "valve_number": 1,
+              "target_lobe": "RLL",
+              "segment": "RB6 (superior)",
+              "valve_size": "4.0",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true,
+              "notes": "First valve for BPF closure"
+            },
+            {
+              "valve_number": 2,
+              "target_lobe": "RLL",
+              "segment": "RB9 (lateral basal)",
+              "valve_size": "4.0-LP",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true,
+              "notes": "Second valve - complete air leak cessation achieved"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Fistula",
+          "radiographic_findings": "Right apical pneumothorax, post-lobectomy changes",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Priya Patel",
+          "fellow_name": "Kevin Nguyen",
+          "fellow_pgy_level": 6,
+          "assistant_name": "Anna Martinez",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "immediate_success": true,
+          "air_leak_cessation": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902357"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31647",
+            "final_codes": [
+              "31647",
+              "31651"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31647": "Bronchoscopy with placement of bronchial valve(s), initial lobe. Same CPT codes (31647/31651) are used for valve placement regardless of indication (BPF vs emphysema/BLVR).",
+              "31651": "Add-on for additional valve in same lobe (second valve in RLL)."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 15.43,
+            "facility_total_payment": 499.0,
+            "per_code": {
+              "31647": {
+                "facility_rvu": 11.15,
+                "facility_payment": 361
+              },
+              "31651": {
+                "facility_rvu": 4.28,
+                "facility_payment": 138
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "BPF/AIR LEAK VALVE CASE: Endobronchial valves placed for bronchopleural fistula air leak management, NOT for lung volume reduction/emphysema. Same CPT codes apply but registry/tagging should distinguish this from true BLVR cases. Label should be 'blvr' but with indication noted as 'Fistula/Air Leak'."
+        },
+        "procedure_families": [
+          "blvr"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31647",
+              "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+              "units": 1
+            },
+            {
+              "code": "+31651",
+              "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 10.0,
+          "practice_expense_rvu": 4.75,
+          "malpractice_rvu": 1.08,
+          "total_rvu": 15.83
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651; total_work_rvu=10.0, total_rvu=15.83 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 10,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Kevin Fisher",
+      "patient_age": 70,
+      "patient_mrn": "4873766",
+      "procedure_date": "2024-12-07",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Kevin Fisher\nMedical Record Number: 4873766\nDate of Birth: 06/20/1954\nAge at Procedure: 70 years\nProcedure Date: 2024-12-07\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with bronchopleural fistula with persistent air leak - post lobectomy. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nBlvr:\nEndobronchial valve deployment was performed following comprehensive collateral ventilation assessment to ensure treatment candidacy. \n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\nDetailed airway examination was performed with findings as documented in the procedural narrative.\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 31647, 31651\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        31647,
+        31651
+      ],
+      "registry_entry": {
+        "patient_mrn": "4873766",
+        "procedure_date": "2024-12-07",
+        "patient_age": 70,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Bronchopleural fistula with persistent air leak - post lobectomy",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "BPF/Air leak - post-surgical",
+        "cpt_codes": [
+          31647,
+          31651
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-03-07",
+          "primary_indication": "Persistent BPF/air leak POD#14 post RUL lobectomy",
+          "valve_indication": "Air leak closure, NOT emphysema/BLVR"
+        },
+        "institution_name": "Stanford Medical Center, Palo Alto, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient (floor)",
+        "bleeding_severity": "None",
+        "pneumothorax": true,
+        "pneumothorax_intervention": "Chest tube - water seal",
+        "blvr_target_lobe": "RLL",
+        "blvr_valve_type": "Zephyr (Pulmonx)",
+        "blvr_number_of_valves": 2,
+        "procedures_performed": {
+          "blvr": {
+            "performed": true,
+            "indication": "Bronchopleural fistula/air leak",
+            "indication_not_emphysema": true,
+            "valve_type": "Zephyr (Pulmonx)",
+            "number_of_valves": 2,
+            "target_lobes": [
+              "RLL"
+            ],
+            "chartis_performed": false,
+            "balloon_occlusion_testing": true
+          }
+        },
+        "granular_data": {
+          "blvr_valve_placements": [
+            {
+              "valve_number": 1,
+              "target_lobe": "RLL",
+              "segment": "RB6 (superior)",
+              "valve_size": "4.0",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true,
+              "notes": "First valve for BPF closure"
+            },
+            {
+              "valve_number": 2,
+              "target_lobe": "RLL",
+              "segment": "RB9 (lateral basal)",
+              "valve_size": "4.0-LP",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true,
+              "notes": "Second valve - complete air leak cessation achieved"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Fistula",
+          "radiographic_findings": "Right apical pneumothorax, post-lobectomy changes",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Priya Patel",
+          "fellow_name": "Kevin Nguyen",
+          "fellow_pgy_level": 6,
+          "assistant_name": "Anna Martinez",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "immediate_success": true,
+          "air_leak_cessation": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902357"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31647",
+            "final_codes": [
+              "31647",
+              "31651"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31647": "Bronchoscopy with placement of bronchial valve(s), initial lobe. Same CPT codes (31647/31651) are used for valve placement regardless of indication (BPF vs emphysema/BLVR).",
+              "31651": "Add-on for additional valve in same lobe (second valve in RLL)."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 15.43,
+            "facility_total_payment": 499.0,
+            "per_code": {
+              "31647": {
+                "facility_rvu": 11.15,
+                "facility_payment": 361
+              },
+              "31651": {
+                "facility_rvu": 4.28,
+                "facility_payment": 138
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "BPF/AIR LEAK VALVE CASE: Endobronchial valves placed for bronchopleural fistula air leak management, NOT for lung volume reduction/emphysema. Same CPT codes apply but registry/tagging should distinguish this from true BLVR cases. Label should be 'blvr' but with indication noted as 'Fistula/Air Leak'."
+        },
+        "procedure_families": [
+          "blvr"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31647",
+              "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+              "units": 1
+            },
+            {
+              "code": "+31651",
+              "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 10.0,
+          "practice_expense_rvu": 4.75,
+          "malpractice_rvu": 1.08,
+          "total_rvu": 15.83
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651; total_work_rvu=10.0, total_rvu=15.83 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 10,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Adam Jackson",
+      "patient_age": 70,
+      "patient_mrn": "5681034",
+      "procedure_date": "2025-06-04",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: Adam Jackson | MRN: 5681034 | DOS: 2025-06-04\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 31647:\n  Rationale: Bronchoscopy with placement of bronchial valve(s), initial lobe. Same CPT codes (31647/31651) are used for valve placement regardless of indication (BPF vs emphysema/BLVR).\n  Facility RVU: 11.15\n  Facility Payment: $361\n\nCPT 31651:\n  Rationale: Add-on for additional valve in same lobe (second valve in RLL).\n  Facility RVU: 4.28\n  Facility Payment: $138\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n  \u2022 Zephyr 4\n  \u2022 Zephyr EBV\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nBLVR:\n  - Indication: Bronchopleural fistula/air leak\n  - Indication Not Emphysema: True\n  - Valve Type: Zephyr (Pulmonx)\n  - Number Of Valves: 2\n  - Target Lobes: ['RLL']\n  - Chartis Performed: False\n  - Balloon Occlusion Testing: True\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: 15.43\n  Total Facility Payment: $499.0\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        31647,
+        31651
+      ],
+      "registry_entry": {
+        "patient_mrn": "5681034",
+        "procedure_date": "2025-06-04",
+        "patient_age": 70,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Bronchopleural fistula with persistent air leak - post lobectomy",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "BPF/Air leak - post-surgical",
+        "cpt_codes": [
+          31647,
+          31651
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-03-07",
+          "primary_indication": "Persistent BPF/air leak POD#14 post RUL lobectomy",
+          "valve_indication": "Air leak closure, NOT emphysema/BLVR"
+        },
+        "institution_name": "Stanford Medical Center, Palo Alto, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient (floor)",
+        "bleeding_severity": "None",
+        "pneumothorax": true,
+        "pneumothorax_intervention": "Chest tube - water seal",
+        "blvr_target_lobe": "RLL",
+        "blvr_valve_type": "Zephyr (Pulmonx)",
+        "blvr_number_of_valves": 2,
+        "procedures_performed": {
+          "blvr": {
+            "performed": true,
+            "indication": "Bronchopleural fistula/air leak",
+            "indication_not_emphysema": true,
+            "valve_type": "Zephyr (Pulmonx)",
+            "number_of_valves": 2,
+            "target_lobes": [
+              "RLL"
+            ],
+            "chartis_performed": false,
+            "balloon_occlusion_testing": true
+          }
+        },
+        "granular_data": {
+          "blvr_valve_placements": [
+            {
+              "valve_number": 1,
+              "target_lobe": "RLL",
+              "segment": "RB6 (superior)",
+              "valve_size": "4.0",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true,
+              "notes": "First valve for BPF closure"
+            },
+            {
+              "valve_number": 2,
+              "target_lobe": "RLL",
+              "segment": "RB9 (lateral basal)",
+              "valve_size": "4.0-LP",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true,
+              "notes": "Second valve - complete air leak cessation achieved"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Fistula",
+          "radiographic_findings": "Right apical pneumothorax, post-lobectomy changes",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Priya Patel",
+          "fellow_name": "Kevin Nguyen",
+          "fellow_pgy_level": 6,
+          "assistant_name": "Anna Martinez",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "immediate_success": true,
+          "air_leak_cessation": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902357"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31647",
+            "final_codes": [
+              "31647",
+              "31651"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31647": "Bronchoscopy with placement of bronchial valve(s), initial lobe. Same CPT codes (31647/31651) are used for valve placement regardless of indication (BPF vs emphysema/BLVR).",
+              "31651": "Add-on for additional valve in same lobe (second valve in RLL)."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 15.43,
+            "facility_total_payment": 499.0,
+            "per_code": {
+              "31647": {
+                "facility_rvu": 11.15,
+                "facility_payment": 361
+              },
+              "31651": {
+                "facility_rvu": 4.28,
+                "facility_payment": 138
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "BPF/AIR LEAK VALVE CASE: Endobronchial valves placed for bronchopleural fistula air leak management, NOT for lung volume reduction/emphysema. Same CPT codes apply but registry/tagging should distinguish this from true BLVR cases. Label should be 'blvr' but with indication noted as 'Fistula/Air Leak'."
+        },
+        "procedure_families": [
+          "blvr"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31647",
+              "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+              "units": 1
+            },
+            {
+              "code": "+31651",
+              "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 10.0,
+          "practice_expense_rvu": 4.75,
+          "malpractice_rvu": 1.08,
+          "total_rvu": 15.83
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651; total_work_rvu=10.0, total_rvu=15.83 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 10,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Luis Turner",
+      "patient_age": 65,
+      "patient_mrn": "6246357",
+      "procedure_date": "2024-12-24",
+      "note_text": "PROCEDURE NOTE\n\nDate: 2024-12-24\nPatient: Luis Turner\nMRN: 6246357\nAge/Sex: 65yo M\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nBronchopleural fistula with persistent air leak - post lobectomy\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nGeneral\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Blvr performed\n5. Scope withdrawn\n6. Patient recovered without complication\n\nSPECIMENS:\nNone\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nInpatient (floor)\n\nCPT CODES: 31647, 31651\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        31647,
+        31651
+      ],
+      "registry_entry": {
+        "patient_mrn": "6246357",
+        "procedure_date": "2024-12-24",
+        "patient_age": 65,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Bronchopleural fistula with persistent air leak - post lobectomy",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "BPF/Air leak - post-surgical",
+        "cpt_codes": [
+          31647,
+          31651
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-03-07",
+          "primary_indication": "Persistent BPF/air leak POD#14 post RUL lobectomy",
+          "valve_indication": "Air leak closure, NOT emphysema/BLVR"
+        },
+        "institution_name": "Stanford Medical Center, Palo Alto, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient (floor)",
+        "bleeding_severity": "None",
+        "pneumothorax": true,
+        "pneumothorax_intervention": "Chest tube - water seal",
+        "blvr_target_lobe": "RLL",
+        "blvr_valve_type": "Zephyr (Pulmonx)",
+        "blvr_number_of_valves": 2,
+        "procedures_performed": {
+          "blvr": {
+            "performed": true,
+            "indication": "Bronchopleural fistula/air leak",
+            "indication_not_emphysema": true,
+            "valve_type": "Zephyr (Pulmonx)",
+            "number_of_valves": 2,
+            "target_lobes": [
+              "RLL"
+            ],
+            "chartis_performed": false,
+            "balloon_occlusion_testing": true
+          }
+        },
+        "granular_data": {
+          "blvr_valve_placements": [
+            {
+              "valve_number": 1,
+              "target_lobe": "RLL",
+              "segment": "RB6 (superior)",
+              "valve_size": "4.0",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true,
+              "notes": "First valve for BPF closure"
+            },
+            {
+              "valve_number": 2,
+              "target_lobe": "RLL",
+              "segment": "RB9 (lateral basal)",
+              "valve_size": "4.0-LP",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true,
+              "notes": "Second valve - complete air leak cessation achieved"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Fistula",
+          "radiographic_findings": "Right apical pneumothorax, post-lobectomy changes",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Priya Patel",
+          "fellow_name": "Kevin Nguyen",
+          "fellow_pgy_level": 6,
+          "assistant_name": "Anna Martinez",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "immediate_success": true,
+          "air_leak_cessation": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902357"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31647",
+            "final_codes": [
+              "31647",
+              "31651"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31647": "Bronchoscopy with placement of bronchial valve(s), initial lobe. Same CPT codes (31647/31651) are used for valve placement regardless of indication (BPF vs emphysema/BLVR).",
+              "31651": "Add-on for additional valve in same lobe (second valve in RLL)."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 15.43,
+            "facility_total_payment": 499.0,
+            "per_code": {
+              "31647": {
+                "facility_rvu": 11.15,
+                "facility_payment": 361
+              },
+              "31651": {
+                "facility_rvu": 4.28,
+                "facility_payment": 138
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "BPF/AIR LEAK VALVE CASE: Endobronchial valves placed for bronchopleural fistula air leak management, NOT for lung volume reduction/emphysema. Same CPT codes apply but registry/tagging should distinguish this from true BLVR cases. Label should be 'blvr' but with indication noted as 'Fistula/Air Leak'."
+        },
+        "procedure_families": [
+          "blvr"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31647",
+              "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+              "units": 1
+            },
+            {
+              "code": "+31651",
+              "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 10.0,
+          "practice_expense_rvu": 4.75,
+          "malpractice_rvu": 1.08,
+          "total_rvu": 15.83
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651; total_work_rvu=10.0, total_rvu=15.83 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 10,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Paul Morgan",
+      "patient_age": 71,
+      "patient_mrn": "8858633",
+      "procedure_date": "2024-01-11",
+      "note_text": "procedure note 2024-01-11 pt Paul Morgan mrn 8858633\n\nindication bronchopleural fistula with persistent air leak - post lobectomy patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp blvr performed airways inspected all patent no masses stent placed good position confirmed on fluoro valves deployed good seal \n\ncomplication none ebl minimal patient tolerated well disposition Inpatient (floor) \n\ncpt 31647 31651\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        31647,
+        31651
+      ],
+      "registry_entry": {
+        "patient_mrn": "8858633",
+        "procedure_date": "2024-01-11",
+        "patient_age": 71,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Bronchopleural fistula with persistent air leak - post lobectomy",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "BPF/Air leak - post-surgical",
+        "cpt_codes": [
+          31647,
+          31651
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-03-07",
+          "primary_indication": "Persistent BPF/air leak POD#14 post RUL lobectomy",
+          "valve_indication": "Air leak closure, NOT emphysema/BLVR"
+        },
+        "institution_name": "Stanford Medical Center, Palo Alto, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient (floor)",
+        "bleeding_severity": "None",
+        "pneumothorax": true,
+        "pneumothorax_intervention": "Chest tube - water seal",
+        "blvr_target_lobe": "RLL",
+        "blvr_valve_type": "Zephyr (Pulmonx)",
+        "blvr_number_of_valves": 2,
+        "procedures_performed": {
+          "blvr": {
+            "performed": true,
+            "indication": "Bronchopleural fistula/air leak",
+            "indication_not_emphysema": true,
+            "valve_type": "Zephyr (Pulmonx)",
+            "number_of_valves": 2,
+            "target_lobes": [
+              "RLL"
+            ],
+            "chartis_performed": false,
+            "balloon_occlusion_testing": true
+          }
+        },
+        "granular_data": {
+          "blvr_valve_placements": [
+            {
+              "valve_number": 1,
+              "target_lobe": "RLL",
+              "segment": "RB6 (superior)",
+              "valve_size": "4.0",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true,
+              "notes": "First valve for BPF closure"
+            },
+            {
+              "valve_number": 2,
+              "target_lobe": "RLL",
+              "segment": "RB9 (lateral basal)",
+              "valve_size": "4.0-LP",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true,
+              "notes": "Second valve - complete air leak cessation achieved"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Fistula",
+          "radiographic_findings": "Right apical pneumothorax, post-lobectomy changes",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Priya Patel",
+          "fellow_name": "Kevin Nguyen",
+          "fellow_pgy_level": 6,
+          "assistant_name": "Anna Martinez",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "immediate_success": true,
+          "air_leak_cessation": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902357"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31647",
+            "final_codes": [
+              "31647",
+              "31651"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31647": "Bronchoscopy with placement of bronchial valve(s), initial lobe. Same CPT codes (31647/31651) are used for valve placement regardless of indication (BPF vs emphysema/BLVR).",
+              "31651": "Add-on for additional valve in same lobe (second valve in RLL)."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 15.43,
+            "facility_total_payment": 499.0,
+            "per_code": {
+              "31647": {
+                "facility_rvu": 11.15,
+                "facility_payment": 361
+              },
+              "31651": {
+                "facility_rvu": 4.28,
+                "facility_payment": 138
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "BPF/AIR LEAK VALVE CASE: Endobronchial valves placed for bronchopleural fistula air leak management, NOT for lung volume reduction/emphysema. Same CPT codes apply but registry/tagging should distinguish this from true BLVR cases. Label should be 'blvr' but with indication noted as 'Fistula/Air Leak'."
+        },
+        "procedure_families": [
+          "blvr"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31647",
+              "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+              "units": 1
+            },
+            {
+              "code": "+31651",
+              "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 10.0,
+          "practice_expense_rvu": 4.75,
+          "malpractice_rvu": 1.08,
+          "total_rvu": 15.83
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651; total_work_rvu=10.0, total_rvu=15.83 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 10,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Larry Evans",
+      "patient_age": 65,
+      "patient_mrn": "6646405",
+      "procedure_date": "2025-09-29",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE NOTE\n\nPatient: Larry Evans\nMRN: 6646405\nDOB: 06/20/1960 (65 years old)\nDate of Procedure: 2025-09-29\nLocation: Stanford Medical Center, Palo Alto, CA\n\nAttending: Dr. Priya Patel, MD\nFellow: Dr. Kevin Nguyen, MD (PGY-6)\nRN: Anna Martinez\nRT: Brian Lee\n\nPREOPERATIVE DIAGNOSIS: Persistent bronchopleural fistula (BPF) with prolonged air leak, post right upper lobectomy for lung cancer (POD #14)\n\nPOSTOPERATIVE DIAGNOSIS: Same\n\nPROCEDURE: Flexible bronchoscopy with endobronchial valve placement for bronchopleural fistula/air leak closure\n\nINDICATION: 65-year-old male status post right upper lobectomy for stage IIA squamous cell carcinoma 14 days ago, complicated by persistent air leak via chest tube (continuous, >500mL/breath). CT chest shows persistent right apical pneumothorax with bronchial stump intact but suspected peripheral alveolar-pleural fistula in the remaining RML/RLL. Given poor surgical candidacy for re-thoracotomy (COPD, recent surgery, poor nutritional status), endobronchial valve placement was planned for non-surgical management of the air leak.\n\nNOTE: This is NOT a BLVR procedure for emphysema/lung volume reduction. The indication is therapeutic air leak closure in the setting of BPF.\n\nANESTHESIA: General anesthesia (TIVA) with single-lumen ETT\n\nPatient intubated and positioned supine. Flexible bronchoscopy performed. Airway inspection revealed:\n- Trachea: Normal\n- Right bronchial stump: Healing well, no gross leak\n- Right bronchus intermedius: Patent\n- Right middle lobe: Patent, normal appearance\n- Right lower lobe: Segmental bronchi appeared inflamed but patent\n- Left lung: Normal\n\nBalloon occlusion testing was performed to identify the leaking segment. Sequential balloon occlusion of right lower lobe segments revealed:\n- RB6 (superior segment): Partial reduction in air leak\n- RB7-10 (basal segments): Further reduction with RB9 occlusion\n- Combined RB6 + RB9 occlusion: Complete cessation of air leak\n\nBased on balloon occlusion testing, decision was made to place endobronchial valves in RB6 and RB9.\n\nValve placement:\n1. RB6 (superior segment): Zephyr 4.0mm EBV deployed. Good fit, no air flow around valve.\n2. RB9 (lateral basal segment): Zephyr 4.0-LP EBV deployed. Good fit.\n\nPost-valve bronchoscopy confirmed valves in good position. Patient's chest tube placed to water seal at end of procedure.\n\nImmediate post-procedure assessment showed COMPLETE CESSATION of air leak on the chest tube drainage system.\n\n- Zephyr EBV 4.0mm x 1 (RB6)\n- Zephyr EBV 4.0-LP x 1 (RB9)\n\nSPECIMENS: None\n\nCOMPLICATIONS: None\n\nEBL: Minimal\n\nDISPOSITION: Return to thoracic surgery floor. Chest tube to water seal. If no air leak for 48 hours, will remove chest tube.\n\nFOLLOW-UP: Will monitor for valve expectoration. Repeat bronchoscopy in 6-8 weeks for potential valve removal if air leak remains resolved. Valves may be permanent if necessary.\n\nDr. Priya Patel, MD\nDr. Kevin Nguyen, MD",
+      "cpt_codes": [
+        31647,
+        31651
+      ],
+      "registry_entry": {
+        "patient_mrn": "6646405",
+        "procedure_date": "2025-09-29",
+        "patient_age": 65,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Bronchopleural fistula with persistent air leak - post lobectomy",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "BPF/Air leak - post-surgical",
+        "cpt_codes": [
+          31647,
+          31651
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-03-07",
+          "primary_indication": "Persistent BPF/air leak POD#14 post RUL lobectomy",
+          "valve_indication": "Air leak closure, NOT emphysema/BLVR"
+        },
+        "institution_name": "Stanford Medical Center, Palo Alto, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient (floor)",
+        "bleeding_severity": "None",
+        "pneumothorax": true,
+        "pneumothorax_intervention": "Chest tube - water seal",
+        "blvr_target_lobe": "RLL",
+        "blvr_valve_type": "Zephyr (Pulmonx)",
+        "blvr_number_of_valves": 2,
+        "procedures_performed": {
+          "blvr": {
+            "performed": true,
+            "indication": "Bronchopleural fistula/air leak",
+            "indication_not_emphysema": true,
+            "valve_type": "Zephyr (Pulmonx)",
+            "number_of_valves": 2,
+            "target_lobes": [
+              "RLL"
+            ],
+            "chartis_performed": false,
+            "balloon_occlusion_testing": true
+          }
+        },
+        "granular_data": {
+          "blvr_valve_placements": [
+            {
+              "valve_number": 1,
+              "target_lobe": "RLL",
+              "segment": "RB6 (superior)",
+              "valve_size": "4.0",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true,
+              "notes": "First valve for BPF closure"
+            },
+            {
+              "valve_number": 2,
+              "target_lobe": "RLL",
+              "segment": "RB9 (lateral basal)",
+              "valve_size": "4.0-LP",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true,
+              "notes": "Second valve - complete air leak cessation achieved"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Fistula",
+          "radiographic_findings": "Right apical pneumothorax, post-lobectomy changes",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Priya Patel",
+          "fellow_name": "Kevin Nguyen",
+          "fellow_pgy_level": 6,
+          "assistant_name": "Anna Martinez",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "immediate_success": true,
+          "air_leak_cessation": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902357"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31647",
+            "final_codes": [
+              "31647",
+              "31651"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31647": "Bronchoscopy with placement of bronchial valve(s), initial lobe. Same CPT codes (31647/31651) are used for valve placement regardless of indication (BPF vs emphysema/BLVR).",
+              "31651": "Add-on for additional valve in same lobe (second valve in RLL)."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 15.43,
+            "facility_total_payment": 499.0,
+            "per_code": {
+              "31647": {
+                "facility_rvu": 11.15,
+                "facility_payment": 361
+              },
+              "31651": {
+                "facility_rvu": 4.28,
+                "facility_payment": 138
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "BPF/AIR LEAK VALVE CASE: Endobronchial valves placed for bronchopleural fistula air leak management, NOT for lung volume reduction/emphysema. Same CPT codes apply but registry/tagging should distinguish this from true BLVR cases. Label should be 'blvr' but with indication noted as 'Fistula/Air Leak'."
+        },
+        "procedure_families": [
+          "blvr"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31647",
+              "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+              "units": 1
+            },
+            {
+              "code": "+31651",
+              "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 10.0,
+          "practice_expense_rvu": 4.75,
+          "malpractice_rvu": 1.08,
+          "total_rvu": 15.83
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651; total_work_rvu=10.0, total_rvu=15.83 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 10,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Adam Baker",
+      "patient_age": 63,
+      "patient_mrn": "3015491",
+      "procedure_date": "2024-12-01",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Adam Baker\nMRN: 3015491\nDOB: 06/20/1961\nAge: 63\nDate: 2024-12-01\n\n[INDICATION]\nBronchopleural fistula with persistent air leak - post lobectomy\n\n[ANESTHESIA]\nType: General\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Blvr: Performed\n  \u2022 indication: Bronchopleural fistula/air leak\n  \u2022 indication not emphysema: Yes\n  \u2022 valve type: Zephyr (Pulmonx)\n  \u2022 number of valves: 2\n  \u2022 target lobes: RLL\n  \u2022 chartis performed: No\n  \u2022 balloon occlusion testing: Yes\n\n[FINDINGS]\nAssessment: BPF/Air leak - post-surgical\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: Inpatient (floor)\n\n[CODING]\nCPT: 31647, 31651\n",
+      "cpt_codes": [
+        31647,
+        31651
+      ],
+      "registry_entry": {
+        "patient_mrn": "3015491",
+        "procedure_date": "2024-12-01",
+        "patient_age": 63,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Bronchopleural fistula with persistent air leak - post lobectomy",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "BPF/Air leak - post-surgical",
+        "cpt_codes": [
+          31647,
+          31651
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-03-07",
+          "primary_indication": "Persistent BPF/air leak POD#14 post RUL lobectomy",
+          "valve_indication": "Air leak closure, NOT emphysema/BLVR"
+        },
+        "institution_name": "Stanford Medical Center, Palo Alto, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient (floor)",
+        "bleeding_severity": "None",
+        "pneumothorax": true,
+        "pneumothorax_intervention": "Chest tube - water seal",
+        "blvr_target_lobe": "RLL",
+        "blvr_valve_type": "Zephyr (Pulmonx)",
+        "blvr_number_of_valves": 2,
+        "procedures_performed": {
+          "blvr": {
+            "performed": true,
+            "indication": "Bronchopleural fistula/air leak",
+            "indication_not_emphysema": true,
+            "valve_type": "Zephyr (Pulmonx)",
+            "number_of_valves": 2,
+            "target_lobes": [
+              "RLL"
+            ],
+            "chartis_performed": false,
+            "balloon_occlusion_testing": true
+          }
+        },
+        "granular_data": {
+          "blvr_valve_placements": [
+            {
+              "valve_number": 1,
+              "target_lobe": "RLL",
+              "segment": "RB6 (superior)",
+              "valve_size": "4.0",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true,
+              "notes": "First valve for BPF closure"
+            },
+            {
+              "valve_number": 2,
+              "target_lobe": "RLL",
+              "segment": "RB9 (lateral basal)",
+              "valve_size": "4.0-LP",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true,
+              "notes": "Second valve - complete air leak cessation achieved"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Fistula",
+          "radiographic_findings": "Right apical pneumothorax, post-lobectomy changes",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Priya Patel",
+          "fellow_name": "Kevin Nguyen",
+          "fellow_pgy_level": 6,
+          "assistant_name": "Anna Martinez",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "immediate_success": true,
+          "air_leak_cessation": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902357"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31647",
+            "final_codes": [
+              "31647",
+              "31651"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31647": "Bronchoscopy with placement of bronchial valve(s), initial lobe. Same CPT codes (31647/31651) are used for valve placement regardless of indication (BPF vs emphysema/BLVR).",
+              "31651": "Add-on for additional valve in same lobe (second valve in RLL)."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 15.43,
+            "facility_total_payment": 499.0,
+            "per_code": {
+              "31647": {
+                "facility_rvu": 11.15,
+                "facility_payment": 361
+              },
+              "31651": {
+                "facility_rvu": 4.28,
+                "facility_payment": 138
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "BPF/AIR LEAK VALVE CASE: Endobronchial valves placed for bronchopleural fistula air leak management, NOT for lung volume reduction/emphysema. Same CPT codes apply but registry/tagging should distinguish this from true BLVR cases. Label should be 'blvr' but with indication noted as 'Fistula/Air Leak'."
+        },
+        "procedure_families": [
+          "blvr"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31647",
+              "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+              "units": 1
+            },
+            {
+              "code": "+31651",
+              "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 10.0,
+          "practice_expense_rvu": 4.75,
+          "malpractice_rvu": 1.08,
+          "total_rvu": 15.83
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651; total_work_rvu=10.0, total_rvu=15.83 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 10,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Miguel Wong",
+      "patient_age": 62,
+      "patient_mrn": "8337766",
+      "procedure_date": "2024-07-18",
+      "note_text": "On 2024-07-18, Miguel Wong, a 62-year-old male (MRN 8337766), underwent bronchoscopic evaluation for Bronchopleural fistula with persistent air leak - post lobectomy. The patient received General and the procedure was performed in standard fashion. The procedure included blvr. \n\nOn examination, the airways were systematically inspected. The visualized airways appeared patent without significant abnormality. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is bpf/air leak - post-surgical. \n\nProcedural coding: 31647, 31651.",
+      "cpt_codes": [
+        31647,
+        31651
+      ],
+      "registry_entry": {
+        "patient_mrn": "8337766",
+        "procedure_date": "2024-07-18",
+        "patient_age": 62,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Bronchopleural fistula with persistent air leak - post lobectomy",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "BPF/Air leak - post-surgical",
+        "cpt_codes": [
+          31647,
+          31651
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-03-07",
+          "primary_indication": "Persistent BPF/air leak POD#14 post RUL lobectomy",
+          "valve_indication": "Air leak closure, NOT emphysema/BLVR"
+        },
+        "institution_name": "Stanford Medical Center, Palo Alto, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient (floor)",
+        "bleeding_severity": "None",
+        "pneumothorax": true,
+        "pneumothorax_intervention": "Chest tube - water seal",
+        "blvr_target_lobe": "RLL",
+        "blvr_valve_type": "Zephyr (Pulmonx)",
+        "blvr_number_of_valves": 2,
+        "procedures_performed": {
+          "blvr": {
+            "performed": true,
+            "indication": "Bronchopleural fistula/air leak",
+            "indication_not_emphysema": true,
+            "valve_type": "Zephyr (Pulmonx)",
+            "number_of_valves": 2,
+            "target_lobes": [
+              "RLL"
+            ],
+            "chartis_performed": false,
+            "balloon_occlusion_testing": true
+          }
+        },
+        "granular_data": {
+          "blvr_valve_placements": [
+            {
+              "valve_number": 1,
+              "target_lobe": "RLL",
+              "segment": "RB6 (superior)",
+              "valve_size": "4.0",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true,
+              "notes": "First valve for BPF closure"
+            },
+            {
+              "valve_number": 2,
+              "target_lobe": "RLL",
+              "segment": "RB9 (lateral basal)",
+              "valve_size": "4.0-LP",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true,
+              "notes": "Second valve - complete air leak cessation achieved"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Fistula",
+          "radiographic_findings": "Right apical pneumothorax, post-lobectomy changes",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Priya Patel",
+          "fellow_name": "Kevin Nguyen",
+          "fellow_pgy_level": 6,
+          "assistant_name": "Anna Martinez",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "immediate_success": true,
+          "air_leak_cessation": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902357"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31647",
+            "final_codes": [
+              "31647",
+              "31651"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31647": "Bronchoscopy with placement of bronchial valve(s), initial lobe. Same CPT codes (31647/31651) are used for valve placement regardless of indication (BPF vs emphysema/BLVR).",
+              "31651": "Add-on for additional valve in same lobe (second valve in RLL)."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 15.43,
+            "facility_total_payment": 499.0,
+            "per_code": {
+              "31647": {
+                "facility_rvu": 11.15,
+                "facility_payment": 361
+              },
+              "31651": {
+                "facility_rvu": 4.28,
+                "facility_payment": 138
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "BPF/AIR LEAK VALVE CASE: Endobronchial valves placed for bronchopleural fistula air leak management, NOT for lung volume reduction/emphysema. Same CPT codes apply but registry/tagging should distinguish this from true BLVR cases. Label should be 'blvr' but with indication noted as 'Fistula/Air Leak'."
+        },
+        "procedure_families": [
+          "blvr"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31647",
+              "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+              "units": 1
+            },
+            {
+              "code": "+31651",
+              "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 10.0,
+          "practice_expense_rvu": 4.75,
+          "malpractice_rvu": 1.08,
+          "total_rvu": 15.83
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651; total_work_rvu=10.0, total_rvu=15.83 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 10,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Bryan Roberts",
+      "patient_age": 66,
+      "patient_mrn": "4555344",
+      "procedure_date": "2025-08-27",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE NOTE\n\nPatient: Bryan Roberts\nMRN: 4555344\nDOB: 06/20/1959 (66 years old)\nDate of Procedure: 2025-08-27\nLocation: Stanford Medical Center, Palo Alto, CA\n\nAttending: Dr. Priya Patel, MD\nFellow: Dr. Kevin Nguyen, MD (PGY-6)\nRN: Anna Martinez\nRT: Brian Lee\n\nPREOPERATIVE DIAGNOSIS: Persistent bronchopleural fistula (BPF) with prolonged air leak, post right upper lobectomy for lung cancer (POD #14)\n\nPOSTOPERATIVE DIAGNOSIS: Same\n\nPROCEDURE: Flexible bronchoscopy with endobronchial valve placement for bronchopleural fistula/air leak closure\n\nINDICATION: 66-year-old male status post right upper lobectomy for stage IIA squamous cell carcinoma 14 days ago, complicated by persistent air leak via chest tube (continuous, >500mL/breath). CT chest shows persistent right apical pneumothorax with bronchial stump intact but suspected peripheral alveolar-pleural fistula in the remaining RML/RLL. Given poor surgical candidacy for re-thoracotomy (COPD, recent surgery, poor nutritional status), endobronchial valve placement was planned for non-surgical management of the air leak.\n\nNOTE: This is NOT a BLVR procedure for emphysema/lung volume reduction. The indication is therapeutic air leak closure in the setting of BPF.\n\nANESTHESIA: General anesthesia (TIVA) with single-lumen ETT\n\nPROCEDURE NARRATIVE:\nPatient intubated and positioned supine. Flexible bronchoscopy completed. Airway inspection exhibited:\n- Trachea: Normal\n- Right bronchial stump: Healing well, no gross leak\n- Right bronchus intermedius: Open\n- Right middle lobe: Open, normal appearance\n- Right lower lobe: Segmental bronchi appeared inflamed but open\n- Left lung: Normal\n\nBalloon occlusion testing was completed to identify the leaking segment. Sequential balloon occlusion of right lower lobe segments exhibited:\n- RB6 (superior segment): Partial reduction in air leak\n- RB7-10 (basal segments): Further reduction with RB9 occlusion\n- Combined RB6 + RB9 occlusion: Complete cessation of air leak\n\nBased on balloon occlusion testing, decision was made to place endobronchial valves in RB6 and RB9.\n\nValve placement:\n1. RB6 (superior segment): Zephyr 4.0mm EBV placed. Good fit, no air flow around valve.\n2. RB9 (lateral basal segment): Zephyr 4.0-LP EBV placed. Good fit.\n\nPost-valve bronchoscopy established valves in good position. Patient's chest tube introduced to water seal at end of procedure.\n\nImmediate post-procedure assessment exhibited COMPLETE CESSATION of air leak on the chest tube drainage system.\n\nDEVICES:\n- Zephyr EBV 4.0mm x 1 (RB6)\n- Zephyr EBV 4.0-LP x 1 (RB9)\n\nSPECIMENS: None\n\nCOMPLICATIONS: None\n\nEBL: Minimal\n\nDISPOSITION: Return to thoracic surgery floor. Chest tube to water seal. If no air leak for 48 hours, will remove chest tube.\n\nFOLLOW-UP: Will monitor for valve expectoration. Repeat bronchoscopy in 6-8 weeks for potential valve removal if air leak remains resolved. Valves may be permanent if necessary.\n\nDr. Priya Patel, MD\nDr. Kevin Nguyen, MD",
+      "cpt_codes": [
+        31647,
+        31651
+      ],
+      "registry_entry": {
+        "patient_mrn": "4555344",
+        "procedure_date": "2025-08-27",
+        "patient_age": 66,
+        "gender": "Male",
+        "asa_class": 3,
+        "primary_indication": "Bronchopleural fistula with persistent air leak - post lobectomy",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "BPF/Air leak - post-surgical",
+        "cpt_codes": [
+          31647,
+          31651
+        ],
+        "evidence": {
+          "procedure_date": "Date of Procedure: 2025-03-07",
+          "primary_indication": "Persistent BPF/air leak POD#14 post RUL lobectomy",
+          "valve_indication": "Air leak closure, NOT emphysema/BLVR"
+        },
+        "institution_name": "Stanford Medical Center, Palo Alto, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Inpatient (floor)",
+        "bleeding_severity": "None",
+        "pneumothorax": true,
+        "pneumothorax_intervention": "Chest tube - water seal",
+        "blvr_target_lobe": "RLL",
+        "blvr_valve_type": "Zephyr (Pulmonx)",
+        "blvr_number_of_valves": 2,
+        "procedures_performed": {
+          "blvr": {
+            "performed": true,
+            "indication": "Bronchopleural fistula/air leak",
+            "indication_not_emphysema": true,
+            "valve_type": "Zephyr (Pulmonx)",
+            "number_of_valves": 2,
+            "target_lobes": [
+              "RLL"
+            ],
+            "chartis_performed": false,
+            "balloon_occlusion_testing": true
+          }
+        },
+        "granular_data": {
+          "blvr_valve_placements": [
+            {
+              "valve_number": 1,
+              "target_lobe": "RLL",
+              "segment": "RB6 (superior)",
+              "valve_size": "4.0",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true,
+              "notes": "First valve for BPF closure"
+            },
+            {
+              "valve_number": 2,
+              "target_lobe": "RLL",
+              "segment": "RB9 (lateral basal)",
+              "valve_size": "4.0-LP",
+              "valve_type": "Zephyr (Pulmonx)",
+              "deployment_successful": true,
+              "seal_confirmed": true,
+              "notes": "Second valve - complete air leak cessation achieved"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Fistula",
+          "radiographic_findings": "Right apical pneumothorax, post-lobectomy changes",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Priya Patel",
+          "fellow_name": "Kevin Nguyen",
+          "fellow_pgy_level": 6,
+          "assistant_name": "Anna Martinez",
+          "assistant_role": "RN",
+          "trainee_present": true
+        },
+        "outcomes": {
+          "procedure_completed": true,
+          "immediate_success": true,
+          "air_leak_cessation": true
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902357"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31647",
+            "final_codes": [
+              "31647",
+              "31651"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31647": "Bronchoscopy with placement of bronchial valve(s), initial lobe. Same CPT codes (31647/31651) are used for valve placement regardless of indication (BPF vs emphysema/BLVR).",
+              "31651": "Add-on for additional valve in same lobe (second valve in RLL)."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 15.43,
+            "facility_total_payment": 499.0,
+            "per_code": {
+              "31647": {
+                "facility_rvu": 11.15,
+                "facility_payment": 361
+              },
+              "31651": {
+                "facility_rvu": 4.28,
+                "facility_payment": 138
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "BPF/AIR LEAK VALVE CASE: Endobronchial valves placed for bronchopleural fistula air leak management, NOT for lung volume reduction/emphysema. Same CPT codes apply but registry/tagging should distinguish this from true BLVR cases. Label should be 'blvr' but with indication noted as 'Fistula/Air Leak'."
+        },
+        "procedure_families": [
+          "blvr"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31647",
+              "description": "Bronchoscopy; with endobronchial valve placement, initial bronchus",
+              "units": 1
+            },
+            {
+              "code": "+31651",
+              "description": "Bronchoscopy; with endobronchial valve placement, each additional bronchus (add-on)",
+              "units": 1
+            }
+          ],
+          "work_rvu": 10.0,
+          "practice_expense_rvu": 4.75,
+          "malpractice_rvu": 1.08,
+          "total_rvu": 15.83
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31647, +31651; total_work_rvu=10.0, total_rvu=15.83 (facility)."
+        ]
+      }
+    }
+  ]
+}

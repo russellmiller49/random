@@ -1,0 +1,1176 @@
+{
+  "base_note": {
+    "note_text": "BRONCHOSCOPY PROCEDURE NOTE\n\nDate: 2025-09-28\nPatient: Robert Martinez\nMRN: 2844661\nDOB: 04/15/1971 (53 years old)\n\nAttending: Dr. Jennifer Liu, MD\nLocation: VA Medical Center, San Diego, CA\n\nINDICATION: 53-year-old male with 30 pack-year smoking history presenting with 3-day history of moderate hemoptysis (approximately 100mL/day). CT chest showed bilateral upper lobe bronchiectasis and tree-in-bud opacities. Sputum cultures pending. Bronchoscopy for airway inspection and clearance of blood/secretions.\n\nPREOPERATIVE DIAGNOSIS: Hemoptysis, likely infectious etiology vs bronchiectasis\n\nPOSTOPERATIVE DIAGNOSIS: Diffuse bronchiectasis with mucopurulent secretions; no endobronchial lesion or active bleeding source identified\n\nPROCEDURE: Diagnostic flexible bronchoscopy with therapeutic suctioning\n\nSEDATION: Moderate sedation (Midazolam 3mg IV, Fentanyl 50mcg IV)\n\nPROCEDURE DESCRIPTION:\nThe patient was sedated and the flexible bronchoscope (Olympus BF-P190) was introduced via the oropharynx. The vocal cords appeared normal without lesions or edema. The trachea was patent with normal mucosa. Carina was sharp.\n\nAIRWAY FINDINGS:\n- Right mainstem: Patent. Old blood coating the mucosa.\n- Right upper lobe: Multiple segments with thick mucopurulent secretions and old blood. Significant bronchiectatic changes. No endobronchial lesions. No active bleeding visualized.\n- Bronchus intermedius: Patent with mild inflammation\n- Right middle lobe: Mucopurulent secretions, no masses\n- Right lower lobe: Bronchiectatic changes, thick secretions\n- Left mainstem: Patent, old blood noted\n- Left upper lobe: Similar bronchiectatic changes with mucopurulent secretions. No tumor or active bleeding.\n- Lingula: Mild secretions\n- Left lower lobe: Bronchiectasis, mucopurulent secretions, no source of bleeding identified\n\nTHERAPEUTIC INTERVENTION:\nExtensive suctioning performed throughout all visualized airways. Large quantities of thick mucopurulent secretions and old blood were cleared from bilateral bronchi. No single bleeding source could be identified - the hemoptysis appears to be diffuse from inflamed bronchiectatic airways.\n\nNo biopsy was performed as no discrete lesion identified. No BAL performed as secretions already sent from suctioning.\n\nSPECIMENS: \n- Bronchial aspirate/secretions: Bacterial culture, fungal culture, AFB culture, cytology\n\nCOMPLICATIONS: None. No active bleeding during or after procedure.\n\nEBL: Trace\n\nPOST-PROCEDURE: Patient tolerated well. No respiratory distress. CXR unchanged from pre-procedure.\n\nIMPRESSION & PLAN:\n1. Diffuse bilateral bronchiectasis with mucopurulent secretions - no discrete bleeding source identified\n2. Hemoptysis likely from diffuse bronchiectatic mucosal inflammation with superimposed infection\n3. No endobronchial malignancy identified\n4. Continue empiric antibiotics pending cultures\n5. Pulmonary hygiene with chest physiotherapy\n6. Follow-up in 2 weeks; consider repeat CT if hemoptysis persists\n\nDr. Jennifer Liu, MD\nPulmonary/Critical Care",
+    "cpt_codes": [
+      31622
+    ],
+    "registry_entry": {
+      "patient_mrn": "2844661",
+      "procedure_date": "2025-09-28",
+      "patient_age": 53,
+      "gender": "Male",
+      "asa_class": 2,
+      "primary_indication": "Hemoptysis - bronchiectasis/infection workup",
+      "sedation_type": "Moderate",
+      "airway_type": "Native",
+      "final_diagnosis_prelim": "Bronchiectasis with infection",
+      "cpt_codes": [
+        31622
+      ],
+      "evidence": {
+        "procedure_date": "Date: 2025-09-28",
+        "primary_indication": "Hemoptysis with bronchiectasis on CT",
+        "procedure_type": "Diagnostic bronchoscopy with suctioning only"
+      },
+      "institution_name": "VA Medical Center, San Diego, CA",
+      "molecular_testing_requested": false,
+      "disposition": "Outpatient discharge",
+      "bleeding_severity": "None during procedure",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "procedures_performed": {
+        "diagnostic_bronchoscopy": {
+          "performed": true,
+          "airways_inspected": "All segments bilaterally",
+          "therapeutic_suctioning": true,
+          "findings": "Diffuse bronchiectasis, mucopurulent secretions, no discrete lesion or bleeding source"
+        }
+      },
+      "bronch_indication": "Hemoptysis",
+      "clinical_context": {
+        "indication_category": "Hemoptysis",
+        "radiographic_findings": "Bilateral upper lobe bronchiectasis, tree-in-bud opacities",
+        "bronchus_sign": "Not assessed"
+      },
+      "providers": {
+        "attending_name": "Jennifer Liu",
+        "fellow_name": null,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": null
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:53:15.902314"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "31622",
+          "final_codes": [
+            "31622"
+          ],
+          "modifiers": [],
+          "changes_made": false,
+          "code_rationales": {
+            "31622": "Diagnostic bronchoscopy with cell washing. The suctioning/aspiration of secretions for culture is inherent to diagnostic bronchoscopy. No biopsy, no BAL, no therapeutic intervention beyond suctioning."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 4.2,
+          "facility_total_payment": 136.0,
+          "per_code": {
+            "31622": {
+              "facility_rvu": 4.2,
+              "facility_payment": 136
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_8.json"
+        },
+        "overall_assessment": "This is a pure diagnostic bronchoscopy case. Suctioning of secretions alone does not elevate to 31645 (therapeutic aspiration) which requires more significant pathology like mucus plugging causing atelectasis. Label: diagnostic_bronchoscopy only."
+      },
+      "procedure_families": [
+        "diagnostic_bronchoscopy"
+      ],
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31622",
+            "description": "Bronchoscopy; diagnostic, with cell washing",
+            "units": 1
+          }
+        ],
+        "work_rvu": 2.53,
+        "practice_expense_rvu": 1.37,
+        "malpractice_rvu": 0.3,
+        "total_rvu": 4.2
+      }
+    },
+    "source_file": "synthetic_edge_cases_v2_8.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.8",
+      "valid_codes": [
+        "31622"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31622; total_work_rvu=2.53, total_rvu=4.2 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 8,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Gabriel Ortiz",
+      "patient_age": 52,
+      "patient_mrn": "3262383",
+      "procedure_date": "2024-01-07",
+      "note_text": "OPERATIVE NOTE\n\nGabriel Ortiz | MRN 3262383 | 2024-01-07\n\nDx: PREOPERATIVE DIAGNOSIS: Hemoptysis, likely infectious etiology vs bronchiectasis\nProc: Patient tolerated well. No respiratory distress. CXR unchanged from pre-procedure.\n\nActions:\n\u2022 Diagnostic Bronchoscopy\n\nCPT: 31622\nComplications: None. No active bleeding during or after procedure.\nDispo: Pulmonary/Critical Care\n",
+      "cpt_codes": [
+        31622
+      ],
+      "registry_entry": {
+        "patient_mrn": "3262383",
+        "procedure_date": "2024-01-07",
+        "patient_age": 52,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Hemoptysis - bronchiectasis/infection workup",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Bronchiectasis with infection",
+        "cpt_codes": [
+          31622
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-09-28",
+          "primary_indication": "Hemoptysis with bronchiectasis on CT",
+          "procedure_type": "Diagnostic bronchoscopy with suctioning only"
+        },
+        "institution_name": "VA Medical Center, San Diego, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "None during procedure",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "procedures_performed": {
+          "diagnostic_bronchoscopy": {
+            "performed": true,
+            "airways_inspected": "All segments bilaterally",
+            "therapeutic_suctioning": true,
+            "findings": "Diffuse bronchiectasis, mucopurulent secretions, no discrete lesion or bleeding source"
+          }
+        },
+        "bronch_indication": "Hemoptysis",
+        "clinical_context": {
+          "indication_category": "Hemoptysis",
+          "radiographic_findings": "Bilateral upper lobe bronchiectasis, tree-in-bud opacities",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Jennifer Liu",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902314"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31622",
+            "final_codes": [
+              "31622"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31622": "Diagnostic bronchoscopy with cell washing. The suctioning/aspiration of secretions for culture is inherent to diagnostic bronchoscopy. No biopsy, no BAL, no therapeutic intervention beyond suctioning."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.2,
+            "facility_total_payment": 136.0,
+            "per_code": {
+              "31622": {
+                "facility_rvu": 4.2,
+                "facility_payment": 136
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "This is a pure diagnostic bronchoscopy case. Suctioning of secretions alone does not elevate to 31645 (therapeutic aspiration) which requires more significant pathology like mucus plugging causing atelectasis. Label: diagnostic_bronchoscopy only."
+        },
+        "procedure_families": [
+          "diagnostic_bronchoscopy"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31622",
+              "description": "Bronchoscopy; diagnostic, with cell washing",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.53,
+          "practice_expense_rvu": 1.37,
+          "malpractice_rvu": 0.3,
+          "total_rvu": 4.2
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31622; total_work_rvu=2.53, total_rvu=4.2 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 8,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Nicholas Long",
+      "patient_age": 51,
+      "patient_mrn": "9161569",
+      "procedure_date": "2024-06-26",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Nicholas Long\nMedical Record Number: 9161569\nDate of Birth: 04/15/1973\nAge at Procedure: 51 years\nProcedure Date: 2024-06-26\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with hemoptysis - bronchiectasis/infection workup. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nDiagnostic Bronchoscopy:\n\n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\n- Right mainstem: Patent. Old blood coating the mucosa.\n- Right upper lobe: Multiple segments with thick mucopurulent secretions and old blood. Significant bronchiectatic changes. No endobronchial lesions. No active bleeding visualized.\n- Bronchus intermedius: Patent with mild inflammation\n- Right middle lobe: Mucopurulent secretions, no masses\n- Right lower lobe: Bronchiectatic changes, thick secretions\n- Left mainstem: Patent, old blood noted\n- Left upper lobe: Similar bronchiectatic changes w\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 31622\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        31622
+      ],
+      "registry_entry": {
+        "patient_mrn": "9161569",
+        "procedure_date": "2024-06-26",
+        "patient_age": 51,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Hemoptysis - bronchiectasis/infection workup",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Bronchiectasis with infection",
+        "cpt_codes": [
+          31622
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-09-28",
+          "primary_indication": "Hemoptysis with bronchiectasis on CT",
+          "procedure_type": "Diagnostic bronchoscopy with suctioning only"
+        },
+        "institution_name": "VA Medical Center, San Diego, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "None during procedure",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "procedures_performed": {
+          "diagnostic_bronchoscopy": {
+            "performed": true,
+            "airways_inspected": "All segments bilaterally",
+            "therapeutic_suctioning": true,
+            "findings": "Diffuse bronchiectasis, mucopurulent secretions, no discrete lesion or bleeding source"
+          }
+        },
+        "bronch_indication": "Hemoptysis",
+        "clinical_context": {
+          "indication_category": "Hemoptysis",
+          "radiographic_findings": "Bilateral upper lobe bronchiectasis, tree-in-bud opacities",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Jennifer Liu",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902314"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31622",
+            "final_codes": [
+              "31622"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31622": "Diagnostic bronchoscopy with cell washing. The suctioning/aspiration of secretions for culture is inherent to diagnostic bronchoscopy. No biopsy, no BAL, no therapeutic intervention beyond suctioning."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.2,
+            "facility_total_payment": 136.0,
+            "per_code": {
+              "31622": {
+                "facility_rvu": 4.2,
+                "facility_payment": 136
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "This is a pure diagnostic bronchoscopy case. Suctioning of secretions alone does not elevate to 31645 (therapeutic aspiration) which requires more significant pathology like mucus plugging causing atelectasis. Label: diagnostic_bronchoscopy only."
+        },
+        "procedure_families": [
+          "diagnostic_bronchoscopy"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31622",
+              "description": "Bronchoscopy; diagnostic, with cell washing",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.53,
+          "practice_expense_rvu": 1.37,
+          "malpractice_rvu": 0.3,
+          "total_rvu": 4.2
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31622; total_work_rvu=2.53, total_rvu=4.2 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 8,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Brandon Kumar",
+      "patient_age": 50,
+      "patient_mrn": "4005608",
+      "procedure_date": "2025-10-02",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: Brandon Kumar | MRN: 4005608 | DOS: 2025-10-02\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 31622:\n  Rationale: Diagnostic bronchoscopy with cell washing. The suctioning/aspiration of secretions for culture is inherent to diagnostic bronchoscopy. No biopsy, no BAL, no therapeutic intervention beyond suctioning.\n  Facility RVU: 4.2\n  Facility Payment: $136\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n  \u2022 Olympus BF-P190\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nDIAGNOSTIC BRONCHOSCOPY:\n  - Airways Inspected: All segments bilaterally\n  - Therapeutic Suctioning: True\n  - Findings: Diffuse bronchiectasis, mucopurulent secretions, no discrete lesion or bleeding source\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: 4.2\n  Total Facility Payment: $136.0\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        31622
+      ],
+      "registry_entry": {
+        "patient_mrn": "4005608",
+        "procedure_date": "2025-10-02",
+        "patient_age": 50,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Hemoptysis - bronchiectasis/infection workup",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Bronchiectasis with infection",
+        "cpt_codes": [
+          31622
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-09-28",
+          "primary_indication": "Hemoptysis with bronchiectasis on CT",
+          "procedure_type": "Diagnostic bronchoscopy with suctioning only"
+        },
+        "institution_name": "VA Medical Center, San Diego, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "None during procedure",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "procedures_performed": {
+          "diagnostic_bronchoscopy": {
+            "performed": true,
+            "airways_inspected": "All segments bilaterally",
+            "therapeutic_suctioning": true,
+            "findings": "Diffuse bronchiectasis, mucopurulent secretions, no discrete lesion or bleeding source"
+          }
+        },
+        "bronch_indication": "Hemoptysis",
+        "clinical_context": {
+          "indication_category": "Hemoptysis",
+          "radiographic_findings": "Bilateral upper lobe bronchiectasis, tree-in-bud opacities",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Jennifer Liu",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902314"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31622",
+            "final_codes": [
+              "31622"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31622": "Diagnostic bronchoscopy with cell washing. The suctioning/aspiration of secretions for culture is inherent to diagnostic bronchoscopy. No biopsy, no BAL, no therapeutic intervention beyond suctioning."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.2,
+            "facility_total_payment": 136.0,
+            "per_code": {
+              "31622": {
+                "facility_rvu": 4.2,
+                "facility_payment": 136
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "This is a pure diagnostic bronchoscopy case. Suctioning of secretions alone does not elevate to 31645 (therapeutic aspiration) which requires more significant pathology like mucus plugging causing atelectasis. Label: diagnostic_bronchoscopy only."
+        },
+        "procedure_families": [
+          "diagnostic_bronchoscopy"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31622",
+              "description": "Bronchoscopy; diagnostic, with cell washing",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.53,
+          "practice_expense_rvu": 1.37,
+          "malpractice_rvu": 0.3,
+          "total_rvu": 4.2
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31622; total_work_rvu=2.53, total_rvu=4.2 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 8,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Kevin Richardson",
+      "patient_age": 51,
+      "patient_mrn": "4596419",
+      "procedure_date": "2025-11-15",
+      "note_text": "PROCEDURE NOTE\n\nDate: 2025-11-15\nPatient: Kevin Richardson\nMRN: 4596419\nAge/Sex: 51yo M\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nHemoptysis - bronchiectasis/infection workup\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nModerate\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Diagnostic Bronchoscopy performed\n5. Scope withdrawn\n6. Patient recovered without complication\n\nSPECIMENS:\n- Bronchial aspirate/secretions: Bacterial culture, fungal culture, AFB culture, cytology\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nOutpatient discharge\n\nCPT CODES: 31622\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        31622
+      ],
+      "registry_entry": {
+        "patient_mrn": "4596419",
+        "procedure_date": "2025-11-15",
+        "patient_age": 51,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Hemoptysis - bronchiectasis/infection workup",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Bronchiectasis with infection",
+        "cpt_codes": [
+          31622
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-09-28",
+          "primary_indication": "Hemoptysis with bronchiectasis on CT",
+          "procedure_type": "Diagnostic bronchoscopy with suctioning only"
+        },
+        "institution_name": "VA Medical Center, San Diego, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "None during procedure",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "procedures_performed": {
+          "diagnostic_bronchoscopy": {
+            "performed": true,
+            "airways_inspected": "All segments bilaterally",
+            "therapeutic_suctioning": true,
+            "findings": "Diffuse bronchiectasis, mucopurulent secretions, no discrete lesion or bleeding source"
+          }
+        },
+        "bronch_indication": "Hemoptysis",
+        "clinical_context": {
+          "indication_category": "Hemoptysis",
+          "radiographic_findings": "Bilateral upper lobe bronchiectasis, tree-in-bud opacities",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Jennifer Liu",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902314"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31622",
+            "final_codes": [
+              "31622"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31622": "Diagnostic bronchoscopy with cell washing. The suctioning/aspiration of secretions for culture is inherent to diagnostic bronchoscopy. No biopsy, no BAL, no therapeutic intervention beyond suctioning."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.2,
+            "facility_total_payment": 136.0,
+            "per_code": {
+              "31622": {
+                "facility_rvu": 4.2,
+                "facility_payment": 136
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "This is a pure diagnostic bronchoscopy case. Suctioning of secretions alone does not elevate to 31645 (therapeutic aspiration) which requires more significant pathology like mucus plugging causing atelectasis. Label: diagnostic_bronchoscopy only."
+        },
+        "procedure_families": [
+          "diagnostic_bronchoscopy"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31622",
+              "description": "Bronchoscopy; diagnostic, with cell washing",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.53,
+          "practice_expense_rvu": 1.37,
+          "malpractice_rvu": 0.3,
+          "total_rvu": 4.2
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31622; total_work_rvu=2.53, total_rvu=4.2 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 8,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Justin Baker",
+      "patient_age": 57,
+      "patient_mrn": "5948678",
+      "procedure_date": "2025-09-26",
+      "note_text": "procedure note 2025-09-26 pt Justin Baker mrn 5948678\n\nindication hemoptysis - bronchiectasis/infection workup patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp diagnostic bronchoscopy performed airways inspected all patent no masses samples obtained sent to path \n\ncomplication none ebl minimal patient tolerated well disposition Outpatient discharge \n\ncpt 31622\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        31622
+      ],
+      "registry_entry": {
+        "patient_mrn": "5948678",
+        "procedure_date": "2025-09-26",
+        "patient_age": 57,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Hemoptysis - bronchiectasis/infection workup",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Bronchiectasis with infection",
+        "cpt_codes": [
+          31622
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-09-28",
+          "primary_indication": "Hemoptysis with bronchiectasis on CT",
+          "procedure_type": "Diagnostic bronchoscopy with suctioning only"
+        },
+        "institution_name": "VA Medical Center, San Diego, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "None during procedure",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "procedures_performed": {
+          "diagnostic_bronchoscopy": {
+            "performed": true,
+            "airways_inspected": "All segments bilaterally",
+            "therapeutic_suctioning": true,
+            "findings": "Diffuse bronchiectasis, mucopurulent secretions, no discrete lesion or bleeding source"
+          }
+        },
+        "bronch_indication": "Hemoptysis",
+        "clinical_context": {
+          "indication_category": "Hemoptysis",
+          "radiographic_findings": "Bilateral upper lobe bronchiectasis, tree-in-bud opacities",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Jennifer Liu",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902314"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31622",
+            "final_codes": [
+              "31622"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31622": "Diagnostic bronchoscopy with cell washing. The suctioning/aspiration of secretions for culture is inherent to diagnostic bronchoscopy. No biopsy, no BAL, no therapeutic intervention beyond suctioning."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.2,
+            "facility_total_payment": 136.0,
+            "per_code": {
+              "31622": {
+                "facility_rvu": 4.2,
+                "facility_payment": 136
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "This is a pure diagnostic bronchoscopy case. Suctioning of secretions alone does not elevate to 31645 (therapeutic aspiration) which requires more significant pathology like mucus plugging causing atelectasis. Label: diagnostic_bronchoscopy only."
+        },
+        "procedure_families": [
+          "diagnostic_bronchoscopy"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31622",
+              "description": "Bronchoscopy; diagnostic, with cell washing",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.53,
+          "practice_expense_rvu": 1.37,
+          "malpractice_rvu": 0.3,
+          "total_rvu": 4.2
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31622; total_work_rvu=2.53, total_rvu=4.2 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 8,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Paul Perry",
+      "patient_age": 58,
+      "patient_mrn": "7034241",
+      "procedure_date": "2024-10-08",
+      "note_text": "BRONCHOSCOPY PROCEDURE NOTE\n\nDate: 2024-10-08\nPatient: Paul Perry\nMRN: 7034241\nDOB: 04/15/1966 (58 years old)\n\nAttending: Dr. Jennifer Liu, MD\nLocation: VA Medical Center, San Diego, CA\n\nINDICATION: 58-year-old male with 30 pack-year smoking history presenting with 3-day history of moderate hemoptysis (approximately 100mL/day). CT chest showed bilateral upper lobe bronchiectasis and tree-in-bud opacities. Sputum cultures pending. Bronchoscopy for airway inspection and clearance of blood/secretions.\n\nPREOPERATIVE DIAGNOSIS: Hemoptysis, likely infectious etiology vs bronchiectasis\n\nPOSTOPERATIVE DIAGNOSIS: Diffuse bronchiectasis with mucopurulent secretions; no endobronchial lesion or active bleeding source identified\n\nPROCEDURE: Diagnostic flexible bronchoscopy with therapeutic suctioning\n\nSEDATION: Moderate sedation (Midazolam 3mg IV, Fentanyl 50mcg IV)\n\nThe patient was sedated and the flexible bronchoscope (Olympus BF-P190) was introduced via the oropharynx. The vocal cords appeared normal without lesions or edema. The trachea was patent with normal mucosa. Carina was sharp.\n\n- Right mainstem: Patent. Old blood coating the mucosa.\n- Right upper lobe: Multiple segments with thick mucopurulent secretions and old blood. Significant bronchiectatic changes. No endobronchial lesions. No active bleeding visualized.\n- Bronchus intermedius: Patent with mild inflammation\n- Right middle lobe: Mucopurulent secretions, no masses\n- Right lower lobe: Bronchiectatic changes, thick secretions\n- Left mainstem: Patent, old blood noted\n- Left upper lobe: Similar bronchiectatic changes with mucopurulent secretions. No tumor or active bleeding.\n- Lingula: Mild secretions\n- Left lower lobe: Bronchiectasis, mucopurulent secretions, no source of bleeding identified\n\nExtensive suctioning performed throughout all visualized airways. Large quantities of thick mucopurulent secretions and old blood were cleared from bilateral bronchi. No single bleeding source could be identified - the hemoptysis appears to be diffuse from inflamed bronchiectatic airways.\n\nNo biopsy was performed as no discrete lesion identified. No BAL performed as secretions already sent from suctioning.\n\n- Bronchial aspirate/secretions: Bacterial culture, fungal culture, AFB culture, cytology\n\nCOMPLICATIONS: None. No active bleeding during or after procedure.\n\nEBL: Trace\n\nPOST-PROCEDURE: Patient tolerated well. No respiratory distress. CXR unchanged from pre-procedure.\n\nIMPRESSION & PLAN:\n1. Diffuse bilateral bronchiectasis with mucopurulent secretions - no discrete bleeding source identified\n2. Hemoptysis likely from diffuse bronchiectatic mucosal inflammation with superimposed infection\n3. No endobronchial malignancy identified\n4. Continue empiric antibiotics pending cultures\n5. Pulmonary hygiene with chest physiotherapy\n6. Follow-up in 2 weeks; consider repeat CT if hemoptysis persists\n\nDr. Jennifer Liu, MD\nPulmonary/Critical Care",
+      "cpt_codes": [
+        31622
+      ],
+      "registry_entry": {
+        "patient_mrn": "7034241",
+        "procedure_date": "2024-10-08",
+        "patient_age": 58,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Hemoptysis - bronchiectasis/infection workup",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Bronchiectasis with infection",
+        "cpt_codes": [
+          31622
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-09-28",
+          "primary_indication": "Hemoptysis with bronchiectasis on CT",
+          "procedure_type": "Diagnostic bronchoscopy with suctioning only"
+        },
+        "institution_name": "VA Medical Center, San Diego, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "None during procedure",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "procedures_performed": {
+          "diagnostic_bronchoscopy": {
+            "performed": true,
+            "airways_inspected": "All segments bilaterally",
+            "therapeutic_suctioning": true,
+            "findings": "Diffuse bronchiectasis, mucopurulent secretions, no discrete lesion or bleeding source"
+          }
+        },
+        "bronch_indication": "Hemoptysis",
+        "clinical_context": {
+          "indication_category": "Hemoptysis",
+          "radiographic_findings": "Bilateral upper lobe bronchiectasis, tree-in-bud opacities",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Jennifer Liu",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902314"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31622",
+            "final_codes": [
+              "31622"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31622": "Diagnostic bronchoscopy with cell washing. The suctioning/aspiration of secretions for culture is inherent to diagnostic bronchoscopy. No biopsy, no BAL, no therapeutic intervention beyond suctioning."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.2,
+            "facility_total_payment": 136.0,
+            "per_code": {
+              "31622": {
+                "facility_rvu": 4.2,
+                "facility_payment": 136
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "This is a pure diagnostic bronchoscopy case. Suctioning of secretions alone does not elevate to 31645 (therapeutic aspiration) which requires more significant pathology like mucus plugging causing atelectasis. Label: diagnostic_bronchoscopy only."
+        },
+        "procedure_families": [
+          "diagnostic_bronchoscopy"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31622",
+              "description": "Bronchoscopy; diagnostic, with cell washing",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.53,
+          "practice_expense_rvu": 1.37,
+          "malpractice_rvu": 0.3,
+          "total_rvu": 4.2
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31622; total_work_rvu=2.53, total_rvu=4.2 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 8,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Nicholas Smith",
+      "patient_age": 58,
+      "patient_mrn": "2045790",
+      "procedure_date": "2025-02-17",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Nicholas Smith\nMRN: 2045790\nDOB: 04/15/1967\nAge: 58\nDate: 2025-02-17\n\n[INDICATION]\nHemoptysis - bronchiectasis/infection workup\n\n[ANESTHESIA]\nType: Moderate\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Diagnostic Bronchoscopy: Performed\n  \u2022 airways inspected: All segments bilaterally\n  \u2022 therapeutic suctioning: Yes\n  \u2022 findings: Diffuse bronchiectasis, mucopurulent secretions, no discrete lesion or bleeding source\n\n[FINDINGS]\nAssessment: Bronchiectasis with infection\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: Outpatient discharge\n\n[CODING]\nCPT: 31622\n",
+      "cpt_codes": [
+        31622
+      ],
+      "registry_entry": {
+        "patient_mrn": "2045790",
+        "procedure_date": "2025-02-17",
+        "patient_age": 58,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Hemoptysis - bronchiectasis/infection workup",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Bronchiectasis with infection",
+        "cpt_codes": [
+          31622
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-09-28",
+          "primary_indication": "Hemoptysis with bronchiectasis on CT",
+          "procedure_type": "Diagnostic bronchoscopy with suctioning only"
+        },
+        "institution_name": "VA Medical Center, San Diego, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "None during procedure",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "procedures_performed": {
+          "diagnostic_bronchoscopy": {
+            "performed": true,
+            "airways_inspected": "All segments bilaterally",
+            "therapeutic_suctioning": true,
+            "findings": "Diffuse bronchiectasis, mucopurulent secretions, no discrete lesion or bleeding source"
+          }
+        },
+        "bronch_indication": "Hemoptysis",
+        "clinical_context": {
+          "indication_category": "Hemoptysis",
+          "radiographic_findings": "Bilateral upper lobe bronchiectasis, tree-in-bud opacities",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Jennifer Liu",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902314"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31622",
+            "final_codes": [
+              "31622"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31622": "Diagnostic bronchoscopy with cell washing. The suctioning/aspiration of secretions for culture is inherent to diagnostic bronchoscopy. No biopsy, no BAL, no therapeutic intervention beyond suctioning."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.2,
+            "facility_total_payment": 136.0,
+            "per_code": {
+              "31622": {
+                "facility_rvu": 4.2,
+                "facility_payment": 136
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "This is a pure diagnostic bronchoscopy case. Suctioning of secretions alone does not elevate to 31645 (therapeutic aspiration) which requires more significant pathology like mucus plugging causing atelectasis. Label: diagnostic_bronchoscopy only."
+        },
+        "procedure_families": [
+          "diagnostic_bronchoscopy"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31622",
+              "description": "Bronchoscopy; diagnostic, with cell washing",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.53,
+          "practice_expense_rvu": 1.37,
+          "malpractice_rvu": 0.3,
+          "total_rvu": 4.2
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31622; total_work_rvu=2.53, total_rvu=4.2 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 8,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Noah Diaz",
+      "patient_age": 49,
+      "patient_mrn": "5018125",
+      "procedure_date": "2024-10-26",
+      "note_text": "On 2024-10-26, Noah Diaz, a 49-year-old male (MRN 5018125), underwent bronchoscopic evaluation for Hemoptysis - bronchiectasis/infection workup. The patient received Moderate and the procedure was performed in standard fashion. The procedure included diagnostic bronchoscopy. \n\nOn examination, the airways were systematically inspected. The visualized airways appeared patent without significant abnormality. Abnormal findings were noted as described in detail above. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is bronchiectasis with infection. \n\nProcedural coding: 31622.",
+      "cpt_codes": [
+        31622
+      ],
+      "registry_entry": {
+        "patient_mrn": "5018125",
+        "procedure_date": "2024-10-26",
+        "patient_age": 49,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Hemoptysis - bronchiectasis/infection workup",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Bronchiectasis with infection",
+        "cpt_codes": [
+          31622
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-09-28",
+          "primary_indication": "Hemoptysis with bronchiectasis on CT",
+          "procedure_type": "Diagnostic bronchoscopy with suctioning only"
+        },
+        "institution_name": "VA Medical Center, San Diego, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "None during procedure",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "procedures_performed": {
+          "diagnostic_bronchoscopy": {
+            "performed": true,
+            "airways_inspected": "All segments bilaterally",
+            "therapeutic_suctioning": true,
+            "findings": "Diffuse bronchiectasis, mucopurulent secretions, no discrete lesion or bleeding source"
+          }
+        },
+        "bronch_indication": "Hemoptysis",
+        "clinical_context": {
+          "indication_category": "Hemoptysis",
+          "radiographic_findings": "Bilateral upper lobe bronchiectasis, tree-in-bud opacities",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Jennifer Liu",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902314"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31622",
+            "final_codes": [
+              "31622"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31622": "Diagnostic bronchoscopy with cell washing. The suctioning/aspiration of secretions for culture is inherent to diagnostic bronchoscopy. No biopsy, no BAL, no therapeutic intervention beyond suctioning."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.2,
+            "facility_total_payment": 136.0,
+            "per_code": {
+              "31622": {
+                "facility_rvu": 4.2,
+                "facility_payment": 136
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "This is a pure diagnostic bronchoscopy case. Suctioning of secretions alone does not elevate to 31645 (therapeutic aspiration) which requires more significant pathology like mucus plugging causing atelectasis. Label: diagnostic_bronchoscopy only."
+        },
+        "procedure_families": [
+          "diagnostic_bronchoscopy"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31622",
+              "description": "Bronchoscopy; diagnostic, with cell washing",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.53,
+          "practice_expense_rvu": 1.37,
+          "malpractice_rvu": 0.3,
+          "total_rvu": 4.2
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31622; total_work_rvu=2.53, total_rvu=4.2 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 8,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Kevin Turner",
+      "patient_age": 50,
+      "patient_mrn": "6627383",
+      "procedure_date": "2025-09-02",
+      "note_text": "BRONCHOSCOPY PROCEDURE NOTE\n\nDate: 2025-09-02\nPatient: Kevin Turner\nMRN: 6627383\nDOB: 04/15/1975 (50 years old)\n\nAttending: Dr. Jennifer Liu, MD\nLocation: VA Medical Center, San Diego, CA\n\nINDICATION: 50-year-old male with 30 pack-year smoking history presenting with 3-day history of moderate hemoptysis (approximately 100mL/day). CT chest indicated bilateral upper lobe bronchiectasis and tree-in-bud opacities. Sputum cultures pending. Bronchoscopy for airway inspection and clearance of blood/secretions.\n\nPREOPERATIVE DIAGNOSIS: Hemoptysis, likely infectious etiology vs bronchiectasis\n\nPOSTOPERATIVE DIAGNOSIS: Diffuse bronchiectasis with mucopurulent secretions; no endobronchial lesion or active bleeding source found\n\nPROCEDURE: Diagnostic flexible bronchoscopy with therapeutic suctioning\n\nSEDATION: Moderate sedation (Midazolam 3mg IV, Fentanyl 50mcg IV)\n\nPROCEDURE DESCRIPTION:\nThe patient was sedated and the flexible bronchoscope (Olympus BF-P190) was introduced via the oropharynx. The vocal cords appeared normal without lesions or edema. The trachea was navigable with normal mucosa. Carina was sharp.\n\nAIRWAY FINDINGS:\n- Right mainstem: Navigable. Old blood coating the mucosa.\n- Right upper lobe: Multiple segments with thick mucopurulent secretions and old blood. Significant bronchiectatic changes. No endobronchial lesions. No active bleeding observed.\n- Bronchus intermedius: Navigable with mild inflammation\n- Right middle lobe: Mucopurulent secretions, no masses\n- Right lower lobe: Bronchiectatic changes, thick secretions\n- Left mainstem: Navigable, old blood observed\n- Left upper lobe: Similar bronchiectatic changes with mucopurulent secretions. No tumor or active bleeding.\n- Lingula: Mild secretions\n- Left lower lobe: Bronchiectasis, mucopurulent secretions, no source of bleeding found\n\nTHERAPEUTIC INTERVENTION:\nExtensive suctioning conducted throughout all observed airways. Large quantities of thick mucopurulent secretions and old blood were cleared from bilateral bronchi. No single bleeding source could be found - the hemoptysis appears to be diffuse from inflamed bronchiectatic airways.\n\nNo biopsy was conducted as no discrete lesion found. No BAL conducted as secretions already sent from suctioning.\n\nSPECIMENS: \n- Bronchial aspirate/secretions: Bacterial culture, fungal culture, AFB culture, cytology\n\nCOMPLICATIONS: None. No active bleeding during or after procedure.\n\nEBL: Trace\n\nPOST-PROCEDURE: Patient tolerated well. No respiratory distress. CXR unchanged from pre-procedure.\n\nIMPRESSION & PLAN:\n1. Diffuse bilateral bronchiectasis with mucopurulent secretions - no discrete bleeding source found\n2. Hemoptysis likely from diffuse bronchiectatic mucosal inflammation with superimposed infection\n3. No endobronchial malignancy found\n4. Continue empiric antibiotics pending cultures\n5. Pulmonary hygiene with chest physiotherapy\n6. Follow-up in 2 weeks; consider repeat CT if hemoptysis persists\n\nDr. Jennifer Liu, MD\nPulmonary/Critical Care",
+      "cpt_codes": [
+        31622
+      ],
+      "registry_entry": {
+        "patient_mrn": "6627383",
+        "procedure_date": "2025-09-02",
+        "patient_age": 50,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Hemoptysis - bronchiectasis/infection workup",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Bronchiectasis with infection",
+        "cpt_codes": [
+          31622
+        ],
+        "evidence": {
+          "procedure_date": "Date: 2025-09-28",
+          "primary_indication": "Hemoptysis with bronchiectasis on CT",
+          "procedure_type": "Diagnostic bronchoscopy with suctioning only"
+        },
+        "institution_name": "VA Medical Center, San Diego, CA",
+        "molecular_testing_requested": false,
+        "disposition": "Outpatient discharge",
+        "bleeding_severity": "None during procedure",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "procedures_performed": {
+          "diagnostic_bronchoscopy": {
+            "performed": true,
+            "airways_inspected": "All segments bilaterally",
+            "therapeutic_suctioning": true,
+            "findings": "Diffuse bronchiectasis, mucopurulent secretions, no discrete lesion or bleeding source"
+          }
+        },
+        "bronch_indication": "Hemoptysis",
+        "clinical_context": {
+          "indication_category": "Hemoptysis",
+          "radiographic_findings": "Bilateral upper lobe bronchiectasis, tree-in-bud opacities",
+          "bronchus_sign": "Not assessed"
+        },
+        "providers": {
+          "attending_name": "Jennifer Liu",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": null
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902314"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31622",
+            "final_codes": [
+              "31622"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31622": "Diagnostic bronchoscopy with cell washing. The suctioning/aspiration of secretions for culture is inherent to diagnostic bronchoscopy. No biopsy, no BAL, no therapeutic intervention beyond suctioning."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.2,
+            "facility_total_payment": 136.0,
+            "per_code": {
+              "31622": {
+                "facility_rvu": 4.2,
+                "facility_payment": 136
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "This is a pure diagnostic bronchoscopy case. Suctioning of secretions alone does not elevate to 31645 (therapeutic aspiration) which requires more significant pathology like mucus plugging causing atelectasis. Label: diagnostic_bronchoscopy only."
+        },
+        "procedure_families": [
+          "diagnostic_bronchoscopy"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31622",
+              "description": "Bronchoscopy; diagnostic, with cell washing",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.53,
+          "practice_expense_rvu": 1.37,
+          "malpractice_rvu": 0.3,
+          "total_rvu": 4.2
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31622; total_work_rvu=2.53, total_rvu=4.2 (facility)."
+        ]
+      }
+    }
+  ]
+}

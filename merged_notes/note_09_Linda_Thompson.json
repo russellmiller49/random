@@ -1,0 +1,1456 @@
+{
+  "base_note": {
+    "note_text": "OPERATIVE REPORT - INTERVENTIONAL PULMONOLOGY / THORACIC SURGERY\n\nDATE: 2025-08-15\nPATIENT: Linda Thompson\nMRN: 1472710\nDOB: 09/28/1960 (64 years old)\n\nSURGEONS:\nIP: Dr. Mark Anderson, MD (started case)\nThoracic Surgery: Dr. Sarah Kim, MD (completed case after conversion)\n\nLOCATION: Main OR, Emory University Hospital, Atlanta, GA\n\nPREOPERATIVE DIAGNOSIS: Right-sided exudative pleural effusion, unknown etiology\n\nPOSTOPERATIVE DIAGNOSIS: Dense pleural adhesions with loculated effusion; trapped lung\n\nPLANNED PROCEDURE: Medical thoracoscopy (pleuroscopy) with pleural biopsy and potential talc poudrage\n\nACTUAL PROCEDURES PERFORMED:\n1. Attempted medical thoracoscopy (aborted)\n2. Conversion to VATS (Video-Assisted Thoracoscopic Surgery)\n3. VATS lysis of adhesions\n4. VATS pleural biopsy\n5. Decortication (partial)\n6. Chest tube placement\n\nINDICATION: 64-year-old female with 2-month history of progressive dyspnea. CT chest revealed large right pleural effusion with mild enhancement of pleura concerning for malignancy. Thoracentesis x 2 showed exudative effusion with negative cytology. Medical thoracoscopy planned for definitive diagnosis and potential pleurodesis.\n\nANESTHESIA: General anesthesia with double-lumen endotracheal tube (left-sided)\n\nPROCEDURE NARRATIVE:\n\nMEDICAL THORACOSCOPY ATTEMPT (Dr. Anderson):\nPatient positioned in left lateral decubitus. After induction of general anesthesia and lung isolation, the right chest was prepped and draped. Ultrasound examination revealed a small pocket of fluid in the mid-axillary line but significant lung adherence to chest wall throughout.\n\nA 2cm incision was made in the 6th intercostal space. Upon blunt dissection into the pleural space, immediate dense adhesions were encountered. The 7mm trocar could not be safely advanced due to extensive lung-to-chest-wall adhesions. A small pocket of loculated fluid (~200mL) was drained but no window could be created for safe pleuroscopy. Multiple attempts at different intercostal spaces (5th, 7th) encountered similar dense adhesions.\n\nDECISION TO CONVERT: After thorough discussion with thoracic surgery colleagues and the patient's family (who had been counseled preoperatively about this possibility), the decision was made to convert to VATS for safe completion of the procedure.\n\nVATS PROCEDURE (Dr. Kim):\nThe incision was extended and a 10mm port placed under direct vision where a small pleural space was identified. Two additional 5mm ports were placed. Dense adhesions were found throughout the hemithorax. Using a combination of blunt dissection, electrocautery, and harmonic scalpel, extensive adhesiolysis was performed over approximately 90 minutes.\n\nFindings:\n- Dense fibrinous adhesions throughout\n- Thickened visceral pleura with trapped lung\n- Nodular thickening of parietal pleura (multiple biopsies taken)\n- Approximately 500mL of loculated, amber-colored fluid drained\n\nMultiple parietal pleural biopsies were obtained from chest wall and diaphragmatic pleura. Partial decortication of the visceral pleura was performed to allow lung expansion, though complete expansion could not be achieved due to chronic entrapment.\n\nA 28Fr chest tube was placed. Negative-pressure water seal established. Lung expansion approximately 70% at end of case.\n\nSPECIMENS:\n- Pleural fluid: Cytology, cell count, chemistry, cultures, adenosine deaminase\n- Pleural biopsies (multiple): Surgical pathology\n\nESTIMATED BLOOD LOSS: 150mL\n\nCOMPLICATIONS: None intraoperatively. Conversion was planned contingency.\n\nDISPOSITION: Transferred to SICU for overnight monitoring. Chest tube to suction.\n\nPOST-OPERATIVE PLAN:\n1. Monitor chest tube output\n2. CXR in AM\n3. Await pathology - concern for malignant mesothelioma or chronic fibrinous pleuritis\n4. If lung remains trapped, may require chronic indwelling pleural catheter\n\nDr. Mark Anderson, MD - Interventional Pulmonology\nDr. Sarah Kim, MD - Thoracic Surgery",
+    "cpt_codes": [
+      32555
+    ],
+    "registry_entry": {
+      "patient_mrn": "1472710",
+      "procedure_date": "2025-08-15",
+      "patient_age": 64,
+      "gender": "Female",
+      "asa_class": 3,
+      "primary_indication": "Exudative pleural effusion - rule out malignancy",
+      "sedation_type": "General",
+      "airway_type": "DLT",
+      "final_diagnosis_prelim": "Pending - concern for malignancy/trapped lung",
+      "cpt_codes": [
+        32555
+      ],
+      "evidence": {
+        "procedure_date": "DATE: 2025-08-15",
+        "primary_indication": "Right exudative pleural effusion, negative cytology x2",
+        "procedure_outcome": "Conversion from medical thoracoscopy to VATS due to dense adhesions"
+      },
+      "institution_name": "Emory University Hospital, Atlanta, GA",
+      "molecular_testing_requested": true,
+      "disposition": "ICU admission",
+      "bleeding_severity": "Mild",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "pleural_procedure_type": "Attempted thoracoscopy - converted to VATS",
+      "pleural_guidance": "Direct visualization",
+      "pleural_side": "Right",
+      "pleural_intercostal_space": "6th",
+      "pleural_fluid_appearance": "Amber/Loculated",
+      "pleural_volume_drained_ml": 700,
+      "pleural_thoracoscopy_findings": "Dense adhesions, unable to complete medical thoracoscopy",
+      "pleurodesis_performed": false,
+      "procedures_performed": {
+        "thoracoscopy": {
+          "performed": false,
+          "attempted": true,
+          "reason_not_completed": "Dense pleural adhesions",
+          "converted_to": "VATS"
+        },
+        "pleural_drainage": {
+          "performed": true,
+          "volume_ml": 200,
+          "method": "Incisional drainage during attempted thoracoscopy"
+        }
+      },
+      "granular_data": {
+        "thoracoscopy_findings_detail": [
+          {
+            "location": "Parietal pleura - chest wall",
+            "finding_type": "Adhesions - dense",
+            "extent": "Diffuse",
+            "biopsied": false,
+            "notes": "Unable to safely perform pleuroscopy due to adhesions"
+          }
+        ]
+      },
+      "clinical_context": {
+        "indication_category": "Pleural Effusion - Diagnostic",
+        "radiographic_findings": "Large right pleural effusion with pleural enhancement"
+      },
+      "providers": {
+        "attending_name": "Mark Anderson",
+        "fellow_name": null,
+        "assistant_name": "Sarah Kim (Thoracic Surgery - took over after conversion)",
+        "assistant_role": "Resident",
+        "trainee_present": null,
+        "rose_present": null
+      },
+      "outcomes": {
+        "procedure_completed": false,
+        "converted_to_surgery": true,
+        "conversion_reason": "Dense pleural adhesions precluding safe medical thoracoscopy"
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:53:15.902335"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "32555",
+          "final_codes": [
+            "32555"
+          ],
+          "modifiers": [],
+          "changes_made": false,
+          "code_rationales": {
+            "32555": "IP physician billing: Thoracentesis with imaging guidance for fluid drainage during attempted thoracoscopy. The medical thoracoscopy was attempted but could not be completed due to adhesions. The surgical conversion (VATS, adhesiolysis, decortication) is billed separately by thoracic surgery."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 3.19,
+          "facility_total_payment": 104.0,
+          "per_code": {
+            "32555": {
+              "facility_rvu": 3.19,
+              "facility_payment": 104
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_8.json"
+        },
+        "overall_assessment": "PROCEDURE CONVERSION CASE: Medical thoracoscopy aborted due to dense adhesions, converted to VATS. IP physician codes only for the work completed before handoff. Note distinct disposition change."
+      },
+      "procedure_families": [
+        "pleural_procedure"
+      ],
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "32555",
+            "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+            "units": 1
+          }
+        ],
+        "work_rvu": 2.27,
+        "practice_expense_rvu": 0.63,
+        "malpractice_rvu": 0.29,
+        "total_rvu": 3.19
+      }
+    },
+    "source_file": "synthetic_edge_cases_v2_8.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.8",
+      "valid_codes": [
+        "32555"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 9,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Brenda Ortiz",
+      "patient_age": 67,
+      "patient_mrn": "7635935",
+      "procedure_date": "2025-05-27",
+      "note_text": "OPERATIVE NOTE\n\nMRN: 7635935\n\nDx: ANESTHESIA: General anesthesia with double-lumen endotracheal tube (left-sided)\nProc: Medical thoracoscopy (pleuroscopy) with pleural biopsy and potential talc poudrage\n\nActions:\n\u2022 Pleural Drainage\n\u2022 A 2cm incision was made in the 6th intercostal space. Upon b\n\u2022 The incision was extended and a 10mm port placed under direc\n\nCPT: 32555\nComplications: None intraoperatively. Conversion was planned contingency.\nDispo: Dr. Sarah Kim, MD - Thoracic Surgery\n",
+      "cpt_codes": [
+        32555
+      ],
+      "registry_entry": {
+        "patient_mrn": "7635935",
+        "procedure_date": "2025-05-27",
+        "patient_age": 67,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "Exudative pleural effusion - rule out malignancy",
+        "sedation_type": "General",
+        "airway_type": "DLT",
+        "final_diagnosis_prelim": "Pending - concern for malignancy/trapped lung",
+        "cpt_codes": [
+          32555
+        ],
+        "evidence": {
+          "procedure_date": "DATE: 2025-08-15",
+          "primary_indication": "Right exudative pleural effusion, negative cytology x2",
+          "procedure_outcome": "Conversion from medical thoracoscopy to VATS due to dense adhesions"
+        },
+        "institution_name": "Emory University Hospital, Atlanta, GA",
+        "molecular_testing_requested": true,
+        "disposition": "ICU admission",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Attempted thoracoscopy - converted to VATS",
+        "pleural_guidance": "Direct visualization",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Amber/Loculated",
+        "pleural_volume_drained_ml": 700,
+        "pleural_thoracoscopy_findings": "Dense adhesions, unable to complete medical thoracoscopy",
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "thoracoscopy": {
+            "performed": false,
+            "attempted": true,
+            "reason_not_completed": "Dense pleural adhesions",
+            "converted_to": "VATS"
+          },
+          "pleural_drainage": {
+            "performed": true,
+            "volume_ml": 200,
+            "method": "Incisional drainage during attempted thoracoscopy"
+          }
+        },
+        "granular_data": {
+          "thoracoscopy_findings_detail": [
+            {
+              "location": "Parietal pleura - chest wall",
+              "finding_type": "Adhesions - dense",
+              "extent": "Diffuse",
+              "biopsied": false,
+              "notes": "Unable to safely perform pleuroscopy due to adhesions"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Pleural Effusion - Diagnostic",
+          "radiographic_findings": "Large right pleural effusion with pleural enhancement"
+        },
+        "providers": {
+          "attending_name": "Mark Anderson",
+          "fellow_name": null,
+          "assistant_name": "Sarah Kim (Thoracic Surgery - took over after conversion)",
+          "assistant_role": "Resident",
+          "trainee_present": null,
+          "rose_present": null
+        },
+        "outcomes": {
+          "procedure_completed": false,
+          "converted_to_surgery": true,
+          "conversion_reason": "Dense pleural adhesions precluding safe medical thoracoscopy"
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902335"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32555",
+            "final_codes": [
+              "32555"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32555": "IP physician billing: Thoracentesis with imaging guidance for fluid drainage during attempted thoracoscopy. The medical thoracoscopy was attempted but could not be completed due to adhesions. The surgical conversion (VATS, adhesiolysis, decortication) is billed separately by thoracic surgery."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 3.19,
+            "facility_total_payment": 104.0,
+            "per_code": {
+              "32555": {
+                "facility_rvu": 3.19,
+                "facility_payment": 104
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "PROCEDURE CONVERSION CASE: Medical thoracoscopy aborted due to dense adhesions, converted to VATS. IP physician codes only for the work completed before handoff. Note distinct disposition change."
+        },
+        "procedure_families": [
+          "pleural_procedure"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32555",
+              "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.27,
+          "practice_expense_rvu": 0.63,
+          "malpractice_rvu": 0.29,
+          "total_rvu": 3.19
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 9,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Janice Ward",
+      "patient_age": 61,
+      "patient_mrn": "1173533",
+      "procedure_date": "2024-03-21",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: As documented\nMedical Record Number: 1173533\nDate of Birth: 09/28/1963\nAge at Procedure: 61 years\nProcedure Date: N/A\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with exudative pleural effusion - rule out malignancy. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nPleural Drainage:\n\n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\n- Dense fibrinous adhesions throughout\n- Thickened visceral pleura with trapped lung\n- Nodular thickening of parietal pleura (multiple biopsies taken)\n- Approximately 500mL of loculated, amber-colored fluid drained\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 32555\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        32555
+      ],
+      "registry_entry": {
+        "patient_mrn": "1173533",
+        "procedure_date": "2024-03-21",
+        "patient_age": 61,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "Exudative pleural effusion - rule out malignancy",
+        "sedation_type": "General",
+        "airway_type": "DLT",
+        "final_diagnosis_prelim": "Pending - concern for malignancy/trapped lung",
+        "cpt_codes": [
+          32555
+        ],
+        "evidence": {
+          "procedure_date": "DATE: 2025-08-15",
+          "primary_indication": "Right exudative pleural effusion, negative cytology x2",
+          "procedure_outcome": "Conversion from medical thoracoscopy to VATS due to dense adhesions"
+        },
+        "institution_name": "Emory University Hospital, Atlanta, GA",
+        "molecular_testing_requested": true,
+        "disposition": "ICU admission",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Attempted thoracoscopy - converted to VATS",
+        "pleural_guidance": "Direct visualization",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Amber/Loculated",
+        "pleural_volume_drained_ml": 700,
+        "pleural_thoracoscopy_findings": "Dense adhesions, unable to complete medical thoracoscopy",
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "thoracoscopy": {
+            "performed": false,
+            "attempted": true,
+            "reason_not_completed": "Dense pleural adhesions",
+            "converted_to": "VATS"
+          },
+          "pleural_drainage": {
+            "performed": true,
+            "volume_ml": 200,
+            "method": "Incisional drainage during attempted thoracoscopy"
+          }
+        },
+        "granular_data": {
+          "thoracoscopy_findings_detail": [
+            {
+              "location": "Parietal pleura - chest wall",
+              "finding_type": "Adhesions - dense",
+              "extent": "Diffuse",
+              "biopsied": false,
+              "notes": "Unable to safely perform pleuroscopy due to adhesions"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Pleural Effusion - Diagnostic",
+          "radiographic_findings": "Large right pleural effusion with pleural enhancement"
+        },
+        "providers": {
+          "attending_name": "Mark Anderson",
+          "fellow_name": null,
+          "assistant_name": "Sarah Kim (Thoracic Surgery - took over after conversion)",
+          "assistant_role": "Resident",
+          "trainee_present": null,
+          "rose_present": null
+        },
+        "outcomes": {
+          "procedure_completed": false,
+          "converted_to_surgery": true,
+          "conversion_reason": "Dense pleural adhesions precluding safe medical thoracoscopy"
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902335"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32555",
+            "final_codes": [
+              "32555"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32555": "IP physician billing: Thoracentesis with imaging guidance for fluid drainage during attempted thoracoscopy. The medical thoracoscopy was attempted but could not be completed due to adhesions. The surgical conversion (VATS, adhesiolysis, decortication) is billed separately by thoracic surgery."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 3.19,
+            "facility_total_payment": 104.0,
+            "per_code": {
+              "32555": {
+                "facility_rvu": 3.19,
+                "facility_payment": 104
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "PROCEDURE CONVERSION CASE: Medical thoracoscopy aborted due to dense adhesions, converted to VATS. IP physician codes only for the work completed before handoff. Note distinct disposition change."
+        },
+        "procedure_families": [
+          "pleural_procedure"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32555",
+              "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.27,
+          "practice_expense_rvu": 0.63,
+          "malpractice_rvu": 0.29,
+          "total_rvu": 3.19
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 9,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Deborah Jackson",
+      "patient_age": 62,
+      "patient_mrn": "8482424",
+      "procedure_date": "2024-08-02",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: None | MRN: 8482424 | DOS: None\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 32555:\n  Rationale: IP physician billing: Thoracentesis with imaging guidance for fluid drainage during attempted thoracoscopy. The medical thoracoscopy was attempted but could not be completed due to adhesions. The surgical conversion (VATS, adhesiolysis, decortication) is billed separately by thoracic surgery.\n  Facility RVU: 3.19\n  Facility Payment: $104\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n  \u2022 Ultrasound\n  \u2022 electrocautery\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nTHORACOSCOPY:\n  - Attempted: True\n  - Reason Not Completed: Dense pleural adhesions\n  - Converted To: VATS\n\nPLEURAL DRAINAGE:\n  - Volume Ml: 200\n  - Method: Incisional drainage during attempted thoracoscopy\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: 3.19\n  Total Facility Payment: $104.0\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        32555
+      ],
+      "registry_entry": {
+        "patient_mrn": "8482424",
+        "procedure_date": "2024-08-02",
+        "patient_age": 62,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "Exudative pleural effusion - rule out malignancy",
+        "sedation_type": "General",
+        "airway_type": "DLT",
+        "final_diagnosis_prelim": "Pending - concern for malignancy/trapped lung",
+        "cpt_codes": [
+          32555
+        ],
+        "evidence": {
+          "procedure_date": "DATE: 2025-08-15",
+          "primary_indication": "Right exudative pleural effusion, negative cytology x2",
+          "procedure_outcome": "Conversion from medical thoracoscopy to VATS due to dense adhesions"
+        },
+        "institution_name": "Emory University Hospital, Atlanta, GA",
+        "molecular_testing_requested": true,
+        "disposition": "ICU admission",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Attempted thoracoscopy - converted to VATS",
+        "pleural_guidance": "Direct visualization",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Amber/Loculated",
+        "pleural_volume_drained_ml": 700,
+        "pleural_thoracoscopy_findings": "Dense adhesions, unable to complete medical thoracoscopy",
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "thoracoscopy": {
+            "performed": false,
+            "attempted": true,
+            "reason_not_completed": "Dense pleural adhesions",
+            "converted_to": "VATS"
+          },
+          "pleural_drainage": {
+            "performed": true,
+            "volume_ml": 200,
+            "method": "Incisional drainage during attempted thoracoscopy"
+          }
+        },
+        "granular_data": {
+          "thoracoscopy_findings_detail": [
+            {
+              "location": "Parietal pleura - chest wall",
+              "finding_type": "Adhesions - dense",
+              "extent": "Diffuse",
+              "biopsied": false,
+              "notes": "Unable to safely perform pleuroscopy due to adhesions"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Pleural Effusion - Diagnostic",
+          "radiographic_findings": "Large right pleural effusion with pleural enhancement"
+        },
+        "providers": {
+          "attending_name": "Mark Anderson",
+          "fellow_name": null,
+          "assistant_name": "Sarah Kim (Thoracic Surgery - took over after conversion)",
+          "assistant_role": "Resident",
+          "trainee_present": null,
+          "rose_present": null
+        },
+        "outcomes": {
+          "procedure_completed": false,
+          "converted_to_surgery": true,
+          "conversion_reason": "Dense pleural adhesions precluding safe medical thoracoscopy"
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902335"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32555",
+            "final_codes": [
+              "32555"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32555": "IP physician billing: Thoracentesis with imaging guidance for fluid drainage during attempted thoracoscopy. The medical thoracoscopy was attempted but could not be completed due to adhesions. The surgical conversion (VATS, adhesiolysis, decortication) is billed separately by thoracic surgery."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 3.19,
+            "facility_total_payment": 104.0,
+            "per_code": {
+              "32555": {
+                "facility_rvu": 3.19,
+                "facility_payment": 104
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "PROCEDURE CONVERSION CASE: Medical thoracoscopy aborted due to dense adhesions, converted to VATS. IP physician codes only for the work completed before handoff. Note distinct disposition change."
+        },
+        "procedure_families": [
+          "pleural_procedure"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32555",
+              "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.27,
+          "practice_expense_rvu": 0.63,
+          "malpractice_rvu": 0.29,
+          "total_rvu": 3.19
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 9,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Lauren Phillips",
+      "patient_age": 63,
+      "patient_mrn": "2950994",
+      "procedure_date": "2024-06-17",
+      "note_text": "PROCEDURE NOTE\n\nDate: None\nPatient: None\nMRN: 2950994\nAge/Sex: 63yo F\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nExudative pleural effusion - rule out malignancy\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nGeneral\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Pleural Drainage performed\n5. Scope withdrawn\n6. Patient recovered without complication\n\nSPECIMENS:\n- Pleural fluid: Cytology, cell count, chemistry, cultures, adenosine deaminase\n- Pleural biopsies (multiple): Surgical pathology\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nICU admission\n\nCPT CODES: 32555\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        32555
+      ],
+      "registry_entry": {
+        "patient_mrn": "2950994",
+        "procedure_date": "2024-06-17",
+        "patient_age": 63,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "Exudative pleural effusion - rule out malignancy",
+        "sedation_type": "General",
+        "airway_type": "DLT",
+        "final_diagnosis_prelim": "Pending - concern for malignancy/trapped lung",
+        "cpt_codes": [
+          32555
+        ],
+        "evidence": {
+          "procedure_date": "DATE: 2025-08-15",
+          "primary_indication": "Right exudative pleural effusion, negative cytology x2",
+          "procedure_outcome": "Conversion from medical thoracoscopy to VATS due to dense adhesions"
+        },
+        "institution_name": "Emory University Hospital, Atlanta, GA",
+        "molecular_testing_requested": true,
+        "disposition": "ICU admission",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Attempted thoracoscopy - converted to VATS",
+        "pleural_guidance": "Direct visualization",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Amber/Loculated",
+        "pleural_volume_drained_ml": 700,
+        "pleural_thoracoscopy_findings": "Dense adhesions, unable to complete medical thoracoscopy",
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "thoracoscopy": {
+            "performed": false,
+            "attempted": true,
+            "reason_not_completed": "Dense pleural adhesions",
+            "converted_to": "VATS"
+          },
+          "pleural_drainage": {
+            "performed": true,
+            "volume_ml": 200,
+            "method": "Incisional drainage during attempted thoracoscopy"
+          }
+        },
+        "granular_data": {
+          "thoracoscopy_findings_detail": [
+            {
+              "location": "Parietal pleura - chest wall",
+              "finding_type": "Adhesions - dense",
+              "extent": "Diffuse",
+              "biopsied": false,
+              "notes": "Unable to safely perform pleuroscopy due to adhesions"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Pleural Effusion - Diagnostic",
+          "radiographic_findings": "Large right pleural effusion with pleural enhancement"
+        },
+        "providers": {
+          "attending_name": "Mark Anderson",
+          "fellow_name": null,
+          "assistant_name": "Sarah Kim (Thoracic Surgery - took over after conversion)",
+          "assistant_role": "Resident",
+          "trainee_present": null,
+          "rose_present": null
+        },
+        "outcomes": {
+          "procedure_completed": false,
+          "converted_to_surgery": true,
+          "conversion_reason": "Dense pleural adhesions precluding safe medical thoracoscopy"
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902335"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32555",
+            "final_codes": [
+              "32555"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32555": "IP physician billing: Thoracentesis with imaging guidance for fluid drainage during attempted thoracoscopy. The medical thoracoscopy was attempted but could not be completed due to adhesions. The surgical conversion (VATS, adhesiolysis, decortication) is billed separately by thoracic surgery."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 3.19,
+            "facility_total_payment": 104.0,
+            "per_code": {
+              "32555": {
+                "facility_rvu": 3.19,
+                "facility_payment": 104
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "PROCEDURE CONVERSION CASE: Medical thoracoscopy aborted due to dense adhesions, converted to VATS. IP physician codes only for the work completed before handoff. Note distinct disposition change."
+        },
+        "procedure_families": [
+          "pleural_procedure"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32555",
+              "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.27,
+          "practice_expense_rvu": 0.63,
+          "malpractice_rvu": 0.29,
+          "total_rvu": 3.19
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 9,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Megan Price",
+      "patient_age": 63,
+      "patient_mrn": "5088206",
+      "procedure_date": "2025-08-10",
+      "note_text": "procedure note None pt None mrn 5088206\n\nindication exudative pleural effusion - rule out malignancy patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp pleural drainage performed samples obtained sent to path \n\ncomplication none ebl minimal patient tolerated well disposition ICU admission \n\ncpt 32555\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        32555
+      ],
+      "registry_entry": {
+        "patient_mrn": "5088206",
+        "procedure_date": "2025-08-10",
+        "patient_age": 63,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "Exudative pleural effusion - rule out malignancy",
+        "sedation_type": "General",
+        "airway_type": "DLT",
+        "final_diagnosis_prelim": "Pending - concern for malignancy/trapped lung",
+        "cpt_codes": [
+          32555
+        ],
+        "evidence": {
+          "procedure_date": "DATE: 2025-08-15",
+          "primary_indication": "Right exudative pleural effusion, negative cytology x2",
+          "procedure_outcome": "Conversion from medical thoracoscopy to VATS due to dense adhesions"
+        },
+        "institution_name": "Emory University Hospital, Atlanta, GA",
+        "molecular_testing_requested": true,
+        "disposition": "ICU admission",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Attempted thoracoscopy - converted to VATS",
+        "pleural_guidance": "Direct visualization",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Amber/Loculated",
+        "pleural_volume_drained_ml": 700,
+        "pleural_thoracoscopy_findings": "Dense adhesions, unable to complete medical thoracoscopy",
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "thoracoscopy": {
+            "performed": false,
+            "attempted": true,
+            "reason_not_completed": "Dense pleural adhesions",
+            "converted_to": "VATS"
+          },
+          "pleural_drainage": {
+            "performed": true,
+            "volume_ml": 200,
+            "method": "Incisional drainage during attempted thoracoscopy"
+          }
+        },
+        "granular_data": {
+          "thoracoscopy_findings_detail": [
+            {
+              "location": "Parietal pleura - chest wall",
+              "finding_type": "Adhesions - dense",
+              "extent": "Diffuse",
+              "biopsied": false,
+              "notes": "Unable to safely perform pleuroscopy due to adhesions"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Pleural Effusion - Diagnostic",
+          "radiographic_findings": "Large right pleural effusion with pleural enhancement"
+        },
+        "providers": {
+          "attending_name": "Mark Anderson",
+          "fellow_name": null,
+          "assistant_name": "Sarah Kim (Thoracic Surgery - took over after conversion)",
+          "assistant_role": "Resident",
+          "trainee_present": null,
+          "rose_present": null
+        },
+        "outcomes": {
+          "procedure_completed": false,
+          "converted_to_surgery": true,
+          "conversion_reason": "Dense pleural adhesions precluding safe medical thoracoscopy"
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902335"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32555",
+            "final_codes": [
+              "32555"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32555": "IP physician billing: Thoracentesis with imaging guidance for fluid drainage during attempted thoracoscopy. The medical thoracoscopy was attempted but could not be completed due to adhesions. The surgical conversion (VATS, adhesiolysis, decortication) is billed separately by thoracic surgery."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 3.19,
+            "facility_total_payment": 104.0,
+            "per_code": {
+              "32555": {
+                "facility_rvu": 3.19,
+                "facility_payment": 104
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "PROCEDURE CONVERSION CASE: Medical thoracoscopy aborted due to dense adhesions, converted to VATS. IP physician codes only for the work completed before handoff. Note distinct disposition change."
+        },
+        "procedure_families": [
+          "pleural_procedure"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32555",
+              "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.27,
+          "practice_expense_rvu": 0.63,
+          "malpractice_rvu": 0.29,
+          "total_rvu": 3.19
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 9,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Victoria Adams",
+      "patient_age": 65,
+      "patient_mrn": "9503280",
+      "procedure_date": "2024-08-27",
+      "note_text": "OPERATIVE REPORT - INTERVENTIONAL PULMONOLOGY / THORACIC SURGERY\n\nDATE: 2025-08-15\nPATIENT: Linda Thompson\nMRN: 9503280\nDOB: 09/28/1959 (65 years old)\n\nIP: Dr. Mark Anderson, MD (started case)\nThoracic Surgery: Dr. Sarah Kim, MD (completed case after conversion)\n\nLOCATION: Main OR, Emory University Hospital, Atlanta, GA\n\nPREOPERATIVE DIAGNOSIS: Right-sided exudative pleural effusion, unknown etiology\n\nPOSTOPERATIVE DIAGNOSIS: Dense pleural adhesions with loculated effusion; trapped lung\n\nPLANNED PROCEDURE: Medical thoracoscopy (pleuroscopy) with pleural biopsy and potential talc poudrage\n\n1. Attempted medical thoracoscopy (aborted)\n2. Conversion to VATS (Video-Assisted Thoracoscopic Surgery)\n3. VATS lysis of adhesions\n4. VATS pleural biopsy\n5. Decortication (partial)\n6. Chest tube placement\n\nINDICATION: 65-year-old female with 2-month history of progressive dyspnea. CT chest revealed large right pleural effusion with mild enhancement of pleura concerning for malignancy. Thoracentesis x 2 showed exudative effusion with negative cytology. Medical thoracoscopy planned for definitive diagnosis and potential pleurodesis.\n\nANESTHESIA: General anesthesia with double-lumen endotracheal tube (left-sided)\n\nMEDICAL THORACOSCOPY ATTEMPT (Dr. Anderson):\nPatient positioned in left lateral decubitus. After induction of general anesthesia and lung isolation, the right chest was prepped and draped. Ultrasound examination revealed a small pocket of fluid in the mid-axillary line but significant lung adherence to chest wall throughout.\n\nA 2cm incision was made in the 6th intercostal space. Upon blunt dissection into the pleural space, immediate dense adhesions were encountered. The 7mm trocar could not be safely advanced due to extensive lung-to-chest-wall adhesions. A small pocket of loculated fluid (~200mL) was drained but no window could be created for safe pleuroscopy. Multiple attempts at different intercostal spaces (5th, 7th) encountered similar dense adhesions.\n\nDECISION TO CONVERT: After thorough discussion with thoracic surgery colleagues and the patient's family (who had been counseled preoperatively about this possibility), the decision was made to convert to VATS for safe completion of the procedure.\n\nVATS PROCEDURE (Dr. Kim):\nThe incision was extended and a 10mm port placed under direct vision where a small pleural space was identified. Two additional 5mm ports were placed. Dense adhesions were found throughout the hemithorax. Using a combination of blunt dissection, electrocautery, and harmonic scalpel, extensive adhesiolysis was performed over approximately 90 minutes.\n\nFindings:\n- Dense fibrinous adhesions throughout\n- Thickened visceral pleura with trapped lung\n- Nodular thickening of parietal pleura (multiple biopsies taken)\n- Approximately 500mL of loculated, amber-colored fluid drained\n\nMultiple parietal pleural biopsies were obtained from chest wall and diaphragmatic pleura. Partial decortication of the visceral pleura was performed to allow lung expansion, though complete expansion could not be achieved due to chronic entrapment.\n\nA 28Fr chest tube was placed. Negative-pressure water seal established. Lung expansion approximately 70% at end of case.\n\n- Pleural fluid: Cytology, cell count, chemistry, cultures, adenosine deaminase\n- Pleural biopsies (multiple): Surgical pathology\n\nESTIMATED BLOOD LOSS: 150mL\n\nCOMPLICATIONS: None intraoperatively. Conversion was planned contingency.\n\nDISPOSITION: Transferred to SICU for overnight monitoring. Chest tube to suction.\n\nPOST-OPERATIVE PLAN:\n1. Monitor chest tube output\n2. CXR in AM\n3. Await pathology - concern for malignant mesothelioma or chronic fibrinous pleuritis\n4. If lung remains trapped, may require chronic indwelling pleural catheter\n\nDr. Mark Anderson, MD - Interventional Pulmonology\nDr. Sarah Kim, MD - Thoracic Surgery",
+      "cpt_codes": [
+        32555
+      ],
+      "registry_entry": {
+        "patient_mrn": "9503280",
+        "procedure_date": "2024-08-27",
+        "patient_age": 65,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "Exudative pleural effusion - rule out malignancy",
+        "sedation_type": "General",
+        "airway_type": "DLT",
+        "final_diagnosis_prelim": "Pending - concern for malignancy/trapped lung",
+        "cpt_codes": [
+          32555
+        ],
+        "evidence": {
+          "procedure_date": "DATE: 2025-08-15",
+          "primary_indication": "Right exudative pleural effusion, negative cytology x2",
+          "procedure_outcome": "Conversion from medical thoracoscopy to VATS due to dense adhesions"
+        },
+        "institution_name": "Emory University Hospital, Atlanta, GA",
+        "molecular_testing_requested": true,
+        "disposition": "ICU admission",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Attempted thoracoscopy - converted to VATS",
+        "pleural_guidance": "Direct visualization",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Amber/Loculated",
+        "pleural_volume_drained_ml": 700,
+        "pleural_thoracoscopy_findings": "Dense adhesions, unable to complete medical thoracoscopy",
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "thoracoscopy": {
+            "performed": false,
+            "attempted": true,
+            "reason_not_completed": "Dense pleural adhesions",
+            "converted_to": "VATS"
+          },
+          "pleural_drainage": {
+            "performed": true,
+            "volume_ml": 200,
+            "method": "Incisional drainage during attempted thoracoscopy"
+          }
+        },
+        "granular_data": {
+          "thoracoscopy_findings_detail": [
+            {
+              "location": "Parietal pleura - chest wall",
+              "finding_type": "Adhesions - dense",
+              "extent": "Diffuse",
+              "biopsied": false,
+              "notes": "Unable to safely perform pleuroscopy due to adhesions"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Pleural Effusion - Diagnostic",
+          "radiographic_findings": "Large right pleural effusion with pleural enhancement"
+        },
+        "providers": {
+          "attending_name": "Mark Anderson",
+          "fellow_name": null,
+          "assistant_name": "Sarah Kim (Thoracic Surgery - took over after conversion)",
+          "assistant_role": "Resident",
+          "trainee_present": null,
+          "rose_present": null
+        },
+        "outcomes": {
+          "procedure_completed": false,
+          "converted_to_surgery": true,
+          "conversion_reason": "Dense pleural adhesions precluding safe medical thoracoscopy"
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902335"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32555",
+            "final_codes": [
+              "32555"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32555": "IP physician billing: Thoracentesis with imaging guidance for fluid drainage during attempted thoracoscopy. The medical thoracoscopy was attempted but could not be completed due to adhesions. The surgical conversion (VATS, adhesiolysis, decortication) is billed separately by thoracic surgery."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 3.19,
+            "facility_total_payment": 104.0,
+            "per_code": {
+              "32555": {
+                "facility_rvu": 3.19,
+                "facility_payment": 104
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "PROCEDURE CONVERSION CASE: Medical thoracoscopy aborted due to dense adhesions, converted to VATS. IP physician codes only for the work completed before handoff. Note distinct disposition change."
+        },
+        "procedure_families": [
+          "pleural_procedure"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32555",
+              "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.27,
+          "practice_expense_rvu": 0.63,
+          "malpractice_rvu": 0.29,
+          "total_rvu": 3.19
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 9,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Kathleen Powell",
+      "patient_age": 65,
+      "patient_mrn": "3490725",
+      "procedure_date": "2024-02-29",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: None\nMRN: 3490725\nDOB: 09/28/1959\nAge: 65\nDate: None\n\n[INDICATION]\nExudative pleural effusion - rule out malignancy\n\n[ANESTHESIA]\nType: General\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Pleural Drainage: Performed\n  \u2022 volume ml: 200\n  \u2022 method: Incisional drainage during attempted thoracoscopy\n\n[FINDINGS]\nAssessment: Pending - concern for malignancy/trapped lung\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: ICU admission\n\n[CODING]\nCPT: 32555\n",
+      "cpt_codes": [
+        32555
+      ],
+      "registry_entry": {
+        "patient_mrn": "3490725",
+        "procedure_date": "2024-02-29",
+        "patient_age": 65,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "Exudative pleural effusion - rule out malignancy",
+        "sedation_type": "General",
+        "airway_type": "DLT",
+        "final_diagnosis_prelim": "Pending - concern for malignancy/trapped lung",
+        "cpt_codes": [
+          32555
+        ],
+        "evidence": {
+          "procedure_date": "DATE: 2025-08-15",
+          "primary_indication": "Right exudative pleural effusion, negative cytology x2",
+          "procedure_outcome": "Conversion from medical thoracoscopy to VATS due to dense adhesions"
+        },
+        "institution_name": "Emory University Hospital, Atlanta, GA",
+        "molecular_testing_requested": true,
+        "disposition": "ICU admission",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Attempted thoracoscopy - converted to VATS",
+        "pleural_guidance": "Direct visualization",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Amber/Loculated",
+        "pleural_volume_drained_ml": 700,
+        "pleural_thoracoscopy_findings": "Dense adhesions, unable to complete medical thoracoscopy",
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "thoracoscopy": {
+            "performed": false,
+            "attempted": true,
+            "reason_not_completed": "Dense pleural adhesions",
+            "converted_to": "VATS"
+          },
+          "pleural_drainage": {
+            "performed": true,
+            "volume_ml": 200,
+            "method": "Incisional drainage during attempted thoracoscopy"
+          }
+        },
+        "granular_data": {
+          "thoracoscopy_findings_detail": [
+            {
+              "location": "Parietal pleura - chest wall",
+              "finding_type": "Adhesions - dense",
+              "extent": "Diffuse",
+              "biopsied": false,
+              "notes": "Unable to safely perform pleuroscopy due to adhesions"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Pleural Effusion - Diagnostic",
+          "radiographic_findings": "Large right pleural effusion with pleural enhancement"
+        },
+        "providers": {
+          "attending_name": "Mark Anderson",
+          "fellow_name": null,
+          "assistant_name": "Sarah Kim (Thoracic Surgery - took over after conversion)",
+          "assistant_role": "Resident",
+          "trainee_present": null,
+          "rose_present": null
+        },
+        "outcomes": {
+          "procedure_completed": false,
+          "converted_to_surgery": true,
+          "conversion_reason": "Dense pleural adhesions precluding safe medical thoracoscopy"
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902335"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32555",
+            "final_codes": [
+              "32555"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32555": "IP physician billing: Thoracentesis with imaging guidance for fluid drainage during attempted thoracoscopy. The medical thoracoscopy was attempted but could not be completed due to adhesions. The surgical conversion (VATS, adhesiolysis, decortication) is billed separately by thoracic surgery."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 3.19,
+            "facility_total_payment": 104.0,
+            "per_code": {
+              "32555": {
+                "facility_rvu": 3.19,
+                "facility_payment": 104
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "PROCEDURE CONVERSION CASE: Medical thoracoscopy aborted due to dense adhesions, converted to VATS. IP physician codes only for the work completed before handoff. Note distinct disposition change."
+        },
+        "procedure_families": [
+          "pleural_procedure"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32555",
+              "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.27,
+          "practice_expense_rvu": 0.63,
+          "malpractice_rvu": 0.29,
+          "total_rvu": 3.19
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 9,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Rebecca Diaz",
+      "patient_age": 68,
+      "patient_mrn": "7712509",
+      "procedure_date": "2024-04-29",
+      "note_text": "On None, None, a 68-year-old female (MRN 7712509), underwent bronchoscopic evaluation for Exudative pleural effusion - rule out malignancy. The patient received General and the procedure was performed in standard fashion. The procedure included pleural drainage. \n\nOn examination, the airways were systematically inspected. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is pending - concern for malignancy/trapped lung. \n\nProcedural coding: 32555.",
+      "cpt_codes": [
+        32555
+      ],
+      "registry_entry": {
+        "patient_mrn": "7712509",
+        "procedure_date": "2024-04-29",
+        "patient_age": 68,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "Exudative pleural effusion - rule out malignancy",
+        "sedation_type": "General",
+        "airway_type": "DLT",
+        "final_diagnosis_prelim": "Pending - concern for malignancy/trapped lung",
+        "cpt_codes": [
+          32555
+        ],
+        "evidence": {
+          "procedure_date": "DATE: 2025-08-15",
+          "primary_indication": "Right exudative pleural effusion, negative cytology x2",
+          "procedure_outcome": "Conversion from medical thoracoscopy to VATS due to dense adhesions"
+        },
+        "institution_name": "Emory University Hospital, Atlanta, GA",
+        "molecular_testing_requested": true,
+        "disposition": "ICU admission",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Attempted thoracoscopy - converted to VATS",
+        "pleural_guidance": "Direct visualization",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Amber/Loculated",
+        "pleural_volume_drained_ml": 700,
+        "pleural_thoracoscopy_findings": "Dense adhesions, unable to complete medical thoracoscopy",
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "thoracoscopy": {
+            "performed": false,
+            "attempted": true,
+            "reason_not_completed": "Dense pleural adhesions",
+            "converted_to": "VATS"
+          },
+          "pleural_drainage": {
+            "performed": true,
+            "volume_ml": 200,
+            "method": "Incisional drainage during attempted thoracoscopy"
+          }
+        },
+        "granular_data": {
+          "thoracoscopy_findings_detail": [
+            {
+              "location": "Parietal pleura - chest wall",
+              "finding_type": "Adhesions - dense",
+              "extent": "Diffuse",
+              "biopsied": false,
+              "notes": "Unable to safely perform pleuroscopy due to adhesions"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Pleural Effusion - Diagnostic",
+          "radiographic_findings": "Large right pleural effusion with pleural enhancement"
+        },
+        "providers": {
+          "attending_name": "Mark Anderson",
+          "fellow_name": null,
+          "assistant_name": "Sarah Kim (Thoracic Surgery - took over after conversion)",
+          "assistant_role": "Resident",
+          "trainee_present": null,
+          "rose_present": null
+        },
+        "outcomes": {
+          "procedure_completed": false,
+          "converted_to_surgery": true,
+          "conversion_reason": "Dense pleural adhesions precluding safe medical thoracoscopy"
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902335"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32555",
+            "final_codes": [
+              "32555"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32555": "IP physician billing: Thoracentesis with imaging guidance for fluid drainage during attempted thoracoscopy. The medical thoracoscopy was attempted but could not be completed due to adhesions. The surgical conversion (VATS, adhesiolysis, decortication) is billed separately by thoracic surgery."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 3.19,
+            "facility_total_payment": 104.0,
+            "per_code": {
+              "32555": {
+                "facility_rvu": 3.19,
+                "facility_payment": 104
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "PROCEDURE CONVERSION CASE: Medical thoracoscopy aborted due to dense adhesions, converted to VATS. IP physician codes only for the work completed before handoff. Note distinct disposition change."
+        },
+        "procedure_families": [
+          "pleural_procedure"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32555",
+              "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.27,
+          "practice_expense_rvu": 0.63,
+          "malpractice_rvu": 0.29,
+          "total_rvu": 3.19
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 9,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Emma Alvarez",
+      "patient_age": 67,
+      "patient_mrn": "8351014",
+      "procedure_date": "2024-04-21",
+      "note_text": "OPERATIVE REPORT - INTERVENTIONAL PULMONOLOGY / THORACIC SURGERY\n\nDATE: 2025-08-15\nPATIENT: Linda Thompson\nMRN: 8351014\nDOB: 09/28/1957 (67 years old)\n\nSURGEONS:\nIP: Dr. Mark Anderson, MD (started case)\nThoracic Surgery: Dr. Sarah Kim, MD (completed case after conversion)\n\nLOCATION: Main OR, Emory University Hospital, Atlanta, GA\n\nPREOPERATIVE DIAGNOSIS: Right-sided exudative pleural effusion, unknown etiology\n\nPOSTOPERATIVE DIAGNOSIS: Dense pleural adhesions with loculated effusion; trapped lung\n\nPLANNED PROCEDURE: Medical thoracoscopy (pleuroscopy) with pleural biopsy and potential talc poudrage\n\nACTUAL PROCEDURES ACCOMPLISHED:\n1. Attempted medical thoracoscopy (aborted)\n2. Conversion to VATS (Video-Assisted Thoracoscopic Surgery)\n3. VATS lysis of adhesions\n4. VATS pleural biopsy\n5. Decortication (partial)\n6. Chest tube placement\n\nINDICATION: 67-year-old female with 2-month history of progressive dyspnea. CT chest demonstrated large right pleural effusion with mild enhancement of pleura concerning for malignancy. Thoracentesis x 2 demonstrated exudative effusion with negative cytology. Medical thoracoscopy planned for definitive diagnosis and potential pleurodesis.\n\nANESTHESIA: General anesthesia with double-lumen endotracheal tube (left-sided)\n\nPROCEDURE NARRATIVE:\n\nMEDICAL THORACOSCOPY ATTEMPT (Dr. Anderson):\nPatient positioned in left lateral decubitus. After induction of general anesthesia and lung isolation, the right chest was prepped and draped. Ultrasound examination demonstrated a small pocket of fluid in the mid-axillary line but significant lung adherence to chest wall throughout.\n\nA 2cm incision was made in the 6th intercostal space. Upon blunt dissection into the pleural space, immediate dense adhesions were encountered. The 7mm trocar could not be safely passed due to extensive lung-to-chest-wall adhesions. A small pocket of loculated fluid (~200mL) was drained but no window could be created for safe pleuroscopy. Multiple attempts at different intercostal spaces (5th, 7th) encountered similar dense adhesions.\n\nDECISION TO CONVERT: After thorough discussion with thoracic surgery colleagues and the patient's family (who had been counseled preoperatively about this possibility), the decision was made to convert to VATS for safe completion of the procedure.\n\nVATS PROCEDURE (Dr. Kim):\nThe incision was extended and a 10mm port positioned under direct vision where a small pleural space was found. Two additional 5mm ports were positioned. Dense adhesions were found throughout the hemithorax. Using a combination of blunt dissection, electrocautery, and harmonic scalpel, extensive adhesiolysis was accomplished over approximately 90 minutes.\n\nFindings:\n- Dense fibrinous adhesions throughout\n- Thickened visceral pleura with trapped lung\n- Nodular thickening of parietal pleura (multiple biopsies taken)\n- Approximately 500mL of loculated, amber-colored fluid drained\n\nMultiple parietal pleural biopsies were gathered from chest wall and diaphragmatic pleura. Partial decortication of the visceral pleura was accomplished to allow lung expansion, though complete expansion could not be achieved due to chronic entrapment.\n\nA 28Fr chest tube was positioned. Negative-pressure water seal established. Lung expansion approximately 70% at end of case.\n\nSPECIMENS:\n- Pleural fluid: Cytology, cell count, chemistry, cultures, adenosine deaminase\n- Pleural biopsies (multiple): Surgical pathology\n\nESTIMATED BLOOD LOSS: 150mL\n\nCOMPLICATIONS: None intraoperatively. Conversion was planned contingency.\n\nDISPOSITION: Transferred to SICU for overnight monitoring. Chest tube to suction.\n\nPOST-OPERATIVE PLAN:\n1. Monitor chest tube output\n2. CXR in AM\n3. Await pathology - concern for malignant mesothelioma or chronic fibrinous pleuritis\n4. If lung remains trapped, may require chronic indwelling pleural catheter\n\nDr. Mark Anderson, MD - Interventional Pulmonology\nDr. Sarah Kim, MD - Thoracic Surgery",
+      "cpt_codes": [
+        32555
+      ],
+      "registry_entry": {
+        "patient_mrn": "8351014",
+        "procedure_date": "2024-04-21",
+        "patient_age": 67,
+        "gender": "Female",
+        "asa_class": 3,
+        "primary_indication": "Exudative pleural effusion - rule out malignancy",
+        "sedation_type": "General",
+        "airway_type": "DLT",
+        "final_diagnosis_prelim": "Pending - concern for malignancy/trapped lung",
+        "cpt_codes": [
+          32555
+        ],
+        "evidence": {
+          "procedure_date": "DATE: 2025-08-15",
+          "primary_indication": "Right exudative pleural effusion, negative cytology x2",
+          "procedure_outcome": "Conversion from medical thoracoscopy to VATS due to dense adhesions"
+        },
+        "institution_name": "Emory University Hospital, Atlanta, GA",
+        "molecular_testing_requested": true,
+        "disposition": "ICU admission",
+        "bleeding_severity": "Mild",
+        "pneumothorax": false,
+        "pneumothorax_intervention": null,
+        "pleural_procedure_type": "Attempted thoracoscopy - converted to VATS",
+        "pleural_guidance": "Direct visualization",
+        "pleural_side": "Right",
+        "pleural_intercostal_space": "6th",
+        "pleural_fluid_appearance": "Amber/Loculated",
+        "pleural_volume_drained_ml": 700,
+        "pleural_thoracoscopy_findings": "Dense adhesions, unable to complete medical thoracoscopy",
+        "pleurodesis_performed": false,
+        "procedures_performed": {
+          "thoracoscopy": {
+            "performed": false,
+            "attempted": true,
+            "reason_not_completed": "Dense pleural adhesions",
+            "converted_to": "VATS"
+          },
+          "pleural_drainage": {
+            "performed": true,
+            "volume_ml": 200,
+            "method": "Incisional drainage during attempted thoracoscopy"
+          }
+        },
+        "granular_data": {
+          "thoracoscopy_findings_detail": [
+            {
+              "location": "Parietal pleura - chest wall",
+              "finding_type": "Adhesions - dense",
+              "extent": "Diffuse",
+              "biopsied": false,
+              "notes": "Unable to safely perform pleuroscopy due to adhesions"
+            }
+          ]
+        },
+        "clinical_context": {
+          "indication_category": "Pleural Effusion - Diagnostic",
+          "radiographic_findings": "Large right pleural effusion with pleural enhancement"
+        },
+        "providers": {
+          "attending_name": "Mark Anderson",
+          "fellow_name": null,
+          "assistant_name": "Sarah Kim (Thoracic Surgery - took over after conversion)",
+          "assistant_role": "Resident",
+          "trainee_present": null,
+          "rose_present": null
+        },
+        "outcomes": {
+          "procedure_completed": false,
+          "converted_to_surgery": true,
+          "conversion_reason": "Dense pleural adhesions precluding safe medical thoracoscopy"
+        },
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902335"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "32555",
+            "final_codes": [
+              "32555"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "32555": "IP physician billing: Thoracentesis with imaging guidance for fluid drainage during attempted thoracoscopy. The medical thoracoscopy was attempted but could not be completed due to adhesions. The surgical conversion (VATS, adhesiolysis, decortication) is billed separately by thoracic surgery."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 3.19,
+            "facility_total_payment": 104.0,
+            "per_code": {
+              "32555": {
+                "facility_rvu": 3.19,
+                "facility_payment": 104
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "PROCEDURE CONVERSION CASE: Medical thoracoscopy aborted due to dense adhesions, converted to VATS. IP physician codes only for the work completed before handoff. Note distinct disposition change."
+        },
+        "procedure_families": [
+          "pleural_procedure"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "32555",
+              "description": "Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.27,
+          "practice_expense_rvu": 0.63,
+          "malpractice_rvu": 0.29,
+          "total_rvu": 3.19
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 32555; total_work_rvu=2.27, total_rvu=3.19 (facility)."
+        ]
+      }
+    }
+  ]
+}

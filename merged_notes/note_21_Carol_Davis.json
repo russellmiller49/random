@@ -1,0 +1,918 @@
+{
+  "base_note": {
+    "note_text": "BRONCHOSCOPY NOTE\nDate: 2025-08-12\nPatient: Carol Davis | MRN: 9707634 | Age: 74F\nAttending: Dr. James Wilson, MD\nLocation: MICU, Brigham and Women's Hospital\n\nINDICATION: 74F on mechanical ventilation for respiratory failure. New RLL collapse on CXR. Suspected mucus plugging.\n\nPROCEDURE: Flexible bronchoscopy with therapeutic aspiration\n\nANESTHESIA: Already sedated/paralyzed on ventilator\n\nFINDINGS:\n- ETT: 7.5mm at 22cm, no granulation\n- Trachea: Copious thick yellow secretions\n- RMS: Thick mucus plug at RMS/BI junction\n- RLL: Complete mucus impaction with cast\n- Left lung: Moderate secretions\n\nPROCEDURE: Extensive suctioning performed. Large mucus cast removed from RLL basal segments using suction and saline lavage. Post-procedure, all segments patent.\n\nSPECIMENS: Secretions sent for culture\n\nPOST-PROCEDURE: CXR showed re-expansion of RLL. Ventilator weaning resumed.\n\nDr. James Wilson, MD",
+    "cpt_codes": [
+      31645
+    ],
+    "registry_entry": {
+      "patient_mrn": "9707634",
+      "procedure_date": "2025-08-12",
+      "patient_age": 74,
+      "gender": "Female",
+      "asa_class": 4,
+      "primary_indication": "Mucus plugging with lobar collapse",
+      "sedation_type": "General",
+      "airway_type": "ETT",
+      "final_diagnosis_prelim": "Mucus plugging",
+      "cpt_codes": [
+        31645
+      ],
+      "disposition": "ICU",
+      "procedures_performed": {
+        "therapeutic_aspiration": {
+          "performed": true,
+          "indication": "Mucus plugging causing RLL collapse",
+          "successful": true
+        }
+      },
+      "providers": {
+        "attending_name": "James Wilson"
+      },
+      "metadata": {
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:53:15.902874"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "31645",
+          "final_codes": [
+            "31645"
+          ],
+          "modifiers": [],
+          "changes_made": false,
+          "code_rationales": {
+            "31645": "Therapeutic aspiration for mucus plugging causing lobar atelectasis."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 4.11,
+          "facility_total_payment": 133.0,
+          "per_code": {
+            "31645": {
+              "facility_rvu": 4.11,
+              "facility_payment": 133
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_8.json"
+        },
+        "overall_assessment": "31645 appropriate for significant mucus plugging causing collapse, distinct from simple suctioning."
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31645",
+            "description": "Bronchoscopy; with therapeutic aspiration of tracheobronchial tree, initial",
+            "units": 1
+          }
+        ],
+        "work_rvu": 2.78,
+        "practice_expense_rvu": 1.37,
+        "malpractice_rvu": 0.32,
+        "total_rvu": 4.47
+      }
+    },
+    "source_file": "synthetic_additional_v2_8.json",
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31645; total_work_rvu=2.78, total_rvu=4.47 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 21,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Brian Ramos",
+      "patient_age": 61,
+      "patient_mrn": "1455179",
+      "procedure_date": "2024-10-20",
+      "note_text": "OPERATIVE NOTE\n\nBrian Ramos | MRN 1455179 | 2024-10-20\n\nDx: See above\nProc: CXR showed re-expansion of RLL. Ventilator weaning resumed.\n\nActions:\n\u2022 Therapeutic Aspiration\n\nCPT: 31645\nComplications: None\nDispo: Stable\n",
+      "cpt_codes": [
+        31645
+      ],
+      "registry_entry": {
+        "patient_mrn": "1455179",
+        "procedure_date": "2024-10-20",
+        "patient_age": 61,
+        "gender": "Female",
+        "asa_class": 4,
+        "primary_indication": "Mucus plugging with lobar collapse",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Mucus plugging",
+        "cpt_codes": [
+          31645
+        ],
+        "disposition": "ICU",
+        "procedures_performed": {
+          "therapeutic_aspiration": {
+            "performed": true,
+            "indication": "Mucus plugging causing RLL collapse",
+            "successful": true
+          }
+        },
+        "providers": {
+          "attending_name": "James Wilson"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902874"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31645",
+            "final_codes": [
+              "31645"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31645": "Therapeutic aspiration for mucus plugging causing lobar atelectasis."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.11,
+            "facility_total_payment": 133.0,
+            "per_code": {
+              "31645": {
+                "facility_rvu": 4.11,
+                "facility_payment": 133
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "31645 appropriate for significant mucus plugging causing collapse, distinct from simple suctioning."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31645",
+              "description": "Bronchoscopy; with therapeutic aspiration of tracheobronchial tree, initial",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.78,
+          "practice_expense_rvu": 1.37,
+          "malpractice_rvu": 0.32,
+          "total_rvu": 4.47
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31645; total_work_rvu=2.78, total_rvu=4.47 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 21,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Stephen Cooper",
+      "patient_age": 58,
+      "patient_mrn": "9904307",
+      "procedure_date": "2024-09-02",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Stephen Cooper\nMedical Record Number: 9904307\nDate of Birth: N/A\nAge at Procedure: N/A years\nProcedure Date: 2024-09-02\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with mucus plugging with lobar collapse. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nTherapeutic Aspiration:\n\n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\n- ETT: 7.5mm at 22cm, no granulation\n- Trachea: Copious thick yellow secretions\n- RMS: Thick mucus plug at RMS/BI junction\n- RLL: Complete mucus impaction with cast\n- Left lung: Moderate secretions\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 31645\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        31645
+      ],
+      "registry_entry": {
+        "patient_mrn": "9904307",
+        "procedure_date": "2024-09-02",
+        "patient_age": 58,
+        "gender": "Female",
+        "asa_class": 4,
+        "primary_indication": "Mucus plugging with lobar collapse",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Mucus plugging",
+        "cpt_codes": [
+          31645
+        ],
+        "disposition": "ICU",
+        "procedures_performed": {
+          "therapeutic_aspiration": {
+            "performed": true,
+            "indication": "Mucus plugging causing RLL collapse",
+            "successful": true
+          }
+        },
+        "providers": {
+          "attending_name": "James Wilson"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902874"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31645",
+            "final_codes": [
+              "31645"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31645": "Therapeutic aspiration for mucus plugging causing lobar atelectasis."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.11,
+            "facility_total_payment": 133.0,
+            "per_code": {
+              "31645": {
+                "facility_rvu": 4.11,
+                "facility_payment": 133
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "31645 appropriate for significant mucus plugging causing collapse, distinct from simple suctioning."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31645",
+              "description": "Bronchoscopy; with therapeutic aspiration of tracheobronchial tree, initial",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.78,
+          "practice_expense_rvu": 1.37,
+          "malpractice_rvu": 0.32,
+          "total_rvu": 4.47
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31645; total_work_rvu=2.78, total_rvu=4.47 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 21,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Jacob Watson",
+      "patient_age": 57,
+      "patient_mrn": "5680307",
+      "procedure_date": "2024-07-22",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: Jacob Watson | MRN: 5680307 | DOS: 2024-07-22\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 31645:\n  Rationale: Therapeutic aspiration for mucus plugging causing lobar atelectasis.\n  Facility RVU: 4.11\n  Facility Payment: $133\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nTHERAPEUTIC ASPIRATION:\n  - Indication: Mucus plugging causing RLL collapse\n  - Successful: True\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: 4.11\n  Total Facility Payment: $133.0\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        31645
+      ],
+      "registry_entry": {
+        "patient_mrn": "5680307",
+        "procedure_date": "2024-07-22",
+        "patient_age": 57,
+        "gender": "Female",
+        "asa_class": 4,
+        "primary_indication": "Mucus plugging with lobar collapse",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Mucus plugging",
+        "cpt_codes": [
+          31645
+        ],
+        "disposition": "ICU",
+        "procedures_performed": {
+          "therapeutic_aspiration": {
+            "performed": true,
+            "indication": "Mucus plugging causing RLL collapse",
+            "successful": true
+          }
+        },
+        "providers": {
+          "attending_name": "James Wilson"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902874"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31645",
+            "final_codes": [
+              "31645"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31645": "Therapeutic aspiration for mucus plugging causing lobar atelectasis."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.11,
+            "facility_total_payment": 133.0,
+            "per_code": {
+              "31645": {
+                "facility_rvu": 4.11,
+                "facility_payment": 133
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "31645 appropriate for significant mucus plugging causing collapse, distinct from simple suctioning."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31645",
+              "description": "Bronchoscopy; with therapeutic aspiration of tracheobronchial tree, initial",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.78,
+          "practice_expense_rvu": 1.37,
+          "malpractice_rvu": 0.32,
+          "total_rvu": 4.47
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31645; total_work_rvu=2.78, total_rvu=4.47 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 21,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Christian Gonzales",
+      "patient_age": 59,
+      "patient_mrn": "6552589",
+      "procedure_date": "2025-03-04",
+      "note_text": "PROCEDURE NOTE\n\nDate: 2025-03-04\nPatient: Christian Gonzales\nMRN: 6552589\nAge/Sex: Noneyo patient\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nMucus plugging with lobar collapse\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nGeneral\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Therapeutic Aspiration performed\n5. Scope withdrawn\n6. Patient recovered without complication\n\nSPECIMENS:\nSecretions sent for culture\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nICU\n\nCPT CODES: 31645\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        31645
+      ],
+      "registry_entry": {
+        "patient_mrn": "6552589",
+        "procedure_date": "2025-03-04",
+        "patient_age": 59,
+        "gender": "Female",
+        "asa_class": 4,
+        "primary_indication": "Mucus plugging with lobar collapse",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Mucus plugging",
+        "cpt_codes": [
+          31645
+        ],
+        "disposition": "ICU",
+        "procedures_performed": {
+          "therapeutic_aspiration": {
+            "performed": true,
+            "indication": "Mucus plugging causing RLL collapse",
+            "successful": true
+          }
+        },
+        "providers": {
+          "attending_name": "James Wilson"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902874"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31645",
+            "final_codes": [
+              "31645"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31645": "Therapeutic aspiration for mucus plugging causing lobar atelectasis."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.11,
+            "facility_total_payment": 133.0,
+            "per_code": {
+              "31645": {
+                "facility_rvu": 4.11,
+                "facility_payment": 133
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "31645 appropriate for significant mucus plugging causing collapse, distinct from simple suctioning."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31645",
+              "description": "Bronchoscopy; with therapeutic aspiration of tracheobronchial tree, initial",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.78,
+          "practice_expense_rvu": 1.37,
+          "malpractice_rvu": 0.32,
+          "total_rvu": 4.47
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31645; total_work_rvu=2.78, total_rvu=4.47 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 21,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Elizabeth Ruiz",
+      "patient_age": 61,
+      "patient_mrn": "4325867",
+      "procedure_date": "2025-03-11",
+      "note_text": "procedure note 2025-03-11 pt Elizabeth Ruiz mrn 4325867\n\nindication mucus plugging with lobar collapse patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp therapeutic aspiration performed airways inspected all patent no masses \n\ncomplication none ebl minimal patient tolerated well disposition ICU \n\ncpt 31645\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        31645
+      ],
+      "registry_entry": {
+        "patient_mrn": "4325867",
+        "procedure_date": "2025-03-11",
+        "patient_age": 61,
+        "gender": "Female",
+        "asa_class": 4,
+        "primary_indication": "Mucus plugging with lobar collapse",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Mucus plugging",
+        "cpt_codes": [
+          31645
+        ],
+        "disposition": "ICU",
+        "procedures_performed": {
+          "therapeutic_aspiration": {
+            "performed": true,
+            "indication": "Mucus plugging causing RLL collapse",
+            "successful": true
+          }
+        },
+        "providers": {
+          "attending_name": "James Wilson"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902874"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31645",
+            "final_codes": [
+              "31645"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31645": "Therapeutic aspiration for mucus plugging causing lobar atelectasis."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.11,
+            "facility_total_payment": 133.0,
+            "per_code": {
+              "31645": {
+                "facility_rvu": 4.11,
+                "facility_payment": 133
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "31645 appropriate for significant mucus plugging causing collapse, distinct from simple suctioning."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31645",
+              "description": "Bronchoscopy; with therapeutic aspiration of tracheobronchial tree, initial",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.78,
+          "practice_expense_rvu": 1.37,
+          "malpractice_rvu": 0.32,
+          "total_rvu": 4.47
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31645; total_work_rvu=2.78, total_rvu=4.47 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 21,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Jacob Morris",
+      "patient_age": 62,
+      "patient_mrn": "1045894",
+      "procedure_date": "2025-07-25",
+      "note_text": "BRONCHOSCOPY NOTE\nDate: 2025-07-25\nPatient: Jacob Morris | MRN: 1045894 | Age: 74F\nAttending: Dr. James Wilson, MD\nLocation: MICU, Brigham and Women's Hospital\n\nINDICATION: 74F on mechanical ventilation for respiratory failure. New RLL collapse on CXR. Suspected mucus plugging.\n\nPROCEDURE: Flexible bronchoscopy with therapeutic aspiration\n\nANESTHESIA: Already sedated/paralyzed on ventilator\n\n- ETT: 7.5mm at 22cm, no granulation\n- Trachea: Copious thick yellow secretions\n- RMS: Thick mucus plug at RMS/BI junction\n- RLL: Complete mucus impaction with cast\n- Left lung: Moderate secretions\n\nPROCEDURE: Extensive suctioning performed. Large mucus cast removed from RLL basal segments using suction and saline lavage. Post-procedure, all segments patent.\n\nSPECIMENS: Secretions sent for culture\n\nPOST-PROCEDURE: CXR showed re-expansion of RLL. Ventilator weaning resumed.\n\nDr. James Wilson, MD",
+      "cpt_codes": [
+        31645
+      ],
+      "registry_entry": {
+        "patient_mrn": "1045894",
+        "procedure_date": "2025-07-25",
+        "patient_age": 62,
+        "gender": "Female",
+        "asa_class": 4,
+        "primary_indication": "Mucus plugging with lobar collapse",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Mucus plugging",
+        "cpt_codes": [
+          31645
+        ],
+        "disposition": "ICU",
+        "procedures_performed": {
+          "therapeutic_aspiration": {
+            "performed": true,
+            "indication": "Mucus plugging causing RLL collapse",
+            "successful": true
+          }
+        },
+        "providers": {
+          "attending_name": "James Wilson"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902874"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31645",
+            "final_codes": [
+              "31645"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31645": "Therapeutic aspiration for mucus plugging causing lobar atelectasis."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.11,
+            "facility_total_payment": 133.0,
+            "per_code": {
+              "31645": {
+                "facility_rvu": 4.11,
+                "facility_payment": 133
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "31645 appropriate for significant mucus plugging causing collapse, distinct from simple suctioning."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31645",
+              "description": "Bronchoscopy; with therapeutic aspiration of tracheobronchial tree, initial",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.78,
+          "practice_expense_rvu": 1.37,
+          "malpractice_rvu": 0.32,
+          "total_rvu": 4.47
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31645; total_work_rvu=2.78, total_rvu=4.47 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 21,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Scott Nelson",
+      "patient_age": 55,
+      "patient_mrn": "8461563",
+      "procedure_date": "2024-12-11",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Scott Nelson\nMRN: 8461563\nDOB: None\nAge: None\nDate: 2024-12-11\n\n[INDICATION]\nMucus plugging with lobar collapse\n\n[ANESTHESIA]\nType: General\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Therapeutic Aspiration: Performed\n  \u2022 indication: Mucus plugging causing RLL collapse\n  \u2022 successful: Yes\n\n[FINDINGS]\nAssessment: Mucus plugging\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: ICU\n\n[CODING]\nCPT: 31645\n",
+      "cpt_codes": [
+        31645
+      ],
+      "registry_entry": {
+        "patient_mrn": "8461563",
+        "procedure_date": "2024-12-11",
+        "patient_age": 55,
+        "gender": "Female",
+        "asa_class": 4,
+        "primary_indication": "Mucus plugging with lobar collapse",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Mucus plugging",
+        "cpt_codes": [
+          31645
+        ],
+        "disposition": "ICU",
+        "procedures_performed": {
+          "therapeutic_aspiration": {
+            "performed": true,
+            "indication": "Mucus plugging causing RLL collapse",
+            "successful": true
+          }
+        },
+        "providers": {
+          "attending_name": "James Wilson"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902874"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31645",
+            "final_codes": [
+              "31645"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31645": "Therapeutic aspiration for mucus plugging causing lobar atelectasis."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.11,
+            "facility_total_payment": 133.0,
+            "per_code": {
+              "31645": {
+                "facility_rvu": 4.11,
+                "facility_payment": 133
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "31645 appropriate for significant mucus plugging causing collapse, distinct from simple suctioning."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31645",
+              "description": "Bronchoscopy; with therapeutic aspiration of tracheobronchial tree, initial",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.78,
+          "practice_expense_rvu": 1.37,
+          "malpractice_rvu": 0.32,
+          "total_rvu": 4.47
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31645; total_work_rvu=2.78, total_rvu=4.47 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 21,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Walter Li",
+      "patient_age": 58,
+      "patient_mrn": "5713901",
+      "procedure_date": "2024-04-12",
+      "note_text": "On 2024-04-12, Walter Li, a None-year-old patient (MRN 5713901), underwent bronchoscopic evaluation for Mucus plugging with lobar collapse. The patient received General and the procedure was performed in standard fashion. The procedure included therapeutic aspiration. \n\nOn examination, the airways were systematically inspected. The visualized airways appeared patent without significant abnormality. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is mucus plugging. \n\nProcedural coding: 31645.",
+      "cpt_codes": [
+        31645
+      ],
+      "registry_entry": {
+        "patient_mrn": "5713901",
+        "procedure_date": "2024-04-12",
+        "patient_age": 58,
+        "gender": "Female",
+        "asa_class": 4,
+        "primary_indication": "Mucus plugging with lobar collapse",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Mucus plugging",
+        "cpt_codes": [
+          31645
+        ],
+        "disposition": "ICU",
+        "procedures_performed": {
+          "therapeutic_aspiration": {
+            "performed": true,
+            "indication": "Mucus plugging causing RLL collapse",
+            "successful": true
+          }
+        },
+        "providers": {
+          "attending_name": "James Wilson"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902874"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31645",
+            "final_codes": [
+              "31645"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31645": "Therapeutic aspiration for mucus plugging causing lobar atelectasis."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.11,
+            "facility_total_payment": 133.0,
+            "per_code": {
+              "31645": {
+                "facility_rvu": 4.11,
+                "facility_payment": 133
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "31645 appropriate for significant mucus plugging causing collapse, distinct from simple suctioning."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31645",
+              "description": "Bronchoscopy; with therapeutic aspiration of tracheobronchial tree, initial",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.78,
+          "practice_expense_rvu": 1.37,
+          "malpractice_rvu": 0.32,
+          "total_rvu": 4.47
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31645; total_work_rvu=2.78, total_rvu=4.47 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 21,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Carlos Allen",
+      "patient_age": 62,
+      "patient_mrn": "2599005",
+      "procedure_date": "2025-08-10",
+      "note_text": "BRONCHOSCOPY NOTE\nDate: 2025-08-10\nPatient: Carlos Allen | MRN: 2599005 | Age: 74F\nAttending: Dr. James Wilson, MD\nLocation: MICU, Brigham and Women's Hospital\n\nINDICATION: 74F on mechanical ventilation for respiratory failure. New RLL collapse on CXR. Suspected mucus plugging.\n\nPROCEDURE: Flexible bronchoscopy with therapeutic aspiration\n\nANESTHESIA: Already sedated/paralyzed on ventilator\n\nFINDINGS:\n- ETT: 7.5mm at 22cm, no granulation\n- Trachea: Copious thick yellow secretions\n- RMS: Thick mucus plug at RMS/BI junction\n- RLL: Complete mucus impaction with cast\n- Left lung: Moderate secretions\n\nPROCEDURE: Extensive suctioning carried out. Large mucus cast excised from RLL basal segments using suction and saline lavage. Post-procedure, all segments clear.\n\nSPECIMENS: Secretions sent for culture\n\nPOST-PROCEDURE: CXR revealed re-expansion of RLL. Ventilator weaning resumed.\n\nDr. James Wilson, MD",
+      "cpt_codes": [
+        31645
+      ],
+      "registry_entry": {
+        "patient_mrn": "2599005",
+        "procedure_date": "2025-08-10",
+        "patient_age": 62,
+        "gender": "Female",
+        "asa_class": 4,
+        "primary_indication": "Mucus plugging with lobar collapse",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Mucus plugging",
+        "cpt_codes": [
+          31645
+        ],
+        "disposition": "ICU",
+        "procedures_performed": {
+          "therapeutic_aspiration": {
+            "performed": true,
+            "indication": "Mucus plugging causing RLL collapse",
+            "successful": true
+          }
+        },
+        "providers": {
+          "attending_name": "James Wilson"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902874"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31645",
+            "final_codes": [
+              "31645"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31645": "Therapeutic aspiration for mucus plugging causing lobar atelectasis."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 4.11,
+            "facility_total_payment": 133.0,
+            "per_code": {
+              "31645": {
+                "facility_rvu": 4.11,
+                "facility_payment": 133
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "31645 appropriate for significant mucus plugging causing collapse, distinct from simple suctioning."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31645",
+              "description": "Bronchoscopy; with therapeutic aspiration of tracheobronchial tree, initial",
+              "units": 1
+            }
+          ],
+          "work_rvu": 2.78,
+          "practice_expense_rvu": 1.37,
+          "malpractice_rvu": 0.32,
+          "total_rvu": 4.47
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31645; total_work_rvu=2.78, total_rvu=4.47 (facility)."
+        ]
+      }
+    }
+  ]
+}

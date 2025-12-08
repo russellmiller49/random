@@ -1,0 +1,838 @@
+{
+  "base_note": {
+    "note_text": "BRONCHIAL THERMOPLASTY NOTE\nDate: 2025-07-20\nPatient: Sandra Lewis | MRN: 3404046 | Age: 48F\nAttending: Dr. Andrew Miller, MD\nLocation: National Jewish Health, Denver, CO\n\nINDICATION: Severe persistent asthma (FEV1 65%, on high-dose ICS/LABA, omalizumab, history of 3 exacerbations past year). Selected for bronchial thermoplasty after multidisciplinary review.\n\nPROCEDURE: Bronchial thermoplasty - Session 2 of 3 (Left Lower Lobe)\n\nANESTHESIA: Moderate sedation\n\nPROCEDURE DETAILS:\nUsing the Alair System (Boston Scientific), bronchial thermoplasty performed in the left lower lobe.\n\nTreatment Sites:\n- LB6: 15 activations\n- LB7: 8 activations\n- LB8: 12 activations\n- LB9: 14 activations\n- LB10: 11 activations\n\nTotal activations: 60\n\nEach activation delivered radiofrequency energy at 18.5 watts for 10 seconds at sequential 5mm intervals per standard protocol.\n\nPOST-PROCEDURE: Patient observed for 4 hours. Mild transient chest tightness resolved with bronchodilator. No significant adverse events.\n\nPLAN: Session 3 (RLL) in 3 weeks.\n\nDr. Andrew Miller, MD",
+    "cpt_codes": [
+      31660
+    ],
+    "registry_entry": {
+      "patient_mrn": "3404046",
+      "procedure_date": "2025-07-20",
+      "patient_age": 48,
+      "gender": "Female",
+      "asa_class": 2,
+      "primary_indication": "Severe persistent asthma - BT Session 2",
+      "sedation_type": "Moderate",
+      "airway_type": "Native",
+      "final_diagnosis_prelim": "Asthma",
+      "cpt_codes": [
+        31660
+      ],
+      "bt_lobe_treated": "LLL",
+      "bt_activation_count": 60,
+      "procedures_performed": {
+        "bronchial_thermoplasty": {
+          "performed": true,
+          "session_number": 2,
+          "lobe_treated": "LLL",
+          "total_activations": 60,
+          "device": "Alair System"
+        }
+      },
+      "providers": {
+        "attending_name": "Andrew Miller"
+      },
+      "metadata": {
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:55:23.778598"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "31660",
+          "final_codes": [
+            "31660"
+          ],
+          "code_rationales": {
+            "31660": "Bronchial thermoplasty, single lobe (LLL). Standard 3-session protocol."
+          }
+        },
+        "overall_assessment": "BT session 2 of 3 for severe asthma."
+      },
+      "procedure_families": [
+        "bronchial_thermoplasty"
+      ],
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31660",
+            "description": "Bronchoscopy; with bronchial thermoplasty, 1 lobe",
+            "units": 1
+          }
+        ],
+        "work_rvu": 4.0,
+        "practice_expense_rvu": 1.53,
+        "malpractice_rvu": 0.44,
+        "total_rvu": 5.97
+      }
+    },
+    "source_file": "synthetic_additional_v2_8.json",
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31660; total_work_rvu=4.0, total_rvu=5.97 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 26,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Douglas Carter",
+      "patient_age": 65,
+      "patient_mrn": "4530733",
+      "procedure_date": "2025-02-17",
+      "note_text": "OPERATIVE NOTE\n\nDouglas Carter | MRN 4530733 | 2025-02-17\n\nDx: See above\nProc: Patient observed for 4 hours. Mild transient chest tightness resolved with bronchodilator. No significant adverse events.\n\nActions:\n\u2022 Bronchial Thermoplasty\n\nCPT: 31660\nComplications: None\nDispo: Dr. Andrew Miller, MD\n",
+      "cpt_codes": [
+        31660
+      ],
+      "registry_entry": {
+        "patient_mrn": "4530733",
+        "procedure_date": "2025-02-17",
+        "patient_age": 65,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Severe persistent asthma - BT Session 2",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Asthma",
+        "cpt_codes": [
+          31660
+        ],
+        "bt_lobe_treated": "LLL",
+        "bt_activation_count": 60,
+        "procedures_performed": {
+          "bronchial_thermoplasty": {
+            "performed": true,
+            "session_number": 2,
+            "lobe_treated": "LLL",
+            "total_activations": 60,
+            "device": "Alair System"
+          }
+        },
+        "providers": {
+          "attending_name": "Andrew Miller"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778598"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31660",
+            "final_codes": [
+              "31660"
+            ],
+            "code_rationales": {
+              "31660": "Bronchial thermoplasty, single lobe (LLL). Standard 3-session protocol."
+            }
+          },
+          "overall_assessment": "BT session 2 of 3 for severe asthma."
+        },
+        "procedure_families": [
+          "bronchial_thermoplasty"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31660",
+              "description": "Bronchoscopy; with bronchial thermoplasty, 1 lobe",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.0,
+          "practice_expense_rvu": 1.53,
+          "malpractice_rvu": 0.44,
+          "total_rvu": 5.97
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31660; total_work_rvu=4.0, total_rvu=5.97 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 26,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Justin Morgan",
+      "patient_age": 63,
+      "patient_mrn": "1291247",
+      "procedure_date": "2024-02-06",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Justin Morgan\nMedical Record Number: 1291247\nDate of Birth: N/A\nAge at Procedure: N/A years\nProcedure Date: 2024-02-06\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with severe persistent asthma - bt session 2. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nBronchial Thermoplasty:\n\n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\nDetailed airway examination was performed with findings as documented in the procedural narrative.\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 31660\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        31660
+      ],
+      "registry_entry": {
+        "patient_mrn": "1291247",
+        "procedure_date": "2024-02-06",
+        "patient_age": 63,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Severe persistent asthma - BT Session 2",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Asthma",
+        "cpt_codes": [
+          31660
+        ],
+        "bt_lobe_treated": "LLL",
+        "bt_activation_count": 60,
+        "procedures_performed": {
+          "bronchial_thermoplasty": {
+            "performed": true,
+            "session_number": 2,
+            "lobe_treated": "LLL",
+            "total_activations": 60,
+            "device": "Alair System"
+          }
+        },
+        "providers": {
+          "attending_name": "Andrew Miller"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778598"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31660",
+            "final_codes": [
+              "31660"
+            ],
+            "code_rationales": {
+              "31660": "Bronchial thermoplasty, single lobe (LLL). Standard 3-session protocol."
+            }
+          },
+          "overall_assessment": "BT session 2 of 3 for severe asthma."
+        },
+        "procedure_families": [
+          "bronchial_thermoplasty"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31660",
+              "description": "Bronchoscopy; with bronchial thermoplasty, 1 lobe",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.0,
+          "practice_expense_rvu": 1.53,
+          "malpractice_rvu": 0.44,
+          "total_rvu": 5.97
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31660; total_work_rvu=4.0, total_rvu=5.97 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 26,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Alexander Hall",
+      "patient_age": 60,
+      "patient_mrn": "8569468",
+      "procedure_date": "2025-05-19",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: Alexander Hall | MRN: 8569468 | DOS: 2025-05-19\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 31660:\n  Rationale: Bronchial thermoplasty, single lobe (LLL). Standard 3-session protocol.\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nBRONCHIAL THERMOPLASTY:\n  - Session Number: 2\n  - Lobe Treated: LLL\n  - Total Activations: 60\n  - Device: Alair System\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: N/A\n  Total Facility Payment: $N/A\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        31660
+      ],
+      "registry_entry": {
+        "patient_mrn": "8569468",
+        "procedure_date": "2025-05-19",
+        "patient_age": 60,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Severe persistent asthma - BT Session 2",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Asthma",
+        "cpt_codes": [
+          31660
+        ],
+        "bt_lobe_treated": "LLL",
+        "bt_activation_count": 60,
+        "procedures_performed": {
+          "bronchial_thermoplasty": {
+            "performed": true,
+            "session_number": 2,
+            "lobe_treated": "LLL",
+            "total_activations": 60,
+            "device": "Alair System"
+          }
+        },
+        "providers": {
+          "attending_name": "Andrew Miller"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778598"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31660",
+            "final_codes": [
+              "31660"
+            ],
+            "code_rationales": {
+              "31660": "Bronchial thermoplasty, single lobe (LLL). Standard 3-session protocol."
+            }
+          },
+          "overall_assessment": "BT session 2 of 3 for severe asthma."
+        },
+        "procedure_families": [
+          "bronchial_thermoplasty"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31660",
+              "description": "Bronchoscopy; with bronchial thermoplasty, 1 lobe",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.0,
+          "practice_expense_rvu": 1.53,
+          "malpractice_rvu": 0.44,
+          "total_rvu": 5.97
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31660; total_work_rvu=4.0, total_rvu=5.97 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 26,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Emma Wang",
+      "patient_age": 55,
+      "patient_mrn": "4181473",
+      "procedure_date": "2024-06-18",
+      "note_text": "PROCEDURE NOTE\n\nDate: 2024-06-18\nPatient: Emma Wang\nMRN: 4181473\nAge/Sex: Noneyo patient\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nSevere persistent asthma - BT Session 2\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nModerate\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Bronchial Thermoplasty performed\n5. Scope withdrawn\n6. Patient recovered without complication\n\nSPECIMENS:\nAs documented above\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nTo recovery, stable condition\n\nCPT CODES: 31660\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        31660
+      ],
+      "registry_entry": {
+        "patient_mrn": "4181473",
+        "procedure_date": "2024-06-18",
+        "patient_age": 55,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Severe persistent asthma - BT Session 2",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Asthma",
+        "cpt_codes": [
+          31660
+        ],
+        "bt_lobe_treated": "LLL",
+        "bt_activation_count": 60,
+        "procedures_performed": {
+          "bronchial_thermoplasty": {
+            "performed": true,
+            "session_number": 2,
+            "lobe_treated": "LLL",
+            "total_activations": 60,
+            "device": "Alair System"
+          }
+        },
+        "providers": {
+          "attending_name": "Andrew Miller"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778598"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31660",
+            "final_codes": [
+              "31660"
+            ],
+            "code_rationales": {
+              "31660": "Bronchial thermoplasty, single lobe (LLL). Standard 3-session protocol."
+            }
+          },
+          "overall_assessment": "BT session 2 of 3 for severe asthma."
+        },
+        "procedure_families": [
+          "bronchial_thermoplasty"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31660",
+              "description": "Bronchoscopy; with bronchial thermoplasty, 1 lobe",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.0,
+          "practice_expense_rvu": 1.53,
+          "malpractice_rvu": 0.44,
+          "total_rvu": 5.97
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31660; total_work_rvu=4.0, total_rvu=5.97 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 26,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Ann Ward",
+      "patient_age": 61,
+      "patient_mrn": "7417276",
+      "procedure_date": "2024-01-18",
+      "note_text": "procedure note 2024-01-18 pt Ann Ward mrn 7417276\n\nindication severe persistent asthma - bt session 2 patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp bronchial thermoplasty performed stent placed good position confirmed on fluoro \n\ncomplication none ebl minimal patient tolerated well disposition to recovery \n\ncpt 31660\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        31660
+      ],
+      "registry_entry": {
+        "patient_mrn": "7417276",
+        "procedure_date": "2024-01-18",
+        "patient_age": 61,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Severe persistent asthma - BT Session 2",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Asthma",
+        "cpt_codes": [
+          31660
+        ],
+        "bt_lobe_treated": "LLL",
+        "bt_activation_count": 60,
+        "procedures_performed": {
+          "bronchial_thermoplasty": {
+            "performed": true,
+            "session_number": 2,
+            "lobe_treated": "LLL",
+            "total_activations": 60,
+            "device": "Alair System"
+          }
+        },
+        "providers": {
+          "attending_name": "Andrew Miller"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778598"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31660",
+            "final_codes": [
+              "31660"
+            ],
+            "code_rationales": {
+              "31660": "Bronchial thermoplasty, single lobe (LLL). Standard 3-session protocol."
+            }
+          },
+          "overall_assessment": "BT session 2 of 3 for severe asthma."
+        },
+        "procedure_families": [
+          "bronchial_thermoplasty"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31660",
+              "description": "Bronchoscopy; with bronchial thermoplasty, 1 lobe",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.0,
+          "practice_expense_rvu": 1.53,
+          "malpractice_rvu": 0.44,
+          "total_rvu": 5.97
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31660; total_work_rvu=4.0, total_rvu=5.97 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 26,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Evelyn Murphy",
+      "patient_age": 65,
+      "patient_mrn": "2991825",
+      "procedure_date": "2024-01-20",
+      "note_text": "BRONCHIAL THERMOPLASTY NOTE\nDate: 2024-01-20\nPatient: Evelyn Murphy | MRN: 2991825 | Age: 48F\nAttending: Dr. Andrew Miller, MD\nLocation: National Jewish Health, Denver, CO\n\nINDICATION: Severe persistent asthma (FEV1 65%, on high-dose ICS/LABA, omalizumab, history of 3 exacerbations past year). Selected for bronchial thermoplasty after multidisciplinary review.\n\nPROCEDURE: Bronchial thermoplasty - Session 2 of 3 (Left Lower Lobe)\n\nANESTHESIA: Moderate sedation\n\nUsing the Alair System (Boston Scientific), bronchial thermoplasty performed in the left lower lobe.\n\nTreatment Sites:\n- LB6: 15 activations\n- LB7: 8 activations\n- LB8: 12 activations\n- LB9: 14 activations\n- LB10: 11 activations\n\nTotal activations: 60\n\nEach activation delivered radiofrequency energy at 18.5 watts for 10 seconds at sequential 5mm intervals per standard protocol.\n\nPOST-PROCEDURE: Patient observed for 4 hours. Mild transient chest tightness resolved with bronchodilator. No significant adverse events.\n\nPLAN: Session 3 (RLL) in 3 weeks.\n\nDr. Andrew Miller, MD",
+      "cpt_codes": [
+        31660
+      ],
+      "registry_entry": {
+        "patient_mrn": "2991825",
+        "procedure_date": "2024-01-20",
+        "patient_age": 65,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Severe persistent asthma - BT Session 2",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Asthma",
+        "cpt_codes": [
+          31660
+        ],
+        "bt_lobe_treated": "LLL",
+        "bt_activation_count": 60,
+        "procedures_performed": {
+          "bronchial_thermoplasty": {
+            "performed": true,
+            "session_number": 2,
+            "lobe_treated": "LLL",
+            "total_activations": 60,
+            "device": "Alair System"
+          }
+        },
+        "providers": {
+          "attending_name": "Andrew Miller"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778598"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31660",
+            "final_codes": [
+              "31660"
+            ],
+            "code_rationales": {
+              "31660": "Bronchial thermoplasty, single lobe (LLL). Standard 3-session protocol."
+            }
+          },
+          "overall_assessment": "BT session 2 of 3 for severe asthma."
+        },
+        "procedure_families": [
+          "bronchial_thermoplasty"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31660",
+              "description": "Bronchoscopy; with bronchial thermoplasty, 1 lobe",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.0,
+          "practice_expense_rvu": 1.53,
+          "malpractice_rvu": 0.44,
+          "total_rvu": 5.97
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31660; total_work_rvu=4.0, total_rvu=5.97 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 26,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Jessica Ross",
+      "patient_age": 59,
+      "patient_mrn": "8717414",
+      "procedure_date": "2025-05-29",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Jessica Ross\nMRN: 8717414\nDOB: None\nAge: None\nDate: 2025-05-29\n\n[INDICATION]\nSevere persistent asthma - BT Session 2\n\n[ANESTHESIA]\nType: Moderate\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Bronchial Thermoplasty: Performed\n  \u2022 session number: 2\n  \u2022 lobe treated: LLL\n  \u2022 total activations: 60\n  \u2022 device: Alair System\n\n[FINDINGS]\nAssessment: Asthma\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: Outpatient\n\n[CODING]\nCPT: 31660\n",
+      "cpt_codes": [
+        31660
+      ],
+      "registry_entry": {
+        "patient_mrn": "8717414",
+        "procedure_date": "2025-05-29",
+        "patient_age": 59,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Severe persistent asthma - BT Session 2",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Asthma",
+        "cpt_codes": [
+          31660
+        ],
+        "bt_lobe_treated": "LLL",
+        "bt_activation_count": 60,
+        "procedures_performed": {
+          "bronchial_thermoplasty": {
+            "performed": true,
+            "session_number": 2,
+            "lobe_treated": "LLL",
+            "total_activations": 60,
+            "device": "Alair System"
+          }
+        },
+        "providers": {
+          "attending_name": "Andrew Miller"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778598"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31660",
+            "final_codes": [
+              "31660"
+            ],
+            "code_rationales": {
+              "31660": "Bronchial thermoplasty, single lobe (LLL). Standard 3-session protocol."
+            }
+          },
+          "overall_assessment": "BT session 2 of 3 for severe asthma."
+        },
+        "procedure_families": [
+          "bronchial_thermoplasty"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31660",
+              "description": "Bronchoscopy; with bronchial thermoplasty, 1 lobe",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.0,
+          "practice_expense_rvu": 1.53,
+          "malpractice_rvu": 0.44,
+          "total_rvu": 5.97
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31660; total_work_rvu=4.0, total_rvu=5.97 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 26,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Kimberly Castillo",
+      "patient_age": 58,
+      "patient_mrn": "1294707",
+      "procedure_date": "2024-07-25",
+      "note_text": "On 2024-07-25, Kimberly Castillo, a None-year-old patient (MRN 1294707), underwent bronchoscopic evaluation for Severe persistent asthma - BT Session 2. The patient received Moderate and the procedure was performed in standard fashion. The procedure included bronchial thermoplasty. \n\nOn examination, the airways were systematically inspected. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is asthma. \n\nProcedural coding: 31660.",
+      "cpt_codes": [
+        31660
+      ],
+      "registry_entry": {
+        "patient_mrn": "1294707",
+        "procedure_date": "2024-07-25",
+        "patient_age": 58,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Severe persistent asthma - BT Session 2",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Asthma",
+        "cpt_codes": [
+          31660
+        ],
+        "bt_lobe_treated": "LLL",
+        "bt_activation_count": 60,
+        "procedures_performed": {
+          "bronchial_thermoplasty": {
+            "performed": true,
+            "session_number": 2,
+            "lobe_treated": "LLL",
+            "total_activations": 60,
+            "device": "Alair System"
+          }
+        },
+        "providers": {
+          "attending_name": "Andrew Miller"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778598"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31660",
+            "final_codes": [
+              "31660"
+            ],
+            "code_rationales": {
+              "31660": "Bronchial thermoplasty, single lobe (LLL). Standard 3-session protocol."
+            }
+          },
+          "overall_assessment": "BT session 2 of 3 for severe asthma."
+        },
+        "procedure_families": [
+          "bronchial_thermoplasty"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31660",
+              "description": "Bronchoscopy; with bronchial thermoplasty, 1 lobe",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.0,
+          "practice_expense_rvu": 1.53,
+          "malpractice_rvu": 0.44,
+          "total_rvu": 5.97
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31660; total_work_rvu=4.0, total_rvu=5.97 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 26,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Gary Anderson",
+      "patient_age": 58,
+      "patient_mrn": "1293658",
+      "procedure_date": "2025-04-21",
+      "note_text": "BRONCHIAL THERMOPLASTY NOTE\nDate: 2025-04-21\nPatient: Gary Anderson | MRN: 1293658 | Age: 48F\nAttending: Dr. Andrew Miller, MD\nLocation: National Jewish Health, Denver, CO\n\nINDICATION: Severe persistent asthma (FEV1 65%, on high-dose ICS/LABA, omalizumab, history of 3 exacerbations past year). Selected for bronchial thermoplasty after multidisciplinary review.\n\nPROCEDURE: Bronchial thermoplasty - Session 2 of 3 (Left Lower Lobe)\n\nANESTHESIA: Moderate sedation\n\nPROCEDURE DETAILS:\nUsing the Alair System (Boston Scientific), bronchial thermoplasty completed in the left lower lobe.\n\nTreatment Sites:\n- LB6: 15 activations\n- LB7: 8 activations\n- LB8: 12 activations\n- LB9: 14 activations\n- LB10: 11 activations\n\nTotal activations: 60\n\nEach activation delivered radiofrequency energy at 18.5 watts for 10 seconds at sequential 5mm intervals per standard protocol.\n\nPOST-PROCEDURE: Patient observed for 4 hours. Mild transient chest tightness resolved with bronchodilator. No significant adverse events.\n\nPLAN: Session 3 (RLL) in 3 weeks.\n\nDr. Andrew Miller, MD",
+      "cpt_codes": [
+        31660
+      ],
+      "registry_entry": {
+        "patient_mrn": "1293658",
+        "procedure_date": "2025-04-21",
+        "patient_age": 58,
+        "gender": "Female",
+        "asa_class": 2,
+        "primary_indication": "Severe persistent asthma - BT Session 2",
+        "sedation_type": "Moderate",
+        "airway_type": "Native",
+        "final_diagnosis_prelim": "Asthma",
+        "cpt_codes": [
+          31660
+        ],
+        "bt_lobe_treated": "LLL",
+        "bt_activation_count": 60,
+        "procedures_performed": {
+          "bronchial_thermoplasty": {
+            "performed": true,
+            "session_number": 2,
+            "lobe_treated": "LLL",
+            "total_activations": 60,
+            "device": "Alair System"
+          }
+        },
+        "providers": {
+          "attending_name": "Andrew Miller"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:55:23.778598"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31660",
+            "final_codes": [
+              "31660"
+            ],
+            "code_rationales": {
+              "31660": "Bronchial thermoplasty, single lobe (LLL). Standard 3-session protocol."
+            }
+          },
+          "overall_assessment": "BT session 2 of 3 for severe asthma."
+        },
+        "procedure_families": [
+          "bronchial_thermoplasty"
+        ],
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31660",
+              "description": "Bronchoscopy; with bronchial thermoplasty, 1 lobe",
+              "units": 1
+            }
+          ],
+          "work_rvu": 4.0,
+          "practice_expense_rvu": 1.53,
+          "malpractice_rvu": 0.44,
+          "total_rvu": 5.97
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31660; total_work_rvu=4.0, total_rvu=5.97 (facility)."
+        ]
+      }
+    }
+  ]
+}

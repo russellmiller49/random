@@ -1,0 +1,968 @@
+{
+  "base_note": {
+    "note_text": "BRONCHOSCOPY NOTE - URGENT\nDate: 2025-04-21\nPatient: Timothy Clark | MRN: 7063244 | Age: 3 years, Male\nAttending: Dr. Patricia Lee, MD (Pediatric IP)\nLocation: Children's Hospital of Philadelphia\n\nINDICATION: 3-year-old male with witnessed aspiration of peanut 2 hours ago. Stridor, decreased breath sounds on right.\n\nPROCEDURE: Rigid bronchoscopy with foreign body removal\n\nANESTHESIA: General anesthesia (sevoflurane induction, propofol maintenance)\n\nFINDINGS:\n- Vocal cords: Edematous\n- Trachea: Mucosal inflammation\n- Right mainstem: Peanut fragment lodged at RMS/BI junction causing complete obstruction\n- Left lung: Normal\n\nPROCEDURE: Using 3.5mm pediatric rigid bronchoscope, the peanut was visualized. Optical forceps used to grasp and remove the foreign body en bloc. Post-removal inspection showed mucosal edema and erythema but patent airway. Second fragment found in RLL, also removed.\n\nSPECIMENS: Peanut fragments x 2 (gross specimen)\n\nCOMPLICATIONS: None\n\nPOST-PROCEDURE: Dexamethasone 0.5mg/kg IV given. Patient extubated, stridor resolved. Admission for overnight observation and racemic epinephrine PRN.\n\nDr. Patricia Lee, MD",
+    "cpt_codes": [
+      31635
+    ],
+    "registry_entry": {
+      "patient_mrn": "7063244",
+      "procedure_date": "2025-04-21",
+      "patient_age": 3,
+      "gender": "Male",
+      "asa_class": 2,
+      "primary_indication": "Airway foreign body - peanut aspiration",
+      "sedation_type": "General",
+      "airway_type": "Rigid",
+      "final_diagnosis_prelim": "Foreign body aspiration",
+      "cpt_codes": [
+        31635
+      ],
+      "fb_object_type": "Peanut",
+      "fb_tool_used": [
+        "Optical forceps"
+      ],
+      "fb_removal_success": true,
+      "procedures_performed": {
+        "foreign_body_removal": {
+          "performed": true,
+          "object": "Peanut (2 fragments)",
+          "location": "RMS, RLL",
+          "successful": true
+        }
+      },
+      "providers": {
+        "attending_name": "Patricia Lee"
+      },
+      "metadata": {
+        "version": "2.8.0",
+        "generated_at": "2025-12-08T17:53:15.902859"
+      },
+      "coding_review": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-08",
+        "reviewer": "IP_Coder_Patch_GPT",
+        "cpt_summary": {
+          "primary_code": "31635",
+          "final_codes": [
+            "31635"
+          ],
+          "modifiers": [],
+          "changes_made": false,
+          "code_rationales": {
+            "31635": "Rigid bronchoscopy with foreign body removal - pediatric peanut aspiration."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 5.54,
+          "facility_total_payment": 179.0,
+          "per_code": {
+            "31635": {
+              "facility_rvu": 5.54,
+              "facility_payment": 179
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_8.json"
+        },
+        "overall_assessment": "FB removal successful via rigid bronchoscopy."
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31635",
+            "description": "Bronchoscopy; with removal of foreign body",
+            "units": 1
+          }
+        ],
+        "work_rvu": 3.42,
+        "practice_expense_rvu": 1.74,
+        "malpractice_rvu": 0.38,
+        "total_rvu": 5.54
+      }
+    },
+    "source_file": "synthetic_additional_v2_8.json",
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-08",
+      "changes": [
+        "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31635; total_work_rvu=3.42, total_rvu=5.54 (facility)."
+      ]
+    }
+  },
+  "variations": [
+    {
+      "original_note_index": 20,
+      "style": "terse_surgeon",
+      "style_name": "Terse Surgeon",
+      "patient_name": "Carlos Castillo",
+      "patient_age": 18,
+      "patient_mrn": "3445232",
+      "procedure_date": "2025-09-08",
+      "note_text": "OPERATIVE NOTE\n\nCarlos Castillo | MRN 3445232 | 2025-09-08\n\nDx: See above\nProc: Dexamethasone 0.5mg/kg IV given. Patient extubated, stridor resolved. Admission for overnight observation and racemic epinephrine PRN.\n\nActions:\n\u2022 Foreign Body Removal\n\nCPT: 31635\nComplications: None\nDispo: Stable\n",
+      "cpt_codes": [
+        31635
+      ],
+      "registry_entry": {
+        "patient_mrn": "3445232",
+        "procedure_date": "2025-09-08",
+        "patient_age": 18,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Airway foreign body - peanut aspiration",
+        "sedation_type": "General",
+        "airway_type": "Rigid",
+        "final_diagnosis_prelim": "Foreign body aspiration",
+        "cpt_codes": [
+          31635
+        ],
+        "fb_object_type": "Peanut",
+        "fb_tool_used": [
+          "Optical forceps"
+        ],
+        "fb_removal_success": true,
+        "procedures_performed": {
+          "foreign_body_removal": {
+            "performed": true,
+            "object": "Peanut (2 fragments)",
+            "location": "RMS, RLL",
+            "successful": true
+          }
+        },
+        "providers": {
+          "attending_name": "Patricia Lee"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902859"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31635",
+            "final_codes": [
+              "31635"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31635": "Rigid bronchoscopy with foreign body removal - pediatric peanut aspiration."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 5.54,
+            "facility_total_payment": 179.0,
+            "per_code": {
+              "31635": {
+                "facility_rvu": 5.54,
+                "facility_payment": 179
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "FB removal successful via rigid bronchoscopy."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31635",
+              "description": "Bronchoscopy; with removal of foreign body",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.42,
+          "practice_expense_rvu": 1.74,
+          "malpractice_rvu": 0.38,
+          "total_rvu": 5.54
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31635; total_work_rvu=3.42, total_rvu=5.54 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 20,
+      "style": "academic_attending",
+      "style_name": "Academic Attending",
+      "patient_name": "Austin Long",
+      "patient_age": 18,
+      "patient_mrn": "6481566",
+      "procedure_date": "2024-03-12",
+      "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE DOCUMENTATION\n============================================================\n\nPATIENT IDENTIFICATION AND DEMOGRAPHICS\n----------------------------------------\nPatient: Austin Long\nMedical Record Number: 6481566\nDate of Birth: N/A\nAge at Procedure: 18 years\nProcedure Date: 2024-03-12\n\nCLINICAL INDICATION AND PREOPERATIVE ASSESSMENT\n----------------------------------------\nThe patient presented with airway foreign body - peanut aspiration. Following comprehensive multidisciplinary evaluation and informed consent discussion detailing procedural risks, benefits, and alternatives, the patient elected to proceed with the proposed intervention.\n\nPROCEDURAL METHODOLOGY AND TECHNIQUE\n----------------------------------------\n\nForeign Body Removal:\n\n\nINTRAPROCEDURAL FINDINGS\n----------------------------------------\n- Vocal cords: Edematous\n- Trachea: Mucosal inflammation\n- Right mainstem: Peanut fragment lodged at RMS/BI junction causing complete obstruction\n- Left lung: Normal\n\n\nPOSTPROCEDURAL ASSESSMENT AND DISPOSITION\n----------------------------------------\nThe procedure was completed without immediate complications. The patient demonstrated hemodynamic stability throughout and was transferred to the recovery area in satisfactory condition.\n\nPROCEDURAL CODING DOCUMENTATION\n----------------------------------------\nCurrent Procedural Terminology Codes: 31635\n\nThis documentation has been prepared in accordance with institutional standards for procedural documentation and coding compliance.\n",
+      "cpt_codes": [
+        31635
+      ],
+      "registry_entry": {
+        "patient_mrn": "6481566",
+        "procedure_date": "2024-03-12",
+        "patient_age": 18,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Airway foreign body - peanut aspiration",
+        "sedation_type": "General",
+        "airway_type": "Rigid",
+        "final_diagnosis_prelim": "Foreign body aspiration",
+        "cpt_codes": [
+          31635
+        ],
+        "fb_object_type": "Peanut",
+        "fb_tool_used": [
+          "Optical forceps"
+        ],
+        "fb_removal_success": true,
+        "procedures_performed": {
+          "foreign_body_removal": {
+            "performed": true,
+            "object": "Peanut (2 fragments)",
+            "location": "RMS, RLL",
+            "successful": true
+          }
+        },
+        "providers": {
+          "attending_name": "Patricia Lee"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902859"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31635",
+            "final_codes": [
+              "31635"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31635": "Rigid bronchoscopy with foreign body removal - pediatric peanut aspiration."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 5.54,
+            "facility_total_payment": 179.0,
+            "per_code": {
+              "31635": {
+                "facility_rvu": 5.54,
+                "facility_payment": 179
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "FB removal successful via rigid bronchoscopy."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31635",
+              "description": "Bronchoscopy; with removal of foreign body",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.42,
+          "practice_expense_rvu": 1.74,
+          "malpractice_rvu": 0.38,
+          "total_rvu": 5.54
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31635; total_work_rvu=3.42, total_rvu=5.54 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 20,
+      "style": "billing_coder",
+      "style_name": "Billing Coder",
+      "patient_name": "Donald Smith",
+      "patient_age": 18,
+      "patient_mrn": "8184604",
+      "procedure_date": "2024-10-12",
+      "note_text": "PROCEDURE NOTE - CODING DOCUMENTATION\n============================================================\n\nPatient: Donald Smith | MRN: 8184604 | DOS: 2024-10-12\n\nCPT CODE JUSTIFICATION\n----------------------------------------\n\nCPT 31635:\n  Rationale: Rigid bronchoscopy with foreign body removal - pediatric peanut aspiration.\n  Facility RVU: 5.54\n  Facility Payment: $179\n\nDOCUMENTED TECHNIQUES AND EQUIPMENT\n----------------------------------------\n\n\nPROCEDURE-SPECIFIC DOCUMENTATION:\n\nFOREIGN BODY REMOVAL:\n  - Object: Peanut (2 fragments)\n  - Location: RMS, RLL\n  - Successful: True\n\nTOTAL RVU SUMMARY:\n----------------------------------------\n  Total Facility RVU: 5.54\n  Total Facility Payment: $179.0\n\nDocumentation supports medical necessity and procedure complexity as coded.\n",
+      "cpt_codes": [
+        31635
+      ],
+      "registry_entry": {
+        "patient_mrn": "8184604",
+        "procedure_date": "2024-10-12",
+        "patient_age": 18,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Airway foreign body - peanut aspiration",
+        "sedation_type": "General",
+        "airway_type": "Rigid",
+        "final_diagnosis_prelim": "Foreign body aspiration",
+        "cpt_codes": [
+          31635
+        ],
+        "fb_object_type": "Peanut",
+        "fb_tool_used": [
+          "Optical forceps"
+        ],
+        "fb_removal_success": true,
+        "procedures_performed": {
+          "foreign_body_removal": {
+            "performed": true,
+            "object": "Peanut (2 fragments)",
+            "location": "RMS, RLL",
+            "successful": true
+          }
+        },
+        "providers": {
+          "attending_name": "Patricia Lee"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902859"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31635",
+            "final_codes": [
+              "31635"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31635": "Rigid bronchoscopy with foreign body removal - pediatric peanut aspiration."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 5.54,
+            "facility_total_payment": 179.0,
+            "per_code": {
+              "31635": {
+                "facility_rvu": 5.54,
+                "facility_payment": 179
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "FB removal successful via rigid bronchoscopy."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31635",
+              "description": "Bronchoscopy; with removal of foreign body",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.42,
+          "practice_expense_rvu": 1.74,
+          "malpractice_rvu": 0.38,
+          "total_rvu": 5.54
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31635; total_work_rvu=3.42, total_rvu=5.54 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 20,
+      "style": "trainee_resident",
+      "style_name": "Trainee/Resident",
+      "patient_name": "Andrew Scott",
+      "patient_age": 18,
+      "patient_mrn": "2582498",
+      "procedure_date": "2024-11-15",
+      "note_text": "PROCEDURE NOTE\n\nDate: 2024-11-15\nPatient: Andrew Scott\nMRN: 2582498\nAge/Sex: 18yo M\n\nAttending Physician: [Attending]\nResident/Fellow: [Trainee, PGY-X]\n\nINDICATION:\nAirway foreign body - peanut aspiration\n\nCONSENT:\nInformed consent obtained. Risks, benefits, and alternatives discussed.\nPatient verbalized understanding and agreed to proceed.\n\nTIMEOUT:\nPerformed. Correct patient, procedure, and site confirmed.\n\nSEDATION:\nGeneral\n\nPROCEDURE STEPS:\n1. Patient positioned and monitored\n2. Sedation administered per protocol\n3. Topical anesthesia applied to airway\n4. Foreign Body Removal performed\n5. Scope withdrawn\n6. Patient recovered without complication\n\nSPECIMENS:\nPeanut fragments x 2 (gross specimen)\n\nCOMPLICATIONS:\nNone\n\nEBL:\nMinimal\n\nDISPOSITION:\nTo recovery, stable condition\n\nCPT CODES: 31635\n\nATTESTATION:\nI was present for the entire procedure and agree with the above documentation.\n[Attending Signature]\n",
+      "cpt_codes": [
+        31635
+      ],
+      "registry_entry": {
+        "patient_mrn": "2582498",
+        "procedure_date": "2024-11-15",
+        "patient_age": 18,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Airway foreign body - peanut aspiration",
+        "sedation_type": "General",
+        "airway_type": "Rigid",
+        "final_diagnosis_prelim": "Foreign body aspiration",
+        "cpt_codes": [
+          31635
+        ],
+        "fb_object_type": "Peanut",
+        "fb_tool_used": [
+          "Optical forceps"
+        ],
+        "fb_removal_success": true,
+        "procedures_performed": {
+          "foreign_body_removal": {
+            "performed": true,
+            "object": "Peanut (2 fragments)",
+            "location": "RMS, RLL",
+            "successful": true
+          }
+        },
+        "providers": {
+          "attending_name": "Patricia Lee"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902859"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31635",
+            "final_codes": [
+              "31635"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31635": "Rigid bronchoscopy with foreign body removal - pediatric peanut aspiration."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 5.54,
+            "facility_total_payment": 179.0,
+            "per_code": {
+              "31635": {
+                "facility_rvu": 5.54,
+                "facility_payment": 179
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "FB removal successful via rigid bronchoscopy."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31635",
+              "description": "Bronchoscopy; with removal of foreign body",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.42,
+          "practice_expense_rvu": 1.74,
+          "malpractice_rvu": 0.38,
+          "total_rvu": 5.54
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31635; total_work_rvu=3.42, total_rvu=5.54 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 20,
+      "style": "sloppy_dictation",
+      "style_name": "Sloppy Dictation",
+      "patient_name": "Harold Liu",
+      "patient_age": 18,
+      "patient_mrn": "7940039",
+      "procedure_date": "2024-09-10",
+      "note_text": "procedure note 2024-09-10 pt Harold Liu mrn 7940039\n\nindication airway foreign body - peanut aspiration patient brought to procedure suite sedation given scope advanced through vocal cords which were normal trachea patent carina sharp foreign body removal performed airways inspected all patent no masses \n\ncomplication none ebl minimal patient tolerated well disposition to recovery \n\ncpt 31635\n\n\nwill f/u in clinic\n",
+      "cpt_codes": [
+        31635
+      ],
+      "registry_entry": {
+        "patient_mrn": "7940039",
+        "procedure_date": "2024-09-10",
+        "patient_age": 18,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Airway foreign body - peanut aspiration",
+        "sedation_type": "General",
+        "airway_type": "Rigid",
+        "final_diagnosis_prelim": "Foreign body aspiration",
+        "cpt_codes": [
+          31635
+        ],
+        "fb_object_type": "Peanut",
+        "fb_tool_used": [
+          "Optical forceps"
+        ],
+        "fb_removal_success": true,
+        "procedures_performed": {
+          "foreign_body_removal": {
+            "performed": true,
+            "object": "Peanut (2 fragments)",
+            "location": "RMS, RLL",
+            "successful": true
+          }
+        },
+        "providers": {
+          "attending_name": "Patricia Lee"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902859"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31635",
+            "final_codes": [
+              "31635"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31635": "Rigid bronchoscopy with foreign body removal - pediatric peanut aspiration."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 5.54,
+            "facility_total_payment": 179.0,
+            "per_code": {
+              "31635": {
+                "facility_rvu": 5.54,
+                "facility_payment": 179
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "FB removal successful via rigid bronchoscopy."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31635",
+              "description": "Bronchoscopy; with removal of foreign body",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.42,
+          "practice_expense_rvu": 1.74,
+          "malpractice_rvu": 0.38,
+          "total_rvu": 5.54
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31635; total_work_rvu=3.42, total_rvu=5.54 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 20,
+      "style": "headerless",
+      "style_name": "Header-less",
+      "patient_name": "Jerry Mitchell",
+      "patient_age": 18,
+      "patient_mrn": "1331345",
+      "procedure_date": "2024-03-24",
+      "note_text": "BRONCHOSCOPY NOTE - URGENT\nDate: 2024-03-24\nPatient: Jerry Mitchell | MRN: 1331345 | Age: 3 years, Male\nAttending: Dr. Patricia Lee, MD (Pediatric IP)\nLocation: Children's Hospital of Philadelphia\n\nINDICATION: 18-year-old male with witnessed aspiration of peanut 2 hours ago. Stridor, decreased breath sounds on right.\n\nPROCEDURE: Rigid bronchoscopy with foreign body removal\n\nANESTHESIA: General anesthesia (sevoflurane induction, propofol maintenance)\n\n- Vocal cords: Edematous\n- Trachea: Mucosal inflammation\n- Right mainstem: Peanut fragment lodged at RMS/BI junction causing complete obstruction\n- Left lung: Normal\n\nPROCEDURE: Using 3.5mm pediatric rigid bronchoscope, the peanut was visualized. Optical forceps used to grasp and remove the foreign body en bloc. Post-removal inspection showed mucosal edema and erythema but patent airway. Second fragment found in RLL, also removed.\n\nSPECIMENS: Peanut fragments x 2 (gross specimen)\n\nCOMPLICATIONS: None\n\nPOST-PROCEDURE: Dexamethasone 0.5mg/kg IV given. Patient extubated, stridor resolved. Admission for overnight observation and racemic epinephrine PRN.\n\nDr. Patricia Lee, MD",
+      "cpt_codes": [
+        31635
+      ],
+      "registry_entry": {
+        "patient_mrn": "1331345",
+        "procedure_date": "2024-03-24",
+        "patient_age": 18,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Airway foreign body - peanut aspiration",
+        "sedation_type": "General",
+        "airway_type": "Rigid",
+        "final_diagnosis_prelim": "Foreign body aspiration",
+        "cpt_codes": [
+          31635
+        ],
+        "fb_object_type": "Peanut",
+        "fb_tool_used": [
+          "Optical forceps"
+        ],
+        "fb_removal_success": true,
+        "procedures_performed": {
+          "foreign_body_removal": {
+            "performed": true,
+            "object": "Peanut (2 fragments)",
+            "location": "RMS, RLL",
+            "successful": true
+          }
+        },
+        "providers": {
+          "attending_name": "Patricia Lee"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902859"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31635",
+            "final_codes": [
+              "31635"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31635": "Rigid bronchoscopy with foreign body removal - pediatric peanut aspiration."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 5.54,
+            "facility_total_payment": 179.0,
+            "per_code": {
+              "31635": {
+                "facility_rvu": 5.54,
+                "facility_payment": 179
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "FB removal successful via rigid bronchoscopy."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31635",
+              "description": "Bronchoscopy; with removal of foreign body",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.42,
+          "practice_expense_rvu": 1.74,
+          "malpractice_rvu": 0.38,
+          "total_rvu": 5.54
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31635; total_work_rvu=3.42, total_rvu=5.54 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 20,
+      "style": "templated",
+      "style_name": "Templated",
+      "patient_name": "Anthony Ramirez",
+      "patient_age": 18,
+      "patient_mrn": "3439546",
+      "procedure_date": "2024-10-29",
+      "note_text": "PROCEDURE NOTE - STANDARDIZED TEMPLATE\n==================================================\n\n[PATIENT INFO]\nName: Anthony Ramirez\nMRN: 3439546\nDOB: None\nAge: 18\nDate: 2024-10-29\n\n[INDICATION]\nAirway foreign body - peanut aspiration\n\n[ANESTHESIA]\nType: General\nMonitoring: Standard ASA monitors\n\n[DESCRIPTION]\n- Foreign Body Removal: Performed\n  \u2022 object: Peanut (2 fragments)\n  \u2022 location: RMS, RLL\n  \u2022 successful: Yes\n\n[FINDINGS]\nAssessment: Foreign body aspiration\n\n[SPECIMENS]\n\u2610 Cytology\n\u2610 Pathology\n\u2610 Microbiology\n\u2610 Molecular\n\n[COMPLICATIONS]\n\u2612 None\n\u2610 Bleeding\n\u2610 Pneumothorax\n\u2610 Other: ___\n\n[PLAN]\n1. Recovery per protocol\n2. Await pathology results\n3. Follow-up in clinic\n4. Disposition: Outpatient\n\n[CODING]\nCPT: 31635\n",
+      "cpt_codes": [
+        31635
+      ],
+      "registry_entry": {
+        "patient_mrn": "3439546",
+        "procedure_date": "2024-10-29",
+        "patient_age": 18,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Airway foreign body - peanut aspiration",
+        "sedation_type": "General",
+        "airway_type": "Rigid",
+        "final_diagnosis_prelim": "Foreign body aspiration",
+        "cpt_codes": [
+          31635
+        ],
+        "fb_object_type": "Peanut",
+        "fb_tool_used": [
+          "Optical forceps"
+        ],
+        "fb_removal_success": true,
+        "procedures_performed": {
+          "foreign_body_removal": {
+            "performed": true,
+            "object": "Peanut (2 fragments)",
+            "location": "RMS, RLL",
+            "successful": true
+          }
+        },
+        "providers": {
+          "attending_name": "Patricia Lee"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902859"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31635",
+            "final_codes": [
+              "31635"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31635": "Rigid bronchoscopy with foreign body removal - pediatric peanut aspiration."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 5.54,
+            "facility_total_payment": 179.0,
+            "per_code": {
+              "31635": {
+                "facility_rvu": 5.54,
+                "facility_payment": 179
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "FB removal successful via rigid bronchoscopy."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31635",
+              "description": "Bronchoscopy; with removal of foreign body",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.42,
+          "practice_expense_rvu": 1.74,
+          "malpractice_rvu": 0.38,
+          "total_rvu": 5.54
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31635; total_work_rvu=3.42, total_rvu=5.54 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 20,
+      "style": "narrative_flow",
+      "style_name": "Narrative Flow",
+      "patient_name": "Donald Jones",
+      "patient_age": 18,
+      "patient_mrn": "3767803",
+      "procedure_date": "2025-03-16",
+      "note_text": "On 2025-03-16, Donald Jones, a 18-year-old male (MRN 3767803), underwent bronchoscopic evaluation for Airway foreign body - peanut aspiration. The patient received General and the procedure was performed in standard fashion. The procedure included foreign body removal. \n\nOn examination, the airways were systematically inspected. The visualized airways appeared patent without significant abnormality. The procedure was completed without immediate complications. \n\nThe patient tolerated the procedure well and was transferred to the recovery area in stable condition. Specimens obtained were sent for appropriate analysis and results will be reviewed at follow-up. The preliminary assessment is foreign body aspiration. \n\nProcedural coding: 31635.",
+      "cpt_codes": [
+        31635
+      ],
+      "registry_entry": {
+        "patient_mrn": "3767803",
+        "procedure_date": "2025-03-16",
+        "patient_age": 18,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Airway foreign body - peanut aspiration",
+        "sedation_type": "General",
+        "airway_type": "Rigid",
+        "final_diagnosis_prelim": "Foreign body aspiration",
+        "cpt_codes": [
+          31635
+        ],
+        "fb_object_type": "Peanut",
+        "fb_tool_used": [
+          "Optical forceps"
+        ],
+        "fb_removal_success": true,
+        "procedures_performed": {
+          "foreign_body_removal": {
+            "performed": true,
+            "object": "Peanut (2 fragments)",
+            "location": "RMS, RLL",
+            "successful": true
+          }
+        },
+        "providers": {
+          "attending_name": "Patricia Lee"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902859"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31635",
+            "final_codes": [
+              "31635"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31635": "Rigid bronchoscopy with foreign body removal - pediatric peanut aspiration."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 5.54,
+            "facility_total_payment": 179.0,
+            "per_code": {
+              "31635": {
+                "facility_rvu": 5.54,
+                "facility_payment": 179
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "FB removal successful via rigid bronchoscopy."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31635",
+              "description": "Bronchoscopy; with removal of foreign body",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.42,
+          "practice_expense_rvu": 1.74,
+          "malpractice_rvu": 0.38,
+          "total_rvu": 5.54
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31635; total_work_rvu=3.42, total_rvu=5.54 (facility)."
+        ]
+      }
+    },
+    {
+      "original_note_index": 20,
+      "style": "synonym_swapper",
+      "style_name": "Synonym Swapper",
+      "patient_name": "Austin James",
+      "patient_age": 18,
+      "patient_mrn": "2563646",
+      "procedure_date": "2024-04-20",
+      "note_text": "BRONCHOSCOPY NOTE - URGENT\nDate: 2024-04-20\nPatient: Austin James | MRN: 2563646 | Age: 3 years, Male\nAttending: Dr. Patricia Lee, MD (Pediatric IP)\nLocation: Children's Hospital of Philadelphia\n\nINDICATION: 18-year-old male with witnessed aspiration of peanut 2 hours ago. Stridor, decreased breath sounds on right.\n\nPROCEDURE: Rigid bronchoscopy with foreign body removal\n\nANESTHESIA: General anesthesia (sevoflurane induction, propofol maintenance)\n\nFINDINGS:\n- Vocal cords: Edematous\n- Trachea: Mucosal inflammation\n- Right mainstem: Peanut fragment lodged at RMS/BI junction causing complete obstruction\n- Left lung: Normal\n\nPROCEDURE: Using 3.5mm pediatric rigid bronchoscope, the peanut was observed. Optical forceps used to grasp and remove the foreign body en bloc. Post-removal inspection indicated mucosal edema and erythema but clear airway. Second fragment found in RLL, also extracted.\n\nSPECIMENS: Peanut fragments x 2 (gross specimen)\n\nCOMPLICATIONS: None\n\nPOST-PROCEDURE: Dexamethasone 0.5mg/kg IV given. Patient extubated, stridor resolved. Admission for overnight observation and racemic epinephrine PRN.\n\nDr. Patricia Lee, MD",
+      "cpt_codes": [
+        31635
+      ],
+      "registry_entry": {
+        "patient_mrn": "2563646",
+        "procedure_date": "2024-04-20",
+        "patient_age": 18,
+        "gender": "Male",
+        "asa_class": 2,
+        "primary_indication": "Airway foreign body - peanut aspiration",
+        "sedation_type": "General",
+        "airway_type": "Rigid",
+        "final_diagnosis_prelim": "Foreign body aspiration",
+        "cpt_codes": [
+          31635
+        ],
+        "fb_object_type": "Peanut",
+        "fb_tool_used": [
+          "Optical forceps"
+        ],
+        "fb_removal_success": true,
+        "procedures_performed": {
+          "foreign_body_removal": {
+            "performed": true,
+            "object": "Peanut (2 fragments)",
+            "location": "RMS, RLL",
+            "successful": true
+          }
+        },
+        "providers": {
+          "attending_name": "Patricia Lee"
+        },
+        "metadata": {
+          "version": "2.8.0",
+          "generated_at": "2025-12-08T17:53:15.902859"
+        },
+        "coding_review": {
+          "review_version": "1.0.0",
+          "review_date": "2025-12-08",
+          "reviewer": "IP_Coder_Patch_GPT",
+          "cpt_summary": {
+            "primary_code": "31635",
+            "final_codes": [
+              "31635"
+            ],
+            "modifiers": [],
+            "changes_made": false,
+            "code_rationales": {
+              "31635": "Rigid bronchoscopy with foreign body removal - pediatric peanut aspiration."
+            },
+            "coding_decision": "as_documented"
+          },
+          "rvu_summary_2025": {
+            "facility_total_rvu": 5.54,
+            "facility_total_payment": 179.0,
+            "per_code": {
+              "31635": {
+                "facility_rvu": 5.54,
+                "facility_payment": 179
+              }
+            },
+            "rvu_source": "ip_coding_billing.v2_8.json"
+          },
+          "overall_assessment": "FB removal successful via rigid bronchoscopy."
+        },
+        "billing": {
+          "cpt_codes": [
+            {
+              "code": "31635",
+              "description": "Bronchoscopy; with removal of foreign body",
+              "units": 1
+            }
+          ],
+          "work_rvu": 3.42,
+          "practice_expense_rvu": 1.74,
+          "malpractice_rvu": 0.38,
+          "total_rvu": 5.54
+        }
+      },
+      "patch_metadata": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-08",
+        "changes": [
+          "Populated registry_entry.billing from ip_coding_billing.v2_7 for CPT codes 31635; total_work_rvu=3.42, total_rvu=5.54 (facility)."
+        ]
+      }
+    }
+  ]
+}

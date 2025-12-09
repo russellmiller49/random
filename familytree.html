@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ressman-Malyn-Miller Family Tree</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; overflow: hidden; background-color: #f4f4f9; }
+        #tree-container { width: 100vw; height: 100vh; }
+        .node circle { fill: #fff; stroke: steelblue; stroke-width: 3px; cursor: pointer; transition: all 0.3s; }
+        .node circle:hover { fill: #e6f2ff; stroke: #2c3e50; }
+        .node text { font: 12px sans-serif; pointer-events: none; text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff; }
+        .link { fill: none; stroke: #ccc; stroke-width: 2px; }
+        
+        /* Search Bar Styling */
+        #controls { position: absolute; top: 10px; left: 10px; background: rgba(255,255,255,0.9); padding: 10px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        input { padding: 5px; border: 1px solid #ccc; border-radius: 4px; }
+        button { padding: 5px 10px; background: steelblue; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #2c3e50; }
+        .found { stroke: #ff5722 !important; stroke-width: 5px !important; fill: #ffccbc !important; }
+        .found-text { fill: #d84315; font-weight: bold; font-size: 14px; }
+    </style>
+</head>
+<body>
+
+<div id="controls">
+    <h3>Family Tree Viewer</h3>
+    <input type="text" id="searchBox" placeholder="Search Name...">
+    <button onclick="searchTree()">Find</button>
+    <button onclick="expandAll()">Expand All</button>
+    <button onclick="collapseAll()">Collapse All</button>
+    <div style="font-size: 0.8em; margin-top:5px; color:#666;">
+        <b>Tips:</b> Scroll to zoom. Drag to pan.<br>Click circles to toggle children.
+    </div>
+</div>
+
+<div id="tree-container"></div>
+
+<script>
+// Data derived from the OCR Text provided
+const treeData = {
+  "name": "Family Origins",
+  "children": [
+    {
+      "name": "RESSMAN LINEAGE",
+      "children": [
+        {
+          "name": "David Moses Ressman (Tailor)",
+          "mate": "Hinda Pessin",
+          "children": [
+            {
+              "name": "Rachel Ressman (1865-1954)",
+              "mate": "David Beilen",
+              "children": [
+                { "name": "Esther Bailin (1891)", "mate": "Alex Levy", "children": [
+                    { "name": "Howard 'Ollie' Leslie (1914)", "children": [{"name": "Donald Leslie"}, {"name": "Judy Leslie"}] },
+                    { "name": "Shirley Levy (1917)", "mate": "Bernard Kaplan", "children": [{"name": "Susan Kaplan"}, {"name": "Robert Kaplan"}, {"name": "Rochel Kaplan"}] },
+                    { "name": "David 'Buddy' Levy (1921)" }
+                ]},
+                { "name": "Bessie Bailin (1892)", "mate": "Frank Kritzberg", "children": [
+                    { "name": "David Kritzberg (1913)", "children": [{"name": "Richard Kritzberg"}, {"name": "Nancy Kritzberg"}] },
+                    { "name": "Mildred Kritzberg (1927)" }
+                ]},
+                { "name": "Eva Bailin (1895)", "mate": "David Herman", "children": [
+                    { "name": "Muriel Herman (1923)" },
+                    { "name": "Herbert Herman (1928)", "children": [{"name": "Clifford Herman"}, {"name": "David Herman"}] }
+                ]},
+                { "name": "Joseph Bailin (1897)", "mate": "Betty Leibowitz", "children": [
+                    { "name": "David Bailin (1927)", "children": [{"name": "Larry Bailin"}, {"name": "Stuart Bailin"}, {"name": "Jared Bailin"}, {"name": "Jo Ann Bailin"}] },
+                    { "name": "Helen Bailin (1929)", "mate": "Ivor Lewis", "children": [{"name": "Donna Lewis"}, {"name": "Anita Lewis"}, {"name": "Rachel Lewis"}] }
+                ]},
+                { "name": "Bertha Bailin (1900)", "mate": "Harry Goldstein", "children": [
+                    { "name": "David Goldstein (1923)", "children": [{"name": "Judith Goldstein"}, {"name": "Stuart Goldstein"}, {"name": "John Goldstein"}] },
+                    { "name": "Bette Ruth Goldstein (1929)", "mate": "Kenneth Frankel", "children": [{"name": "Michael Frankel"}, {"name": "Lynn Frankel"}] }
+                ]},
+                { "name": "Sadie Bailin (1902)" },
+                { "name": "Abram Bailin (1905)" }
+              ]
+            },
+            {
+              "name": "Joseph Ressman (1867-1949)",
+              "mate": "Jennie Joseph",
+              "children": [
+                { "name": "Lottie Ressman", "mate": "Joseph Burstein", "children": [
+                    { "name": "Myrtle Burstein (1915)" },
+                    { "name": "Victor Samuel Burstein (1919)", "children": [{"name": "Paul Burstein"}, {"name": "John Burstein"}, {"name": "Stephen Burstein"}] },
+                    { "name": "Meyer Lewis Burstein (1926)" }
+                ]},
+                { "name": "Pauline Ressman", "mate": "Phillip Berns", "children": [
+                    { "name": "Robert Berns", "children": [{"name": "Phyllis Berns"}, {"name": "Glenn Berns"}, {"name": "Stephen Berns"}] },
+                    { "name": "Marvin Berns (1926)" }
+                ]},
+                { "name": "Rose Ressman", "mate": "Alan Marcus", "children": [
+                    { "name": "Richard Marcus (1935)", "children": [{"name": "Alan Marcus (1963)"}] }
+                ]},
+                { "name": "Flora Ressman", "mate": "Harry Richman", "children": [
+                    { "name": "Byron Richman (1923)" }
+                ]},
+                { "name": "Dorothy Ressman (1903-1970)", "mate": "Morris Abelman", "children": [
+                    { "name": "Joan Abelman (1935)", "mate": "Robert Goldberg", "children": [{"name": "Michael Goldberg"}, {"name": "Daniel Goldberg"}] }
+                ]},
+                { "name": "Celia Ressman", "mate": "Milton Less", "children": [
+                    { "name": "Howard Less (1926)", "children": [{"name": "Ellen Janice Less"}, {"name": "David Joseph Less"}, {"name": "Steven Irving Less"}] },
+                    { "name": "Donald Less (1930)" }
+                ]},
+                { "name": "Faye Ressman" }
+              ]
+            },
+            {
+              "name": "Abram Ressman",
+              "mate": "Celia / Carrie Cohen"
+            },
+            {
+              "name": "Rebecca Ressman (1881-1973)",
+              "mate": "Isadore Bahcall",
+              "children": [
+                { "name": "Rose Bahcall (1904)", "mate": "Walter Rosenzweig", "children": [
+                    { "name": "Donna Rosenzweig (1929)", "mate": "Alvin Ziven", "children": [{"name": "Suellyn Ziven"}, {"name": "Steven Ziven"}, {"name": "Debra Ziven"}] },
+                    { "name": "Richard Rosenzweig (1935)" }
+                ]},
+                { "name": "Edward Bahcall (1907-1961)", "mate": "Ruth Kahn", "children": [
+                    { "name": "Dennis Bahcall (1934)", "mate": "Naomi Cohen", "children": [{"name": "Ruth Bahcall"}, {"name": "Michael Bahcall"}, {"name": "Lee Bahcall"}] }
+                ]},
+                { "name": "Sarah 'Bebe' Bahcall (1909)", "mate": "Bernard Balkansky", "children": [
+                    { "name": "Jerre Balkansky (1933-1941)" },
+                    { "name": "David Balkansky (1937)", "mate": "Judy Riches", "children": [{"name": "Leslie Dawn Balkansky"}, {"name": "Staci Lynn Balkansky"}] },
+                    { "name": "Harlan Balkansky (1944)", "mate": "Francine Yopack", "children": [{"name": "Andrew Kevin Balkansky"}, {"name": "Aimee Balkansky"}, {"name": "Jeffrey Scott Balkansky"}] }
+                ]}
+              ]
+            },
+            {
+              "name": "Harry Ressman (1886-1976)",
+              "mate": "Sarah Spector",
+              "children": [
+                { "name": "Diana Ressman (1910)", "mate": "Ben Rusky", "children": [
+                    { "name": "Alan Rusky (1942)", "mate": "Annette Baron", "children": [{"name": "Brenda Jaye Rusky"}, {"name": "Jamie Michelle Rusky"}] }
+                ]},
+                { "name": "Esther 'Jere' Ressman (1914)", "mate": "Sander Rosenblum", "children": [
+                    { "name": "Martin Rosenblum (1946)", "mate": "Maureen Rice", "children": [{"name": "Sara Terez Rosenblum"}] }
+                ]}
+              ]
+            },
+            {
+              "name": "Leon Ressman",
+              "mate": "Rose Vanetsky",
+              "children": [
+                { "name": "Sylvia Ressman (1900)", "mate": "Marcus Slafer", "children": [
+                    { "name": "Howard Slafer (1939)", "children": [{"name": "James Slafer"}, {"name": "Richard Slafer"}, {"name": "Ilana Slafer"}] },
+                    { "name": "Lois Slafer (1946)", "mate": "Joel Miller", "children": [{"name": "Mazie Miller"}, {"name": "Russell Jason Miller (1978)"}] }
+                ]},
+                { "name": "Ruth Ressman (1912)", "mate": "Maurice Leavitt", "children": [
+                    { "name": "Marilyn Leavitt (1937)", "mate": "Bernard Moltz", "children": [{"name": "Samuel Moltz"}] },
+                    { "name": "Lynda Leavitt (1941)", "mate": "Sherwin Klein", "children": [{"name": "Eric Klein"}, {"name": "Stephen Klein"}, {"name": "Kimberly Rose Klein"}] }
+                ]},
+                { "name": "Ezra Ressman (1915)" }
+              ]
+            },
+            {
+              "name": "Louis Ressman",
+              "mate": "Ida Cohen",
+              "children": [
+                { "name": "David Ressman", "mate": "Jeanne Fox", "children": [
+                    { "name": "Richard Bruce Ressman (1941)" },
+                    { "name": "Lynn Roberta Ressman (1944)", "mate": "Stuart Simon", "children": [{"name": "Ila Beth Simon"}, {"name": "Jeffrey Simon"}, {"name": "Debra Simon"}] },
+                    { "name": "Nancy Lee Ressman (1952)" }
+                ]},
+                { "name": "Esther Ressman", "mate": "Hyman Rifkin", "children": [
+                    { "name": "Bennett L. Rifkin (1942)", "children": [{"name": "Adam Rifkin"}, {"name": "Lauren Rifkin"}] },
+                    { "name": "Dyann Rifkin (1946)", "mate": "George Linger", "children": [{"name": "G. Andrew Linger"}] },
+                    { "name": "Scott Rifkin (1952)" }
+                ]},
+                { "name": "Harry Ressman", "mate": "Helen Shimelforb", "children": [
+                    { "name": "Laura B. Ressman (1950)" },
+                    { "name": "Anne L. Ressman (1955)" },
+                    { "name": "Douglas Ressman (1956)" }
+                ]}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ed Ressman",
+          "mate": "Sonya Hirshkovitz",
+          "children": [{ "name": "Rose (Adopted niece)" }]
+        }
+      ]
+    },
+    {
+      "name": "MALYN / MILLER LINEAGE",
+      "children": [
+        {
+          "name": "Nathan Malinovsky",
+          "children": [
+            {
+              "name": "Israel Malinovsky (1858-1921)",
+              "mate": "Rebeca Lefchyk",
+              "children": [
+                { "name": "Max Malyn" },
+                {
+                  "name": "Morris Malyn (1892-1939)",
+                  "mate": "Edith Gertrude Miller",
+                  "children": [
+                    { "name": "Herbert Malyn (1921)", "mate": "Irene Iskowitz", "children": [
+                        { "name": "Michael Harris Malyn (1947)", "children": [{"name": "Stephanie Faith"}, {"name": "Justin Dean"}, {"name": "David Elliot"}] },
+                        { "name": "Gary Jan Malyn (1951)" }
+                    ]},
+                    { "name": "Irving Malyn (1922)", "mate": "Shirley Doris Ruben", "children": [
+                        { "name": "Andy David Malyn (1953)", "children": [{"name": "Morgan Faye"}] },
+                        { "name": "Matt Elliot Malyn (1956)", "children": [{"name": "Margaret O'Reilly"}, {"name": "Hannah O'Reilly"}, {"name": "Eden O'Reilly"}, {"name": "Brianna O'Reilly"}] },
+                        { "name": "Phyllis Ann Rose Malyn (1960)", "children": [{"name": "Joseph Malyn Alasia"}] }
+                    ]},
+                    { "name": "Milton Robert Malyn (1927)", "mate": "Elaine Rhoda Terner", "children": [
+                        { "name": "Linda Rachel Malyn (1961)", "children": [{"name": "David Ethan Lichtman"}, {"name": "Elissa Leigh Lichtman"}] },
+                        { "name": "Neil Dov Malyn (1963)", "children": [{"name": "Bryan Isaac"}, {"name": "Daniel Elliot"}] },
+                        { "name": "Mark Harris Malyn (1966)" }
+                    ]},
+                    { "name": "Albert Malyn (1930)", "mate": "Rita Berger", "children": [
+                        { "name": "Maury Malyn (1958)", "children": [{"name": "Jamie"}, {"name": "Julie"}] },
+                        { "name": "Shari Ellen Malyn (1961)", "children": [{"name": "Ellison Patricia Abbott"}, {"name": "Tatum Malyn Abbott"}] }
+                    ]}
+                  ]
+                },
+                { "name": "Nathan Malyn" },
+                { "name": "Esther Malinovsky", "mate": "Harry Fineman", "children": [{"name": "Ruth Fineman"}] },
+                { "name": "Rose M. Malyn", "mate": "Louis Childs", "children": [
+                    { "name": "Trudy Cohn (Childs)", "children": [{"name": "Jacob Charles Cohn"}, {"name": "David Cohn"}] },
+                    { "name": "Mark Childs (1944)", "children": [{"name": "Andy Childs"}, {"name": "Aaron Childs"}] },
+                    { "name": "Theodore Irwin Childs", "children": [{"name": "Max Childs"}, {"name": "Lauren Childs"}, {"name": "Ivy Marcia Childs"}, {"name": "Daniel Abe Childs"}, {"name": "Julie Adele Childs"}, {"name": "Mark Childs"}] }
+                ]}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Israel Miller",
+          "children": [
+            {
+              "name": "Harris Nathan Miller (1863-1946)",
+              "mate": "Mary Ethel F. Rosenberg",
+              "children": [
+                { "name": "Leah Miller (1896)" },
+                { "name": "Edith Gertrude Miller (1898-1973)", "mate": "Morris Malyn (See Malyn Branch)" },
+                { "name": "Morris Louis Miller (1900)", "mate": "Freida Rubin", "children": [
+                    { "name": "Marilyn Ethel Miller (1928)", "mate": "Jules Summer", "children": [{"name": "Bert Leonard Summer"}] },
+                    { "name": "Joel F. Miller (1934)", "mate": "Lois Ann Slafer", "children": [
+                        { "name": "Maizie Lee Miller (1973)" },
+                        { "name": "Russell Jasun Miller (1978)" },
+                        { "name": "Ilene Davida Miller (1980)" }
+                    ]}
+                ]},
+                { "name": "Katherine 'Kay' Miller (1906)", "mate": "Herman Eidinger", "children": [
+                    { "name": "Marshall Joseph Eidinger", "children": [{"name": "Adam Richard"}, {"name": "David James"}] },
+                    { "name": "Barry Eidinger" }
+                ]},
+                { "name": "Carl Julius Miller (1919)", "mate": "Dorothy Mac Tolochko", "children": [
+                    { "name": "Harris Miller", "children": [{"name": "Derek Kahn"}, {"name": "Alexis Kahn"}] },
+                    { "name": "Lee Anne Miller (1954)" }
+                ]}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
+
+// --- D3 Visualization Code ---
+
+const margin = {top: 20, right: 90, bottom: 30, left: 90},
+      width = window.innerWidth - margin.left - margin.right,
+      height = window.innerHeight - margin.top - margin.bottom;
+
+const svg = d3.select("#tree-container").append("svg")
+    .attr("width", "100%")
+    .attr("height", "100%")
+    .call(d3.zoom().on("zoom", function (event) {
+       g.attr("transform", event.transform)
+    }))
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+const g = svg.append("g");
+
+let i = 0,
+    duration = 750,
+    root;
+
+const treemap = d3.tree().size([height, width]);
+
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+root.x0 = height / 2;
+root.y0 = 0;
+
+// Collapse after the second generation to prevent clutter
+root.children.forEach(collapseLevel);
+
+update(root);
+
+function collapseLevel(d) {
+    if(d.children) {
+        d.children.forEach(collapseLevel);
+        if(d.depth > 1) collapse(d);
+    }
+}
+
+function collapse(d) {
+  if(d.children) {
+    d._children = d.children;
+    d._children.forEach(collapse);
+    d.children = null;
+  }
+}
+
+function expand(d) {
+    if (d._children) {
+        d.children = d._children;
+        d.children.forEach(expand);
+        d._children = null;
+    }
+}
+
+function update(source) {
+  const treeData = treemap(root);
+  const nodes = treeData.descendants(),
+        links = treeData.links();
+
+  nodes.forEach(function(d){ d.y = d.depth * 250}); // Adjust Horizontal Spacing
+
+  const node = g.selectAll('g.node')
+      .data(nodes, function(d) { return d.id || (d.id = ++i); });
+
+  const nodeEnter = node.enter().append('g')
+      .attr('class', 'node')
+      .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
+      .on('click', click);
+
+  nodeEnter.append('circle')
+      .attr('class', 'node')
+      .attr('r', 1e-6)
+      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+  nodeEnter.append('text')
+      .attr("dy", ".35em")
+      .attr("x", function(d) { return d.children || d._children ? -13 : 13; })
+      .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
+      .text(function(d) { return d.data.name + (d.data.mate ? " (+ " + d.data.mate + ")" : ""); })
+      .style("fill-opacity", 1e-6);
+
+  const nodeUpdate = nodeEnter.merge(node);
+
+  nodeUpdate.transition()
+      .duration(duration)
+      .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+
+  nodeUpdate.select('circle.node')
+      .attr('r', 10)
+      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; })
+      .attr('cursor', 'pointer');
+
+  nodeUpdate.select('text')
+      .style("fill-opacity", 1);
+
+  const nodeExit = node.exit().transition()
+      .duration(duration)
+      .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
+      .remove();
+
+  nodeExit.select('circle')
+      .attr('r', 1e-6);
+
+  nodeExit.select('text')
+      .style("fill-opacity", 1e-6);
+
+  const link = g.selectAll('path.link')
+      .data(links, function(d) { return d.target.id; });
+
+  const linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      .attr('d', function(d){
+        const o = {x: source.x0, y: source.y0}
+        return diagonal(o, o)
+      });
+
+  const linkUpdate = linkEnter.merge(link);
+
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  const linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        const o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  function diagonal(s, d) {
+    path = `M ${s.y} ${s.x}
+            C ${(s.y + d.y) / 2} ${s.x},
+              ${(s.y + d.y) / 2} ${d.x},
+              ${d.y} ${d.x}`
+    return path
+  }
+
+  function click(event, d) {
+    if (d.children) {
+        d._children = d.children;
+        d.children = null;
+    } else {
+        d.children = d._children;
+        d._children = null;
+    }
+    update(d);
+  }
+}
+
+// Search Functionality
+function searchTree() {
+    const term = document.getElementById("searchBox").value.toLowerCase();
+    if(!term) return;
+
+    let found = false;
+    
+    // Reset previous styles
+    d3.selectAll("circle").classed("found", false);
+    d3.selectAll("text").classed("found-text", false);
+
+    // Expand everything first to ensure we can find nested nodes
+    root.descendants().forEach(d => {
+        if(d._children) {
+            d.children = d._children;
+            d._children = null;
+        }
+    });
+    update(root);
+
+    // Search and Highlight
+    setTimeout(() => {
+        d3.selectAll("g.node").each(function(d) {
+            const name = d.data.name.toLowerCase();
+            const mate = d.data.mate ? d.data.mate.toLowerCase() : "";
+            
+            if (name.includes(term) || mate.includes(term)) {
+                d3.select(this).select("circle").classed("found", true);
+                d3.select(this).select("text").classed("found-text", true);
+                
+                // Center visualization on found node (basic implementation)
+                found = true;
+                const transform = d3.zoomTransform(svg.node());
+                // Optional: translate view to found node
+            }
+        });
+        if(!found) alert("Name not found in the tree data.");
+    }, 800);
+}
+
+function expandAll() {
+    root.descendants().forEach(d => {
+        if(d._children) {
+            d.children = d._children;
+            d._children = null;
+        }
+    });
+    update(root);
+}
+
+function collapseAll() {
+    root.children.forEach(collapse);
+    update(root);
+}
+
+</script>
+</body>
+</html>

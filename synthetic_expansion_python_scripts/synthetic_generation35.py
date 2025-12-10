@@ -5,7 +5,7 @@ import copy
 from pathlib import Path
 
 # Source file for Part 035
-SOURCE_FILE = "consolidated_verified_notes_v2_8_part_035.json"
+SOURCE_FILE = "golden_extractions/consolidated_verified_notes_v2_8_part_035.json"
 OUTPUT_DIR = "Synthetic_expansions"
 
 def generate_random_date(start_year, end_year):

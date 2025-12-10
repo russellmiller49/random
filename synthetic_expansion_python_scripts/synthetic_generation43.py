@@ -5,7 +5,7 @@ import copy
 from pathlib import Path
 
 # Source file for JSON elements (The file provided in the prompt context)
-SOURCE_FILE = "consolidated_verified_notes_v2_8_part_043.json"
+SOURCE_FILE = "golden_extractions/consolidated_verified_notes_v2_8_part_043.json"
 OUTPUT_DIR = "Synthetic_expansions"
 
 def generate_random_date(start_year, end_year):

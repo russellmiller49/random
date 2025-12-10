@@ -5,7 +5,7 @@ import copy
 from pathlib import Path
 
 # Configuration
-SOURCE_FILE = "consolidated_verified_notes_v2_8_part_012.json"
+SOURCE_FILE = "golden_extractions/consolidated_verified_notes_v2_8_part_012.json"
 OUTPUT_DIR = "Synthetic_expansions"
 OUTPUT_FILE = "synthetic_notes_part_012.json"
 

@@ -1,32 +1,47 @@
 [
-    {
-      "op": "replace",
-      "path": "/0/registry_entry/procedures_performed/linear_ebus/stations_sampled/0",
-      "value": "11R"
-    },
-    {
-      "op": "replace",
-      "path": "/0/registry_entry/granular_data/linear_ebus_stations_detail/0/station",
-      "value": "11R"
-    },
-    {
-      "op": "replace",
-      "path": "/0/registry_entry/granular_data/specimens_collected/0/source_location",
-      "value": "11R"
-    },
-    {
-      "op": "replace",
-      "path": "/0/registry_entry/coding_support/coding_summary/lines/0/selection_reason",
-      "value": "Two stations (11R, 4R) sampled via EBUS-TBNA. Meets definition for 31652 (1-2 stations)."
-    },
-    {
-      "op": "replace",
-      "path": "/0/registry_entry/coding_support/coding_summary/lines/0/note_spans/0/snippet",
-      "value": "Sampling by transbronchial needle aspiration was performed ... beginning with the 11Rs Lymph node"
-    },
-    {
-      "op": "replace",
-      "path": "/0/registry_entry/coding_support/coding_rationale/per_code/0/summary",
-      "value": "Primary procedure. Documentation confirms EBUS-guided sampling of two distinct lymph node stations (11R and 4R)."
-    }
-  ]
+  {
+    "op": "replace",
+    "path": "/18/registry_entry/procedures_performed/linear_ebus/stations_sampled/2",
+    "value": "Other"
+  },
+  {
+    "op": "replace",
+    "path": "/19/registry_entry/procedures_performed/linear_ebus/stations_sampled/2",
+    "value": "Other"
+  },
+  {
+    "op": "replace",
+    "path": "/20/registry_entry/procedures_performed/linear_ebus/stations_sampled/2",
+    "value": "Other"
+  },
+  {
+    "op": "replace",
+    "path": "/21/registry_entry/procedures_performed/linear_ebus/stations_sampled/2",
+    "value": "Other"
+  },
+  {
+    "op": "replace",
+    "path": "/22/registry_entry/procedures_performed/linear_ebus/stations_sampled/2",
+    "value": "Other"
+  },
+  {
+    "op": "replace",
+    "path": "/23/registry_entry/procedures_performed/linear_ebus/stations_sampled/2",
+    "value": "Other"
+  },
+  {
+    "op": "replace",
+    "path": "/24/registry_entry/procedures_performed/linear_ebus/stations_sampled/2",
+    "value": "Other"
+  },
+  {
+    "op": "replace",
+    "path": "/25/registry_entry/procedures_performed/linear_ebus/stations_sampled/2",
+    "value": "Other"
+  },
+  {
+    "op": "replace",
+    "path": "/26/registry_entry/procedures_performed/linear_ebus/stations_sampled/2",
+    "value": "Other"
+  }
+]

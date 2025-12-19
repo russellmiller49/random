@@ -1,0 +1,368 @@
+[
+    {
+      "op": "replace",
+      "path": "/notes/0/coding_review",
+      "value": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Bronchoscopic photodynamic therapy light application constitutes tumor destruction. CPT 31641 is the appropriate code for destruction by any method."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 8.4,
+          "facility_total_payment": 272,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded as 31641 for PDT light application. No biopsies or other separately reportable services documented."
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/notes/1/coding_review",
+      "value": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Bronchoscopic photodynamic therapy light application constitutes tumor destruction. CPT 31641 is the appropriate code for destruction by any method."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 8.4,
+          "facility_total_payment": 272,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded as 31641 for PDT light application."
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/notes/2/coding_review",
+      "value": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Bronchoscopic photodynamic therapy light application constitutes tumor destruction. CPT 31641 is the appropriate code for destruction by any method."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 8.4,
+          "facility_total_payment": 272,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded as 31641 for PDT light application."
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/notes/3/coding_review",
+      "value": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Bronchoscopic photodynamic therapy light application constitutes tumor destruction. CPT 31641 is the appropriate code for destruction by any method."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 8.4,
+          "facility_total_payment": 272,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded as 31641 for PDT light application."
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/notes/4/coding_review",
+      "value": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Bronchoscopic photodynamic therapy light application constitutes tumor destruction. CPT 31641 is the appropriate code for destruction by any method."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 8.4,
+          "facility_total_payment": 272,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded as 31641 for PDT light application."
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/notes/5/coding_review",
+      "value": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641",
+            "31625"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Debridement of necrotic tumor tissue post-PDT constitutes bronchoscopic destruction. 31641 is the primary therapeutic service.",
+            "31625": "Endobronchial biopsies were obtained from the treatment bed to assess for residual viable tumor. Separately reportable as distinct diagnostic work."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 13.33,
+          "facility_total_payment": 432,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            },
+            "31625": {
+              "work_rvu": 3.11,
+              "facility_rvu": 4.93,
+              "facility_payment": 160,
+              "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded. Post-PDT debridement (31641) and diagnostic biopsy for residual disease (31625) are supported."
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/notes/6/coding_review",
+      "value": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Bronchoscopic debridement of necrotic debris constitutes destruction/relief of stenosis."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 8.4,
+          "facility_total_payment": 272,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded as 31641 for post-PDT debridement. No biopsies documented."
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/notes/7/coding_review",
+      "value": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Bronchoscopic debridement of necrotic debris constitutes destruction/relief of stenosis."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 8.4,
+          "facility_total_payment": 272,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded as 31641 for post-PDT debridement. Necrotic debris removed but not sent for pathology."
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/notes/8/coding_review",
+      "value": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Bronchoscopic debridement of necrotic debris constitutes destruction/relief of stenosis."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 8.4,
+          "facility_total_payment": 272,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded as 31641 for post-PDT debridement."
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/notes/9/coding_review",
+      "value": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641",
+            "31625"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Debridement of necrotic tumor tissue post-PDT constitutes bronchoscopic destruction.",
+            "31625": "Endobronchial biopsies were obtained from the treatment bed to assess for residual viable tumor. Separately reportable."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 13.33,
+          "facility_total_payment": 432,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            },
+            "31625": {
+              "work_rvu": 3.11,
+              "facility_rvu": 4.93,
+              "facility_payment": 160,
+              "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded. Post-PDT debridement (31641) and diagnostic biopsy (31625) are supported."
+      }
+    }
+  ]

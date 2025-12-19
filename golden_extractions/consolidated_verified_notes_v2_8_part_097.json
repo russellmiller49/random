@@ -1,0 +1,1082 @@
+{
+  "generation_metadata": {
+    "generated_at": "2025-12-11T20:07:07.349371",
+    "generator_version": "1.0.0",
+    "total_notes": 10,
+    "note_types": {
+      "pdt_light_application": 5,
+      "pdt_debridement": 5
+    },
+    "cpt_codes_used": {
+      "31641": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method",
+      "31625": "Bronchoscopy; with bronchial or endobronchial biopsy(s) (used in some debridement cases)"
+    },
+    "rvu_reference": {
+      "31641": {
+        "work_rvu": 5.25,
+        "total_facility_rvu": 8.4,
+        "mpfs_facility_payment": 272
+      },
+      "31625": {
+        "work_rvu": 3.11,
+        "total_facility_rvu": 4.93,
+        "mpfs_facility_payment": 160
+      }
+    },
+    "conversion_factor_2025": 32.3562
+  },
+  "notes": [
+    {
+      "note_id": "PDT_LIGHT_001",
+      "note_text": "INTERVENTIONAL PULMONOLOGY OPERATIVE REPORT\nPhotodynamic Therapy - Light Application Session\n\nPatient Name: Rodriguez, James\nAge/Sex: 62/M\nMRN: 4744854\nDate of Service: February 22, 2024\nProcedure Start Time: 13:15\nProcedure Duration: 88 minutes\nAttending Physician: Dr. Jennifer Walsh, MD\n\n\nPREOPERATIVE DIAGNOSIS\nEndobronchial squamous cell carcinoma, Right lower lobe bronchus, T1aN0M0 (Stage IA1), patient declined surgery\n\nPOSTOPERATIVE DIAGNOSIS\nSame\n\nPROCEDURES PERFORMED\n1. Photodynamic therapy - laser light application (CPT 31641)\n2. Flexible bronchoscopy with tumor measurement and documentation\n\nPHOTOSENSITIZER ADMINISTRATION\nAgent: Porfimer sodium (Photofrin)\nDose: 2.0 mg/kg IV\nTotal dose administered: 116.0 mg (patient weight 58 kg)\nAdministration date/time: February 20, 2024 at 15:00 hours\nTime from photosensitizer to light: 48 hours (within optimal therapeutic window)\n\nANESTHESIA\nGeneral anesthesia with endotracheal intubation (8.0mm ETT)\nAnesthesia team: Dr. Robert Miller (attending), Samantha Lee CRNA\n\nMONITORING\nStandard ASA monitors including continuous pulse oximetry, end-tidal CO2, and arterial line monitoring.\n\nEQUIPMENT\n- Olympus BF-1T180 therapeutic bronchoscope\n- Cylindrical diffusing fiber (3.0cm length, 400 micron core diameter)\n- Diode laser system: 630nm wavelength\n- Light dosimetry calculation performed pre-procedure\n\nDETAILED PROCEDURE NARRATIVE\nThe patient was brought to the endoscopy suite. After successful induction of general anesthesia and orotracheal intubation, a time-out was performed verifying correct patient, procedure, and photosensitizer administration timing.\n\nInitial Bronchoscopic Survey:\nThe bronchoscope was introduced through the endotracheal tube. Systematic examination revealed normal upper airways and trachea. The carina appeared sharp and normal. The endobronchial tumor was identified in the Right lower lobe bronchus.\n\nTumor Characteristics (Pre-PDT measurements):\n- Location: Right lower lobe bronchus\n- Size: 1.2cm (longitudinal) \u00d7 1.1cm (circumferential extent)\n- Morphology: Flat, plaque-like lesion\n- Surface: Irregular surface, non-bleeding\n- Obstruction: Approximately 54% luminal narrowing\n- Distal airways: Patent beyond the lesion\n\nPhotodynamic Therapy Light Delivery:\nLaser safety protocols confirmed (room signage, protective eyewear, fire safety measures in place). The cylindrical diffusing fiber was introduced through the working channel of the bronchoscope. The fiber was positioned to center the tumor within the treatment field.\n\nTreatment Parameters:\n- Wavelength: 630 nm (optimal for Porfimer activation)\n- Power output: 400 mW/cm of diffuser length\n- Diffuser length: 3.0 cm\n- Total power: 1200.0 mW (1.2 W)\n- Light dose (fluence): 200 J/cm\u00b2 of diffuser surface\n- Treatment time: 500 seconds (8 minutes 20 seconds)\n\nLight was continuously delivered for the calculated duration. During light application, laser energy meter verified consistent power output. No visible tissue changes during light delivery (expected for PDT mechanism). No charring or thermal effects observed, confirming non-thermal photochemical mechanism. Patient remained hemodynamically stable throughout with no arrhythmias or oxygen desaturations.\n\nPost-Treatment Assessment:\nImmediately following light delivery, the treated area appeared essentially unchanged (expected for PDT - tissue necrosis develops over 24-72 hours). No immediate edema or bleeding noted. The fiber was removed and the bronchoscope withdrawn.\n\nLight Precautions Review:\nPost-procedure, the following light precautions were reviewed with patient and family:\n1. Strict avoidance of direct sunlight and bright indoor lights for 30 days minimum\n2. Wear protective clothing, wide-brimmed hat, gloves when outdoors\n3. Gradual re-exposure to normal light starting day 30 with skin testing\n4. Emergency contact information provided\n5. Written instructions given\n\nThe patient tolerated the procedure well. Extubated in the OR without difficulty. Transferred to PACU in stable condition.\n\nSPECIMENS\nNone (non-excisional therapy)\n\nESTIMATED BLOOD LOSS\nMinimal\n\nCOMPLICATIONS\nNone\n\nASSESSMENT AND PLAN\nThis 62-year-old male with T1aN0M0 endobronchial squamous cell carcinoma (Right lower lobe bronchus), who is patient declined surgery, underwent photodynamic therapy light application session without complications.\n\nTimeline for Follow-up:\n1. Scheduled debridement bronchoscopy: February 24, 2024 (48 hours post-light)\n2. Anticipated findings: Necrotic tumor debris requiring mechanical removal\n3. Will assess treatment response and consider biopsies from treatment bed\n\nOngoing Management:\n- Continue light precautions (patient education reinforced)\n- Monitor for post-PDT complications: airway edema, photosensitivity reactions\n- Dexamethasone 4mg PO BID x 5 days (reduce airway inflammation)\n- PPI therapy (reduce risk of esophageal photosensitivity)\n\nLong-term surveillance:\nBronchoscopic surveillance at 1, 3, 6, and 12 months post-treatment per protocol.\n\nElectronically signed by: Dr. Jennifer Walsh, MD\nDate/Time: February 22, 2024 14:43",
+      "cpt_codes": [
+        31641
+      ],
+      "registry_entry": {
+        "patient_mrn": "4744854",
+        "procedure_date": "2024-02-22",
+        "procedure_start_time": "13:15",
+        "procedure_duration_minutes": 88,
+        "patient_demographics": {
+          "age_years": 62,
+          "gender": "Male",
+          "weight_kg": 58
+        },
+        "asa_class": 3,
+        "primary_indication": "Endobronchial squamous cell carcinoma, Right lower lobe bronchus, T1aN0M0 (Stage IA1), patient declined surgery",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          31641
+        ],
+        "providers": {
+          "attending_name": "Jennifer Walsh",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": false
+        },
+        "procedures_performed": {
+          "photodynamic_therapy": {
+            "performed": true,
+            "photosensitizer": "Porfimer sodium (Photofrin)",
+            "location": "Right lower lobe bronchus",
+            "energy_delivered_joules": 1885.0,
+            "wavelength_nm": 630,
+            "fluence_j_cm2": 200,
+            "diffuser_length_cm": 3.0,
+            "treatment_duration_seconds": 500
+          }
+        },
+        "cao_location": "RLL",
+        "cao_obstruction_pre_pct": 54,
+        "cao_obstruction_post_pct": 54,
+        "molecular_testing_requested": false,
+        "disposition": "Recovery room",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "follow_up_plan": [
+          "Scheduled debridement bronchoscopy: February 24, 2024",
+          "Continue light precautions for 30 days",
+          "Monitor for post-PDT airway edema"
+        ],
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.9.0",
+          "generated_at": "2025-12-11T20:07:07.348340",
+          "note_type": "PDT_Light_Application"
+        }
+      },
+      "coding_review": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Bronchoscopic photodynamic therapy light application constitutes tumor destruction. CPT 31641 is the appropriate code for destruction by any method."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 8.4,
+          "facility_total_payment": 272,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded as 31641 for PDT light application. No biopsies or other separately reportable services documented."
+      },
+      "source_file": "synthetic_pdt_notes_generator.py",
+      "cpt_validation_metadata": {
+        "golden_knowledge_version": "2.9",
+        "valid_codes": [
+          "31641"
+        ],
+        "invalid_codes": []
+      }
+    },
+    {
+      "note_id": "PDT_LIGHT_002",
+      "note_text": "INTERVENTIONAL PULMONOLOGY OPERATIVE REPORT\nPhotodynamic Therapy - Light Application Session\n\nPatient Name: Brown, Joseph\nAge/Sex: 66/M\nMRN: 6770619\nDate of Service: May 15, 2024\nProcedure Start Time: 11:00\nProcedure Duration: 114 minutes\nAttending Physician: Dr. Sarah Kim, MD\nAssistant: Dr. Ahmed Hassan, Fellow\n\nPREOPERATIVE DIAGNOSIS\nEndobronchial mucoepidermoid carcinoma, Left lower lobe bronchus, T1aN0M0 (Stage IA1), poor performance status (ECOG 3)\n\nPOSTOPERATIVE DIAGNOSIS\nSame\n\nPROCEDURES PERFORMED\n1. Photodynamic therapy - laser light application (CPT 31641)\n2. Flexible bronchoscopy with tumor measurement and documentation\n\nPHOTOSENSITIZER ADMINISTRATION\nAgent: Porfimer sodium (Photofrin)\nDose: 2.0 mg/kg IV\nTotal dose administered: 176.0 mg (patient weight 88 kg)\nAdministration date/time: May 13, 2024 at 12:00 hours\nTime from photosensitizer to light: 48 hours (within optimal therapeutic window)\n\nANESTHESIA\nGeneral anesthesia with endotracheal intubation (8.0mm ETT)\nAnesthesia team: Dr. Susan Chen (attending), Samantha Lee CRNA\n\nMONITORING\nStandard ASA monitors including continuous pulse oximetry, end-tidal CO2, and arterial line monitoring.\n\nEQUIPMENT\n- Pentax EB-1970TK therapeutic bronchoscope\n- Cylindrical diffusing fiber (3.0cm length, 400 micron core diameter)\n- Diode laser system: 630nm wavelength\n- Light dosimetry calculation performed pre-procedure\n\nDETAILED PROCEDURE NARRATIVE\nThe patient was brought to the endoscopy suite. After successful induction of general anesthesia and orotracheal intubation, a time-out was performed verifying correct patient, procedure, and photosensitizer administration timing.\n\nInitial Bronchoscopic Survey:\nThe bronchoscope was introduced through the endotracheal tube. Systematic examination revealed normal upper airways and trachea. The carina appeared sharp and normal. The endobronchial tumor was identified in the Left lower lobe bronchus.\n\nTumor Characteristics (Pre-PDT measurements):\n- Location: Left lower lobe bronchus\n- Size: 1.2cm (longitudinal) \u00d7 0.6cm (circumferential extent)\n- Morphology: Exophytic lesion\n- Surface: Irregular surface, non-bleeding\n- Obstruction: Approximately 34% luminal narrowing\n- Distal airways: Patent beyond the lesion\n\nPhotodynamic Therapy Light Delivery:\nLaser safety protocols confirmed (room signage, protective eyewear, fire safety measures in place). The cylindrical diffusing fiber was introduced through the working channel of the bronchoscope. The fiber was positioned to center the tumor within the treatment field.\n\nTreatment Parameters:\n- Wavelength: 630 nm (optimal for Porfimer activation)\n- Power output: 400 mW/cm of diffuser length\n- Diffuser length: 3.0 cm\n- Total power: 1200.0 mW (1.2 W)\n- Light dose (fluence): 200 J/cm\u00b2 of diffuser surface\n- Treatment time: 500 seconds (8 minutes 20 seconds)\n\nLight was continuously delivered for the calculated duration. During light application, laser energy meter verified consistent power output. No visible tissue changes during light delivery (expected for PDT mechanism). No charring or thermal effects observed, confirming non-thermal photochemical mechanism. Patient remained hemodynamically stable throughout with no arrhythmias or oxygen desaturations.\n\nPost-Treatment Assessment:\nImmediately following light delivery, the treated area appeared essentially unchanged (expected for PDT - tissue necrosis develops over 24-72 hours). No immediate edema or bleeding noted. The fiber was removed and the bronchoscope withdrawn.\n\nLight Precautions Review:\nPost-procedure, the following light precautions were reviewed with patient and family:\n1. Strict avoidance of direct sunlight and bright indoor lights for 30 days minimum\n2. Wear protective clothing, wide-brimmed hat, gloves when outdoors\n3. Gradual re-exposure to normal light starting day 30 with skin testing\n4. Emergency contact information provided\n5. Written instructions given\n\nThe patient tolerated the procedure well. Extubated in the OR without difficulty. Transferred to PACU in stable condition.\n\nSPECIMENS\nNone (non-excisional therapy)\n\nESTIMATED BLOOD LOSS\nMinimal\n\nCOMPLICATIONS\nNone\n\nASSESSMENT AND PLAN\nThis 66-year-old male with T1aN0M0 endobronchial mucoepidermoid carcinoma (Left lower lobe bronchus), who is poor performance status (ECOG 3), underwent photodynamic therapy light application session without complications.\n\nTimeline for Follow-up:\n1. Scheduled debridement bronchoscopy: May 18, 2024 (48 hours post-light)\n2. Anticipated findings: Necrotic tumor debris requiring mechanical removal\n3. Will assess treatment response and consider biopsies from treatment bed\n\nOngoing Management:\n- Continue light precautions (patient education reinforced)\n- Monitor for post-PDT complications: airway edema, photosensitivity reactions\n- Dexamethasone 4mg PO BID x 5 days (reduce airway inflammation)\n- PPI therapy (reduce risk of esophageal photosensitivity)\n\nLong-term surveillance:\nBronchoscopic surveillance at 1, 3, 6, and 12 months post-treatment per protocol.\n\nElectronically signed by: Dr. Sarah Kim, MD\nDate/Time: May 15, 2024 12:54",
+      "cpt_codes": [
+        31641
+      ],
+      "registry_entry": {
+        "patient_mrn": "6770619",
+        "procedure_date": "2024-05-15",
+        "procedure_start_time": "11:00",
+        "procedure_duration_minutes": 114,
+        "patient_demographics": {
+          "age_years": 66,
+          "gender": "Male",
+          "weight_kg": 88
+        },
+        "asa_class": 3,
+        "primary_indication": "Endobronchial mucoepidermoid carcinoma, Left lower lobe bronchus, T1aN0M0 (Stage IA1), poor performance status (ECOG 3)",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          31641
+        ],
+        "providers": {
+          "attending_name": "Sarah Kim",
+          "fellow_name": "Ahmed Hassan",
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": true
+        },
+        "procedures_performed": {
+          "photodynamic_therapy": {
+            "performed": true,
+            "photosensitizer": "Porfimer sodium (Photofrin)",
+            "location": "Left lower lobe bronchus",
+            "energy_delivered_joules": 1885.0,
+            "wavelength_nm": 630,
+            "fluence_j_cm2": 200,
+            "diffuser_length_cm": 3.0,
+            "treatment_duration_seconds": 500
+          }
+        },
+        "cao_location": "LLL",
+        "cao_obstruction_pre_pct": 34,
+        "cao_obstruction_post_pct": 34,
+        "molecular_testing_requested": false,
+        "disposition": "Same-day discharge",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "follow_up_plan": [
+          "Scheduled debridement bronchoscopy: May 18, 2024",
+          "Continue light precautions for 30 days",
+          "Monitor for post-PDT airway edema"
+        ],
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.9.0",
+          "generated_at": "2025-12-11T20:07:07.348495",
+          "note_type": "PDT_Light_Application"
+        }
+      },
+      "coding_review": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Bronchoscopic photodynamic therapy light application constitutes tumor destruction. CPT 31641 is the appropriate code for destruction by any method."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 8.4,
+          "facility_total_payment": 272,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded as 31641 for PDT light application."
+      },
+      "source_file": "synthetic_pdt_notes_generator.py",
+      "cpt_validation_metadata": {
+        "golden_knowledge_version": "2.9",
+        "valid_codes": [
+          "31641"
+        ],
+        "invalid_codes": []
+      }
+    },
+    {
+      "note_id": "PDT_LIGHT_003",
+      "note_text": "INTERVENTIONAL PULMONOLOGY OPERATIVE REPORT\nPhotodynamic Therapy - Light Application Session\n\nPatient Name: Williams, David\nAge/Sex: 74/M\nMRN: 3871230\nDate of Service: May 05, 2024\nProcedure Start Time: 12:45\nProcedure Duration: 77 minutes\nAttending Physician: Dr. Christopher Lee, MD\n\n\nPREOPERATIVE DIAGNOSIS\nEndobronchial large cell carcinoma, Left lower lobe bronchus, T1cN0M0 (Stage IA3), multiple comorbidities precluding surgical resection\n\nPOSTOPERATIVE DIAGNOSIS\nSame\n\nPROCEDURES PERFORMED\n1. Photodynamic therapy - laser light application (CPT 31641)\n2. Flexible bronchoscopy with tumor measurement and documentation\n\nPHOTOSENSITIZER ADMINISTRATION\nAgent: Porfimer sodium (Photofrin)\nDose: 2.0 mg/kg IV\nTotal dose administered: 168.0 mg (patient weight 84 kg)\nAdministration date/time: May 03, 2024 at 11:00 hours\nTime from photosensitizer to light: 48 hours (within optimal therapeutic window)\n\nANESTHESIA\nGeneral anesthesia with endotracheal intubation (8.5mm ETT)\nAnesthesia team: Dr. William Park (attending), Michael Adams CRNA\n\nMONITORING\nStandard ASA monitors including continuous pulse oximetry, end-tidal CO2, and arterial line monitoring.\n\nEQUIPMENT\n- Pentax EB-1970TK therapeutic bronchoscope\n- Cylindrical diffusing fiber (5.0cm length, 400 micron core diameter)\n- Diode laser system: 630nm wavelength\n- Light dosimetry calculation performed pre-procedure\n\nDETAILED PROCEDURE NARRATIVE\nThe patient was brought to the endoscopy suite. After successful induction of general anesthesia and orotracheal intubation, a time-out was performed verifying correct patient, procedure, and photosensitizer administration timing.\n\nInitial Bronchoscopic Survey:\nThe bronchoscope was introduced through the endotracheal tube. Systematic examination revealed normal upper airways and trachea. The carina appeared sharp and normal. The endobronchial tumor was identified in the Left lower lobe bronchus.\n\nTumor Characteristics (Pre-PDT measurements):\n- Location: Left lower lobe bronchus\n- Size: 2.5cm (longitudinal) \u00d7 0.6cm (circumferential extent)\n- Morphology: Flat, plaque-like lesion\n- Surface: Friable with slight oozing\n- Obstruction: Approximately 22% luminal narrowing\n- Distal airways: Patent beyond the lesion\n\nPhotodynamic Therapy Light Delivery:\nLaser safety protocols confirmed (room signage, protective eyewear, fire safety measures in place). The cylindrical diffusing fiber was introduced through the working channel of the bronchoscope. The fiber was positioned to center the tumor within the treatment field.\n\nTreatment Parameters:\n- Wavelength: 630 nm (optimal for Porfimer activation)\n- Power output: 400 mW/cm of diffuser length\n- Diffuser length: 5.0 cm\n- Total power: 2000.0 mW (2.0 W)\n- Light dose (fluence): 200 J/cm\u00b2 of diffuser surface\n- Treatment time: 500 seconds (8 minutes 20 seconds)\n\nLight was continuously delivered for the calculated duration. During light application, laser energy meter verified consistent power output. No visible tissue changes during light delivery (expected for PDT mechanism). No charring or thermal effects observed, confirming non-thermal photochemical mechanism. Patient remained hemodynamically stable throughout with no arrhythmias or oxygen desaturations.\n\nPost-Treatment Assessment:\nImmediately following light delivery, the treated area appeared essentially unchanged (expected for PDT - tissue necrosis develops over 24-72 hours). No immediate edema or bleeding noted. The fiber was removed and the bronchoscope withdrawn.\n\nLight Precautions Review:\nPost-procedure, the following light precautions were reviewed with patient and family:\n1. Strict avoidance of direct sunlight and bright indoor lights for 30 days minimum\n2. Wear protective clothing, wide-brimmed hat, gloves when outdoors\n3. Gradual re-exposure to normal light starting day 30 with skin testing\n4. Emergency contact information provided\n5. Written instructions given\n\nThe patient tolerated the procedure well. Extubated in the OR without difficulty. Transferred to PACU in stable condition.\n\nSPECIMENS\nNone (non-excisional therapy)\n\nESTIMATED BLOOD LOSS\nMinimal\n\nCOMPLICATIONS\nNone\n\nASSESSMENT AND PLAN\nThis 74-year-old male with T1cN0M0 endobronchial large cell carcinoma (Left lower lobe bronchus), who is multiple comorbidities precluding surgical resection, underwent photodynamic therapy light application session without complications.\n\nTimeline for Follow-up:\n1. Scheduled debridement bronchoscopy: May 08, 2024 (48 hours post-light)\n2. Anticipated findings: Necrotic tumor debris requiring mechanical removal\n3. Will assess treatment response and consider biopsies from treatment bed\n\nOngoing Management:\n- Continue light precautions (patient education reinforced)\n- Monitor for post-PDT complications: airway edema, photosensitivity reactions\n- Dexamethasone 4mg PO BID x 5 days (reduce airway inflammation)\n- PPI therapy (reduce risk of esophageal photosensitivity)\n\nLong-term surveillance:\nBronchoscopic surveillance at 1, 3, 6, and 12 months post-treatment per protocol.\n\nElectronically signed by: Dr. Christopher Lee, MD\nDate/Time: May 05, 2024 13:02",
+      "cpt_codes": [
+        31641
+      ],
+      "registry_entry": {
+        "patient_mrn": "3871230",
+        "procedure_date": "2024-05-05",
+        "procedure_start_time": "12:45",
+        "procedure_duration_minutes": 77,
+        "patient_demographics": {
+          "age_years": 74,
+          "gender": "Male",
+          "weight_kg": 84
+        },
+        "asa_class": 4,
+        "primary_indication": "Endobronchial large cell carcinoma, Left lower lobe bronchus, T1cN0M0 (Stage IA3), multiple comorbidities precluding surgical resection",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          31641
+        ],
+        "providers": {
+          "attending_name": "Christopher Lee",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": false
+        },
+        "procedures_performed": {
+          "photodynamic_therapy": {
+            "performed": true,
+            "photosensitizer": "Porfimer sodium (Photofrin)",
+            "location": "Left lower lobe bronchus",
+            "energy_delivered_joules": 3141.6,
+            "wavelength_nm": 630,
+            "fluence_j_cm2": 200,
+            "diffuser_length_cm": 5.0,
+            "treatment_duration_seconds": 500
+          }
+        },
+        "cao_location": "LLL",
+        "cao_obstruction_pre_pct": 22,
+        "cao_obstruction_post_pct": 22,
+        "molecular_testing_requested": false,
+        "disposition": "Same-day discharge",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "follow_up_plan": [
+          "Scheduled debridement bronchoscopy: May 08, 2024",
+          "Continue light precautions for 30 days",
+          "Monitor for post-PDT airway edema"
+        ],
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.9.0",
+          "generated_at": "2025-12-11T20:07:07.348580",
+          "note_type": "PDT_Light_Application"
+        }
+      },
+      "coding_review": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Bronchoscopic photodynamic therapy light application constitutes tumor destruction. CPT 31641 is the appropriate code for destruction by any method."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 8.4,
+          "facility_total_payment": 272,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded as 31641 for PDT light application."
+      },
+      "source_file": "synthetic_pdt_notes_generator.py",
+      "cpt_validation_metadata": {
+        "golden_knowledge_version": "2.9",
+        "valid_codes": [
+          "31641"
+        ],
+        "invalid_codes": []
+      }
+    },
+    {
+      "note_id": "PDT_LIGHT_004",
+      "note_text": "INTERVENTIONAL PULMONOLOGY OPERATIVE REPORT\nPhotodynamic Therapy - Light Application Session\n\nPatient Name: Jones, David\nAge/Sex: 62/M\nMRN: 5408072\nDate of Service: October 26, 2024\nProcedure Start Time: 08:45\nProcedure Duration: 84 minutes\nAttending Physician: Dr. Christopher Lee, MD\nAssistant: Dr. Lisa Martinez, Fellow\n\nPREOPERATIVE DIAGNOSIS\nEndobronchial carcinoid tumor, Right lower lobe bronchus, T1bN0M0 (Stage IA2), medically inoperable due to severe COPD (FEV1 0.8L, 28% predicted)\n\nPOSTOPERATIVE DIAGNOSIS\nSame\n\nPROCEDURES PERFORMED\n1. Photodynamic therapy - laser light application (CPT 31641)\n2. Flexible bronchoscopy with tumor measurement and documentation\n\nPHOTOSENSITIZER ADMINISTRATION\nAgent: Temoporfin (Foscan)\nDose: 0.15 mg/kg IV\nTotal dose administered: 14.5 mg (patient weight 97 kg)\nAdministration date/time: October 22, 2024 at 15:00 hours\nTime from photosensitizer to light: 96 hours (within optimal therapeutic window)\n\nANESTHESIA\nGeneral anesthesia with endotracheal intubation (8.5mm ETT)\nAnesthesia team: Dr. Karen Liu (attending), Jennifer Brown CRNA\n\nMONITORING\nStandard ASA monitors including continuous pulse oximetry, end-tidal CO2, and arterial line monitoring.\n\nEQUIPMENT\n- Olympus BF-1T180 therapeutic bronchoscope\n- Cylindrical diffusing fiber (1.5cm length, 400 micron core diameter)\n- Diode laser system: 630nm wavelength\n- Light dosimetry calculation performed pre-procedure\n\nDETAILED PROCEDURE NARRATIVE\nThe patient was brought to the endoscopy suite. After successful induction of general anesthesia and orotracheal intubation, a time-out was performed verifying correct patient, procedure, and photosensitizer administration timing.\n\nInitial Bronchoscopic Survey:\nThe bronchoscope was introduced through the endotracheal tube. Systematic examination revealed normal upper airways and trachea. The carina appeared sharp and normal. The endobronchial tumor was identified in the Right lower lobe bronchus.\n\nTumor Characteristics (Pre-PDT measurements):\n- Location: Right lower lobe bronchus\n- Size: 2.2cm (longitudinal) \u00d7 1.3cm (circumferential extent)\n- Morphology: Flat, plaque-like lesion\n- Surface: Friable with slight oozing\n- Obstruction: Approximately 47% luminal narrowing\n- Distal airways: Patent beyond the lesion\n\nPhotodynamic Therapy Light Delivery:\nLaser safety protocols confirmed (room signage, protective eyewear, fire safety measures in place). The cylindrical diffusing fiber was introduced through the working channel of the bronchoscope. The fiber was positioned to center the tumor within the treatment field.\n\nTreatment Parameters:\n- Wavelength: 630 nm (optimal for Temoporfin activation)\n- Power output: 400 mW/cm of diffuser length\n- Diffuser length: 1.5 cm\n- Total power: 600.0 mW (0.6 W)\n- Light dose (fluence): 200 J/cm\u00b2 of diffuser surface\n- Treatment time: 500 seconds (8 minutes 20 seconds)\n\nLight was continuously delivered for the calculated duration. During light application, laser energy meter verified consistent power output. No visible tissue changes during light delivery (expected for PDT mechanism). No charring or thermal effects observed, confirming non-thermal photochemical mechanism. Patient remained hemodynamically stable throughout with no arrhythmias or oxygen desaturations.\n\nPost-Treatment Assessment:\nImmediately following light delivery, the treated area appeared essentially unchanged (expected for PDT - tissue necrosis develops over 24-72 hours). No immediate edema or bleeding noted. The fiber was removed and the bronchoscope withdrawn.\n\nLight Precautions Review:\nPost-procedure, the following light precautions were reviewed with patient and family:\n1. Strict avoidance of direct sunlight and bright indoor lights for 30 days minimum\n2. Wear protective clothing, wide-brimmed hat, gloves when outdoors\n3. Gradual re-exposure to normal light starting day 30 with skin testing\n4. Emergency contact information provided\n5. Written instructions given\n\nThe patient tolerated the procedure well. Extubated in the OR without difficulty. Transferred to PACU in stable condition.\n\nSPECIMENS\nNone (non-excisional therapy)\n\nESTIMATED BLOOD LOSS\nMinimal\n\nCOMPLICATIONS\nNone\n\nASSESSMENT AND PLAN\nThis 62-year-old male with T1bN0M0 endobronchial carcinoid tumor (Right lower lobe bronchus), who is medically inoperable due to severe COPD (FEV1 0.8L, 28% predicted), underwent photodynamic therapy light application session without complications.\n\nTimeline for Follow-up:\n1. Scheduled debridement bronchoscopy: October 28, 2024 (96 hours post-light)\n2. Anticipated findings: Necrotic tumor debris requiring mechanical removal\n3. Will assess treatment response and consider biopsies from treatment bed\n\nOngoing Management:\n- Continue light precautions (patient education reinforced)\n- Monitor for post-PDT complications: airway edema, photosensitivity reactions\n- Dexamethasone 4mg PO BID x 5 days (reduce airway inflammation)\n- PPI therapy (reduce risk of esophageal photosensitivity)\n\nLong-term surveillance:\nBronchoscopic surveillance at 1, 3, 6, and 12 months post-treatment per protocol.\n\nElectronically signed by: Dr. Christopher Lee, MD\nDate/Time: October 26, 2024 09:09",
+      "cpt_codes": [
+        31641
+      ],
+      "registry_entry": {
+        "patient_mrn": "5408072",
+        "procedure_date": "2024-10-26",
+        "procedure_start_time": "08:45",
+        "procedure_duration_minutes": 84,
+        "patient_demographics": {
+          "age_years": 62,
+          "gender": "Male",
+          "weight_kg": 97
+        },
+        "asa_class": 3,
+        "primary_indication": "Endobronchial carcinoid tumor, Right lower lobe bronchus, T1bN0M0 (Stage IA2), medically inoperable due to severe COPD (FEV1 0.8L, 28% predicted)",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          31641
+        ],
+        "providers": {
+          "attending_name": "Christopher Lee",
+          "fellow_name": "Lisa Martinez",
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": true
+        },
+        "procedures_performed": {
+          "photodynamic_therapy": {
+            "performed": true,
+            "photosensitizer": "Temoporfin (Foscan)",
+            "location": "Right lower lobe bronchus",
+            "energy_delivered_joules": 942.5,
+            "wavelength_nm": 630,
+            "fluence_j_cm2": 200,
+            "diffuser_length_cm": 1.5,
+            "treatment_duration_seconds": 500
+          }
+        },
+        "cao_location": "RLL",
+        "cao_obstruction_pre_pct": 47,
+        "cao_obstruction_post_pct": 47,
+        "molecular_testing_requested": false,
+        "disposition": "23-hour observation",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "follow_up_plan": [
+          "Scheduled debridement bronchoscopy: October 28, 2024",
+          "Continue light precautions for 30 days",
+          "Monitor for post-PDT airway edema"
+        ],
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.9.0",
+          "generated_at": "2025-12-11T20:07:07.348658",
+          "note_type": "PDT_Light_Application"
+        }
+      },
+      "coding_review": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Bronchoscopic photodynamic therapy light application constitutes tumor destruction. CPT 31641 is the appropriate code for destruction by any method."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 8.4,
+          "facility_total_payment": 272,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded as 31641 for PDT light application."
+      },
+      "source_file": "synthetic_pdt_notes_generator.py",
+      "cpt_validation_metadata": {
+        "golden_knowledge_version": "2.9",
+        "valid_codes": [
+          "31641"
+        ],
+        "invalid_codes": []
+      }
+    },
+    {
+      "note_id": "PDT_LIGHT_005",
+      "note_text": "INTERVENTIONAL PULMONOLOGY OPERATIVE REPORT\nPhotodynamic Therapy - Light Application Session\n\nPatient Name: Martinez, Patricia\nAge/Sex: 68/F\nMRN: 3653446\nDate of Service: January 02, 2024\nProcedure Start Time: 07:30\nProcedure Duration: 91 minutes\nAttending Physician: Dr. David Rodriguez, MD\nAssistant: Dr. Elena Petrov, Fellow\n\nPREOPERATIVE DIAGNOSIS\nEndobronchial mucoepidermoid carcinoma, Distal trachea, T1aN0M0 (Stage IA1), severe pulmonary fibrosis limiting surgical candidacy\n\nPOSTOPERATIVE DIAGNOSIS\nSame\n\nPROCEDURES PERFORMED\n1. Photodynamic therapy - laser light application (CPT 31641)\n2. Flexible bronchoscopy with tumor measurement and documentation\n\nPHOTOSENSITIZER ADMINISTRATION\nAgent: Temoporfin (Foscan)\nDose: 0.15 mg/kg IV\nTotal dose administered: 11.8 mg (patient weight 79 kg)\nAdministration date/time: December 29, 2023 at 16:00 hours\nTime from photosensitizer to light: 96 hours (within optimal therapeutic window)\n\nANESTHESIA\nGeneral anesthesia with endotracheal intubation (8.0mm ETT)\nAnesthesia team: Dr. William Park (attending), Samantha Lee CRNA\n\nMONITORING\nStandard ASA monitors including continuous pulse oximetry, end-tidal CO2, and arterial line monitoring.\n\nEQUIPMENT\n- Olympus BF-P190 bronchoscope\n- Cylindrical diffusing fiber (1.5cm length, 400 micron core diameter)\n- Diode laser system: 630nm wavelength\n- Light dosimetry calculation performed pre-procedure\n\nDETAILED PROCEDURE NARRATIVE\nThe patient was brought to the endoscopy suite. After successful induction of general anesthesia and orotracheal intubation, a time-out was performed verifying correct patient, procedure, and photosensitizer administration timing.\n\nInitial Bronchoscopic Survey:\nThe bronchoscope was introduced through the endotracheal tube. Systematic examination revealed normal upper airways and trachea. The carina appeared sharp and normal. The endobronchial tumor was identified in the Distal trachea.\n\nTumor Characteristics (Pre-PDT measurements):\n- Location: Distal trachea\n- Size: 1.6cm (longitudinal) \u00d7 0.7cm (circumferential extent)\n- Morphology: Flat, plaque-like lesion\n- Surface: Irregular surface, non-bleeding\n- Obstruction: Approximately 53% luminal narrowing\n- Distal airways: Patent beyond the lesion\n\nPhotodynamic Therapy Light Delivery:\nLaser safety protocols confirmed (room signage, protective eyewear, fire safety measures in place). The cylindrical diffusing fiber was introduced through the working channel of the bronchoscope. The fiber was positioned to center the tumor within the treatment field.\n\nTreatment Parameters:\n- Wavelength: 630 nm (optimal for Temoporfin activation)\n- Power output: 400 mW/cm of diffuser length\n- Diffuser length: 1.5 cm\n- Total power: 600.0 mW (0.6 W)\n- Light dose (fluence): 200 J/cm\u00b2 of diffuser surface\n- Treatment time: 500 seconds (8 minutes 20 seconds)\n\nLight was continuously delivered for the calculated duration. During light application, laser energy meter verified consistent power output. No visible tissue changes during light delivery (expected for PDT mechanism). No charring or thermal effects observed, confirming non-thermal photochemical mechanism. Patient remained hemodynamically stable throughout with no arrhythmias or oxygen desaturations.\n\nPost-Treatment Assessment:\nImmediately following light delivery, the treated area appeared essentially unchanged (expected for PDT - tissue necrosis develops over 24-72 hours). No immediate edema or bleeding noted. The fiber was removed and the bronchoscope withdrawn.\n\nLight Precautions Review:\nPost-procedure, the following light precautions were reviewed with patient and family:\n1. Strict avoidance of direct sunlight and bright indoor lights for 30 days minimum\n2. Wear protective clothing, wide-brimmed hat, gloves when outdoors\n3. Gradual re-exposure to normal light starting day 30 with skin testing\n4. Emergency contact information provided\n5. Written instructions given\n\nThe patient tolerated the procedure well. Extubated in the OR without difficulty. Transferred to PACU in stable condition.\n\nSPECIMENS\nNone (non-excisional therapy)\n\nESTIMATED BLOOD LOSS\nMinimal\n\nCOMPLICATIONS\nNone\n\nASSESSMENT AND PLAN\nThis 68-year-old female with T1aN0M0 endobronchial mucoepidermoid carcinoma (Distal trachea), who is severe pulmonary fibrosis limiting surgical candidacy, underwent photodynamic therapy light application session without complications.\n\nTimeline for Follow-up:\n1. Scheduled debridement bronchoscopy: January 05, 2024 (96 hours post-light)\n2. Anticipated findings: Necrotic tumor debris requiring mechanical removal\n3. Will assess treatment response and consider biopsies from treatment bed\n\nOngoing Management:\n- Continue light precautions (patient education reinforced)\n- Monitor for post-PDT complications: airway edema, photosensitivity reactions\n- Dexamethasone 4mg PO BID x 5 days (reduce airway inflammation)\n- PPI therapy (reduce risk of esophageal photosensitivity)\n\nLong-term surveillance:\nBronchoscopic surveillance at 1, 3, 6, and 12 months post-treatment per protocol.\n\nElectronically signed by: Dr. David Rodriguez, MD\nDate/Time: January 02, 2024 08:01",
+      "cpt_codes": [
+        31641
+      ],
+      "registry_entry": {
+        "patient_mrn": "3653446",
+        "procedure_date": "2024-01-02",
+        "procedure_start_time": "07:30",
+        "procedure_duration_minutes": 91,
+        "patient_demographics": {
+          "age_years": 68,
+          "gender": "Female",
+          "weight_kg": 79
+        },
+        "asa_class": 4,
+        "primary_indication": "Endobronchial mucoepidermoid carcinoma, Distal trachea, T1aN0M0 (Stage IA1), severe pulmonary fibrosis limiting surgical candidacy",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Malignancy",
+        "cpt_codes": [
+          31641
+        ],
+        "providers": {
+          "attending_name": "David Rodriguez",
+          "fellow_name": "Elena Petrov",
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": true
+        },
+        "procedures_performed": {
+          "photodynamic_therapy": {
+            "performed": true,
+            "photosensitizer": "Temoporfin (Foscan)",
+            "location": "Distal trachea",
+            "energy_delivered_joules": 942.5,
+            "wavelength_nm": 630,
+            "fluence_j_cm2": 200,
+            "diffuser_length_cm": 1.5,
+            "treatment_duration_seconds": 500
+          }
+        },
+        "cao_location": "Trachea",
+        "cao_obstruction_pre_pct": 53,
+        "cao_obstruction_post_pct": 53,
+        "molecular_testing_requested": false,
+        "disposition": "Recovery room",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "follow_up_plan": [
+          "Scheduled debridement bronchoscopy: January 05, 2024",
+          "Continue light precautions for 30 days",
+          "Monitor for post-PDT airway edema"
+        ],
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.9.0",
+          "generated_at": "2025-12-11T20:07:07.348767",
+          "note_type": "PDT_Light_Application"
+        }
+      },
+      "coding_review": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Bronchoscopic photodynamic therapy light application constitutes tumor destruction. CPT 31641 is the appropriate code for destruction by any method."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 8.4,
+          "facility_total_payment": 272,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded as 31641 for PDT light application."
+      },
+      "source_file": "synthetic_pdt_notes_generator.py",
+      "cpt_validation_metadata": {
+        "golden_knowledge_version": "2.9",
+        "valid_codes": [
+          "31641"
+        ],
+        "invalid_codes": []
+      }
+    },
+    {
+      "note_id": "PDT_DEBRIDE_001",
+      "note_text": "INTERVENTIONAL PULMONOLOGY OPERATIVE REPORT\nPhotodynamic Therapy - Post-PDT Debridement Session\n\nPatient Name: Williams, Thomas\nAge/Sex: 79/M\nMRN: 9937326\nDate of Service: March 05, 2024\nProcedure Start Time: 11:45\nProcedure Duration: 72 minutes\nAttending Physician: Dr. Michael Patel, MD\n\n\nPREOPERATIVE DIAGNOSIS\nStatus post photodynamic therapy for endobronchial mucoepidermoid carcinoma, Left lower lobe bronchus, 48 hours post-light application\n\nPOSTOPERATIVE DIAGNOSIS\nSame; necrotic tumor debris successfully debrided\n\nPROCEDURES PERFORMED\n1. Flexible bronchoscopy with debridement of necrotic tissue (CPT 31641)\n2. Endobronchial biopsy of treatment bed\n\nCLINICAL HISTORY\nThis 79-year-old male underwent photodynamic therapy light application on March 03, 2024 for endobronchial mucoepidermoid carcinoma of the Left lower lobe bronchus. The patient now presents for scheduled debridement bronchoscopy at 48 hours post-light to remove anticipated necrotic tumor debris.\n\nInterval History:\n- No significant respiratory distress since PDT\n- Minimal symptoms since procedure\n- Light precautions maintained\n- No photosensitivity reactions\n\nANESTHESIA\nGeneral anesthesia with endotracheal intubation (7.5mm ETT)\nAnesthesia team: Dr. Robert Miller (attending), David Wilson CRNA\n\nEQUIPMENT\n- Fujifilm EB-580T therapeutic bronchoscope\n- Biopsy forceps\n- rigid coring\n- Suction apparatus\n\nDETAILED PROCEDURE NARRATIVE\nThe patient was brought to the endoscopy suite. After successful induction of general anesthesia and orotracheal intubation, a time-out was performed.\n\nBronchoscopic Survey:\nThe bronchoscope was introduced through the endotracheal tube. The upper airways and trachea appeared normal. The carina was sharp.\n\nPDT Treatment Site Assessment:\nExamination of the Left lower lobe bronchus revealed expected findings 48 hours post-PDT:\n- Significant necrotic debris overlying the previous tumor site\n- Gray-brown necrotic tissue with sloughing appearance\n- Pre-debridement airway obstruction: approximately 52%\n- Surrounding mucosa with mild erythema (expected post-PDT inflammatory response)\n- No active bleeding at treatment site\n\nDebridement Procedure:\nUsing rigid coring, the necrotic tumor debris was systematically removed. Multiple passes were required to adequately clear the airway. \n\n\n\nPost-Debridement Assessment:\n- Airway patency significantly improved\n- Post-debridement obstruction: approximately 27%\n- Treatment bed visible with granulation tissue formation\n- No active bleeding following debridement\n- Distal airways now fully patent and accessible\n\nBiopsies of Treatment Bed:\nMultiple biopsies (x4) were obtained from the treatment bed periphery to assess for residual viable tumor. Specimens sent for pathology.\n\nThe bronchoscope was withdrawn. The patient tolerated the procedure well and was extubated without difficulty.\n\nSPECIMENS\nEndobronchial biopsies (x4) from treatment bed - sent for pathology\n\nESTIMATED BLOOD LOSS\nNegligible\n\nCOMPLICATIONS\nNone\n\nASSESSMENT AND PLAN\nThis 79-year-old male, 48 hours post-PDT for endobronchial mucoepidermoid carcinoma, underwent successful debridement bronchoscopy with improvement in airway patency from 52% to 27% obstruction.\n\nPDT Response Assessment:\n- Moderate response to PDT based on extent of tumor necrosis\n- Airway significantly improved\n- Biopsies pending to confirm complete tumor ablation\n\nPlan:\n1. Continue light precautions until day 30 post-initial PDT\n2. Await pathology results\n3. Repeat debridement if needed based on clinical status\n4. Surveillance bronchoscopy scheduled in 8 weeks\n5. Chest CT in 6-8 weeks to assess treatment response\n\nElectronically signed by: Dr. Michael Patel, MD\nDate/Time: March 05, 2024 12:57",
+      "cpt_codes": [
+        31641,
+        31625
+      ],
+      "registry_entry": {
+        "patient_mrn": "9937326",
+        "procedure_date": "2024-03-05",
+        "procedure_start_time": "11:45",
+        "procedure_duration_minutes": 72,
+        "patient_demographics": {
+          "age_years": 79,
+          "gender": "Male"
+        },
+        "asa_class": 4,
+        "primary_indication": "Status post PDT for endobronchial mucoepidermoid carcinoma, Left lower lobe bronchus, 48 hours post-light - debridement session",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Post-PDT necrosis - debridement",
+        "cpt_codes": [
+          31641,
+          31625
+        ],
+        "providers": {
+          "attending_name": "Michael Patel",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": false
+        },
+        "procedures_performed": {
+          "photodynamic_therapy": {
+            "performed": true,
+            "photosensitizer": null,
+            "location": "Left lower lobe bronchus",
+            "energy_delivered_joules": null,
+            "debridement_session": true,
+            "hours_post_light": 48,
+            "debridement_tools": [
+              "rigid coring"
+            ]
+          }
+        },
+        "cao_location": "LLL",
+        "cao_primary_modality": "PDT debridement",
+        "cao_obstruction_pre_pct": 52,
+        "cao_obstruction_post_pct": 27,
+        "molecular_testing_requested": true,
+        "disposition": "Recovery room",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "follow_up_plan": [
+          "Surveillance bronchoscopy in 4 weeks",
+          "Continue light precautions until day 30",
+          "Chest CT in 6-8 weeks"
+        ],
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.9.0",
+          "generated_at": "2025-12-11T20:07:07.348961",
+          "note_type": "PDT_Debridement"
+        }
+      },
+      "coding_review": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641",
+            "31625"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Debridement of necrotic tumor tissue post-PDT constitutes bronchoscopic destruction. 31641 is the primary therapeutic service.",
+            "31625": "Endobronchial biopsies were obtained from the treatment bed to assess for residual viable tumor. Separately reportable as distinct diagnostic work."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 13.33,
+          "facility_total_payment": 432,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            },
+            "31625": {
+              "work_rvu": 3.11,
+              "facility_rvu": 4.93,
+              "facility_payment": 160,
+              "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded. Post-PDT debridement (31641) and diagnostic biopsy for residual disease (31625) are supported."
+      },
+      "source_file": "synthetic_pdt_notes_generator.py",
+      "cpt_validation_metadata": {
+        "golden_knowledge_version": "2.9",
+        "valid_codes": [
+          "31641",
+          "31625"
+        ],
+        "invalid_codes": []
+      }
+    },
+    {
+      "note_id": "PDT_DEBRIDE_002",
+      "note_text": "INTERVENTIONAL PULMONOLOGY OPERATIVE REPORT\nPhotodynamic Therapy - Post-PDT Debridement Session\n\nPatient Name: Anderson, James\nAge/Sex: 57/M\nMRN: 9626108\nDate of Service: May 01, 2024\nProcedure Start Time: 08:00\nProcedure Duration: 72 minutes\nAttending Physician: Dr. Christopher Lee, MD\n\n\nPREOPERATIVE DIAGNOSIS\nStatus post photodynamic therapy for endobronchial adenocarcinoma, Left lower lobe bronchus, 72 hours post-light application\n\nPOSTOPERATIVE DIAGNOSIS\nSame; necrotic tumor debris successfully debrided\n\nPROCEDURES PERFORMED\n1. Flexible bronchoscopy with debridement of necrotic tissue (CPT 31641)\n\n\nCLINICAL HISTORY\nThis 57-year-old male underwent photodynamic therapy light application on April 28, 2024 for endobronchial adenocarcinoma of the Left lower lobe bronchus. The patient now presents for scheduled debridement bronchoscopy at 72 hours post-light to remove anticipated necrotic tumor debris.\n\nInterval History:\n- No significant respiratory distress since PDT\n- Minimal symptoms since procedure\n- Light precautions maintained\n- No photosensitivity reactions\n\nANESTHESIA\nGeneral anesthesia with endotracheal intubation (8.5mm ETT)\nAnesthesia team: Dr. Karen Liu (attending), Jennifer Brown CRNA\n\nEQUIPMENT\n- Fujifilm EB-580T therapeutic bronchoscope\n- \n- microdebrider\n- Suction apparatus\n\nDETAILED PROCEDURE NARRATIVE\nThe patient was brought to the endoscopy suite. After successful induction of general anesthesia and orotracheal intubation, a time-out was performed.\n\nBronchoscopic Survey:\nThe bronchoscope was introduced through the endotracheal tube. The upper airways and trachea appeared normal. The carina was sharp.\n\nPDT Treatment Site Assessment:\nExamination of the Left lower lobe bronchus revealed expected findings 72 hours post-PDT:\n- Significant necrotic debris overlying the previous tumor site\n- Gray-brown necrotic tissue with friable appearance\n- Pre-debridement airway obstruction: approximately 66%\n- Surrounding mucosa with mild erythema (expected post-PDT inflammatory response)\n- No active bleeding at treatment site\n\nDebridement Procedure:\nUsing microdebrider, the necrotic tumor debris was systematically removed. Multiple passes were required to adequately clear the airway. \n\n\n\nPost-Debridement Assessment:\n- Airway patency significantly improved\n- Post-debridement obstruction: approximately 11%\n- Treatment bed visible with granulation tissue formation\n- No active bleeding following debridement\n- Distal airways now fully patent and accessible\n\n\n\n\nThe bronchoscope was withdrawn. The patient tolerated the procedure well and was extubated without difficulty.\n\nSPECIMENS\nNecrotic debris removed - not sent for pathology (post-treatment tissue)\n\nESTIMATED BLOOD LOSS\nNegligible\n\nCOMPLICATIONS\nNone\n\nASSESSMENT AND PLAN\nThis 57-year-old male, 72 hours post-PDT for endobronchial adenocarcinoma, underwent successful debridement bronchoscopy with improvement in airway patency from 66% to 11% obstruction.\n\nPDT Response Assessment:\n- Excellent response to PDT based on extent of tumor necrosis\n- Airway significantly improved\n- Consider surveillance bronchoscopy in 4-6 weeks\n\nPlan:\n1. Continue light precautions until day 30 post-initial PDT\n2. No biopsies taken - plan surveillance bronchoscopy\n3. No further debridement anticipated\n4. Surveillance bronchoscopy scheduled in 8 weeks\n5. Chest CT in 6-8 weeks to assess treatment response\n\nElectronically signed by: Dr. Christopher Lee, MD\nDate/Time: May 01, 2024 09:12",
+      "cpt_codes": [
+        31641
+      ],
+      "registry_entry": {
+        "patient_mrn": "9626108",
+        "procedure_date": "2024-05-01",
+        "procedure_start_time": "08:00",
+        "procedure_duration_minutes": 72,
+        "patient_demographics": {
+          "age_years": 57,
+          "gender": "Male"
+        },
+        "asa_class": 3,
+        "primary_indication": "Status post PDT for endobronchial adenocarcinoma, Left lower lobe bronchus, 72 hours post-light - debridement session",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Post-PDT necrosis - debridement",
+        "cpt_codes": [
+          31641
+        ],
+        "providers": {
+          "attending_name": "Christopher Lee",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": false
+        },
+        "procedures_performed": {
+          "photodynamic_therapy": {
+            "performed": true,
+            "photosensitizer": null,
+            "location": "Left lower lobe bronchus",
+            "energy_delivered_joules": null,
+            "debridement_session": true,
+            "hours_post_light": 72,
+            "debridement_tools": [
+              "microdebrider"
+            ]
+          }
+        },
+        "cao_location": "LLL",
+        "cao_primary_modality": "PDT debridement",
+        "cao_obstruction_pre_pct": 66,
+        "cao_obstruction_post_pct": 11,
+        "molecular_testing_requested": false,
+        "disposition": "Recovery room",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "follow_up_plan": [
+          "Surveillance bronchoscopy in 4 weeks",
+          "Continue light precautions until day 30",
+          "Chest CT in 6-8 weeks"
+        ],
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.9.0",
+          "generated_at": "2025-12-11T20:07:07.349080",
+          "note_type": "PDT_Debridement"
+        }
+      },
+      "coding_review": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Bronchoscopic debridement of necrotic debris constitutes destruction/relief of stenosis."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 8.4,
+          "facility_total_payment": 272,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded as 31641 for post-PDT debridement. No biopsies documented."
+      },
+      "source_file": "synthetic_pdt_notes_generator.py",
+      "cpt_validation_metadata": {
+        "golden_knowledge_version": "2.9",
+        "valid_codes": [
+          "31641"
+        ],
+        "invalid_codes": []
+      }
+    },
+    {
+      "note_id": "PDT_DEBRIDE_003",
+      "note_text": "INTERVENTIONAL PULMONOLOGY OPERATIVE REPORT\nPhotodynamic Therapy - Post-PDT Debridement Session\n\nPatient Name: Patel, William\nAge/Sex: 69/M\nMRN: 3351868\nDate of Service: August 04, 2024\nProcedure Start Time: 08:15\nProcedure Duration: 40 minutes\nAttending Physician: Dr. Jennifer Walsh, MD\nAssistant: Dr. Lisa Martinez, Fellow\n\nPREOPERATIVE DIAGNOSIS\nStatus post photodynamic therapy for endobronchial large cell carcinoma, Left upper lobe bronchus, 48 hours post-light application\n\nPOSTOPERATIVE DIAGNOSIS\nSame; necrotic tumor debris successfully debrided\n\nPROCEDURES PERFORMED\n1. Flexible bronchoscopy with debridement of necrotic tissue (CPT 31641)\n\n\nCLINICAL HISTORY\nThis 69-year-old male underwent photodynamic therapy light application on August 02, 2024 for endobronchial large cell carcinoma of the Left upper lobe bronchus. The patient now presents for scheduled debridement bronchoscopy at 48 hours post-light to remove anticipated necrotic tumor debris.\n\nInterval History:\n- No significant respiratory distress since PDT\n- Mild increased cough with brownish sputum production\n- Light precautions maintained\n- No photosensitivity reactions\n\nANESTHESIA\nGeneral anesthesia with endotracheal intubation (7.5mm ETT)\nAnesthesia team: Dr. Karen Liu (attending), David Wilson CRNA\n\nEQUIPMENT\n- Fujifilm EB-580T therapeutic bronchoscope\n- \n- biopsy forceps, rigid coring, cryoprobe\n- Suction apparatus\n\nDETAILED PROCEDURE NARRATIVE\nThe patient was brought to the endoscopy suite. After successful induction of general anesthesia and orotracheal intubation, a time-out was performed.\n\nBronchoscopic Survey:\nThe bronchoscope was introduced through the endotracheal tube. The upper airways and trachea appeared normal. The carina was sharp.\n\nPDT Treatment Site Assessment:\nExamination of the Left upper lobe bronchus revealed expected findings 48 hours post-PDT:\n- Significant necrotic debris overlying the previous tumor site\n- Gray-brown necrotic tissue with sloughing appearance\n- Pre-debridement airway obstruction: approximately 74%\n- Surrounding mucosa with mild erythema (expected post-PDT inflammatory response)\n- No active bleeding at treatment site\n\nDebridement Procedure:\nUsing biopsy forceps and rigid coring and cryoprobe, the necrotic tumor debris was systematically removed. Multiple passes were required to adequately clear the airway. \n\nCryotherapy was used to assist with removal of adherent necrotic tissue.\n\nPost-Debridement Assessment:\n- Airway patency significantly improved\n- Post-debridement obstruction: approximately 5%\n- Treatment bed visible with clean mucosal base\n- No active bleeding following debridement\n- Distal airways now fully patent and accessible\n\n\n\n\nThe bronchoscope was withdrawn. The patient tolerated the procedure well and was extubated without difficulty.\n\nSPECIMENS\nNecrotic debris removed - not sent for pathology (post-treatment tissue)\n\nESTIMATED BLOOD LOSS\nMinimal (< 10 mL)\n\nCOMPLICATIONS\nNone\n\nASSESSMENT AND PLAN\nThis 69-year-old male, 48 hours post-PDT for endobronchial large cell carcinoma, underwent successful debridement bronchoscopy with improvement in airway patency from 74% to 5% obstruction.\n\nPDT Response Assessment:\n- Excellent response to PDT based on extent of tumor necrosis\n- Airway significantly improved\n- Consider surveillance bronchoscopy in 4-6 weeks\n\nPlan:\n1. Continue light precautions until day 30 post-initial PDT\n2. No biopsies taken - plan surveillance bronchoscopy\n3. No further debridement anticipated\n4. Surveillance bronchoscopy scheduled in 6 weeks\n5. Chest CT in 6-8 weeks to assess treatment response\n\nElectronically signed by: Dr. Jennifer Walsh, MD\nDate/Time: August 04, 2024 08:55",
+      "cpt_codes": [
+        31641
+      ],
+      "registry_entry": {
+        "patient_mrn": "3351868",
+        "procedure_date": "2024-08-04",
+        "procedure_start_time": "08:15",
+        "procedure_duration_minutes": 40,
+        "patient_demographics": {
+          "age_years": 69,
+          "gender": "Male"
+        },
+        "asa_class": 3,
+        "primary_indication": "Status post PDT for endobronchial large cell carcinoma, Left upper lobe bronchus, 48 hours post-light - debridement session",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Post-PDT necrosis - debridement",
+        "cpt_codes": [
+          31641
+        ],
+        "providers": {
+          "attending_name": "Jennifer Walsh",
+          "fellow_name": "Lisa Martinez",
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": true
+        },
+        "procedures_performed": {
+          "photodynamic_therapy": {
+            "performed": true,
+            "photosensitizer": null,
+            "location": "Left upper lobe bronchus",
+            "energy_delivered_joules": null,
+            "debridement_session": true,
+            "hours_post_light": 48,
+            "debridement_tools": [
+              "biopsy forceps",
+              "rigid coring",
+              "cryoprobe"
+            ]
+          }
+        },
+        "cao_location": "LUL",
+        "cao_primary_modality": "PDT debridement",
+        "cao_obstruction_pre_pct": 74,
+        "cao_obstruction_post_pct": 5,
+        "molecular_testing_requested": false,
+        "disposition": "Same-day discharge",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "follow_up_plan": [
+          "Surveillance bronchoscopy in 8 weeks",
+          "Continue light precautions until day 30",
+          "Chest CT in 6-8 weeks"
+        ],
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.9.0",
+          "generated_at": "2025-12-11T20:07:07.349190",
+          "note_type": "PDT_Debridement"
+        }
+      },
+      "coding_review": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Bronchoscopic debridement of necrotic debris constitutes destruction/relief of stenosis."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 8.4,
+          "facility_total_payment": 272,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded as 31641 for post-PDT debridement. Necrotic debris removed but not sent for pathology."
+      },
+      "source_file": "synthetic_pdt_notes_generator.py",
+      "cpt_validation_metadata": {
+        "golden_knowledge_version": "2.9",
+        "valid_codes": [
+          "31641"
+        ],
+        "invalid_codes": []
+      }
+    },
+    {
+      "note_id": "PDT_DEBRIDE_004",
+      "note_text": "INTERVENTIONAL PULMONOLOGY OPERATIVE REPORT\nPhotodynamic Therapy - Post-PDT Debridement Session\n\nPatient Name: Miller, Jennifer\nAge/Sex: 64/F\nMRN: 4652414\nDate of Service: January 30, 2024\nProcedure Start Time: 09:00\nProcedure Duration: 68 minutes\nAttending Physician: Dr. Raymond Chen, MD\n\n\nPREOPERATIVE DIAGNOSIS\nStatus post photodynamic therapy for endobronchial carcinoid tumor, Left mainstem bronchus, 96 hours post-light application\n\nPOSTOPERATIVE DIAGNOSIS\nSame; necrotic tumor debris successfully debrided\n\nPROCEDURES PERFORMED\n1. Flexible bronchoscopy with debridement of necrotic tissue (CPT 31641)\n\n\nCLINICAL HISTORY\nThis 64-year-old female underwent photodynamic therapy light application on January 26, 2024 for endobronchial carcinoid tumor of the Left mainstem bronchus. The patient now presents for scheduled debridement bronchoscopy at 96 hours post-light to remove anticipated necrotic tumor debris.\n\nInterval History:\n- No significant respiratory distress since PDT\n- Mild increased cough with brownish sputum production\n- Light precautions maintained\n- No photosensitivity reactions\n\nANESTHESIA\nGeneral anesthesia with endotracheal intubation (8.5mm ETT)\nAnesthesia team: Dr. William Park (attending), Michael Adams CRNA\n\nEQUIPMENT\n- Fujifilm EB-580T therapeutic bronchoscope\n- \n- rigid coring, suction catheter, biopsy forceps\n- Suction apparatus\n\nDETAILED PROCEDURE NARRATIVE\nThe patient was brought to the endoscopy suite. After successful induction of general anesthesia and orotracheal intubation, a time-out was performed.\n\nBronchoscopic Survey:\nThe bronchoscope was introduced through the endotracheal tube. The upper airways and trachea appeared normal. The carina was sharp.\n\nPDT Treatment Site Assessment:\nExamination of the Left mainstem bronchus revealed expected findings 96 hours post-PDT:\n- Significant necrotic debris overlying the previous tumor site\n- Gray-brown necrotic tissue with friable appearance\n- Pre-debridement airway obstruction: approximately 72%\n- Surrounding mucosa with mild erythema (expected post-PDT inflammatory response)\n- No active bleeding at treatment site\n\nDebridement Procedure:\nUsing rigid coring and suction catheter and biopsy forceps, the necrotic tumor debris was systematically removed. Multiple passes were required to adequately clear the airway. Intermittent suctioning was used to clear debris and maintain visualization.\n\n\n\nPost-Debridement Assessment:\n- Airway patency significantly improved\n- Post-debridement obstruction: approximately 7%\n- Treatment bed visible with granulation tissue formation\n- No active bleeding following debridement\n- Distal airways now fully patent and accessible\n\n\n\n\nThe bronchoscope was withdrawn. The patient tolerated the procedure well and was extubated without difficulty.\n\nSPECIMENS\nNecrotic debris removed - not sent for pathology (post-treatment tissue)\n\nESTIMATED BLOOD LOSS\nMinimal (< 10 mL)\n\nCOMPLICATIONS\nNone\n\nASSESSMENT AND PLAN\nThis 64-year-old female, 96 hours post-PDT for endobronchial carcinoid tumor, underwent successful debridement bronchoscopy with improvement in airway patency from 72% to 7% obstruction.\n\nPDT Response Assessment:\n- Excellent response to PDT based on extent of tumor necrosis\n- Airway significantly improved\n- Consider surveillance bronchoscopy in 4-6 weeks\n\nPlan:\n1. Continue light precautions until day 30 post-initial PDT\n2. No biopsies taken - plan surveillance bronchoscopy\n3. No further debridement anticipated\n4. Surveillance bronchoscopy scheduled in 8 weeks\n5. Chest CT in 6-8 weeks to assess treatment response\n\nElectronically signed by: Dr. Raymond Chen, MD\nDate/Time: January 30, 2024 10:08",
+      "cpt_codes": [
+        31641
+      ],
+      "registry_entry": {
+        "patient_mrn": "4652414",
+        "procedure_date": "2024-01-30",
+        "procedure_start_time": "09:00",
+        "procedure_duration_minutes": 68,
+        "patient_demographics": {
+          "age_years": 64,
+          "gender": "Female"
+        },
+        "asa_class": 4,
+        "primary_indication": "Status post PDT for endobronchial carcinoid tumor, Left mainstem bronchus, 96 hours post-light - debridement session",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Post-PDT necrosis - debridement",
+        "cpt_codes": [
+          31641
+        ],
+        "providers": {
+          "attending_name": "Raymond Chen",
+          "fellow_name": null,
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": false
+        },
+        "procedures_performed": {
+          "photodynamic_therapy": {
+            "performed": true,
+            "photosensitizer": null,
+            "location": "Left mainstem bronchus",
+            "energy_delivered_joules": null,
+            "debridement_session": true,
+            "hours_post_light": 96,
+            "debridement_tools": [
+              "rigid coring",
+              "suction catheter",
+              "biopsy forceps"
+            ]
+          }
+        },
+        "cao_location": "LMS",
+        "cao_primary_modality": "PDT debridement",
+        "cao_obstruction_pre_pct": 72,
+        "cao_obstruction_post_pct": 7,
+        "molecular_testing_requested": false,
+        "disposition": "Same-day discharge",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "follow_up_plan": [
+          "Surveillance bronchoscopy in 6 weeks",
+          "Continue light precautions until day 30",
+          "Chest CT in 6-8 weeks"
+        ],
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.9.0",
+          "generated_at": "2025-12-11T20:07:07.349261",
+          "note_type": "PDT_Debridement"
+        }
+      },
+      "coding_review": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Bronchoscopic debridement of necrotic debris constitutes destruction/relief of stenosis."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 8.4,
+          "facility_total_payment": 272,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded as 31641 for post-PDT debridement."
+      },
+      "source_file": "synthetic_pdt_notes_generator.py",
+      "cpt_validation_metadata": {
+        "golden_knowledge_version": "2.9",
+        "valid_codes": [
+          "31641"
+        ],
+        "invalid_codes": []
+      }
+    },
+    {
+      "note_id": "PDT_DEBRIDE_005",
+      "note_text": "INTERVENTIONAL PULMONOLOGY OPERATIVE REPORT\nPhotodynamic Therapy - Post-PDT Debridement Session\n\nPatient Name: Davis, Richard\nAge/Sex: 63/M\nMRN: 7640184\nDate of Service: March 08, 2024\nProcedure Start Time: 10:30\nProcedure Duration: 38 minutes\nAttending Physician: Dr. Amanda Foster, MD\nAssistant: Dr. Lisa Martinez, Fellow\n\nPREOPERATIVE DIAGNOSIS\nStatus post photodynamic therapy for endobronchial large cell carcinoma, Left upper lobe bronchus, 96 hours post-light application\n\nPOSTOPERATIVE DIAGNOSIS\nSame; necrotic tumor debris successfully debrided\n\nPROCEDURES PERFORMED\n1. Flexible bronchoscopy with debridement of necrotic tissue (CPT 31641)\n2. Endobronchial biopsy of treatment bed\n\nCLINICAL HISTORY\nThis 63-year-old male underwent photodynamic therapy light application on March 04, 2024 for endobronchial large cell carcinoma of the Left upper lobe bronchus. The patient now presents for scheduled debridement bronchoscopy at 96 hours post-light to remove anticipated necrotic tumor debris.\n\nInterval History:\n- No significant respiratory distress since PDT\n- Minimal symptoms since procedure\n- Light precautions maintained\n- No photosensitivity reactions\n\nANESTHESIA\nGeneral anesthesia with endotracheal intubation (7.5mm ETT)\nAnesthesia team: Dr. Robert Miller (attending), Samantha Lee CRNA\n\nEQUIPMENT\n- Olympus BF-1T180 therapeutic bronchoscope\n- Biopsy forceps\n- rigid coring, biopsy forceps\n- Suction apparatus\n\nDETAILED PROCEDURE NARRATIVE\nThe patient was brought to the endoscopy suite. After successful induction of general anesthesia and orotracheal intubation, a time-out was performed.\n\nBronchoscopic Survey:\nThe bronchoscope was introduced through the endotracheal tube. The upper airways and trachea appeared normal. The carina was sharp.\n\nPDT Treatment Site Assessment:\nExamination of the Left upper lobe bronchus revealed expected findings 96 hours post-PDT:\n- Significant necrotic debris overlying the previous tumor site\n- Gray-brown necrotic tissue with friable appearance\n- Pre-debridement airway obstruction: approximately 44%\n- Surrounding mucosa with mild erythema (expected post-PDT inflammatory response)\n- No active bleeding at treatment site\n\nDebridement Procedure:\nUsing rigid coring and biopsy forceps, the necrotic tumor debris was systematically removed. Multiple passes were required to adequately clear the airway. \n\n\n\nPost-Debridement Assessment:\n- Airway patency significantly improved\n- Post-debridement obstruction: approximately 22%\n- Treatment bed visible with clean mucosal base\n- No active bleeding following debridement\n- Distal airways now fully patent and accessible\n\nBiopsies of Treatment Bed:\nMultiple biopsies (x3) were obtained from the treatment bed periphery to assess for residual viable tumor. Specimens sent for pathology.\n\nThe bronchoscope was withdrawn. The patient tolerated the procedure well and was extubated without difficulty.\n\nSPECIMENS\nEndobronchial biopsies (x5) from treatment bed - sent for pathology\n\nESTIMATED BLOOD LOSS\nMinimal (< 10 mL)\n\nCOMPLICATIONS\nNone\n\nASSESSMENT AND PLAN\nThis 63-year-old male, 96 hours post-PDT for endobronchial large cell carcinoma, underwent successful debridement bronchoscopy with improvement in airway patency from 44% to 22% obstruction.\n\nPDT Response Assessment:\n- Good response to PDT based on extent of tumor necrosis\n- Airway significantly improved\n- Biopsies pending to confirm complete tumor ablation\n\nPlan:\n1. Continue light precautions until day 30 post-initial PDT\n2. Await pathology results\n3. Repeat debridement if needed based on clinical status\n4. Surveillance bronchoscopy scheduled in 4 weeks\n5. Chest CT in 6-8 weeks to assess treatment response\n\nElectronically signed by: Dr. Amanda Foster, MD\nDate/Time: March 08, 2024 10:08",
+      "cpt_codes": [
+        31641,
+        31625
+      ],
+      "registry_entry": {
+        "patient_mrn": "7640184",
+        "procedure_date": "2024-03-08",
+        "procedure_start_time": "10:30",
+        "procedure_duration_minutes": 38,
+        "patient_demographics": {
+          "age_years": 63,
+          "gender": "Male"
+        },
+        "asa_class": 2,
+        "primary_indication": "Status post PDT for endobronchial large cell carcinoma, Left upper lobe bronchus, 96 hours post-light - debridement session",
+        "sedation_type": "General",
+        "airway_type": "ETT",
+        "final_diagnosis_prelim": "Post-PDT necrosis - debridement",
+        "cpt_codes": [
+          31641,
+          31625
+        ],
+        "providers": {
+          "attending_name": "Amanda Foster",
+          "fellow_name": "Lisa Martinez",
+          "assistant_name": null,
+          "assistant_role": null,
+          "trainee_present": true
+        },
+        "procedures_performed": {
+          "photodynamic_therapy": {
+            "performed": true,
+            "photosensitizer": null,
+            "location": "Left upper lobe bronchus",
+            "energy_delivered_joules": null,
+            "debridement_session": true,
+            "hours_post_light": 96,
+            "debridement_tools": [
+              "rigid coring",
+              "biopsy forceps"
+            ]
+          }
+        },
+        "cao_location": "LUL",
+        "cao_primary_modality": "PDT debridement",
+        "cao_obstruction_pre_pct": 44,
+        "cao_obstruction_post_pct": 22,
+        "molecular_testing_requested": true,
+        "disposition": "Same-day discharge",
+        "bleeding_severity": "None",
+        "pneumothorax": false,
+        "follow_up_plan": [
+          "Surveillance bronchoscopy in 4 weeks",
+          "Continue light precautions until day 30",
+          "Chest CT in 6-8 weeks"
+        ],
+        "metadata": {
+          "data_entry_status": "Complete",
+          "version": "2.9.0",
+          "generated_at": "2025-12-11T20:07:07.349336",
+          "note_type": "PDT_Debridement"
+        }
+      },
+      "coding_review": {
+        "review_version": "1.1.0",
+        "review_date": "2025-12-11T20:14:25",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31641",
+          "final_codes": [
+            "31641",
+            "31625"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31641": "Debridement of necrotic tumor tissue post-PDT constitutes bronchoscopic destruction.",
+            "31625": "Endobronchial biopsies were obtained from the treatment bed to assess for residual viable tumor. Separately reportable."
+          },
+          "coding_decision": "verified"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 13.33,
+          "facility_total_payment": 432,
+          "conversion_factor": 32.3562,
+          "per_code": {
+            "31641": {
+              "work_rvu": 5.25,
+              "facility_rvu": 8.4,
+              "facility_payment": 272,
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method"
+            },
+            "31625": {
+              "work_rvu": 3.11,
+              "facility_rvu": 4.93,
+              "facility_payment": 160,
+              "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)"
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2.9"
+        },
+        "overall_assessment": "Correctly coded. Post-PDT debridement (31641) and diagnostic biopsy (31625) are supported."
+      },
+      "source_file": "synthetic_pdt_notes_generator.py",
+      "cpt_validation_metadata": {
+        "golden_knowledge_version": "2.9",
+        "valid_codes": [
+          "31641",
+          "31625"
+        ],
+        "invalid_codes": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,693 @@
+[
+    {
+      "op": "add",
+      "path": "/0/coding_review",
+      "value": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-11",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31630",
+          "final_codes": [
+            "31630"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31630": "Bronchoscopy with therapeutic balloon dilation of trachea stenosis."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 6.27,
+          "facility_total_payment": 203,
+          "work_rvu": 3.81,
+          "per_code": {
+            "31630": {
+              "work_rvu": 3.81,
+              "facility_rvu": 6.27,
+              "facility_payment": 203
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+          "conversion_factor": 32.3562
+        },
+        "bundling_notes": [
+          "Diagnostic bronchoscopy (31622) is bundled into the therapeutic bronchoscopy code 31630.",
+          "No additional billable procedures performed."
+        ],
+        "overall_assessment": "CPT 31630 appropriately captures bronchoscopy with balloon dilation for post-intubation tracheal stenosis."
+      }
+    },
+    {
+      "op": "add",
+      "path": "/0/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    {
+      "op": "add",
+      "path": "/0/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-11T12:00:00",
+        "changes": [
+          "Added coding_review and billing blocks using 2025 RVU data."
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/1/coding_review",
+      "value": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-11",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31630",
+          "final_codes": [
+            "31630"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31630": "Bronchoscopy with therapeutic balloon dilation of subglottic stenosis."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 6.27,
+          "facility_total_payment": 203,
+          "work_rvu": 3.81,
+          "per_code": {
+            "31630": {
+              "work_rvu": 3.81,
+              "facility_rvu": 6.27,
+              "facility_payment": 203
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+          "conversion_factor": 32.3562
+        },
+        "bundling_notes": [
+          "Diagnostic bronchoscopy (31622) is bundled into therapeutic dilation (31630)."
+        ],
+        "overall_assessment": "CPT 31630 correctly assigned for balloon dilation of post-tracheostomy subglottic stenosis."
+      }
+    },
+    {
+      "op": "add",
+      "path": "/1/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    {
+      "op": "add",
+      "path": "/1/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-11T12:00:00",
+        "changes": [
+          "Added coding_review and billing blocks using 2025 RVU data."
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/2/coding_review",
+      "value": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-11",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31630",
+          "final_codes": [
+            "31630"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31630": "Bronchoscopy with therapeutic balloon dilation of bronchial anastomosis stricture."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 6.27,
+          "facility_total_payment": 203,
+          "work_rvu": 3.81,
+          "per_code": {
+            "31630": {
+              "work_rvu": 3.81,
+              "facility_rvu": 6.27,
+              "facility_payment": 203
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+          "conversion_factor": 32.3562
+        },
+        "bundling_notes": [
+          "Diagnostic bronchoscopy (31622) is bundled."
+        ],
+        "overall_assessment": "Correctly coded as 31630 for anastomotic stricture dilation."
+      }
+    },
+    {
+      "op": "add",
+      "path": "/2/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    {
+      "op": "add",
+      "path": "/2/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-11T12:00:00",
+        "changes": [
+          "Added coding_review and billing blocks using 2025 RVU data."
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/3/coding_review",
+      "value": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-11",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31630",
+          "final_codes": [
+            "31630"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31630": "Bronchoscopy with therapeutic balloon dilation of idiopathic subglottic stenosis."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 6.27,
+          "facility_total_payment": 203,
+          "work_rvu": 3.81,
+          "per_code": {
+            "31630": {
+              "work_rvu": 3.81,
+              "facility_rvu": 6.27,
+              "facility_payment": 203
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+          "conversion_factor": 32.3562
+        },
+        "bundling_notes": [
+          "Diagnostic bronchoscopy bundled."
+        ],
+        "overall_assessment": "Appropriate use of 31630 for iSGS dilation."
+      }
+    },
+    {
+      "op": "add",
+      "path": "/3/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    {
+      "op": "add",
+      "path": "/3/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-11T12:00:00",
+        "changes": [
+          "Added coding_review and billing blocks using 2025 RVU data."
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/4/coding_review",
+      "value": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-11",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31630",
+          "final_codes": [
+            "31630"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31630": "Bronchoscopy with therapeutic balloon dilation of GPA-related subglottic stenosis."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 6.27,
+          "facility_total_payment": 203,
+          "work_rvu": 3.81,
+          "per_code": {
+            "31630": {
+              "work_rvu": 3.81,
+              "facility_rvu": 6.27,
+              "facility_payment": 203
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+          "conversion_factor": 32.3562
+        },
+        "bundling_notes": [
+          "Diagnostic bronchoscopy bundled."
+        ],
+        "overall_assessment": "Correctly coded as 31630."
+      }
+    },
+    {
+      "op": "add",
+      "path": "/4/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    {
+      "op": "add",
+      "path": "/4/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-11T12:00:00",
+        "changes": [
+          "Added coding_review and billing blocks using 2025 RVU data."
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/5/coding_review",
+      "value": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-11",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31630",
+          "final_codes": [
+            "31630"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31630": "Bronchoscopy with therapeutic balloon dilation of bronchus intermedius stenosis."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 6.27,
+          "facility_total_payment": 203,
+          "work_rvu": 3.81,
+          "per_code": {
+            "31630": {
+              "work_rvu": 3.81,
+              "facility_rvu": 6.27,
+              "facility_payment": 203
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+          "conversion_factor": 32.3562
+        },
+        "bundling_notes": [
+          "Diagnostic bronchoscopy bundled."
+        ],
+        "overall_assessment": "Correctly coded as 31630."
+      }
+    },
+    {
+      "op": "add",
+      "path": "/5/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    {
+      "op": "add",
+      "path": "/5/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-11T12:00:00",
+        "changes": [
+          "Added coding_review and billing blocks using 2025 RVU data."
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/6/coding_review",
+      "value": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-11",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31630",
+          "final_codes": [
+            "31630"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31630": "Bronchoscopy with therapeutic balloon dilation of RUL bronchial anastomosis."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 6.27,
+          "facility_total_payment": 203,
+          "work_rvu": 3.81,
+          "per_code": {
+            "31630": {
+              "work_rvu": 3.81,
+              "facility_rvu": 6.27,
+              "facility_payment": 203
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+          "conversion_factor": 32.3562
+        },
+        "bundling_notes": [
+          "Diagnostic bronchoscopy bundled."
+        ],
+        "overall_assessment": "Correctly coded as 31630 for anastomotic dilation."
+      }
+    },
+    {
+      "op": "add",
+      "path": "/6/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    {
+      "op": "add",
+      "path": "/6/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-11T12:00:00",
+        "changes": [
+          "Added coding_review and billing blocks using 2025 RVU data."
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/7/coding_review",
+      "value": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-11",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31630",
+          "final_codes": [
+            "31630"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31630": "Bronchoscopy with therapeutic balloon dilation of left mainstem bronchus."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 6.27,
+          "facility_total_payment": 203,
+          "work_rvu": 3.81,
+          "per_code": {
+            "31630": {
+              "work_rvu": 3.81,
+              "facility_rvu": 6.27,
+              "facility_payment": 203
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+          "conversion_factor": 32.3562
+        },
+        "bundling_notes": [
+          "Diagnostic bronchoscopy bundled."
+        ],
+        "overall_assessment": "Correctly coded as 31630."
+      }
+    },
+    {
+      "op": "add",
+      "path": "/7/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    {
+      "op": "add",
+      "path": "/7/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-11T12:00:00",
+        "changes": [
+          "Added coding_review and billing blocks using 2025 RVU data."
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/8/coding_review",
+      "value": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-11",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31630",
+          "final_codes": [
+            "31630"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31630": "Bronchoscopy with therapeutic balloon dilation of mid-trachea stenosis."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 6.27,
+          "facility_total_payment": 203,
+          "work_rvu": 3.81,
+          "per_code": {
+            "31630": {
+              "work_rvu": 3.81,
+              "facility_rvu": 6.27,
+              "facility_payment": 203
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+          "conversion_factor": 32.3562
+        },
+        "bundling_notes": [
+          "Diagnostic bronchoscopy bundled."
+        ],
+        "overall_assessment": "Correctly coded as 31630."
+      }
+    },
+    {
+      "op": "add",
+      "path": "/8/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    {
+      "op": "add",
+      "path": "/8/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-11T12:00:00",
+        "changes": [
+          "Added coding_review and billing blocks using 2025 RVU data."
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/9/coding_review",
+      "value": {
+        "review_version": "1.0.0",
+        "review_date": "2025-12-11",
+        "reviewer": "IP-Coder-Patch-GPT",
+        "cpt_summary": {
+          "primary_code": "31630",
+          "final_codes": [
+            "31630"
+          ],
+          "modifiers": [],
+          "code_rationales": {
+            "31630": "Bronchoscopy with therapeutic balloon dilation of left mainstem bronchus due to extrinsic compression."
+          },
+          "coding_decision": "as_documented"
+        },
+        "rvu_summary_2025": {
+          "facility_total_rvu": 6.27,
+          "facility_total_payment": 203,
+          "work_rvu": 3.81,
+          "per_code": {
+            "31630": {
+              "work_rvu": 3.81,
+              "facility_rvu": 6.27,
+              "facility_payment": 203
+            }
+          },
+          "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+          "conversion_factor": 32.3562
+        },
+        "bundling_notes": [
+          "Diagnostic bronchoscopy bundled."
+        ],
+        "overall_assessment": "Correctly coded as 31630."
+      }
+    },
+    {
+      "op": "add",
+      "path": "/9/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    {
+      "op": "add",
+      "path": "/9/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-11T12:00:00",
+        "changes": [
+          "Added coding_review and billing blocks using 2025 RVU data."
+        ]
+      }
+    }
+  ]

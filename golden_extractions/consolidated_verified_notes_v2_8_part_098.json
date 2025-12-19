@@ -1,0 +1,2220 @@
+[
+  {
+    "note_text": "Pt: Brown, Joseph || MRN: 213199 || DOB: 8/28/1953\nDate: 11/03/2025 || Location: University Medical Center, Boston, MA\nMD: Dr. O'Brien\n\nDIAGNOSIS: Recurrent endobronchial squamous cell carcinoma with symptomatic RUL obstruction\nPROCEDURE: Bronchoscopy with placement of brachytherapy catheter (HDR Session 3/2)\nPRIOR THERAPY: Prior EBRT (60 Gy completed 6 months ago)\n\nINDICATION: 72 y/o male with Squamous cell carcinoma presenting with dyspnea, cough, hemoptysis. Endobronchial lesion at RUL bronchus with approximately 75% obstruction. Tumor length estimated at 2.5 cm. Patient evaluated by radiation oncology and deemed candidate for HDR endobronchial brachytherapy for palliation.\n\nSEDATION: Moderate sedation\nAIRWAY: Native\n\nPROCEDURE DETAILS:\nTransnasal flexible bronchoscopy performed. Airway inspection revealed endobronchial tumor at RUL bronchus with significant luminal obstruction. Tumor appears infiltrative with moderate surface ulceration.\n\nCATHETER PLACEMENT:\nA 5F flexible catheter was introduced through the bronchoscope working channel. The catheter was advanced past the distal margin of the lesion to a position approximately 2 cm beyond the tumor. Catheter position verified under fluoroscopy. The catheter was marked at the nostril and secured with tape. Dummy source positioning performed. Treatment length: 4.5 cm (tumor + 1 cm margins).\n\nTREATMENT PLAN:\nHDR brachytherapy planned: 10.0 Gy x 2 fractions prescribed at 1.0 cm from catheter center.\nFractionation schedule: 2 weeks intervals.\nSession 3 of 2 to be delivered today.\n\nCOMPLICATIONS: None. No bleeding. No catheter dislodgment.\n\nPOST-PROCEDURE: Patient transported to Radiation Oncology for treatment delivery. Catheter to remain in place if next session within 24h. CXR obtained - no pneumothorax.\n\nPLAN: \n- Final brachytherapy session completed\n- Repeat bronchoscopy in 4-6 weeks to assess response\n- Continue symptom management\n- Contact clinic for acute dyspnea, hemoptysis, or fever\n\nO. O'Brien MD",
+    "cpt_codes": [
+      31643
+    ],
+    "registry_entry": {
+      "patient_mrn": "213199",
+      "procedure_date": "2025-11-03",
+      "patient_age": 72,
+      "gender": "Male",
+      "asa_class": 3,
+      "primary_indication": "Recurrent endobronchial squamous cell carcinoma with symptomatic RUL obstruction",
+      "sedation_type": "Moderate",
+      "airway_type": "Native",
+      "final_diagnosis_prelim": "Malignancy",
+      "cpt_codes": [
+        31643
+      ],
+      "evidence": {
+        "procedure_date": "Date: 11/03/2025",
+        "institution_name": "Location: University Medical Center, Boston, MA",
+        "attending_name": "MD: Dr. O'Brien",
+        "primary_indication": "DIAGNOSIS: Recurrent endobronchial squamous cell carcinoma with symptomatic RUL obstruction",
+        "sedation_type": "SEDATION: Moderate sedation",
+        "airway_type": "AIRWAY: Native"
+      },
+      "institution_name": "University Medical Center, Boston, MA",
+      "molecular_testing_requested": false,
+      "disposition": "Outpatient discharge",
+      "bleeding_severity": "None",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "ablation_peripheral_performed": false,
+      "ablation_modality": null,
+      "pleural_procedure_type": null,
+      "pleural_guidance": null,
+      "pleurodesis_performed": false,
+      "pleurodesis_agent": null,
+      "blvr_target_lobe": null,
+      "blvr_valve_type": null,
+      "blvr_number_of_valves": null,
+      "wll_volume_instilled_l": null,
+      "wll_volume_returned_l": null,
+      "wll_dlt_used": null,
+      "fb_object_type": null,
+      "fb_tool_used": [],
+      "fb_removal_success": null,
+      "bt_lobe_treated": null,
+      "bt_activation_count": null,
+      "follow_up_plan": [
+        "Final brachytherapy session completed",
+        "Repeat bronchoscopy in 4-6 weeks to assess response"
+      ],
+      "nav_platform": null,
+      "nav_registration_method": null,
+      "nav_registration_error_mm": null,
+      "nav_rebus_used": null,
+      "nav_rebus_view": null,
+      "nav_imaging_verification": null,
+      "nav_tool_in_lesion": null,
+      "nav_sampling_tools": [],
+      "nav_cryobiopsy_for_nodule": null,
+      "sedation_reversal_given": null,
+      "sedation_reversal_agent": null,
+      "ebus_photodocumentation_complete": null,
+      "procedure_setting": "Hospital Outpatient",
+      "anticoag_status": null,
+      "anticoag_held_preprocedure": null,
+      "radiographic_findings": null,
+      "lesion_size_mm": 25.0,
+      "lesion_location": "RUL bronchus",
+      "pet_suv_max": null,
+      "pet_avid": null,
+      "bronchus_sign_present": null,
+      "cao_location": "RUL bronchus",
+      "prior_therapy": "Prior EBRT (60 Gy completed 6 months ago)",
+      "airway_device_size": null,
+      "ventilation_mode": null,
+      "anesthesia_agents": null,
+      "ebus_scope_brand": null,
+      "ebus_stations_sampled": null,
+      "linear_ebus_stations": null,
+      "ebus_needle_gauge": null,
+      "ebus_needle_type": null,
+      "ebus_systematic_staging": null,
+      "ebus_rose_available": null,
+      "ebus_rose_result": null,
+      "ebus_elastography_used": null,
+      "ebus_elastography_pattern": null,
+      "ebus_intranodal_forceps_used": null,
+      "ebus_stations_detail": null,
+      "cao_primary_modality": "Brachytherapy",
+      "cao_tumor_location": "RUL bronchus",
+      "cao_obstruction_pre_pct": 75,
+      "cao_obstruction_post_pct": null,
+      "stent_type": null,
+      "stent_deployment_method": null,
+      "stent_diameter_mm": null,
+      "stent_length_mm": null,
+      "stent_location": null,
+      "blvr_cv_assessment_method": null,
+      "blvr_chartis_result": null,
+      "ablation_device_name": null,
+      "ablation_power_watts": null,
+      "ablation_duration_seconds": null,
+      "ablation_max_temp_c": null,
+      "ablation_margin_assessed": null,
+      "pleural_side": null,
+      "pleural_intercostal_space": null,
+      "pleural_opening_pressure_measured": null,
+      "pleural_opening_pressure_cmh2o": null,
+      "pleural_fluid_appearance": null,
+      "pleural_volume_drained_ml": null,
+      "pleural_thoracoscopy_findings": null,
+      "bronch_indication": "Brachytherapy catheter placement",
+      "bronch_location_lobe": "RUL bronchus",
+      "bronch_location_segment": null,
+      "bronch_guidance": "Fluoroscopy",
+      "bronch_num_tbbx": null,
+      "bronch_tbbx_tool": null,
+      "bronch_specimen_tests": null,
+      "bronch_immediate_complications": "None",
+      "ebl_ml": 0,
+      "hypoxia_respiratory_failure": false,
+      "fluoro_time_min": 8,
+      "radiation_dap_gycm2": null,
+      "ablation_complication_immediate": null,
+      "providers": {
+        "attending_name": "O'Brien",
+        "fellow_name": null,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": false
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "0.4.0",
+        "generated_at": "2025-12-11T20:16:30.627588"
+      },
+      "brachytherapy_data": {
+        "session_number": 3,
+        "total_fractions": 2,
+        "dose_per_fraction_gy": 10.0,
+        "prescription_point_cm": 1.0,
+        "treatment_length_cm": 4.5,
+        "catheter_type": "5F flexible",
+        "catheter_position_verified": true,
+        "verification_method": "Fluoroscopy",
+        "isotope": "Iridium-192",
+        "dose_rate": "HDR",
+        "interval_between_fractions": "2 weeks"
+      },
+      "coding_review": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service supported by documentation of catheter placement."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9 (estimated for 31643)",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.2,
+            "total_facility_rvu": 5.0,
+            "estimated_facility_payment_unadjusted": 162
+          }
+        }
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 5.0,
+        "work_rvu": 3.2,
+        "practice_expense_rvu": 1.48,
+        "malpractice_rvu": 0.32
+      }
+    },
+    "source_file": "synthetic_brachytherapy_notes.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31643"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T00:00:00",
+      "changes": [
+        "Generated synthetic brachytherapy procedure note with complete registry data"
+      ],
+      "warnings": []
+    }
+  },
+  {
+    "note_text": "Pt: Rodriguez, William || MRN: 268045 || DOB: 3/20/1962\nDate: 11/06/2025 || Location: Memorial Hospital, Houston, TX\nMD: Dr. Stevens\n\nDIAGNOSIS: Symptomatic LMS endobronchial NSCLC causing stridor and dyspnea\nPROCEDURE: Bronchoscopy with placement of brachytherapy catheter (HDR Session 2/2)\nPRIOR THERAPY: Chemotherapy with carboplatin/paclitaxel, EBRT contraindicated due to prior radiation\n\nINDICATION: 63 y/o male with Adenocarcinoma presenting with stridor, severe dyspnea. Endobronchial lesion at LMS (left main stem) with approximately 60% obstruction. Tumor length estimated at 1.8 cm. Patient evaluated by radiation oncology and deemed candidate for HDR endobronchial brachytherapy for palliation.\n\nSEDATION: Moderate sedation\nAIRWAY: Native\n\nPROCEDURE DETAILS:\nTransnasal flexible bronchoscopy performed. Airway inspection revealed endobronchial tumor at LMS (left main stem) with significant luminal obstruction. Tumor appears infiltrative with moderate surface ulceration.\n\nCATHETER PLACEMENT:\nA 6F afterloading catheter was introduced through the bronchoscope working channel. The catheter was advanced past the distal margin of the lesion to a position approximately 2 cm beyond the tumor. Catheter position verified under fluoroscopy. The catheter was marked at the nostril and secured with tape. Dummy source positioning performed. Treatment length: 3.8 cm (tumor + 1 cm margins).\n\nTREATMENT PLAN:\nHDR brachytherapy planned: 10.0 Gy x 2 fractions prescribed at 1.0 cm from catheter center.\nFractionation schedule: 2 weeks intervals.\nSession 2 of 2 to be delivered today.\n\nCOMPLICATIONS: None. No bleeding. No catheter dislodgment.\n\nPOST-PROCEDURE: Patient transported to Radiation Oncology for treatment delivery. Catheter removed post-treatment. CXR obtained - no pneumothorax.\n\nPLAN: \n- Final brachytherapy session completed\n- Repeat bronchoscopy in 4-6 weeks to assess response\n- Continue symptom management\n- Contact clinic for acute dyspnea, hemoptysis, or fever\n\nS. Stevens MD",
+    "cpt_codes": [
+      31643
+    ],
+    "registry_entry": {
+      "patient_mrn": "268045",
+      "procedure_date": "2025-11-06",
+      "patient_age": 63,
+      "gender": "Male",
+      "asa_class": 4,
+      "primary_indication": "Symptomatic LMS endobronchial NSCLC causing stridor and dyspnea",
+      "sedation_type": "Moderate",
+      "airway_type": "Native",
+      "final_diagnosis_prelim": "Malignancy",
+      "cpt_codes": [
+        31643
+      ],
+      "evidence": {
+        "procedure_date": "Date: 11/06/2025",
+        "institution_name": "Location: Memorial Hospital, Houston, TX",
+        "attending_name": "MD: Dr. Stevens",
+        "primary_indication": "DIAGNOSIS: Symptomatic LMS endobronchial NSCLC causing stridor and dyspnea",
+        "sedation_type": "SEDATION: Moderate sedation",
+        "airway_type": "AIRWAY: Native"
+      },
+      "institution_name": "Memorial Hospital, Houston, TX",
+      "molecular_testing_requested": false,
+      "disposition": "Outpatient discharge",
+      "bleeding_severity": "None",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "ablation_peripheral_performed": false,
+      "ablation_modality": null,
+      "pleural_procedure_type": null,
+      "pleural_guidance": null,
+      "pleurodesis_performed": false,
+      "pleurodesis_agent": null,
+      "blvr_target_lobe": null,
+      "blvr_valve_type": null,
+      "blvr_number_of_valves": null,
+      "wll_volume_instilled_l": null,
+      "wll_volume_returned_l": null,
+      "wll_dlt_used": null,
+      "fb_object_type": null,
+      "fb_tool_used": [],
+      "fb_removal_success": null,
+      "bt_lobe_treated": null,
+      "bt_activation_count": null,
+      "follow_up_plan": [
+        "Final brachytherapy session completed",
+        "Repeat bronchoscopy in 4-6 weeks to assess response"
+      ],
+      "nav_platform": null,
+      "nav_registration_method": null,
+      "nav_registration_error_mm": null,
+      "nav_rebus_used": null,
+      "nav_rebus_view": null,
+      "nav_imaging_verification": null,
+      "nav_tool_in_lesion": null,
+      "nav_sampling_tools": [],
+      "nav_cryobiopsy_for_nodule": null,
+      "sedation_reversal_given": null,
+      "sedation_reversal_agent": null,
+      "ebus_photodocumentation_complete": null,
+      "procedure_setting": "Hospital Outpatient",
+      "anticoag_status": null,
+      "anticoag_held_preprocedure": null,
+      "radiographic_findings": null,
+      "lesion_size_mm": 18.0,
+      "lesion_location": "LMS (left main stem)",
+      "pet_suv_max": null,
+      "pet_avid": null,
+      "bronchus_sign_present": null,
+      "cao_location": "LMS (left main stem)",
+      "prior_therapy": "Chemotherapy with carboplatin/paclitaxel, EBRT contraindicated due to prior radiation",
+      "airway_device_size": null,
+      "ventilation_mode": null,
+      "anesthesia_agents": null,
+      "ebus_scope_brand": null,
+      "ebus_stations_sampled": null,
+      "linear_ebus_stations": null,
+      "ebus_needle_gauge": null,
+      "ebus_needle_type": null,
+      "ebus_systematic_staging": null,
+      "ebus_rose_available": null,
+      "ebus_rose_result": null,
+      "ebus_elastography_used": null,
+      "ebus_elastography_pattern": null,
+      "ebus_intranodal_forceps_used": null,
+      "ebus_stations_detail": null,
+      "cao_primary_modality": "Brachytherapy",
+      "cao_tumor_location": "LMS (left main stem)",
+      "cao_obstruction_pre_pct": 60,
+      "cao_obstruction_post_pct": null,
+      "stent_type": null,
+      "stent_deployment_method": null,
+      "stent_diameter_mm": null,
+      "stent_length_mm": null,
+      "stent_location": null,
+      "blvr_cv_assessment_method": null,
+      "blvr_chartis_result": null,
+      "ablation_device_name": null,
+      "ablation_power_watts": null,
+      "ablation_duration_seconds": null,
+      "ablation_max_temp_c": null,
+      "ablation_margin_assessed": null,
+      "pleural_side": null,
+      "pleural_intercostal_space": null,
+      "pleural_opening_pressure_measured": null,
+      "pleural_opening_pressure_cmh2o": null,
+      "pleural_fluid_appearance": null,
+      "pleural_volume_drained_ml": null,
+      "pleural_thoracoscopy_findings": null,
+      "bronch_indication": "Brachytherapy catheter placement",
+      "bronch_location_lobe": "LMS (left main stem)",
+      "bronch_location_segment": null,
+      "bronch_guidance": "Fluoroscopy",
+      "bronch_num_tbbx": null,
+      "bronch_tbbx_tool": null,
+      "bronch_specimen_tests": null,
+      "bronch_immediate_complications": "None",
+      "ebl_ml": 0,
+      "hypoxia_respiratory_failure": false,
+      "fluoro_time_min": 7,
+      "radiation_dap_gycm2": null,
+      "ablation_complication_immediate": null,
+      "providers": {
+        "attending_name": "Stevens",
+        "fellow_name": "Dr. S. Lee",
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": true
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "0.4.0",
+        "generated_at": "2025-12-11T20:16:30.627746"
+      },
+      "brachytherapy_data": {
+        "session_number": 2,
+        "total_fractions": 2,
+        "dose_per_fraction_gy": 10.0,
+        "prescription_point_cm": 1.0,
+        "treatment_length_cm": 3.8,
+        "catheter_type": "6F afterloading",
+        "catheter_position_verified": true,
+        "verification_method": "Fluoroscopy",
+        "isotope": "Iridium-192",
+        "dose_rate": "HDR",
+        "interval_between_fractions": "2 weeks"
+      },
+      "coding_review": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service supported by documentation of catheter placement."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9 (estimated for 31643)",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.2,
+            "total_facility_rvu": 5.0,
+            "estimated_facility_payment_unadjusted": 162
+          }
+        }
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 5.0,
+        "work_rvu": 3.2,
+        "practice_expense_rvu": 1.48,
+        "malpractice_rvu": 0.32
+      }
+    },
+    "source_file": "synthetic_brachytherapy_notes.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31643"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T00:00:00",
+      "changes": [
+        "Generated synthetic brachytherapy procedure note with complete registry data"
+      ],
+      "warnings": []
+    }
+  },
+  {
+    "note_text": "Pt: Jones, Margaret || MRN: 177493 || DOB: 12/24/1945\nDate: 11/09/2025 || Location: Regional Medical Center, Chicago, IL\nMD: Dr. Washington\n\nDIAGNOSIS: Malignant endobronchial lesion BI (bronchus intermedius) with post-obstructive pneumonia\nPROCEDURE: Bronchoscopy with placement of brachytherapy catheter (HDR Session 1/4)\nPRIOR THERAPY: None - primary brachytherapy for palliation\n\nINDICATION: 80 y/o female with NSCLC NOS presenting with pneumonia, fever, productive cough. Endobronchial lesion at Bronchus intermedius with approximately 80% obstruction. Tumor length estimated at 3.0 cm. Patient evaluated by radiation oncology and deemed candidate for HDR endobronchial brachytherapy for palliation.\n\nSEDATION: General anesthesia\nAIRWAY: ETT\n\nPROCEDURE DETAILS:\nTransnasal flexible bronchoscopy performed. Airway inspection revealed endobronchial tumor at Bronchus intermedius with significant luminal obstruction. Tumor appears infiltrative with moderate surface ulceration.\n\nCATHETER PLACEMENT:\nA 6F afterloading catheter was introduced through the bronchoscope working channel. The catheter was advanced past the distal margin of the lesion to a position approximately 2 cm beyond the tumor. Catheter position verified under fluoroscopy. The catheter was marked at the nostril and secured with tape. Dummy source positioning performed. Treatment length: 5.0 cm (tumor + 1 cm margins).\n\nTREATMENT PLAN:\nHDR brachytherapy planned: 6.0 Gy x 4 fractions prescribed at 1.0 cm from catheter center.\nFractionation schedule: weekly intervals.\nSession 1 of 4 to be delivered today.\n\nCOMPLICATIONS: None. No bleeding. No catheter dislodgment.\n\nPOST-PROCEDURE: Patient transported to Radiation Oncology for treatment delivery. Catheter to remain in place if next session within 24h. CXR obtained - no pneumothorax.\n\nPLAN: \n- Return for session 2/4 in weekly\n- Repeat bronchoscopy in 4-6 weeks to assess response\n- Continue symptom management\n- Contact clinic for acute dyspnea, hemoptysis, or fever\n\nW. Washington MD",
+    "cpt_codes": [
+      31643
+    ],
+    "registry_entry": {
+      "patient_mrn": "177493",
+      "procedure_date": "2025-11-09",
+      "patient_age": 80,
+      "gender": "Female",
+      "asa_class": 3,
+      "primary_indication": "Malignant endobronchial lesion BI (bronchus intermedius) with post-obstructive pneumonia",
+      "sedation_type": "General",
+      "airway_type": "ETT",
+      "final_diagnosis_prelim": "Malignancy",
+      "cpt_codes": [
+        31643
+      ],
+      "evidence": {
+        "procedure_date": "Date: 11/09/2025",
+        "institution_name": "Location: Regional Medical Center, Chicago, IL",
+        "attending_name": "MD: Dr. Washington",
+        "primary_indication": "DIAGNOSIS: Malignant endobronchial lesion BI (bronchus intermedius) with post-obstructive pneumonia",
+        "sedation_type": "SEDATION: General anesthesia",
+        "airway_type": "AIRWAY: ETT"
+      },
+      "institution_name": "Regional Medical Center, Chicago, IL",
+      "molecular_testing_requested": false,
+      "disposition": "23-hour observation",
+      "bleeding_severity": "None",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "ablation_peripheral_performed": false,
+      "ablation_modality": null,
+      "pleural_procedure_type": null,
+      "pleural_guidance": null,
+      "pleurodesis_performed": false,
+      "pleurodesis_agent": null,
+      "blvr_target_lobe": null,
+      "blvr_valve_type": null,
+      "blvr_number_of_valves": null,
+      "wll_volume_instilled_l": null,
+      "wll_volume_returned_l": null,
+      "wll_dlt_used": null,
+      "fb_object_type": null,
+      "fb_tool_used": [],
+      "fb_removal_success": null,
+      "bt_lobe_treated": null,
+      "bt_activation_count": null,
+      "follow_up_plan": [
+        "Return for session 2/4 in weekly",
+        "Repeat bronchoscopy in 4-6 weeks to assess response"
+      ],
+      "nav_platform": null,
+      "nav_registration_method": null,
+      "nav_registration_error_mm": null,
+      "nav_rebus_used": null,
+      "nav_rebus_view": null,
+      "nav_imaging_verification": null,
+      "nav_tool_in_lesion": null,
+      "nav_sampling_tools": [],
+      "nav_cryobiopsy_for_nodule": null,
+      "sedation_reversal_given": null,
+      "sedation_reversal_agent": null,
+      "ebus_photodocumentation_complete": null,
+      "procedure_setting": "Hospital Outpatient",
+      "anticoag_status": null,
+      "anticoag_held_preprocedure": null,
+      "radiographic_findings": null,
+      "lesion_size_mm": 30.0,
+      "lesion_location": "Bronchus intermedius",
+      "pet_suv_max": null,
+      "pet_avid": null,
+      "bronchus_sign_present": null,
+      "cao_location": "Bronchus intermedius",
+      "prior_therapy": "None - primary brachytherapy for palliation",
+      "airway_device_size": null,
+      "ventilation_mode": null,
+      "anesthesia_agents": null,
+      "ebus_scope_brand": null,
+      "ebus_stations_sampled": null,
+      "linear_ebus_stations": null,
+      "ebus_needle_gauge": null,
+      "ebus_needle_type": null,
+      "ebus_systematic_staging": null,
+      "ebus_rose_available": null,
+      "ebus_rose_result": null,
+      "ebus_elastography_used": null,
+      "ebus_elastography_pattern": null,
+      "ebus_intranodal_forceps_used": null,
+      "ebus_stations_detail": null,
+      "cao_primary_modality": "Brachytherapy",
+      "cao_tumor_location": "Bronchus intermedius",
+      "cao_obstruction_pre_pct": 80,
+      "cao_obstruction_post_pct": null,
+      "stent_type": null,
+      "stent_deployment_method": null,
+      "stent_diameter_mm": null,
+      "stent_length_mm": null,
+      "stent_location": null,
+      "blvr_cv_assessment_method": null,
+      "blvr_chartis_result": null,
+      "ablation_device_name": null,
+      "ablation_power_watts": null,
+      "ablation_duration_seconds": null,
+      "ablation_max_temp_c": null,
+      "ablation_margin_assessed": null,
+      "pleural_side": null,
+      "pleural_intercostal_space": null,
+      "pleural_opening_pressure_measured": null,
+      "pleural_opening_pressure_cmh2o": null,
+      "pleural_fluid_appearance": null,
+      "pleural_volume_drained_ml": null,
+      "pleural_thoracoscopy_findings": null,
+      "bronch_indication": "Brachytherapy catheter placement",
+      "bronch_location_lobe": "Bronchus intermedius",
+      "bronch_location_segment": null,
+      "bronch_guidance": "Fluoroscopy",
+      "bronch_num_tbbx": null,
+      "bronch_tbbx_tool": null,
+      "bronch_specimen_tests": null,
+      "bronch_immediate_complications": "None",
+      "ebl_ml": 0,
+      "hypoxia_respiratory_failure": false,
+      "fluoro_time_min": 8,
+      "radiation_dap_gycm2": null,
+      "ablation_complication_immediate": null,
+      "providers": {
+        "attending_name": "Washington",
+        "fellow_name": null,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": false
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "0.4.0",
+        "generated_at": "2025-12-11T20:16:30.627844"
+      },
+      "brachytherapy_data": {
+        "session_number": 1,
+        "total_fractions": 4,
+        "dose_per_fraction_gy": 6.0,
+        "prescription_point_cm": 1.0,
+        "treatment_length_cm": 5.0,
+        "catheter_type": "6F afterloading",
+        "catheter_position_verified": true,
+        "verification_method": "Fluoroscopy",
+        "isotope": "Iridium-192",
+        "dose_rate": "HDR",
+        "interval_between_fractions": "weekly"
+      },
+      "coding_review": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service supported by documentation of catheter placement."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9 (estimated for 31643)",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.2,
+            "total_facility_rvu": 5.0,
+            "estimated_facility_payment_unadjusted": 162
+          }
+        }
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 5.0,
+        "work_rvu": 3.2,
+        "practice_expense_rvu": 1.48,
+        "malpractice_rvu": 0.32
+      }
+    },
+    "source_file": "synthetic_brachytherapy_notes.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31643"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T00:00:00",
+      "changes": [
+        "Generated synthetic brachytherapy procedure note with complete registry data"
+      ],
+      "warnings": []
+    }
+  },
+  {
+    "note_text": "Pt: Anderson, Thomas || MRN: 652015 || DOB: 10/4/1948\nDate: 11/11/2025 || Location: Academic Medical Center, Seattle, WA\nMD: Dr. Nguyen\n\nDIAGNOSIS: Recurrent carcinoid tumor RML causing recurrent hemoptysis\nPROCEDURE: Bronchoscopy with placement of brachytherapy catheter (HDR Session 1/3)\nPRIOR THERAPY: Prior bronchoscopic resection 18 months ago\n\nINDICATION: 77 y/o male with Typical carcinoid presenting with hemoptysis. Endobronchial lesion at RML bronchus with approximately 50% obstruction. Tumor length estimated at 1.2 cm. Patient evaluated by radiation oncology and deemed candidate for HDR endobronchial brachytherapy for local control.\n\nSEDATION: General anesthesia\nAIRWAY: ETT\n\nPROCEDURE DETAILS:\nTransnasal flexible bronchoscopy performed. Airway inspection revealed endobronchial tumor at RML bronchus with partial luminal obstruction. Tumor appears exophytic with minimal surface ulceration.\nBronchial washing performed for cytology.\n\nCATHETER PLACEMENT:\nA 5F flexible catheter was introduced through the bronchoscope working channel. The catheter was advanced past the distal margin of the lesion to a position approximately 2 cm beyond the tumor. Catheter position verified under fluoroscopy. The catheter was marked at the nostril and secured with tape. Dummy source positioning performed. Treatment length: 3.2 cm (tumor + 1 cm margins).\n\nTREATMENT PLAN:\nHDR brachytherapy planned: 5.0 Gy x 3 fractions prescribed at 1.0 cm from catheter center.\nFractionation schedule: weekly intervals.\nSession 1 of 3 to be delivered today.\n\nCOMPLICATIONS: None. No bleeding. No catheter dislodgment.\n\nPOST-PROCEDURE: Patient transported to Radiation Oncology for treatment delivery. Catheter to remain in place if next session within 24h. CXR obtained - no pneumothorax.\n\nPLAN: \n- Return for session 2/3 in weekly\n- Repeat bronchoscopy in 4-6 weeks to assess response\n- Continue symptom management\n- Contact clinic for acute dyspnea, hemoptysis, or fever\n\nN. Nguyen MD",
+    "cpt_codes": [
+      31643
+    ],
+    "registry_entry": {
+      "patient_mrn": "652015",
+      "procedure_date": "2025-11-11",
+      "patient_age": 77,
+      "gender": "Male",
+      "asa_class": 4,
+      "primary_indication": "Recurrent carcinoid tumor RML causing recurrent hemoptysis",
+      "sedation_type": "General",
+      "airway_type": "ETT",
+      "final_diagnosis_prelim": "Malignancy",
+      "cpt_codes": [
+        31643
+      ],
+      "evidence": {
+        "procedure_date": "Date: 11/11/2025",
+        "institution_name": "Location: Academic Medical Center, Seattle, WA",
+        "attending_name": "MD: Dr. Nguyen",
+        "primary_indication": "DIAGNOSIS: Recurrent carcinoid tumor RML causing recurrent hemoptysis",
+        "sedation_type": "SEDATION: General anesthesia",
+        "airway_type": "AIRWAY: ETT"
+      },
+      "institution_name": "Academic Medical Center, Seattle, WA",
+      "molecular_testing_requested": false,
+      "disposition": "23-hour observation",
+      "bleeding_severity": "None",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "ablation_peripheral_performed": false,
+      "ablation_modality": null,
+      "pleural_procedure_type": null,
+      "pleural_guidance": null,
+      "pleurodesis_performed": false,
+      "pleurodesis_agent": null,
+      "blvr_target_lobe": null,
+      "blvr_valve_type": null,
+      "blvr_number_of_valves": null,
+      "wll_volume_instilled_l": null,
+      "wll_volume_returned_l": null,
+      "wll_dlt_used": null,
+      "fb_object_type": null,
+      "fb_tool_used": [],
+      "fb_removal_success": null,
+      "bt_lobe_treated": null,
+      "bt_activation_count": null,
+      "follow_up_plan": [
+        "Return for session 2/3 in weekly",
+        "Repeat bronchoscopy in 4-6 weeks to assess response"
+      ],
+      "nav_platform": null,
+      "nav_registration_method": null,
+      "nav_registration_error_mm": null,
+      "nav_rebus_used": null,
+      "nav_rebus_view": null,
+      "nav_imaging_verification": null,
+      "nav_tool_in_lesion": null,
+      "nav_sampling_tools": [],
+      "nav_cryobiopsy_for_nodule": null,
+      "sedation_reversal_given": null,
+      "sedation_reversal_agent": null,
+      "ebus_photodocumentation_complete": null,
+      "procedure_setting": "Hospital Outpatient",
+      "anticoag_status": null,
+      "anticoag_held_preprocedure": null,
+      "radiographic_findings": null,
+      "lesion_size_mm": 12.0,
+      "lesion_location": "RML bronchus",
+      "pet_suv_max": null,
+      "pet_avid": null,
+      "bronchus_sign_present": null,
+      "cao_location": "RML bronchus",
+      "prior_therapy": "Prior bronchoscopic resection 18 months ago",
+      "airway_device_size": null,
+      "ventilation_mode": null,
+      "anesthesia_agents": null,
+      "ebus_scope_brand": null,
+      "ebus_stations_sampled": null,
+      "linear_ebus_stations": null,
+      "ebus_needle_gauge": null,
+      "ebus_needle_type": null,
+      "ebus_systematic_staging": null,
+      "ebus_rose_available": null,
+      "ebus_rose_result": null,
+      "ebus_elastography_used": null,
+      "ebus_elastography_pattern": null,
+      "ebus_intranodal_forceps_used": null,
+      "ebus_stations_detail": null,
+      "cao_primary_modality": "Brachytherapy",
+      "cao_tumor_location": "RML bronchus",
+      "cao_obstruction_pre_pct": 50,
+      "cao_obstruction_post_pct": null,
+      "stent_type": null,
+      "stent_deployment_method": null,
+      "stent_diameter_mm": null,
+      "stent_length_mm": null,
+      "stent_location": null,
+      "blvr_cv_assessment_method": null,
+      "blvr_chartis_result": null,
+      "ablation_device_name": null,
+      "ablation_power_watts": null,
+      "ablation_duration_seconds": null,
+      "ablation_max_temp_c": null,
+      "ablation_margin_assessed": null,
+      "pleural_side": null,
+      "pleural_intercostal_space": null,
+      "pleural_opening_pressure_measured": null,
+      "pleural_opening_pressure_cmh2o": null,
+      "pleural_fluid_appearance": null,
+      "pleural_volume_drained_ml": null,
+      "pleural_thoracoscopy_findings": null,
+      "bronch_indication": "Brachytherapy catheter placement",
+      "bronch_location_lobe": "RML bronchus",
+      "bronch_location_segment": null,
+      "bronch_guidance": "Fluoroscopy",
+      "bronch_num_tbbx": null,
+      "bronch_tbbx_tool": null,
+      "bronch_specimen_tests": null,
+      "bronch_immediate_complications": "None",
+      "ebl_ml": 0,
+      "hypoxia_respiratory_failure": false,
+      "fluoro_time_min": 3,
+      "radiation_dap_gycm2": null,
+      "ablation_complication_immediate": null,
+      "providers": {
+        "attending_name": "Nguyen",
+        "fellow_name": null,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": false
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "0.4.0",
+        "generated_at": "2025-12-11T20:16:30.627940"
+      },
+      "brachytherapy_data": {
+        "session_number": 1,
+        "total_fractions": 3,
+        "dose_per_fraction_gy": 5.0,
+        "prescription_point_cm": 1.0,
+        "treatment_length_cm": 3.2,
+        "catheter_type": "5F flexible",
+        "catheter_position_verified": true,
+        "verification_method": "Fluoroscopy",
+        "isotope": "Iridium-192",
+        "dose_rate": "HDR",
+        "interval_between_fractions": "weekly"
+      },
+      "coding_review": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service."
+            },
+            {
+              "code": "31622",
+              "description": "Bronchoscopy with cell washing",
+              "units": 0,
+              "selection_status": "dropped",
+              "selection_reason": "Bundled into therapeutic bronchoscopy (31643) per NCCI standards."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9 (estimated for 31643)",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.2,
+            "total_facility_rvu": 5.0,
+            "estimated_facility_payment_unadjusted": 162
+          }
+        }
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 5.0,
+        "work_rvu": 3.2,
+        "practice_expense_rvu": 1.48,
+        "malpractice_rvu": 0.32
+      }
+    },
+    "source_file": "synthetic_brachytherapy_notes.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31643"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T00:00:00",
+      "changes": [
+        "Generated synthetic brachytherapy procedure note with complete registry data"
+      ],
+      "warnings": []
+    }
+  },
+  {
+    "note_text": "Pt: Johnson, Robert || MRN: 436795 || DOB: 11/10/1960\nDate: 11/13/2025 || Location: County General Hospital, Los Angeles, CA\nMD: Dr. Patel\n\nDIAGNOSIS: Central squamous cell carcinoma distal trachea with progressive dyspnea\nPROCEDURE: Bronchoscopy with placement of brachytherapy catheter (HDR Session 1/4)\nPRIOR THERAPY: Completed concurrent chemoradiation (50 Gy) 4 months ago\n\nINDICATION: 65 y/o male with Squamous cell carcinoma presenting with dyspnea on exertion, wheezing. Endobronchial lesion at Distal trachea with approximately 55% obstruction. Tumor length estimated at 2.0 cm. Patient evaluated by radiation oncology and deemed candidate for HDR endobronchial brachytherapy for palliation.\n\nSEDATION: Moderate sedation\nAIRWAY: Native\n\nPROCEDURE DETAILS:\nTransnasal flexible bronchoscopy performed. Airway inspection revealed endobronchial tumor at Distal trachea with significant luminal obstruction. Tumor appears exophytic with moderate surface ulceration.\n\nCATHETER PLACEMENT:\nA 5F flexible catheter was introduced through the bronchoscope working channel. The catheter was advanced past the distal margin of the lesion to a position approximately 2 cm beyond the tumor. Catheter position verified under fluoroscopy. The catheter was marked at the nostril and secured with tape. Dummy source positioning performed. Treatment length: 4.0 cm (tumor + 1 cm margins).\n\nTREATMENT PLAN:\nHDR brachytherapy planned: 6.0 Gy x 4 fractions prescribed at 1.0 cm from catheter center.\nFractionation schedule: weekly intervals.\nSession 1 of 4 to be delivered today.\n\nCOMPLICATIONS: None. No bleeding. No catheter dislodgment.\n\nPOST-PROCEDURE: Patient transported to Radiation Oncology for treatment delivery. Catheter to remain in place if next session within 24h. CXR obtained - no pneumothorax.\n\nPLAN: \n- Return for session 2/4 in weekly\n- Repeat bronchoscopy in 4-6 weeks to assess response\n- Continue symptom management\n- Contact clinic for acute dyspnea, hemoptysis, or fever\n\nP. Patel MD",
+    "cpt_codes": [
+      31643
+    ],
+    "registry_entry": {
+      "patient_mrn": "436795",
+      "procedure_date": "2025-11-13",
+      "patient_age": 65,
+      "gender": "Male",
+      "asa_class": 3,
+      "primary_indication": "Central squamous cell carcinoma distal trachea with progressive dyspnea",
+      "sedation_type": "Moderate",
+      "airway_type": "Native",
+      "final_diagnosis_prelim": "Malignancy",
+      "cpt_codes": [
+        31643
+      ],
+      "evidence": {
+        "procedure_date": "Date: 11/13/2025",
+        "institution_name": "Location: County General Hospital, Los Angeles, CA",
+        "attending_name": "MD: Dr. Patel",
+        "primary_indication": "DIAGNOSIS: Central squamous cell carcinoma distal trachea with progressive dyspnea",
+        "sedation_type": "SEDATION: Moderate sedation",
+        "airway_type": "AIRWAY: Native"
+      },
+      "institution_name": "County General Hospital, Los Angeles, CA",
+      "molecular_testing_requested": false,
+      "disposition": "Outpatient discharge",
+      "bleeding_severity": "None",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "ablation_peripheral_performed": false,
+      "ablation_modality": null,
+      "pleural_procedure_type": null,
+      "pleural_guidance": null,
+      "pleurodesis_performed": false,
+      "pleurodesis_agent": null,
+      "blvr_target_lobe": null,
+      "blvr_valve_type": null,
+      "blvr_number_of_valves": null,
+      "wll_volume_instilled_l": null,
+      "wll_volume_returned_l": null,
+      "wll_dlt_used": null,
+      "fb_object_type": null,
+      "fb_tool_used": [],
+      "fb_removal_success": null,
+      "bt_lobe_treated": null,
+      "bt_activation_count": null,
+      "follow_up_plan": [
+        "Return for session 2/4 in weekly",
+        "Repeat bronchoscopy in 4-6 weeks to assess response"
+      ],
+      "nav_platform": null,
+      "nav_registration_method": null,
+      "nav_registration_error_mm": null,
+      "nav_rebus_used": null,
+      "nav_rebus_view": null,
+      "nav_imaging_verification": null,
+      "nav_tool_in_lesion": null,
+      "nav_sampling_tools": [],
+      "nav_cryobiopsy_for_nodule": null,
+      "sedation_reversal_given": null,
+      "sedation_reversal_agent": null,
+      "ebus_photodocumentation_complete": null,
+      "procedure_setting": "Hospital Outpatient",
+      "anticoag_status": null,
+      "anticoag_held_preprocedure": null,
+      "radiographic_findings": null,
+      "lesion_size_mm": 20.0,
+      "lesion_location": "Distal trachea",
+      "pet_suv_max": null,
+      "pet_avid": null,
+      "bronchus_sign_present": null,
+      "cao_location": "Distal trachea",
+      "prior_therapy": "Completed concurrent chemoradiation (50 Gy) 4 months ago",
+      "airway_device_size": null,
+      "ventilation_mode": null,
+      "anesthesia_agents": null,
+      "ebus_scope_brand": null,
+      "ebus_stations_sampled": null,
+      "linear_ebus_stations": null,
+      "ebus_needle_gauge": null,
+      "ebus_needle_type": null,
+      "ebus_systematic_staging": null,
+      "ebus_rose_available": null,
+      "ebus_rose_result": null,
+      "ebus_elastography_used": null,
+      "ebus_elastography_pattern": null,
+      "ebus_intranodal_forceps_used": null,
+      "ebus_stations_detail": null,
+      "cao_primary_modality": "Brachytherapy",
+      "cao_tumor_location": "Distal trachea",
+      "cao_obstruction_pre_pct": 55,
+      "cao_obstruction_post_pct": null,
+      "stent_type": null,
+      "stent_deployment_method": null,
+      "stent_diameter_mm": null,
+      "stent_length_mm": null,
+      "stent_location": null,
+      "blvr_cv_assessment_method": null,
+      "blvr_chartis_result": null,
+      "ablation_device_name": null,
+      "ablation_power_watts": null,
+      "ablation_duration_seconds": null,
+      "ablation_max_temp_c": null,
+      "ablation_margin_assessed": null,
+      "pleural_side": null,
+      "pleural_intercostal_space": null,
+      "pleural_opening_pressure_measured": null,
+      "pleural_opening_pressure_cmh2o": null,
+      "pleural_fluid_appearance": null,
+      "pleural_volume_drained_ml": null,
+      "pleural_thoracoscopy_findings": null,
+      "bronch_indication": "Brachytherapy catheter placement",
+      "bronch_location_lobe": "Distal trachea",
+      "bronch_location_segment": null,
+      "bronch_guidance": "Fluoroscopy",
+      "bronch_num_tbbx": null,
+      "bronch_tbbx_tool": null,
+      "bronch_specimen_tests": null,
+      "bronch_immediate_complications": "None",
+      "ebl_ml": 0,
+      "hypoxia_respiratory_failure": false,
+      "fluoro_time_min": 5,
+      "radiation_dap_gycm2": null,
+      "ablation_complication_immediate": null,
+      "providers": {
+        "attending_name": "Patel",
+        "fellow_name": null,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": false
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "0.4.0",
+        "generated_at": "2025-12-11T20:16:30.628041"
+      },
+      "brachytherapy_data": {
+        "session_number": 1,
+        "total_fractions": 4,
+        "dose_per_fraction_gy": 6.0,
+        "prescription_point_cm": 1.0,
+        "treatment_length_cm": 4.0,
+        "catheter_type": "5F flexible",
+        "catheter_position_verified": true,
+        "verification_method": "Fluoroscopy",
+        "isotope": "Iridium-192",
+        "dose_rate": "HDR",
+        "interval_between_fractions": "weekly"
+      },
+      "coding_review": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service supported by documentation of catheter placement."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9 (estimated for 31643)",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.2,
+            "total_facility_rvu": 5.0,
+            "estimated_facility_payment_unadjusted": 162
+          }
+        }
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 5.0,
+        "work_rvu": 3.2,
+        "practice_expense_rvu": 1.48,
+        "malpractice_rvu": 0.32
+      }
+    },
+    "source_file": "synthetic_brachytherapy_notes.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31643"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T00:00:00",
+      "changes": [
+        "Generated synthetic brachytherapy procedure note with complete registry data"
+      ],
+      "warnings": []
+    }
+  },
+  {
+    "note_text": "Pt: Garcia, Joseph || MRN: 653325 || DOB: 3/3/1949\nDate: 11/18/2025 || Location: St. Luke's Medical Center, Denver, CO\nMD: Dr. Nguyen\n\nDIAGNOSIS: Metastatic renal cell carcinoma with symptomatic LUL endobronchial metastasis\nPROCEDURE: Bronchoscopy with placement of brachytherapy catheter (HDR Session 3/3)\nPRIOR THERAPY: Immunotherapy (pembrolizumab), not candidate for additional EBRT\n\nINDICATION: 76 y/o male with Clear cell renal cell carcinoma presenting with hemoptysis, cough. Endobronchial lesion at LUL bronchus with approximately 70% obstruction. Tumor length estimated at 2.2 cm. Patient evaluated by radiation oncology and deemed candidate for HDR endobronchial brachytherapy for palliation.\n\nSEDATION: Moderate sedation\nAIRWAY: Native\n\nPROCEDURE DETAILS:\nTransnasal flexible bronchoscopy performed. Airway inspection revealed endobronchial tumor at LUL bronchus with significant luminal obstruction. Tumor appears infiltrative with moderate surface ulceration.\n\nCATHETER PLACEMENT:\nA 6F afterloading catheter was introduced through the bronchoscope working channel. The catheter was advanced past the distal margin of the lesion to a position approximately 2 cm beyond the tumor. Catheter position verified under fluoroscopy. The catheter was marked at the nostril and secured with tape. Dummy source positioning performed. Treatment length: 4.2 cm (tumor + 1 cm margins).\n\nTREATMENT PLAN:\nHDR brachytherapy planned: 5.0 Gy x 3 fractions prescribed at 1.0 cm from catheter center.\nFractionation schedule: weekly intervals.\nSession 3 of 3 to be delivered today.\n\nCOMPLICATIONS: None. No bleeding. No catheter dislodgment.\n\nPOST-PROCEDURE: Patient transported to Radiation Oncology for treatment delivery. Catheter removed post-treatment. CXR obtained - no pneumothorax.\n\nPLAN: \n- Final brachytherapy session completed\n- Repeat bronchoscopy in 4-6 weeks to assess response\n- Continue symptom management\n- Contact clinic for acute dyspnea, hemoptysis, or fever\n\nN. Nguyen MD",
+    "cpt_codes": [
+      31643
+    ],
+    "registry_entry": {
+      "patient_mrn": "653325",
+      "procedure_date": "2025-11-18",
+      "patient_age": 76,
+      "gender": "Male",
+      "asa_class": 3,
+      "primary_indication": "Metastatic renal cell carcinoma with symptomatic LUL endobronchial metastasis",
+      "sedation_type": "Moderate",
+      "airway_type": "Native",
+      "final_diagnosis_prelim": "Malignancy",
+      "cpt_codes": [
+        31643
+      ],
+      "evidence": {
+        "procedure_date": "Date: 11/18/2025",
+        "institution_name": "Location: St. Luke's Medical Center, Denver, CO",
+        "attending_name": "MD: Dr. Nguyen",
+        "primary_indication": "DIAGNOSIS: Metastatic renal cell carcinoma with symptomatic LUL endobronchial metastasis",
+        "sedation_type": "SEDATION: Moderate sedation",
+        "airway_type": "AIRWAY: Native"
+      },
+      "institution_name": "St. Luke's Medical Center, Denver, CO",
+      "molecular_testing_requested": false,
+      "disposition": "Outpatient discharge",
+      "bleeding_severity": "None",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "ablation_peripheral_performed": false,
+      "ablation_modality": null,
+      "pleural_procedure_type": null,
+      "pleural_guidance": null,
+      "pleurodesis_performed": false,
+      "pleurodesis_agent": null,
+      "blvr_target_lobe": null,
+      "blvr_valve_type": null,
+      "blvr_number_of_valves": null,
+      "wll_volume_instilled_l": null,
+      "wll_volume_returned_l": null,
+      "wll_dlt_used": null,
+      "fb_object_type": null,
+      "fb_tool_used": [],
+      "fb_removal_success": null,
+      "bt_lobe_treated": null,
+      "bt_activation_count": null,
+      "follow_up_plan": [
+        "Final brachytherapy session completed",
+        "Repeat bronchoscopy in 4-6 weeks to assess response"
+      ],
+      "nav_platform": null,
+      "nav_registration_method": null,
+      "nav_registration_error_mm": null,
+      "nav_rebus_used": null,
+      "nav_rebus_view": null,
+      "nav_imaging_verification": null,
+      "nav_tool_in_lesion": null,
+      "nav_sampling_tools": [],
+      "nav_cryobiopsy_for_nodule": null,
+      "sedation_reversal_given": null,
+      "sedation_reversal_agent": null,
+      "ebus_photodocumentation_complete": null,
+      "procedure_setting": "Hospital Outpatient",
+      "anticoag_status": null,
+      "anticoag_held_preprocedure": null,
+      "radiographic_findings": null,
+      "lesion_size_mm": 22.0,
+      "lesion_location": "LUL bronchus",
+      "pet_suv_max": null,
+      "pet_avid": null,
+      "bronchus_sign_present": null,
+      "cao_location": "LUL bronchus",
+      "prior_therapy": "Immunotherapy (pembrolizumab), not candidate for additional EBRT",
+      "airway_device_size": null,
+      "ventilation_mode": null,
+      "anesthesia_agents": null,
+      "ebus_scope_brand": null,
+      "ebus_stations_sampled": null,
+      "linear_ebus_stations": null,
+      "ebus_needle_gauge": null,
+      "ebus_needle_type": null,
+      "ebus_systematic_staging": null,
+      "ebus_rose_available": null,
+      "ebus_rose_result": null,
+      "ebus_elastography_used": null,
+      "ebus_elastography_pattern": null,
+      "ebus_intranodal_forceps_used": null,
+      "ebus_stations_detail": null,
+      "cao_primary_modality": "Brachytherapy",
+      "cao_tumor_location": "LUL bronchus",
+      "cao_obstruction_pre_pct": 70,
+      "cao_obstruction_post_pct": null,
+      "stent_type": null,
+      "stent_deployment_method": null,
+      "stent_diameter_mm": null,
+      "stent_length_mm": null,
+      "stent_location": null,
+      "blvr_cv_assessment_method": null,
+      "blvr_chartis_result": null,
+      "ablation_device_name": null,
+      "ablation_power_watts": null,
+      "ablation_duration_seconds": null,
+      "ablation_max_temp_c": null,
+      "ablation_margin_assessed": null,
+      "pleural_side": null,
+      "pleural_intercostal_space": null,
+      "pleural_opening_pressure_measured": null,
+      "pleural_opening_pressure_cmh2o": null,
+      "pleural_fluid_appearance": null,
+      "pleural_volume_drained_ml": null,
+      "pleural_thoracoscopy_findings": null,
+      "bronch_indication": "Brachytherapy catheter placement",
+      "bronch_location_lobe": "LUL bronchus",
+      "bronch_location_segment": null,
+      "bronch_guidance": "Fluoroscopy",
+      "bronch_num_tbbx": null,
+      "bronch_tbbx_tool": null,
+      "bronch_specimen_tests": null,
+      "bronch_immediate_complications": "None",
+      "ebl_ml": 0,
+      "hypoxia_respiratory_failure": false,
+      "fluoro_time_min": 8,
+      "radiation_dap_gycm2": null,
+      "ablation_complication_immediate": null,
+      "providers": {
+        "attending_name": "Nguyen",
+        "fellow_name": "Dr. M. Garcia",
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": false
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "0.4.0",
+        "generated_at": "2025-12-11T20:16:30.628119"
+      },
+      "brachytherapy_data": {
+        "session_number": 3,
+        "total_fractions": 3,
+        "dose_per_fraction_gy": 5.0,
+        "prescription_point_cm": 1.0,
+        "treatment_length_cm": 4.2,
+        "catheter_type": "6F afterloading",
+        "catheter_position_verified": true,
+        "verification_method": "Fluoroscopy",
+        "isotope": "Iridium-192",
+        "dose_rate": "HDR",
+        "interval_between_fractions": "weekly"
+      },
+      "coding_review": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service supported by documentation of catheter placement."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9 (estimated for 31643)",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.2,
+            "total_facility_rvu": 5.0,
+            "estimated_facility_payment_unadjusted": 162
+          }
+        }
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 5.0,
+        "work_rvu": 3.2,
+        "practice_expense_rvu": 1.48,
+        "malpractice_rvu": 0.32
+      }
+    },
+    "source_file": "synthetic_brachytherapy_notes.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31643"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T00:00:00",
+      "changes": [
+        "Generated synthetic brachytherapy procedure note with complete registry data"
+      ],
+      "warnings": []
+    }
+  },
+  {
+    "note_text": "Pt: White, Charles || MRN: 659521 || DOB: 4/27/1951\nDate: 11/20/2025 || Location: Northwestern Hospital, Minneapolis, MN\nMD: Dr. Singh\n\nDIAGNOSIS: Roentgenographically occult early-stage endobronchial squamous cell carcinoma\nPROCEDURE: Bronchoscopy with placement of brachytherapy catheter (HDR Session 1/4)\nPRIOR THERAPY: None - curative intent EBB for early lesion\n\nINDICATION: 74 y/o male with Squamous cell carcinoma in situ presenting with asymptomatic, detected on screening bronchoscopy. Endobronchial lesion at RUL segmental bronchus (B3) with approximately 30% obstruction. Tumor length estimated at 0.8 cm. Patient evaluated by radiation oncology and deemed candidate for HDR endobronchial brachytherapy for local control.\n\nSEDATION: Moderate sedation\nAIRWAY: Native\n\nPROCEDURE DETAILS:\nTransnasal flexible bronchoscopy performed. Airway inspection revealed endobronchial tumor at RUL segmental bronchus (B3) with partial luminal obstruction. Tumor appears exophytic with minimal surface ulceration.\nBronchial washing performed for cytology.\n\nCATHETER PLACEMENT:\nA 5F polyethylene catheter was introduced through the bronchoscope working channel. The catheter was advanced past the distal margin of the lesion to a position approximately 2 cm beyond the tumor. Catheter position verified under fluoroscopy. The catheter was marked at the nostril and secured with tape. Dummy source positioning performed. Treatment length: 2.8 cm (tumor + 1 cm margins).\n\nTREATMENT PLAN:\nHDR brachytherapy planned: 6.0 Gy x 4 fractions prescribed at 1.0 cm from catheter center.\nFractionation schedule: weekly intervals.\nSession 1 of 4 to be delivered today.\n\nCOMPLICATIONS: None. No bleeding. No catheter dislodgment.\n\nPOST-PROCEDURE: Patient transported to Radiation Oncology for treatment delivery. Catheter to remain in place if next session within 24h. CXR obtained - no pneumothorax.\n\nPLAN: \n- Return for session 2/4 in weekly\n- Repeat bronchoscopy in 4-6 weeks to assess response\n- Continue symptom management\n- Contact clinic for acute dyspnea, hemoptysis, or fever\n\nS. Singh MD",
+    "cpt_codes": [
+      31643
+    ],
+    "registry_entry": {
+      "patient_mrn": "659521",
+      "procedure_date": "2025-11-20",
+      "patient_age": 74,
+      "gender": "Male",
+      "asa_class": 3,
+      "primary_indication": "Roentgenographically occult early-stage endobronchial squamous cell carcinoma",
+      "sedation_type": "Moderate",
+      "airway_type": "Native",
+      "final_diagnosis_prelim": "Malignancy",
+      "cpt_codes": [
+        31643
+      ],
+      "evidence": {
+        "procedure_date": "Date: 11/20/2025",
+        "institution_name": "Location: Northwestern Hospital, Minneapolis, MN",
+        "attending_name": "MD: Dr. Singh",
+        "primary_indication": "DIAGNOSIS: Roentgenographically occult early-stage endobronchial squamous cell carcinoma",
+        "sedation_type": "SEDATION: Moderate sedation",
+        "airway_type": "AIRWAY: Native"
+      },
+      "institution_name": "Northwestern Hospital, Minneapolis, MN",
+      "molecular_testing_requested": false,
+      "disposition": "Outpatient discharge",
+      "bleeding_severity": "None",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "ablation_peripheral_performed": false,
+      "ablation_modality": null,
+      "pleural_procedure_type": null,
+      "pleural_guidance": null,
+      "pleurodesis_performed": false,
+      "pleurodesis_agent": null,
+      "blvr_target_lobe": null,
+      "blvr_valve_type": null,
+      "blvr_number_of_valves": null,
+      "wll_volume_instilled_l": null,
+      "wll_volume_returned_l": null,
+      "wll_dlt_used": null,
+      "fb_object_type": null,
+      "fb_tool_used": [],
+      "fb_removal_success": null,
+      "bt_lobe_treated": null,
+      "bt_activation_count": null,
+      "follow_up_plan": [
+        "Return for session 2/4 in weekly",
+        "Repeat bronchoscopy in 4-6 weeks to assess response"
+      ],
+      "nav_platform": null,
+      "nav_registration_method": null,
+      "nav_registration_error_mm": null,
+      "nav_rebus_used": null,
+      "nav_rebus_view": null,
+      "nav_imaging_verification": null,
+      "nav_tool_in_lesion": null,
+      "nav_sampling_tools": [],
+      "nav_cryobiopsy_for_nodule": null,
+      "sedation_reversal_given": null,
+      "sedation_reversal_agent": null,
+      "ebus_photodocumentation_complete": null,
+      "procedure_setting": "Hospital Outpatient",
+      "anticoag_status": null,
+      "anticoag_held_preprocedure": null,
+      "radiographic_findings": null,
+      "lesion_size_mm": 8.0,
+      "lesion_location": "RUL segmental bronchus (B3)",
+      "pet_suv_max": null,
+      "pet_avid": null,
+      "bronchus_sign_present": null,
+      "cao_location": "RUL segmental bronchus (B3)",
+      "prior_therapy": "None - curative intent EBB for early lesion",
+      "airway_device_size": null,
+      "ventilation_mode": null,
+      "anesthesia_agents": null,
+      "ebus_scope_brand": null,
+      "ebus_stations_sampled": null,
+      "linear_ebus_stations": null,
+      "ebus_needle_gauge": null,
+      "ebus_needle_type": null,
+      "ebus_systematic_staging": null,
+      "ebus_rose_available": null,
+      "ebus_rose_result": null,
+      "ebus_elastography_used": null,
+      "ebus_elastography_pattern": null,
+      "ebus_intranodal_forceps_used": null,
+      "ebus_stations_detail": null,
+      "cao_primary_modality": "Brachytherapy",
+      "cao_tumor_location": "RUL segmental bronchus (B3)",
+      "cao_obstruction_pre_pct": 30,
+      "cao_obstruction_post_pct": null,
+      "stent_type": null,
+      "stent_deployment_method": null,
+      "stent_diameter_mm": null,
+      "stent_length_mm": null,
+      "stent_location": null,
+      "blvr_cv_assessment_method": null,
+      "blvr_chartis_result": null,
+      "ablation_device_name": null,
+      "ablation_power_watts": null,
+      "ablation_duration_seconds": null,
+      "ablation_max_temp_c": null,
+      "ablation_margin_assessed": null,
+      "pleural_side": null,
+      "pleural_intercostal_space": null,
+      "pleural_opening_pressure_measured": null,
+      "pleural_opening_pressure_cmh2o": null,
+      "pleural_fluid_appearance": null,
+      "pleural_volume_drained_ml": null,
+      "pleural_thoracoscopy_findings": null,
+      "bronch_indication": "Brachytherapy catheter placement",
+      "bronch_location_lobe": "RUL segmental bronchus (B3)",
+      "bronch_location_segment": null,
+      "bronch_guidance": "Fluoroscopy",
+      "bronch_num_tbbx": null,
+      "bronch_tbbx_tool": null,
+      "bronch_specimen_tests": null,
+      "bronch_immediate_complications": "None",
+      "ebl_ml": 0,
+      "hypoxia_respiratory_failure": false,
+      "fluoro_time_min": 4,
+      "radiation_dap_gycm2": null,
+      "ablation_complication_immediate": null,
+      "providers": {
+        "attending_name": "Singh",
+        "fellow_name": "Dr. R. Kumar",
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": true
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "0.4.0",
+        "generated_at": "2025-12-11T20:16:30.628291"
+      },
+      "brachytherapy_data": {
+        "session_number": 1,
+        "total_fractions": 4,
+        "dose_per_fraction_gy": 6.0,
+        "prescription_point_cm": 1.0,
+        "treatment_length_cm": 2.8,
+        "catheter_type": "5F polyethylene",
+        "catheter_position_verified": true,
+        "verification_method": "Fluoroscopy",
+        "isotope": "Iridium-192",
+        "dose_rate": "HDR",
+        "interval_between_fractions": "weekly"
+      },
+      "coding_review": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service."
+            },
+            {
+              "code": "31622",
+              "description": "Bronchoscopy with cell washing",
+              "units": 0,
+              "selection_status": "dropped",
+              "selection_reason": "Bundled into therapeutic bronchoscopy (31643) per NCCI standards."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9 (estimated for 31643)",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.2,
+            "total_facility_rvu": 5.0,
+            "estimated_facility_payment_unadjusted": 162
+          }
+        }
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 5.0,
+        "work_rvu": 3.2,
+        "practice_expense_rvu": 1.48,
+        "malpractice_rvu": 0.32
+      }
+    },
+    "source_file": "synthetic_brachytherapy_notes.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31643"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T00:00:00",
+      "changes": [
+        "Generated synthetic brachytherapy procedure note with complete registry data"
+      ],
+      "warnings": []
+    }
+  },
+  {
+    "note_text": "Pt: Smith, Maria || MRN: 204263 || DOB: 5/2/1944\nDate: 11/22/2025 || Location: Johns Hopkins Medical Center, Baltimore, MD\nMD: Dr. Rodriguez\n\nDIAGNOSIS: Recurrent NSCLC RLL with complete lobar atelectasis\nPROCEDURE: Bronchoscopy with placement of brachytherapy catheter (HDR Session 2/2)\nPRIOR THERAPY: Prior lobectomy (RUL), EBRT to mediastinum\n\nINDICATION: 81 y/o female with Adenocarcinoma presenting with complete RLL collapse, dyspnea. Endobronchial lesion at RLL bronchus with approximately 95% obstruction. Tumor length estimated at 2.8 cm. Patient evaluated by radiation oncology and deemed candidate for HDR endobronchial brachytherapy for palliation.\n\nSEDATION: General anesthesia\nAIRWAY: ETT\n\nPROCEDURE DETAILS:\nTransnasal flexible bronchoscopy performed. Airway inspection revealed endobronchial tumor at RLL bronchus with near-complete luminal obstruction. Tumor appears infiltrative with minimal surface ulceration.\n\nCATHETER PLACEMENT:\nA 5F polyethylene catheter was introduced through the bronchoscope working channel. The catheter was advanced past the distal margin of the lesion to a position approximately 2 cm beyond the tumor. Catheter position verified under fluoroscopy. The catheter was marked at the nostril and secured with tape. Dummy source positioning performed. Treatment length: 4.8 cm (tumor + 1 cm margins).\n\nTREATMENT PLAN:\nHDR brachytherapy planned: 7.5 Gy x 2 fractions prescribed at 1.0 cm from catheter center.\nFractionation schedule: 1 week intervals.\nSession 2 of 2 to be delivered today.\n\nCOMPLICATIONS: None. No bleeding. No catheter dislodgment.\n\nPOST-PROCEDURE: Patient transported to Radiation Oncology for treatment delivery. Catheter removed post-treatment. CXR obtained - no pneumothorax.\n\nPLAN: \n- Final brachytherapy session completed\n- Repeat bronchoscopy in 4-6 weeks to assess response\n- Continue symptom management\n- Contact clinic for acute dyspnea, hemoptysis, or fever\n\nR. Rodriguez MD",
+    "cpt_codes": [
+      31643
+    ],
+    "registry_entry": {
+      "patient_mrn": "204263",
+      "procedure_date": "2025-11-22",
+      "patient_age": 81,
+      "gender": "Female",
+      "asa_class": 3,
+      "primary_indication": "Recurrent NSCLC RLL with complete lobar atelectasis",
+      "sedation_type": "General",
+      "airway_type": "ETT",
+      "final_diagnosis_prelim": "Malignancy",
+      "cpt_codes": [
+        31643
+      ],
+      "evidence": {
+        "procedure_date": "Date: 11/22/2025",
+        "institution_name": "Location: Johns Hopkins Medical Center, Baltimore, MD",
+        "attending_name": "MD: Dr. Rodriguez",
+        "primary_indication": "DIAGNOSIS: Recurrent NSCLC RLL with complete lobar atelectasis",
+        "sedation_type": "SEDATION: General anesthesia",
+        "airway_type": "AIRWAY: ETT"
+      },
+      "institution_name": "Johns Hopkins Medical Center, Baltimore, MD",
+      "molecular_testing_requested": false,
+      "disposition": "23-hour observation",
+      "bleeding_severity": "None",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "ablation_peripheral_performed": false,
+      "ablation_modality": null,
+      "pleural_procedure_type": null,
+      "pleural_guidance": null,
+      "pleurodesis_performed": false,
+      "pleurodesis_agent": null,
+      "blvr_target_lobe": null,
+      "blvr_valve_type": null,
+      "blvr_number_of_valves": null,
+      "wll_volume_instilled_l": null,
+      "wll_volume_returned_l": null,
+      "wll_dlt_used": null,
+      "fb_object_type": null,
+      "fb_tool_used": [],
+      "fb_removal_success": null,
+      "bt_lobe_treated": null,
+      "bt_activation_count": null,
+      "follow_up_plan": [
+        "Final brachytherapy session completed",
+        "Repeat bronchoscopy in 4-6 weeks to assess response"
+      ],
+      "nav_platform": null,
+      "nav_registration_method": null,
+      "nav_registration_error_mm": null,
+      "nav_rebus_used": null,
+      "nav_rebus_view": null,
+      "nav_imaging_verification": null,
+      "nav_tool_in_lesion": null,
+      "nav_sampling_tools": [],
+      "nav_cryobiopsy_for_nodule": null,
+      "sedation_reversal_given": null,
+      "sedation_reversal_agent": null,
+      "ebus_photodocumentation_complete": null,
+      "procedure_setting": "Hospital Outpatient",
+      "anticoag_status": null,
+      "anticoag_held_preprocedure": null,
+      "radiographic_findings": null,
+      "lesion_size_mm": 28.0,
+      "lesion_location": "RLL bronchus",
+      "pet_suv_max": null,
+      "pet_avid": null,
+      "bronchus_sign_present": null,
+      "cao_location": "RLL bronchus",
+      "prior_therapy": "Prior lobectomy (RUL), EBRT to mediastinum",
+      "airway_device_size": null,
+      "ventilation_mode": null,
+      "anesthesia_agents": null,
+      "ebus_scope_brand": null,
+      "ebus_stations_sampled": null,
+      "linear_ebus_stations": null,
+      "ebus_needle_gauge": null,
+      "ebus_needle_type": null,
+      "ebus_systematic_staging": null,
+      "ebus_rose_available": null,
+      "ebus_rose_result": null,
+      "ebus_elastography_used": null,
+      "ebus_elastography_pattern": null,
+      "ebus_intranodal_forceps_used": null,
+      "ebus_stations_detail": null,
+      "cao_primary_modality": "Brachytherapy",
+      "cao_tumor_location": "RLL bronchus",
+      "cao_obstruction_pre_pct": 95,
+      "cao_obstruction_post_pct": null,
+      "stent_type": null,
+      "stent_deployment_method": null,
+      "stent_diameter_mm": null,
+      "stent_length_mm": null,
+      "stent_location": null,
+      "blvr_cv_assessment_method": null,
+      "blvr_chartis_result": null,
+      "ablation_device_name": null,
+      "ablation_power_watts": null,
+      "ablation_duration_seconds": null,
+      "ablation_max_temp_c": null,
+      "ablation_margin_assessed": null,
+      "pleural_side": null,
+      "pleural_intercostal_space": null,
+      "pleural_opening_pressure_measured": null,
+      "pleural_opening_pressure_cmh2o": null,
+      "pleural_fluid_appearance": null,
+      "pleural_volume_drained_ml": null,
+      "pleural_thoracoscopy_findings": null,
+      "bronch_indication": "Brachytherapy catheter placement",
+      "bronch_location_lobe": "RLL bronchus",
+      "bronch_location_segment": null,
+      "bronch_guidance": "Fluoroscopy",
+      "bronch_num_tbbx": null,
+      "bronch_tbbx_tool": null,
+      "bronch_specimen_tests": null,
+      "bronch_immediate_complications": "None",
+      "ebl_ml": 0,
+      "hypoxia_respiratory_failure": false,
+      "fluoro_time_min": 6,
+      "radiation_dap_gycm2": null,
+      "ablation_complication_immediate": null,
+      "providers": {
+        "attending_name": "Rodriguez",
+        "fellow_name": "Dr. R. Kumar",
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": false
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "0.4.0",
+        "generated_at": "2025-12-11T20:16:30.628360"
+      },
+      "brachytherapy_data": {
+        "session_number": 2,
+        "total_fractions": 2,
+        "dose_per_fraction_gy": 7.5,
+        "prescription_point_cm": 1.0,
+        "treatment_length_cm": 4.8,
+        "catheter_type": "5F polyethylene",
+        "catheter_position_verified": true,
+        "verification_method": "Fluoroscopy",
+        "isotope": "Iridium-192",
+        "dose_rate": "HDR",
+        "interval_between_fractions": "1 week"
+      },
+      "coding_review": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service supported by documentation of catheter placement."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9 (estimated for 31643)",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.2,
+            "total_facility_rvu": 5.0,
+            "estimated_facility_payment_unadjusted": 162
+          }
+        }
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 5.0,
+        "work_rvu": 3.2,
+        "practice_expense_rvu": 1.48,
+        "malpractice_rvu": 0.32
+      }
+    },
+    "source_file": "synthetic_brachytherapy_notes.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31643"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T00:00:00",
+      "changes": [
+        "Generated synthetic brachytherapy procedure note with complete registry data"
+      ],
+      "warnings": []
+    }
+  },
+  {
+    "note_text": "Pt: Martinez, Margaret || MRN: 217055 || DOB: 11/4/1971\nDate: 11/25/2025 || Location: Mayo Clinic, Rochester, MN\nMD: Dr. Kim\n\nDIAGNOSIS: Central small cell lung cancer status post chemotherapy with endobronchial recurrence\nPROCEDURE: Bronchoscopy with placement of brachytherapy catheter (HDR Session 1/4)\nPRIOR THERAPY: 4 cycles cisplatin/etoposide, prophylactic cranial irradiation\n\nINDICATION: 54 y/o female with Small cell lung cancer presenting with cough, mild dyspnea. Endobronchial lesion at Main carina with approximately 40% obstruction. Tumor length estimated at 1.5 cm. Patient evaluated by radiation oncology and deemed candidate for HDR endobronchial brachytherapy for local control.\n\nSEDATION: Moderate sedation\nAIRWAY: Native\n\nPROCEDURE DETAILS:\nTransnasal flexible bronchoscopy performed. Airway inspection revealed endobronchial tumor at Main carina with partial luminal obstruction. Tumor appears infiltrative with minimal surface ulceration.\nEndobronchial biopsies obtained x3 from tumor margins for pathology confirmation.\n\nCATHETER PLACEMENT:\nA 6F afterloading catheter was introduced through the bronchoscope working channel. The catheter was advanced past the distal margin of the lesion to a position approximately 2 cm beyond the tumor. Catheter position verified under fluoroscopy. The catheter was marked at the nostril and secured with tape. Dummy source positioning performed. Treatment length: 3.5 cm (tumor + 1 cm margins).\n\nTREATMENT PLAN:\nHDR brachytherapy planned: 6.0 Gy x 4 fractions prescribed at 1.0 cm from catheter center.\nFractionation schedule: weekly intervals.\nSession 1 of 4 to be delivered today.\n\nCOMPLICATIONS: None. No bleeding. No catheter dislodgment.\n\nPOST-PROCEDURE: Patient transported to Radiation Oncology for treatment delivery. Catheter to remain in place if next session within 24h. CXR obtained - no pneumothorax.\n\nPLAN: \n- Return for session 2/4 in weekly\n- Repeat bronchoscopy in 4-6 weeks to assess response\n- Continue symptom management\n- Contact clinic for acute dyspnea, hemoptysis, or fever\n\nK. Kim MD",
+    "cpt_codes": [
+      31643,
+      31625
+    ],
+    "registry_entry": {
+      "patient_mrn": "217055",
+      "procedure_date": "2025-11-25",
+      "patient_age": 54,
+      "gender": "Female",
+      "asa_class": 3,
+      "primary_indication": "Central small cell lung cancer status post chemotherapy with endobronchial recurrence",
+      "sedation_type": "Moderate",
+      "airway_type": "Native",
+      "final_diagnosis_prelim": "Malignancy",
+      "cpt_codes": [
+        31643,
+        31625
+      ],
+      "evidence": {
+        "procedure_date": "Date: 11/25/2025",
+        "institution_name": "Location: Mayo Clinic, Rochester, MN",
+        "attending_name": "MD: Dr. Kim",
+        "primary_indication": "DIAGNOSIS: Central small cell lung cancer status post chemotherapy with endobronchial recurrence",
+        "sedation_type": "SEDATION: Moderate sedation",
+        "airway_type": "AIRWAY: Native"
+      },
+      "institution_name": "Mayo Clinic, Rochester, MN",
+      "molecular_testing_requested": false,
+      "disposition": "Outpatient discharge",
+      "bleeding_severity": "None",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "ablation_peripheral_performed": false,
+      "ablation_modality": null,
+      "pleural_procedure_type": null,
+      "pleural_guidance": null,
+      "pleurodesis_performed": false,
+      "pleurodesis_agent": null,
+      "blvr_target_lobe": null,
+      "blvr_valve_type": null,
+      "blvr_number_of_valves": null,
+      "wll_volume_instilled_l": null,
+      "wll_volume_returned_l": null,
+      "wll_dlt_used": null,
+      "fb_object_type": null,
+      "fb_tool_used": [],
+      "fb_removal_success": null,
+      "bt_lobe_treated": null,
+      "bt_activation_count": null,
+      "follow_up_plan": [
+        "Return for session 2/4 in weekly",
+        "Repeat bronchoscopy in 4-6 weeks to assess response"
+      ],
+      "nav_platform": null,
+      "nav_registration_method": null,
+      "nav_registration_error_mm": null,
+      "nav_rebus_used": null,
+      "nav_rebus_view": null,
+      "nav_imaging_verification": null,
+      "nav_tool_in_lesion": null,
+      "nav_sampling_tools": [],
+      "nav_cryobiopsy_for_nodule": null,
+      "sedation_reversal_given": null,
+      "sedation_reversal_agent": null,
+      "ebus_photodocumentation_complete": null,
+      "procedure_setting": "Hospital Outpatient",
+      "anticoag_status": null,
+      "anticoag_held_preprocedure": null,
+      "radiographic_findings": null,
+      "lesion_size_mm": 15.0,
+      "lesion_location": "Main carina",
+      "pet_suv_max": null,
+      "pet_avid": null,
+      "bronchus_sign_present": null,
+      "cao_location": "Main carina",
+      "prior_therapy": "4 cycles cisplatin/etoposide, prophylactic cranial irradiation",
+      "airway_device_size": null,
+      "ventilation_mode": null,
+      "anesthesia_agents": null,
+      "ebus_scope_brand": null,
+      "ebus_stations_sampled": null,
+      "linear_ebus_stations": null,
+      "ebus_needle_gauge": null,
+      "ebus_needle_type": null,
+      "ebus_systematic_staging": null,
+      "ebus_rose_available": null,
+      "ebus_rose_result": null,
+      "ebus_elastography_used": null,
+      "ebus_elastography_pattern": null,
+      "ebus_intranodal_forceps_used": null,
+      "ebus_stations_detail": null,
+      "cao_primary_modality": "Brachytherapy",
+      "cao_tumor_location": "Main carina",
+      "cao_obstruction_pre_pct": 40,
+      "cao_obstruction_post_pct": null,
+      "stent_type": null,
+      "stent_deployment_method": null,
+      "stent_diameter_mm": null,
+      "stent_length_mm": null,
+      "stent_location": null,
+      "blvr_cv_assessment_method": null,
+      "blvr_chartis_result": null,
+      "ablation_device_name": null,
+      "ablation_power_watts": null,
+      "ablation_duration_seconds": null,
+      "ablation_max_temp_c": null,
+      "ablation_margin_assessed": null,
+      "pleural_side": null,
+      "pleural_intercostal_space": null,
+      "pleural_opening_pressure_measured": null,
+      "pleural_opening_pressure_cmh2o": null,
+      "pleural_fluid_appearance": null,
+      "pleural_volume_drained_ml": null,
+      "pleural_thoracoscopy_findings": null,
+      "bronch_indication": "Brachytherapy catheter placement",
+      "bronch_location_lobe": "Main carina",
+      "bronch_location_segment": null,
+      "bronch_guidance": "Fluoroscopy",
+      "bronch_num_tbbx": null,
+      "bronch_tbbx_tool": null,
+      "bronch_specimen_tests": [
+        "Pathology"
+      ],
+      "bronch_immediate_complications": "None",
+      "ebl_ml": 0,
+      "hypoxia_respiratory_failure": false,
+      "fluoro_time_min": 7,
+      "radiation_dap_gycm2": null,
+      "ablation_complication_immediate": null,
+      "providers": {
+        "attending_name": "Kim",
+        "fellow_name": "Dr. R. Kumar",
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": true
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "0.4.0",
+        "generated_at": "2025-12-11T20:16:30.628456"
+      },
+      "brachytherapy_data": {
+        "session_number": 1,
+        "total_fractions": 4,
+        "dose_per_fraction_gy": 6.0,
+        "prescription_point_cm": 1.0,
+        "treatment_length_cm": 3.5,
+        "catheter_type": "6F afterloading",
+        "catheter_position_verified": true,
+        "verification_method": "Fluoroscopy",
+        "isotope": "Iridium-192",
+        "dose_rate": "HDR",
+        "interval_between_fractions": "weekly"
+      },
+      "coding_review": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service."
+            },
+            {
+              "code": "31625",
+              "description": "Bronchoscopy with endobronchial biopsy",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Distinct diagnostic procedure (biopsy) performed in addition to catheter placement."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            },
+            {
+              "code": "31625",
+              "work_rvu": 3.11,
+              "total_facility_rvu": 4.93,
+              "mpfs_facility_payment": 160
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 6.31,
+            "total_facility_rvu": 9.93,
+            "estimated_facility_payment_unadjusted": 322
+          }
+        }
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          },
+          {
+            "code": "31625",
+            "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 9.93,
+        "work_rvu": 6.31,
+        "practice_expense_rvu": 2.95,
+        "malpractice_rvu": 0.67
+      }
+    },
+    "source_file": "synthetic_brachytherapy_notes.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31643",
+        "31625"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T00:00:00",
+      "changes": [
+        "Generated synthetic brachytherapy procedure note with complete registry data"
+      ],
+      "warnings": []
+    }
+  },
+  {
+    "note_text": "Pt: Williams, Thomas || MRN: 875678 || DOB: 11/21/1953\nDate: 11/29/2025 || Location: Cleveland Clinic, Cleveland, OH\nMD: Dr. Chen\n\nDIAGNOSIS: Adenoid cystic carcinoma of the trachea with slow growth over 3 years\nPROCEDURE: Bronchoscopy with placement of brachytherapy catheter (HDR Session 1/4)\nPRIOR THERAPY: Prior EBRT 55 Gy completed 2 years ago\n\nINDICATION: 72 y/o male with Adenoid cystic carcinoma presenting with progressive dyspnea, inspiratory stridor. Endobronchial lesion at Mid-trachea with approximately 45% obstruction. Tumor length estimated at 1.6 cm. Patient evaluated by radiation oncology and deemed candidate for HDR endobronchial brachytherapy for local control.\n\nSEDATION: Moderate sedation\nAIRWAY: Native\n\nPROCEDURE DETAILS:\nTransnasal flexible bronchoscopy performed. Airway inspection revealed endobronchial tumor at Mid-trachea with partial luminal obstruction. Tumor appears exophytic with moderate surface ulceration.\n\nCATHETER PLACEMENT:\nA 5F flexible catheter was introduced through the bronchoscope working channel. The catheter was advanced past the distal margin of the lesion to a position approximately 2 cm beyond the tumor. Catheter position verified under fluoroscopy. The catheter was marked at the nostril and secured with tape. Dummy source positioning performed. Treatment length: 3.6 cm (tumor + 1 cm margins).\n\nTREATMENT PLAN:\nHDR brachytherapy planned: 6.0 Gy x 4 fractions prescribed at 1.0 cm from catheter center.\nFractionation schedule: weekly intervals.\nSession 1 of 4 to be delivered today.\n\nCOMPLICATIONS: None. No bleeding. No catheter dislodgment.\n\nPOST-PROCEDURE: Patient transported to Radiation Oncology for treatment delivery. Catheter to remain in place if next session within 24h. CXR obtained - no pneumothorax.\n\nPLAN: \n- Return for session 2/4 in weekly\n- Repeat bronchoscopy in 4-6 weeks to assess response\n- Continue symptom management\n- Contact clinic for acute dyspnea, hemoptysis, or fever\n\nC. Chen MD",
+    "cpt_codes": [
+      31643
+    ],
+    "registry_entry": {
+      "patient_mrn": "875678",
+      "procedure_date": "2025-11-29",
+      "patient_age": 72,
+      "gender": "Male",
+      "asa_class": 2,
+      "primary_indication": "Adenoid cystic carcinoma of the trachea with slow growth over 3 years",
+      "sedation_type": "Moderate",
+      "airway_type": "Native",
+      "final_diagnosis_prelim": "Malignancy",
+      "cpt_codes": [
+        31643
+      ],
+      "evidence": {
+        "procedure_date": "Date: 11/29/2025",
+        "institution_name": "Location: Cleveland Clinic, Cleveland, OH",
+        "attending_name": "MD: Dr. Chen",
+        "primary_indication": "DIAGNOSIS: Adenoid cystic carcinoma of the trachea with slow growth over 3 years",
+        "sedation_type": "SEDATION: Moderate sedation",
+        "airway_type": "AIRWAY: Native"
+      },
+      "institution_name": "Cleveland Clinic, Cleveland, OH",
+      "molecular_testing_requested": false,
+      "disposition": "Outpatient discharge",
+      "bleeding_severity": "None",
+      "pneumothorax": false,
+      "pneumothorax_intervention": null,
+      "ablation_peripheral_performed": false,
+      "ablation_modality": null,
+      "pleural_procedure_type": null,
+      "pleural_guidance": null,
+      "pleurodesis_performed": false,
+      "pleurodesis_agent": null,
+      "blvr_target_lobe": null,
+      "blvr_valve_type": null,
+      "blvr_number_of_valves": null,
+      "wll_volume_instilled_l": null,
+      "wll_volume_returned_l": null,
+      "wll_dlt_used": null,
+      "fb_object_type": null,
+      "fb_tool_used": [],
+      "fb_removal_success": null,
+      "bt_lobe_treated": null,
+      "bt_activation_count": null,
+      "follow_up_plan": [
+        "Return for session 2/4 in weekly",
+        "Repeat bronchoscopy in 4-6 weeks to assess response"
+      ],
+      "nav_platform": null,
+      "nav_registration_method": null,
+      "nav_registration_error_mm": null,
+      "nav_rebus_used": null,
+      "nav_rebus_view": null,
+      "nav_imaging_verification": null,
+      "nav_tool_in_lesion": null,
+      "nav_sampling_tools": [],
+      "nav_cryobiopsy_for_nodule": null,
+      "sedation_reversal_given": null,
+      "sedation_reversal_agent": null,
+      "ebus_photodocumentation_complete": null,
+      "procedure_setting": "Hospital Outpatient",
+      "anticoag_status": null,
+      "anticoag_held_preprocedure": null,
+      "radiographic_findings": null,
+      "lesion_size_mm": 16.0,
+      "lesion_location": "Mid-trachea",
+      "pet_suv_max": null,
+      "pet_avid": null,
+      "bronchus_sign_present": null,
+      "cao_location": "Mid-trachea",
+      "prior_therapy": "Prior EBRT 55 Gy completed 2 years ago",
+      "airway_device_size": null,
+      "ventilation_mode": null,
+      "anesthesia_agents": null,
+      "ebus_scope_brand": null,
+      "ebus_stations_sampled": null,
+      "linear_ebus_stations": null,
+      "ebus_needle_gauge": null,
+      "ebus_needle_type": null,
+      "ebus_systematic_staging": null,
+      "ebus_rose_available": null,
+      "ebus_rose_result": null,
+      "ebus_elastography_used": null,
+      "ebus_elastography_pattern": null,
+      "ebus_intranodal_forceps_used": null,
+      "ebus_stations_detail": null,
+      "cao_primary_modality": "Brachytherapy",
+      "cao_tumor_location": "Mid-trachea",
+      "cao_obstruction_pre_pct": 45,
+      "cao_obstruction_post_pct": null,
+      "stent_type": null,
+      "stent_deployment_method": null,
+      "stent_diameter_mm": null,
+      "stent_length_mm": null,
+      "stent_location": null,
+      "blvr_cv_assessment_method": null,
+      "blvr_chartis_result": null,
+      "ablation_device_name": null,
+      "ablation_power_watts": null,
+      "ablation_duration_seconds": null,
+      "ablation_max_temp_c": null,
+      "ablation_margin_assessed": null,
+      "pleural_side": null,
+      "pleural_intercostal_space": null,
+      "pleural_opening_pressure_measured": null,
+      "pleural_opening_pressure_cmh2o": null,
+      "pleural_fluid_appearance": null,
+      "pleural_volume_drained_ml": null,
+      "pleural_thoracoscopy_findings": null,
+      "bronch_indication": "Brachytherapy catheter placement",
+      "bronch_location_lobe": "Mid-trachea",
+      "bronch_location_segment": null,
+      "bronch_guidance": "Fluoroscopy",
+      "bronch_num_tbbx": null,
+      "bronch_tbbx_tool": null,
+      "bronch_specimen_tests": null,
+      "bronch_immediate_complications": "None",
+      "ebl_ml": 0,
+      "hypoxia_respiratory_failure": false,
+      "fluoro_time_min": 7,
+      "radiation_dap_gycm2": null,
+      "ablation_complication_immediate": null,
+      "providers": {
+        "attending_name": "Chen",
+        "fellow_name": null,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": false
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "0.4.0",
+        "generated_at": "2025-12-11T20:16:30.628553"
+      },
+      "brachytherapy_data": {
+        "session_number": 1,
+        "total_fractions": 4,
+        "dose_per_fraction_gy": 6.0,
+        "prescription_point_cm": 1.0,
+        "treatment_length_cm": 3.6,
+        "catheter_type": "5F flexible",
+        "catheter_position_verified": true,
+        "verification_method": "Fluoroscopy",
+        "isotope": "Iridium-192",
+        "dose_rate": "HDR",
+        "interval_between_fractions": "weekly"
+      },
+      "coding_review": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service supported by documentation of catheter placement."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9 (estimated for 31643)",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.2,
+            "total_facility_rvu": 5.0,
+            "estimated_facility_payment_unadjusted": 162
+          }
+        }
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 5.0,
+        "work_rvu": 3.2,
+        "practice_expense_rvu": 1.48,
+        "malpractice_rvu": 0.32
+      }
+    },
+    "source_file": "synthetic_brachytherapy_notes.json",
+    "cpt_verification_errors": [],
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31643"
+      ],
+      "invalid_codes": []
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T00:00:00",
+      "changes": [
+        "Generated synthetic brachytherapy procedure note with complete registry data"
+      ],
+      "warnings": []
+    }
+  }
+]

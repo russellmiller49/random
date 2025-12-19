@@ -1,352 +1,198 @@
 [
-    {
-      "op": "replace",
-      "path": "/0/registry_entry/metadata/notes",
-      "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
-    },
-    {
-      "op": "replace",
-      "path": "/0/registry_entry/coding_support",
-      "value": {
-        "version": "coding_support.v1",
-        "generated_at": "2025-12-18T14:30:00Z",
-        "generator": "IP-Coder-Patch-GPT",
-        "knowledge_base_version": "ip_coding_billing.v2.9",
-        "coding_summary": {
-          "primary_family": "bronchoscopy_therapeutic",
-          "lines": [
-            {
-              "sequence": 1,
-              "code": "31629",
-              "description": "Bronchoscopy with TBNA",
-              "units": 1,
-              "role": "primary",
-              "selection_status": "selected",
-              "selection_reason": "Primary therapeutic maneuver for RUL lesion. Highest RVU base code.",
-              "is_add_on": false
-            },
-            {
-              "sequence": 2,
-              "code": "31624",
-              "description": "Bronchoscopy with BAL",
-              "units": 1,
-              "role": "secondary",
-              "selection_status": "selected",
-              "selection_reason": "Mini-BAL performed for microbiology, distinct from biopsy intent.",
-              "is_add_on": false
-            },
-            {
-              "sequence": 3,
-              "code": "+31627",
-              "description": "Navigation add-on",
-              "units": 1,
-              "role": "add_on",
-              "selection_status": "selected",
-              "selection_reason": "SuperDimension navigation utilized and target reached.",
-              "is_add_on": true
-            },
-            {
-              "sequence": 4,
-              "code": "+31654",
-              "description": "Radial EBUS add-on",
-              "units": 1,
-              "role": "add_on",
-              "selection_status": "selected",
-              "selection_reason": "Radial EBUS used for peripheral lesion confirmation.",
-              "is_add_on": true
-            },
-            {
-              "sequence": 5,
-              "code": "31622",
-              "description": "Diagnostic Bronchoscopy",
-              "units": 0,
-              "role": "bundled_only",
-              "selection_status": "dropped",
-              "selection_reason": "Bundled into therapeutic codes (31629, 31624).",
-              "is_add_on": false
-            }
-          ]
-        },
-        "financial_analysis": {
-          "calendar_year": 2025,
-          "fee_schedule_name": "physician_2025_airway",
-          "setting": "facility",
-          "per_code": [
-            {
-              "code": "31629",
-              "work_rvu": 3.75,
-              "total_facility_rvu": 5.89,
-              "mpfs_facility_payment": 191
-            },
-            {
-              "code": "31624",
-              "work_rvu": 2.63,
-              "total_facility_rvu": 4.24,
-              "mpfs_facility_payment": 137
-            },
-            {
-              "code": "+31627",
-              "work_rvu": 2.27,
-              "total_facility_rvu": 3.07,
-              "mpfs_facility_payment": 99
-            },
-            {
-              "code": "+31654",
-              "work_rvu": 1.4,
-              "total_facility_rvu": 2.11,
-              "mpfs_facility_payment": 68
-            }
-          ],
-          "totals": {
-            "total_work_rvu": 10.05,
-            "total_facility_rvu": 15.31,
-            "estimated_facility_payment_unadjusted": 495
-          },
-          "mppr_assumptions": "31629 paid at 100%. 31624 reduced (secondary). Add-ons paid 100%."
-        },
-        "coding_rationale": {
-          "per_code": [
-            {
-              "code": "31629",
-              "summary": "Primary code for TBNA of RUL nodule.",
-              "documentation_evidence": [
-                {
-                  "snippet": "Biopsies were then performed... to include peripheral needle"
-                }
-              ]
-            },
-            {
-              "code": "31624",
-              "summary": "BAL for microbiology.",
-              "documentation_evidence": [
-                {
-                  "snippet": "mini-BAL was then performed... Specimens were sent for both microbiological"
-                }
-              ]
-            }
-          ],
-          "global_comments": [
-            "Lateralization discrepancy resolved (RUL confirmed).",
-            "Multiple biopsy types (needle, forceps, brush) on same lesion bundled into primary 31629 to avoid unbundling.",
-            "BAL separate for microbiology."
-          ]
-        }
+  {
+    "op": "replace",
+    "path": "/4/note_text",
+    "value": "Procedure note pt had general anesthesia airway looked fine no masses. Used the super dimension thing to get to the RUL nodule radial probe showed it was concentric so we biopsied it. Used needle forceps and brush also did a mini-BAL. No bleeding really. Send to recovery check a cxr thanks."
+  },
+  {
+    "op": "replace",
+    "path": "/9/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/9/registry_entry/billing/total_rvu",
+    "value": 11.07
+  },
+  {
+    "op": "replace",
+    "path": "/9/registry_entry/billing/work_rvu",
+    "value": 7.42
+  },
+  {
+    "op": "replace",
+    "path": "/10/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/11/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/12/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/13/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/14/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/15/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/16/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/17/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/18/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/18/registry_entry/metadata/notes",
+    "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
+  },
+  {
+    "op": "replace",
+    "path": "/18/registry_entry/coding_support/coding_summary/lines",
+    "value": [
+      {
+        "sequence": 1,
+        "code": "31629",
+        "description": "Bronchoscopy with TBNA",
+        "units": 1,
+        "role": "primary",
+        "selection_status": "selected",
+        "selection_reason": "Primary therapeutic maneuver for RUL lesion. Highest RVU base code.",
+        "is_add_on": false
+      },
+      {
+        "sequence": 2,
+        "code": "+31627",
+        "description": "Navigation add-on",
+        "units": 1,
+        "role": "add_on",
+        "selection_status": "selected",
+        "selection_reason": "SuperDimension navigation utilized and target reached.",
+        "is_add_on": true
+      },
+      {
+        "sequence": 3,
+        "code": "+31654",
+        "description": "Radial EBUS add-on",
+        "units": 1,
+        "role": "add_on",
+        "selection_status": "selected",
+        "selection_reason": "Radial EBUS used for peripheral lesion confirmation.",
+        "is_add_on": true
+      },
+      {
+        "sequence": 4,
+        "code": "31628",
+        "description": "Bronchoscopy with TBLB",
+        "units": 0,
+        "role": "bundled_only",
+        "selection_status": "dropped",
+        "selection_reason": "Bundled into 31629 when performed on the same lesion.",
+        "is_add_on": false
       }
-    },
-    {
-      "op": "replace",
-      "path": "/1/registry_entry/metadata/notes",
-      "value": "Discrepancy noted: Pre-op 'Left' vs Procedure 'Right Upper Lobe' vs Specimen 'Right Middle'. Procedure narrative explicitly describes RUL anomalous segment access. Coding based on RUL."
-    },
-    {
-      "op": "replace",
-      "path": "/1/registry_entry/coding_support",
-      "value": {
-        "version": "coding_support.v1",
-        "generated_at": "2025-12-18T14:30:00Z",
-        "generator": "IP-Coder-Patch-GPT",
-        "knowledge_base_version": "ip_coding_billing.v2.9",
-        "coding_summary": {
-          "primary_family": "bronchoscopy_therapeutic",
-          "lines": [
-            {
-              "sequence": 1,
-              "code": "31629",
-              "description": "Bronchoscopy with TBNA",
-              "units": 1,
-              "role": "primary",
-              "selection_status": "selected",
-              "selection_reason": "Primary sampling modality (needle) for RUL/RML lesion.",
-              "is_add_on": false
-            },
-            {
-              "sequence": 2,
-              "code": "31628",
-              "description": "Bronchoscopy with TBLB",
-              "units": 1,
-              "role": "secondary",
-              "selection_status": "selected",
-              "selection_reason": "Forceps biopsy same lesion. Subject to MPPR.",
-              "is_add_on": false
-            },
-            {
-              "sequence": 3,
-              "code": "31623",
-              "description": "Bronchoscopy with Brushing",
-              "units": 1,
-              "role": "secondary",
-              "selection_status": "selected",
-              "selection_reason": "Brush biopsy same lesion. Subject to MPPR.",
-              "is_add_on": false
-            },
-            {
-              "sequence": 4,
-              "code": "+31627",
-              "description": "Navigation add-on",
-              "units": 1,
-              "role": "add_on",
-              "selection_status": "selected",
-              "selection_reason": "superDimension navigation utilized.",
-              "is_add_on": true
-            },
-            {
-              "sequence": 5,
-              "code": "+31654",
-              "description": "Radial EBUS add-on",
-              "units": 1,
-              "role": "add_on",
-              "selection_status": "selected",
-              "selection_reason": "Radial EBUS confirmation.",
-              "is_add_on": true
-            }
-          ]
-        },
-        "financial_analysis": {
-          "calendar_year": 2025,
-          "fee_schedule_name": "physician_2025_airway",
-          "setting": "facility",
-          "per_code": [
-            {
-              "code": "31629",
-              "work_rvu": 3.75,
-              "total_facility_rvu": 5.89,
-              "mpfs_facility_payment": 191
-            },
-            {
-              "code": "31628",
-              "work_rvu": 3.55,
-              "total_facility_rvu": 5.53,
-              "mpfs_facility_payment": 179
-            },
-            {
-              "code": "31623",
-              "work_rvu": 2.63,
-              "total_facility_rvu": 4.18,
-              "mpfs_facility_payment": 135
-            },
-            {
-              "code": "+31627",
-              "work_rvu": 2.27,
-              "total_facility_rvu": 3.07,
-              "mpfs_facility_payment": 99
-            },
-            {
-              "code": "+31654",
-              "work_rvu": 1.4,
-              "total_facility_rvu": 2.11,
-              "mpfs_facility_payment": 68
-            }
-          ],
-          "totals": {
-            "total_work_rvu": 13.6,
-            "total_facility_rvu": 20.78,
-            "estimated_facility_payment_unadjusted": 672
-          },
-          "mppr_assumptions": "MPPR applies to 31628 and 31623. Add-ons paid at 100%."
-        },
-        "coding_rationale": {
-          "per_code": [
-            {
-              "code": "31629",
-              "summary": "Primary code for TBNA.",
-              "documentation_evidence": [
-                {
-                  "snippet": "Transbronchial needle aspiration... Five needle biopsies"
-                }
-              ]
-            }
-          ],
-          "global_comments": [
-            "Documented use of needle, forceps, and brush on the same lesion. While NCCI generally bundles multiple biopsy types on the same lesion, they can be reported if payer policy allows, subject to MPPR.",
-            "Location ambiguity (RUL vs RML) resolved in favor of procedure narrative (RUL anomalous segment)."
-          ]
-        }
-      }
-    },
-    {
-      "op": "replace",
-      "path": "/2/registry_entry/metadata/notes",
-      "value": "Procedure coded as BAL (31624). Sedation noted but time missing, preventing 99152 billing."
-    },
-    {
-      "op": "replace",
-      "path": "/2/registry_entry/coding_support",
-      "value": {
-        "version": "coding_support.v1",
-        "generated_at": "2025-12-18T14:30:00Z",
-        "generator": "IP-Coder-Patch-GPT",
-        "knowledge_base_version": "ip_coding_billing.v2.9",
-        "coding_summary": {
-          "primary_family": "bronchoscopy_diagnostic",
-          "lines": [
-            {
-              "sequence": 1,
-              "code": "31624",
-              "description": "Bronchoscopy with BAL",
-              "units": 1,
-              "role": "primary",
-              "selection_status": "selected",
-              "selection_reason": "BAL performed in LLL anterior segment.",
-              "is_add_on": false
-            },
-            {
-              "sequence": 2,
-              "code": "31622",
-              "description": "Diagnostic Bronchoscopy",
-              "units": 0,
-              "role": "bundled_only",
-              "selection_status": "dropped",
-              "selection_reason": "Bundled into 31624.",
-              "is_add_on": false
-            },
-            {
-              "sequence": 3,
-              "code": "99152",
-              "description": "Moderate Sedation (Initial 15 min)",
-              "units": 0,
-              "role": "secondary",
-              "selection_status": "dropped",
-              "selection_reason": "Missing start/stop times in documentation.",
-              "is_add_on": false
-            }
-          ]
-        },
-        "financial_analysis": {
-          "calendar_year": 2025,
-          "fee_schedule_name": "physician_2025_airway",
-          "setting": "facility",
-          "per_code": [
-            {
-              "code": "31624",
-              "work_rvu": 2.63,
-              "total_facility_rvu": 4.24,
-              "mpfs_facility_payment": 137
-            }
-          ],
-          "totals": {
-            "total_work_rvu": 2.63,
-            "total_facility_rvu": 4.24,
-            "estimated_facility_payment_unadjusted": 137
-          },
-          "mppr_assumptions": "Single procedure."
-        },
-        "coding_rationale": {
-          "per_code": [
-            {
-              "code": "31624",
-              "summary": "Selected for BAL in LLL.",
-              "documentation_evidence": [
-                {
-                  "snippet": "BAL was performed with 150cc of instilled saline"
-                }
-              ]
-            }
-          ],
-          "global_comments": [
-            "Diagnostic bronchoscopy bundled.",
-            "Sedation administered by proceduralist, but times are missing from the note, precluding billing of 99152."
-          ]
-        }
-      }
-    }
-  ]
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/19/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/19/registry_entry/metadata/notes",
+    "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
+  },
+  {
+    "op": "replace",
+    "path": "/20/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/20/registry_entry/metadata/notes",
+    "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
+  },
+  {
+    "op": "replace",
+    "path": "/21/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/21/registry_entry/metadata/notes",
+    "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
+  },
+  {
+    "op": "replace",
+    "path": "/22/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/22/registry_entry/metadata/notes",
+    "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
+  },
+  {
+    "op": "replace",
+    "path": "/23/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/23/registry_entry/metadata/notes",
+    "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
+  },
+  {
+    "op": "replace",
+    "path": "/24/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/24/registry_entry/metadata/notes",
+    "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
+  },
+  {
+    "op": "replace",
+    "path": "/25/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/25/registry_entry/metadata/notes",
+    "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
+  },
+  {
+    "op": "replace",
+    "path": "/26/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/26/registry_entry/metadata/notes",
+    "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
+  }
+]

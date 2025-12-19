@@ -1,0 +1,575 @@
+[
+    {
+      "op": "add",
+      "path": "/0/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 5.0,
+        "work_rvu": 3.2,
+        "practice_expense_rvu": 1.48,
+        "malpractice_rvu": 0.32
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/coding_review",
+      "value": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service supported by documentation of catheter placement."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9 (estimated for 31643)",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.2,
+            "total_facility_rvu": 5.0,
+            "estimated_facility_payment_unadjusted": 162
+          }
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/1/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 5.0,
+        "work_rvu": 3.2,
+        "practice_expense_rvu": 1.48,
+        "malpractice_rvu": 0.32
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/coding_review",
+      "value": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service supported by documentation of catheter placement."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9 (estimated for 31643)",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.2,
+            "total_facility_rvu": 5.0,
+            "estimated_facility_payment_unadjusted": 162
+          }
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/2/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 5.0,
+        "work_rvu": 3.2,
+        "practice_expense_rvu": 1.48,
+        "malpractice_rvu": 0.32
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/coding_review",
+      "value": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service supported by documentation of catheter placement."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9 (estimated for 31643)",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.2,
+            "total_facility_rvu": 5.0,
+            "estimated_facility_payment_unadjusted": 162
+          }
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/3/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 5.0,
+        "work_rvu": 3.2,
+        "practice_expense_rvu": 1.48,
+        "malpractice_rvu": 0.32
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/coding_review",
+      "value": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service."
+            },
+            {
+              "code": "31622",
+              "description": "Bronchoscopy with cell washing",
+              "units": 0,
+              "selection_status": "dropped",
+              "selection_reason": "Bundled into therapeutic bronchoscopy (31643) per NCCI standards."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9 (estimated for 31643)",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.2,
+            "total_facility_rvu": 5.0,
+            "estimated_facility_payment_unadjusted": 162
+          }
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/4/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 5.0,
+        "work_rvu": 3.2,
+        "practice_expense_rvu": 1.48,
+        "malpractice_rvu": 0.32
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/4/registry_entry/coding_review",
+      "value": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service supported by documentation of catheter placement."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9 (estimated for 31643)",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.2,
+            "total_facility_rvu": 5.0,
+            "estimated_facility_payment_unadjusted": 162
+          }
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/5/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 5.0,
+        "work_rvu": 3.2,
+        "practice_expense_rvu": 1.48,
+        "malpractice_rvu": 0.32
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/5/registry_entry/coding_review",
+      "value": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service supported by documentation of catheter placement."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9 (estimated for 31643)",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.2,
+            "total_facility_rvu": 5.0,
+            "estimated_facility_payment_unadjusted": 162
+          }
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/6/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 5.0,
+        "work_rvu": 3.2,
+        "practice_expense_rvu": 1.48,
+        "malpractice_rvu": 0.32
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/6/registry_entry/coding_review",
+      "value": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service."
+            },
+            {
+              "code": "31622",
+              "description": "Bronchoscopy with cell washing",
+              "units": 0,
+              "selection_status": "dropped",
+              "selection_reason": "Bundled into therapeutic bronchoscopy (31643) per NCCI standards."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9 (estimated for 31643)",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.2,
+            "total_facility_rvu": 5.0,
+            "estimated_facility_payment_unadjusted": 162
+          }
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/7/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 5.0,
+        "work_rvu": 3.2,
+        "practice_expense_rvu": 1.48,
+        "malpractice_rvu": 0.32
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/7/registry_entry/coding_review",
+      "value": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service supported by documentation of catheter placement."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9 (estimated for 31643)",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.2,
+            "total_facility_rvu": 5.0,
+            "estimated_facility_payment_unadjusted": 162
+          }
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/8/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          },
+          {
+            "code": "31625",
+            "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 9.93,
+        "work_rvu": 6.31,
+        "practice_expense_rvu": 2.95,
+        "malpractice_rvu": 0.67
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/8/registry_entry/coding_review",
+      "value": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service."
+            },
+            {
+              "code": "31625",
+              "description": "Bronchoscopy with endobronchial biopsy",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Distinct diagnostic procedure (biopsy) performed in addition to catheter placement."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            },
+            {
+              "code": "31625",
+              "work_rvu": 3.11,
+              "total_facility_rvu": 4.93,
+              "mpfs_facility_payment": 160
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 6.31,
+            "total_facility_rvu": 9.93,
+            "estimated_facility_payment_unadjusted": 322
+          }
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/9/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31643",
+            "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+            "units": 1,
+            "modifier": null
+          }
+        ],
+        "total_rvu": 5.0,
+        "work_rvu": 3.2,
+        "practice_expense_rvu": 1.48,
+        "malpractice_rvu": 0.32
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/9/registry_entry/coding_review",
+      "value": {
+        "version": "coding_support.v1",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31643",
+              "description": "Bronchoscopy, with placement of catheter(s) for intracavitary radioelement application",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary therapeutic service supported by documentation of catheter placement."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "conversion_factor": 32.3562,
+          "rvu_source": "ip_coding_billing.v2.9 (estimated for 31643)",
+          "per_code": [
+            {
+              "code": "31643",
+              "work_rvu": 3.2,
+              "total_facility_rvu": 5.0,
+              "mpfs_facility_payment": 162
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.2,
+            "total_facility_rvu": 5.0,
+            "estimated_facility_payment_unadjusted": 162
+          }
+        }
+      }
+    }
+  ]

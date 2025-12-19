@@ -1,106 +1,514 @@
 [
-    {
-      "op": "add",
-      "path": "/0/registry_entry/coding_review",
-      "value": {
-        "summary": "EBUS-TBNA (4R) with mini-forceps sampling.",
-        "cpt_analysis": [
-          {
-            "code": "31652",
-            "description": "Bronchoscopy w/ EBUS sampling 1-2 stations",
-            "status": "Primary",
-            "rvu_facility_2025": 6.96,
-            "estimated_payment": 225,
-            "rationale": "EBUS-guided sampling of station 4R. Intranodal forceps biopsies via the needle tract are included in the EBUS sampling code."
-          }
-        ],
-        "financial_summary": "Total Facility RVU: 6.96 | Est. Payment: $225 (unadjusted)",
-        "notes": "Diagnostic bronchoscopy (31622) is bundled. General anesthesia precludes billing moderate sedation."
+  {
+    "op": "replace",
+    "path": "/22/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31629",
+        "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "31624",
+        "description": "Bronchoscopy with bronchoalveolar lavage",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "+31627",
+        "description": "Bronchoscopy with computer-assisted, image-guided navigation",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "+31654",
+        "description": "Bronchoscopy with transendoscopic endobronchial ultrasound (EBUS) for peripheral lesion(s)",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
       }
-    },
-    {
-      "op": "replace",
-      "path": "/1/registry_entry/billing/total_rvu",
-      "value": 16.07
-    },
-    {
-      "op": "replace",
-      "path": "/1/registry_entry/billing/practice_expense_rvu",
-      "value": 4.74
-    },
-    {
-      "op": "replace",
-      "path": "/1/registry_entry/billing/malpractice_rvu",
-      "value": 1.13
-    },
-    {
-      "op": "add",
-      "path": "/1/registry_entry/coding_review",
-      "value": {
-        "summary": "EBUS-TBNA (St 7) + Research Biopsies (RUL/RML/LUL) + Brushing (BI).",
-        "cpt_analysis": [
-          {
-            "code": "31652",
-            "description": "Bronchoscopy w/ EBUS sampling 1-2 stations",
-            "status": "Primary",
-            "rvu_facility_2025": 6.96,
-            "estimated_payment": 225,
-            "rationale": "EBUS-TBNA of Station 7 (1 station)."
-          },
-          {
-            "code": "31625",
-            "description": "Bronchoscopy w/ endobronchial biopsy",
-            "status": "Secondary",
-            "rvu_facility_2025": 4.93,
-            "estimated_payment": 160,
-            "rationale": "Forceps biopsies of RUL, RML, LUL (distinct anatomy from EBUS target). Subject to MPPR."
-          },
-          {
-            "code": "31623",
-            "description": "Bronchoscopy w/ brushing",
-            "status": "Secondary",
-            "rvu_facility_2025": 4.18,
-            "estimated_payment": 135,
-            "rationale": "Brushing of Bronchus Intermedius (distinct site). Subject to MPPR."
-          }
-        ],
-        "financial_summary": "Total Facility RVU: 16.07 | Est. Payment: ~$372 (after MPPR)",
-        "notes": "Verify coverage for research-protocol procedures. Multiple Endoscopy Rule applies."
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/22/registry_entry/coding_support/coding_summary/lines/1/selection_status",
+    "value": "dropped"
+  },
+  {
+    "op": "replace",
+    "path": "/22/registry_entry/coding_support/coding_summary/lines/1/role",
+    "value": "bundled_only"
+  },
+  {
+    "op": "replace",
+    "path": "/22/registry_entry/coding_support/coding_summary/lines/1/selection_reason",
+    "value": "Bundled into 31629 (same lesion sampling)"
+  },
+  {
+    "op": "replace",
+    "path": "/22/registry_entry/coding_support/coding_summary/lines/3/selection_status",
+    "value": "dropped"
+  },
+  {
+    "op": "replace",
+    "path": "/22/registry_entry/coding_support/coding_summary/lines/3/role",
+    "value": "bundled_only"
+  },
+  {
+    "op": "replace",
+    "path": "/22/registry_entry/coding_support/coding_summary/lines/3/selection_reason",
+    "value": "Bundled into 31629 (same lesion sampling)"
+  },
+  {
+    "op": "replace",
+    "path": "/23/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31629",
+        "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "31624",
+        "description": "Bronchoscopy with bronchoalveolar lavage",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "+31627",
+        "description": "Bronchoscopy with computer-assisted, image-guided navigation",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "+31654",
+        "description": "Bronchoscopy with transendoscopic endobronchial ultrasound (EBUS) for peripheral lesion(s)",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
       }
-    },
-    {
-      "op": "add",
-      "path": "/2/registry_entry/coding_review",
-      "value": {
-        "summary": "EBUS-TBNA (4 stations) + RML TBLB + Radial EBUS.",
-        "cpt_analysis": [
-          {
-            "code": "31653",
-            "description": "Bronchoscopy w/ EBUS sampling 3+ stations",
-            "status": "Primary",
-            "rvu_facility_2025": 7.7,
-            "estimated_payment": 249,
-            "rationale": "Sampled stations 11L, 7, 10R, 11R (4 total)."
-          },
-          {
-            "code": "31628",
-            "description": "Bronchoscopy w/ TBLB single lobe",
-            "status": "Secondary",
-            "rvu_facility_2025": 5.53,
-            "estimated_payment": 179,
-            "rationale": "Biopsy of RML nodule (parenchymal target). Subject to MPPR."
-          },
-          {
-            "code": "+31654",
-            "description": "Bronchoscopy w/ Radial EBUS (peripheral)",
-            "status": "Add-on",
-            "rvu_facility_2025": 2.11,
-            "estimated_payment": 68,
-            "rationale": "Localization of RML nodule. Not subject to MPPR."
-          }
-        ],
-        "financial_summary": "Total Facility RVU: 15.34 | Est. Payment: ~$496 (unadjusted)",
-        "notes": "Peripheral TBNA (31629) and Brushing (31623) of the same RML lesion are bundled into 31628."
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/23/registry_entry/coding_support/coding_summary/lines/1/selection_status",
+    "value": "dropped"
+  },
+  {
+    "op": "replace",
+    "path": "/23/registry_entry/coding_support/coding_summary/lines/1/role",
+    "value": "bundled_only"
+  },
+  {
+    "op": "replace",
+    "path": "/23/registry_entry/coding_support/coding_summary/lines/1/selection_reason",
+    "value": "Bundled into 31629 (same lesion sampling)"
+  },
+  {
+    "op": "replace",
+    "path": "/23/registry_entry/coding_support/coding_summary/lines/3/selection_status",
+    "value": "dropped"
+  },
+  {
+    "op": "replace",
+    "path": "/23/registry_entry/coding_support/coding_summary/lines/3/role",
+    "value": "bundled_only"
+  },
+  {
+    "op": "replace",
+    "path": "/23/registry_entry/coding_support/coding_summary/lines/3/selection_reason",
+    "value": "Bundled into 31629 (same lesion sampling)"
+  },
+  {
+    "op": "replace",
+    "path": "/24/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31629",
+        "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "31624",
+        "description": "Bronchoscopy with bronchoalveolar lavage",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "+31627",
+        "description": "Bronchoscopy with computer-assisted, image-guided navigation",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "+31654",
+        "description": "Bronchoscopy with transendoscopic endobronchial ultrasound (EBUS) for peripheral lesion(s)",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
       }
-    }
-  ]
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/24/registry_entry/coding_support/coding_summary/lines/1/selection_status",
+    "value": "dropped"
+  },
+  {
+    "op": "replace",
+    "path": "/24/registry_entry/coding_support/coding_summary/lines/1/role",
+    "value": "bundled_only"
+  },
+  {
+    "op": "replace",
+    "path": "/24/registry_entry/coding_support/coding_summary/lines/1/selection_reason",
+    "value": "Bundled into 31629 (same lesion sampling)"
+  },
+  {
+    "op": "replace",
+    "path": "/24/registry_entry/coding_support/coding_summary/lines/3/selection_status",
+    "value": "dropped"
+  },
+  {
+    "op": "replace",
+    "path": "/24/registry_entry/coding_support/coding_summary/lines/3/role",
+    "value": "bundled_only"
+  },
+  {
+    "op": "replace",
+    "path": "/24/registry_entry/coding_support/coding_summary/lines/3/selection_reason",
+    "value": "Bundled into 31629 (same lesion sampling)"
+  },
+  {
+    "op": "replace",
+    "path": "/25/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31629",
+        "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "31624",
+        "description": "Bronchoscopy with bronchoalveolar lavage",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "+31627",
+        "description": "Bronchoscopy with computer-assisted, image-guided navigation",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "+31654",
+        "description": "Bronchoscopy with transendoscopic endobronchial ultrasound (EBUS) for peripheral lesion(s)",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/25/registry_entry/coding_support/coding_summary/lines/1/selection_status",
+    "value": "dropped"
+  },
+  {
+    "op": "replace",
+    "path": "/25/registry_entry/coding_support/coding_summary/lines/1/role",
+    "value": "bundled_only"
+  },
+  {
+    "op": "replace",
+    "path": "/25/registry_entry/coding_support/coding_summary/lines/1/selection_reason",
+    "value": "Bundled into 31629 (same lesion sampling)"
+  },
+  {
+    "op": "replace",
+    "path": "/25/registry_entry/coding_support/coding_summary/lines/3/selection_status",
+    "value": "dropped"
+  },
+  {
+    "op": "replace",
+    "path": "/25/registry_entry/coding_support/coding_summary/lines/3/role",
+    "value": "bundled_only"
+  },
+  {
+    "op": "replace",
+    "path": "/25/registry_entry/coding_support/coding_summary/lines/3/selection_reason",
+    "value": "Bundled into 31629 (same lesion sampling)"
+  },
+  {
+    "op": "replace",
+    "path": "/26/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31629",
+        "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "31624",
+        "description": "Bronchoscopy with bronchoalveolar lavage",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "+31627",
+        "description": "Bronchoscopy with computer-assisted, image-guided navigation",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "+31654",
+        "description": "Bronchoscopy with transendoscopic endobronchial ultrasound (EBUS) for peripheral lesion(s)",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/26/registry_entry/coding_support/coding_summary/lines/1/selection_status",
+    "value": "dropped"
+  },
+  {
+    "op": "replace",
+    "path": "/26/registry_entry/coding_support/coding_summary/lines/1/role",
+    "value": "bundled_only"
+  },
+  {
+    "op": "replace",
+    "path": "/26/registry_entry/coding_support/coding_summary/lines/1/selection_reason",
+    "value": "Bundled into 31629 (same lesion sampling)"
+  },
+  {
+    "op": "replace",
+    "path": "/26/registry_entry/coding_support/coding_summary/lines/3/selection_status",
+    "value": "dropped"
+  },
+  {
+    "op": "replace",
+    "path": "/26/registry_entry/coding_support/coding_summary/lines/3/role",
+    "value": "bundled_only"
+  },
+  {
+    "op": "replace",
+    "path": "/26/registry_entry/coding_support/coding_summary/lines/3/selection_reason",
+    "value": "Bundled into 31629 (same lesion sampling)"
+  },
+  {
+    "op": "replace",
+    "path": "/27/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31629",
+        "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "31624",
+        "description": "Bronchoscopy with bronchoalveolar lavage",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "+31627",
+        "description": "Bronchoscopy with computer-assisted, image-guided navigation",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "+31654",
+        "description": "Bronchoscopy with transendoscopic endobronchial ultrasound (EBUS) for peripheral lesion(s)",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/27/registry_entry/coding_support/coding_summary/lines/1/selection_status",
+    "value": "dropped"
+  },
+  {
+    "op": "replace",
+    "path": "/27/registry_entry/coding_support/coding_summary/lines/1/role",
+    "value": "bundled_only"
+  },
+  {
+    "op": "replace",
+    "path": "/27/registry_entry/coding_support/coding_summary/lines/1/selection_reason",
+    "value": "Bundled into 31629 (same lesion sampling)"
+  },
+  {
+    "op": "replace",
+    "path": "/27/registry_entry/coding_support/coding_summary/lines/3/selection_status",
+    "value": "dropped"
+  },
+  {
+    "op": "replace",
+    "path": "/27/registry_entry/coding_support/coding_summary/lines/3/role",
+    "value": "bundled_only"
+  },
+  {
+    "op": "replace",
+    "path": "/27/registry_entry/coding_support/coding_summary/lines/3/selection_reason",
+    "value": "Bundled into 31629 (same lesion sampling)"
+  },
+  {
+    "op": "replace",
+    "path": "/28/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31629",
+        "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "31624",
+        "description": "Bronchoscopy with bronchoalveolar lavage",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "+31627",
+        "description": "Bronchoscopy with computer-assisted, image-guided navigation",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "+31654",
+        "description": "Bronchoscopy with transendoscopic endobronchial ultrasound (EBUS) for peripheral lesion(s)",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/28/registry_entry/coding_support/coding_summary/lines/1/selection_status",
+    "value": "dropped"
+  },
+  {
+    "op": "replace",
+    "path": "/28/registry_entry/coding_support/coding_summary/lines/1/role",
+    "value": "bundled_only"
+  },
+  {
+    "op": "replace",
+    "path": "/28/registry_entry/coding_support/coding_summary/lines/1/selection_reason",
+    "value": "Bundled into 31629 (same lesion sampling)"
+  },
+  {
+    "op": "replace",
+    "path": "/28/registry_entry/coding_support/coding_summary/lines/3/selection_status",
+    "value": "dropped"
+  },
+  {
+    "op": "replace",
+    "path": "/28/registry_entry/coding_support/coding_summary/lines/3/role",
+    "value": "bundled_only"
+  },
+  {
+    "op": "replace",
+    "path": "/28/registry_entry/coding_support/coding_summary/lines/3/selection_reason",
+    "value": "Bundled into 31629 (same lesion sampling)"
+  },
+  {
+    "op": "replace",
+    "path": "/29/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31629",
+        "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "31624",
+        "description": "Bronchoscopy with bronchoalveolar lavage",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "+31627",
+        "description": "Bronchoscopy with computer-assisted, image-guided navigation",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      },
+      {
+        "code": "+31654",
+        "description": "Bronchoscopy with transendoscopic endobronchial ultrasound (EBUS) for peripheral lesion(s)",
+        "modifier": null,
+        "modifiers": [],
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/29/registry_entry/coding_support/coding_summary/lines/1/selection_status",
+    "value": "dropped"
+  },
+  {
+    "op": "replace",
+    "path": "/29/registry_entry/coding_support/coding_summary/lines/1/role",
+    "value": "bundled_only"
+  },
+  {
+    "op": "replace",
+    "path": "/29/registry_entry/coding_support/coding_summary/lines/1/selection_reason",
+    "value": "Bundled into 31629 (same lesion sampling)"
+  },
+  {
+    "op": "replace",
+    "path": "/29/registry_entry/coding_support/coding_summary/lines/3/selection_status",
+    "value": "dropped"
+  },
+  {
+    "op": "replace",
+    "path": "/29/registry_entry/coding_support/coding_summary/lines/3/role",
+    "value": "bundled_only"
+  },
+  {
+    "op": "replace",
+    "path": "/29/registry_entry/coding_support/coding_summary/lines/3/selection_reason",
+    "value": "Bundled into 31629 (same lesion sampling)"
+  }
+]

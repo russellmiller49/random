@@ -1,395 +1,82 @@
 [
-    {
-      "op": "replace",
-      "path": "/0/registry_entry/billing",
-      "value": {
-        "cpt_codes": [
-          {
-            "code": "31641",
-            "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method",
-            "units": 1
-          }
-        ],
-        "icd10_codes": [
-          "C34.02",
-          "J98.09"
-        ],
-        "total_rvu": 8.4,
-        "work_rvu": 5.25,
-        "practice_expense_rvu": 2.6,
-        "malpractice_rvu": 0.55
-      }
-    },
-    {
-      "op": "add",
-      "path": "/0/registry_entry/coding_support",
-      "value": {
-        "version": "coding_support.v1",
-        "generated_at": "2025-12-18T14:30:00Z",
-        "generator": "IP-Coder-Patch-GPT",
-        "knowledge_base_version": "ip_coding_billing.v2.9",
-        "coding_summary": {
-          "primary_family": "bronchoscopy_therapeutic_airway_tumor",
-          "lines": [
-            {
-              "code": "31641",
-              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method",
-              "units": 1,
-              "role": "primary",
-              "selection_status": "selected",
-              "selection_reason": "Primary therapeutic intervention (APC/Cryo debulking). 31640 bundled.",
-              "is_add_on": false
-            }
-          ]
-        },
-        "financial_analysis": {
-          "calendar_year": 2025,
-          "fee_schedule_name": "physician_2025_airway",
-          "setting": "facility",
-          "conversion_factor": 32.3562,
-          "per_code": [
-            {
-              "code": "31641",
-              "work_rvu": 5.25,
-              "total_facility_rvu": 8.4,
-              "mpfs_facility_payment": 272
-            }
-          ],
-          "totals": {
-            "total_work_rvu": 5.25,
-            "total_facility_rvu": 8.4,
-            "estimated_facility_payment_unadjusted": 272
-          }
-        },
-        "coding_rationale": {
-          "global_comments": [
-            "Tumor debulking (APC/Cryo) maps to 31641.",
-            "Excision (31640) and biopsy (31625) at the same site are bundled into 31641.",
-            "Dilation (31630) in the same segment is bundled."
-          ]
-        }
-      }
-    },
-    {
-      "op": "replace",
-      "path": "/1/registry_entry/billing",
-      "value": {
-        "cpt_codes": [
-          {
-            "code": "31641",
-            "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method",
-            "units": 1
-          },
-          {
-            "code": "31653",
-            "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
-            "units": 1
-          },
-          {
-            "code": "31624",
-            "description": "Bronchoscopy; with bronchoalveolar lavage",
-            "units": 1
-          }
-        ],
-        "icd10_codes": [
-          "C34.12",
-          "C34.32"
-        ],
-        "total_rvu": 20.34,
-        "work_rvu": 12.84,
-        "practice_expense_rvu": 0,
-        "malpractice_rvu": 0
-      }
-    },
-    {
-      "op": "add",
-      "path": "/1/registry_entry/coding_support",
-      "value": {
-        "version": "coding_support.v1",
-        "generated_at": "2025-12-18T14:30:00Z",
-        "generator": "IP-Coder-Patch-GPT",
-        "knowledge_base_version": "ip_coding_billing.v2.9",
-        "coding_summary": {
-          "primary_family": "bronchoscopy_therapeutic_airway_tumor",
-          "lines": [
-            {
-              "code": "31641",
-              "description": "Bronchoscopy; with destruction of tumor",
-              "role": "primary",
-              "selection_status": "selected",
-              "selection_reason": "Primary debulking (APC/Cryo)."
-            },
-            {
-              "code": "31653",
-              "description": "Bronchoscopy; with EBUS sampling, 3+ stations",
-              "role": "secondary",
-              "selection_status": "selected",
-              "selection_reason": "4 stations sampled (4R, 2R, 7, 4L)."
-            },
-            {
-              "code": "31624",
-              "description": "Bronchoscopy; with BAL",
-              "role": "secondary",
-              "selection_status": "selected",
-              "selection_reason": "Distinct lavage for culture (purulent secretions)."
-            }
-          ]
-        },
-        "financial_analysis": {
-          "calendar_year": 2025,
-          "fee_schedule_name": "physician_2025_airway",
-          "setting": "facility",
-          "conversion_factor": 32.3562,
-          "per_code": [
-            {
-              "code": "31641",
-              "work_rvu": 5.25,
-              "total_facility_rvu": 8.4,
-              "mpfs_facility_payment": 272
-            },
-            {
-              "code": "31653",
-              "work_rvu": 4.96,
-              "total_facility_rvu": 7.7,
-              "mpfs_facility_payment": 249
-            },
-            {
-              "code": "31624",
-              "work_rvu": 2.63,
-              "total_facility_rvu": 4.24,
-              "mpfs_facility_payment": 137
-            }
-          ],
-          "totals": {
-            "total_work_rvu": 12.84,
-            "total_facility_rvu": 20.34,
-            "estimated_facility_payment_unadjusted": 658
-          }
-        }
-      }
-    },
-    {
-      "op": "replace",
-      "path": "/2/registry_entry/billing",
-      "value": {
-        "cpt_codes": [
-          {
-            "code": "31641",
-            "description": "Bronchoscopy; with destruction of tumor",
-            "units": 1
-          },
-          {
-            "code": "31652",
-            "description": "Bronchoscopy; with EBUS sampling, 1-2 nodal stations",
-            "units": 1
-          },
-          {
-            "code": "31636",
-            "description": "Bronchoscopy; with placement of bronchial stent(s)",
-            "units": 1
-          }
-        ],
-        "icd10_codes": [
-          "C34.90",
-          "C78.00"
-        ],
-        "total_rvu": 22.21,
-        "work_rvu": 14.01,
-        "practice_expense_rvu": 0,
-        "malpractice_rvu": 0
-      }
-    },
-    {
-      "op": "add",
-      "path": "/2/registry_entry/coding_support",
-      "value": {
-        "version": "coding_support.v1",
-        "generated_at": "2025-12-18T14:30:00Z",
-        "generator": "IP-Coder-Patch-GPT",
-        "knowledge_base_version": "ip_coding_billing.v2.9",
-        "coding_summary": {
-          "primary_family": "bronchoscopy_therapeutic_airway_tumor",
-          "lines": [
-            {
-              "code": "31641",
-              "description": "Bronchoscopy; with destruction of tumor",
-              "role": "primary",
-              "selection_status": "selected",
-              "selection_reason": "Destruction (Cryo/APC) RLL."
-            },
-            {
-              "code": "31652",
-              "description": "Bronchoscopy; with EBUS sampling, 1-2 stations",
-              "role": "secondary",
-              "selection_status": "selected",
-              "selection_reason": "EBUS 1 station (11R)."
-            },
-            {
-              "code": "31636",
-              "description": "Bronchoscopy; with placement of bronchial stent(s)",
-              "role": "secondary",
-              "selection_status": "selected",
-              "selection_reason": "Stent placed in RLL. Note: Dilation (31630) bundled."
-            }
-          ]
-        },
-        "financial_analysis": {
-          "calendar_year": 2025,
-          "fee_schedule_name": "physician_2025_airway",
-          "setting": "facility",
-          "conversion_factor": 32.3562,
-          "per_code": [
-            {
-              "code": "31641",
-              "work_rvu": 5.25,
-              "total_facility_rvu": 8.4,
-              "mpfs_facility_payment": 272
-            },
-            {
-              "code": "31652",
-              "work_rvu": 4.46,
-              "total_facility_rvu": 6.96,
-              "mpfs_facility_payment": 225
-            },
-            {
-              "code": "31636",
-              "work_rvu": 4.3,
-              "total_facility_rvu": 6.85,
-              "mpfs_facility_payment": 222
-            }
-          ],
-          "totals": {
-            "total_work_rvu": 14.01,
-            "total_facility_rvu": 22.21,
-            "estimated_facility_payment_unadjusted": 719
-          }
-        }
-      }
-    },
-    {
-      "op": "replace",
-      "path": "/3/cpt_codes",
-      "value": [
-        31629,
-        31624,
-        31627,
-        31654
-      ]
-    },
-    {
-      "op": "replace",
-      "path": "/3/registry_entry/billing",
-      "value": {
-        "cpt_codes": [
-          {
-            "code": "31629",
-            "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s)",
-            "units": 1
-          },
-          {
-            "code": "31624",
-            "description": "Bronchoscopy; with bronchoalveolar lavage",
-            "units": 1
-          },
-          {
-            "code": "+31627",
-            "description": "Bronchoscopy; with computer-assisted, image-guided navigation",
-            "units": 1
-          },
-          {
-            "code": "+31654",
-            "description": "Bronchoscopy; with radial EBUS",
-            "units": 1
-          }
-        ],
-        "icd10_codes": [
-          "R91.1"
-        ],
-        "total_rvu": 15.31,
-        "work_rvu": 10.05,
-        "practice_expense_rvu": 0,
-        "malpractice_rvu": 0
-      }
-    },
-    {
-      "op": "add",
-      "path": "/3/registry_entry/coding_support",
-      "value": {
-        "version": "coding_support.v1",
-        "generated_at": "2025-12-18T14:30:00Z",
-        "generator": "IP-Coder-Patch-GPT",
-        "knowledge_base_version": "ip_coding_billing.v2.9",
-        "coding_summary": {
-          "primary_family": "bronchoscopy_therapeutic",
-          "lines": [
-            {
-              "code": "31629",
-              "description": "Bronchoscopy; with TBNA",
-              "role": "primary",
-              "selection_status": "selected",
-              "selection_reason": "TBNA of LUL nodule. Replaces 31628 as primary biopsy code (higher RVU).",
-              "is_add_on": false
-            },
-            {
-              "code": "31624",
-              "description": "Bronchoscopy; with BAL",
-              "role": "secondary",
-              "selection_status": "selected",
-              "selection_reason": "Mini-BAL performed."
-            },
-            {
-              "code": "+31627",
-              "description": "Bronchoscopy; with navigation",
-              "role": "add_on",
-              "selection_status": "selected",
-              "selection_reason": "Navigation system used/catheter advanced."
-            },
-            {
-              "code": "+31654",
-              "description": "Bronchoscopy; with radial EBUS",
-              "role": "add_on",
-              "selection_status": "selected",
-              "selection_reason": "Radial EBUS localization."
-            }
-          ]
-        },
-        "financial_analysis": {
-          "calendar_year": 2025,
-          "fee_schedule_name": "physician_2025_airway",
-          "setting": "facility",
-          "conversion_factor": 32.3562,
-          "per_code": [
-            {
-              "code": "31629",
-              "work_rvu": 3.75,
-              "total_facility_rvu": 5.89,
-              "mpfs_facility_payment": 191
-            },
-            {
-              "code": "31624",
-              "work_rvu": 2.63,
-              "total_facility_rvu": 4.24,
-              "mpfs_facility_payment": 137
-            },
-            {
-              "code": "+31627",
-              "work_rvu": 2.27,
-              "total_facility_rvu": 3.07,
-              "mpfs_facility_payment": 99
-            },
-            {
-              "code": "+31654",
-              "work_rvu": 1.4,
-              "total_facility_rvu": 2.11,
-              "mpfs_facility_payment": 68
-            }
-          ],
-          "totals": {
-            "total_work_rvu": 10.05,
-            "total_facility_rvu": 15.31,
-            "estimated_facility_payment_unadjusted": 495
-          }
-        }
-      }
-    }
-  ]
+  {
+    "op": "replace",
+    "path": "/0/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/1/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/2/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/3/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/4/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/5/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/6/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/7/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/8/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/9/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/10/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/11/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/12/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/13/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/14/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/15/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  }
+]

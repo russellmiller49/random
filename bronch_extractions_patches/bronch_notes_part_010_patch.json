@@ -1,60 +1,387 @@
 [
-    {
-      "op": "replace",
-      "path": "/0/cpt_codes",
-      "value": [
-        31652,
-        31628,
-        31654,
-        31632
-      ]
-    },
-    {
-      "op": "remove",
-      "path": "/0/registry_entry/billing/cpt_codes/2"
-    },
-    {
-      "op": "replace",
-      "path": "/0/registry_entry/billing/total_rvu",
-      "value": 17.68
-    },
-    {
-      "op": "replace",
-      "path": "/0/registry_entry/billing/work_rvu",
-      "value": 11.41
-    },
-    {
-      "op": "replace",
-      "path": "/0/registry_entry/coding_support/coding_summary/lines/3/selection_status",
-      "value": "dropped"
-    },
-    {
-      "op": "replace",
-      "path": "/0/registry_entry/coding_support/coding_summary/lines/3/role",
-      "value": "bundled_only"
-    },
-    {
-      "op": "replace",
-      "path": "/0/registry_entry/coding_support/coding_summary/lines/3/selection_reason",
-      "value": "Bundled into primary biopsy (31628) as sampling of the same lobe(s)."
-    },
-    {
-      "op": "remove",
-      "path": "/0/registry_entry/coding_support/financial_analysis/per_code/2"
-    },
-    {
-      "op": "replace",
-      "path": "/0/registry_entry/coding_support/financial_analysis/totals/total_work_rvu",
-      "value": 11.41
-    },
-    {
-      "op": "replace",
-      "path": "/0/registry_entry/coding_support/financial_analysis/totals/total_facility_rvu",
-      "value": 17.68
-    },
-    {
-      "op": "replace",
-      "path": "/0/registry_entry/coding_support/financial_analysis/totals/estimated_facility_payment_unadjusted",
-      "value": 572
+  {
+    "comment": "Fix Note ID: IP2025_002_syn_1 (Index 6) - Remove phantom procedures. Text states 'No biopsies taken'. Reverting to Diagnostic + Nav Attempt.",
+    "op": "replace",
+    "path": "/6/cpt_codes",
+    "value": [
+      31622,
+      31627
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/6/registry_entry/granular_data",
+    "value": null
+  },
+  {
+    "op": "replace",
+    "path": "/6/registry_entry/procedures_performed/linear_ebus/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/6/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/6/registry_entry/procedures_performed/radial_ebus/performed",
+    "value": false
+  },
+  {
+    "comment": "Fix Note ID: IP2025_002_syn_2 (Index 7) - Procedure terminated without tissue. Reverting to Diagnostic + Nav Attempt.",
+    "op": "replace",
+    "path": "/7/cpt_codes",
+    "value": [
+      31622,
+      31627
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/7/registry_entry/granular_data",
+    "value": null
+  },
+  {
+    "op": "replace",
+    "path": "/7/registry_entry/procedures_performed/linear_ebus/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/7/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": false
+  },
+  {
+    "comment": "Fix Note ID: IP2025_002_syn_3 (Index 8) - No tissue obtained. Reverting to Diagnostic + Nav Attempt. ADDING navigational_bronchoscopy object since it was missing.",
+    "op": "replace",
+    "path": "/8/cpt_codes",
+    "value": [
+      31622,
+      31627
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/8/registry_entry/granular_data",
+    "value": null
+  },
+  {
+    "op": "add",
+    "path": "/8/registry_entry/procedures_performed/navigational_bronchoscopy",
+    "value": {
+      "performed": true,
+      "target_reached": false,
+      "sampling_tools_used": []
     }
-  ]
+  },
+  {
+    "comment": "Fix Note ID: IP2025_002_syn_4 (Index 9) - No specimens collected. Reverting to Diagnostic + EBUS attempt (bundled if not staged) -> 31622.",
+    "op": "replace",
+    "path": "/9/cpt_codes",
+    "value": [
+      31622
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/9/registry_entry/granular_data",
+    "value": null
+  },
+  {
+    "op": "replace",
+    "path": "/9/registry_entry/procedures_performed/linear_ebus/performed",
+    "value": false
+  },
+  {
+    "comment": "Fix Note ID: IP2025_002_syn_5 (Index 10) - No biopsy taken. Reverting to Diagnostic + Nav Attempt.",
+    "op": "replace",
+    "path": "/10/cpt_codes",
+    "value": [
+      31622,
+      31627
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/10/registry_entry/granular_data",
+    "value": null
+  },
+  {
+    "comment": "Fix Note ID: IP2025_003_syn_1 (Index 11) - Add missing billing. Text confirms Forceps, Brush, and EBUS were performed.",
+    "op": "replace",
+    "path": "/11/cpt_codes",
+    "value": [
+      31652,
+      31628,
+      31623,
+      31654
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/11/registry_entry/granular_data/specimens_collected",
+    "value": [
+      {
+        "specimen_number": 1,
+        "source_procedure": "EBUS-TBNA",
+        "source_location": "Mediastinal",
+        "notes": "Wedged mass"
+      },
+      {
+        "specimen_number": 2,
+        "source_procedure": "Transbronchial biopsy",
+        "source_location": "LLL nodule"
+      },
+      {
+        "specimen_number": 3,
+        "source_procedure": "Brushing",
+        "source_location": "LLL nodule"
+      }
+    ]
+  },
+  {
+    "comment": "Fix Note ID: IP2025_003_syn_2 (Index 12) - Add missing billing for Forceps, Brush, and EBUS.",
+    "op": "replace",
+    "path": "/12/cpt_codes",
+    "value": [
+      31652,
+      31628,
+      31623,
+      31654
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/12/registry_entry/granular_data/specimens_collected",
+    "value": [
+      {
+        "specimen_number": 1,
+        "source_procedure": "EBUS-TBNA",
+        "source_location": "Target"
+      },
+      {
+        "specimen_number": 2,
+        "source_procedure": "Transbronchial biopsy",
+        "source_location": "LLL nodule"
+      },
+      {
+        "specimen_number": 3,
+        "source_procedure": "Brushing",
+        "source_location": "LLL nodule"
+      }
+    ]
+  },
+  {
+    "comment": "Fix Note ID: IP2025_003_syn_3 (Index 13) - Add missing billing for TBLB, Brush, EBUS.",
+    "op": "replace",
+    "path": "/13/cpt_codes",
+    "value": [
+      31652,
+      31628,
+      31623,
+      31654
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/13/registry_entry/granular_data/specimens_collected",
+    "value": [
+      {
+        "specimen_number": 1,
+        "source_procedure": "EBUS-TBNA",
+        "source_location": "Lung mass"
+      },
+      {
+        "specimen_number": 2,
+        "source_procedure": "Transbronchial biopsy",
+        "source_location": "LLL nodule"
+      },
+      {
+        "specimen_number": 3,
+        "source_procedure": "Brushing",
+        "source_location": "LLL nodule"
+      }
+    ]
+  },
+  {
+    "comment": "Fix Note ID: IP2025_003_syn_4 (Index 14) - Add missing billing for TBLB, EBUS.",
+    "op": "replace",
+    "path": "/14/cpt_codes",
+    "value": [
+      31652,
+      31628,
+      31654
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/14/registry_entry/granular_data/specimens_collected",
+    "value": [
+      {
+        "specimen_number": 1,
+        "source_procedure": "EBUS-TBNA",
+        "source_location": "Wedged mass"
+      },
+      {
+        "specimen_number": 2,
+        "source_procedure": "Transbronchial biopsy",
+        "source_location": "Pulmonary Nodule"
+      }
+    ]
+  },
+  {
+    "comment": "Fix Note ID: IP2025_003_syn_5 (Index 15) - Add missing billing for TBLB, EBUS.",
+    "op": "replace",
+    "path": "/15/cpt_codes",
+    "value": [
+      31652,
+      31628,
+      31654
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/15/registry_entry/granular_data/specimens_collected",
+    "value": [
+      {
+        "specimen_number": 1,
+        "source_procedure": "EBUS-TBNA",
+        "source_location": "Wedge"
+      },
+      {
+        "specimen_number": 2,
+        "source_procedure": "Transbronchial biopsy",
+        "source_location": "LLL nodule"
+      }
+    ]
+  },
+  {
+    "comment": "Fix Note ID: IP2025_003_syn_6 (Index 16) - Add missing billing for Forceps, Brush, EBUS.",
+    "op": "replace",
+    "path": "/16/cpt_codes",
+    "value": [
+      31652,
+      31628,
+      31623,
+      31654
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/16/registry_entry/granular_data/specimens_collected",
+    "value": [
+      {
+        "specimen_number": 1,
+        "source_procedure": "EBUS-TBNA",
+        "source_location": "LLL"
+      },
+      {
+        "specimen_number": 2,
+        "source_procedure": "Transbronchial biopsy",
+        "source_location": "Pulmonary Nodule"
+      },
+      {
+        "specimen_number": 3,
+        "source_procedure": "Brushing",
+        "source_location": "Pulmonary Nodule"
+      }
+    ]
+  },
+  {
+    "comment": "Fix Note ID: IP2025_003_syn_7 (Index 17) - Add missing billing for Forceps, Brush, EBUS.",
+    "op": "replace",
+    "path": "/17/cpt_codes",
+    "value": [
+      31652,
+      31628,
+      31623,
+      31654
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/17/registry_entry/granular_data/specimens_collected",
+    "value": [
+      {
+        "specimen_number": 1,
+        "source_procedure": "EBUS-TBNA",
+        "source_location": "LLL Nodule"
+      },
+      {
+        "specimen_number": 2,
+        "source_procedure": "Transbronchial biopsy",
+        "source_location": "Pulmonary Nodule"
+      },
+      {
+        "specimen_number": 3,
+        "source_procedure": "Brushing",
+        "source_location": "Pulmonary Nodule"
+      }
+    ]
+  },
+  {
+    "comment": "Fix Note ID: IP2025_003_syn_8 (Index 18) - Add missing billing for Forceps, Brush, EBUS.",
+    "op": "replace",
+    "path": "/18/cpt_codes",
+    "value": [
+      31652,
+      31628,
+      31623,
+      31654
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/18/registry_entry/granular_data/specimens_collected",
+    "value": [
+      {
+        "specimen_number": 1,
+        "source_procedure": "EBUS-TBNA",
+        "source_location": "Nodule"
+      },
+      {
+        "specimen_number": 2,
+        "source_procedure": "Transbronchial biopsy",
+        "source_location": "Pulmonary Nodule"
+      },
+      {
+        "specimen_number": 3,
+        "source_procedure": "Brushing",
+        "source_location": "Pulmonary Nodule"
+      }
+    ]
+  },
+  {
+    "comment": "Fix Note ID: IP2025_003_syn_9 (Index 19) - Add missing billing for Forceps, Brush, EBUS.",
+    "op": "replace",
+    "path": "/19/cpt_codes",
+    "value": [
+      31652,
+      31628,
+      31623,
+      31654
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/19/registry_entry/granular_data/specimens_collected",
+    "value": [
+      {
+        "specimen_number": 1,
+        "source_procedure": "EBUS-TBNA",
+        "source_location": "Linear"
+      },
+      {
+        "specimen_number": 2,
+        "source_procedure": "Transbronchial biopsy",
+        "source_location": "Pulmonary Nodule"
+      },
+      {
+        "specimen_number": 3,
+        "source_procedure": "Brushing",
+        "source_location": "Pulmonary Nodule"
+      }
+    ]
+  }
+]

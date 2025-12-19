@@ -1,0 +1,2043 @@
+[
+  {
+    "note_id": "bd312310",
+    "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE NOTE\n\nPATIENT: Flores, Jennifer\nMRN: 8398156\nDOB: 1980-11-08\nAGE: 58 years | SEX: F\nDATE OF PROCEDURE: 2024-07-04\n\nATTENDING: Dr. K. Patel\n\nPREOPERATIVE DIAGNOSIS:\nPost-intubation tracheal stenosis\n\nPOSTOPERATIVE DIAGNOSIS:\nSame\n\nPROCEDURE PERFORMED:\nFlexible bronchoscopy with therapeutic balloon dilation (CPT 31630)\n\nCLINICAL HISTORY:\n58-year-old female with prolonged intubation (10 days) during ICU stay for sepsis. Patient reports biphasic stridor at rest, difficulty clearing secretions, progressive dyspnea on exertion, wheezing unresponsive to bronchodilators.\n\nANESTHESIA: MAC anesthesia\nAIRWAY: LMA\n\nPROCEDURE DETAILS:\nThe patient was brought to the bronchoscopy suite and positioned supine. Standard monitoring was applied. After adequate sedation, the bronchoscope was introduced transnasally.\n\nFINDINGS:\n- Vocal cords: Normal mobility bilaterally\n- Stenosis identified at 2-4 cm below vocal cords\n- Pre-dilation assessment: 76% luminal narrowing\n- Stenosis length: approximately 2.5 cm\n- Stenosis character: complex with granulation tissue\n- Distal airways: Patent and clear\n\nINTERVENTION:\nCRE balloon advanced to stenosis site under direct visualization.\nSerial dilations performed:\n- 12mm \u00d7 45 seconds\n- 14mm \u00d7 45 seconds\n- 16mm \u00d7 45 seconds\n\nTotal 3 inflations performed.\nPost-dilation patency improved from 76% to approximately 12% residual narrowing.\nNo significant mucosal injury or bleeding.\nTopical epinephrine 1:10,000 applied prophylactically.\n\nSPECIMENS: None\n\nESTIMATED BLOOD LOSS: Minimal (<5 mL)\n\nCOMPLICATIONS: None\n\nDISPOSITION:\n- Patient extubated and recovered in PACU\n- Transferred to floor for monitoring\n- Dexamethasone 8mg IV administered post-procedure\n\nIMPRESSION:\nPost-intubation tracheal stenosis successfully treated with balloon dilation. Airway patency improved from 24% to 88%.\n\nPLAN:\n1. Repeat bronchoscopy with dilation in 6 weeks\n2. Pulmonary rehabilitation referral\n3. PFTs prior to next procedure\n4. Call if worsening stridor, dyspnea, or hemoptysis",
+    "cpt_codes": [
+      31630
+    ],
+    "registry_entry": {
+      "patient_mrn": "8398156",
+      "procedure_date": "2024-07-04",
+      "procedure_start_time": "10:15",
+      "procedure_end_time": null,
+      "procedure_duration_minutes": 37,
+      "providers": {
+        "attending_name": "K. Patel",
+        "attending_npi": null,
+        "fellow_name": null,
+        "fellow_pgy_level": null,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": false,
+        "rose_present": false
+      },
+      "patient_demographics": {
+        "age_years": 58,
+        "gender": "Female",
+        "height_cm": 156,
+        "weight_kg": 51,
+        "bmi": null,
+        "smoking_status": "Never",
+        "pack_years": null
+      },
+      "clinical_context": {
+        "asa_class": 4,
+        "primary_indication": "Post-intubation tracheal stenosis",
+        "indication_category": "Stricture/Stenosis",
+        "radiographic_findings": "CT showing trachea stenosis",
+        "lesion_size_mm": null,
+        "lesion_location": "trachea",
+        "pet_avidity": null,
+        "suv_max": null,
+        "bronchus_sign": null
+      },
+      "procedure_setting": {
+        "location": "OR",
+        "patient_position": "Supine",
+        "airway_type": "LMA",
+        "ett_size": null
+      },
+      "sedation": {
+        "type": "MAC",
+        "anesthesia_provider": "CRNA",
+        "agents_used": [
+          "Midazolam",
+          "Fentanyl"
+        ],
+        "paralytic_used": false,
+        "reversal_given": false,
+        "reversal_agent": null
+      },
+      "equipment": {
+        "bronchoscope_type": "Therapeutic",
+        "bronchoscope_model": "Olympus BF-P190",
+        "navigation_system": null,
+        "robot_system": null,
+        "ebus_processor": null
+      },
+      "procedures_performed": {
+        "diagnostic_bronchoscopy": true,
+        "bal_performed": false,
+        "brushings_performed": false,
+        "washing_performed": false,
+        "endobronchial_biopsy": null,
+        "transbronchial_biopsy": null,
+        "tbna_performed": false,
+        "ebus_tbna": null,
+        "navigation_bronchoscopy": null,
+        "airway_dilation": {
+          "performed": true,
+          "location": "trachea",
+          "etiology": "Post-intubation",
+          "method": "Balloon",
+          "balloon_diameter_mm": 16,
+          "pre_dilation_diameter_mm": 6,
+          "post_dilation_diameter_mm": 14
+        },
+        "airway_stent": null,
+        "tumor_destruction": null,
+        "foreign_body_removal": null,
+        "blvr_assessment": null,
+        "blvr_valve_placement": null,
+        "whole_lung_lavage": null,
+        "cryobiopsy": null,
+        "thermal_ablation": null
+      },
+      "outcomes": {
+        "technical_success": true,
+        "diagnostic_yield": null,
+        "final_diagnosis": "Post-intubation tracheal stenosis",
+        "final_diagnosis_category": "Stricture/Stenosis",
+        "molecular_markers_obtained": false
+      },
+      "complications": {
+        "any_complication": false,
+        "bleeding": {
+          "occurred": false,
+          "severity": "Mild",
+          "intervention": null
+        },
+        "pneumothorax": {
+          "occurred": false,
+          "intervention": null
+        },
+        "respiratory_failure": false,
+        "infection": false,
+        "other_complication": null,
+        "complication_severity": null
+      },
+      "disposition": {
+        "immediate_disposition": "Recovery",
+        "final_disposition": "Floor admission",
+        "los_hours": null
+      },
+      "follow_up": {
+        "follow_up_scheduled": true,
+        "follow_up_interval_weeks": 4,
+        "repeat_procedure_planned": true
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.9.0",
+        "generated_at": "2025-12-11T20:04:24.997346"
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    "coding_review": {
+      "review_version": "1.0.0",
+      "review_date": "2025-12-11",
+      "reviewer": "IP-Coder-Patch-GPT",
+      "cpt_summary": {
+        "primary_code": "31630",
+        "final_codes": [
+          "31630"
+        ],
+        "modifiers": [],
+        "code_rationales": {
+          "31630": "Bronchoscopy with therapeutic balloon dilation of trachea stenosis."
+        },
+        "coding_decision": "as_documented"
+      },
+      "rvu_summary_2025": {
+        "facility_total_rvu": 6.27,
+        "facility_total_payment": 203,
+        "work_rvu": 3.81,
+        "per_code": {
+          "31630": {
+            "work_rvu": 3.81,
+            "facility_rvu": 6.27,
+            "facility_payment": 203
+          }
+        },
+        "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+        "conversion_factor": 32.3562
+      },
+      "bundling_notes": [
+        "Diagnostic bronchoscopy (31622) is bundled into the therapeutic bronchoscopy code 31630.",
+        "No additional billable procedures performed."
+      ],
+      "overall_assessment": "CPT 31630 appropriately captures bronchoscopy with balloon dilation for post-intubation tracheal stenosis."
+    },
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31630"
+      ],
+      "invalid_codes": []
+    },
+    "generation_metadata": {
+      "generator_version": "1.0.0",
+      "generated_at": "2025-12-11T20:04:24.997400",
+      "scenario_type": "Post-intubation tracheal stenosis",
+      "etiology": "Post-intubation"
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T12:00:00",
+      "changes": [
+        "Added coding_review and billing blocks using 2025 RVU data."
+      ]
+    }
+  },
+  {
+    "note_id": "e7f554e7",
+    "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE NOTE\n\nPATIENT: White, Dorothy\nMRN: 3184705\nDOB: 1949-03-02\nAGE: 36 years | SEX: F\nDATE OF PROCEDURE: 2025-06-27\n\nATTENDING: Dr. L. Garcia\n\nPREOPERATIVE DIAGNOSIS:\nPost-tracheostomy subglottic stenosis\n\nPOSTOPERATIVE DIAGNOSIS:\nSame\n\nPROCEDURE PERFORMED:\nFlexible bronchoscopy with therapeutic balloon dilation (CPT 31630)\n\nCLINICAL HISTORY:\n36-year-old female with history of tracheostomy 10 months ago for airway protection. Patient reports difficulty clearing secretions, voice changes, biphasic stridor at rest, stridor with activity.\n\nANESTHESIA: MAC anesthesia\nAIRWAY: LMA\n\nPROCEDURE DETAILS:\nThe patient was brought to the bronchoscopy suite and positioned supine. Standard monitoring was applied. After adequate sedation, the bronchoscope was introduced transnasally.\n\nFINDINGS:\n- Vocal cords: Normal mobility, no lesions\n- Stenosis identified at 1-2 cm below vocal cords\n- Pre-dilation assessment: 75% luminal narrowing\n- Stenosis length: approximately 2.0 cm\n- Stenosis character: eccentric weblike stenosis\n- Distal airways: Patent and clear\n\nINTERVENTION:\nControlled radial expansion balloon advanced to stenosis site under direct visualization.\nSerial dilations performed:\n- 12mm \u00d7 30 seconds\n- 14mm \u00d7 30 seconds\n- 16mm \u00d7 30 seconds\n\nTotal 2 inflations performed.\nPost-dilation patency improved from 75% to approximately 15% residual narrowing.\nNo significant mucosal injury or bleeding.\nTopical epinephrine 1:10,000 applied prophylactically.\n\nSPECIMENS: None\n\nESTIMATED BLOOD LOSS: Minimal (<5 mL)\n\nCOMPLICATIONS: None\n\nDISPOSITION:\n- Patient extubated and recovered in PACU\n- Admitted for overnight observation\n- Dexamethasone 10mg IV administered post-procedure\n\nIMPRESSION:\nPost-tracheostomy subglottic stenosis successfully treated with balloon dilation. Airway patency improved from 25% to 85%.\n\nPLAN:\n1. Repeat bronchoscopy with dilation in 6 weeks\n2. Pulmonary rehabilitation referral\n3. PFTs prior to next procedure\n4. Call if worsening stridor, dyspnea, or hemoptysis",
+    "cpt_codes": [
+      31630
+    ],
+    "registry_entry": {
+      "patient_mrn": "3184705",
+      "procedure_date": "2025-06-27",
+      "procedure_start_time": "07:15",
+      "procedure_end_time": null,
+      "procedure_duration_minutes": 34,
+      "providers": {
+        "attending_name": "L. Garcia",
+        "attending_npi": null,
+        "fellow_name": null,
+        "fellow_pgy_level": null,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": false,
+        "rose_present": false
+      },
+      "patient_demographics": {
+        "age_years": 36,
+        "gender": "Female",
+        "height_cm": 155,
+        "weight_kg": 59,
+        "bmi": null,
+        "smoking_status": "Former",
+        "pack_years": 23
+      },
+      "clinical_context": {
+        "asa_class": 3,
+        "primary_indication": "Post-tracheostomy subglottic stenosis",
+        "indication_category": "Stricture/Stenosis",
+        "radiographic_findings": "CT showing subglottic region stenosis",
+        "lesion_size_mm": null,
+        "lesion_location": "subglottic region",
+        "pet_avidity": null,
+        "suv_max": null,
+        "bronchus_sign": null
+      },
+      "procedure_setting": {
+        "location": "Bronchoscopy Suite",
+        "patient_position": "Supine",
+        "airway_type": "LMA",
+        "ett_size": null
+      },
+      "sedation": {
+        "type": "MAC",
+        "anesthesia_provider": "Anesthesiologist",
+        "agents_used": [
+          "Midazolam",
+          "Fentanyl"
+        ],
+        "paralytic_used": false,
+        "reversal_given": false,
+        "reversal_agent": null
+      },
+      "equipment": {
+        "bronchoscope_type": "Therapeutic",
+        "bronchoscope_model": "Olympus BF-1TH190",
+        "navigation_system": null,
+        "robot_system": null,
+        "ebus_processor": null
+      },
+      "procedures_performed": {
+        "diagnostic_bronchoscopy": true,
+        "bal_performed": false,
+        "brushings_performed": false,
+        "washing_performed": false,
+        "endobronchial_biopsy": null,
+        "transbronchial_biopsy": null,
+        "tbna_performed": false,
+        "ebus_tbna": null,
+        "navigation_bronchoscopy": null,
+        "airway_dilation": {
+          "performed": true,
+          "location": "subglottic region",
+          "etiology": "Post-tracheostomy",
+          "method": "Balloon",
+          "balloon_diameter_mm": 16,
+          "pre_dilation_diameter_mm": 7,
+          "post_dilation_diameter_mm": 13
+        },
+        "airway_stent": null,
+        "tumor_destruction": null,
+        "foreign_body_removal": null,
+        "blvr_assessment": null,
+        "blvr_valve_placement": null,
+        "whole_lung_lavage": null,
+        "cryobiopsy": null,
+        "thermal_ablation": null
+      },
+      "outcomes": {
+        "technical_success": true,
+        "diagnostic_yield": null,
+        "final_diagnosis": "Post-tracheostomy subglottic stenosis",
+        "final_diagnosis_category": "Stricture/Stenosis",
+        "molecular_markers_obtained": false
+      },
+      "complications": {
+        "any_complication": false,
+        "bleeding": {
+          "occurred": false,
+          "severity": null,
+          "intervention": null
+        },
+        "pneumothorax": {
+          "occurred": false,
+          "intervention": null
+        },
+        "respiratory_failure": false,
+        "infection": false,
+        "other_complication": null,
+        "complication_severity": null
+      },
+      "disposition": {
+        "immediate_disposition": "Recovery",
+        "final_disposition": "Floor admission",
+        "los_hours": 5
+      },
+      "follow_up": {
+        "follow_up_scheduled": true,
+        "follow_up_interval_weeks": 4,
+        "repeat_procedure_planned": true
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.9.0",
+        "generated_at": "2025-12-11T20:04:24.997521"
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    "coding_review": {
+      "review_version": "1.0.0",
+      "review_date": "2025-12-11",
+      "reviewer": "IP-Coder-Patch-GPT",
+      "cpt_summary": {
+        "primary_code": "31630",
+        "final_codes": [
+          "31630"
+        ],
+        "modifiers": [],
+        "code_rationales": {
+          "31630": "Bronchoscopy with therapeutic balloon dilation of subglottic stenosis."
+        },
+        "coding_decision": "as_documented"
+      },
+      "rvu_summary_2025": {
+        "facility_total_rvu": 6.27,
+        "facility_total_payment": 203,
+        "work_rvu": 3.81,
+        "per_code": {
+          "31630": {
+            "work_rvu": 3.81,
+            "facility_rvu": 6.27,
+            "facility_payment": 203
+          }
+        },
+        "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+        "conversion_factor": 32.3562
+      },
+      "bundling_notes": [
+        "Diagnostic bronchoscopy (31622) is bundled into therapeutic dilation (31630)."
+      ],
+      "overall_assessment": "CPT 31630 correctly assigned for balloon dilation of post-tracheostomy subglottic stenosis."
+    },
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31630"
+      ],
+      "invalid_codes": []
+    },
+    "generation_metadata": {
+      "generator_version": "1.0.0",
+      "generated_at": "2025-12-11T20:04:24.997577",
+      "scenario_type": "Post-tracheostomy subglottic stenosis",
+      "etiology": "Post-tracheostomy"
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T12:00:00",
+      "changes": [
+        "Added coding_review and billing blocks using 2025 RVU data."
+      ]
+    }
+  },
+  {
+    "note_id": "30c24a80",
+    "note_text": "INTERVENTIONAL PULMONOLOGY\nBRONCHOSCOPY WITH THERAPEUTIC AIRWAY DILATION\n\nPatient Name: Brown, Timothy\nMedical Record Number: 3225609\nDate of Service: 2025-06-22\nAttending Physician: Dr. S. Kim\nFellow: Dr. M. Patel (PGY-5)\n\nCLINICAL INDICATION:\nAnastomotic bronchial stricture post lung transplant\n\nHISTORY OF PRESENT ILLNESS:\nThis is a 54-year-old male patient with status post bilateral lung transplant 23 months ago for COPD. The patient has experienced exercise intolerance and difficulty clearing secretions over the past 2 weeks. Recent CT imaging demonstrated bronchial anastomosis narrowing. Pulmonary function testing showed variable extrathoracic obstruction.\n\nPROCEDURE PERFORMED:\nDiagnostic and therapeutic flexible bronchoscopy with balloon dilation of bronchial anastomosis stenosis (CPT Code: 31630)\n\nANESTHESIA AND AIRWAY MANAGEMENT:\nGeneral anesthesia was administered by the anesthesia team. Airway was secured with a 8.0mm endotracheal tube.\n\nPROCEDURAL TECHNIQUE:\nFollowing standard preparation and time-out verification, the flexible bronchoscope (Olympus BF-1TH190) was introduced through the endotracheal tube. Systematic airway inspection was performed.\n\nBRONCHOSCOPIC FINDINGS:\nThe vocal cords demonstrated normal mobility bilaterally without evidence of paralysis or lesion. The bronchial anastomosis stenosis was identified at left/right mainstem bronchus at anastomotic site. The stenosis was characterized as circumferential fibrous scarring with approximately 77% luminal compromise. Stenosis length measured approximately 1.5 cm. The airways distal to the stenosis appeared patent without additional pathology.\n\nTHERAPEUTIC INTERVENTION:\nA Hurricane balloon was utilized for graduated airway dilation:\n- Initial dilation: 6mm balloon inflated to rated burst pressure for 30 seconds\n- Intermediate dilation: 8mm balloon inflated for 30 seconds\n- Final dilation: 10mm balloon inflated for 30 seconds\n\nA total of 4 inflation cycles were performed. Post-dilation inspection demonstrated improvement in luminal patency from approximately 23% to 79% of expected diameter. Minor mucosal disruption was noted without significant hemorrhage. Topical epinephrine (1:10,000) was applied prophylactically.\n\nSPECIMENS OBTAINED: None\n\nCOMPLICATIONS: None encountered\n\nPOST-PROCEDURE MANAGEMENT:\nThe patient was extubated without difficulty and transferred to the recovery area in stable condition. Intravenous dexamethasone 8mg was administered to reduce post-procedural airway edema. The patient was admitted for overnight observation given the degree of stenosis.\n\nASSESSMENT:\nAnastomotic bronchial stricture post lung transplant with successful balloon dilation. Airway patency improved from 23% to 79% estimated lumen.\n\nRECOMMENDATIONS:\n1. Repeat bronchoscopy with dilation planned in 4 weeks to assess durability of response\n2. Pulmonary function testing prior to repeat procedure for objective assessment\n3. Consider airway stent placement if adequate lumen cannot be maintained with serial dilations\n4. Voice rest for 24 hours, soft diet\n5. Patient instructed to seek immediate medical attention for worsening stridor, respiratory distress, or hemoptysis\n\nProcedure performed by: Dr. S. Kim\nSupervised trainee: Dr. M. Patel (PGY-5)\nElectronically signed: 2025-06-22",
+    "cpt_codes": [
+      31630
+    ],
+    "registry_entry": {
+      "patient_mrn": "3225609",
+      "procedure_date": "2025-06-22",
+      "procedure_start_time": "13:30",
+      "procedure_end_time": null,
+      "procedure_duration_minutes": 34,
+      "providers": {
+        "attending_name": "S. Kim",
+        "attending_npi": null,
+        "fellow_name": "M. Patel",
+        "fellow_pgy_level": 7,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": true,
+        "rose_present": false
+      },
+      "patient_demographics": {
+        "age_years": 54,
+        "gender": "Male",
+        "height_cm": 159,
+        "weight_kg": 73,
+        "bmi": null,
+        "smoking_status": "Never",
+        "pack_years": 42
+      },
+      "clinical_context": {
+        "asa_class": 4,
+        "primary_indication": "Anastomotic bronchial stricture post lung transplant",
+        "indication_category": "Stricture/Stenosis",
+        "radiographic_findings": "CT showing bronchial anastomosis stenosis",
+        "lesion_size_mm": null,
+        "lesion_location": "bronchial anastomosis",
+        "pet_avidity": null,
+        "suv_max": null,
+        "bronchus_sign": null
+      },
+      "procedure_setting": {
+        "location": "OR",
+        "patient_position": "Supine",
+        "airway_type": "ETT",
+        "ett_size": 8.0
+      },
+      "sedation": {
+        "type": "General",
+        "anesthesia_provider": "Anesthesiologist",
+        "agents_used": [
+          "Propofol",
+          "Fentanyl"
+        ],
+        "paralytic_used": true,
+        "reversal_given": false,
+        "reversal_agent": null
+      },
+      "equipment": {
+        "bronchoscope_type": "Therapeutic",
+        "bronchoscope_model": "Olympus BF-P190",
+        "navigation_system": null,
+        "robot_system": null,
+        "ebus_processor": null
+      },
+      "procedures_performed": {
+        "diagnostic_bronchoscopy": true,
+        "bal_performed": false,
+        "brushings_performed": false,
+        "washing_performed": false,
+        "endobronchial_biopsy": null,
+        "transbronchial_biopsy": null,
+        "tbna_performed": false,
+        "ebus_tbna": null,
+        "navigation_bronchoscopy": null,
+        "airway_dilation": {
+          "performed": true,
+          "location": "bronchial anastomosis",
+          "etiology": "Anastomotic",
+          "method": "Balloon",
+          "balloon_diameter_mm": 10,
+          "pre_dilation_diameter_mm": 5,
+          "post_dilation_diameter_mm": 10
+        },
+        "airway_stent": null,
+        "tumor_destruction": null,
+        "foreign_body_removal": null,
+        "blvr_assessment": null,
+        "blvr_valve_placement": null,
+        "whole_lung_lavage": null,
+        "cryobiopsy": null,
+        "thermal_ablation": null
+      },
+      "outcomes": {
+        "technical_success": true,
+        "diagnostic_yield": null,
+        "final_diagnosis": "Anastomotic bronchial stricture post lung transplant",
+        "final_diagnosis_category": "Stricture/Stenosis",
+        "molecular_markers_obtained": false
+      },
+      "complications": {
+        "any_complication": false,
+        "bleeding": {
+          "occurred": false,
+          "severity": null,
+          "intervention": null
+        },
+        "pneumothorax": {
+          "occurred": false,
+          "intervention": null
+        },
+        "respiratory_failure": false,
+        "infection": false,
+        "other_complication": null,
+        "complication_severity": null
+      },
+      "disposition": {
+        "immediate_disposition": "Recovery",
+        "final_disposition": "Home same day",
+        "los_hours": null
+      },
+      "follow_up": {
+        "follow_up_scheduled": true,
+        "follow_up_interval_weeks": 6,
+        "repeat_procedure_planned": true
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.9.0",
+        "generated_at": "2025-12-11T20:04:24.997665"
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    "coding_review": {
+      "review_version": "1.0.0",
+      "review_date": "2025-12-11",
+      "reviewer": "IP-Coder-Patch-GPT",
+      "cpt_summary": {
+        "primary_code": "31630",
+        "final_codes": [
+          "31630"
+        ],
+        "modifiers": [],
+        "code_rationales": {
+          "31630": "Bronchoscopy with therapeutic balloon dilation of bronchial anastomosis stricture."
+        },
+        "coding_decision": "as_documented"
+      },
+      "rvu_summary_2025": {
+        "facility_total_rvu": 6.27,
+        "facility_total_payment": 203,
+        "work_rvu": 3.81,
+        "per_code": {
+          "31630": {
+            "work_rvu": 3.81,
+            "facility_rvu": 6.27,
+            "facility_payment": 203
+          }
+        },
+        "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+        "conversion_factor": 32.3562
+      },
+      "bundling_notes": [
+        "Diagnostic bronchoscopy (31622) is bundled."
+      ],
+      "overall_assessment": "Correctly coded as 31630 for anastomotic stricture dilation."
+    },
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31630"
+      ],
+      "invalid_codes": []
+    },
+    "generation_metadata": {
+      "generator_version": "1.0.0",
+      "generated_at": "2025-12-11T20:04:24.997704",
+      "scenario_type": "Anastomotic bronchial stricture post lung transplant",
+      "etiology": "Anastomotic"
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T12:00:00",
+      "changes": [
+        "Added coding_review and billing blocks using 2025 RVU data."
+      ]
+    }
+  },
+  {
+    "note_id": "9669b068",
+    "note_text": "INTERVENTIONAL PULMONOLOGY\nBRONCHOSCOPY WITH THERAPEUTIC AIRWAY DILATION\n\nPatient Name: Thomas, Donna\nMedical Record Number: 8305136\nDate of Service: 2024-02-26\nAttending Physician: Dr. N. Shah\n\n\nCLINICAL INDICATION:\nIdiopathic subglottic stenosis (iSGS)\n\nHISTORY OF PRESENT ILLNESS:\nThis is a 50-year-old female patient with history of recurrent idiopathic subglottic stenosis, 2 prior dilations. The patient has experienced exercise intolerance and recurrent respiratory infections over the past 5 weeks. Recent CT imaging demonstrated subglottic narrowing. Pulmonary function testing showed variable extrathoracic obstruction.\n\nPROCEDURE PERFORMED:\nDiagnostic and therapeutic flexible bronchoscopy with balloon dilation of subglottic region stenosis (CPT Code: 31630)\n\nANESTHESIA AND AIRWAY MANAGEMENT:\nGeneral anesthesia was administered by the anesthesia team. Airway was secured with a 8.0mm endotracheal tube.\n\nPROCEDURAL TECHNIQUE:\nFollowing standard preparation and time-out verification, the flexible bronchoscope (Olympus BF-1TH190) was introduced through the endotracheal tube. Systematic airway inspection was performed.\n\nBRONCHOSCOPIC FINDINGS:\nThe vocal cords demonstrated normal mobility bilaterally without evidence of paralysis or lesion. Subglottic stenosis was identified at immediately below vocal cords. The stenosis was characterized as mature cicatricial stricture with approximately 71% luminal compromise. Stenosis length measured approximately 1.0 cm. The airways distal to the stenosis appeared patent without additional pathology.\n\nTHERAPEUTIC INTERVENTION:\nA Hurricane balloon was utilized for graduated airway dilation:\n- Initial dilation: 10mm balloon inflated to nominal pressure for 90 seconds\n- Intermediate dilation: 12mm balloon inflated for 90 seconds\n- Final dilation: 15mm balloon inflated for 90 seconds\n\nA total of 3 inflation cycles were performed. Post-dilation inspection demonstrated improvement in luminal patency from approximately 29% to 68% of expected diameter. Minor mucosal disruption was noted without significant hemorrhage. Topical epinephrine (1:10,000) was applied prophylactically.\n\nSPECIMENS OBTAINED: None\n\nCOMPLICATIONS: minimal mucosal bleeding, self-limited\n\nPOST-PROCEDURE MANAGEMENT:\nThe patient was extubated without difficulty and transferred to the recovery area in stable condition. Intravenous dexamethasone 10mg was administered to reduce post-procedural airway edema. The patient was admitted for overnight observation given the degree of stenosis.\n\nASSESSMENT:\nIdiopathic subglottic stenosis (iSGS) with successful balloon dilation. Airway patency improved from 29% to 68% estimated lumen.\n\nRECOMMENDATIONS:\n1. Repeat bronchoscopy with dilation planned in 8 weeks to assess durability of response\n2. Pulmonary function testing prior to repeat procedure for objective assessment\n3. Continue conservative management with serial dilations; surgical referral for tracheal resection if refractory\n4. Voice rest for 24 hours, soft diet\n5. Patient instructed to seek immediate medical attention for worsening stridor, respiratory distress, or hemoptysis\n\nProcedure performed by: Dr. N. Shah\n\nElectronically signed: 2024-02-26",
+    "cpt_codes": [
+      31630
+    ],
+    "registry_entry": {
+      "patient_mrn": "8305136",
+      "procedure_date": "2024-02-26",
+      "procedure_start_time": "13:30",
+      "procedure_end_time": null,
+      "procedure_duration_minutes": 33,
+      "providers": {
+        "attending_name": "N. Shah",
+        "attending_npi": null,
+        "fellow_name": null,
+        "fellow_pgy_level": null,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": false,
+        "rose_present": false
+      },
+      "patient_demographics": {
+        "age_years": 50,
+        "gender": "Female",
+        "height_cm": 154,
+        "weight_kg": 94,
+        "bmi": null,
+        "smoking_status": "Former",
+        "pack_years": 29
+      },
+      "clinical_context": {
+        "asa_class": 2,
+        "primary_indication": "Idiopathic subglottic stenosis (iSGS)",
+        "indication_category": "Stricture/Stenosis",
+        "radiographic_findings": "CT showing subglottic region stenosis",
+        "lesion_size_mm": null,
+        "lesion_location": "subglottic region",
+        "pet_avidity": null,
+        "suv_max": null,
+        "bronchus_sign": null
+      },
+      "procedure_setting": {
+        "location": "OR",
+        "patient_position": "Supine",
+        "airway_type": "ETT",
+        "ett_size": 8.0
+      },
+      "sedation": {
+        "type": "General",
+        "anesthesia_provider": "Anesthesiologist",
+        "agents_used": [
+          "Propofol",
+          "Fentanyl"
+        ],
+        "paralytic_used": true,
+        "reversal_given": false,
+        "reversal_agent": null
+      },
+      "equipment": {
+        "bronchoscope_type": "Therapeutic",
+        "bronchoscope_model": "Olympus BF-1TH190",
+        "navigation_system": null,
+        "robot_system": null,
+        "ebus_processor": null
+      },
+      "procedures_performed": {
+        "diagnostic_bronchoscopy": true,
+        "bal_performed": false,
+        "brushings_performed": false,
+        "washing_performed": false,
+        "endobronchial_biopsy": null,
+        "transbronchial_biopsy": null,
+        "tbna_performed": false,
+        "ebus_tbna": null,
+        "navigation_bronchoscopy": null,
+        "airway_dilation": {
+          "performed": true,
+          "location": "subglottic region",
+          "etiology": "Idiopathic",
+          "method": "Balloon",
+          "balloon_diameter_mm": 15,
+          "pre_dilation_diameter_mm": 7,
+          "post_dilation_diameter_mm": 12
+        },
+        "airway_stent": null,
+        "tumor_destruction": null,
+        "foreign_body_removal": null,
+        "blvr_assessment": null,
+        "blvr_valve_placement": null,
+        "whole_lung_lavage": null,
+        "cryobiopsy": null,
+        "thermal_ablation": null
+      },
+      "outcomes": {
+        "technical_success": true,
+        "diagnostic_yield": null,
+        "final_diagnosis": "Idiopathic subglottic stenosis (iSGS)",
+        "final_diagnosis_category": "Stricture/Stenosis",
+        "molecular_markers_obtained": false
+      },
+      "complications": {
+        "any_complication": true,
+        "bleeding": {
+          "occurred": false,
+          "severity": null,
+          "intervention": null
+        },
+        "pneumothorax": {
+          "occurred": false,
+          "intervention": null
+        },
+        "respiratory_failure": false,
+        "infection": false,
+        "other_complication": "minimal mucosal bleeding, self-limited",
+        "complication_severity": "Mild"
+      },
+      "disposition": {
+        "immediate_disposition": "PACU",
+        "final_disposition": "Floor admission",
+        "los_hours": null
+      },
+      "follow_up": {
+        "follow_up_scheduled": true,
+        "follow_up_interval_weeks": 4,
+        "repeat_procedure_planned": true
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.9.0",
+        "generated_at": "2025-12-11T20:04:24.997777"
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    "coding_review": {
+      "review_version": "1.0.0",
+      "review_date": "2025-12-11",
+      "reviewer": "IP-Coder-Patch-GPT",
+      "cpt_summary": {
+        "primary_code": "31630",
+        "final_codes": [
+          "31630"
+        ],
+        "modifiers": [],
+        "code_rationales": {
+          "31630": "Bronchoscopy with therapeutic balloon dilation of idiopathic subglottic stenosis."
+        },
+        "coding_decision": "as_documented"
+      },
+      "rvu_summary_2025": {
+        "facility_total_rvu": 6.27,
+        "facility_total_payment": 203,
+        "work_rvu": 3.81,
+        "per_code": {
+          "31630": {
+            "work_rvu": 3.81,
+            "facility_rvu": 6.27,
+            "facility_payment": 203
+          }
+        },
+        "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+        "conversion_factor": 32.3562
+      },
+      "bundling_notes": [
+        "Diagnostic bronchoscopy bundled."
+      ],
+      "overall_assessment": "Appropriate use of 31630 for iSGS dilation."
+    },
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31630"
+      ],
+      "invalid_codes": []
+    },
+    "generation_metadata": {
+      "generator_version": "1.0.0",
+      "generated_at": "2025-12-11T20:04:24.997814",
+      "scenario_type": "Idiopathic subglottic stenosis (iSGS)",
+      "etiology": "Idiopathic"
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T12:00:00",
+      "changes": [
+        "Added coding_review and billing blocks using 2025 RVU data."
+      ]
+    }
+  },
+  {
+    "note_id": "a549b90b",
+    "note_text": "PT: Williams, Joshua | 48M | MRN 6784292\nDATE: 2025-04-24\nPROVIDER: Dr. J. Williams / Dr. M. Patel\nINDICATION:\n\nGranulomatosis with polyangiitis (GPA) related subglottic stenosis\nKnown gpa on immunosuppression, progressive dyspnea and stridor\nSx: difficulty clearing secretions, voice changes\n\nPROCEDURE: Flex bronch + Balloon dilation (31630)\nSEDATION: General (ETT)\nFINDINGS:\n\nCords: WNL\nStenosis at subglottic region extending 1.5 cm\nPre: ~79% narrowing, weblike\nLength: ~1.0cm\n\nINTERVENTION:\n\nControlled radial expansion balloon\nSerial dilation: 10\u219212\u219214mm\n2 inflations \u00d7 45sec each\nPost: ~17% residual\nNo bleeding\n\nSPECIMENS: None\nCOMPLICATIONS: minor mucosal tear, no intervention required\nDISPOSITION:\n\nAdmit overnight\nDecadron 8mg IV given\nF/u bronch 6 wks\n\nPLAN:\n\u2192 Repeat dilation PRN\n\u2192 Consider stent if <3 successful dilations\n\u2192 PFTs before next scope",
+    "cpt_codes": [
+      31630
+    ],
+    "registry_entry": {
+      "patient_mrn": "6784292",
+      "procedure_date": "2025-04-24",
+      "procedure_start_time": "13:30",
+      "procedure_end_time": null,
+      "procedure_duration_minutes": 33,
+      "providers": {
+        "attending_name": "J. Williams",
+        "attending_npi": null,
+        "fellow_name": "M. Patel",
+        "fellow_pgy_level": 6,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": true,
+        "rose_present": false
+      },
+      "patient_demographics": {
+        "age_years": 48,
+        "gender": "Male",
+        "height_cm": 173,
+        "weight_kg": 92,
+        "bmi": null,
+        "smoking_status": "Unknown",
+        "pack_years": 11
+      },
+      "clinical_context": {
+        "asa_class": 3,
+        "primary_indication": "Granulomatosis with polyangiitis (GPA) related subglottic stenosis",
+        "indication_category": "Stricture/Stenosis",
+        "radiographic_findings": "CT showing subglottic region stenosis",
+        "lesion_size_mm": null,
+        "lesion_location": "subglottic region",
+        "pet_avidity": null,
+        "suv_max": null,
+        "bronchus_sign": null
+      },
+      "procedure_setting": {
+        "location": "Bronchoscopy Suite",
+        "patient_position": "Supine",
+        "airway_type": "ETT",
+        "ett_size": 8.5
+      },
+      "sedation": {
+        "type": "General",
+        "anesthesia_provider": "Anesthesiologist",
+        "agents_used": [
+          "Propofol",
+          "Fentanyl"
+        ],
+        "paralytic_used": true,
+        "reversal_given": false,
+        "reversal_agent": null
+      },
+      "equipment": {
+        "bronchoscope_type": "Therapeutic",
+        "bronchoscope_model": "Olympus BF-1TH190",
+        "navigation_system": null,
+        "robot_system": null,
+        "ebus_processor": null
+      },
+      "procedures_performed": {
+        "diagnostic_bronchoscopy": true,
+        "bal_performed": false,
+        "brushings_performed": false,
+        "washing_performed": false,
+        "endobronchial_biopsy": null,
+        "transbronchial_biopsy": null,
+        "tbna_performed": false,
+        "ebus_tbna": null,
+        "navigation_bronchoscopy": null,
+        "airway_dilation": {
+          "performed": true,
+          "location": "subglottic region",
+          "etiology": "Inflammatory",
+          "method": "Balloon",
+          "balloon_diameter_mm": 14,
+          "pre_dilation_diameter_mm": 4,
+          "post_dilation_diameter_mm": 12
+        },
+        "airway_stent": null,
+        "tumor_destruction": null,
+        "foreign_body_removal": null,
+        "blvr_assessment": null,
+        "blvr_valve_placement": null,
+        "whole_lung_lavage": null,
+        "cryobiopsy": null,
+        "thermal_ablation": null
+      },
+      "outcomes": {
+        "technical_success": true,
+        "diagnostic_yield": null,
+        "final_diagnosis": "Granulomatosis with polyangiitis (GPA) related subglottic stenosis",
+        "final_diagnosis_category": "Stricture/Stenosis",
+        "molecular_markers_obtained": false
+      },
+      "complications": {
+        "any_complication": true,
+        "bleeding": {
+          "occurred": true,
+          "severity": null,
+          "intervention": null
+        },
+        "pneumothorax": {
+          "occurred": false,
+          "intervention": null
+        },
+        "respiratory_failure": false,
+        "infection": false,
+        "other_complication": "minor mucosal tear, no intervention required",
+        "complication_severity": "Mild"
+      },
+      "disposition": {
+        "immediate_disposition": "PACU",
+        "final_disposition": "Floor admission",
+        "los_hours": 13
+      },
+      "follow_up": {
+        "follow_up_scheduled": true,
+        "follow_up_interval_weeks": 6,
+        "repeat_procedure_planned": true
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.9.0",
+        "generated_at": "2025-12-11T20:04:24.997884"
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    "coding_review": {
+      "review_version": "1.0.0",
+      "review_date": "2025-12-11",
+      "reviewer": "IP-Coder-Patch-GPT",
+      "cpt_summary": {
+        "primary_code": "31630",
+        "final_codes": [
+          "31630"
+        ],
+        "modifiers": [],
+        "code_rationales": {
+          "31630": "Bronchoscopy with therapeutic balloon dilation of GPA-related subglottic stenosis."
+        },
+        "coding_decision": "as_documented"
+      },
+      "rvu_summary_2025": {
+        "facility_total_rvu": 6.27,
+        "facility_total_payment": 203,
+        "work_rvu": 3.81,
+        "per_code": {
+          "31630": {
+            "work_rvu": 3.81,
+            "facility_rvu": 6.27,
+            "facility_payment": 203
+          }
+        },
+        "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+        "conversion_factor": 32.3562
+      },
+      "bundling_notes": [
+        "Diagnostic bronchoscopy bundled."
+      ],
+      "overall_assessment": "Correctly coded as 31630."
+    },
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31630"
+      ],
+      "invalid_codes": []
+    },
+    "generation_metadata": {
+      "generator_version": "1.0.0",
+      "generated_at": "2025-12-11T20:04:24.997911",
+      "scenario_type": "Granulomatosis with polyangiitis (GPA) related subglottic stenosis",
+      "etiology": "Inflammatory"
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T12:00:00",
+      "changes": [
+        "Added coding_review and billing blocks using 2025 RVU data."
+      ]
+    }
+  },
+  {
+    "note_id": "18d2df08",
+    "note_text": "PT: Lopez, Jessica | 73F | MRN 4376848\nDATE: 2025-03-11\nPROVIDER: Dr. S. Kim\nINDICATION:\n\nPost-intubation bronchus intermedius stenosis\nPrior prolonged intubation with right mainstem intubation\nSx: difficulty clearing secretions, recurrent respiratory infections\n\nPROCEDURE: Flex bronch + Balloon dilation (31630)\nSEDATION: General (ETT)\nFINDINGS:\n\nCords: WNL\nStenosis at bronchus intermedius, 2 cm below carina\nPre: ~55% narrowing, circumferential\nLength: ~1.0cm\n\nINTERVENTION:\n\nControlled radial expansion balloon\nSerial dilation: 6\u21928\u219210mm\n2 inflations \u00d7 60sec each\nPost: ~26% residual\nMinimal mucosal ooze, self-limited\n\nSPECIMENS: None\nCOMPLICATIONS: None\nDISPOSITION:\n\nAdmit overnight\nDecadron 10mg IV given\nF/u bronch 6 wks\n\nPLAN:\n\u2192 Repeat dilation PRN\n\u2192 Consider stent if <3 successful dilations\n\u2192 PFTs before next scope",
+    "cpt_codes": [
+      31630
+    ],
+    "registry_entry": {
+      "patient_mrn": "4376848",
+      "procedure_date": "2025-03-11",
+      "procedure_start_time": "09:00",
+      "procedure_end_time": null,
+      "procedure_duration_minutes": 41,
+      "providers": {
+        "attending_name": "S. Kim",
+        "attending_npi": null,
+        "fellow_name": null,
+        "fellow_pgy_level": null,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": false,
+        "rose_present": false
+      },
+      "patient_demographics": {
+        "age_years": 73,
+        "gender": "Female",
+        "height_cm": 155,
+        "weight_kg": 69,
+        "bmi": null,
+        "smoking_status": "Never",
+        "pack_years": 43
+      },
+      "clinical_context": {
+        "asa_class": 3,
+        "primary_indication": "Post-intubation bronchus intermedius stenosis",
+        "indication_category": "Stricture/Stenosis",
+        "radiographic_findings": "CT showing bronchus intermedius stenosis",
+        "lesion_size_mm": null,
+        "lesion_location": "bronchus intermedius",
+        "pet_avidity": null,
+        "suv_max": null,
+        "bronchus_sign": null
+      },
+      "procedure_setting": {
+        "location": "OR",
+        "patient_position": "Supine",
+        "airway_type": "ETT",
+        "ett_size": 8.0
+      },
+      "sedation": {
+        "type": "General",
+        "anesthesia_provider": "Anesthesiologist",
+        "agents_used": [
+          "Propofol",
+          "Fentanyl"
+        ],
+        "paralytic_used": true,
+        "reversal_given": false,
+        "reversal_agent": null
+      },
+      "equipment": {
+        "bronchoscope_type": "Therapeutic",
+        "bronchoscope_model": "Fujifilm EB-580T",
+        "navigation_system": null,
+        "robot_system": null,
+        "ebus_processor": null
+      },
+      "procedures_performed": {
+        "diagnostic_bronchoscopy": true,
+        "bal_performed": false,
+        "brushings_performed": false,
+        "washing_performed": false,
+        "endobronchial_biopsy": null,
+        "transbronchial_biopsy": null,
+        "tbna_performed": false,
+        "ebus_tbna": null,
+        "navigation_bronchoscopy": null,
+        "airway_dilation": {
+          "performed": true,
+          "location": "bronchus intermedius",
+          "etiology": "Post-intubation",
+          "method": "Balloon",
+          "balloon_diameter_mm": 10,
+          "pre_dilation_diameter_mm": 5,
+          "post_dilation_diameter_mm": 10
+        },
+        "airway_stent": null,
+        "tumor_destruction": null,
+        "foreign_body_removal": null,
+        "blvr_assessment": null,
+        "blvr_valve_placement": null,
+        "whole_lung_lavage": null,
+        "cryobiopsy": null,
+        "thermal_ablation": null
+      },
+      "outcomes": {
+        "technical_success": true,
+        "diagnostic_yield": null,
+        "final_diagnosis": "Post-intubation bronchus intermedius stenosis",
+        "final_diagnosis_category": "Stricture/Stenosis",
+        "molecular_markers_obtained": false
+      },
+      "complications": {
+        "any_complication": false,
+        "bleeding": {
+          "occurred": false,
+          "severity": null,
+          "intervention": null
+        },
+        "pneumothorax": {
+          "occurred": false,
+          "intervention": null
+        },
+        "respiratory_failure": false,
+        "infection": false,
+        "other_complication": null,
+        "complication_severity": null
+      },
+      "disposition": {
+        "immediate_disposition": "PACU",
+        "final_disposition": "Floor admission",
+        "los_hours": null
+      },
+      "follow_up": {
+        "follow_up_scheduled": true,
+        "follow_up_interval_weeks": 4,
+        "repeat_procedure_planned": true
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.9.0",
+        "generated_at": "2025-12-11T20:04:24.997977"
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    "coding_review": {
+      "review_version": "1.0.0",
+      "review_date": "2025-12-11",
+      "reviewer": "IP-Coder-Patch-GPT",
+      "cpt_summary": {
+        "primary_code": "31630",
+        "final_codes": [
+          "31630"
+        ],
+        "modifiers": [],
+        "code_rationales": {
+          "31630": "Bronchoscopy with therapeutic balloon dilation of bronchus intermedius stenosis."
+        },
+        "coding_decision": "as_documented"
+      },
+      "rvu_summary_2025": {
+        "facility_total_rvu": 6.27,
+        "facility_total_payment": 203,
+        "work_rvu": 3.81,
+        "per_code": {
+          "31630": {
+            "work_rvu": 3.81,
+            "facility_rvu": 6.27,
+            "facility_payment": 203
+          }
+        },
+        "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+        "conversion_factor": 32.3562
+      },
+      "bundling_notes": [
+        "Diagnostic bronchoscopy bundled."
+      ],
+      "overall_assessment": "Correctly coded as 31630."
+    },
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31630"
+      ],
+      "invalid_codes": []
+    },
+    "generation_metadata": {
+      "generator_version": "1.0.0",
+      "generated_at": "2025-12-11T20:04:24.998005",
+      "scenario_type": "Post-intubation bronchus intermedius stenosis",
+      "etiology": "Post-intubation"
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T12:00:00",
+      "changes": [
+        "Added coding_review and billing blocks using 2025 RVU data."
+      ]
+    }
+  },
+  {
+    "note_id": "b0715249",
+    "note_text": "PT: Wilson, Donald | 52M | MRN 2066368\nDATE: 2025-02-13\nPROVIDER: Dr. D. Anderson / Dr. H. Nguyen\nINDICATION:\n\nBronchial stricture post sleeve resection\nStatus post right upper lobe sleeve resection for lung cancer 10 months ago\nSx: voice changes, stridor with activity\n\nPROCEDURE: Flex bronch + Balloon dilation (31630)\nSEDATION: Deep (Native)\nFINDINGS:\n\nCords: WNL\nStenosis at right upper lobe bronchus anastomosis\nPre: ~74% narrowing, circumferential\nLength: ~2.0cm\n\nINTERVENTION:\n\nHurricane balloon\nSerial dilation: 6\u21928\u21929mm\n4 inflations \u00d7 45sec each\nPost: ~28% residual\nMinimal mucosal ooze, self-limited\n\nSPECIMENS: None\nCOMPLICATIONS: None\nDISPOSITION:\n\nAdmit overnight\nDecadron 10mg IV given\nF/u bronch 6 wks\n\nPLAN:\n\u2192 Repeat dilation PRN\n\u2192 Consider stent if <3 successful dilations\n\u2192 PFTs before next scope",
+    "cpt_codes": [
+      31630
+    ],
+    "registry_entry": {
+      "patient_mrn": "2066368",
+      "procedure_date": "2025-02-13",
+      "procedure_start_time": "10:45",
+      "procedure_end_time": null,
+      "procedure_duration_minutes": 47,
+      "providers": {
+        "attending_name": "D. Anderson",
+        "attending_npi": null,
+        "fellow_name": "H. Nguyen",
+        "fellow_pgy_level": 5,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": true,
+        "rose_present": false
+      },
+      "patient_demographics": {
+        "age_years": 52,
+        "gender": "Male",
+        "height_cm": 166,
+        "weight_kg": 92,
+        "bmi": null,
+        "smoking_status": "Former",
+        "pack_years": null
+      },
+      "clinical_context": {
+        "asa_class": 3,
+        "primary_indication": "Bronchial stricture post sleeve resection",
+        "indication_category": "Stricture/Stenosis",
+        "radiographic_findings": "CT showing bronchial anastomosis stenosis",
+        "lesion_size_mm": null,
+        "lesion_location": "bronchial anastomosis",
+        "pet_avidity": null,
+        "suv_max": null,
+        "bronchus_sign": null
+      },
+      "procedure_setting": {
+        "location": "Bronchoscopy Suite",
+        "patient_position": "Supine",
+        "airway_type": "Native",
+        "ett_size": null
+      },
+      "sedation": {
+        "type": "Deep",
+        "anesthesia_provider": "Anesthesiologist",
+        "agents_used": [
+          "Propofol",
+          "Fentanyl"
+        ],
+        "paralytic_used": false,
+        "reversal_given": false,
+        "reversal_agent": null
+      },
+      "equipment": {
+        "bronchoscope_type": "Therapeutic",
+        "bronchoscope_model": "Olympus BF-P190",
+        "navigation_system": null,
+        "robot_system": null,
+        "ebus_processor": null
+      },
+      "procedures_performed": {
+        "diagnostic_bronchoscopy": true,
+        "bal_performed": false,
+        "brushings_performed": false,
+        "washing_performed": false,
+        "endobronchial_biopsy": null,
+        "transbronchial_biopsy": null,
+        "tbna_performed": false,
+        "ebus_tbna": null,
+        "navigation_bronchoscopy": null,
+        "airway_dilation": {
+          "performed": true,
+          "location": "bronchial anastomosis",
+          "etiology": "Anastomotic",
+          "method": "Balloon",
+          "balloon_diameter_mm": 9,
+          "pre_dilation_diameter_mm": 4,
+          "post_dilation_diameter_mm": 9
+        },
+        "airway_stent": null,
+        "tumor_destruction": null,
+        "foreign_body_removal": null,
+        "blvr_assessment": null,
+        "blvr_valve_placement": null,
+        "whole_lung_lavage": null,
+        "cryobiopsy": null,
+        "thermal_ablation": null
+      },
+      "outcomes": {
+        "technical_success": true,
+        "diagnostic_yield": null,
+        "final_diagnosis": "Bronchial stricture post sleeve resection",
+        "final_diagnosis_category": "Stricture/Stenosis",
+        "molecular_markers_obtained": false
+      },
+      "complications": {
+        "any_complication": false,
+        "bleeding": {
+          "occurred": true,
+          "severity": "Mild",
+          "intervention": null
+        },
+        "pneumothorax": {
+          "occurred": false,
+          "intervention": null
+        },
+        "respiratory_failure": false,
+        "infection": false,
+        "other_complication": null,
+        "complication_severity": null
+      },
+      "disposition": {
+        "immediate_disposition": "Recovery",
+        "final_disposition": "Observation unit",
+        "los_hours": null
+      },
+      "follow_up": {
+        "follow_up_scheduled": true,
+        "follow_up_interval_weeks": 6,
+        "repeat_procedure_planned": true
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.9.0",
+        "generated_at": "2025-12-11T20:04:24.998073"
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    "coding_review": {
+      "review_version": "1.0.0",
+      "review_date": "2025-12-11",
+      "reviewer": "IP-Coder-Patch-GPT",
+      "cpt_summary": {
+        "primary_code": "31630",
+        "final_codes": [
+          "31630"
+        ],
+        "modifiers": [],
+        "code_rationales": {
+          "31630": "Bronchoscopy with therapeutic balloon dilation of RUL bronchial anastomosis."
+        },
+        "coding_decision": "as_documented"
+      },
+      "rvu_summary_2025": {
+        "facility_total_rvu": 6.27,
+        "facility_total_payment": 203,
+        "work_rvu": 3.81,
+        "per_code": {
+          "31630": {
+            "work_rvu": 3.81,
+            "facility_rvu": 6.27,
+            "facility_payment": 203
+          }
+        },
+        "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+        "conversion_factor": 32.3562
+      },
+      "bundling_notes": [
+        "Diagnostic bronchoscopy bundled."
+      ],
+      "overall_assessment": "Correctly coded as 31630 for anastomotic dilation."
+    },
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31630"
+      ],
+      "invalid_codes": []
+    },
+    "generation_metadata": {
+      "generator_version": "1.0.0",
+      "generated_at": "2025-12-11T20:04:24.998096",
+      "scenario_type": "Bronchial stricture post sleeve resection",
+      "etiology": "Anastomotic"
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T12:00:00",
+      "changes": [
+        "Added coding_review and billing blocks using 2025 RVU data."
+      ]
+    }
+  },
+  {
+    "note_id": "08ec3eba",
+    "note_text": "PT: Torres, Kevin | 55M | MRN 4369574\nDATE: 2024-09-15\nPROVIDER: Dr. D. Anderson / Dr. M. Patel\nINDICATION:\n\nPost-tuberculous bronchial stenosis\nHistory of pulmonary tuberculosis treated 3 years ago, now with lul collapse\nSx: wheezing unresponsive to bronchodilators, recurrent respiratory infections\n\nPROCEDURE: Flex bronch + Balloon dilation (31630)\nSEDATION: MAC (LMA)\nFINDINGS:\n\nCords: WNL\nStenosis at left mainstem bronchus, 3 cm from carina\nPre: ~59% narrowing, eccentric\nLength: ~1.5cm\n\nINTERVENTION:\n\nCRE balloon\nSerial dilation: 7\u21928\u219210mm\n3 inflations \u00d7 90sec each\nPost: ~34% residual\nMinimal mucosal ooze, self-limited\n\nSPECIMENS: None\nCOMPLICATIONS: None\nDISPOSITION:\n\nD/C same day\nDecadron 10mg IV given\nF/u bronch 6 wks\n\nPLAN:\n\u2192 Repeat dilation PRN\n\u2192 Consider stent if <3 successful dilations\n\u2192 PFTs before next scope",
+    "cpt_codes": [
+      31630
+    ],
+    "registry_entry": {
+      "patient_mrn": "4369574",
+      "procedure_date": "2024-09-15",
+      "procedure_start_time": "08:45",
+      "procedure_end_time": null,
+      "procedure_duration_minutes": 39,
+      "providers": {
+        "attending_name": "D. Anderson",
+        "attending_npi": null,
+        "fellow_name": "M. Patel",
+        "fellow_pgy_level": 6,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": true,
+        "rose_present": false
+      },
+      "patient_demographics": {
+        "age_years": 55,
+        "gender": "Male",
+        "height_cm": 180,
+        "weight_kg": 92,
+        "bmi": null,
+        "smoking_status": "Current",
+        "pack_years": 14
+      },
+      "clinical_context": {
+        "asa_class": 3,
+        "primary_indication": "Post-tuberculous bronchial stenosis",
+        "indication_category": "Stricture/Stenosis",
+        "radiographic_findings": "CT showing left mainstem bronchus stenosis",
+        "lesion_size_mm": null,
+        "lesion_location": "left mainstem bronchus",
+        "pet_avidity": null,
+        "suv_max": null,
+        "bronchus_sign": null
+      },
+      "procedure_setting": {
+        "location": "OR",
+        "patient_position": "Supine",
+        "airway_type": "LMA",
+        "ett_size": null
+      },
+      "sedation": {
+        "type": "MAC",
+        "anesthesia_provider": "CRNA",
+        "agents_used": [
+          "Midazolam",
+          "Fentanyl"
+        ],
+        "paralytic_used": false,
+        "reversal_given": false,
+        "reversal_agent": null
+      },
+      "equipment": {
+        "bronchoscope_type": "Therapeutic",
+        "bronchoscope_model": "Fujifilm EB-580T",
+        "navigation_system": null,
+        "robot_system": null,
+        "ebus_processor": null
+      },
+      "procedures_performed": {
+        "diagnostic_bronchoscopy": true,
+        "bal_performed": false,
+        "brushings_performed": false,
+        "washing_performed": false,
+        "endobronchial_biopsy": null,
+        "transbronchial_biopsy": null,
+        "tbna_performed": false,
+        "ebus_tbna": null,
+        "navigation_bronchoscopy": null,
+        "airway_dilation": {
+          "performed": true,
+          "location": "left mainstem bronchus",
+          "etiology": "Inflammatory",
+          "method": "Balloon",
+          "balloon_diameter_mm": 10,
+          "pre_dilation_diameter_mm": 3,
+          "post_dilation_diameter_mm": 8
+        },
+        "airway_stent": null,
+        "tumor_destruction": null,
+        "foreign_body_removal": null,
+        "blvr_assessment": null,
+        "blvr_valve_placement": null,
+        "whole_lung_lavage": null,
+        "cryobiopsy": null,
+        "thermal_ablation": null
+      },
+      "outcomes": {
+        "technical_success": true,
+        "diagnostic_yield": null,
+        "final_diagnosis": "Post-tuberculous bronchial stenosis",
+        "final_diagnosis_category": "Stricture/Stenosis",
+        "molecular_markers_obtained": false
+      },
+      "complications": {
+        "any_complication": false,
+        "bleeding": {
+          "occurred": false,
+          "severity": null,
+          "intervention": null
+        },
+        "pneumothorax": {
+          "occurred": false,
+          "intervention": null
+        },
+        "respiratory_failure": false,
+        "infection": false,
+        "other_complication": null,
+        "complication_severity": null
+      },
+      "disposition": {
+        "immediate_disposition": "Recovery",
+        "final_disposition": "Floor admission",
+        "los_hours": 13
+      },
+      "follow_up": {
+        "follow_up_scheduled": true,
+        "follow_up_interval_weeks": 4,
+        "repeat_procedure_planned": true
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.9.0",
+        "generated_at": "2025-12-11T20:04:24.998166"
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    "coding_review": {
+      "review_version": "1.0.0",
+      "review_date": "2025-12-11",
+      "reviewer": "IP-Coder-Patch-GPT",
+      "cpt_summary": {
+        "primary_code": "31630",
+        "final_codes": [
+          "31630"
+        ],
+        "modifiers": [],
+        "code_rationales": {
+          "31630": "Bronchoscopy with therapeutic balloon dilation of left mainstem bronchus."
+        },
+        "coding_decision": "as_documented"
+      },
+      "rvu_summary_2025": {
+        "facility_total_rvu": 6.27,
+        "facility_total_payment": 203,
+        "work_rvu": 3.81,
+        "per_code": {
+          "31630": {
+            "work_rvu": 3.81,
+            "facility_rvu": 6.27,
+            "facility_payment": 203
+          }
+        },
+        "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+        "conversion_factor": 32.3562
+      },
+      "bundling_notes": [
+        "Diagnostic bronchoscopy bundled."
+      ],
+      "overall_assessment": "Correctly coded as 31630."
+    },
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31630"
+      ],
+      "invalid_codes": []
+    },
+    "generation_metadata": {
+      "generator_version": "1.0.0",
+      "generated_at": "2025-12-11T20:04:24.998197",
+      "scenario_type": "Post-tuberculous bronchial stenosis",
+      "etiology": "Inflammatory"
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T12:00:00",
+      "changes": [
+        "Added coding_review and billing blocks using 2025 RVU data."
+      ]
+    }
+  },
+  {
+    "note_id": "fd2aa138",
+    "note_text": "INTERVENTIONAL PULMONOLOGY\nBRONCHOSCOPY WITH THERAPEUTIC AIRWAY DILATION\n\nPatient Name: Garcia, Ana\nMedical Record Number: 6850485\nDate of Service: 2024-06-17\nAttending Physician: Dr. B. Martinez\nFellow: Dr. P. Kumar (PGY-6)\n\nCLINICAL INDICATION:\nTracheal granulation tissue with stenosis post tracheostomy decannulation\n\nHISTORY OF PRESENT ILLNESS:\nThis is a 48-year-old female patient with decannulated 10 weeks ago after neuromuscular disease months of tracheostomy. The patient has experienced recurrent respiratory infections and biphasic stridor at rest over the past 9 weeks. Recent CT imaging demonstrated mid-trachea narrowing. Pulmonary function testing showed fixed upper airway obstruction pattern.\n\nPROCEDURE PERFORMED:\nDiagnostic and therapeutic flexible bronchoscopy with balloon dilation of mid-trachea stenosis (CPT Code: 31630)\n\nANESTHESIA AND AIRWAY MANAGEMENT:\nMAC anesthesia was administered by the anesthesia team. Airway was secured with LMA.\n\nPROCEDURAL TECHNIQUE:\nFollowing standard preparation and time-out verification, the flexible bronchoscope (Olympus BF-1TH190) was introduced transnasally. Systematic airway inspection was performed.\n\nBRONCHOSCOPIC FINDINGS:\nThe vocal cords demonstrated normal mobility bilaterally without evidence of paralysis or lesion. The mid-trachea stenosis was identified at mid-trachea at prior stoma site. The stenosis was characterized as circumferential fibrous scarring with approximately 73% luminal compromise. Stenosis length measured approximately 1.0 cm. The airways distal to the stenosis appeared patent without additional pathology.\n\nTHERAPEUTIC INTERVENTION:\nA CRE balloon was utilized for graduated airway dilation:\n- Initial dilation: 12mm balloon inflated to nominal pressure for 90 seconds\n- Intermediate dilation: 14mm balloon inflated for 90 seconds\n- Final dilation: 16mm balloon inflated for 90 seconds\n\nA total of 3 inflation cycles were performed. Post-dilation inspection demonstrated improvement in luminal patency from approximately 27% to 80% of expected diameter. The mucosa remained intact without significant injury. Topical epinephrine (1:10,000) was applied prophylactically.\n\nSPECIMENS OBTAINED: None\n\nCOMPLICATIONS: None encountered\n\nPOST-PROCEDURE MANAGEMENT:\nThe patient was extubated without difficulty and transferred to the recovery area in stable condition. Intravenous dexamethasone 8mg was administered to reduce post-procedural airway edema. The patient met discharge criteria and was released with appropriate precautions.\n\nASSESSMENT:\nTracheal granulation tissue with stenosis post tracheostomy decannulation with successful balloon dilation. Airway patency improved from 27% to 80% estimated lumen.\n\nRECOMMENDATIONS:\n1. Repeat bronchoscopy with dilation planned in 8 weeks to assess durability of response\n2. Pulmonary function testing prior to repeat procedure for objective assessment\n3. Consider airway stent placement if adequate lumen cannot be maintained with serial dilations\n4. Voice rest for 24 hours, soft diet\n5. Patient instructed to seek immediate medical attention for worsening stridor, respiratory distress, or hemoptysis\n\nProcedure performed by: Dr. B. Martinez\nSupervised trainee: Dr. P. Kumar (PGY-6)\nElectronically signed: 2024-06-17",
+    "cpt_codes": [
+      31630
+    ],
+    "registry_entry": {
+      "patient_mrn": "6850485",
+      "procedure_date": "2024-06-17",
+      "procedure_start_time": "10:45",
+      "procedure_end_time": null,
+      "procedure_duration_minutes": 39,
+      "providers": {
+        "attending_name": "B. Martinez",
+        "attending_npi": null,
+        "fellow_name": "P. Kumar",
+        "fellow_pgy_level": 5,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": true,
+        "rose_present": false
+      },
+      "patient_demographics": {
+        "age_years": 48,
+        "gender": "Female",
+        "height_cm": 164,
+        "weight_kg": 64,
+        "bmi": null,
+        "smoking_status": "Current",
+        "pack_years": null
+      },
+      "clinical_context": {
+        "asa_class": 4,
+        "primary_indication": "Tracheal granulation tissue with stenosis post tracheostomy decannulation",
+        "indication_category": "Stricture/Stenosis",
+        "radiographic_findings": "CT showing mid-trachea stenosis",
+        "lesion_size_mm": null,
+        "lesion_location": "mid-trachea",
+        "pet_avidity": null,
+        "suv_max": null,
+        "bronchus_sign": null
+      },
+      "procedure_setting": {
+        "location": "Bronchoscopy Suite",
+        "patient_position": "Supine",
+        "airway_type": "LMA",
+        "ett_size": null
+      },
+      "sedation": {
+        "type": "MAC",
+        "anesthesia_provider": "Anesthesiologist",
+        "agents_used": [
+          "Midazolam",
+          "Fentanyl"
+        ],
+        "paralytic_used": false,
+        "reversal_given": false,
+        "reversal_agent": null
+      },
+      "equipment": {
+        "bronchoscope_type": "Therapeutic",
+        "bronchoscope_model": "Olympus BF-P190",
+        "navigation_system": null,
+        "robot_system": null,
+        "ebus_processor": null
+      },
+      "procedures_performed": {
+        "diagnostic_bronchoscopy": true,
+        "bal_performed": false,
+        "brushings_performed": false,
+        "washing_performed": false,
+        "endobronchial_biopsy": null,
+        "transbronchial_biopsy": null,
+        "tbna_performed": false,
+        "ebus_tbna": null,
+        "navigation_bronchoscopy": null,
+        "airway_dilation": {
+          "performed": true,
+          "location": "mid-trachea",
+          "etiology": "Post-tracheostomy",
+          "method": "Balloon",
+          "balloon_diameter_mm": 16,
+          "pre_dilation_diameter_mm": 6,
+          "post_dilation_diameter_mm": 11
+        },
+        "airway_stent": null,
+        "tumor_destruction": null,
+        "foreign_body_removal": null,
+        "blvr_assessment": null,
+        "blvr_valve_placement": null,
+        "whole_lung_lavage": null,
+        "cryobiopsy": null,
+        "thermal_ablation": null
+      },
+      "outcomes": {
+        "technical_success": true,
+        "diagnostic_yield": null,
+        "final_diagnosis": "Tracheal granulation tissue with stenosis post tracheostomy decannulation",
+        "final_diagnosis_category": "Stricture/Stenosis",
+        "molecular_markers_obtained": false
+      },
+      "complications": {
+        "any_complication": false,
+        "bleeding": {
+          "occurred": true,
+          "severity": null,
+          "intervention": null
+        },
+        "pneumothorax": {
+          "occurred": false,
+          "intervention": null
+        },
+        "respiratory_failure": false,
+        "infection": false,
+        "other_complication": null,
+        "complication_severity": null
+      },
+      "disposition": {
+        "immediate_disposition": "PACU",
+        "final_disposition": "Observation unit",
+        "los_hours": 21
+      },
+      "follow_up": {
+        "follow_up_scheduled": true,
+        "follow_up_interval_weeks": 6,
+        "repeat_procedure_planned": true
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.9.0",
+        "generated_at": "2025-12-11T20:04:24.998258"
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    "coding_review": {
+      "review_version": "1.0.0",
+      "review_date": "2025-12-11",
+      "reviewer": "IP-Coder-Patch-GPT",
+      "cpt_summary": {
+        "primary_code": "31630",
+        "final_codes": [
+          "31630"
+        ],
+        "modifiers": [],
+        "code_rationales": {
+          "31630": "Bronchoscopy with therapeutic balloon dilation of mid-trachea stenosis."
+        },
+        "coding_decision": "as_documented"
+      },
+      "rvu_summary_2025": {
+        "facility_total_rvu": 6.27,
+        "facility_total_payment": 203,
+        "work_rvu": 3.81,
+        "per_code": {
+          "31630": {
+            "work_rvu": 3.81,
+            "facility_rvu": 6.27,
+            "facility_payment": 203
+          }
+        },
+        "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+        "conversion_factor": 32.3562
+      },
+      "bundling_notes": [
+        "Diagnostic bronchoscopy bundled."
+      ],
+      "overall_assessment": "Correctly coded as 31630."
+    },
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31630"
+      ],
+      "invalid_codes": []
+    },
+    "generation_metadata": {
+      "generator_version": "1.0.0",
+      "generated_at": "2025-12-11T20:04:24.998278",
+      "scenario_type": "Tracheal granulation tissue with stenosis post tracheostomy decannulation",
+      "etiology": "Post-tracheostomy"
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T12:00:00",
+      "changes": [
+        "Added coding_review and billing blocks using 2025 RVU data."
+      ]
+    }
+  },
+  {
+    "note_id": "b69020c8",
+    "note_text": "INTERVENTIONAL PULMONOLOGY PROCEDURE NOTE\n\nPATIENT: Jackson, Susan\nMRN: 7725151\nDOB: 1974-12-14\nAGE: 78 years | SEX: F\nDATE OF PROCEDURE: 2024-05-11\n\nATTENDING: Dr. J. Williams\n\nPREOPERATIVE DIAGNOSIS:\nExtrinsic bronchial compression with stenosis from mediastinal lymphadenopathy\n\nPOSTOPERATIVE DIAGNOSIS:\nSame\n\nPROCEDURE PERFORMED:\nFlexible bronchoscopy with therapeutic balloon dilation (CPT 31630)\n\nCLINICAL HISTORY:\n78-year-old female with metastatic lung adenocarcinoma with progressive dyspnea, completed 3 cycles of chemotherapy. Patient reports progressive dyspnea on exertion, recurrent respiratory infections, exercise intolerance.\n\nANESTHESIA: General anesthesia\nAIRWAY: ETT (8.0 mm)\n\nPROCEDURE DETAILS:\nThe patient was brought to the bronchoscopy suite and positioned supine. Standard monitoring was applied. After adequate sedation, the bronchoscope was introduced through the ETT.\n\nFINDINGS:\n- Vocal cords: Normal mobility bilaterally\n- Stenosis identified at proximal left mainstem bronchus\n- Pre-dilation assessment: 63% luminal narrowing\n- Stenosis length: approximately 2.5 cm\n- Stenosis character: complex with granulation tissue\n- Distal airways: Patent and clear\n\nINTERVENTION:\nHurricane balloon advanced to stenosis site under direct visualization.\nSerial dilations performed:\n- 6mm \u00d7 45 seconds\n- 8mm \u00d7 45 seconds\n- 9mm \u00d7 45 seconds\n\nTotal 3 inflations performed.\nPost-dilation patency improved from 63% to approximately 35% residual narrowing.\nNo significant mucosal injury or bleeding.\nTopical epinephrine 1:10,000 applied prophylactically.\n\nSPECIMENS: None\n\nESTIMATED BLOOD LOSS: Minimal (<5 mL)\n\nCOMPLICATIONS: None\n\nDISPOSITION:\n- Patient extubated and recovered in PACU\n- Admitted for overnight observation\n- Dexamethasone 10mg IV administered post-procedure\n\nIMPRESSION:\nExtrinsic bronchial compression with stenosis from mediastinal lymphadenopathy successfully treated with balloon dilation. Airway patency improved from 37% to 65%.\n\nPLAN:\n1. Repeat bronchoscopy with dilation in 6 weeks\n2. Pulmonary rehabilitation referral\n3. PFTs prior to next procedure\n4. Call if worsening stridor, dyspnea, or hemoptysis",
+    "cpt_codes": [
+      31630
+    ],
+    "registry_entry": {
+      "patient_mrn": "7725151",
+      "procedure_date": "2024-05-11",
+      "procedure_start_time": "09:15",
+      "procedure_end_time": null,
+      "procedure_duration_minutes": 46,
+      "providers": {
+        "attending_name": "J. Williams",
+        "attending_npi": null,
+        "fellow_name": null,
+        "fellow_pgy_level": null,
+        "assistant_name": null,
+        "assistant_role": null,
+        "trainee_present": false,
+        "rose_present": false
+      },
+      "patient_demographics": {
+        "age_years": 78,
+        "gender": "Female",
+        "height_cm": 164,
+        "weight_kg": 57,
+        "bmi": null,
+        "smoking_status": "Current",
+        "pack_years": 6
+      },
+      "clinical_context": {
+        "asa_class": 4,
+        "primary_indication": "Extrinsic bronchial compression with stenosis from mediastinal lymphadenopathy",
+        "indication_category": "Stricture/Stenosis",
+        "radiographic_findings": "CT showing left mainstem bronchus stenosis",
+        "lesion_size_mm": null,
+        "lesion_location": "left mainstem bronchus",
+        "pet_avidity": null,
+        "suv_max": null,
+        "bronchus_sign": null
+      },
+      "procedure_setting": {
+        "location": "OR",
+        "patient_position": "Supine",
+        "airway_type": "ETT",
+        "ett_size": 8.0
+      },
+      "sedation": {
+        "type": "General",
+        "anesthesia_provider": "Anesthesiologist",
+        "agents_used": [
+          "Propofol",
+          "Fentanyl"
+        ],
+        "paralytic_used": true,
+        "reversal_given": false,
+        "reversal_agent": null
+      },
+      "equipment": {
+        "bronchoscope_type": "Therapeutic",
+        "bronchoscope_model": "Olympus BF-P190",
+        "navigation_system": null,
+        "robot_system": null,
+        "ebus_processor": null
+      },
+      "procedures_performed": {
+        "diagnostic_bronchoscopy": true,
+        "bal_performed": false,
+        "brushings_performed": false,
+        "washing_performed": false,
+        "endobronchial_biopsy": null,
+        "transbronchial_biopsy": null,
+        "tbna_performed": false,
+        "ebus_tbna": null,
+        "navigation_bronchoscopy": null,
+        "airway_dilation": {
+          "performed": true,
+          "location": "left mainstem bronchus",
+          "etiology": "Malignant",
+          "method": "Balloon",
+          "balloon_diameter_mm": 9,
+          "pre_dilation_diameter_mm": 3,
+          "post_dilation_diameter_mm": 10
+        },
+        "airway_stent": null,
+        "tumor_destruction": null,
+        "foreign_body_removal": null,
+        "blvr_assessment": null,
+        "blvr_valve_placement": null,
+        "whole_lung_lavage": null,
+        "cryobiopsy": null,
+        "thermal_ablation": null
+      },
+      "outcomes": {
+        "technical_success": true,
+        "diagnostic_yield": null,
+        "final_diagnosis": "Extrinsic bronchial compression with stenosis from mediastinal lymphadenopathy",
+        "final_diagnosis_category": "Stricture/Stenosis",
+        "molecular_markers_obtained": false
+      },
+      "complications": {
+        "any_complication": false,
+        "bleeding": {
+          "occurred": false,
+          "severity": null,
+          "intervention": null
+        },
+        "pneumothorax": {
+          "occurred": false,
+          "intervention": null
+        },
+        "respiratory_failure": false,
+        "infection": false,
+        "other_complication": null,
+        "complication_severity": null
+      },
+      "disposition": {
+        "immediate_disposition": "PACU",
+        "final_disposition": "Home same day",
+        "los_hours": 18
+      },
+      "follow_up": {
+        "follow_up_scheduled": true,
+        "follow_up_interval_weeks": 8,
+        "repeat_procedure_planned": true
+      },
+      "metadata": {
+        "data_entry_status": "Complete",
+        "version": "2.9.0",
+        "generated_at": "2025-12-11T20:04:24.998357"
+      },
+      "billing": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation or closed reduction of fracture",
+            "units": 1,
+            "modifier": null,
+            "modifiers": null
+          }
+        ],
+        "total_rvu": 6.27,
+        "work_rvu": 3.81,
+        "practice_expense_rvu": 2.04,
+        "malpractice_rvu": 0.42
+      }
+    },
+    "coding_review": {
+      "review_version": "1.0.0",
+      "review_date": "2025-12-11",
+      "reviewer": "IP-Coder-Patch-GPT",
+      "cpt_summary": {
+        "primary_code": "31630",
+        "final_codes": [
+          "31630"
+        ],
+        "modifiers": [],
+        "code_rationales": {
+          "31630": "Bronchoscopy with therapeutic balloon dilation of left mainstem bronchus due to extrinsic compression."
+        },
+        "coding_decision": "as_documented"
+      },
+      "rvu_summary_2025": {
+        "facility_total_rvu": 6.27,
+        "facility_total_payment": 203,
+        "work_rvu": 3.81,
+        "per_code": {
+          "31630": {
+            "work_rvu": 3.81,
+            "facility_rvu": 6.27,
+            "facility_payment": 203
+          }
+        },
+        "rvu_source": "ip_coding_billing.v2_9.json - CY2025 Medicare MPFS",
+        "conversion_factor": 32.3562
+      },
+      "bundling_notes": [
+        "Diagnostic bronchoscopy bundled."
+      ],
+      "overall_assessment": "Correctly coded as 31630."
+    },
+    "cpt_validation_metadata": {
+      "golden_knowledge_version": "2.9",
+      "valid_codes": [
+        "31630"
+      ],
+      "invalid_codes": []
+    },
+    "generation_metadata": {
+      "generator_version": "1.0.0",
+      "generated_at": "2025-12-11T20:04:24.998381",
+      "scenario_type": "Extrinsic bronchial compression with stenosis from mediastinal lymphadenopathy",
+      "etiology": "Malignant"
+    },
+    "patch_metadata": {
+      "patched": true,
+      "patch_version": "1.1.0",
+      "patch_date": "2025-12-11T12:00:00",
+      "changes": [
+        "Added coding_review and billing blocks using 2025 RVU data."
+      ]
+    }
+  }
+]

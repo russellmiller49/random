@@ -1,0 +1,198 @@
+[
+  {
+    "op": "replace",
+    "path": "/4/note_text",
+    "value": "Procedure note pt had general anesthesia airway looked fine no masses. Used the super dimension thing to get to the RUL nodule radial probe showed it was concentric so we biopsied it. Used needle forceps and brush also did a mini-BAL. No bleeding really. Send to recovery check a cxr thanks."
+  },
+  {
+    "op": "replace",
+    "path": "/9/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/9/registry_entry/billing/total_rvu",
+    "value": 11.07
+  },
+  {
+    "op": "replace",
+    "path": "/9/registry_entry/billing/work_rvu",
+    "value": 7.42
+  },
+  {
+    "op": "replace",
+    "path": "/10/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/11/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/12/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/13/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/14/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/15/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/16/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/17/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/18/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/18/registry_entry/metadata/notes",
+    "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
+  },
+  {
+    "op": "replace",
+    "path": "/18/registry_entry/coding_support/coding_summary/lines",
+    "value": [
+      {
+        "sequence": 1,
+        "code": "31629",
+        "description": "Bronchoscopy with TBNA",
+        "units": 1,
+        "role": "primary",
+        "selection_status": "selected",
+        "selection_reason": "Primary therapeutic maneuver for RUL lesion. Highest RVU base code.",
+        "is_add_on": false
+      },
+      {
+        "sequence": 2,
+        "code": "+31627",
+        "description": "Navigation add-on",
+        "units": 1,
+        "role": "add_on",
+        "selection_status": "selected",
+        "selection_reason": "SuperDimension navigation utilized and target reached.",
+        "is_add_on": true
+      },
+      {
+        "sequence": 3,
+        "code": "+31654",
+        "description": "Radial EBUS add-on",
+        "units": 1,
+        "role": "add_on",
+        "selection_status": "selected",
+        "selection_reason": "Radial EBUS used for peripheral lesion confirmation.",
+        "is_add_on": true
+      },
+      {
+        "sequence": 4,
+        "code": "31628",
+        "description": "Bronchoscopy with TBLB",
+        "units": 0,
+        "role": "bundled_only",
+        "selection_status": "dropped",
+        "selection_reason": "Bundled into 31629 when performed on the same lesion.",
+        "is_add_on": false
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/19/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/19/registry_entry/metadata/notes",
+    "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
+  },
+  {
+    "op": "replace",
+    "path": "/20/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/20/registry_entry/metadata/notes",
+    "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
+  },
+  {
+    "op": "replace",
+    "path": "/21/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/21/registry_entry/metadata/notes",
+    "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
+  },
+  {
+    "op": "replace",
+    "path": "/22/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/22/registry_entry/metadata/notes",
+    "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
+  },
+  {
+    "op": "replace",
+    "path": "/23/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/23/registry_entry/metadata/notes",
+    "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
+  },
+  {
+    "op": "replace",
+    "path": "/24/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/24/registry_entry/metadata/notes",
+    "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
+  },
+  {
+    "op": "replace",
+    "path": "/25/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/25/registry_entry/metadata/notes",
+    "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
+  },
+  {
+    "op": "replace",
+    "path": "/26/cpt_codes",
+    "value": [31629, 31627, 31654]
+  },
+  {
+    "op": "replace",
+    "path": "/26/registry_entry/metadata/notes",
+    "value": "Lateralization discrepancy resolved: Pre-op Dx LUL, but procedure text and post-op Dx confirm RUL target. Coding reflects RUL."
+  }
+]

@@ -4,102 +4,118 @@ import datetime
 import copy
 from pathlib import Path
 
-# Source file for JSON elements
-SOURCE_FILE = "consolidated_verified_notes_v2_8_part_015.json"
+# Configuration
+SOURCE_FILE = "bronch_extractions_patched/bronch_notes_part_015.json"
 OUTPUT_DIR = "Synthetic_expansions"
+OUTPUT_FILE = "synthetic_bronch_notes_part_015.json"
 
 def generate_random_date(start_year, end_year):
+    """Generates a random date between start_year and end_year."""
     start = datetime.date(start_year, 1, 1)
     end = datetime.date(end_year, 12, 31)
     return start + (end - start) * random.random()
 
+def get_base_data_mocks():
+    """
+    Returns synthetic names and base ages for the 5 patients in the source file.
+    Since the source has 'UNKNOWN', we assign realistic names here.
+    """
+    return [
+        {
+            "idx": 0, # Esophageal Cancer / Y-Stent
+            "orig_name": "Eleanor Vance", 
+            "orig_age": 68, 
+            "names": ["Eleanor Vance", "Martha Higgins", "Roberta Kinsley", "Wilma O'Connor", "Janet Miller", "Edith Stone", "Rita Davis", "Thelma Clark", "Grace Wright"]
+        },
+        {
+            "idx": 1, # Bilobar LUL/LLL Obstruction
+            "orig_name": "Thomas Anderson", 
+            "orig_age": 72, 
+            "names": ["Thomas Anderson", "Arthur Dent", "Robert Paulson", "William Foster", "James P. Sullivan", "Edward Norton", "Richard Kimble", "Thomas Crown", "Gary Oldman"]
+        },
+        {
+            "idx": 2, # LMS Aero Stent
+            "orig_name": "Marcus Wright", 
+            "orig_age": 65, 
+            "names": ["Marcus Wright", "Lucas Bishop", "Nathan Drake", "Caleb Widogast", "Beau Regard", "Fjord Stone", "Jester Lavorre", "Veth Brenatto", "Caduceus Clay"]
+        },
+        {
+            "idx": 3, # BI Obstruction / Pus / Balloon
+            "orig_name": "Samuel Vimes", 
+            "orig_age": 75, 
+            "names": ["Samuel Vimes", "Havelock Vetinari", "Mustrum Ridcully", "Gytha Ogg", "Esmeralda Weatherwax", "Ponder Stibbons", "Rincewind The Wizzard", "Carrot Ironfoundersson", "Angua von Uberwald"]
+        },
+        {
+            "idx": 4, # BI Obstruction / Laser / Coring
+            "orig_name": "Jean-Luc Picard", 
+            "orig_age": 70, 
+            "names": ["Jean-Luc Picard", "William Riker", "Geordi La Forge", "Worf Rozhenko", "Beverly Crusher", "Deanna Troi", "Data Soong", "Miles O'Brien", "Wesley Crusher"]
+        }
+    ]
+
 def get_variations():
     """
-    Returns a dictionary of manually crafted variations for the 6 notes in Part 015.
-    Structure: Note_Index (0-5) -> Style_Index (1-9) -> Text
+    Returns a dictionary of 9 stylistic variations for each of the 5 notes.
+    Structure: Note_Index (0-4) -> Style_Index (1-9) -> Text
     """
     variations = {
-        0: { # Gilbert Barkley - Rigid bronch, stents RML/RLL
-            1: "Indication: RML/RLL stenosis.\nAnesthesia: General.\nProcedure:\n- Rigid bronch inserted.\n- RML/RLL obstructed by granulation tissue.\n- Stent trial (10x20mm Aero) RLL failed (oversized, removed).\n- 8x20mm Aero stent placed RLL.\n- 8x15mm Aero stent placed RML.\n- CRE balloon dilation performed.\n- Airways patent post-stenting.\nPlan: Admit, nebs, CXR.",
-            2: "PROCEDURE PERFORMED: Rigid bronchoscopic recanalization with metallic stenting of the right bronchial tree.\nCLINICAL NARRATIVE: The patient presented with significant anatomical distortion and obstruction of the right-sided airways. Following induction of general anesthesia and establishment of a rigid airway, the right middle and lower lobes were found to be obstructed by granulation tissue. Initial attempts at recanalization via mechanical debulking were insufficient. Consequently, airway stenting was indicated. An initial sizing attempt with a 10mm device in the lower lobe proved oversized and was exchanged. Ultimately, an 8x20mm Aero stent was successfully deployed in the right lower lobe, and an 8x15mm Aero stent was deployed in the right middle lobe. Both devices were dilated with a CRE balloon, resulting in restoration of airway patency.",
-            3: "Procedure: Rigid Bronchoscopy (CPT 31641, 31636, 31637)\nTechnique:\n1. Access: 12mm rigid ventilating bronchoscope established access (therapeutic).\n2. Destruction: Extensive debridement of granulation tissue in RML and RLL using mechanical force and cryoprobe (CPT 31641).\n3. Stent 1 (Initial): Deployment of 8x20mm self-expanding metallic stent in Right Lower Lobe (CPT 31636).\n4. Stent 2 (Additional): Deployment of separate 8x15mm self-expanding metallic stent in Right Middle Lobe (CPT 31637).\n5. Dilation: Balloon dilation performed to expand stents.",
-            4: "Procedure Note\nPatient: Gilbert Barkley\nAttending: Dr. Gallegos\nProcedure: Rigid bronchoscopy with stenting.\nSteps:\n1. Patient intubated with rigid scope.\n2. Right side inspected; RML/RLL obstructed.\n3. Attempted to clear with saline/forceps.\n4. Placed 10x20mm stent in RLL - too big, removed.\n5. Placed 8x20mm stent in RLL.\n6. Placed 8x15mm stent in RML.\n7. Dilated both with balloon.\n8. Extubated and stable.",
-            5: "We did a rigid bronchoscopy on Gilbert Barkley yesterday for bronchial obstruction anesthesia was general. We put the rigid scope down and saw the right side was blocked by granulation tissue. Tried to clean it out but needed stents. Put a 10mm one in first but it was too big so we took it out and put in an 8x20mm in the lower lobe and a 8x15mm in the middle lobe. Dilated them both and they opened up good. Patient went to recovery no issues.",
-            6: "The procedure was performed under general anesthesia. A 12 mm rigid bronchoscope was inserted. The right middle and lower lobes were obstructed by granulation tissue. Mechanical debulking was performed but obstruction persisted. We elected to place stents. An initial 10x20 mm stent in the RLL was oversized and replaced with an 8x20 mm covered metallic stent. A second 8x15 mm covered metallic stent was placed in the RML. Both were dilated with a CRE balloon. Final inspection showed patent airways.",
-            7: "[Indication]\nRight middle and right lower lobe bronchial stenosis.\n[Anesthesia]\nGeneral Anesthesia via Rigid Bronchoscope.\n[Description]\nRigid bronchoscopy performed. Obstruction of RML and RLL identified. Mechanical and cryo-debulking performed. Stenting required for patency. 8x20mm Aero stent deployed in RLL. 8x15mm Aero stent deployed in RML. Balloon dilation confirmed patency of both segments.\n[Plan]\nAdmit to floor. Nebulizers. Follow-up CXR.",
-            8: "Under general anesthesia, the patient's airway was secured with a rigid bronchoscope. Inspection revealed significant obstruction of the right middle and lower lobes due to granulation tissue. Despite efforts to clear the debris with saline and forceps, the obstruction remained. We proceeded to stent placement. After an initial sizing error where a 10mm stent was removed, we successfully placed an 8x20mm covered stent in the right lower lobe and an 8x15mm covered stent in the right middle lobe. Both were dilated, achieving good patency.",
-            9: "Procedure: Rigid bronchoscopy with prosthetic positioning.\nFindings: Blockage of RML and RLL.\nAction: The airway was cannulated with a rigid scope. Debris was purged. An 8x20mm stent was deposited in the RLL after a larger trial stent was extracted. An 8x15mm stent was implanted in the RML. Both were expanded via balloon.\nOutcome: Airways recanalized."
+        0: { # Note 0: Esophageal Ca / Y-Stent
+            1: "Procedure: Rigid Bronchoscopy, Y-Stent Placement.\n- Indication: Esophageal ca, TE fistula, airway compression.\n- Anesthesia: General, LMA then Rigid.\n- Findings: Mass prox LMS (80% obs). TE fistula 2mm distal to carina. RMS 70% compressed.\n- Action: Rigid scope inserted. Forceps bx LMS. APC debulking (90% patent). Silicone Y-stent (14x10x10) deployed via rigid. \n- Outcome: Stent seated. Fistula covered. Airways patent.\n- Plan: CXR, hypertonic saline.",
+            2: "OPERATIVE REPORT: RIGID BRONCHOSCOPY AND PALLIATIVE RECANALIZATION.\nThe patient, presenting with advanced esophageal carcinoma complicated by a tracheoesophageal fistula, underwent therapeutic intervention. Under general anesthesia, initial inspection revealed significant extrinsic compression of the right mainstem and direct endobronchial invasion of the left mainstem with an associated fistulous tract. Employing a 12mm ventilating rigid bronchoscope, we performed mechanical debulking and thermal ablation via Argon Plasma Coagulation (APC) to restore luminal patency. Subsequently, a customized Silicone Y-stent was precisely deployed to stent the carina, successfully excluding the fistula and stabilizing the compromised airways.",
+            3: "PROCEDURE CODES JUSTIFICATION:\n1. 31641 (Tumor Destruction): Extensive APC thermal ablation and mechanical shaving performed on proximal Left Mainstem tumor to relieve 80% obstruction.\n2. 31631 (Stent Placement, Tracheal/Carinal): Deployment of Silicone Y-stent (tracheal, right, and left limbs) to treat carinal fistula and extrinsic compression. \nNote: Biopsy (31625) performed but bundled. Rigid bronchoscopy utilized for stent delivery.",
+            4: "Procedure Note\nResident: Dr. Smith\nAttending: Dr. Jones\nDiagnosis: Esophageal Ca with TE fistula.\nProcedure Steps:\n1. Time out.\n2. LMA placed. Flex bronch showed LMS tumor and fistula.\n3. Switched to Rigid Bronch (12mm).\n4. Biopsied mass. APC used for hemostasis and debulking.\n5. Y-Stent (Silicone) loaded and deployed via rigid scope.\n6. Flexible check confirmed position covering fistula.\nComplications: Tongue laceration.",
+            5: "dictation for patient vance unkown mrn date 11/08/2025... we did a rigid bronchoscopy for the esophageal cancer patient she had a fistula... trachea looked ok but left main was blocked 80 percent... used apc and forceps to clear it out... then we put in a silicone y stent had some trouble with the freitag forceps so we used the rigid scope to push it down... stent looks good covers the hole... oh yeah she bit her tongue a bit small cut... plan is hypertonic saline and follow up in a month.",
+            6: "The patient was brought to the bronchoscopy suite and placed under general anesthesia. Initial flexible inspection via LMA revealed a large esophageal tumor invading the left mainstem bronchus with a visible TE fistula and extrinsic compression of the right mainstem. We transitioned to a 12mm rigid bronchoscope. Biopsies were taken, followed by APC cautery and mechanical debulking of the left mainstem lesion. A silicone Y-stent was customized and deployed to cover the fistula and open both mainstems. Post-deployment inspection showed excellent stent position and patent airways.",
+            7: "[Indication]\nEsophageal cancer with extrinsic airway compression and TE fistula.\n[Anesthesia]\nGeneral Anesthesia (LMA converted to Rigid).\n[Description]\nRigid bronchoscopy performed. Left mainstem tumor debulked using APC and mechanical forceps. Silicone Y-stent (14x10x10) deployed. Stent confirmed to cover fistula and patent airways.\n[Plan]\nAdmit to PACU. CXR. Hypertonic saline nebulizers.",
+            8: "The patient presented with esophageal cancer and a suspected TE fistula. We proceeded with a rigid bronchoscopy under general anesthesia. Upon entering the airway, we noted a significant mass in the proximal left mainstem and a small fistula near the carina. We utilized Argon Plasma Coagulation (APC) to debulk the tumor and control bleeding. To manage the fistula and the extrinsic compression on the right side, we deployed a silicone Y-stent. The stent was successfully seated, covering the fistula and maintaining patency in both mainstem bronchi.",
+            9: "PREOPERATIVE DIAGNOSIS: Esophageal cancer.\nPROCEDURE: Rigid bronchoscopy, sampled lesion, tumor resection, and Silicone Y-stent deployment.\nDETAILS: The bronchoscope was navigated to the obstruction. The mass was sampled. APC was utilized to cauterize and resect the tissue. A Y-stent was positioned to bridge the fistula. The airway was stabilized."
         },
-        1: { # Oscar Godsey - Rigid bronch, cryo, steroid, stent removal
-            1: "Indication: Left lower lobe obstruction, stent removal.\nAnesthesia: General.\nProcedure:\n- LMA placed.\n- LLL obstructed by granulation tissue distal to stent.\n- Cryodebulking performed.\n- Rigid bronch inserted.\n- Left mainstem stent removed.\n- LLL dilated with CRE balloon.\n- Steroid injection (Kenalog) performed.\nPlan: ICU, CXR, repeat bronch 1 week.",
-            2: "OPERATIVE SUMMARY: The patient underwent rigid bronchoscopy for management of left mainstem stent obstruction. Upon inspection, the stent itself was patent, but significant granulation tissue was noted distally, obstructing the left lower lobe. This tissue was meticulously debrided using cryotherapy. The decision was made to explant the left mainstem stent given the benign nature of the disease and distal progression. The stent was successfully extracted via the rigid barrel. Subsequent balloon dilation of the left lower lobe bronchi and submucosal injection of corticosteroids were performed to maintain patency and suppress inflammation.",
-            3: "Service: Rigid Bronchoscopy (Therapeutic).\nCPT 31641: Destruction of extensive granulation tissue obstructing LLL utilizing cryoprobe and forceps.\nCPT 31631: Removal of indwelling bronchial stent (left mainstem) necessitating rigid bronchoscopy and flexible forceps.\nAdjuncts: Balloon dilation of stenotic segments and steroid injection (bundled or separately reportable depending on payer rules, here coded as part of complex intervention).",
-            4: "Procedure Note\nPatient: Oscar Godsey\nStaff: Dr. Parks\nProcedure: Stent removal, cryo, rigid bronch.\nSteps:\n1. LMA induction.\n2. Cryo used to clear granulation tissue in LLL.\n3. Switched to Rigid Bronchoscope.\n4. Grasped and removed left main stent.\n5. Dilated LLL airways with balloon.\n6. Injected Kenalog into granulation tissue.\n7. Extubated.",
-            5: "Oscar Godsey 5/15/2019 preop dx stent obstruction. We went in with the LMA first and saw the stent was open but the LLL was blocked by tissue. Used the cryo to freeze and remove it. Then we switched to the rigid scope to take the stent out because we didn't think it was helping anymore. Pulled it out fine. Dilated the airways with a balloon and injected some Kenalog to stop the swelling. Patient went back to ICU.",
-            6: "Following induction of general anesthesia, the airway was inspected. The left mainstem stent was patent, but distal granulation tissue obstructed the left lower lobe. This was debulked using cryotherapy. A rigid bronchoscope was then inserted to facilitate stent removal. The left mainstem stent was grasped and removed intact. The underlying airway was patent. We then performed balloon dilation of the LLL segments and injected Kenalog into the mucosal tissue to prevent recurrence.",
-            7: "[Indication]\nLeft lower lobe obstruction secondary to granulation tissue; indwelling stent.\n[Anesthesia]\nGeneral Anesthesia (LMA converted to Rigid).\n[Description]\nGranulation tissue at LLL orifice debulked via cryotherapy. Rigid bronchoscope inserted. Left mainstem stent identified and removed. LLL bronchus dilated with CRE balloon. Kenalog injected into mucosa.\n[Plan]\nICU admission. Repeat bronchoscopy in 1 week.",
-            8: "We performed a rigid bronchoscopy on Mr. Godsey to address his airway obstruction. Initial inspection showed the left mainstem stent was clear, but tissue overgrowth had blocked the left lower lobe. We cleared this tissue using a cryoprobe. We then decided to remove the stent entirely, which was done successfully using the rigid scope. To ensure the airways remained open, we dilated the lower lobe bronchi with a balloon and injected steroids into the tissue.",
-            9: "Procedure: Rigid bronchoscopy with cryo-ablation and prosthesis extraction.\nContext: LLL occlusion.\nAction: Obstructing tissue was eliminated using cryotherapy. The rigid tube was positioned. The left mainstem stent was retrieved. The stenotic segments were widened with a balloon. Steroids were infused into the tissue.\nResult: Improved airway caliber."
+        1: { # Note 1: Bilobar LUL/LLL Obstruction
+            1: "Procedure: Flex Bronch, APC, Snare, Cryo.\n- Indication: Bilobar collapse (LUL/LLL).\n- Findings: Vascular masses obstructing LUL and LLL orifices.\n- LUL: Snare excision + APC. 100% patent.\n- LLL: Snare + Cryoextraction + APC. 70% patent (distal disease).\n- EBL: Moderate, controlled w/ TXA.\n- Plan: PACU, Oncology f/u.",
+            2: "OPERATIVE SUMMARY: The patient presented with complete bilobar collapse of the left lung. Under general anesthesia, flexible bronchoscopy revealed vascular endobronchial lesions obstructing both the Left Upper Lobe (LUL) and Left Lower Lobe (LLL). We employed a multimodal interventional approach. For the LUL, electrocautery snare resection and Argon Plasma Coagulation (APC) resulted in complete recanalization. The LLL lesion was more extensive; despite aggressive debulking via cryoextraction and APC, only partial (70%) patency was achieved due to distal tumor infiltration.",
+            3: "CODING SUMMARY:\n- 31641 (Destruction/Relief of Stenosis): Primary code for LLL intervention using Cryoextraction and APC to relieve obstruction.\n- 31640-XS (Tumor Excision): Secondary code for LUL intervention using Electrocautery Snare to excise a distinct tumor at a separate anatomic site.\n- 31622 Bundled.",
+            4: "Procedure Note\nPatient: Thomas Anderson\nProcedure: Bronchoscopy w/ Debulking\n1. General Anesthesia/LMA.\n2. Inspection: LUL and LLL obstructed by tumor.\n3. LUL: Snare used to remove proximal tumor. APC for base. Open.\n4. LLL: Snare and Cryoprobe used. APC for hemostasis. Partial opening.\n5. Hemostasis achieved with TXA.\nPlan: PACU, Oncology.",
+            5: "op note for mr anderson... he had collapse of the left lung... went in with the scope and saw tumor in both the upper and lower lobes... used the snare to cut the top one out worked great... bottom one was harder used the cryo probe and apc to burn it... got it open maybe 70 percent but it goes deep... moderate bleeding used txa... patient stable to recovery.",
+            6: "Flexible bronchoscopy was performed under general anesthesia for left lung collapse. Inspection revealed vascular tumors obstructing both the LUL and LLL. The LUL tumor was resected using an electrocautery snare and APC, achieving complete patency. The LLL tumor was debulked using a combination of snare, cryoextraction, and APC; however, due to extensive distal involvement, only 70% patency was restored. Hemostasis was secured with topical TXA.",
+            7: "[Indication]\nMalignant bilobar obstruction (LUL and LLL).\n[Anesthesia]\nGeneral Anesthesia via LMA.\n[Description]\nFlexible bronchoscopy performed. LUL tumor excised with snare/APC (fully open). LLL tumor treated with Cryo/Snare/APC (70% open). TXA used for hemostasis.\n[Plan]\nMonitor in PACU. Oncology referral for metastatic disease.",
+            8: "Mr. Anderson underwent a flexible bronchoscopy to address a left lung collapse. We identified tumors blocking both the upper and lower lobes. For the upper lobe, we used a snare and APC to remove the mass, fully opening the airway. The lower lobe was more challenging; we used a cryoprobe and APC to remove as much tissue as possible, but the tumor extended deep into the airways. We managed to open it to about 70%. Bleeding was controlled, and the patient was sent to recovery.",
+            9: "PROCEDURE: Flexible bronchoscopy with cryo-resection, cautery snare and APC.\nDETAILS: Vascular masses were identified occluding the LUL and LLL. The LUL lesion was resected via snare. The LLL lesion was extracted using a cryoprobe and ablated with APC. Hemostasis was secured. The LUL was recanalized; the LLL was partially cleared."
         },
-        2: { # Gregory Martinez - EBUS-TBNA
-            1: "Indication: Lymphadenopathy.\nAnesthesia: Moderate (Midazolam/Fentanyl).\nProcedure:\n- EBUS scope inserted.\n- Systematic staging performed.\n- Station 4R: Sampled x4.\n- Station 7: Sampled x4.\n- Station 11R: Sampled x3.\n- ROSE: Adequate/Positive.\n- No complications.\nPlan: Discharge.",
-            2: "PROCEDURE: Endobronchial Ultrasound-Guided Transbronchial Needle Aspiration (EBUS-TBNA).\nNARRATIVE: Under moderate sedation, the EBUS bronchoscope was introduced. A systematic evaluation of the mediastinal and hilar lymph node stations was conducted. Significant lymphadenopathy was identified at stations 4R, 7, and 11R. Real-time ultrasound guidance facilitated safe needle aspiration of these targets. Rapid On-Site Evaluation (ROSE) confirmed the presence of diagnostic material in all sampled stations. The patient tolerated the procedure well.",
-            3: "Primary Code: 31653 (EBUS-TBNA, 3 or more stations).\nNodes Sampled:\n1. Station 4R (Mediastinal)\n2. Station 7 (Subcarinal)\n3. Station 11R (Hilar)\nTechnique: Real-time ultrasonic guidance with needle aspiration. ROSE confirmation obtained for all sites. Systematic staging documented.",
-            4: "Procedure Note\nPatient: Gregory Martinez\nProcedure: EBUS-TBNA\nSteps:\n1. Timeout.\n2. Sedation started.\n3. Examined N3, N2, N1 nodes.\n4. Biopsied 4R, 7, and 11R.\n5. Path confirmed adequacy.\n6. Patient stable.\nPlan: Follow up path results.",
-            5: "We did an EBUS on Gregory Martinez today he has some nodes we needed to check. Gave him midaz and fentanyl. Looked at 4R 7 and 11R. Poked them all a few times and the pathologist in the room said we got good samples. Everything went fine no bleeding or anything. Woke him up and sent him home.",
-            6: "The patient was sedated with Midazolam and Fentanyl. An EBUS scope was inserted. We identified and sampled lymph nodes at stations 4R, 7, and 11R. Multiple passes were made at each station. Rapid on-site evaluation confirmed adequacy. There were no complications. The patient was discharged in stable condition.",
-            7: "[Indication]\nMediastinal and hilar lymphadenopathy.\n[Anesthesia]\nModerate Sedation (ASA II).\n[Description]\nEBUS-TBNA performed. Stations 4R, 7, and 11R visualized and sampled. ROSE confirmed diagnostic material. Molecular samples collected.\n[Plan]\nDischarge. Pathology follow-up.",
-            8: "Mr. Martinez underwent an EBUS-TBNA procedure for staging. After achieving moderate sedation, we advanced the scope and systematically evaluated the lymph nodes. We identified enlarged nodes at stations 4R, 7, and 11R. Using ultrasound guidance, we successfully aspirated samples from all three stations. On-site pathology confirmed that the samples were adequate for diagnosis. The patient remained stable throughout.",
-            9: "Procedure: EBUS-guided needle sampling.\nTarget: Lymph nodes.\nAction: The scope was navigated to the mediastinum. Stations 4R, 7, and 11R were interrogated. Transbronchial aspiration was executed at all three sites. Specimen adequacy was validated.\nOutcome: Diagnostic cellular material obtained."
+        2: { # Note 2: LMS Aero Stent
+            1: "Procedure: Rigid Bronch, Aero Stent LMS.\n- Indication: LMS obstruction.\n- Findings: Complete obstruction proximal LMS.\n- Action: Rigid scope. Cryo/APC/Forceps debulking. \n- Stent: 12x40mm Aero SEMS placed over guidewire.\n- Result: >90% patency.\n- Plan: ICU, 3% saline nebs.",
+            2: "OPERATIVE NARRATIVE: The patient presented with complete malignant stenosis of the Left Mainstem (LMS) bronchus. Rigid bronchoscopy was initiated under general anesthesia. The obstruction was recanalized using a combination of cryoextraction and Argon Plasma Coagulation (APC) 'burn and shave' techniques. Due to significant residual tumor burden and the risk of re-occlusion, a decision was made to deploy a stent. A 12x40mm Aero Self-Expanding Metallic Stent (SEMS) was positioned under fluoroscopic guidance, achieving >90% luminal patency.",
+            3: "BILLING DATA:\n- 31641: Bronchoscopy with tumor destruction (APC/Cryo/Forceps) in Left Mainstem.\n- 31636: Bronchoscopy with stent placement (Aero 12x40mm) in initial bronchus (LMS).\nNote: Diagnostic bronchoscopy and fluoroscopy are bundled.",
+            4: "Procedure: Rigid Bronchoscopy + Stenting\nResident: Dr. Bishop\nSteps:\n1. General anesthesia.\n2. Rigid scope to distal trachea.\n3. Debulked LMS tumor using Cryo and APC.\n4. Measured obstruction.\n5. Placed Jagwire and markers.\n6. Deployed 12x40mm Aero stent.\n7. Confirmed position >90% open.\nPlan: ICU, Saline nebs.",
+            5: "patient with left mainstem blockage... did a rigid bronch in the OR... tumor was blocking everything so we used the cryo probe to pull chunks out and apc to burn the rest... still looked like it might close up so we put in an aero stent 12 by 40... used fluoro to see where it went... looks good now wide open... back to icu start saline nebs.",
+            6: "Rigid bronchoscopy was performed for complete left mainstem obstruction. The tumor was debulked using cryoextraction and APC. To maintain patency against residual tumor burden, a 12x40mm Aero covered stent was deployed over a guidewire under fluoroscopic guidance. Final inspection revealed excellent stent position with >90% airway patency. The patient was intubated and transferred to the ICU.",
+            7: "[Indication]\nMalignant Left Mainstem Obstruction.\n[Anesthesia]\nGeneral Anesthesia (Rigid Bronchoscopy).\n[Description]\nTumor in LMS debulked via Cryo and APC. 12x40mm Aero stent deployed under fluoroscopy. Airway patent >90%.\n[Plan]\nICU admission. Hypertonic saline nebulizers.",
+            8: "We took the patient to the OR for a rigid bronchoscopy to treat a blocked left mainstem bronchus. We removed the bulk of the tumor using a freezing probe (cryo) and cautery (APC). Because there was still some tumor pressing on the airway, we decided to place a stent. We used fluoroscopy to guide a 12x40mm Aero stent into place. This opened the airway up to over 90% of its normal size. The patient is heading to the ICU for recovery.",
+            9: "PROCEDURE: Rigid bronchoscopy with Aero tracheobronchial stent deployment.\nFINDINGS: Complete occlusion of the LMS.\nINTERVENTION: The lesion was ablated and extracted using cryotherapy and APC. An Aero stent was positioned to scaffold the airway.\nRESULT: Restored patency to >90%."
         },
-        3: { # Janet S. Williams - Pulsed Field Ablation (Investigational)
-            1: "Indication: LUL squamous cell CA, research protocol.\nAnesthesia: General.\nProcedure:\n- Navigated to LUL nodule.\n- PFA catheter placed.\n- 3 cycles of non-thermal ablation delivered (1500V).\n- EBUS confirmed cellular disruption.\n- No thermal damage to airway.\nPlan: Research f/u, CT at 48hrs.",
-            2: "OPERATIVE REPORT: Investigational Bronchoscopic Pulsed Field Ablation.\nINDICATION: The patient, enrolled in the PULSE-LUNG Phase II trial, presented for ablation of a left upper lobe squamous cell carcinoma. \nPROCEDURE: Under general anesthesia, electromagnetic navigation was utilized to localize the target lesion in the apicoposterior segment. The novel bipolar PFA catheter was deployed. Irreversible electroporation was induced via high-voltage, non-thermal pulses delivered in three cycles. Real-time monitoring confirmed impedance changes consistent with successful treatment. Post-ablation imaging suggested complete tumor necrosis without collateral thermal injury.",
-            3: "Code Submitted: 31641 (Destruction of tumor, any method).\nMethodology: Pulsed Field Ablation (Non-thermal irreversible electroporation).\nTarget: Left Upper Lobe Nodule (Malignant).\nGuidance: Electromagnetic Navigation + Radial EBUS.\nDetails: Catheter placed within lesion. 1500V pulses delivered to destroy tumor tissue. Investigational device exemption apply.",
-            4: "Procedure Note - Research\nPatient: Janet Williams\nProcedure: Pulsed Field Ablation (PFA)\nSteps:\n1. GA/ETT.\n2. Navigated to LUL lesion with ENB.\n3. Confirmed with REBUS.\n4. Inserted PFA catheter.\n5. Delivered 3 cycles of energy.\n6. Checked site - looks treated.\nNo complications.",
-            5: "Janet Williams here for the lung study protocol PULSE-LUNG. She has a cancer in the LUL. We put her under GA and used the navigation system to get there. Put the special PFA catheter in and zapped it with the electrical pulses. Didn't use heat so no burning. Everything looked good on the ultrasound after. She is in the registry now for follow up.",
-            6: "General anesthesia was induced. Using the illumiSite navigation platform, we localized the 1.9 cm nodule in the LUL. The PFA catheter was advanced into the lesion. Three cycles of pulsed field ablation were delivered at 1500 V. Intraprocedural monitoring showed effective energy delivery. Post-procedure EBUS demonstrated changes consistent with necrosis. The airways remained intact. The patient was stable.",
-            7: "[Indication]\nLeft upper lobe squamous cell carcinoma; Clinical Trial Enrollment.\n[Anesthesia]\nGeneral Anesthesia.\n[Description]\nNavigation to LUL apicoposterior segment. PFA catheter deployed. 3 cycles of non-thermal irreversible electroporation delivered. Immediate tissue response confirmed via EBUS.\n[Plan]\nProtocol follow-up. Serial CT imaging.",
-            8: "Ms. Williams underwent an investigational pulsed field ablation for her lung tumor. We used electromagnetic navigation to reach the nodule in her left upper lobe. Once confirmed, we used the study catheter to deliver electrical pulses that destroy cancer cells without heat. The procedure went exactly as planned, and we saw signs of tumor destruction on the ultrasound immediately afterwards. She will be followed closely as part of the study.",
-            9: "Procedure: Bronchoscopic non-thermal tumor destruction.\nTechnique: Pulsed Field Ablation.\nAction: The lesion was targeted via navigation. The electrode was positioned. High-voltage pulses were administered to induce electroporation. The tumor was neutralized without thermal injury to surrounding tissues."
+        3: { # Note 3: BI Obstruction (Rigid/APC/Balloon)
+            1: "Procedure: Rigid Bronch, Tumor Debulking BI/RUL.\n- Indication: Tumor obstruction BI.\n- Findings: Pus distal to obstruction. BI tumor + radiation bronchitis.\n- Action: Radial cuts (electrocautery), drained pus. APC/Forceps debulking. Balloon dilation (6-8mm).\n- Result: BI 70% open, RUL 85% open. No stent placed.\n- Plan: Antibiotics (Augmentin), Oncology f/u.",
+            2: "OPERATIVE REPORT: The patient presented with a complex obstruction of the Bronchus Intermedius (BI) and Right Upper Lobe (RUL) complicated by post-obstructive pneumonia. Rigid bronchoscopy was utilized. Initial incision with an electrocautery knife released copious purulent material, which was cultured. Mechanical debulking and APC were employed to remove tumor tissue. Subsequent CRE balloon dilation achieved 70% patency in the BI and 85% in the RUL. Stenting was deferred due to extensive distal tumor infiltration.",
+            3: "BILLING CODES:\n- 31641: Destruction of tumor (APC) in Bronchus Intermedius.\n- 31640-XS: Excision of tumor (Forceps) in Right Upper Lobe (separate site).\n- 31645-XS: Therapeutic aspiration of large volume pus (post-obstructive pneumonia).\nNote: Balloon dilation (31630) is bundled.",
+            4: "Procedure: Rigid Bronchoscopy\nPatient: Samuel Vimes\n1. General Anesthesia/Paralytics.\n2. Rigid scope inserted.\n3. Found tumor/pus in BI.\n4. Drained pus (culture sent).\n5. Debulked BI and RUL using APC and Forceps.\n6. Dilated with CRE balloon.\n7. Hemostasis w/ APC.\nPlan: Augmentin, CT chest.",
+            5: "rigid bronch for tumor in the bronchus intermedius... lots of pus when we cut into it so we sucked that out... looks like radiation damage too... used apc and the balloon to open things up... got the bi open about 70 percent and the rul 85 percent... decided not to stent cause the tumor goes too deep... gave him augmentin for the pneumonia.",
+            6: "Rigid bronchoscopy was performed for right-sided airway obstruction. Large volume purulent fluid was drained from the distal airways following incision of the tumor in the bronchus intermedius. The tumor was debulked using APC and forceps, followed by CRE balloon dilation. We achieved 70% patency in the BI and 85% in the RUL. Stenting was contraindicated due to distal disease extension. The patient was treated for post-obstructive pneumonia.",
+            7: "[Indication]\nTumor obstruction BI, Post-obstructive pneumonia.\n[Anesthesia]\nGeneral Anesthesia (Rigid).\n[Description]\nPurulent fluid drained. Tumor in BI and RUL debulked with APC/Forceps. Balloon dilation performed. No stent placed.\n[Plan]\nAugmentin 10 days. Repeat CT. Oncology consult.",
+            8: "Mr. Vimes had a rigid bronchoscopy to clear a tumor blocking his right lung. When we opened the blockage, we found a lot of infection (pus) behind it, which we drained. We used heat (APC) and balloons to widen the airways in the bronchus intermedius and the right upper lobe. We got them mostly open, but we couldn't put a stent in because the tumor goes too far down. We started him on antibiotics for the infection.",
+            9: "PROCEDURE: Rigid bronchoscopy.\nINTERVENTION: The obstruction was incised, and purulence was aspirated. The lesion was ablated with APC and mechanically resected. The airway was dilated via balloon.\nRESULT: The BI was recanalized to 70%; RUL to 85%. Stent deployment was deemed inappropriate."
         },
-        4: { # Elizabeth Chen - RML Tumor Biopsy
-            1: "Indication: RML collapse, rule out obstruction.\nAnesthesia: Moderate/Topical.\nProcedure:\n- RML obstructed by exophytic tumor.\n- 6 forceps biopsies taken.\n- Moderate bleeding, stopped with epi/iced saline.\n- Bronchial wash collected.\nPlan: D/C, awaiting path.",
-            2: "PROCEDURE: Diagnostic flexible bronchoscopy.\nFINDINGS: Inspection of the tracheobronchial tree revealed a patent right upper lobe and left bronchial tree. The right middle lobe bronchus, however, was nearly completely occluded by a necrotic, exophytic mass. Endobronchial forceps biopsies were obtained from the lesion to establish a tissue diagnosis. Hemostasis was achieved following moderate hemorrhage. A bronchial washing was also performed for cytological analysis.",
-            3: "CPT 31625: Bronchoscopy with bronchial biopsy (Target: RML Tumor).\nCPT 31624: Bronchoscopy with bronchial wash (Target: RML).\nDocumentation of Necessity: Visualization of endobronchial obstruction required tissue sampling. Moderate bleeding management included in base code value.",
-            4: "Procedure Note\nPatient: Elizabeth Chen\nProcedure: Bronch with biopsy.\nSteps:\n1. Numbed airway.\n2. Scope down. Normal until RML.\n3. RML blocked by tumor.\n4. Took 6 biopsies.\n5. Washed the area.\n6. Controlled bleeding.\n7. Patient tolerated well.",
-            5: "Elizabeth Chen here for RML collapse. We looked down with the scope she was awake just some numbing meds. RML was totally blocked by a tumor looked necrotic. We grabbed like 6 biopsies from it. It bled a fair bit so we used epi and cold saline to stop it. Did a wash too. She did fine oxygen stayed up.",
-            6: "Topical anesthesia was applied. The bronchoscope was advanced. The right middle lobe was found to be obstructed by an exophytic tumor. Multiple forceps biopsies were taken from the mass. Bronchial lavage was performed. Moderate bleeding occurred and was controlled with vasoconstrictors. The patient tolerated the procedure well.",
-            7: "[Indication]\nRight middle lobe collapse; endobronchial obstruction.\n[Anesthesia]\nModerate Sedation (Topical Lidocaine).\n[Description]\nRML bronchus obstructed by tumor. 6 Forceps biopsies obtained (CPT 31625). Bronchial lavage performed (CPT 31624). Hemostasis achieved after moderate bleeding.\n[Plan]\nMonitor recovery. Pathology pending.",
-            8: "We performed a bronchoscopy on Ms. Chen to investigate her collapsed lung. While the upper and left airways looked normal, the right middle lobe was blocked by a large, irregular tumor. We took several biopsies of this mass and collected a fluid sample. There was some bleeding from the biopsy site, which we stopped with medication and cold water. The patient remained comfortable throughout.",
-            9: "Procedure: Flexible bronchoscopy with tumor sampling.\nFindings: RML occlusion by neoplasm.\nAction: The airway was scouted. The mass was biopsied using forceps. The area was lavaged. Hemorrhage was arrested with epinephrine.\nOutcome: Specimens sent for analysis."
-        },
-        5: { # Barbara Kim - Therapeutic Bronch/Bleeding
-            1: "Indication: Central airway obstruction.\nAnesthesia: General, ETT.\nIntervention:\n- RML tumor debulking (cautery/APC).\n- Complication: Massive hemoptysis (~300mL).\n- Bleeding controlled (blocker, iced saline).\n- 14x40mm silicone stent placed.\nPlan: ICU, keep intubated, serial HCT.",
-            2: "OPERATIVE NOTE: Emergent therapeutic bronchoscopy for massive hemoptysis and tumor debulking.\nCLINICAL COURSE: The patient underwent scheduled debulking of an RML tumor. Intraoperatively, significant hemorrhage was encountered. Hemostasis was achieved through a combination of endobronchial blockade and vasoconstrictive agents. Following stabilization, the airway was recanalized using electrocautery, and a 14x40mm silicone stent was deployed to maintain patency and tamponade the bleeding vessel. The patient remains intubated for airway protection.",
-            3: "Procedures Coded:\n1. 31641: Bronchoscopic destruction of tumor (RML) via electrocautery and APC.\n2. 31636: Placement of bronchial stent (Silicone, RML) for airway patency and tamponade.\nJustification: Complex therapeutic intervention required for tumor management and life-threatening hemorrhage control.",
-            4: "Procedure Note\nPatient: Barbara Kim\nProcedure: Debulking + Stent.\nEvents:\n1. Started debulking RML tumor.\n2. Massive bleeding started.\n3. Used blocker and iced saline to stop it.\n4. Placed a stent to keep it open and stop bleed.\n5. Patient stable but intubated.\nPlan: ICU.",
-            5: "Barbara Kim procedure note. We were debulking her RML tumor when it started bleeding like crazy about 300cc. We had to block it off and use everything we had to stop it. Eventually got it under control. Put a silicone stent in there 14 by 40 to hold it open. She is going to the MICU intubated just to be safe.",
-            6: "The patient was intubated for therapeutic bronchoscopy. Debulking of the RML tumor was initiated using electrocautery. This resulted in massive hemoptysis. A bronchial blocker and iced saline were used to achieve hemostasis. A 14x40 mm silicone stent was subsequently placed to secure the airway. The patient was transferred to the ICU for monitoring.",
-            7: "[Indication]\nCentral airway obstruction; Tumor debulking.\n[Anesthesia]\nGeneral Anesthesia (ETT).\n[Description]\nRML tumor treated with electrocautery/APC. Complicated by massive hemorrhage. Hemostasis achieved. Silicone stent (14x40mm) deployed.\n[Plan]\nAdmit to MICU. Mechanical ventilation. Monitor H&H.",
-            8: "We performed a therapeutic bronchoscopy on Ms. Kim to treat a tumor blocking her airway. During the removal of the tumor using heat therapy, she experienced severe bleeding. We managed to stop the bleeding using a blocker and cold saline. To ensure the airway stayed open and to help prevent further bleeding, we placed a silicone stent. She will remain on the ventilator in the ICU overnight for safety.",
-            9: "Procedure: Therapeutic bronchoscopy with tumor ablation and stenting.\nComplication: Significant hemorrhage.\nAction: The neoplasm was ablated. Bleeding was stemmed using a blocker. A silicone prosthesis was inserted to scaffold the airway.\nDisposition: Critical care admission."
+        4: { # Note 4: BI Obstruction (Rigid/Laser/Coring)
+            1: "Procedure: Rigid Bronch, Laser/Coring BI.\n- Indication: BI tumor obstruction.\n- Findings: Large polypoid tumor BI (100% blocked). RUL 30% blocked.\n- Action: Nd:YAG Laser. Rigid 'apple coring'. Suction removal. APC cleanup.\n- Result: BI 85% open proximal, 60% distal. RUL 80% open.\n- Plan: No stent (patient pref). Oncology referral.",
+            2: "OPERATIVE NARRATIVE: The patient underwent rigid bronchoscopy for management of a malignant polypoid obstruction in the Bronchus Intermedius (BI). The lesion was devascularized using the Nd:YAG laser. Mechanical resection was achieved via the 'apple coring' technique using the bevel of the rigid scope. Residual tumor was managed with APC. The RUL orifice was similarly treated. We successfully recanalized the proximal BI to 85%. Stent placement was withheld per patient preference and anatomical constraints.",
+            3: "CPT CODING:\n- 31641: Destruction of tumor (Nd:YAG Laser, APC) in Bronchus Intermedius.\n- 31640-XS: Excision of tumor (Rigid Coring) in Right Upper Lobe/Distal BI (distinct technique/site consideration).\nNote: Documentation supports multi-modality approach (Laser vs Coring).",
+            4: "Procedure: Rigid Bronch + Laser\nPatient: Jean-Luc Picard\nSteps:\n1. General Anesthesia/Paralytics.\n2. Rigid scope (11mm).\n3. Nd:YAG laser to BI tumor.\n4. Coring with rigid scope bevel.\n5. Removed mass en-bloc.\n6. APC for residual.\n7. RUL debulked similarly.\nPlan: CXR, Oncology consult.",
+            5: "rigid bronch case for mr picard... had a big polyp blocking the bi... we tried the snare but it wouldnt grab so we used the laser... then used the rigid scope to core it out like an apple... pulled the whole thing out with suction... cleaned up with apc... opened it up pretty good... patient didn't want a stent so we left it as is... check xray.",
+            6: "Rigid bronchoscopy was utilized to treat a complete obstruction of the bronchus intermedius. The polypoid lesion was devascularized with Nd:YAG laser and resected using a rigid coring technique. The RUL orifice was also debulked using APC. We achieved 85% patency proximally. Stent placement was deferred based on patient preference and distal tumor anatomy. The patient will follow up with oncology for systemic therapy.",
+            7: "[Indication]\nTumor obstruction Bronchus Intermedius.\n[Anesthesia]\nGeneral Anesthesia (Rigid).\n[Description]\nNd:YAG laser and Rigid Coring used to remove polypoid mass in BI. APC used for residuals. RUL debulked. Patency restored to 85%.\n[Plan]\nCXR. Oncology for systemic therapy.",
+            8: "We performed a rigid bronchoscopy on Mr. Picard to remove a large tumor blocking his breathing passage. We used a laser to shrink the tumor and then used the metal tube of the scope to core it out. We removed the main chunk of the tumor and used cautery to clean up the rest. The airway is much more open now. We decided against a stent for now, as he prefers to avoid it if possible.",
+            9: "PROCEDURE: Rigid bronchoscopy with endobronchial resection.\nDETAILS: A polypoid lesion in the BI was photocoagulated with Nd:YAG and resected via coring. The RUL was also treated. \nOUTCOME: The airway was recanalized. Stent deployment was deferred."
         }
     }
     return variations
-
-def get_base_data_mocks():
-    # Mocks for names and original ages to ensure consistency with the logic
-    # Note: In a real scenario, this would be derived dynamically or mapped. 
-    # Here, I align them with the indices 0-5 corresponding to the 6 notes in the source file.
-    return [
-        {"idx": 0, "orig_name": "Gilbert Barkley", "orig_age": 65, "names": ["John Vance", "Arthur Higgins", "Robert Kinsley", "William O'Connor", "James P. Miller", "Edward Stone", "Richard Davis", "Thomas Clark", "Gary Wright"]},
-        {"idx": 1, "orig_name": "Oscar Godsey", "orig_age": 65, "names": ["Sarah Jenkins", "Linda Carter", "Nancy Hughes", "Karen Smith", "Barbara Lopez", "Mary Ann Davidson", "Susan White", "Margaret Lewis", "Betty King"]},
-        {"idx": 2, "orig_name": "Gregory Martinez", "orig_age": 65, "names": ["Michael Foster", "Robert G. Turner", "David Myers", "Joseph Anderson", "Frank Mitchell", "Paul Reynolds", "George Baker", "Kenneth Roberts", "Steven Phillips"]},
-        {"idx": 3, "orig_name": "Janet S. Williams", "orig_age": 58, "names": ["Marie Hall", "Patricia Campbell", "Elizabeth Allen", "Jennifer Young", "Linda Hernandez", "Barbara King", "Dorothy Wright", "Helen Scott", "Carol Green"]},
-        {"idx": 4, "orig_name": "Elizabeth Chen", "orig_age": 65, "names": ["James Carter", "William Edwards", "Thomas Harris", "Charles Martin", "Donald Thompson", "Mark Garcia", "Paul Martinez", "George Robinson", "Kenneth Clark"]},
-        {"idx": 5, "orig_name": "Barbara Kim", "orig_age": 69, "names": ["Betty Adams", "Sandra Nelson", "Donna Carter", "Carol Mitchell", "Sharon Roberts", "Brenda Phillips", "Pamela Campbell", "Deborah Evans", "Laura Turner"]},
-    ]
 
 def main():
     # Load original data from source file
@@ -114,7 +130,7 @@ def main():
         return
     
     if not isinstance(source_data, list):
-        print(f"Error: Source file must contain a JSON array, got {type(source_data)}")
+        print(f"Error: Source file must contain a JSON array.")
         return
     
     print(f"Loaded {len(source_data)} notes from {SOURCE_FILE}")
@@ -128,54 +144,39 @@ def main():
     
     generated_notes = []
     
-    # Iterate through each original note in source data
+    # Loop through each original note
     for idx, original_note in enumerate(source_data):
         if idx >= len(base_data):
-            print(f"Warning: More notes in source than base_data entries. Skipping note {idx}.")
-            continue
+            break
             
         record = base_data[idx]
         orig_age = record['orig_age']
         
-        # Iterate through the 9 styles
+        # Create 9 variations
         for style_num in range(1, 10):
-            
-            # Deep copy the original note structure
             note_entry = copy.deepcopy(original_note)
             
-            # Determine new random age (+/- 3 years)
+            # Randomize Age and Date
             new_age = orig_age + random.randint(-3, 3)
-            
-            # Determine new random date (within 2025)
             rand_date_obj = generate_random_date(2025, 2025)
             rand_date_str = rand_date_obj.strftime("%Y-%m-%d")
-            
-            # Get the specific name assigned
             new_name = record['names'][style_num - 1]
             
-            # Update note_text with the variation
-            # Use style_num as key for text variation
-            if idx in variations_text and style_num in variations_text[idx]:
-                note_entry["note_text"] = variations_text[idx][style_num]
-            else:
-                note_entry["note_text"] = f"Variation {style_num} not found for note {idx}."
-
-            # Update registry_entry fields if they exist
-            if "registry_entry" in note_entry and note_entry["registry_entry"]:
-                # Update Age
-                if "patient_age" in note_entry["registry_entry"]:
-                    note_entry["registry_entry"]["patient_age"] = new_age
+            # Inject Text Variation
+            note_entry["note_text"] = variations_text[idx][style_num]
+            
+            # Update Registry Data to match
+            if "registry_entry" in note_entry:
+                if "patient_demographics" in note_entry["registry_entry"]:
+                    # Some notes might have null, so we initialize if needed
+                    if note_entry["registry_entry"]["patient_demographics"] is None:
+                        note_entry["registry_entry"]["patient_demographics"] = {}
+                    note_entry["registry_entry"]["patient_demographics"]["age_years"] = new_age
                 
-                # Update Date
-                if "procedure_date" in note_entry["registry_entry"]:
-                    note_entry["registry_entry"]["procedure_date"] = rand_date_str
-                
-                # Update Patient MRN to make it unique
-                if "patient_mrn" in note_entry["registry_entry"]:
-                    original_mrn = note_entry["registry_entry"].get("patient_mrn", "UNKNOWN")
-                    note_entry["registry_entry"]["patient_mrn"] = f"{original_mrn}_syn_{style_num}"
-
-            # Add metadata about the synthetic generation
+                note_entry["registry_entry"]["procedure_date"] = rand_date_str
+                note_entry["registry_entry"]["patient_mrn"] = f"SYN_015_{idx}_{style_num}"
+            
+            # Add Synthetic Metadata
             note_entry["synthetic_metadata"] = {
                 "source_file": SOURCE_FILE,
                 "original_index": idx,
@@ -186,12 +187,12 @@ def main():
             
             generated_notes.append(note_entry)
 
-    # Output to JSON in Synthetic_expansions folder
-    output_filename = output_dir / "synthetic_blvr_notes_part_015.json"
-    with open(output_filename, 'w', encoding='utf-8') as f:
+    # Write output
+    output_path = output_dir / OUTPUT_FILE
+    with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(generated_notes, f, indent=2, ensure_ascii=False)
     
-    print(f"Successfully generated {len(generated_notes)} synthetic notes in {output_filename}")
+    print(f"Successfully generated {len(generated_notes)} synthetic notes in {output_path}")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,32 @@
+[
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/billing/total_rvu",
+      "value": 14.8
+    },
+    {
+      "op": "add",
+      "path": "/1/registry_entry/billing/practice_expense_rvu",
+      "value": 5.5
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/billing/total_rvu",
+      "value": 13.94
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/billing/practice_expense_rvu",
+      "value": 5.27
+    },
+    {
+      "op": "replace",
+      "path": "/4/registry_entry/billing/total_rvu",
+      "value": 18.41
+    },
+    {
+      "op": "add",
+      "path": "/4/registry_entry/billing/practice_expense_rvu",
+      "value": 6.96
+    }
+  ]

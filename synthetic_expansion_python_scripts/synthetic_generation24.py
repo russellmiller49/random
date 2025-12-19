@@ -5,7 +5,7 @@ import copy
 from pathlib import Path
 
 # Source file for JSON elements
-SOURCE_FILE = "consolidated_verified_notes_v2_8_part_024.json"
+SOURCE_FILE = "bronch_extractions_patched/bronch_notes_part_024.json"
 OUTPUT_DIR = "Synthetic_expansions"
 
 def generate_random_date(start_year, end_year):
@@ -14,146 +14,77 @@ def generate_random_date(start_year, end_year):
     return start + (end - start) * random.random()
 
 def get_variations():
-    """
-    Returns a dictionary mapping Note_Index (0-9) -> Style_Index (1-9) -> Text.
-    Styles:
-    1. Terse Surgeon
-    2. Academic Attending
-    3. Billing Coder
-    4. Trainee/Resident
-    5. Sloppy Dictation
-    6. Header-less
-    7. Templated
-    8. Narrative Flow
-    9. Synonym Swapper
-    """
+    # Dictionary holding manually crafted text variations for the 5 notes in bronch_notes_part_024.json
+    # Structure: Note_Index (0-4) -> Style_Index (1-9) -> Text
     
     variations = {
-        0: { # EBUS-TBNA 3 stations (4R, 7, 10R)
-            1: "Proc: EBUS-TBNA. Sedation: Moderate.\n- Stations sampled: 4R, 7, 10R.\n- Result: Metastatic adenocarcinoma confirmed.\n- No complications.",
-            2: "PROCEDURE: Endobronchial Ultrasound-Guided Transbronchial Needle Aspiration (EBUS-TBNA). Under moderate sedation, the EBUS bronchoscope was advanced. A systematic interrogation of the mediastinum identified FDG-avid lymphadenopathy. Stations 4R (right lower paratracheal), 7 (subcarinal), and 10R (right hilar) were sequentially sampled. Rapid on-site evaluation (ROSE) confirmed metastatic adenocarcinoma.",
-            3: "CPT Code Justification: 31653 (EBUS-TBNA 3+ stations).\nTechnique: Linear EBUS scope used. Needle aspiration performed at three distinct nodal stations: 4R, 7, and 10R. All samples adequate for diagnosis.",
-            4: "Resident Note:\nProcedure: EBUS-TBNA\n1. Moderate sedation initiated.\n2. Scope inserted orally.\n3. Identified target nodes (4R, 7, 10R).\n4. 22G needle passes x3 each station.\n5. Diagnosis: Adenocarcinoma.\nPlan: Oncology referral.",
-            5: "ebus procedure patient sedated moderate we checked the nodes 4r 7 and 10r they lit up on pet so we sampled them needle went in fine got the tissue confirmed cancer adeno type no bleeding really patient woke up good.",
-            6: "EBUS-TBNA under moderate sedation with sampling of FDG-avid stations 4R, 7, and 10R confirming metastatic adenocarcinoma. The procedure was tolerated well. Assessment of the airways revealed no endobronchial lesions. Rapid on-site pathology was consistent with malignancy.",
-            7: "[Indication]\nMediastinal adenopathy, FDG-avid.\n[Anesthesia]\nModerate sedation.\n[Description]\nEBUS-TBNA of stations 4R, 7, and 10R. Metastatic adenocarcinoma confirmed.\n[Plan]\nRefer to Oncology.",
-            8: "The patient underwent an EBUS-TBNA procedure under moderate sedation to investigate avid lymph nodes. We specifically targeted stations 4R, 7, and 10R. Using the ultrasound-guided needle, we obtained samples from each station. The preliminary pathology results confirmed the presence of metastatic adenocarcinoma.",
-            9: "Procedure: Endobronchial sonographic needle extraction.\nAction: Sampled FDG-hot nodes at loci 4R, 7, and 10R. Analysis validated metastatic adenocarcinoma."
+        0: { # Note 0: Emergent Mucus Plug (31645)
+            1: "Indication: Acute respiratory failure/choking.\nProcedure: Emergent bronchoscopy. No sedation.\nFindings: Thick mucus plug in trachea. Left mainstem stent 50% obstructed by mucus.\nAction: Suctioned trachea. Cleared stent to 95% patency.\nOutcome: Symptoms resolved.",
+            2: "HISTORY: The patient presented emergently to the bronchoscopy suite with acute respiratory distress and stridor immediately following a clinic visit. \nPROCEDURE: Flexible bronchoscopy was performed without sedation due to the acuity of the event. Topical anesthesia was achieved with 1% lidocaine. Upon insertion, a dense mucus plug was visualized obstructing the trachea and was successfully aspirated. Further examination revealed the left mainstem stent was partially occluded (approx. 50%) by tenacious secretions. Thorough suctioning was performed, restoring stent patency to 95%.\nIMPRESSION: Acute airway obstruction secondary to mucus plugging, resolved with therapeutic aspiration.",
+            3: "Service: Therapeutic Bronchoscopy (31645).\nIndication: Acute Respiratory Failure.\nTechnique: Scope introduced nasally. Therapeutic aspiration performed in trachea and left mainstem bronchus.\nFindings: Mucus plugging in central airways. Left mainstem stent found 50% occluded by secretions; cleared to 95% patency via suction. No tumor destruction or stent manipulation performed (supports 31645, excludes 31638).",
+            4: "Procedure: Emergency Flexible Bronchoscopy\nIndication: Choking/Respiratory Distress\nSedation: None (Emergent)\nSteps:\n1. Lidocaine applied to nares/cords.\n2. Scope inserted.\n3. Large mucus plug identified in trachea -> Suctioned.\n4. Left mainstem stent inspected; found 50% occluded with mucus.\n5. Stent suctioned clear (95% patent).\n6. Patient stabilized.",
+            5: "Patient ran into the room choking said he couldnt breathe so we took him right to the bronch room no time for sedation used some lidocaine scope went in right nose saw a huge mucus plug in the trachea sucked it out then looked down the left side the stent was clogged up with mucus too about halfway blocked cleaned that out too until it was open again patient felt better right away sent him to the ER to be safe.",
+            6: "Emergent flexible bronchoscopy was performed for acute respiratory failure. Patient presented choking. 18cc Lidocaine used. No sedation. Scope passed via right naris. Thick mucus plug visualized in trachea and aspirated. Further inspection revealed left mainstem stent 50% occluded by adherent mucus. Therapeutic aspiration performed clearing stent to 95% patency. Airways otherwise patent. Procedure terminated as symptoms resolved. Patient transferred to ED.",
+            7: "[Indication]\nAcute respiratory failure, choking sensation.\n[Anesthesia]\nLocal (Lidocaine) only; no sedation due to urgency.\n[Description]\nEmergent airway inspection revealed thick mucus plugging in trachea. This was aspirated. Left mainstem stent found 50% obstructed by inspissated mucus. Therapeutic aspiration performed, restoring lumen to 95%. \n[Plan]\nTransfer to ED for monitoring.",
+            8: "The procedure was conducted emergently after the patient presented with signs of choking. We utilized topical lidocaine but bypassed sedation given the severity of his distress. The bronchoscope was introduced, immediately identifying a large mucus plug within the trachea which was cleared. We continued to the left side, where the existing left mainstem stent was noted to be significantly obstructed by thick secretions. We performed extensive suctioning, effectively recanalizing the stent to near-total patency. The patient's breathing improved markedly immediately following the intervention.",
+            9: "REOPERATIVE DIAGNOSIS: Acute respiratory failure\nPROCEDURE: Flexible bronchoscopy\nDETAILS: The procedure was executed emergently. The patient presented with choking. Lidocaine was applied. The scope was inserted. A dense mucus plug was observed in the trachea and extracted. The left mainstem stent was found partially blocked by sticky mucus. This was cleared, achieving 95% patency. The patient's status improved immediately."
         },
-        1: { # ENB + Radial + Cryoablation LUL
-            1: "Proc: Nav Bronch + Cryoablation LUL.\n- ENB/REBUS used for loc.\n- Target: LUL peripheral adeno.\n- Cryoablation performed.\n- No complications.",
-            2: "OPERATIVE REPORT: Electromagnetic navigation bronchoscopy (ENB) combined with radial endobronchial ultrasound (REBUS) was utilized to localize a peripheral adenocarcinoma in the left upper lobe. Following confirmation of the probe position, a flexible cryoprobe was deployed. Cryoablation was executed to achieve tumor destruction. The patient tolerated the procedure without adverse events.",
-            3: "Codes: 31641 (Destruction), 31627 (Nav), 31654 (REBUS).\nNote: Peripheral lesion ablation. Navigation and ultrasound used for guidance. Cryo energy applied for therapeutic intent.",
-            4: "Procedure: Nav Bronch & Cryoablation\nSteps:\n1. ENB planning/registration.\n2. Navigated to LUL lesion.\n3. Radial EBUS confirmation (concentric view).\n4. Cryoprobe insertion.\n5. Ablation cycles completed.\n6. Extubation.",
-            5: "patient here for ablation lul cancer used the electromagnetic nav and the radial ebus to find the spot confirmed it then put the cryo probe in and froze it good margins hopefully no bleeding seen patient extubated fine.",
-            6: "Navigational bronchoscopy with ENB and radial EBUS confirmation followed by bronchoscopic cryoablation of a peripheral LUL adenocarcinoma. Navigation successful. Lesion localized. Cryoablation performed without incident.",
-            7: "[Indication]\nLUL Adenocarcinoma, ablation candidate.\n[Anesthesia]\nGA.\n[Description]\nENB and REBUS used to target lesion. Bronchoscopic cryoablation performed.\n[Plan]\nPost-op imaging monitoring.",
-            8: "We performed a navigational bronchoscopy to treat a left upper lobe adenocarcinoma. Using electromagnetic navigation and radial EBUS, we pinpointed the tumor's location. Once confirmed, we used a cryoprobe to freeze and destroy the tumor tissue (cryoablation). The procedure was successful.",
-            9: "Procedure: Guided bronchoscopy with thermal freezing.\nAction: ENB and radial ultrasound located the LUL malignancy. Cryo-destruction of the mass was executed."
+        1: { # Note 1: Ion/Fiducial/TBNA LUL & Lingula (31626, 31629, 31628, +31627, +31654)
+            1: "Indication: Lung nodules.\nTechnique: Robotic Bronchoscopy (Ion), rEBUS, CBCT.\nTargets:\n1. Lingula (LB4): 1cm nodule. rEBUS eccentric. Fiducial placed. TBNA x4, TBBX x1, Cryo x6, Brush, BAL.\n2. LUL Anterior (LB3): 1cm nodule. rEBUS eccentric. TBNA x6, BAL. Cryo attempted/failed.\nEBUS: Stations 4L, 7 inspected (benign). No sampling.\nROSE: Malignant.",
+            2: "OPERATIVE SUMMARY: The patient underwent robotic-assisted navigational bronchoscopy for evaluation of bilateral pulmonary nodules. The Ion platform was utilized. Target 1 (Lingula) was localized via radial EBUS (eccentric view) and Cone Beam CT. Transbronchial needle aspiration, forceps biopsy, cryobiopsy, and brushing were performed. A fiducial marker was deployed. Target 2 (LUL Anterior) was similarly localized; TBNA and BAL were obtained. Linear EBUS inspection of stations 4L and 7 revealed benign sonographic features; no nodal sampling was required.",
+            3: "Billing Summary:\n- 31626: Placement of fiducial markers (Lingula).\n- 31629: TBNA of LUL Anterior nodule (Initial TBNA).\n- 31628: Transbronchial biopsy of Lingula nodule (Separate lesion, Modifier 59).\n- 31627: Navigation add-on.\n- 31654: Radial EBUS add-on.\n- Note: Linear EBUS inspection (31622) bundled. 31645 bundled.",
+            4: "Resident Procedure Note\nProcedure: Ion Robotic Bronchoscopy, EBUS.\nTargets: Lingula & LUL Anterior.\nSteps:\n1. EBUS inspection 4L, 7 (benign, not sampled).\n2. Ion navigation to Lingula nodule. rEBUS eccentric.\n3. Biopsies: Needle, Forceps, Cryo, Brush.\n4. Fiducial placed in Lingula.\n5. Nav to LUL Anterior. rEBUS eccentric.\n6. Biopsies: Needle only. Cryo failed.\n7. ROSE: Malignant.",
+            5: "We did a robotic bronch on this lady for lung nodules used the Ion system first went to the lingula found the spot on radar and cone beam ct put a needle in it then forceps and cryo probe also a brush and placed a fiducial marker rose said cancer then we went to the LUL anterior segment found that one too did needle biopsies cryo didnt work there washed it out ebus looked at the lymph nodes 4L and 7 they looked fine so we didn't stick them.",
+            6: "General anesthesia. Ion robotic bronchoscopy performed. Target 1 Lingula: Radial EBUS eccentric. CBCT confirmation. TBNA, Forceps, Cryobiopsy, Brush performed. Fiducial marker placed. Target 2 LUL Anterior: Radial EBUS eccentric. TBNA performed. Cryo unsuccessful. Linear EBUS performed for staging: Stations 4L and 7 visualized, appeared benign, not sampled. ROSE consistent with malignancy.",
+            7: "[Indication]\nLung nodules (Lingula, LUL Anterior).\n[Anesthesia]\nGeneral.\n[Description]\n1. Linear EBUS: Stations 4L, 7 assessed (benign).\n2. Ion Nav to Lingula: rEBUS eccentric. Samples: TBNA, TBBX, Cryo, Brush. Fiducial placed.\n3. Ion Nav to LUL Anterior: rEBUS eccentric. Samples: TBNA.\n[Plan]\nFollow up pathology.",
+            8: "The patient was placed under general anesthesia for evaluation of lung nodules. We began with linear EBUS, inspecting stations 4L and 7, which appeared benign and were not sampled. We then utilized the Ion robotic platform to navigate to a nodule in the Lingula. Confirmation was achieved with radial EBUS and Cone Beam CT. We obtained samples via needle, forceps, cryoprobe, and brush, and placed a fiducial marker. We then navigated to a second target in the LUL anterior segment, obtaining needle aspirates. ROSE confirmed malignancy.",
+            9: "Indication: Lung nodules.\nProcedure: Robotic navigation and sampling.\nDetails: The Lingula lesion was localized. We sampled it using needle, forceps, and cryoprobe. A marker was deployed. The LUL anterior lesion was then engaged and aspirated with a needle. Linear EBUS was used to visualize mediastinal nodes, which were not sampled due to benign appearance."
         },
-        2: { # EBUS (4R, 7) + Ion + REBUS + TBBx RLL Mass
-            1: "Proc: EBUS (4R, 7) + Ion Nav RLL Mass.\n- Staging: Negative.\n- RLL Mass: Radial EBUS confirmed.\n- TBBx: Samples obtained.\n- Complications: None.",
-            2: "PROCEDURE: Combined staging and diagnostic bronchoscopy. First, linear EBUS was used to sample stations 4R and 7 (CPT 31652). Subsequently, the Ion robotic platform was deployed. Navigation to the right lower lobe mass was successful, with radial EBUS confirmation. Transbronchial biopsies were obtained (CPT 31628, 31627, 31654).",
-            3: "Coding:\n- 31652: EBUS-TBNA 2 stations.\n- 31628: TBBx RLL.\n- 31627: Robotic Nav Add-on.\n- 31654: REBUS Add-on.\nJustification: Concurrent staging and diagnosis of peripheral mass.",
-            4: "Resident Note\nProcedure: EBUS + Robotic Bronch\n1. EBUS: 4R, 7 sampled.\n2. Switch to Ion.\n3. Nav to RLL mass.\n4. REBUS check.\n5. Biopsies taken.\nPlan: Await path.",
-            5: "two part procedure first ebus checking 4r and 7 then the ion robot for the rll mass radial probe showed it nicely took biopsies sent for path no issues.",
-            6: "Combined EBUS nodal staging (4R and 7) and Ion robotic navigational bronchoscopy with radial EBUS and transbronchial biopsies of an RLL mass. Staging negative on ROSE. Diagnostic samples of mass adequate.",
-            7: "[Indication]\nRLL Mass, Staging.\n[Anesthesia]\nGA.\n[Description]\nEBUS 4R/7. Ion Nav to RLL. REBUS confirm. TBBx performed.\n[Plan]\nDischarge.",
-            8: "The patient underwent a combined procedure. We started with EBUS to stage the lymph nodes at 4R and 7. Then, we used the Ion robotic system to navigate to the mass in the right lower lobe. We confirmed the location with radial EBUS and took transbronchial biopsies for diagnosis.",
-            9: "Procedure: Combined sonographic staging and robotic sampling.\nAction: Nodes 4R and 7 aspirated via EBUS. Ion platform guided instruments to RLL mass. Radial ultrasound verified. Biopsies harvested."
+        2: { # Note 2: Ion/RLL/EBUS Sampling (31653, 31626, 31629, 31628, 31623, 31624, +31627, +31654)
+            1: "Indication: RLL Nodule.\nProcedure: Ion Bronch + EBUS.\nEBUS: Sampled 11L, 7, 11Rs (TBNA).\nNav: RLL (RB10) nodule. rEBUS concentric.\nBiopsies: TBNA x6, TBBX x1, Cryo x6, Brush, BAL.\nFiducial: Placed in RLL.\nROSE: Suspicious for malignancy.",
+            2: "OPERATIVE REPORT: The patient presented for evaluation of a 1.5 cm RLL nodule. Robotic navigation (Ion) was utilized to localize the target in the posterior-basal segment (RB10). Radial EBUS showed a concentric view. We performed extensive sampling including TBNA, forceps biopsy, cryobiopsy, and brushing. A fiducial marker was deployed. Staging was performed via linear EBUS with TBNA of stations 7, 11L, and 11Rs.",
+            3: "Billing Codes Supported:\n- 31653: EBUS sampling 3+ nodes (7, 11L, 11R).\n- 31626: Fiducial placement (RLL).\n- 31629: Navigated TBNA (RLL) - Mod 59.\n- 31628: TBBX (RLL) - Mod 59.\n- 31623: Brushing.\n- 31624: BAL.\n- 31627: Navigation.\n- 31654: Radial EBUS.",
+            4: "Procedure Note\nPatient: Leticia Rayos.\nProc: Ion Bronchoscopy + EBUS.\n1. EBUS-TBNA of stations 11L, 7, 11Rs.\n2. Navigation to RLL (RB10). rEBUS concentric.\n3. Samples: Needle, Forceps, Cryo, Brush.\n4. Fiducial placed.\n5. ROSE: Suspicious for malignancy.",
+            5: "Leticia came in for a lung nodule on the right side we used the robot to get there found it with the radar and the spinny CT scan took a bunch of samples needle forceps cryo brush and put a seed in there for radiation later then we did the ebus and sampled lymph nodes 7 11L and 11R everything went fine patient woke up okay.",
+            6: "General anesthesia. Ion robotic bronchoscopy. Target: RLL posterior-basal segment. Radial EBUS: Concentric. CBCT confirmation. Biopsies: TBNA, Forceps, Cryo, Brush. Fiducial marker placed. Linear EBUS staging performed: TBNA of stations 7, 11L, and 11Rs. ROSE: Suspicious for malignancy. No complications.",
+            7: "[Indication]\nRLL Nodule.\n[Anesthesia]\nGeneral.\n[Description]\nNavigated to RLL target. Confirmed with rEBUS/CBCT. Performed TBNA, TBBX, Cryo, Brush. Placed fiducial. Performed EBUS-TBNA of nodes 7, 11L, 11Rs.\n[Plan]\nOncology referral pending path.",
+            8: "We performed a combined robotic bronchoscopy and EBUS procedure. The EBUS scope was used first to sample lymph node stations 7, 11L, and 11Rs for staging. We then switched to the Ion robotic catheter, navigating to the target lesion in the right lower lobe. Once localized with radial EBUS and cone beam CT, we obtained diagnostic tissue using a variety of tools including needle, forceps, and cryoprobe. A fiducial marker was placed at the site prior to withdrawal.",
+            9: "Indication: Pulmonary nodule.\nProcedure: Robotic navigation and nodal staging.\nActions: We navigated to the RLL lesion. The lesion was sampled via needle, forceps, cryo, and brush. A marker was deployed. We then staged the mediastinum by aspirating nodes at stations 7, 11L, and 11Rs."
         },
-        3: { # Ion + REBUS + TBBx + Fiducials LLL
-            1: "Proc: Ion Nav LLL.\n- Target: LLL Mass.\n- Guides: REBUS.\n- Actions: TBBx x5, Fiducials x3 placed.\n- No pneumo.",
-            2: "PROCEDURE: Ion robotic-assisted bronchoscopy. The left lower lobe mass was cannulated. Radial EBUS confirmed the target. Transbronchial biopsies were obtained for histopathology. Subsequently, three fiducial markers were deployed under fluoroscopic and robotic guidance to facilitate future stereotactic radiation therapy. (CPT 31626, 31628, 31627, 31654).",
-            3: "Codes: 31626 (Fiducials), 31628 (Biopsy), 31627 (Nav), 31654 (REBUS).\nPrimary intent: Fiducial placement and diagnosis. Note: 31626 is the primary code by RVU usually, or 31628 depending on carrier, but both distinct.",
-            4: "Resident Note\nProcedure: Ion Biopsy + Fiducials\n1. Nav to LLL.\n2. REBUS check.\n3. Biopsies taken.\n4. 3 Fiducials dropped.\n5. Fluoro confirmed position.\nPlan: SBRT referral.",
-            5: "robotic case lll mass we navigated there with ion used radial ebus to see it took biopsies then put in fiducial markers for radiation later everything went smooth.",
-            6: "Ion robotic bronchoscopy with radial EBUS, transbronchial biopsies, and fiducial marker placement for an LLL mass. Biopsies positive. Markers visible on fluoro.",
-            7: "[Indication]\nLLL Mass, requires fiducials.\n[Anesthesia]\nGA.\n[Description]\nIon Nav. REBUS. TBBx x4. Fiducials x3 placed LLL.\n[Plan]\nRadiation Oncology.",
-            8: "We utilized the Ion robotic bronchoscope to access a mass in the left lower lobe. After confirming the site with radial EBUS, we performed transbronchial biopsies. We then placed fiducial markers in the lesion to assist with upcoming radiation treatment.",
-            9: "Procedure: Robotic navigational fiducial implantation and sampling.\nAction: LLL mass accessed. Radial ultrasound verification. Tissue sampled. Fiducial markers deposited."
+        3: { # Note 3: Rick Smith (Sarcoid?) - 31652, 31628, 31625, 31624, +31654
+            1: "Indication: Lung infiltrates (Sarcoid?).\nProcedure: Flex Bronch + EBUS.\nFindings: Mucosa nodular (NBI).\nActions:\n- BAL RML.\n- EBBX: RUL, RML, Lingula carinas.\n- Radial EBUS LLL: Concentric.\n- TBBX LLL (LB10).\n- Linear EBUS: Station 7 sampled (8 passes). 11R/11L inspected.\nResult: Stable.",
+            2: "PROCEDURE NOTE: Bronchoscopy was performed for evaluation of suspected sarcoidosis. Airway inspection with NBI revealed diffuse nodular changes. Endobronchial biopsies were taken from the RUL, RML, and Lingula carinas. BAL was performed in the RML. Radial EBUS was used to localize a target in the LLL, followed by transbronchial forceps biopsies. Linear EBUS was utilized to inspect stations 4R, 4L, 7, 10R, 10L, 11R, 11L. Only station 7 met criteria for sampling and was biopsied via TBNA.",
+            3: "CPT Justification:\n- 31652: EBUS sampling 1-2 nodes (Station 7 sampled).\n- 31628: TBBX Single Lobe (LLL).\n- 31625: Endobronchial biopsy (Multiple carinas).\n- 31624: BAL (RML).\n- 31654: Radial EBUS (LLL).\n- 31645: Bundled (mucus aspiration).",
+            4: "Resident Note\nPatient: Rick Smith, 32M.\nDx: Infiltrates/Sarcoid.\nSteps:\n1. Airway exam: Nodular mucosa.\n2. BAL RML.\n3. EBBX carinas (RUL, RML, Lingula).\n4. Radial EBUS LLL (concentric).\n5. TBBX LLL.\n6. Linear EBUS: Sampled station 7. Inspected others.",
+            5: "Young guy Rick Smith here for infiltrates maybe sarcoid we put him to sleep looked inside airways looked bumpy with the special light so we biopsied the carinas on both sides did a wash in the middle lobe then went down to the left lower lobe used the radar probe found the spot took biopsies then used the ebus scope to sample the subcarinal lymph node station 7 others looked okay so we left them alone.",
+            6: "General anesthesia. Flexible bronchoscopy. NBI showed nodular mucosa. BAL performed RML. Endobronchial biopsies taken from RUL, RML, Lingula carinas. Radial EBUS LLL posterior basal segment: Concentric view. Transbronchial biopsies LLL performed. Linear EBUS performed. Station 7 sampled (8 passes). Stations 11R and 11L inspected but not sampled. No complications.",
+            7: "[Indication]\nLung infiltrates, r/o Sarcoid.\n[Anesthesia]\nGeneral.\n[Description]\n1. BAL RML.\n2. EBBX: RUL, RML, Lingula carinas.\n3. rEBUS LLL -> TBBX LLL.\n4. EBUS-TBNA Station 7.\n[Plan]\nClinic f/u.",
+            8: "Mr. Smith underwent bronchoscopy for evaluation of lung infiltrates. We noted nodular mucosal changes and performed endobronchial biopsies at multiple carinas. A bronchoalveolar lavage was conducted in the right middle lobe. We then directed our attention to the left lower lobe, using radial EBUS to guide transbronchial biopsies. Finally, we performed EBUS staging, sampling the subcarinal node (station 7) while inspecting other stations which did not require biopsy.",
+            9: "Indication: Lung infiltrates.\nProcedure: Diagnostic bronchoscopy.\nActions: We washed the RML. We biopsied the mucosa at several carinas. We utilized radial ultrasound to locate the LLL target and sampled it with forceps. We employed linear ultrasound to aspirate the subcarinal lymph node."
         },
-        4: { # EBUS (7) + EMN + REBUS + TBBx RLL (Met breast)
-            1: "Proc: EBUS (Station 7) + EMN TBBx RLL.\n- Indication: Met Breast Ca.\n- EBUS: Subcarinal sampled.\n- EMN/REBUS: RLL nodule.\n- TBBx: Samples taken.\n- No complications.",
-            2: "PROCEDURE: Mediastinal staging via EBUS-TBNA of the subcarinal station (7) was performed. Following this, electromagnetic navigation bronchoscopy (EMN) with radial EBUS confirmation was utilized to biopsy a right lower lobe nodule. Clinical context is metastatic breast cancer.",
-            3: "Codes: 31652 (EBUS 1 station), 31628 (TBBx), 31627 (Nav), 31654 (REBUS).\nRationale: Single station EBUS staging followed by navigational biopsy of peripheral nodule.",
-            4: "Resident Note\nProcedure: EBUS + EMN\n1. Station 7 TBNA.\n2. EMN Nav to RLL.\n3. REBUS confirm.\n4. Biopsy RLL.\nHistory: Breast CA.\nPlan: Path check.",
-            5: "met breast cancer case did the ebus on station 7 first then the navigation to the rll nodule radial probe showed it well took biopsies bleeding was minimal.",
-            6: "EBUS-TBNA of subcarinal node plus EMN-guided bronchoscopy with radial EBUS and transbronchial biopsies of an RLL nodule in a patient with metastatic breast cancer. Procedure completed successfully.",
-            7: "[Indication]\nMetastatic Breast Cancer, RLL nodule.\n[Anesthesia]\nGA.\n[Description]\nEBUS Station 7. EMN Nav RLL. REBUS. TBBx.\n[Plan]\nOncology f/u.",
-            8: "This patient with metastatic breast cancer required evaluation of a right lower lobe nodule and mediastinal nodes. We sampled the subcarinal node (station 7) using EBUS. Then, using electromagnetic navigation and radial EBUS, we located and biopsied the RLL nodule.",
-            9: "Procedure: Subcarinal sonographic aspiration and navigational biopsy.\nAction: Station 7 sampled. EMN and radial ultrasound guided biopsy of RLL nodule."
-        },
-        5: { # EBUS (4R, 7) + Ion + REBUS + Forceps/Cryo RML
-            1: "Proc: EBUS (4R, 7) + Ion RML Biopsy.\n- EBUS: Staging.\n- Ion/REBUS: RML nodule.\n- Sampling: Forceps + Cryobiopsy.\n- No complications.",
-            2: "PROCEDURE: EBUS-TBNA nodal sampling of stations 4R and 7 was performed for staging (CPT 31652). This was followed by Ion robotic bronchoscopy to the right middle lobe. Radial EBUS verified the target. Diagnostic tissue was obtained using both standard forceps and a cryobiopsy probe (CPT 31628, 31627, 31654).",
-            3: "Codes: 31652 (EBUS), 31628 (Biopsy), 31627 (Nav), 31654 (REBUS).\nNote: Cryobiopsy for diagnosis is coded as 31628 (biopsy), not ablation.",
-            4: "Resident Note\nProcedure: EBUS + Ion\n1. EBUS 4R, 7.\n2. Ion Nav to RML.\n3. REBUS.\n4. Forceps bx.\n5. Cryo bx.\nPlan: Path.",
-            5: "staging ebus 4r and 7 then ion robot to rml used radial ebus then forceps and cryo probe for biopsies got good pieces no bleeding.",
-            6: "EBUS nodal sampling of 4R and 7 plus Ion robotic bronchoscopy with radial EBUS and combined forceps and cryobiopsy of an RML nodule. Samples sent for pathology.",
-            7: "[Indication]\nRML Nodule.\n[Anesthesia]\nGA.\n[Description]\nEBUS 4R/7. Ion Nav RML. REBUS. Forceps and Cryobiopsy performed.\n[Plan]\nRecovery.",
-            8: "We staged the patient using EBUS at stations 4R and 7. Then, we used the Ion robot to reach a nodule in the right middle lobe. We used both forceps and a cryoprobe to get high-quality biopsy samples, confirmed with radial EBUS.",
-            9: "Procedure: Sonographic staging and robotic cryo-sampling.\nAction: Nodes 4R and 7 sampled. Ion platform guided to RML. Radial ultrasound used. Tissue harvested via forceps and cryoprobe."
-        },
-        6: { # EBUS (4 stations) + EMN/Standard Bx Cavitary LUL SCC
-            1: "Proc: EBUS (4 stations) + EMN/Standard Bx LUL.\n- Indication: Cavitary LUL SCC.\n- EBUS: Extensive nodal sampling.\n- Bronch: Endobronchial biopsies.\n- No complications.",
-            2: "PROCEDURE: Extensive EBUS-TBNA staging of four mediastinal/hilar stations was performed (CPT 31653). Subsequently, EMN guidance facilitated approach to a cavitary LUL squamous cell carcinoma. Standard endobronchial biopsies were obtained from the lesion (CPT 31625).",
-            3: "Codes: 31653 (EBUS 3+), 31625 (Endobronchial Bx).\nNote: EMN (31627) is generally not reimbursed with 31625 (endobronchial biopsy) unless the target is peripheral/parenchymal. Given 'cavitary LUL SCC', if lesion is visible endobronchially, 31625 applies.",
-            4: "Resident Note\nProcedure: EBUS + LUL Biopsy\n1. EBUS x4 stations.\n2. Nav to LUL cavity.\n3. Endobronchial lesion seen.\n4. Biopsied (forceps).\nPlan: Oncology.",
-            5: "patient with lul cavity scc did extensive ebus four stations then went to lul used nav but could see it endobronchially so took biopsies forceps.",
-            6: "EBUS-TBNA of four mediastinal/hilar stations plus EMN-guided and standard endobronchial biopsies of a cavitary LUL squamous cell carcinoma with extensive nodal disease.",
-            7: "[Indication]\nLUL SCC, Nodal disease.\n[Anesthesia]\nGA.\n[Description]\nEBUS x4 stations. EMN to LUL. Endobronchial Bx.\n[Plan]\nAdmit.",
-            8: "We performed a thorough EBUS staging, sampling four lymph node stations. We then navigated to the LUL cavitary mass using EMN. Since the tumor was visible within the airway (endobronchial), we performed standard biopsies of the squamous cell carcinoma.",
-            9: "Procedure: Multi-station sonographic staging and endobronchial sampling.\nAction: Four nodal stations aspirated. LUL cavitary lesion biopsied via endobronchial approach."
-        },
-        7: { # EBUS (7, 4R, 4L, 10R, 11R) N2 disease
-            1: "Proc: EBUS-TBNA.\n- Stations: 7, 4R, 4L, 10R, 11R.\n- Dx: N2 Adenocarcinoma.\n- 5 stations sampled.",
-            2: "PROCEDURE: EBUS-TBNA was performed for mediastinal staging. Lymph node stations 7, 4R, 4L, 10R, and 11R were systematically sampled. Cytopathology revealed adenocarcinoma in contralateral mediastinal nodes, consistent with N2 disease (CPT 31653).",
-            3: "Code: 31653 (EBUS-TBNA 3+ stations).\nDetail: 5 distinct stations sampled (7, 4R, 4L, 10R, 11R).",
-            4: "Resident Note\nProcedure: EBUS\n1. Sampled 7, 4R, 4L, 10R, 11R.\n2. ROSE: Positive for Adeno.\n3. N2 disease confirmed.\nPlan: Oncology.",
-            5: "big ebus case hit five stations 7 4r 4l 10r 11r all positive for adeno looks like n2 disease patient tolerated well.",
-            6: "EBUS-TBNA with sampling of stations 7, 4R, 4L, 10R, and 11R showing adenocarcinoma in mediastinal lymph nodes consistent with N2 disease.",
-            7: "[Indication]\nStaging, Adenocarcinoma.\n[Anesthesia]\nModerate.\n[Description]\nEBUS x5 stations (7, 4R, 4L, 10R, 11R). Confirmed N2 disease.\n[Plan]\nReferral.",
-            8: "We performed a comprehensive EBUS-TBNA to stage the patient's cancer. We sampled five different lymph node stations: 7, 4R, 4L, 10R, and 11R. The results show adenocarcinoma in the mediastinum, confirming N2 disease.",
-            9: "Procedure: Extensive endobronchial sonographic aspiration.\nAction: Five nodal stations (7, 4R, 4L, 10R, 11R) were aspirated. Findings indicate N2 adenocarcinoma."
-        },
-        8: { # EBUS (7, 4R, 10R, 11R) Sarcoid
-            1: "Proc: EBUS-TBNA Sarcoid Protocol.\n- Stations: 7, 4R, 10R, 11R.\n- Path: Non-necrotizing granulomas.\n- Dx: Sarcoidosis.",
-            2: "PROCEDURE: EBUS-TBNA was undertaken to evaluate mediastinal and hilar adenopathy in a non-smoker. Stations 7, 4R, 10R, and 11R were sampled. Histological evaluation demonstrated non-necrotizing granulomas, consistent with a diagnosis of sarcoidosis (CPT 31653).",
-            3: "Code: 31653 (EBUS 3+ stations).\nIndication: Adenopathy.\nPathology: Granulomas (Sarcoid).",
-            4: "Resident Note\nProcedure: EBUS\n1. Indication: Rule out Sarcoid.\n2. Sampled 7, 4R, 10R, 11R.\n3. ROSE: Granulomas seen.\nPlan: Pulm clinic.",
-            5: "ebus for sarcoid suspicion never smoker checked 7 4r 10r 11r got granulomas non necrotizing looks like sarcoid no cancer seen.",
-            6: "Detailed EBUS-TBNA for mediastinal and hilar adenopathy in a never-smoker, with stations 7, 4R, 10R, and 11R sampled showing non-necrotizing granulomas consistent with sarcoidosis.",
-            7: "[Indication]\nAdenopathy, suspect Sarcoid.\n[Anesthesia]\nModerate.\n[Description]\nEBUS x4 stations. Path: Non-necrotizing granulomas.\n[Plan]\nFollow up.",
-            8: "To investigate the swollen lymph nodes in this non-smoker, we performed an EBUS-TBNA. We sampled stations 7, 4R, 10R, and 11R. The pathology returned showing non-necrotizing granulomas, which fits with a diagnosis of sarcoidosis.",
-            9: "Procedure: Endobronchial ultrasound aspiration for granulomatous disease.\nAction: Nodes at 7, 4R, 10R, and 11R were sampled. Morphology revealed non-necrotizing granulomas."
-        },
-        9: { # US Thoracentesis Left
-            1: "Proc: US Thoracentesis Left.\n- Guidance: Ultrasound.\n- Fluid: 650mL blood-tinged.\n- Complications: None.",
-            2: "PROCEDURE: Ultrasound-guided diagnostic thoracentesis. The left hemithorax was scanned, and a pocket of fluid was identified. Under sterile conditions and local anesthesia, a needle was introduced. 650 mL of hemorrhagic fluid was drained from the patient with a known LUL mass (CPT 32555).",
-            3: "Code: 32555 (Thoracentesis with imaging guidance).\nVolume: 650 mL.\nCharacter: Hemorrhagic.",
-            4: "Resident Note\nProcedure: Left Thoracentesis\n1. US marked site.\n2. Prep/Drape.\n3. Needle in.\n4. Drained 650cc bloody fluid.\n5. Bandage applied.\nPlan: Fluid analysis.",
-            5: "bedside thoracentesis left side used ultrasound found the fluid put the needle in got about 650ml bloody fluid out patient tolerated fine.",
-            6: "Ultrasound-guided diagnostic thoracentesis of a left hemorrhagic effusion in a patient with LUL lung mass, draining 650 mL of blood-tinged fluid. No complications.",
-            7: "[Indication]\nLeft effusion, LUL mass.\n[Anesthesia]\nLocal.\n[Description]\nUS guidance. Left thoracentesis. 650mL bloody fluid removed.\n[Plan]\nFluid analysis.",
-            8: "We performed a thoracentesis on the left side to check the fluid in the patient with an LUL mass. Using ultrasound guidance, we successfully drained 650 mL of blood-tinged fluid.",
-            9: "Procedure: Sonographic pleural aspiration.\nAction: Left pleural space accessed via ultrasound guidance. 650 mL of hemorrhagic effusion evacuated."
+        4: { # Note 4: Michael Jordan - Pleural (32561)
+            1: "Indication: Complicated pleural effusion.\nProcedure: Intrapleural fibrinolysis (Day 1).\nAction: Instilled 10mg tPA / 5mg DNase via existing chest tube.\nComplications: None.\nPlan: Continue protocol.",
+            2: "PROCEDURE NOTE: Bedside instillation of fibrinolytic agents. The patient has a indwelling right-sided chest tube for a complex parapneumonic effusion. Sterile technique was maintained. A solution containing 10 mg tPA and 5 mg DNase was instilled via the chest tube. The tube was clamped according to protocol. The patient tolerated the procedure without adverse events.",
+            3: "Billing Code: 32561 (Instillation of fibrinolytic agent, initial day).\nDate of Service: 12/16/2025.\nMedication: tPA 10mg / DNase 5mg.\nAccess: Existing chest tube (placed 12/15/2025).\nDiagnosis: Complicated pleural effusion.",
+            4: "Procedure: Fibrinolytic Instillation\nPatient: Michael Jordan, 47M.\nTube: Right chest tube.\nMeds: tPA/DNase.\nDose: Initial.\nSteps: Meds instilled, tube clamped. Vitals stable.",
+            5: "Went to see Mr Jordan for his chest tube put in the tpa and dnase for his empyema dose number one clamp the tube for a while he did fine no pain or bleeding will do it again tomorrow.",
+            6: "Instillation of agents for fibrinolysis via chest tube. Patient with complex pleural effusion. Chest tube placed yesterday. 10mg tPA and 5mg DNase instilled. Tube clamped. Patient monitored. No complications. Disposition: Home/Floor.",
+            7: "[Indication]\nComplicated pleural effusion.\n[Anesthesia]\nNone.\n[Description]\nInstilled tPA/DNase via right chest tube (Initial day).\n[Plan]\nUnclamp in 1 hour. Repeat dosing per protocol.",
+            8: "Mr. Jordan requires fibrinolytic therapy for a loculated pleural effusion. We visited him at the bedside today to administer the first dose. We instilled tPA and DNase through his existing right chest tube without difficulty. The patient denied discomfort. We will continue with the fibrinolysis protocol.",
+            9: "Indication: Pleural effusion.\nProcedure: Administration of fibrinolytics.\nAction: We injected tPA and DNase into the pleural space via the catheter. This was the primary treatment session. The catheter was secured."
         }
     }
     return variations
 
 def get_base_data_mocks():
+    # Mocks for names and original ages to ensure consistency with the prompt's examples
+    # Note: Source file has 5 notes.
     return [
-        {"idx": 0, "orig_name": "Patient Zero", "orig_age": 65, "names": ["John Smith", "Jane Doe", "Michael Brown", "Emily Davis", "Chris Wilson", "Sarah Miller", "David Taylor", "Jessica Anderson", "Daniel Thomas"]},
-        {"idx": 1, "orig_name": "Patient One", "orig_age": 55, "names": ["Robert Martinez", "Linda Hernandez", "James Moore", "Barbara Martin", "William Jackson", "Elizabeth Thompson", "Richard White", "Jennifer Lopez", "Joseph Lee"]},
-        {"idx": 2, "orig_name": "Patient Two", "orig_age": 70, "names": ["Charles Harris", "Susan Clark", "Thomas Lewis", "Margaret Robinson", "Christopher Walker", "Dorothy Perez", "Daniel Hall", "Lisa Young", "Matthew Allen"]},
-        {"idx": 3, "orig_name": "Patient Three", "orig_age": 60, "names": ["Anthony King", "Nancy Wright", "Mark Scott", "Karen Torres", "Donald Nguyen", "Betty Hill", "Paul Flores", "Sandra Green", "Steven Adams"]},
-        {"idx": 4, "orig_name": "Patient Four", "orig_age": 50, "names": ["Andrew Nelson", "Ashley Baker", "Kenneth Carter", "Kimberly Mitchell", "Joshua Roberts", "Donna Phillips", "George Campbell", "Carol Parker", "Kevin Evans"]},
-        {"idx": 5, "orig_name": "Patient Five", "orig_age": 75, "names": ["Brian Edwards", "Michelle Collins", "Edward Stewart", "Laura Sanchez", "Ronald Morris", "Sarah Rogers", "Timothy Reed", "Deborah Cook", "Jason Morgan"]},
-        {"idx": 6, "orig_name": "Patient Six", "orig_age": 68, "names": ["Jeffrey Bell", "Stephanie Murphy", "Ryan Bailey", "Rebecca Rivera", "Jacob Cooper", "Sharon Richardson", "Gary Cox", "Cynthia Howard", "Nicholas Ward"]},
-        {"idx": 7, "orig_name": "Patient Seven", "orig_age": 62, "names": ["Eric Torres", "Kathleen Peterson", "Stephen Gray", "Amy Ramirez", "Larry James", "Anna Watson", "Justin Brooks", "Brenda Kelly", "Scott Sanders"]},
-        {"idx": 8, "orig_name": "Patient Eight", "orig_age": 58, "names": ["Brandon Price", "Pamela Bennett", "Frank Wood", "Nicole Barnes", "Gregory Ross", "Katherine Henderson", "Raymond Coleman", "Virginia Jenkins", "Patrick Perry"]},
-        {"idx": 9, "orig_name": "Patient Nine", "orig_age": 72, "names": ["Alexander Powell", "Debra Long", "Jack Patterson", "Rachel Hughes", "Dennis Flores", "Janet Washington", "Jerry Butler", "Catherine Simmons", "Tyler Foster"]},
+        {"idx": 0, "orig_name": "Unknown (Emergent)", "orig_age": 60, "names": ["John Doe", "Arthur Dent", "Robert Paulson", "William Riker", "James Kirk", "Edward Nygma", "Richard Grayson", "Thomas Wayne", "Gary Oak"]},
+        {"idx": 1, "orig_name": "Erica Nunley", "orig_age": 88, "names": ["Sarah Connor", "Linda Hamilton", "Nancy Wheeler", "Karen Page", "Barbara Gordon", "Mary Watson", "Susan Storm", "Margaret Carter", "Betty Ross"]},
+        {"idx": 2, "orig_name": "Leticia Rayos", "orig_age": 58, "names": ["Michelle Yeoh", "Roberta Draper", "Davina Claire", "Josephine March", "Francine Smith", "Paula Patton", "Georgette Costanza", "Kelly Kapowski", "Stephanie Tanner"]},
+        {"idx": 3, "orig_name": "Rick Smith", "orig_age": 32, "names": ["Mario Rossi", "Patrick Star", "Elijah Wood", "Jeremy Piven", "Liam Neeson", "Benjamin Linus", "Daniel LaRusso", "Harry Potter", "Carl Winslow"]},
+        {"idx": 4, "orig_name": "Michael Jordan", "orig_age": 47, "names": ["James Bond", "William Wallace", "Thomas Anderson", "Charles Xavier", "Donald Draper", "Mark Hamill", "Paul Atreides", "George Costanza", "Kenneth Parcell"]},
     ]
 
 def main():
@@ -206,26 +137,35 @@ def main():
             rand_date_obj = generate_random_date(2025, 2025)
             rand_date_str = rand_date_obj.strftime("%Y-%m-%d")
             
-            # Get the specific name assigned
+            # Get the specific name assigned in Part 1 for consistency
             new_name = record['names'][style_num - 1]
             
             # Update note_text with the variation
-            # Use get() to handle cases where variation might not be defined (though it is here)
-            note_entry["note_text"] = variations_text.get(idx, {}).get(style_num, f"Variation {style_num} not found")
-            
-            # Update registry_entry fields if they exist, or create if missing (to hold the synthetic data)
-            if "registry_entry" not in note_entry:
-                note_entry["registry_entry"] = {}
-                
-            # Update or Set fields
-            note_entry["registry_entry"]["patient_age"] = new_age
-            note_entry["registry_entry"]["procedure_date"] = rand_date_str
-            
-            # Ensure unique MRN if present, or create one
-            current_mrn = note_entry["registry_entry"].get("patient_mrn", f"MRN_SYN_{idx}")
-            note_entry["registry_entry"]["patient_mrn"] = f"{current_mrn}_style_{style_num}"
+            if idx in variations_text and style_num in variations_text[idx]:
+                note_entry["note_text"] = variations_text[idx][style_num]
+            else:
+                print(f"Warning: Missing text variation for Note {idx}, Style {style_num}")
+                note_entry["note_text"] = "VARIATION_MISSING"
 
-            # Add synthetic metadata
+            # Update registry_entry fields if they exist
+            if "registry_entry" in note_entry:
+                if "patient_demographics" in note_entry["registry_entry"]:
+                     note_entry["registry_entry"]["patient_demographics"]["age_years"] = new_age
+                # Fallback if age is at root of registry_entry (some formats vary)
+                if "patient_age" in note_entry["registry_entry"]:
+                    note_entry["registry_entry"]["patient_age"] = new_age
+                
+                if "procedure_date" in note_entry["registry_entry"]:
+                    note_entry["registry_entry"]["procedure_date"] = rand_date_str
+                
+                # Update patient MRN to make it unique
+                if "patient_mrn" in note_entry["registry_entry"]:
+                    base_mrn = note_entry["registry_entry"]["patient_mrn"]
+                    if base_mrn == "UNKNOWN" or base_mrn == "Unknown":
+                        base_mrn = f"IP202603{idx}" # Invent a base if unknown
+                    note_entry["registry_entry"]["patient_mrn"] = f"{base_mrn}_syn_{style_num}"
+
+            # Add metadata about the synthetic generation
             note_entry["synthetic_metadata"] = {
                 "source_file": SOURCE_FILE,
                 "original_index": idx,
@@ -237,7 +177,7 @@ def main():
             generated_notes.append(note_entry)
 
     # Output to JSON in Synthetic_expansions folder
-    output_filename = output_dir / "synthetic_blvr_notes_part_024.json"
+    output_filename = output_dir / "synthetic_bronch_notes_part_024.json"
     with open(output_filename, 'w', encoding='utf-8') as f:
         json.dump(generated_notes, f, indent=2, ensure_ascii=False)
     

@@ -1,0 +1,773 @@
+[
+  {
+    "op": "replace",
+    "path": "/10/registry_entry/procedures_performed/linear_ebus/performed",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/10/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/10/registry_entry/granular_data/linear_ebus_stations_detail",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/10/registry_entry/granular_data/navigation_targets/0/navigation_successful",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/10/registry_entry/granular_data/navigation_targets/0/sampling_tools_used",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/10/registry_entry/granular_data/specimens_collected",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/10/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31622",
+        "description": "Bronchoscopy, diagnostic, with cell washing",
+        "units": 1
+      },
+      {
+        "code": "+31627",
+        "description": "Bronchoscopy; with computer-assisted, image-guided navigation",
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/11/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/11/registry_entry/granular_data/linear_ebus_stations_detail",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/11/registry_entry/granular_data/specimens_collected",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/11/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31622",
+        "description": "Bronchoscopy, diagnostic, with cell washing",
+        "units": 1
+      },
+      {
+        "code": "+31627",
+        "description": "Bronchoscopy; with computer-assisted, image-guided navigation",
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/12/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/12/registry_entry/granular_data/linear_ebus_stations_detail",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/12/registry_entry/granular_data/specimens_collected",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/12/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31622",
+        "description": "Bronchoscopy, diagnostic, with cell washing",
+        "units": 1
+      },
+      {
+        "code": "+31627",
+        "description": "Bronchoscopy; with computer-assisted, image-guided navigation",
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/13/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/13/registry_entry/granular_data/linear_ebus_stations_detail",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/13/registry_entry/granular_data/specimens_collected",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/13/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31622",
+        "description": "Bronchoscopy, diagnostic, with cell washing",
+        "units": 1
+      },
+      {
+        "code": "+31627",
+        "description": "Bronchoscopy; with computer-assisted, image-guided navigation",
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/14/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/14/registry_entry/granular_data/linear_ebus_stations_detail",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/14/registry_entry/granular_data/specimens_collected",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/14/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31622",
+        "description": "Bronchoscopy, diagnostic, with cell washing",
+        "units": 1
+      },
+      {
+        "code": "+31627",
+        "description": "Bronchoscopy; with computer-assisted, image-guided navigation",
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/15/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/15/registry_entry/granular_data/linear_ebus_stations_detail",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/15/registry_entry/granular_data/specimens_collected",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/15/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31622",
+        "description": "Bronchoscopy, diagnostic, with cell washing",
+        "units": 1
+      },
+      {
+        "code": "+31627",
+        "description": "Bronchoscopy; with computer-assisted, image-guided navigation",
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/16/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/16/registry_entry/granular_data/linear_ebus_stations_detail",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/16/registry_entry/granular_data/specimens_collected",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/16/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31622",
+        "description": "Bronchoscopy, diagnostic, with cell washing",
+        "units": 1
+      },
+      {
+        "code": "+31627",
+        "description": "Bronchoscopy; with computer-assisted, image-guided navigation",
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/17/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/17/registry_entry/granular_data/linear_ebus_stations_detail",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/17/registry_entry/granular_data/specimens_collected",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/17/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31622",
+        "description": "Bronchoscopy, diagnostic, with cell washing",
+        "units": 1
+      },
+      {
+        "code": "+31627",
+        "description": "Bronchoscopy; with computer-assisted, image-guided navigation",
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/18/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/18/registry_entry/granular_data/linear_ebus_stations_detail",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/18/registry_entry/granular_data/specimens_collected",
+    "value": []
+  },
+  {
+    "op": "replace",
+    "path": "/18/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31622",
+        "description": "Bronchoscopy, diagnostic, with cell washing",
+        "units": 1
+      },
+      {
+        "code": "+31627",
+        "description": "Bronchoscopy; with computer-assisted, image-guided navigation",
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/19/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/19/registry_entry/granular_data/navigation_targets/0/navigation_successful",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/19/registry_entry/granular_data/navigation_targets/0/sampling_tools_used",
+    "value": [
+      "Forceps",
+      "Brush"
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/19/registry_entry/granular_data/specimens_collected",
+    "value": [
+      {
+        "specimen_number": 1,
+        "source_procedure": "Transbronchial biopsy",
+        "source_location": "LLL Nodule",
+        "collection_tool": "Forceps",
+        "rose_result": "Negative"
+      },
+      {
+        "specimen_number": 2,
+        "source_procedure": "Brushing",
+        "source_location": "LLL Nodule",
+        "collection_tool": "Brush"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/19/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31628",
+        "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+        "units": 1
+      },
+      {
+        "code": "+31654",
+        "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/20/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/20/registry_entry/granular_data/navigation_targets/0/navigation_successful",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/20/registry_entry/granular_data/navigation_targets/0/sampling_tools_used",
+    "value": [
+      "Forceps",
+      "Brush"
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/20/registry_entry/granular_data/specimens_collected",
+    "value": [
+      {
+        "specimen_number": 1,
+        "source_procedure": "Transbronchial biopsy",
+        "source_location": "LLL Nodule",
+        "collection_tool": "Forceps",
+        "rose_result": "Negative"
+      },
+      {
+        "specimen_number": 2,
+        "source_procedure": "Brushing",
+        "source_location": "LLL Nodule",
+        "collection_tool": "Brush"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/20/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31628",
+        "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+        "units": 1
+      },
+      {
+        "code": "+31654",
+        "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/21/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/21/registry_entry/granular_data/navigation_targets/0/navigation_successful",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/21/registry_entry/granular_data/navigation_targets/0/sampling_tools_used",
+    "value": [
+      "Forceps",
+      "Brush"
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/21/registry_entry/granular_data/specimens_collected",
+    "value": [
+      {
+        "specimen_number": 1,
+        "source_procedure": "Transbronchial biopsy",
+        "source_location": "LLL Nodule",
+        "collection_tool": "Forceps",
+        "rose_result": "Negative"
+      },
+      {
+        "specimen_number": 2,
+        "source_procedure": "Brushing",
+        "source_location": "LLL Nodule",
+        "collection_tool": "Brush"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/21/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31628",
+        "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+        "units": 1
+      },
+      {
+        "code": "+31654",
+        "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/22/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/22/registry_entry/granular_data/navigation_targets/0/navigation_successful",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/22/registry_entry/granular_data/navigation_targets/0/sampling_tools_used",
+    "value": [
+      "Forceps",
+      "Brush"
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/22/registry_entry/granular_data/specimens_collected",
+    "value": [
+      {
+        "specimen_number": 1,
+        "source_procedure": "Transbronchial biopsy",
+        "source_location": "LLL Nodule",
+        "collection_tool": "Forceps",
+        "rose_result": "Negative"
+      },
+      {
+        "specimen_number": 2,
+        "source_procedure": "Brushing",
+        "source_location": "LLL Nodule",
+        "collection_tool": "Brush"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/22/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31628",
+        "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+        "units": 1
+      },
+      {
+        "code": "+31654",
+        "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/23/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/23/registry_entry/granular_data/navigation_targets/0/navigation_successful",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/23/registry_entry/granular_data/navigation_targets/0/sampling_tools_used",
+    "value": [
+      "Forceps",
+      "Brush"
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/23/registry_entry/granular_data/specimens_collected",
+    "value": [
+      {
+        "specimen_number": 1,
+        "source_procedure": "Transbronchial biopsy",
+        "source_location": "LLL Nodule",
+        "collection_tool": "Forceps",
+        "rose_result": "Negative"
+      },
+      {
+        "specimen_number": 2,
+        "source_procedure": "Brushing",
+        "source_location": "LLL Nodule",
+        "collection_tool": "Brush"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/23/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31628",
+        "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+        "units": 1
+      },
+      {
+        "code": "+31654",
+        "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/24/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/24/registry_entry/granular_data/navigation_targets/0/navigation_successful",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/24/registry_entry/granular_data/navigation_targets/0/sampling_tools_used",
+    "value": [
+      "Forceps",
+      "Brush"
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/24/registry_entry/granular_data/specimens_collected",
+    "value": [
+      {
+        "specimen_number": 1,
+        "source_procedure": "Transbronchial biopsy",
+        "source_location": "LLL Nodule",
+        "collection_tool": "Forceps",
+        "rose_result": "Negative"
+      },
+      {
+        "specimen_number": 2,
+        "source_procedure": "Brushing",
+        "source_location": "LLL Nodule",
+        "collection_tool": "Brush"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/24/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31628",
+        "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+        "units": 1
+      },
+      {
+        "code": "+31654",
+        "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/25/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/25/registry_entry/granular_data/navigation_targets/0/navigation_successful",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/25/registry_entry/granular_data/navigation_targets/0/sampling_tools_used",
+    "value": [
+      "Forceps",
+      "Brush"
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/25/registry_entry/granular_data/specimens_collected",
+    "value": [
+      {
+        "specimen_number": 1,
+        "source_procedure": "Transbronchial biopsy",
+        "source_location": "LLL Nodule",
+        "collection_tool": "Forceps",
+        "rose_result": "Negative"
+      },
+      {
+        "specimen_number": 2,
+        "source_procedure": "Brushing",
+        "source_location": "LLL Nodule",
+        "collection_tool": "Brush"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/25/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31628",
+        "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+        "units": 1
+      },
+      {
+        "code": "+31654",
+        "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/26/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/26/registry_entry/granular_data/navigation_targets/0/navigation_successful",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/26/registry_entry/granular_data/navigation_targets/0/sampling_tools_used",
+    "value": [
+      "Forceps",
+      "Brush"
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/26/registry_entry/granular_data/specimens_collected",
+    "value": [
+      {
+        "specimen_number": 1,
+        "source_procedure": "Transbronchial biopsy",
+        "source_location": "LLL Nodule",
+        "collection_tool": "Forceps",
+        "rose_result": "Negative"
+      },
+      {
+        "specimen_number": 2,
+        "source_procedure": "Brushing",
+        "source_location": "LLL Nodule",
+        "collection_tool": "Brush"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/26/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31628",
+        "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+        "units": 1
+      },
+      {
+        "code": "+31654",
+        "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+        "units": 1
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/27/registry_entry/procedures_performed/transbronchial_biopsy/performed",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/27/registry_entry/granular_data/navigation_targets/0/navigation_successful",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/27/registry_entry/granular_data/navigation_targets/0/sampling_tools_used",
+    "value": [
+      "Forceps",
+      "Brush"
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/27/registry_entry/granular_data/specimens_collected",
+    "value": [
+      {
+        "specimen_number": 1,
+        "source_procedure": "Transbronchial biopsy",
+        "source_location": "LLL Nodule",
+        "collection_tool": "Forceps",
+        "rose_result": "Negative"
+      },
+      {
+        "specimen_number": 2,
+        "source_procedure": "Brushing",
+        "source_location": "LLL Nodule",
+        "collection_tool": "Brush"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/27/registry_entry/billing/cpt_codes",
+    "value": [
+      {
+        "code": "31628",
+        "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+        "units": 1
+      },
+      {
+        "code": "+31654",
+        "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+        "units": 1
+      }
+    ]
+  }
+]

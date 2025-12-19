@@ -1,0 +1,62 @@
+[
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/granular_data/cao_interventions_detail",
+      "value": []
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/coding_support/generator",
+      "value": "IP-Coder-Patch-GPT"
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/coding_support/generated_at",
+      "value": "2025-12-18T14:32:00Z"
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/coding_support/generator",
+      "value": "IP-Coder-Patch-GPT"
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/coding_support/generated_at",
+      "value": "2025-12-18T14:32:00Z"
+    },
+    {
+      "op": "add",
+      "path": "/1/registry_entry/coding_support/coding_rationale/global_comments/-",
+      "value": "Correction: Removed erroneous 'cao_interventions_detail' entry (Laser) which conflicted with the primary peripheral microwave ablation documented in 'peripheral_ablation'."
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/coding_support/generator",
+      "value": "IP-Coder-Patch-GPT"
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/coding_support/generated_at",
+      "value": "2025-12-18T14:32:00Z"
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/coding_support/generator",
+      "value": "IP-Coder-Patch-GPT"
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/coding_support/generated_at",
+      "value": "2025-12-18T14:32:00Z"
+    },
+    {
+      "op": "replace",
+      "path": "/4/registry_entry/coding_support/generator",
+      "value": "IP-Coder-Patch-GPT"
+    },
+    {
+      "op": "replace",
+      "path": "/4/registry_entry/coding_support/generated_at",
+      "value": "2025-12-18T14:32:00Z"
+    }
+  ]

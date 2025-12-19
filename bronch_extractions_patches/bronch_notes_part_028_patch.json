@@ -1,0 +1,335 @@
+[
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/billing/total_rvu",
+      "value": 12.87
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T14:32:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "primary_family": "bronchoscopy_therapeutic",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "31641",
+              "description": "Bronchoscopy, rigid or flexible; with tumor destruction by ablative energy (cryotherapy)",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "Destruction of granulation tissue in proximal trachea using cryoprobe.",
+              "note_spans": [
+                {
+                  "snippet": "2.4mm cryoprobe was used to treat the anterior granulation tissue... Excellent tissue destruction"
+                }
+              ]
+            },
+            {
+              "sequence": 2,
+              "code": "31645",
+              "description": "Bronchoscopy, rigid or flexible; with therapeutic aspiration of tracheobronchial tree, initial",
+              "units": 1,
+              "modifier": "59",
+              "role": "secondary",
+              "selection_status": "selected",
+              "selection_reason": "Therapeutic aspiration of distal airways (RMB, BI, LMB) distinct from proximal tracheal destruction.",
+              "note_spans": [
+                {
+                  "snippet": "Successful therapeutic aspiration was performed to clean out the Trachea (Distal 1/3), Right Mainstem... from mucus"
+                }
+              ]
+            },
+            {
+              "sequence": 3,
+              "code": "31622",
+              "description": "Bronchoscopy, diagnostic",
+              "role": "bundled_only",
+              "selection_status": "dropped",
+              "selection_reason": "Bundled into surgical bronchoscopy (31641)."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "conversion_factor": 32.3562,
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31641",
+              "units": 1,
+              "work_rvu": 5.25,
+              "total_facility_rvu": 8.4,
+              "mpfs_facility_payment": 272,
+              "is_primary": true
+            },
+            {
+              "code": "31645",
+              "units": 1,
+              "work_rvu": 2.78,
+              "total_facility_rvu": 4.47,
+              "mpfs_facility_payment": 145,
+              "is_primary": false
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 8.03,
+            "total_facility_rvu": 12.87,
+            "estimated_facility_payment_unadjusted": 417
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31641",
+              "summary": "Supported by documentation of cryotherapy destruction of granulation tissue in the subglottic/proximal trachea.",
+              "rule_refs": [
+                "31640_vs_31641_same_site"
+              ]
+            },
+            {
+              "code": "31645",
+              "summary": "Supported by therapeutic aspiration of mucus from distal airways. distinct from the site of cryotherapy (proximal trachea), allowing modifier 59."
+            }
+          ],
+          "rules_applied": [
+            {
+              "rule_id": "diagnostic_with_surgical",
+              "description": "Diagnostic bronchoscopy bundled with therapeutic codes.",
+              "outcome": "dropped",
+              "codes_affected": [
+                "31622"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/billing/total_rvu",
+      "value": 23.96
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T14:32:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "primary_family": "bronchoscopy_therapeutic",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "31641",
+              "description": "Bronchoscopy with tumor destruction (LMS)",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "Tumor destruction in Left Mainstem using electrocautery and microwave.",
+              "note_spans": [
+                {
+                  "snippet": "Endobronchial obstruction at Left Mainstem... treated with... Electrocautery... Microwave... ablated"
+                }
+              ]
+            },
+            {
+              "sequence": 2,
+              "code": "31636",
+              "description": "Bronchoscopy with bronchial stent placement (LLL)",
+              "units": 1,
+              "modifier": "XS",
+              "role": "secondary",
+              "selection_status": "selected",
+              "selection_reason": "Stent placement in LLL basal segment, distinct from LMS destruction.",
+              "note_spans": [
+                {
+                  "snippet": "stent (bonastent 10x20) was placed in the LLL basal subsegment"
+                }
+              ]
+            },
+            {
+              "sequence": 3,
+              "code": "31645",
+              "description": "Bronchoscopy with therapeutic aspiration (RMS/BI/LUL)",
+              "units": 1,
+              "modifier": "XS",
+              "role": "secondary",
+              "selection_status": "selected",
+              "selection_reason": "Aspiration of Right Mainstem, Bronchus Intermedius, and LUL, distinct from LMS/LLL interventions.",
+              "note_spans": [
+                {
+                  "snippet": "aspiration was performed to clean out the Right Mainstem, Bronchus Intermedius"
+                }
+              ]
+            },
+            {
+              "sequence": 4,
+              "code": "31624",
+              "description": "Bronchoscopy with BAL (Lingula)",
+              "units": 1,
+              "modifier": "XS",
+              "role": "secondary",
+              "selection_status": "selected",
+              "selection_reason": "BAL in Lingula, distinct from other therapeutic sites.",
+              "note_spans": [
+                {
+                  "snippet": "Bronchial alveolar lavage was performed at Superior Segment of Lingula"
+                }
+              ]
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "conversion_factor": 32.3562,
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31641",
+              "units": 1,
+              "work_rvu": 5.25,
+              "total_facility_rvu": 8.4,
+              "mpfs_facility_payment": 272,
+              "is_primary": true
+            },
+            {
+              "code": "31636",
+              "units": 1,
+              "work_rvu": 4.3,
+              "total_facility_rvu": 6.85,
+              "mpfs_facility_payment": 222,
+              "is_primary": false
+            },
+            {
+              "code": "31645",
+              "units": 1,
+              "work_rvu": 2.78,
+              "total_facility_rvu": 4.47,
+              "mpfs_facility_payment": 145,
+              "is_primary": false
+            },
+            {
+              "code": "31624",
+              "units": 1,
+              "work_rvu": 2.63,
+              "total_facility_rvu": 4.24,
+              "mpfs_facility_payment": 137,
+              "is_primary": false
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 14.96,
+            "total_facility_rvu": 23.96,
+            "estimated_facility_payment_unadjusted": 776
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31641",
+              "summary": "Primary code for tumor destruction in Left Mainstem."
+            },
+            {
+              "code": "31636",
+              "summary": "Stenting of LLL basal segment; distinct anatomic structure from LMS ablation allowing unbundling."
+            },
+            {
+              "code": "31645",
+              "summary": "Therapeutic aspiration of contralateral (Right) airways and LUL supports separate reporting."
+            },
+            {
+              "code": "31624",
+              "summary": "BAL of Lingula is anatomically distinct."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T14:32:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "primary_family": "tracheostomy",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "31600",
+              "description": "Planned tracheostomy, stand-alone open airway creation (age >= 2 years)",
+              "units": 1,
+              "modifier": "22",
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "Percutaneous tracheostomy. Modifier 22 applied for significant increased work due to challenging anatomy and need for multiple attendings.",
+              "note_spans": [
+                {
+                  "snippet": "anatomy was challenging due to limited neck mobility... resulted in >40% increased work"
+                }
+              ]
+            },
+            {
+              "sequence": 2,
+              "code": "76536",
+              "description": "Ultrasound, soft tissues of head and neck",
+              "units": 1,
+              "role": "secondary",
+              "selection_status": "selected",
+              "selection_reason": "Diagnostic ultrasound of neck soft tissues to evaluate vessels/structures prior to procedure.",
+              "note_spans": [
+                {
+                  "snippet": "Neck Ultrasound was performed to evaluate for any abnormal vessel... mass"
+                }
+              ]
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "conversion_factor": 32.3562,
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31600",
+              "units": 1,
+              "work_rvu": 5.56,
+              "total_facility_rvu": 8.97,
+              "mpfs_facility_payment": 290,
+              "is_primary": true
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 5.56,
+            "total_facility_rvu": 8.97,
+            "estimated_facility_payment_unadjusted": 290
+          },
+          "notes": "76536 RVUs not available in knowledge base; excluded from totals. Modifier 22 may result in increased payment upon review."
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31600",
+              "summary": "Percutaneous tracheostomy. 22 modifier supported by explicit documentation of >40% increased work/intensity."
+            },
+            {
+              "code": "76536",
+              "summary": "Diagnostic ultrasound of neck; distinct from bundled ultrasound guidance (76942). Reported based on specific documentation of vessel/mass evaluation."
+            }
+          ]
+        }
+      }
+    }
+  ]

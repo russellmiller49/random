@@ -1,0 +1,340 @@
+[
+  {
+    "comment": "Patch for Index 9 (Scenario 1): Swap 31628 for 31629 and update RVUs",
+    "op": "replace",
+    "path": "/9/cpt_codes/1",
+    "value": 31629
+  },
+  {
+    "op": "replace",
+    "path": "/9/registry_entry/billing/cpt_codes/1",
+    "value": {
+      "code": "31629",
+      "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+      "units": 1,
+      "modifiers": ["XS"]
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/9/registry_entry/billing/total_rvu",
+    "value": 11.88
+  },
+  {
+    "op": "replace",
+    "path": "/9/registry_entry/billing/work_rvu",
+    "value": 11.88
+  },
+  {
+    "comment": "Patch for Index 10 (Scenario 1)",
+    "op": "replace",
+    "path": "/10/cpt_codes/1",
+    "value": 31629
+  },
+  {
+    "op": "replace",
+    "path": "/10/registry_entry/billing/cpt_codes/1",
+    "value": {
+      "code": "31629",
+      "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+      "units": 1,
+      "modifiers": ["XS"]
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/10/registry_entry/billing/total_rvu",
+    "value": 11.88
+  },
+  {
+    "op": "replace",
+    "path": "/10/registry_entry/billing/work_rvu",
+    "value": 11.88
+  },
+  {
+    "comment": "Patch for Index 11 (Scenario 1)",
+    "op": "replace",
+    "path": "/11/cpt_codes/1",
+    "value": 31629
+  },
+  {
+    "op": "replace",
+    "path": "/11/registry_entry/billing/cpt_codes/1",
+    "value": {
+      "code": "31629",
+      "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+      "units": 1,
+      "modifiers": ["XS"]
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/11/registry_entry/billing/total_rvu",
+    "value": 11.88
+  },
+  {
+    "op": "replace",
+    "path": "/11/registry_entry/billing/work_rvu",
+    "value": 11.88
+  },
+  {
+    "comment": "Patch for Index 12 (Scenario 1)",
+    "op": "replace",
+    "path": "/12/cpt_codes/1",
+    "value": 31629
+  },
+  {
+    "op": "replace",
+    "path": "/12/registry_entry/billing/cpt_codes/1",
+    "value": {
+      "code": "31629",
+      "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+      "units": 1,
+      "modifiers": ["XS"]
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/12/registry_entry/billing/total_rvu",
+    "value": 11.88
+  },
+  {
+    "op": "replace",
+    "path": "/12/registry_entry/billing/work_rvu",
+    "value": 11.88
+  },
+  {
+    "comment": "Patch for Index 13 (Scenario 2): Swap 31628 for 31629 and update RVUs",
+    "op": "replace",
+    "path": "/13/cpt_codes/1",
+    "value": 31629
+  },
+  {
+    "op": "replace",
+    "path": "/13/registry_entry/billing/cpt_codes/1",
+    "value": {
+      "code": "31629",
+      "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+      "units": 1,
+      "modifiers": []
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/13/registry_entry/billing/total_rvu",
+    "value": 18.12
+  },
+  {
+    "op": "replace",
+    "path": "/13/registry_entry/billing/work_rvu",
+    "value": 18.12
+  },
+  {
+    "comment": "Patch for Index 14 (Scenario 2)",
+    "op": "replace",
+    "path": "/14/cpt_codes/1",
+    "value": 31629
+  },
+  {
+    "op": "replace",
+    "path": "/14/registry_entry/billing/cpt_codes/1",
+    "value": {
+      "code": "31629",
+      "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+      "units": 1,
+      "modifiers": []
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/14/registry_entry/billing/total_rvu",
+    "value": 18.12
+  },
+  {
+    "op": "replace",
+    "path": "/14/registry_entry/billing/work_rvu",
+    "value": 18.12
+  },
+  {
+    "comment": "Patch for Index 15 (Scenario 2)",
+    "op": "replace",
+    "path": "/15/cpt_codes/1",
+    "value": 31629
+  },
+  {
+    "op": "replace",
+    "path": "/15/registry_entry/billing/cpt_codes/1",
+    "value": {
+      "code": "31629",
+      "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+      "units": 1,
+      "modifiers": []
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/15/registry_entry/billing/total_rvu",
+    "value": 18.12
+  },
+  {
+    "op": "replace",
+    "path": "/15/registry_entry/billing/work_rvu",
+    "value": 18.12
+  },
+  {
+    "comment": "Patch for Index 16 (Scenario 2)",
+    "op": "replace",
+    "path": "/16/cpt_codes/1",
+    "value": 31629
+  },
+  {
+    "op": "replace",
+    "path": "/16/registry_entry/billing/cpt_codes/1",
+    "value": {
+      "code": "31629",
+      "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+      "units": 1,
+      "modifiers": []
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/16/registry_entry/billing/total_rvu",
+    "value": 18.12
+  },
+  {
+    "op": "replace",
+    "path": "/16/registry_entry/billing/work_rvu",
+    "value": 18.12
+  },
+  {
+    "comment": "Patch for Index 17 (Scenario 2)",
+    "op": "replace",
+    "path": "/17/cpt_codes/1",
+    "value": 31629
+  },
+  {
+    "op": "replace",
+    "path": "/17/registry_entry/billing/cpt_codes/1",
+    "value": {
+      "code": "31629",
+      "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+      "units": 1,
+      "modifiers": []
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/17/registry_entry/billing/total_rvu",
+    "value": 18.12
+  },
+  {
+    "op": "replace",
+    "path": "/17/registry_entry/billing/work_rvu",
+    "value": 18.12
+  },
+  {
+    "comment": "Patch for Index 18 (Scenario 2)",
+    "op": "replace",
+    "path": "/18/cpt_codes/1",
+    "value": 31629
+  },
+  {
+    "op": "replace",
+    "path": "/18/registry_entry/billing/cpt_codes/1",
+    "value": {
+      "code": "31629",
+      "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+      "units": 1,
+      "modifiers": []
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/18/registry_entry/billing/total_rvu",
+    "value": 18.12
+  },
+  {
+    "op": "replace",
+    "path": "/18/registry_entry/billing/work_rvu",
+    "value": 18.12
+  },
+  {
+    "comment": "Patch for Index 19 (Scenario 2)",
+    "op": "replace",
+    "path": "/19/cpt_codes/1",
+    "value": 31629
+  },
+  {
+    "op": "replace",
+    "path": "/19/registry_entry/billing/cpt_codes/1",
+    "value": {
+      "code": "31629",
+      "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+      "units": 1,
+      "modifiers": []
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/19/registry_entry/billing/total_rvu",
+    "value": 18.12
+  },
+  {
+    "op": "replace",
+    "path": "/19/registry_entry/billing/work_rvu",
+    "value": 18.12
+  },
+  {
+    "comment": "Patch for Index 20 (Scenario 2)",
+    "op": "replace",
+    "path": "/20/cpt_codes/1",
+    "value": 31629
+  },
+  {
+    "op": "replace",
+    "path": "/20/registry_entry/billing/cpt_codes/1",
+    "value": {
+      "code": "31629",
+      "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+      "units": 1,
+      "modifiers": []
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/20/registry_entry/billing/total_rvu",
+    "value": 18.12
+  },
+  {
+    "op": "replace",
+    "path": "/20/registry_entry/billing/work_rvu",
+    "value": 18.12
+  },
+  {
+    "comment": "Patch for Index 21 (Scenario 2)",
+    "op": "replace",
+    "path": "/21/cpt_codes/1",
+    "value": 31629
+  },
+  {
+    "op": "replace",
+    "path": "/21/registry_entry/billing/cpt_codes/1",
+    "value": {
+      "code": "31629",
+      "description": "Bronchoscopy with transbronchial needle aspiration biopsy(s)",
+      "units": 1,
+      "modifiers": []
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/21/registry_entry/billing/total_rvu",
+    "value": 18.12
+  },
+  {
+    "op": "replace",
+    "path": "/21/registry_entry/billing/work_rvu",
+    "value": 18.12
+  }
+]

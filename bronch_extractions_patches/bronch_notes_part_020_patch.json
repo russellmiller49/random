@@ -1,0 +1,390 @@
+[
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31641",
+            "description": "Bronchoscopy, rigid or flexible; with tumor destruction by ablative energy (eg, argon plasma coagulation, cryotherapy)",
+            "modifier": null,
+            "modifiers": null,
+            "units": 1
+          },
+          {
+            "code": "31645",
+            "description": "Bronchoscopy, rigid or flexible; with therapeutic aspiration of tracheobronchial tree, initial",
+            "modifier": null,
+            "modifiers": null,
+            "units": 1
+          }
+        ],
+        "icd10_codes": null,
+        "total_rvu": 12.87,
+        "work_rvu": 8.03,
+        "practice_expense_rvu": 3.97,
+        "malpractice_rvu": 0.87
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T22:30:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2_9",
+        "coding_summary": {
+          "primary_family": "bronchoscopy_therapeutic_airway_tumor",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "31641",
+              "description": "Bronchoscopy, rigid or flexible; with tumor destruction by ablative energy (eg, argon plasma coagulation, cryotherapy)",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "Destruction of RLL tumor via APC/electrocautery. Bundles excision (31640) at same site.",
+              "source": "model"
+            },
+            {
+              "sequence": 2,
+              "code": "31645",
+              "description": "Bronchoscopy, rigid or flexible; with therapeutic aspiration of tracheobronchial tree, initial",
+              "units": 1,
+              "role": "secondary",
+              "selection_status": "selected",
+              "selection_reason": "Therapeutic aspiration of purulent secretions from distal airways, distinct from tumor site.",
+              "source": "model"
+            },
+            {
+              "sequence": 3,
+              "code": "31640",
+              "description": "Bronchoscopy; with excision of tumor",
+              "role": "bundled_only",
+              "selection_status": "dropped",
+              "selection_reason": "Bundled into 31641 when performed at same anatomic site (RLL).",
+              "source": "model"
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "conversion_factor": 32.3562,
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31641",
+              "units": 1,
+              "work_rvu": 5.25,
+              "total_facility_rvu": 8.4,
+              "mpfs_facility_payment": 272,
+              "is_primary": true
+            },
+            {
+              "code": "31645",
+              "units": 1,
+              "work_rvu": 2.78,
+              "total_facility_rvu": 4.47,
+              "mpfs_facility_payment": 145,
+              "is_primary": false
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 8.03,
+            "total_facility_rvu": 12.87,
+            "estimated_facility_payment_unadjusted": 417
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31641",
+              "summary": "Primary therapeutic service for RLL tumor. Although snare excision (31640) was used, APC destruction was also performed. 31641 is the higher-valued code for the same site."
+            },
+            {
+              "code": "31645",
+              "summary": "Separate therapeutic aspiration of purulent secretions from distal airways."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31622",
+            "description": "Bronchoscopy, rigid or flexible, including fluoroscopic guidance, when performed; diagnostic, with cell washing, when performed",
+            "modifier": null,
+            "modifiers": null,
+            "units": 1
+          }
+        ],
+        "icd10_codes": [
+          "J98.09"
+        ],
+        "total_rvu": 4.2,
+        "work_rvu": 2.53,
+        "practice_expense_rvu": 1.37,
+        "malpractice_rvu": 0.3
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/coding_support/financial_analysis",
+      "value": {
+        "calendar_year": 2025,
+        "fee_schedule_name": "physician_2025_airway",
+        "rvu_source": "cms_rvus.bronchoscopy",
+        "conversion_factor": 32.3562,
+        "setting": "facility",
+        "per_code": [
+          {
+            "code": "31622",
+            "units": 1,
+            "work_rvu": 2.53,
+            "total_facility_rvu": 4.2,
+            "total_nonfacility_rvu": 7.82,
+            "mpfs_facility_payment": 136,
+            "mpfs_nonfacility_payment": 253,
+            "is_primary": true,
+            "rvu_source_path": "fee_schedules.physician_2025_airway.codes.31622"
+          }
+        ],
+        "totals": {
+          "total_work_rvu": 2.53,
+          "total_facility_rvu": 4.2,
+          "total_nonfacility_rvu": 7.82,
+          "estimated_facility_payment_unadjusted": 136,
+          "estimated_nonfacility_payment_unadjusted": 253
+        },
+        "mppr_assumptions": "Single procedure performed; no MPPR reduction applied."
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31652",
+            "description": "Bronchoscopy, rigid or flexible; with endobronchial ultrasound (EBUS) guided transbronchial needle aspiration biopsy(s), trachea, main stem and/or lobar bronchus(i), single or first lobe",
+            "modifier": null,
+            "modifiers": null,
+            "units": 1
+          },
+          {
+            "code": "31625",
+            "description": "Bronchoscopy, rigid or flexible; with bronchial or endobronchial biopsy(s)",
+            "modifier": null,
+            "modifiers": null,
+            "units": 1
+          }
+        ],
+        "icd10_codes": null,
+        "total_rvu": 11.89,
+        "work_rvu": 7.57,
+        "practice_expense_rvu": 3.49,
+        "malpractice_rvu": 0.83
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T22:30:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2_9",
+        "coding_summary": {
+          "primary_family": "bronchoscopy_ebus_linear",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "31652",
+              "description": "Bronchoscopy w/ EBUS-TBNA 1-2 stations",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "EBUS sampling of station 7 (1 station).",
+              "source": "model"
+            },
+            {
+              "sequence": 2,
+              "code": "31625",
+              "description": "Bronchoscopy w/ endobronchial biopsy(s)",
+              "units": 1,
+              "role": "secondary",
+              "selection_status": "selected",
+              "selection_reason": "Biopsy of visually identified LUL nodule using micro forceps.",
+              "source": "model"
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "conversion_factor": 32.3562,
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31652",
+              "units": 1,
+              "work_rvu": 4.46,
+              "total_facility_rvu": 6.96,
+              "mpfs_facility_payment": 225,
+              "is_primary": true
+            },
+            {
+              "code": "31625",
+              "units": 1,
+              "work_rvu": 3.11,
+              "total_facility_rvu": 4.93,
+              "mpfs_facility_payment": 160,
+              "is_primary": false
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 7.57,
+            "total_facility_rvu": 11.89,
+            "estimated_facility_payment_unadjusted": 385
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31652",
+              "summary": "1 nodal station (7) sampled via EBUS."
+            },
+            {
+              "code": "31625",
+              "summary": "Endobronchial biopsy of LUL lesion. 'Micro forceps' and visual identification supports 31625 over 31628."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31653",
+            "description": "Bronchoscopy, rigid or flexible; with endobronchial ultrasound (EBUS) guided transbronchial needle aspiration biopsy(s), 3 or more mediastinal and/or hilar lymph node stations or structures",
+            "modifier": null,
+            "modifiers": null,
+            "units": 1
+          }
+        ],
+        "icd10_codes": null,
+        "total_rvu": 7.7,
+        "work_rvu": 4.96,
+        "practice_expense_rvu": 2.22,
+        "malpractice_rvu": 0.52
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T22:30:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2_9",
+        "coding_summary": {
+          "primary_family": "bronchoscopy_ebus_linear",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "31653",
+              "description": "Bronchoscopy w/ EBUS-TBNA 3+ stations",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "EBUS-TBNA performed on 3 stations: 7, 4R, 4L.",
+              "source": "model"
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "conversion_factor": 32.3562,
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31653",
+              "units": 1,
+              "work_rvu": 4.96,
+              "total_facility_rvu": 7.7,
+              "mpfs_facility_payment": 249,
+              "is_primary": true
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 4.96,
+            "total_facility_rvu": 7.7,
+            "estimated_facility_payment_unadjusted": 249
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31653",
+              "summary": "Supports EBUS-TBNA of 3 distinct nodal stations (4R, 4L, 7)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/4/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31652",
+            "description": "Bronchoscopy, rigid or flexible; with endobronchial ultrasound (EBUS) guided transbronchial needle aspiration biopsy(s), trachea, main stem and/or lobar bronchus(i), single or first lobe",
+            "modifier": null,
+            "modifiers": null,
+            "units": 1
+          }
+        ],
+        "icd10_codes": null,
+        "total_rvu": 6.96,
+        "work_rvu": 4.46,
+        "practice_expense_rvu": 2.02,
+        "malpractice_rvu": 0.48
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/4/registry_entry/coding_support/financial_analysis",
+      "value": {
+        "calendar_year": 2025,
+        "fee_schedule_name": "physician_2025_airway",
+        "conversion_factor": 32.3562,
+        "setting": "facility",
+        "per_code": [
+          {
+            "code": "31652",
+            "units": 1,
+            "work_rvu": 4.46,
+            "total_facility_rvu": 6.96,
+            "mpfs_facility_payment": 225,
+            "is_primary": true
+          }
+        ],
+        "totals": {
+          "total_work_rvu": 4.46,
+          "total_facility_rvu": 6.96,
+          "estimated_facility_payment_unadjusted": 225
+        }
+      }
+    }
+  ]

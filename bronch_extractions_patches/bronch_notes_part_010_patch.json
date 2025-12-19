@@ -1,0 +1,60 @@
+[
+    {
+      "op": "replace",
+      "path": "/0/cpt_codes",
+      "value": [
+        31652,
+        31628,
+        31654,
+        31632
+      ]
+    },
+    {
+      "op": "remove",
+      "path": "/0/registry_entry/billing/cpt_codes/2"
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/billing/total_rvu",
+      "value": 17.68
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/billing/work_rvu",
+      "value": 11.41
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/coding_support/coding_summary/lines/3/selection_status",
+      "value": "dropped"
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/coding_support/coding_summary/lines/3/role",
+      "value": "bundled_only"
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/coding_support/coding_summary/lines/3/selection_reason",
+      "value": "Bundled into primary biopsy (31628) as sampling of the same lobe(s)."
+    },
+    {
+      "op": "remove",
+      "path": "/0/registry_entry/coding_support/financial_analysis/per_code/2"
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/coding_support/financial_analysis/totals/total_work_rvu",
+      "value": 11.41
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/coding_support/financial_analysis/totals/total_facility_rvu",
+      "value": 17.68
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/coding_support/financial_analysis/totals/estimated_facility_payment_unadjusted",
+      "value": 572
+    }
+  ]

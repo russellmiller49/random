@@ -1,0 +1,60 @@
+[
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/billing/icd10_codes",
+      "value": [
+        "J86.0",
+        "R91.8"
+      ]
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/coding_support/financial_analysis/totals/estimated_facility_payment_after_mppr",
+      "value": 370
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/coding_support/financial_analysis/totals/notes",
+      "value": "Estimated payment applies Multiple Endoscopy Rule: Primary (31636) at 100%, Secondary (31625) adjusted via Base+Difference method ($222 + ($136 + 0.5*($160-$136)))."
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/coding_support/generator",
+      "value": "IP-Coder-Patch-GPT"
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/coding_support/generated_at",
+      "value": "2025-12-18T14:45:00Z"
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/coding_support/generator",
+      "value": "IP-Coder-Patch-GPT"
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/coding_support/generated_at",
+      "value": "2025-12-18T14:45:00Z"
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/coding_support/generator",
+      "value": "IP-Coder-Patch-GPT"
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/coding_support/generated_at",
+      "value": "2025-12-18T14:45:00Z"
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/coding_support/generator",
+      "value": "IP-Coder-Patch-GPT"
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/coding_support/generated_at",
+      "value": "2025-12-18T14:45:00Z"
+    }
+  ]

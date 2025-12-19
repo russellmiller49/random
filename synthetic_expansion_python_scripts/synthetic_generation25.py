@@ -5,7 +5,7 @@ import copy
 from pathlib import Path
 
 # Source file for JSON elements
-SOURCE_FILE = "consolidated_verified_notes_v2_8_part_025.json"
+SOURCE_FILE = "bronch_extractions_patched/bronch_notes_part_025.json"
 OUTPUT_DIR = "Synthetic_expansions"
 
 def generate_random_date(start_year, end_year):
@@ -14,140 +14,73 @@ def generate_random_date(start_year, end_year):
     return start + (end - start) * random.random()
 
 def get_variations():
-    """
-    Returns a dictionary of text variations for the notes in part_025.
-    Structure: Note_Index (0-9) -> Style_Index (1-9) -> Text
-    """
+    # Structure: Note_Index (0-4) -> Style_Index (1-9) -> Text
     variations = {
-        0: { # EMN/EBUS/Cryo RLL
-            1: "Procedure: EMN bronchoscopy RLL.\n- Navigated to target.\n- Radial EBUS: concentric view.\n- Cryobiopsy x3.\n- Arndt blocker deployed for prophylactic hemostasis.\n- No bleeding.",
-            2: "OPERATIVE REPORT: The patient underwent electromagnetic navigation bronchoscopy for a peripheral right lower lobe nodule. Following navigation, radial endobronchial ultrasound confirmed the lesion's location. Transbronchial cryobiopsy was performed to obtain high-quality tissue. An Arndt bronchial blocker was utilized effectively to ensure hemostasis immediately following biopsy.",
-            3: "Procedure coded as: 31628 (Transbronchial lung biopsy, single lobe), 31627 (Navigation add-on), 31654 (Radial EBUS add-on). Cryoprobe used for specimen acquisition. Arndt blocker utilized for hemorrhage control.",
-            4: "Procedure Steps:\n1. Time out performed.\n2. Scope introduced.\n3. EMN navigation to RLL nodule.\n4. Radial EBUS confirmation.\n5. Arndt blocker placed.\n6. Cryobiopsies obtained.\n7. Hemostasis confirmed.",
-            5: "we did the emn bronch today for the rll spot navigated down there radial ebus looked good took some cryobiopsies put the arndt blocker up just in case for bleeding no issues really patient tolerated it well.",
-            6: "EMN-guided bronchoscopy was performed to target a peripheral RLL nodule. Radial EBUS provided confirmation of the lesion. Transbronchial cryobiopsy was executed. An Arndt blocker was employed for hemostasis control.",
-            7: "[Indication]\nPeripheral RLL nodule requiring biopsy.\n[Anesthesia]\nGeneral.\n[Description]\nEMN navigation used. Radial EBUS confirmed target. Transbronchial cryobiopsy performed. Arndt blocker used for hemostasis.\n[Plan]\nPathology pending.",
-            8: "The patient was brought to the suite for an EMN-guided bronchoscopy. We navigated successfully to the peripheral RLL nodule. Radial EBUS was used to confirm the position. We then performed a transbronchial cryobiopsy. To manage potential bleeding, an Arndt blocker was used for hemostasis.",
-            9: "Electromagnetic navigation was utilized to locate the RLL nodule. Radial EBUS verified the position. The lesion was sampled via transbronchial cryobiopsy. An Arndt blocker was deployed to manage hemostasis."
+        0: { # Elizabeth Larkin (Lung Mass, EBUS/Nav/Biopsy)
+            1: "Procedure: Bronchoscopy with EBUS/Nav.\n- Airway cleared of mucus (RMS/LMS/BI).\n- RML lateral segment mass located via Radial EBUS (concentric).\n- TBNA and TBBX performed (6 samples each). ROSE positive for malignancy.\n- BAL RML performed.\n- Linear EBUS staged mediastinum. Stations 11L, 7, 11Rs sampled (needle 22G). Elastography used.\n- No comps.",
+            2: "OPERATIVE NARRATIVE: The patient was placed under general anesthesia for evaluation of a lung mass. Initial inspection revealed secretions which were aspirated therapeutically from the central airways. Attention was turned to the right middle lobe lateral segment, where radial endobronchial ultrasound confirmed a concentric, continuous lesion. Diagnostic sampling was achieved via transbronchial needle aspiration and forceps biopsy, alongside bronchoalveolar lavage. Rapid on-site evaluation confirmed malignancy. Subsequently, systematic mediastinal staging utilizing linear endobronchial ultrasound (EBUS) with elastography was performed; lymph node stations 11L, 7, and 11Rs were identified, measured, and sampled via fine-needle aspiration. The procedure concluded without complication.",
+            3: "Code Selection Justification:\n31653: Primary service. Linear EBUS sampling of 3 distinct nodal stations (11L, 7, 11Rs).\n31645-59: Therapeutic aspiration of mucus from RMS, LMS, and BI, distinct from biopsy sites.\n31628-59: Transbronchial lung biopsy of separate RML lesion.\n31654: Radial EBUS guidance used for peripheral RML lesion localization.\nNote: Elastography (76982/3) performed but bundled. 31629/31624 bundled into 31628.",
+            4: "Procedure Note\nPatient: [PATIENT_NAME]\nAttending: Dr. Johnson\nSteps:\n1. Time out. GA induced.\n2. Therapeutic suctioning of extensive mucus.\n3. Navigated to RML lateral segment.\n4. Radial EBUS confirmed concentric view.\n5. TBBX x6 and TBNA x6 obtained. BAL performed.\n6. Linear EBUS staging: Stations 11L, 7, 11Rs sampled with 22G needle.\n7. ROSE positive.\n8. Extubated stable.",
+            5: "We did the bronchoscopy today on the patient for the lung mass  started with cleaning out a lot of mucus from the mainstems right and left  then went to the RML found the spot with radial ebus it was concentric  took biopsies with the needle and the forceps and did a wash  pathology guy in the room said it was cancer  then we switched to the ebus scope and checked the lymph nodes  sampled 11L and 7 and 11Rs  elastography looked soft mostly  patient woke up fine no issues thanks.",
+            6: "The patient was brought to the bronchoscopy suite and placed under general anesthesia. Initial inspection required therapeutic aspiration of the Right Mainstem, Bronchus Intermedius, and Left Mainstem to clear mucus. A therapeutic scope was advanced to the RML lateral segment. Radial EBUS confirmed a concentric lesion. TBNA (19G/21G) and TBBX (forceps) were performed obtaining 6 samples each, followed by BAL. ROSE confirmed malignancy. Linear EBUS was then utilized for staging. Lymph node stations 11L, 7, and 11Rs were sampled using a 22G needle under elastographic guidance. The patient tolerated the procedure well.",
+            7: "[Indication]\nLung mass, R91.8.\n[Anesthesia]\nGeneral.\n[Description]\nTherapeutic aspiration of central airways performed. RML lesion localized with Radial EBUS (concentric). TBBX, TBNA, and BAL performed at RML. Linear EBUS staging performed at stations 11L, 7, and 11Rs.\n[Plan]\nFollow up pathology. Complete steroids/antibiotics.",
+            8: "Under general anesthesia, the procedure commenced with a therapeutic aspiration to clear significant mucus from the right and left mainstems. We then navigated to the right middle lobe lateral segment. Using radial EBUS, we verified the lesion's concentric location. We proceeded to collect samples via transbronchial needle aspiration and alligator forceps biopsy, followed by a lavage; on-site analysis confirmed malignancy. Finally, we performed linear EBUS staging, sampling nodes at stations 11L, 7, and 11Rs with elastography assistance. The patient remained stable throughout.",
+            9: "Intervention: Bronchoscopic evaluation.\nActions: Clearances of the airways (suctioning) were executed. The RML mass was pinpointed using ultrasound. Tissue was harvested via needle aspiration and forceps extraction. Lavage was conducted. Mediastinal nodes (11L, 7, 11Rs) were interrogated and sampled using linear ultrasound guidance. Malignancy was verified."
         },
-        1: { # EBUS-TBNA Lymphoma (4 stations)
-            1: "EBUS-TBNA.\n- Station 7 sampled.\n- Station 4R sampled.\n- Station 10R sampled.\n- Station 11R sampled.\n- ROSE: Follicular lymphoma in all stations.",
-            2: "The mediastinum and hilum were systematically evaluated via EBUS-TBNA for lymphoma staging. Nodal stations 7, 4R, 10R, and 11R were visualized and aspirated. Rapid on-site evaluation was consistent with follicular lymphoma across all sampled nodal basins.",
-            3: "CPT 31653: Bronchoscopy with EBUS sampling of 3 or more stations. Stations 7, 4R, 10R, and 11R were all distinctly sampled with needle aspiration. Pathologic findings confirm follicular lymphoma.",
-            4: "Procedure Note:\n- EBUS scope inserted.\n- Lymph nodes identified.\n- TBNA performed at stations 7, 4R, 10R, 11R.\n- Specimens sent for flow cytometry.\n- Findings: Follicular lymphoma.",
-            5: "patient here for staging lymphoma we used the ebus scope hit nodes 7 and 4r also 10r and 11r needle went in easy rapid path said follicular lymphoma in all of them no complications.",
-            6: "EBUS-TBNA was performed for lymphoma staging. Sampling included stations 7, 4R, 10R, and 11R. Results demonstrated follicular lymphoma in all sampled nodes.",
-            7: "[Indication]\nLymphoma staging.\n[Anesthesia]\nGeneral.\n[Description]\nEBUS-TBNA performed on stations 7, 4R, 10R, 11R. All positive for follicular lymphoma.\n[Plan]\nOncology referral.",
-            8: "We performed an EBUS-TBNA to stage the patient's lymphoma. We successfully sampled stations 7, 4R, 10R, and 11R. The pathology returned showing follicular lymphoma in all the nodes we tested.",
-            9: "Endobronchial ultrasound with transbronchial needle aspiration was conducted for lymphoma staging. Stations 7, 4R, 10R, and 11R were aspirated. Follicular lymphoma was detected in all nodes."
+        1: { # Tammy Adams (RUL Mass, Nav/Ablation)
+            1: "Procedure: Robotic Nav Bronch + Microwave Ablation.\n- Therapeutic aspiration (Trachea/RMS/BI).\n- RUL Anterior segment mass (4cm) targeted via Ion.\n- CBCT confirmed tool-in-lesion.\n- TBNA x1 (Cyto).\n- Radial EBUS: concentric.\n- Microwave ablation x3 burns (RB3, RB2, RB1) at 90C.\n- Post-proc CBCT: good margins. No pneumo.",
+            2: "OPERATIVE REPORT: The patient underwent robotic-assisted navigational bronchoscopy for a 4cm RUL mass. Following therapeutic aspiration of secretions, the Ion platform was utilized to navigate to the anterior segment of the RUL. Localization was confirmed via Cone Beam CT (CBCT) and Radial EBUS. A diagnostic TBNA was performed. Subsequently, therapeutic microwave ablation was delivered to the lesion in three overlapping sessions (RB1, RB2, RB3) at 90 degrees Celsius to ensure adequate margins. Post-ablation imaging confirmed successful targeting without complications.",
+            3: "Billing Summary:\n31641: Primary. Microwave ablation of RUL tumor (3 separate burns to cover volume).\n31645-59: Therapeutic aspiration of central airways (distinct from RUL target).\n+31627: Computer-assisted navigation (Ion system) used for target approach.\n+31654: Radial EBUS used for peripheral lesion confirmation.\nNote: 77012/76377 bundled into navigation/ablation codes. 31629 bundled into 31641.",
+            4: "Resident Note\nPatient: [PATIENT_NAME]\nProcedure: Ion Bronch + Ablation\nSteps:\n1. GA / LMA.\n2. Suctioned mucus from airways.\n3. Registered Ion catheter. Navigated to RUL mass.\n4. Confirmed with Radial EBUS and Cone Beam CT.\n5. TBNA for diagnosis.\n6. Performed Microwave Ablation (20min, 10min, 10min).\n7. Final spin showed good ablation zone.\nPlan: Admit for obs.",
+            5: "We used the robot today for the lung mass in the right upper lobe patient was asleep general anesthesia first we cleaned out some mucus from the trachea and right side then drove the ion catheter out to the lesion it was big like 4 cm confirmed it with the spin ct and the ultrasound needle biopsy first then we burned it with the microwave catheter did three burns total to get the whole thing checked it again with the spin and it looked good no bleeding or collapsed lung.",
+            6: "After induction of general anesthesia and therapeutic aspiration of the central airways, robotic navigational bronchoscopy (Ion) was performed targeting a 4cm RUL mass. Localization was verified using Cone Beam CT and Radial EBUS. A single TBNA pass was collected for cytology. Microwave ablation was then performed in three overlapping zones (Anterior, Lateral Superior, Superior Medial) at 90C to treat the tumor. CBCT confirmed tool-in-lesion and treatment effect. The patient was extubated without complication.",
+            7: "[Indication]\nR91.1 Solitary Lung Nodule (RUL Mass).\n[Anesthesia]\nGeneral, LMA.\n[Description]\nTherapeutic aspiration performed. RUL mass accessed via Ion Robot. CBCT and Radial EBUS confirmation. TBNA x1. Microwave ablation performed x3 cycles to destroy tumor.\n[Plan]\nAdmit for observation. Post-ablation CXR.",
+            8: "The patient presented for evaluation and treatment of a right upper lobe mass. We induced general anesthesia and first cleared the airways of mucus via therapeutic aspiration. Using the Ion robotic platform, we navigated to the target in the RUL anterior segment. We utilized both Cone Beam CT and Radial EBUS to confirm our position within the 4cm lesion. After obtaining a diagnostic needle aspirate, we proceeded to destroy the tumor using microwave ablation, applying energy in three distinct locations to ensure coverage. The procedure was successful with no immediate complications.",
+            9: "Operation: Robotic endoscopy with tumor destruction.\nTechnique: The airways were cleared. The RUL lesion was approached via robotic guidance. Position was verified with 3D imaging and ultrasound. Cellular material was acquired. The mass was then ablated using thermal energy (microwave) in multiple passes to ensure eradication. Tolerance was excellent."
         },
-        2: { # Flex Bronch + BAL + ENB + EBUS + Biopsy Lingula
-            1: "Procedure:\n- BAL RUL.\n- ENB nav to Lingula.\n- Radial EBUS confirm.\n- TBNA and Forceps Bx of Lingula lesion under fluoro.",
-            2: "A comprehensive diagnostic bronchoscopy was performed. Bronchoalveolar lavage was first completed in the right upper lobe. Electromagnetic navigation bronchoscopy was then utilized to locate a lingular lesion, confirmed via radial EBUS. Transbronchial needle aspiration and forceps biopsies were obtained under fluoroscopic guidance.",
-            3: "Codes: 31624 (BAL RUL), 31627 (Nav), 31654 (REBUS), 31629 (TBNA Lingula), 31628 (Forceps Bx Lingula). Distinct procedures performed on separate sites/lobes.",
-            4: "Steps:\n1. Airway inspection.\n2. BAL RUL.\n3. ENB to Lingula.\n4. REBUS check.\n5. TBNA Lingula.\n6. Forceps biopsy Lingula.",
-            5: "did the bronch today bal in the rul then used the enb to get to that spot in the lingula radial ebus saw it fine did some needle biopsies and forceps bites using fluoro to see.",
-            6: "Flexible bronchoscopy included BAL of the RUL. ENB navigation was used to reach a lingular lesion, confirmed by radial EBUS. TBNA and forceps biopsies were obtained under fluoroscopy.",
-            7: "[Indication]\nLung lesion.\n[Anesthesia]\nModerate.\n[Description]\nBAL RUL. ENB to Lingula. REBUS confirmation. TBNA and forceps biopsies obtained.\n[Plan]\nAwait path.",
-            8: "We started with a flexible bronchoscopy and performed a BAL in the RUL. Then, using ENB navigation, we targeted a lesion in the Lingula. We confirmed it with radial EBUS and took both TBNA and forceps biopsies under fluoroscopy.",
-            9: "Bronchoscopy with lavage in the RUL was conducted. ENB navigation located the lingular lesion, verified by radial EBUS. Needle aspiration and forceps samples were acquired under fluoroscopic guidance."
+        2: { # Sarah Jenkins (Pleural Effusion, Chest Tube)
+            1: "Procedure: Ultrasound-guided Chest Tube Placement (Right).\n- US Findings: Large anechoic effusion, R hemithorax. No loculations.\n- Site: Right 7-8 ICS, mid-scapular.\n- 14Fr pigtail inserted via Seldinger.\n- 1250ml serous fluid drained.\n- Secured with suture. CXR ordered.",
+            2: "PROCEDURE NOTE: The patient presented with a symptomatic right pleural effusion. Bedside thoracic ultrasound was utilized to identify a large, anechoic effusion free of loculations. Under sterile conditions and local anesthesia, a 14 French pigtail catheter was inserted into the right 7-8th intercostal space using the Seldinger technique. The catheter was connected to a drainage system, yielding 1250ml of serous fluid. The device was secured, and a chest radiograph was ordered to confirm placement.",
+            3: "CPT Coding:\n32557: Indwelling tunneled/non-tunneled pleural catheter insertion with imaging guidance. \n- Supports: Insertion of 14Fr pigtail.\n- Imaging: Real-time ultrasound guidance documented with image save.\n- Note: 76604 (US) and 71045 (CXR) are bundled.",
+            4: "Resident Procedure Note\nPatient: [PATIENT_NAME]\nProcedure: Chest Tube (Right)\nIndication: Effusion.\nSteps:\n1. Ultrasound check: Large effusion, right side.\n2. Prepped/Draped. Lidocaine local.\n3. Needle entry 7-8 ICS. Wire passed.\n4. Dilated.\n5. 14Fr Pigtail advanced.\n6. 1250cc drained.\n7. Sutured and dressed.",
+            5: "Bedside procedure note for Sarah Jenkins we did a chest tube on the right side today for that effusion ultrasound showed a lot of fluid large amount no septations used lidocaine for numbess put in a 14 french pigtail using the kit wire went in easy tube followed got back over a liter of serous fluid sutured it in place patient did fine chest xray pending.",
+            6: "Ultrasound examination of the right hemithorax revealed a large anechoic pleural effusion. The patient was positioned, prepped, and draped. Local anesthesia was administered. A 14Fr pigtail catheter was inserted into the right pleural space via the 7-8th intercostal space using the Seldinger technique under real-time ultrasound guidance. 1250ml of serous fluid was evacuated. The catheter was sutured and attached to a Pleurovac. The patient tolerated the procedure well.",
+            7: "[Indication]\nPleural Effusion, Right.\n[Anesthesia]\nLocal (Lidocaine).\n[Description]\nUltrasound guided insertion of 14Fr pigtail catheter, Right 7-8 ICS. 1250ml serous fluid removed.\n[Plan]\nCXR. Fluid studies. Water seal.",
+            8: "Ms. Jenkins required drainage of a right pleural effusion. We performed a bedside ultrasound which confirmed a large, free-flowing fluid collection. After sterilizing the site and injecting local anesthetic, we placed a 14 French chest tube using the Seldinger technique. We successfully drained 1250ml of fluid. The tube was secured with sutures, and the patient was left in stable condition pending a follow-up X-ray.",
+            9: "Intervention: Pleural drainage catheterization.\nMethod: Sonographic localization identified the collection. A 14Fr catheter was introduced into the pleural cavity. A significant volume (1250ml) of exudate was evacuated. The drain was anchored. Post-procedural imaging was requested."
         },
-        3: { # PleurX (Tunneled Catheter)
-            1: "Dx: Malignant pleural effusion (R).\nProc: US-guided PleurX placement.\nDrainage: 1.55 L.\nComplications: None.",
-            2: "The patient with stage IV NSCLC and recurrent malignant pleural effusion underwent ultrasound-guided placement of a tunneled indwelling pleural catheter (PleurX). The procedure yielded 1.55 liters of fluid and was tolerated well.",
-            3: "Code 32550: Insertion of indwelling tunneled pleural catheter with cuff. Imaging guidance (US) utilized. 1.55 L fluid drained.",
-            4: "Procedure:\n1. US localization.\n2. Local anesthetic.\n3. Tunnel created.\n4. Catheter inserted into pleural space.\n5. 1.55 L drained.\n6. Dressing applied.",
-            5: "put in a pleurx catheter today right side lung cancer patient lots of fluid used ultrasound to find the spot tunneled it in drained about 1.55 liters patient feels better.",
-            6: "Ultrasound-guided tunneled PleurX catheter placement was performed for a recurrent right malignant pleural effusion in a stage IV NSCLC patient. 1.55 L was drained.",
-            7: "[Indication]\nRecurrent malignant effusion.\n[Anesthesia]\nLocal.\n[Description]\nUS-guided PleurX placement right side. 1.55 L drained.\n[Plan]\nHome nursing setup.",
-            8: "We performed an ultrasound-guided placement of a tunneled PleurX catheter for the patient's recurrent right malignant pleural effusion due to stage IV NSCLC. We successfully drained 1.55 L of fluid.",
-            9: "Tunneled PleurX catheter insertion was guided by ultrasound for symptomatic recurrent right malignant pleural effusion. 1.55 L of fluid was evacuated."
+        3: { # Vince Yound (Airway Obstruction, APC)
+            1: "Procedure: Therapeutic Bronchoscopy (APC).\n- Stent RML patent.\n- Obstruction (90%) noted in Trachea, RMS, LMS.\n- APC applied (Pulse effect 4).\n- Result: 100% patency achieved.\n- Therapeutic aspiration of mucus from airways.\n- No comps.",
+            2: "OPERATIVE SUMMARY: The patient presented for management of central airway obstruction. Inspection revealed a patent RML stent but significant (90%) malignant obstruction involving the distal trachea, right mainstem, and left mainstem bronchi. Argon Plasma Coagulation (APC) was utilized to ablate the endobronchial tumor tissue. Post-treatment inspection confirmed restoration of 100% airway patency. Additionally, therapeutic aspiration was performed to clear mucous secretions from the bronchial tree.",
+            3: "Billing Codes:\n31641: Bronchoscopy with destruction of tumor (APC used on Trachea, RMS, LMS to relieve stenosis).\n31645-XS: Therapeutic aspiration performed in Bronchus Intermedius (distinct site from APC treatment area).\nDiagnosis: J98.09.",
+            4: "Procedure Note\nPatient: [PATIENT_NAME]\nAttending: Dr. Johnson\nSteps:\n1. GA induced.\n2. Scope inserted.\n3. RML stent checked - OK.\n4. Found 90% blockage in Trachea/RMS/LMS.\n5. Used APC to burn tumor/open airway.\n6. Suctioned mucus from all airways.\n7. Result: Airway open.\nPlan: Repeat in 4-6 weeks.",
+            5: "Vince was here for his airway check today 12/16 stent looks fine but he had regrowth in the trachea and both mainstems about 90 percent blocked so we used the APC to burn it back opened it up to 100 percent also had to suction out a lot of mucus from the lower airways patient did great extubated in room come back in a month or so.",
+            6: "Under general anesthesia, a therapeutic bronchoscope was introduced. The RML stent was intact. Significant endobronchial obstruction (90%) was identified in the distal trachea, right mainstem, and left mainstem. This was treated with Argon Plasma Coagulation (APC) achieving 100% patency. Therapeutic aspiration was also performed to clear mucus from the Right Mainstem, Bronchus Intermedius, and Left Mainstem. The patient tolerated the procedure well.",
+            7: "[Indication]\nAirway Obstruction.\n[Anesthesia]\nGeneral.\n[Description]\nDiagnostic inspection: 90% obstruction Trachea/RMS/LMS. APC ablation performed. Patency restored to 100%. Therapeutic aspiration of mucus.\n[Plan]\nRepeat bronchoscopy 4-6 weeks.",
+            8: "Mr. Yound underwent a therapeutic bronchoscopy to address his airway obstruction. We found the previously placed stent in the RML was functioning well, but there was significant tumor regrowth occluding the trachea and mainstem bronchi. We utilized Argon Plasma Coagulation to ablate this tissue, successfully restoring full airway patency. We also suctioned a significant amount of mucus to further optimize his airway. He recovered well and will return for follow-up.",
+            9: "Operation: Endobronchial recanalization.\nDetails: The RML prosthesis was verified. Malignant strictures in the central airways were obliterated using thermal energy (APC). Patency was re-established. Secretions were evacuated via suction. The subject was awakened without incident."
         },
-        4: { # EBUS-TBNA Lymphoma (4 stations different)
-            1: "EBUS-TBNA.\n- Stations 7, 4R, 10L, 11R sampled.\n- Indication: Lymphoma staging.\n- Sample adequacy confirmed.",
-            2: "Evaluation of mediastinal and hilar lymphadenopathy was conducted via EBUS-TBNA. Systematic sampling of stations 7, 4R, 10L, and 11R was performed to rule out lymphoma.",
-            3: "Bill 31653: EBUS sampling of 3 or more stations (7, 4R, 10L, 11R). Procedure indicated for lymphadenopathy concerning for lymphoma.",
-            4: "Steps:\n1. EBUS scope passed.\n2. Nodes visualized.\n3. TBNA of 7, 4R, 10L, 11R.\n4. Slides prepared.\n5. Scope removed.",
-            5: "ebus for lymphoma check sampled 7 4r 10l and 11r nodes looked big got good samples sent for path.",
-            6: "EBUS-TBNA with sampling of stations 7, 4R, 10L, and 11R was performed for mediastinal and hilar lymphadenopathy concerning for lymphoma.",
-            7: "[Indication]\nLymphadenopathy/Lymphoma.\n[Anesthesia]\nGeneral.\n[Description]\nEBUS-TBNA of stations 7, 4R, 10L, 11R.\n[Plan]\nFollow up path.",
-            8: "We performed an EBUS-TBNA to investigate mediastinal and hilar lymphadenopathy concerning for lymphoma. We sampled stations 7, 4R, 10L, and 11R.",
-            9: "Endobronchial ultrasound with needle aspiration was performed on stations 7, 4R, 10L, and 11R for lymphoma evaluation."
-        },
-        5: { # US Thoracentesis
-            1: "Proc: Therapeutic Thora (US guided).\nSite: Right.\nFluid: 800 mL clear yellow.\nDx: Hepatic hydrothorax.",
-            2: "The patient with cirrhosis and right hepatic hydrothorax underwent ultrasound-guided therapeutic thoracentesis. A total of 800 mL of clear yellow pleural fluid was removed without complication.",
-            3: "Code 32555: Thoracentesis with imaging guidance. 800 mL drained for hepatic hydrothorax.",
-            4: "Steps:\n1. US scan.\n2. Prep and drape.\n3. Needle insertion.\n4. Aspiration of 800 mL.\n5. Catheter removal.",
-            5: "did a thora on the right side used ultrasound guide drained 800 ml looks like hepatic hydrothorax fluid was clear yellow.",
-            6: "Ultrasound-guided therapeutic thoracentesis for right hepatic hydrothorax in a cirrhotic patient drained 800 mL of clear yellow fluid.",
-            7: "[Indication]\nHepatic hydrothorax.\n[Anesthesia]\nLocal.\n[Description]\nUS-guided thoracentesis right. 800 mL removed.\n[Plan]\nMonitor.",
-            8: "We performed an ultrasound-guided therapeutic thoracentesis for a right hepatic hydrothorax in this cirrhotic patient. We successfully drained 800 mL of clear yellow fluid.",
-            9: "Therapeutic thoracentesis guided by ultrasound was executed for right hepatic hydrothorax. 800 mL of clear yellow fluid was withdrawn."
-        },
-        6: { # Rigid Bronch Tracheal Polyps
-            1: "Rigid Bronchoscopy.\n- Snare resection of tracheal polyps.\n- APC ablation applied.\n- Airway obstruction relieved.",
-            2: "The patient underwent rigid bronchoscopy for management of severe endotracheal obstruction. Multiple obstructing polyps were resected using electrocautery snare and the bases were ablated with Argon Plasma Coagulation (APC).",
-            3: "Code 31641: Bronchoscopy with destruction of tumor or relief of stenosis. Methods: Electrocautery snare and APC.",
-            4: "Procedure:\n1. Rigid scope inserted.\n2. Polyps identified.\n3. Snare resection performed.\n4. APC ablation.\n5. Airway patent.",
-            5: "rigid bronch for those tracheal polyps causing blockage used the snare to cut them out and apc to burn the base airway looks much better now.",
-            6: "Rigid bronchoscopy with electrocautery snare resection and APC ablation of multiple obstructing tracheal polyps causing severe endotracheal obstruction.",
-            7: "[Indication]\nTracheal obstruction.\n[Anesthesia]\nGeneral.\n[Description]\nRigid bronch. Snare resection. APC ablation of polyps.\n[Plan]\nObs.",
-            8: "We performed a rigid bronchoscopy to address severe endotracheal obstruction. We used an electrocautery snare to resect the polyps and applied APC ablation to the bases.",
-            9: "Rigid bronchoscopy was utilized for snare resection and APC ablation of tracheal polyps to relieve obstruction."
-        },
-        7: { # Ion Robotic RUL
-            1: "Ion Robotic Bronchoscopy.\n- Radial EBUS used.\n- Target: 2.8 cm RUL posterior nodule.\n- Transbronchial biopsies taken.",
-            2: "Navigational bronchoscopy was performed using the Ion robotic platform. The 2.8 cm nodule in the RUL posterior segment was localized and confirmed with radial EBUS. Transbronchial biopsies were obtained.",
-            3: "Codes: 31627 (Robotic Nav), 31628 (Biopsy RUL), 31654 (REBUS). Procedure targets peripheral RUL nodule.",
-            4: "Steps:\n1. Ion catheter advanced.\n2. Navigation to RUL target.\n3. REBUS confirmation.\n4. Biopsies taken.\n5. Hemostasis.",
-            5: "used the ion robot today for that rul nodule about 2.8 cm posterior segment radial ebus confirmed it took some biopsies went smooth.",
-            6: "Ion robotic bronchoscopy with radial EBUS and transbronchial biopsies of a 2.8 cm RUL posterior segment nodule.",
-            7: "[Indication]\nRUL Nodule.\n[Anesthesia]\nGeneral.\n[Description]\nIon robotic nav. REBUS confirm. TBBx of 2.8 cm RUL nodule.\n[Plan]\nPath.",
-            8: "We used the Ion robotic system for a navigational bronchoscopy. We targeted a 2.8 cm nodule in the RUL posterior segment, confirmed it with radial EBUS, and took transbronchial biopsies.",
-            9: "Ion robotic navigation facilitated access to the RUL nodule. Radial EBUS verified the location. Transbronchial biopsies were acquired."
-        },
-        8: { # Ion Robotic RUL (PET avid)
-            1: "Ion Robotic Bronchoscopy.\n- Target: 2.3 cm PET-avid RUL nodule.\n- Radial EBUS confirmation.\n- Biopsies obtained.",
-            2: "The Ion robotic system was utilized for navigational bronchoscopy. A PET-avid 2.3 cm nodule in the right upper lobe was localized, confirmed via radial EBUS, and biopsied transbronchially.",
-            3: "Billing 31627 (Nav), 31628 (Bx), 31654 (REBUS). Target is solitary 2.3 cm PET-avid nodule in RUL.",
-            4: "Procedure:\n1. Robot setup.\n2. Nav to RUL nodule.\n3. EBUS verification.\n4. Biopsy performed.\n5. Finish.",
-            5: "ion robotic case for the pet avid nodule in the rul 2.3 cm radial ebus saw it nicely took biopsies patient did fine.",
-            6: "Ion robotic navigational bronchoscopy with radial EBUS and transbronchial biopsies of a PET-avid 2.3 cm RUL nodule.",
-            7: "[Indication]\nPET-avid RUL nodule.\n[Anesthesia]\nGeneral.\n[Description]\nIon robotic nav. REBUS. TBBx 2.3 cm nodule.\n[Plan]\nAwait results.",
-            8: "We performed an Ion robotic navigational bronchoscopy to biopsy a PET-avid 2.3 cm nodule in the RUL. We confirmed the location with radial EBUS before taking samples.",
-            9: "Robotic navigation via the Ion system allowed biopsy of the PET-avid RUL nodule. Radial EBUS confirmed the site."
-        },
-        9: { # Rigid Bronch Stent (Dumon)
-            1: "Rigid Bronchoscopy.\n- Mechanical debridement.\n- Cautery/APC used.\n- 14x60 mm Dumon stent placed in L mainstem.",
-            2: "Rigid bronchoscopy was undertaken for critical tumor-related obstruction of the left mainstem bronchus. Following mechanical debridement and application of cautery and APC, a 14x60 mm silicone Dumon stent was successfully deployed.",
-            3: "Code 31636: Stent placement, initial bronchus. Includes debridement/cautery of same lesion. Stent size 14x60 mm silicone.",
-            4: "Steps:\n1. Rigid scope intubation.\n2. Debridement of tumor.\n3. Hemostasis with APC.\n4. Dumon stent (14x60mm) placement.\n5. Airway patent.",
-            5: "rigid bronch for the left mainstem blockage tumor was bad used cautery and debrided it then put in a dumon stent 14x60 mm airway is open now.",
-            6: "Rigid bronchoscopy with mechanical debridement, cautery/APC, and placement of a 14x60 mm silicone Dumon stent in the left mainstem bronchus for critical tumor-related obstruction.",
-            7: "[Indication]\nL mainstem obstruction.\n[Anesthesia]\nGeneral.\n[Description]\nRigid bronch. Debridement/APC. Dumon stent 14x60mm placed.\n[Plan]\nMonitor.",
-            8: "We performed a rigid bronchoscopy to relieve critical tumor-related obstruction in the left mainstem bronchus. After mechanical debridement and cautery/APC, we placed a 14x60 mm silicone Dumon stent.",
-            9: "Rigid bronchoscopy facilitated mechanical debridement and cautery/APC. A 14x60 mm silicone Dumon stent was deployed to resolve the obstruction."
+        4: { # Michael Jackson (Recurrent Effusion, Chest Tube)
+            1: "Procedure: Left Chest Tube (US Guided).\n- US: Moderate complex effusion (hypoechoic/thin septations), Left.\n- Site: Left 5-6 ICS, mid-axillary.\n- 16Fr Pigtail placed (Seldinger).\n- 650ml serosanguinous fluid.\n- Suction -20cmH2O applied.",
+            2: "PROCEDURE NOTE: This 72-year-old male presented with a recurrent left pleural effusion. Thoracic ultrasound demonstrated a moderate, complex effusion with thin loculations. Using aseptic technique and local anesthesia, a 16 French pigtail catheter was introduced into the left 5-6th intercostal space under real-time ultrasound guidance. The procedure yielded 650ml of serosanguinous fluid. The catheter was secured and placed to suction.",
+            3: "Coding Justification:\n32557-LT: Insertion of indwelling pleural catheter (16Fr) with imaging guidance.\n- Imaging: Ultrasound used for localization and real-time guidance.\n- Medical Necessity: Recurrent complex effusion.\n- Bundling: US (76604) and CXR (71045) included.",
+            4: "Resident Note\nPatient: [PATIENT_NAME]\nProcedure: Left Chest Tube\nSteps:\n1. US check: Loculated effusion left side.\n2. Prepped/Lidocaine.\n3. Needle -> Wire -> Dilator.\n4. 16Fr Pigtail inserted.\n5. Drained 650cc serosanguinous.\n6. Hooked to Pleurovac suction.\nPlan: Fluid studies.",
+            5: "Michael Jackson needed a chest tube for that recurrent fluid on the left side ultrasound showed it was a bit complex with some septations used the 16 french tube this time went in mid axillary line drained about 650 of bloody looking fluid put it on suction 20 cm checking the xray later.",
+            6: "A 16Fr pigtail catheter was inserted into the left pleural space (5-6 ICS, mid-axillary) for management of a recurrent complex effusion. The procedure was performed under real-time ultrasound guidance using the Seldinger technique. 650ml of serosanguinous fluid was drained. The tube was secured and placed to -20cmH2O suction. Post-procedure CXR confirmed placement.",
+            7: "[Indication]\nRecurrent Pleural Effusion, Left.\n[Anesthesia]\nLocal (Lidocaine).\n[Description]\nUS-guided insertion of 16Fr pigtail catheter. 650ml serosanguinous fluid drained.\n[Plan]\nSuction -20cm. Fluid analysis.",
+            8: "We performed a bedside chest tube placement for Mr. Jackson to manage his recurrent left pleural effusion. Ultrasound revealed a complex fluid collection. We inserted a 16 French catheter into the left chest using the Seldinger technique, draining 650ml of serosanguinous fluid. The catheter was connected to suction, and we will monitor the output and fluid studies.",
+            9: "Intervention: Thoracic drainage catheterization.\nFindings: Complex sinistral effusion.\nMethod: Under sonographic visualization, a 16Fr conduit was introduced. Serosanguinous exudate (650ml) was evacuated. Negative pressure was applied. Placement verification pending."
         }
     }
     return variations
 
 def get_base_data_mocks():
-    """
-    Provides mock base names and ages for the 10 notes in the source file.
-    Names list corresponds to the 9 variations.
-    """
     return [
-        {"idx": 0, "orig_age": 65, "names": ["Robert Smith", "James Johnson", "John Williams", "Michael Brown", "David Jones", "William Garcia", "Richard Miller", "Joseph Davis", "Thomas Rodriguez"]},
-        {"idx": 1, "orig_age": 58, "names": ["Mary Martinez", "Patricia Hernandez", "Jennifer Lopez", "Linda Gonzalez", "Elizabeth Wilson", "Barbara Anderson", "Susan Thomas", "Jessica Taylor", "Sarah Moore"]},
-        {"idx": 2, "orig_age": 70, "names": ["Charles Jackson", "Christopher Martin", "Daniel Lee", "Matthew Perez", "Anthony Thompson", "Mark White", "Donald Harris", "Steven Sanchez", "Paul Clark"]},
-        {"idx": 3, "orig_age": 62, "names": ["Karen Ramirez", "Nancy Lewis", "Lisa Robinson", "Betty Walker", "Margaret Young", "Sandra Allen", "Ashley King", "Kimberly Wright", "Emily Scott"]},
-        {"idx": 4, "orig_age": 55, "names": ["Andrew Torres", "Joshua Nguyen", "Kenneth Hill", "Kevin Flores", "Brian Green", "George Adams", "Edward Nelson", "Ronald Baker", "Timothy Hall"]},
-        {"idx": 5, "orig_age": 68, "names": ["Donna Rivera", "Michelle Campbell", "Dorothy Mitchell", "Carol Carter", "Amanda Roberts", "Melissa Gomez", "Deborah Phillips", "Stephanie Evans", "Rebecca Turner"]},
-        {"idx": 6, "orig_age": 72, "names": ["Jason Diaz", "Jeffrey Parker", "Ryan Cruz", "Jacob Edwards", "Gary Collins", "Nicholas Reyes", "Eric Stewart", "Jonathan Morris", "Stephen Morales"]},
-        {"idx": 7, "orig_age": 64, "names": ["Sharon Murphy", "Kathleen Cook", "Cynthia Rogers", "Helen Morgan", "Amy Peterson", "Shirley Cooper", "Angela Reed", "Anna Bailey", "Ruth Bell"]},
-        {"idx": 8, "orig_age": 60, "names": ["Larry Gomez", "Scott Kelly", "Frank Howard", "Justin Ward", "Brandon Cox", "Raymond Diaz", "Gregory Richardson", "Benjamin Wood", "Samuel Watson"]},
-        {"idx": 9, "orig_age": 75, "names": ["Brenda Brooks", "Pamela Bennett", "Nicole Gray", "Katherine James", "Virginia Reyes", "Debra Cruz", "Rachel Hughes", "Janet Price", "Carolyn Myers"]}
+        {"idx": 0, "orig_name": "Elizabeth Larkin", "orig_age": 89, "names": ["Betty Ross", "Eleanor Rigby", "Martha Kent", "Agnes Skinner", "Gertrude Stein", "Edith Piaf", "Mabel Pines", "Esther Greenwood", "Dorothy Gale"]},
+        {"idx": 1, "orig_name": "Tammy Adams", "orig_age": 63, "names": ["Teresa Mendoza", "Tina Fey", "Tara Reid", "Tabitha Twitchit", "Tanya Tucker", "Trish Stratus", "Toni Braxton", "Thelma Dickerson", "Tess Ocean"]},
+        {"idx": 2, "orig_name": "Sarah Jenkins", "orig_age": 54, "names": ["Susan Storm", "Sandra Bullock", "Sally Field", "Sharon Stone", "Sylvia Plath", "Simone Biles", "Selena Gomez", "Sigourney Weaver", "Scarlett Johansson"]},
+        {"idx": 3, "orig_name": "Vince Yound", "orig_age": 65, "names": ["Victor Von Doom", "Vinnie Jones", "Vance Joy", "Vernon Dursley", "Val Kilmer", "Viggo Mortensen", "Vin Diesel", "Van Morrison", "Vito Corleone"]},
+        {"idx": 4, "orig_name": "Michael Jackson", "orig_age": 72, "names": ["Mick Jagger", "Mike Tyson", "Matthew Perry", "Mark Twain", "Martin Sheen", "Morgan Freeman", "Mel Gibson", "Macaulay Culkin", "Matt Damon"]}
     ]
 
 def main():
@@ -157,6 +90,7 @@ def main():
             source_data = json.load(f)
     except FileNotFoundError:
         print(f"Error: Source file not found: {SOURCE_FILE}")
+        print("Please ensure the file exists or update SOURCE_FILE path.")
         return
     except json.JSONDecodeError as e:
         print(f"Error: Invalid JSON in source file: {e}")
@@ -199,30 +133,34 @@ def main():
             rand_date_obj = generate_random_date(2025, 2025)
             rand_date_str = rand_date_obj.strftime("%Y-%m-%d")
             
-            # Get the specific name assigned for consistency
+            # Get the specific name assigned
             new_name = record['names'][style_num - 1]
             
+            # Replace placeholder name in the text variation
+            text_variation = variations_text[idx][style_num]
+            text_variation = text_variation.replace("[PATIENT_NAME]", new_name)
+            
             # Update note_text with the variation
-            # Handle cases where source note count might exceed variations dictionary
-            if idx in variations_text and style_num in variations_text[idx]:
-                note_entry["note_text"] = variations_text[idx][style_num]
-            else:
-                # Fallback if specific variation missing (shouldn't happen with correct data)
-                note_entry["note_text"] = original_note["note_text"] + f" [Variation {style_num}]"
-
-            # Update registry_entry fields if they exist (some files might not have full registry_entry)
-            if "registry_entry" not in note_entry:
-                note_entry["registry_entry"] = {}
+            note_entry["note_text"] = text_variation
+            
+            # Update registry_entry fields if they exist
+            if "registry_entry" in note_entry:
+                # Update Patient Demographics
+                if "patient_demographics" in note_entry["registry_entry"]:
+                    note_entry["registry_entry"]["patient_demographics"]["age_years"] = new_age
                 
-            # Update/Set Patient info
-            note_entry["registry_entry"]["patient_age"] = new_age
-            note_entry["registry_entry"]["procedure_date"] = rand_date_str
-            
-            # Update MRN to be unique
-            base_mrn = note_entry["registry_entry"].get("patient_mrn", f"IP_PART25_{idx}")
-            note_entry["registry_entry"]["patient_mrn"] = f"{base_mrn}_syn_{style_num}"
-            
-            # Add synthetic metadata
+                # Update Procedure Date
+                if "procedure_date" in note_entry["registry_entry"]:
+                    note_entry["registry_entry"]["procedure_date"] = rand_date_str
+                
+                # Update MRN (generate a synthetic one)
+                if "patient_mrn" in note_entry["registry_entry"]:
+                    base_mrn = note_entry["registry_entry"]["patient_mrn"]
+                    if base_mrn == "Unknown" or base_mrn == "UNKNOWN":
+                        base_mrn = f"MRN-{idx}"
+                    note_entry["registry_entry"]["patient_mrn"] = f"{base_mrn}_syn_{style_num}"
+
+            # Add metadata about the synthetic generation
             note_entry["synthetic_metadata"] = {
                 "source_file": SOURCE_FILE,
                 "original_index": idx,
@@ -233,8 +171,8 @@ def main():
             
             generated_notes.append(note_entry)
 
-    # Output to JSON
-    output_filename = output_dir / "synthetic_blvr_notes_part_025.json"
+    # Output to JSON in Synthetic_expansions folder
+    output_filename = output_dir / "synthetic_bronch_notes_part_025.json"
     with open(output_filename, 'w', encoding='utf-8') as f:
         json.dump(generated_notes, f, indent=2, ensure_ascii=False)
     

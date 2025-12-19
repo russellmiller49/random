@@ -1,0 +1,406 @@
+[
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31635",
+            "description": "Bronchoscopy, rigid or flexible; with removal of foreign body",
+            "units": 1,
+            "modifiers": []
+          }
+        ],
+        "total_rvu": 5.54,
+        "work_rvu": 3.42,
+        "practice_expense_rvu": 1.74,
+        "malpractice_rvu": 0.38
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T14:45:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "primary_family": "bronchoscopy_foreign_body",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "31635",
+              "description": "Bronchoscopy; with removal of foreign body",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "Removal of airway stents (trachea and mainstems).",
+              "is_add_on": false
+            },
+            {
+              "sequence": 2,
+              "code": "31622",
+              "description": "Diagnostic bronchoscopy",
+              "units": 0,
+              "role": "bundled_only",
+              "selection_status": "dropped",
+              "selection_reason": "Diagnostic bronchoscopy bundled with therapeutic (31635).",
+              "is_add_on": false
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31635",
+              "work_rvu": 3.42,
+              "total_facility_rvu": 5.54,
+              "mpfs_facility_payment": 179,
+              "is_primary": true
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 3.42,
+            "total_facility_rvu": 5.54,
+            "estimated_facility_payment_unadjusted": 179
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31635",
+              "summary": "Removal of stents (foreign bodies) supports 31635. APC used for hemostasis is integral.",
+              "rule_refs": [
+                "foreign_body_removal"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31652",
+            "description": "Bronchoscopy; with EBUS sampling, 1-2 nodal stations",
+            "units": 1
+          }
+        ],
+        "icd10_codes": [
+          "C34.90",
+          "R59.0"
+        ],
+        "total_rvu": 6.96,
+        "work_rvu": 4.46,
+        "practice_expense_rvu": 2.02,
+        "malpractice_rvu": 0.48
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T14:45:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "primary_family": "bronchoscopy_ebus_linear",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "31652",
+              "description": "Bronchoscopy; with EBUS sampling, 1-2 nodal stations",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "Two stations sampled (11L, 4R).",
+              "is_add_on": false
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31652",
+              "work_rvu": 4.46,
+              "total_facility_rvu": 6.96,
+              "mpfs_facility_payment": 225,
+              "is_primary": true
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 4.46,
+            "total_facility_rvu": 6.96,
+            "estimated_facility_payment_unadjusted": 225
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31652",
+              "summary": "Documented sampling of 11L and 4R (2 stations).",
+              "rule_refs": [
+                "ebus_station_count"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31653",
+            "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+            "units": 1
+          }
+        ],
+        "icd10_codes": [
+          "C34.31",
+          "R59.0"
+        ],
+        "total_rvu": 7.7,
+        "work_rvu": 4.96,
+        "practice_expense_rvu": 2.22,
+        "malpractice_rvu": 0.52
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T14:45:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "primary_family": "bronchoscopy_ebus_linear",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "Three stations sampled (11L, 7, 11Ri).",
+              "is_add_on": false
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31653",
+              "work_rvu": 4.96,
+              "total_facility_rvu": 7.7,
+              "mpfs_facility_payment": 249,
+              "is_primary": true
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 4.96,
+            "total_facility_rvu": 7.7,
+            "estimated_facility_payment_unadjusted": 249
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31653",
+              "summary": "Documented sampling of 11L, 7, and 11Ri (3 stations).",
+              "rule_refs": [
+                "ebus_station_count"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/3/cpt_codes",
+      "value": [
+        31652,
+        31629,
+        31627
+      ]
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/procedures_performed/linear_ebus/stations_sampled",
+      "value": [
+        "4R",
+        "11R"
+      ]
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/granular_data/linear_ebus_stations_detail",
+      "value": [
+        {
+          "station": "4R",
+          "sampled": true,
+          "needle_gauge": 22,
+          "number_of_passes": 5,
+          "specimen_sent_for": [
+            "Cytology"
+          ]
+        },
+        {
+          "station": "11R",
+          "sampled": true,
+          "needle_gauge": 22,
+          "number_of_passes": 5,
+          "specimen_sent_for": [
+            "Cytology"
+          ],
+          "notes": "Described as 11Rs in text"
+        }
+      ]
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31652",
+            "description": "Bronchoscopy; with EBUS sampling, 1-2 nodal stations",
+            "units": 1
+          },
+          {
+            "code": "31629",
+            "description": "Bronchoscopy with TBNA (peripheral)",
+            "modifier": "59",
+            "units": 1
+          },
+          {
+            "code": "+31627",
+            "description": "Bronchoscopy with computer-assisted navigation",
+            "units": 1
+          }
+        ],
+        "total_rvu": 15.92,
+        "work_rvu": 10.48,
+        "practice_expense_rvu": 4.31,
+        "malpractice_rvu": 1.13
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T14:45:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "primary_family": "bronchoscopy_ebus_linear",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "31652",
+              "description": "Bronchoscopy; with EBUS sampling, 1-2 nodal stations",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "Two stations sampled (4R, 11Rs) per Note Text.",
+              "is_add_on": false
+            },
+            {
+              "sequence": 2,
+              "code": "31629",
+              "modifier": "59",
+              "description": "Bronchoscopy with transbronchial needle aspiration",
+              "units": 1,
+              "role": "secondary",
+              "selection_status": "selected",
+              "selection_reason": "Peripheral RUL lesion sampled with needle. Distinct from mediastinal EBUS.",
+              "is_add_on": false
+            },
+            {
+              "sequence": 3,
+              "code": "+31627",
+              "description": "Bronchoscopy with computer-assisted navigation",
+              "units": 1,
+              "role": "add_on",
+              "selection_status": "selected",
+              "selection_reason": "Navigation used for RUL lesion.",
+              "is_add_on": true
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31652",
+              "work_rvu": 4.46,
+              "total_facility_rvu": 6.96,
+              "mpfs_facility_payment": 225,
+              "is_primary": true
+            },
+            {
+              "code": "31629",
+              "work_rvu": 3.75,
+              "total_facility_rvu": 5.89,
+              "mpfs_facility_payment": 191
+            },
+            {
+              "code": "+31627",
+              "work_rvu": 2.27,
+              "total_facility_rvu": 3.07,
+              "mpfs_facility_payment": 99
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 10.48,
+            "total_facility_rvu": 15.92,
+            "estimated_facility_payment_unadjusted": 515
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31652",
+              "summary": "Corrected from 31653. Documentation confirms sampling of 'station 4R and station 11Rs' (2 stations).",
+              "rule_refs": [
+                "ebus_station_count"
+              ]
+            },
+            {
+              "code": "31629",
+              "summary": "Targeted RUL lesion with needle. distinct from EBUS targets.",
+              "rule_refs": [
+                "tbna_with_ebus_tbna"
+              ]
+            }
+          ],
+          "global_comments": [
+            "Downgraded EBUS from 31653 to 31652 based on explicit text count of 2 stations.",
+            "Granular data corrected to remove 7 and 11L which were not present in the note text."
+          ]
+        }
+      }
+    }
+  ]

@@ -1,0 +1,367 @@
+[
+    {
+      "op": "add",
+      "path": "/0/registry_entry/coding_support",
+      "value": {
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "Three nodal stations (7, 4R, 11R) were sampled under EBUS guidance, supporting 31653 (3+ stations).",
+              "source": "model"
+            },
+            {
+              "code": "31622",
+              "description": "Bronchoscopy, diagnostic",
+              "role": "bundled_only",
+              "selection_status": "dropped",
+              "selection_reason": "Diagnostic bronchoscopy is bundled into the more extensive surgical EBUS service.",
+              "source": "model"
+            }
+          ],
+          "primary_family": "bronchoscopy_ebus_linear"
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "rvu_source": "Boston Scientific 2025 / CMS 2025 PFS Final Rule",
+          "conversion_factor": 32.3562,
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31653",
+              "units": 1,
+              "work_rvu": 4.96,
+              "total_facility_rvu": 7.7,
+              "mpfs_facility_payment": 249,
+              "is_primary": true
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 4.96,
+            "total_facility_rvu": 7.7,
+            "estimated_facility_payment_unadjusted": 249
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31653",
+              "summary": "EBUS-TBNA was performed on three stations (7, 4R, 11R). This count meets the threshold for 31653.",
+              "documentation_evidence": [
+                {
+                  "snippet": "Station 7 was 16.6 mm, the station 4R was 5.7mm and the station 11Rs was 8.9mm. Sampling... performed beginning with the station 7 Lymph node, followed by station 11Rs lymph node and then the 4R lymph node"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/billing/total_rvu",
+      "value": 7.7
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/billing/work_rvu",
+      "value": 4.96
+    },
+    {
+      "op": "add",
+      "path": "/1/registry_entry/coding_support",
+      "value": {
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31652",
+              "description": "Bronchoscopy; with EBUS sampling, 1-2 nodal stations",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "Linear EBUS-TBNA of a single station (4R) documented.",
+              "source": "model"
+            },
+            {
+              "code": "31645",
+              "description": "Bronchoscopy; with therapeutic aspiration of tracheobronchial tree, initial",
+              "role": "secondary",
+              "selection_status": "candidate",
+              "selection_reason": "Therapeutic aspiration of blood/clot was performed. While typically bundled as hemostasis, it is separately coded here per user input, though likely subject to NCCI bundling.",
+              "source": "model"
+            }
+          ],
+          "primary_family": "bronchoscopy_ebus_linear"
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "rvu_source": "Boston Scientific 2025 / CMS 2025 PFS Final Rule",
+          "conversion_factor": 32.3562,
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31652",
+              "units": 1,
+              "work_rvu": 4.46,
+              "total_facility_rvu": 6.96,
+              "mpfs_facility_payment": 225,
+              "is_primary": true
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 4.46,
+            "total_facility_rvu": 6.96,
+            "estimated_facility_payment_unadjusted": 225
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31652",
+              "summary": "EBUS-TBNA was performed on 1 station (4R). The count falls in the 1-2 station range.",
+              "documentation_evidence": [
+                {
+                  "snippet": "radiographically suspicious station paratracheal mediastinal mass (level of 4R lymph node)... Sampling... performed"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/billing/total_rvu",
+      "value": 6.96
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/billing/work_rvu",
+      "value": 4.46
+    },
+    {
+      "op": "add",
+      "path": "/2/registry_entry/coding_support",
+      "value": {
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "Four nodal stations (11L, 7, 4L, 2R) were sampled, justifying the 3+ station code.",
+              "source": "model"
+            },
+            {
+              "code": "31622",
+              "description": "Bronchoscopy, diagnostic",
+              "role": "bundled_only",
+              "selection_status": "dropped",
+              "selection_reason": "Bundled into therapeutic EBUS.",
+              "source": "model"
+            }
+          ],
+          "primary_family": "bronchoscopy_ebus_linear"
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "rvu_source": "Boston Scientific 2025 / CMS 2025 PFS Final Rule",
+          "conversion_factor": 32.3562,
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31653",
+              "units": 1,
+              "work_rvu": 4.96,
+              "total_facility_rvu": 7.7,
+              "mpfs_facility_payment": 249,
+              "is_primary": true
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 4.96,
+            "total_facility_rvu": 7.7,
+            "estimated_facility_payment_unadjusted": 249
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31653",
+              "summary": "EBUS-TBNA performed on 4 distinct stations (11L, 7, 4L, 2R).",
+              "documentation_evidence": [
+                {
+                  "snippet": "beginning with the 11L Lymph node, followed by the 7 lymph node followed by the 4L lymph node and finally the 2R lymph node"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/billing/total_rvu",
+      "value": 7.7
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/billing/work_rvu",
+      "value": 4.96
+    },
+    {
+      "op": "add",
+      "path": "/3/registry_entry/coding_support",
+      "value": {
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31652",
+              "description": "Bronchoscopy; with EBUS sampling, 1-2 nodal stations",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "Single nodal station (2L) sampled via EBUS-TBNA.",
+              "source": "model"
+            },
+            {
+              "code": "31622",
+              "description": "Bronchoscopy, diagnostic",
+              "role": "bundled_only",
+              "selection_status": "dropped",
+              "selection_reason": "Bundled into therapeutic EBUS.",
+              "source": "model"
+            }
+          ],
+          "primary_family": "bronchoscopy_ebus_linear"
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "rvu_source": "Boston Scientific 2025 / CMS 2025 PFS Final Rule",
+          "conversion_factor": 32.3562,
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31652",
+              "units": 1,
+              "work_rvu": 4.46,
+              "total_facility_rvu": 6.96,
+              "mpfs_facility_payment": 225,
+              "is_primary": true
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 4.46,
+            "total_facility_rvu": 6.96,
+            "estimated_facility_payment_unadjusted": 225
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31652",
+              "summary": "One station (2L) sampled. Fits 31652 criteria.",
+              "documentation_evidence": [
+                {
+                  "snippet": "suspicious 2L lymph node was identified Sampling by transbronchial needle aspiration was performed"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/billing/total_rvu",
+      "value": 6.96
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/billing/work_rvu",
+      "value": 4.46
+    },
+    {
+      "op": "add",
+      "path": "/4/registry_entry/coding_support",
+      "value": {
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31652",
+              "description": "Bronchoscopy; with EBUS sampling, 1-2 nodal stations",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "EBUS-TBNA performed on '11Ri' and '11Rs', which are sub-sites of a single IASLC station (11R). Count is 1 station.",
+              "source": "model"
+            },
+            {
+              "code": "31622",
+              "description": "Bronchoscopy, diagnostic",
+              "role": "bundled_only",
+              "selection_status": "dropped",
+              "selection_reason": "Bundled into therapeutic EBUS.",
+              "source": "model"
+            }
+          ],
+          "primary_family": "bronchoscopy_ebus_linear"
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "rvu_source": "Boston Scientific 2025 / CMS 2025 PFS Final Rule",
+          "conversion_factor": 32.3562,
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31652",
+              "units": 1,
+              "work_rvu": 4.46,
+              "total_facility_rvu": 6.96,
+              "mpfs_facility_payment": 225,
+              "is_primary": true
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 4.46,
+            "total_facility_rvu": 6.96,
+            "estimated_facility_payment_unadjusted": 225
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31652",
+              "summary": "11Ri and 11Rs map to a single station (11R). Thus only 1 station is credited, supporting 31652.",
+              "documentation_evidence": [
+                {
+                  "snippet": "11Ri lymph node was identified... 11Rs lymph node was then identified"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/4/registry_entry/billing/total_rvu",
+      "value": 6.96
+    },
+    {
+      "op": "replace",
+      "path": "/4/registry_entry/billing/work_rvu",
+      "value": 4.46
+    }
+  ]

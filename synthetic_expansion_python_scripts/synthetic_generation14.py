@@ -5,7 +5,7 @@ import copy
 from pathlib import Path
 
 # Source file for JSON elements
-SOURCE_FILE = "consolidated_verified_notes_v2_8_part_014.json"
+SOURCE_FILE = "bronch_extractions_patched/bronch_notes_part_014.json"
 OUTPUT_DIR = "Synthetic_expansions"
 
 def generate_random_date(start_year, end_year):
@@ -14,103 +14,101 @@ def generate_random_date(start_year, end_year):
     return start + (end - start) * random.random()
 
 def get_variations():
-    # Structure: Note_Index (0-5) -> Style_Index (1-9) -> Text
+    # This dictionary holds the manually crafted text variations for the 4 notes in bronch_notes_part_014.json
+    # Structure: Note_Index (0-3) -> Style_Index (1-9) -> Text
     
     variations = {
-        0: { # Robert Martinez (EBUS-TBNA)
-            1: "Indication: Staging RUL adenocarcinoma. \nProcedure: EBUS-TBNA.\n- Station 4R: 12mm, 4 passes, Malignant.\n- Station 7: 18mm, 4 passes, Malignant.\n- Station 10R: 8mm, 3 passes, Neg.\n- Station 11R: 6mm, 3 passes, Neg.\nComplications: None.",
-            2: "HISTORY: Mr. Martinez, a 66-year-old male with newly diagnosed right upper lobe adenocarcinoma, presented for mediastinal staging. \nPROCEDURE: Moderate sedation was induced. A linear EBUS scope was introduced. A systematic nodal evaluation was performed. Transbronchial needle aspiration (TBNA) was conducted at stations 4R, 7, 10R, and 11R. Rapid On-Site Evaluation (ROSE) confirmed malignancy in stations 4R and 7. \nCONCLUSION: N2 disease confirmed. The patient tolerated the procedure well.",
-            3: "Procedure: EBUS-TBNA (CPT 31653).\nTechnique: \n1. Ultrasound evaluation of mediastinal and hilar nodes.\n2. Needle aspiration (22G) of Station 4R, Station 7, Station 10R, and Station 11R (>3 stations sampled).\n3. Cell block preparation and ROSE service utilized for all samples.\nOutcome: Adequate tissue obtained from all 4 sites. Malignancy identified in mediastinum.",
-            4: "Procedure Note\nAttending: Dr. X\nResident: Dr. Y\nIndication: Staging RUL CA.\nSteps:\n1. Time out.\n2. Sedation (Versed/Fentanyl).\n3. Airway inspection: Normal.\n4. EBUS Evaluation: Stations 4R, 7, 10R, 11R visualized and sampled.\n5. ROSE: Pos at 4R/7.\n6. Scope removed.\nPlan: Oncology referral.",
-            5: "Robert Martinez here for the EBUS staging right upper lobe cancer we gave him midazolam and fentanyl he did fine. Went down looked at the nodes 4R was 12mm sampled it 4 times came back cancer same for station 7 which was bigger 18mm. Then did 10R and 11R those were negative. No bleeding or anything patient woke up ok sending to recovery.",
-            6: "Patient Robert Martinez undergoing EBUS-TBNA for RUL adenocarcinoma staging under moderate sedation. Systematic evaluation performed. Station 4R (12mm) sampled x4, ROSE positive. Station 7 (18mm) sampled x4, ROSE positive. Station 10R and 11R sampled x3 each, ROSE negative/adequate. No complications occurred. Plan for oncology follow-up.",
-            7: "[Indication]\nRUL Adenocarcinoma, mediastinal staging needed.\n[Anesthesia]\nModerate (Midazolam/Fentanyl).\n[Description]\nEBUS-TBNA performed. Stations 4R and 7 sampled (Positive). Stations 10R and 11R sampled (Negative). All samples adequate.\n[Plan]\nDischarge. Oncology follow up.",
-            8: "The patient arrived for scheduled EBUS-TBNA staging of his right upper lobe cancer. We induced moderate sedation and introduced the scope. We proceeded to sample station 4R and station 7, both of which returned positive for malignancy on rapid on-site evaluation. We then sampled 10R and 11R to complete the staging; these were negative. The procedure concluded without any complications.",
-            9: "Indication: RUL cancer staging.\nAction: EBUS-TBNA initiated. \nTargeted: Station 4R (aspirated x4), Station 7 (aspirated x4), Station 10R (aspirated x3), Station 11R (aspirated x3).\nFindings: Malignancy detected at 4R and 7. \nOutcome: Patient stable."
+        0: { # Note 0: Left Mainstem Stent for Fistula (CPT 31636, 31625)
+            1: "Indication: Broncho-esophageal fistula.\nProcedure: Stent placement, Biopsy.\n- Airways inspected. Purulent secretions cleared.\n- Right airway nodules seen.\n- Left mainstem (LMS) 1.5cm fistula identified posterior wall.\n- Distal left nodules seen.\n- Biopsies taken from right and left nodules.\n- 14x30mm Aero stent placed over wire. Position slightly proximal.\n- Second 14x40mm Aero stent placed; migrated distally, obstructed lobes.\n- 14x40mm stent removed via trach stoma.\n- Original 14x30mm stent repositioned to cover fistula successfully.\nPlan: ICU, CXR, saline nebs.",
+            2: "OPERATIVE NARRATIVE: The patient was brought to the operating room for management of a persistent broncho-esophageal fistula. Following the induction of general anesthesia, flexible bronchoscopy was performed via the tracheostomy. Examination revealed purulence and multiple nodular lesions in the right bronchial tree, highly suspicious for metastatic disease. Attention was turned to the left mainstem bronchus, where a 1.5 cm fistula was visualized on the medial posterior wall. Similar nodularity was noted distally. Biopsies were obtained from bilateral sites. Therapeutic intervention ensued with the deployment of a 14x30 mm Aero self-expanding metallic stent. Due to suboptimal proximal coverage, a secondary 14x40 mm stent was deployed, which inadvertently displaced the primary stent distally, compromising lobar patency. This necessitated the removal of the second stent through the tracheostomy stoma. The primary 14x30 mm stent was subsequently repositioned with forceps to achieve optimal fistula exclusion. The airway was patent upon conclusion.",
+            3: "Procedures Performed:\n1. Bronchoscopy with bronchial stent placement (31636). Indication: LMS Fistula. Device: Aero 14x30mm. Note: Initial deployment required revision; a secondary stent was placed but removed due to migration. Final successful placement of the 14x30mm stent achieved coverage of the 1.5cm defect.\n2. Bronchoscopy with endobronchial biopsy (31625). Locations: Right airway nodules and Left distal airway nodules. These are distinct lesions separate from the fistula site.\nTechnique: Fluoroscopic guidance utilized for marker placement and stent deployment. Rigid forceps utilized for stent manipulation.",
+            4: "Procedure Note\nAttending: [Name]\nResident: [Name]\nIndication: B-E Fistula\n\nSteps:\n1. Time out performed. GA induced.\n2. Flex scope via trach. Suctioned purulence.\n3. Identified 1.5cm fistula in Left Mainstem.\n4. Noted nodules R and L sides -> Biopsied (forceps).\n5. Marked fistula with fluoroscopy.\n6. Deployed 14x30 Aero stent. Coverage suboptimal.\n7. Placed 14x40 Aero. Resulted in distal migration/obstruction.\n8. Removed 14x40 stent via stoma.\n9. Repositioned 14x30 stent to cover fistula.\n10. Final check: Good position.\nPlan: ICU, CXR.",
+            5: "We went to the OR for the fistula patient had general anesthesia used the trach tube for access. Saw a lot of pus and suctioned it out there were nodules on the right and left looked like cancer so we biopsied them. Then saw the hole in the left mainstem about 1.5cm. We put in a wire and markers and dropped a 14x30 Aero stent it was a little high so put a 14x40 inside it but that pushed the first one down and blocked the lung so we had to pull the big one out through the trach hole. After that we grabbed the first stent with forceps and pulled it back up to cover the fistula perfectly. Sent to ICU.",
+            6: "The procedure was performed in the main operating room under general anesthesia. A flexible bronchoscope was passed through the tracheostomy. Purulent secretions were suctioned. Multiple nodules were seen in the right and distal left airways; biopsies were taken. A 1.5cm fistula was identified in the mid-left mainstem. Using fluoroscopic guidance, a 14x30 mm Aero stent was deployed. Coverage was deemed insufficient, so a 14x40 mm stent was placed, which unfortunately pushed the assembly distally, obstructing lobar orifices. The 14x40 stent was extracted via the stoma. The remaining 14x30 stent was retracted into proper position covering the fistula. The patient was transferred to the ICU.",
+            7: "[Indication]\nBroncho-esophageal fistula refractory to esophageal stenting.\n[Anesthesia]\nGeneral Anesthesia via tracheostomy.\n[Description]\nDiagnostic inspection revealed purulence and bilateral airway nodules; biopsies were obtained. The 1.5cm LMS fistula was targeted. A 14x30mm Aero stent was deployed. Attempted extension with a 14x40mm stent caused distal migration and obstruction. The 14x40mm stent was removed. The 14x30mm stent was successfully repositioned to cover the defect.\n[Plan]\nAdmit to ICU. Humidified O2. Post-op CXR.",
+            8: "The patient arrived in the operating room for repair of a broncho-esophageal fistula. Under general anesthesia, we navigated the bronchoscope through the tracheostomy. We encountered purulent secretions and suspicious nodules bilaterally, which were sampled using flexible forceps. Focusing on the left mainstem, we identified the 1.5 cm fistula. We deployed a 14x30 mm Aero stent, but placement was slightly proximal. An attempt to extend coverage with a second 14x40 mm stent resulted in distal migration and obstruction of the left lung lobes. We managed this by extracting the second stent through the stoma and carefully retracting the original 14x30 mm stent into the correct position to seal the fistula.",
+            9: "The procedure was executed in the main operating room. After delivery of sedatives, a flexible bronchoscope was navigated through the tracheostomy. The trachea was normal. Purulent secretions were evacuated. Inspection of the right airways revealed nodules which were sampled. On the left, a 1.5cm fistula was visualized. Distal nodules were also sampled. We deployed an Aero 14x30 mm stent over a guidewire. To optimize coverage, a second 14x40 stent was inserted, but it displaced the first stent distally. We extracted the 14x40 stent via the stoma and repositioned the remaining 14x30 mm stent to occlude the fistula. The patient was transferred to the ICU."
         },
-        1: { # Angela Davis (Bronchoscopy - Brushing/BAL)
-            1: "Indication: LLL infiltrate.\nAnesthesia: Topical lidocaine.\nFindings: LLL basilar segments erythema/edema.\nAction: \n- BAL x3 LLL.\n- Brush x2 LLL.\n- No biopsy.\nComp: None.",
-            2: "PROCEDURE: Diagnostic flexible bronchoscopy.\nCLINICAL SUMMARY: Ms. Davis presented for evaluation of a persistent left lower lobe infiltrate. \nFINDINGS: The airway examination revealed moderate mucosal erythema and edema within the basilar segments of the left lower lobe. No endobronchial masses were appreciated.\nINTERVENTION: Bronchoalveolar lavage and bronchial brushings were obtained from the affected segments for microbiologic and cytologic analysis. Transbronchial biopsies were deferred.\nIMPRESSION: Inflammatory changes LLL, ruled out visible endobronchial lesion.",
-            3: "Codes Submitted:\n- 31623: Bronchoscopy with brushing (LLL basilar).\n- 31624: Bronchoscopy with bronchoalveolar lavage (LLL basilar).\nJustification: Separate distinct services performed. Brushing performed for cytology; lavage performed for microbiology. No transbronchial biopsy (31628) was performed.",
-            4: "Resident Note:\nPatient: Angela Davis.\nProcedure: Flex Bronch.\nSteps:\n1. Local anesthesia (lido).\n2. Scope inserted via mouth.\n3. Inspection: LLL basilar inflammation seen.\n4. BAL performed (150cc total).\n5. Brushings performed x2.\n6. Tolerated well.\nPlan: Await cultures.",
-            5: "Note for Angela Davis dob 5/12/1970 we did the bronch today for that LLL infiltrate just used topical numbing spray she was awake. Looked down there LLL basilar segs looked red and swollen but no tumor seen. Did a wash sent for culture and cytology and brushed it twice too. Didnt do biopsies cause she didnt want them. She did fine no issues.",
-            6: "Evaluation of LLL infiltrate for Angela Davis. Topical anesthesia used. Inspection revealed erythema and edema in LLL basilar segments. No masses. BAL performed with 50cc aliquots x3. Brushings x2 obtained from the same area. No complications. Procedure time 18 mins.",
-            7: "[Indication]\nLLL infiltrate, r/o malignancy vs infection.\n[Anesthesia]\nTopical Lidocaine 4% and 2%.\n[Description]\nScope advanced. LLL basilar inflammation noted. BAL and Brushings collected from LLL. No biopsy performed.\n[Plan]\nDischarge. Follow up culture results.",
-            8: "Ms. Davis underwent a flexible bronchoscopy to investigate a left lower lobe infiltrate. We utilized topical anesthesia only. Upon inspection, the left lower lobe basilar segments appeared inflamed with edema, though no discrete mass was visible. We performed a bronchoalveolar lavage and bronchial brushings in this area. She tolerated the procedure well and was discharged shortly after.",
-            9: "Indication: Assess LLL infiltrate.\nTechnique: Flexible bronchoscopy.\nObservations: LLL basilar region showed redness and swelling.\nSampling: Lavaged LLL (sent for culture/cyto). Brushed LLL x2.\nStatus: Uncomplicated."
+        1: { # Note 1: Tracheal Stent for Stenosis (CPT 31631)
+            1: "Indication: Symptomatic tracheal stenosis.\nProcedure: Rigid bronch, dilation, stent.\n- LMA induction. Flex scope shows complex stenosis 3cm below cords, 4cm long.\n- 60% obstruction.\n- Distal airways clear.\n- Rigid bronch (12mm) inserted.\n- 16x40mm Ultraflex stent (uncovered) deployed.\n- Stent adjusted with forceps.\n- Balloon dilation (16.5mm) performed.\n- Airway 90% patent post-procedure.\nComplications: None.",
+            2: "OPERATIVE REPORT: The patient presented with complex tracheal stenosis. Following induction of general anesthesia via LMA, flexible bronchoscopy demonstrated a 4 cm long stenotic segment beginning 3 cm distal to the vocal cords, compromising the lumen by approximately 60%. The airway was converted to a 12 mm non-ventilating rigid tracheoscope. A 16x40 mm uncovered Ultraflex stent was introduced and deployed under direct visualization. Fine adjustments were made with forceps to ensure optimal seating. Subsequent balloon dilation was performed using a multi-stage balloon to a maximum diameter of 16.5 mm. Post-intervention inspection revealed restoration of approximately 90% of the luminal diameter.",
+            3: "Procedure: Bronchoscopy with Tracheal Stent Placement (CPT 31631).\nDevice: 16x40mm Uncovered Ultraflex Stent.\nTechnique:\n1. Initial assessment via flexible scope/LMA confirming 4cm complex stenosis.\n2. Rigid bronchoscopy (12mm scope) established.\n3. Stent deployment covering the stenotic segment.\n4. Balloon dilation (bundled) to 16.5mm to expand stent.\nOutcome: Improvement from 60% obstruction to 90% patency.",
+            4: "Procedure Note\nDx: Tracheal Stenosis\nStaff: [Attending Name]\n\n1. GA / LMA.\n2. Flex bronch: 4cm stenosis seen, starts 3cm below cords. 60% narrowed.\n3. LLL mucus suctioned.\n4. 12mm Rigid scope inserted.\n5. 16x40 Ultraflex uncovered stent placed.\n6. Stent position adjusted.\n7. Dilated w/ balloon to 16.5mm.\n8. Final result: 90% patent.\n\nPlan: PACU, Discharge home.",
+            5: "We did the bronch for tracheal stenosis patient under general. Looked with the flex scope first through the LMA saw the narrowing about 4cm long starting below the cords. Switched to the rigid scope 12mm size. Put in a 16 by 40 ultraflex stent it was uncovered. Had to move it a bit to get it right then used a balloon to blow it up to 16.5. Airway looks great now about 90 percent open. No issues patient to PACU.",
+            6: "The procedure was performed in the bronchoscopy suite under general anesthesia. Initial flexible bronchoscopy via LMA revealed a long segment complex tracheal stenosis extending 4cm. The distal airways were clear aside from LLL mucus. A 12mm rigid tracheoscope was passed. A 16x40 uncovered Ultraflex stent was deployed. The stent was manipulated for proper seating and dilated with a balloon to 16.5mm. Post-dilation airway caliber was 90% of normal. The rigid scope was removed.",
+            7: "[Indication]\nSymptomatic complex tracheal stenosis.\n[Anesthesia]\nGeneral via LMA, converted to Rigid.\n[Description]\nStenosis visualized: 4cm length, 60% obstruction. LLL secretions cleared. 12mm rigid scope placed. 16x40mm uncovered Ultraflex stent deployed. Balloon dilation performed to 16.5mm. Airway patency improved to 90%.\n[Plan]\nDischarge home when stable. Follow up IP clinic.",
+            8: "The patient underwent rigid bronchoscopy for management of tracheal stenosis. After induction, we visualized a 4 cm long stenotic segment reducing the airway by 60%. We transitioned to a 12 mm rigid tracheoscope for intervention. A 16x40 mm uncovered Ultraflex stent was carefully advanced and deployed. We adjusted the positioning with forceps and then dilated the stent using a balloon to 16.5 mm. This resulted in a marked improvement in airway caliber to 90% of normal.",
+            9: "The procedure was conducted in the bronchoscopy suite. Following induction, the bronchoscope was inserted. A complex stenosis was visualized. We suctioned thick mucus from the LLL. The flexible scope was withdrawn, and a 12 mm rigid tracheoscope was inserted. A 16 x 40 uncovered Ultraflex stent was advanced and deployed. We manipulated the stent with forceps to seat it correctly. Balloon dilation was performed to 16.5 mm. The airway was approximately 90% patent post-dilation. The equipment was withdrawn."
         },
-        2: { # James Wilson (EBUS Data Form)
-            1: "Indication: Staging.\nProc: EBUS-TBNA.\nNodes:\n- 4R: 10mm, 4 passes, Malignant.\n- 7: 14mm, 4 passes, Malignant.\n- 11R: 7mm, 3 passes, Adequate.\nComp: None.",
-            2: "PROCEDURE: Endobronchial Ultrasound-Guided Transbronchial Needle Aspiration.\nINDICATIONS: Mediastinal staging for lung carcinoma.\nFINDINGS: Systematic ultrasound interrogation identified lymphadenopathy at stations 4R, 7, and 11R. Real-time sampling was performed. ROSE confirmed malignancy at stations 4R and 7. Station 11R yielded adequate lymphocytes but was negative for malignancy on preliminary review.\nCONCLUSION: N2 positive disease.",
-            3: "Billing Code: 31653 (EBUS-TBNA 3+ stations).\nStations Sampled: \n1. Station 4R\n2. Station 7\n3. Station 11R\nRequirements Met: >3 distinct mediastinal/hilar stations sampled with needle aspiration. ROSE service utilized.",
-            4: "Procedure Note\nPatient: James Wilson\nProc: EBUS\nSteps:\n1. Moderate sedation.\n2. EBUS scope passed.\n3. Nodal survey completed.\n4. Sampled 4R, 7, 11R.\n5. Path confirmed cancer in 4R and 7.\n6. Pt stable.\nPlan: Oncology.",
-            5: "James Wilson EBUS procedure note. We used moderate sedation he was comfortable. Checked the nodes systematic way. 4R and 7 were positive for cancer on the rapid read. 11R was sampled too looked ok. No complications at all. Saved the images.",
-            6: "EBUS-TBNA for James Wilson. Staging indication. Moderate sedation. Systematic N3-N1 exam. Sampled 4R (10mm, positive), 7 (14mm, positive), and 11R (7mm, adequate). Molecular samples sent. No complications recorded.",
-            7: "[Indication]\nLung cancer staging.\n[Anesthesia]\nModerate.\n[Description]\nEBUS-TBNA of stations 4R, 7, 11R. ROSE positive for malignancy at 4R and 7. 11R benign.\n[Plan]\nRefer to Oncology.",
-            8: "Mr. Wilson underwent EBUS-TBNA for staging purposes. Under moderate sedation, we identified and sampled nodes at stations 4R, 7, and 11R. Rapid on-site evaluation showed malignant cells in stations 4R and 7. Station 11R was sampled and found adequate but negative. There were no complications.",
-            9: "Task: Staging EBUS.\nTargets: 4R, 7, 11R.\nMethod: TBNA with ROSE.\nResults: Malignancy detected in 4R and 7. 11R benign.\nStatus: Patient stable."
+        2: { # Note 2: Rigid Bronch, Tumor Debulking (RMB) (CPT 31641)
+            1: "Indication: RMS tumor obstruction, lung collapse.\nProcedure: Rigid bronch, debulking.\n- 11mm rigid scope inserted.\n- Large mass RMS supra-carinal.\n- Snare resection -> Severe Hemorrhage.\n- Rigid removed, 8.0 ETT placed.\n- Right side down, suction, epi, TXA, cryo for clots.\n- Bleeding controlled.\n- Tumor removed piecemeal w/ cryo.\n- Attempted APC debulking -> Desaturation.\n- Base APC'd for hemostasis.\n- ETT confirmed.\nPlan: ICU intubated.",
+            2: "OPERATIVE SUMMARY: The patient presented with right mainstem obstruction due to suspected renal cell carcinoma. Under general anesthesia, an 11 mm rigid bronchoscope was introduced. A polypoid mass obstructing the right mainstem was identified. Electrocautery snare resection was attempted, resulting in immediate, brisk hemorrhage. This necessitated conversion to an endotracheal tube (8.0 mm) and patient positioning to protect the contralateral lung. Hemostasis was achieved using topical epinephrine, tranexamic acid, and cryotherapy extraction of clots. The transected tumor was subsequently removed piecemeal. Further debulking with APC was limited by significant oxygen desaturation. The procedure was terminated after ensuring hemostasis at the tumor base. The patient was transferred to the ICU intubated.",
+            3: "Primary Procedure: Bronchoscopy with destruction of tumor/relief of stenosis (31641).\nTechnique: Rigid and flexible bronchoscopy. Modalities included electrocautery snare, cryotherapy for extraction, and Argon Plasma Coagulation (APC).\nComplication Management: Management of severe hemorrhage involved ETT placement, topical agents (Epi, TXA), and clot extraction.\nOutcome: Partial debulking achieved; procedure aborted due to physiological instability (hypoxia).",
+            4: "Procedure: Rigid Bronch Debulking\nIndication: RMS Tumor\n\n1. 11mm Rigid scope placed.\n2. Large tumor seen RMS.\n3. Snared tumor -> Massive bleeding.\n4. Rigid out -> ETT 8.0 in.\n5. Pt turned right side down.\n6. Bleeding stopped w/ Epi, TXA, Cryo.\n7. Removed tumor pieces w/ Cryo.\n8. Tried APC debulking -> Pt desatted.\n9. APC'd base to stop bleeding.\n10. Stopped procedure.\n\nPlan: ICU, keep intubated.",
+            5: "Patient has a tumor in the right mainstem we took him to the OR for rigid bronch. Put the 11mm rigid in and saw the mass. We tried to snare it and it bled like crazy couldn't see anything. Had to pull the rigid and intubate with an 8.0 tube. Turned him on his side used a lot of epi and txa and cryo to get the clots out. Finally got it stopped. Pulled the tumor out in pieces. Tried to burn the rest with APC but he kept desatting so we just burned the base and stopped. ICU intubated.",
+            6: "The procedure was performed in the main operating room. An 11 mm ventilating rigid bronchoscope was inserted. A large mass obstructing the right mainstem was snared, resulting in brisk hemorrhage. The rigid scope was removed and an 8.0 ETT inserted. Hemostasis was achieved with topical TXA, epinephrine, and cryotherapy for clot removal. The transected tumor was removed piecemeal. Attempted APC debulking was limited by desaturation. The tumor base was treated with APC for hemostasis. The patient remained intubated and was transferred to the ICU.",
+            7: "[Indication]\nTumor obstruction of right mainstem, complete lung collapse.\n[Anesthesia]\nGeneral, converted from Rigid to ETT.\n[Description]\n11mm rigid scope used. Snare resection of RMS mass precipitated severe hemorrhage. Airway converted to 8.0 ETT. Bleeding controlled with pharmacologic agents and cryo. Tumor removed piecemeal. Further APC debulking limited by hypoxia. Base coagulated.\n[Plan]\nICU admission. Mechanical ventilation. Assess for further options.",
+            8: "We engaged in a rigid bronchoscopy to debulk a tumor obstructing the right mainstem. Upon snaring the lesion, we encountered severe hemorrhage that obscured visualization. We immediately converted to an endotracheal intubation to secure the airway and positioned the patient to protect the healthy lung. Using a combination of epinephrine, TXA, and cryotherapy, we managed to halt the bleeding and remove the resected tumor tissues. Although we hoped to perform further APC debulking, the patient's respiratory status deteriorated, forcing us to coagulate the base and terminate the procedure safely.",
+            9: "The procedure was executed in the main operating room. An 11 mm rigid bronchoscope was introduced. A large mass was visualized in the right mainstem. We secured the lesion with a snare; however, it hemorrhaged briskly. We exchanged the rigid scope for an ETT. Vision was poor, but we utilized topical agents and a cryotherapy probe to extract blood clots. Once hemostasis was achieved, the transected tumor was extracted piecemeal. We attempted to ablate residual tumor with APC, but the patient desaturated. We coagulated the base and aborted further attempts. The patient was transferred to the ICU."
         },
-        3: { # Thomas Jackson (EBUS Restaging - Station 7)
-            1: "Indication: Restaging post-chemo (N2).\nProc: EBUS-TBNA Station 7.\nFindings: Station 7 now 8mm (was 18mm).\nAction: 4 passes. ROSE Neg.\nOther: 4R/4L/10R benign/small, not sampled.\nImpression: Downstaging.",
-            2: "HISTORY: Mr. Jackson presented for restaging EBUS following chemotherapy for N2 (Station 7) disease. \nPROCEDURE: Under conscious sedation, the subcarinal station (7) was re-evaluated. The node measured 8mm, significantly reduced from prior imaging. Transbronchial needle aspiration was performed. ROSE was negative for malignancy, demonstrating anthracotic macrophages. \nCONCLUSION: Radiologic and pathologic downstaging of mediastinal disease.",
-            3: "CPT: 31652 (EBUS-TBNA 1-2 stations).\nJustification: Only Station 7 was sampled (targeted restaging). Other stations (4R, 4L, 10R) were inspected but not sampled based on benign appearance. \nDocumentation: 4 needle passes obtained from Station 7.",
-            4: "Resident Note\nPt: Thomas Jackson\nProc: Restaging EBUS\n1. Sedation started.\n2. Examined mediastinum.\n3. Station 7 (target) sampled x4.\n4. ROSE negative.\n5. Other nodes looked benign.\nPlan: Surgical consult.",
-            5: "Thomas Jackson here for restaging he had chemo for that station 7 node. It looks smaller now only 8mm. We sampled it 4 times and the pathologist said no cancer cells seen just pigment. Didn't sample the others they looked tiny. Good response to chemo I think.",
-            6: "Restaging EBUS for Thomas Jackson. Conscious sedation. Station 7 reassessed; size reduced to 8mm. 4 passes TBNA performed. ROSE negative. Stations 4R, 4L, 10R surveyed and deemed benign/small, not sampled. No complications.",
-            7: "[Indication]\nRestaging mediastinum post-chemo (Station 7).\n[Anesthesia]\nConscious Sedation.\n[Description]\nStation 7 sampled x4. ROSE negative. 4R, 4L, 10R inspected but not sampled.\n[Plan]\nRefer for surgery.",
-            8: "Mr. Jackson underwent an EBUS procedure to restage his mediastinal disease after chemotherapy. We focused on station 7, which had previously been positive. It was smaller in size, and sampling revealed no malignant cells. We inspected other stations but did not feel sampling was necessary due to their benign appearance.",
-            9: "Indication: Re-evaluation of N2 disease.\nAction: Aspiration of Station 7.\nFindings: Node regression noted. Cytology negative.\nSurvey: 4R, 4L, 10R inspected, no sampling required.\nResult: Treatment response confirmed."
-        },
-        4: { # Richard Brown (Complex: EBUS + RML Stent + LUL Nav)
-            1: "Indication: Mass, Stenosis, Nodule.\nAnesth: GA/ETT.\n1. EBUS: 4R, 10R, 11R sampled (Malignant).\n2. RML: Tumor debulked (APC/Forceps). Stent placed (12x30mm).\n3. LUL: Nav bronch to 16mm nodule. Biopsy x3.\nComp: Bleeding controlled. Transient hypoxia.\nPlan: ICU obs.",
-            2: "OPERATIVE REPORT: Mr. Brown underwent a multimodal bronchoscopic procedure. \n1) EBUS Staging: Stations 4R, 10R, and 11R were sampled, confirming malignancy. Station 7 was inaccessible. \n2) Therapeutic Bronchoscopy: The RML bronchus was 80% occluded by tumor. This was debulked using forceps and APC, followed by placement of a 12x30mm metallic stent. \n3) Navigation: Electromagnetic navigation guided biopsy of a LUL apical-posterior nodule.\nIMPRESSION: Advanced malignancy with airway palliation and nodule sampling.",
-            3: "Billing Summary:\n- 31653: EBUS 3+ stations (4R, 10R, 11R).\n- 31641: Tumor destruction/debulking RML.\n- 31636: Stent placement RML.\n- 31627: Navigational Bronchoscopy (LUL nodule).\n- 31654: Radial EBUS (tool confirmation).\n- 31628: Transbronchial biopsy (LUL).\nNote: Distinct lesions and services.",
-            4: "Procedure Note\nPt: Richard Brown\n1. GA induced.\n2. EBUS: Sampled 4R, 10R, 11R (Pos).\n3. RML Tumor: Debulked and stented (Metal 12x30).\n4. LUL Nodule: Navigated and biopsied.\nEvents: Bleeding in RML (stopped w/ APC), desat during stent (fixed).\nPlan: Admit.",
-            5: "Richard Brown complex case today. Did EBUS first found cancer in 4R 10R 11R. Then fixed the RML stenosis debulked the tumor and put a stent in. Then went for that LUL nodule using the navigation system and biopsied it. Had some bleeding and sats dropped a bit but he's stable now.",
-            6: "Richard Brown. GA/ETT. 1) EBUS: 4R, 10R, 11R sampled (positive). 2) RML: Exophytic tumor debulked (forceps/APC), 12x30mm stent placed. 3) LUL: EM navigation to 16mm nodule, radial EBUS confirmation, TBBx x3. Complications: Moderate bleeding RML, transient hypoxia.",
-            7: "[Indication]\nMediastinal LAD, RML stenosis, LUL nodule.\n[Anesthesia]\nGeneral, ETT.\n[Description]\nEBUS staging performed (3 stations). RML tumor debulked and stented. LUL nodule biopsied via navigation.\n[Plan]\nICU observation.",
-            8: "This was a complex case for Mr. Brown involving staging, debulking, and biopsy. We started with EBUS, confirming malignancy in multiple stations. We then addressed the RML obstruction by debulking the tumor and placing a stent to keep the airway open. Finally, we used electromagnetic navigation to locate and biopsy a peripheral nodule in the left upper lobe.",
-            9: "Indication: Complex airway/lung disease.\nAction 1: Staged mediastinum (EBUS 4R, 10R, 11R).\nAction 2: Recanalized RML (Debulk/Stent).\nAction 3: Sampled LUL nodule (Navigation/Biopsy).\nOutcome: Successful completion."
-        },
-        5: { # Patricia Anderson (EBUS + RUL Tumor Biopsy)
-            1: "Indication: RUL mass + LAD.\nAnesth: GA/ETT.\n1. EBUS: 2R, 4R, 7, 10R sampled. 4R Pos.\n2. RUL Mass: Forceps Bx x6. Bleeding controlled.\nComp: Hypoxia (88%), bleeding.\nPlan: Path pending.",
-            2: "PROCEDURE: Bronchoscopy with EBUS staging and endobronchial biopsy.\nFINDINGS: EBUS evaluation of stations 2R, 4R, 7, and 10R was performed. Station 4R was positive for malignancy. Direct inspection revealed an endobronchial mass in the RUL causing obstruction. Multiple biopsies were taken from this lesion.\nCOMPLICATIONS: Intraprocedural hemorrhage managed with cold saline and epinephrine. Transient desaturation.",
-            3: "CPT Codes:\n- 31653: EBUS-TBNA 3+ stations (2R, 4R, 7, 10R).\n- 31625: Endobronchial biopsy (RUL mass).\nRationale: Staging of mediastinum performed separately from biopsy of visible endobronchial tumor. \nNote: Bleeding management is incidental/bundled.",
-            4: "Resident Note\nPt: Patricia Anderson\n1. ETT placed.\n2. EBUS: 4 stations sampled. 4R malignant.\n3. Bronchoscopy: RUL mass seen.\n4. Biopsied mass x6.\n5. Bleeding occurred, stopped w/ epi.\nPlan: Wait for path.",
-            5: "Patricia Anderson procedure note. Did the EBUS first checked 2R 4R 7 and 10R. 4R looked bad and was positive. Then saw the tumor in the RUL airway and biopsied it a bunch of times. It bled a bit but we stopped it. She desatted for a minute but came back up.",
-            6: "Patricia Anderson. GA/ETT. EBUS-TBNA performed at 2R, 4R, 7, 10R. 4R positive. RUL endobronchial mass biopsied x6. Moderate bleeding controlled with epinephrine. Transient hypoxia resolved. Plan: Oncology referral.",
-            7: "[Indication]\nRUL mass, mediastinal adenopathy.\n[Anesthesia]\nGeneral.\n[Description]\nEBUS staging (4 stations). Endobronchial biopsy of RUL mass. Bleeding controlled.\n[Plan]\nPathology review.",
-            8: "Ms. Anderson underwent a bronchoscopy under general anesthesia. We first performed EBUS staging, sampling four stations, with station 4R returning positive for cancer. We then turned our attention to the RUL endobronchial mass and obtained multiple biopsies. There was some bleeding and a brief drop in oxygen levels, but both were managed successfully.",
-            9: "Indication: Airway mass and LAD.\nAction 1: Interrogated mediastinum (EBUS).\nAction 2: Sampled RUL tumor (Forceps).\nEvents: Hemorrhage controlled. Hypoxia corrected.\nStatus: Recovery."
+        3: { # Note 3: Tracheal Tumor Debulking (CPT 31641)
+            1: "Indication: Tracheal obstruction (tumor).\nProcedure: Rigid bronch, Snare, APC.\n- 3 polypoid lesions proximal trachea, 90% obstruction.\n- Multiple distal lesions.\n- 10mm Rigid scope placed.\n- Snare resection of 3 large + 10 small lesions.\n- APC used to paint/shave base.\n- Airway 90% open post-op.\n- No stent placed (patient refusal/chemo).\nPlan: Ward, Pathology, Oncology consult.",
+            2: "OPERATIVE REPORT: The patient presented with high-grade endotracheal tumor obstruction. Under general anesthesia, inspection revealed three large polypoid lesions 2.5 cm distal to the vocal cords causing 90% expiratory obstruction, with extensive satellite lesions distally. A 10mm rigid tracheoscope was inserted. The T190 flexible scope was utilized to perform electrocautery snare resection of the dominant lesions and approximately ten smaller lesions. The tumor bases and residual disease were treated with Argon Plasma Coagulation (APC) to achieve luminal recanalization. Final inspection demonstrated a 90% patent airway. Stent placement was deferred based on prior patient preference.",
+            3: "Procedure: Bronchoscopy with destruction of tumor (31641).\nTechnique: Rigid bronchoscopy (10mm) and flexible bronchoscopy.\nModalities: Electrocautery snare resection (excision) and APC (destruction) performed in the same anatomic location (Trachea).\nFindings: 90% obstruction reduced to <10% obstruction.\nNote: Stenting (31631) was considered but not performed due to patient preference.",
+            4: "Procedure: Tracheal Debulking\nIndication: Tracheal Tumor\n\n1. Flex bronch via LMA: 3 large polyps, 90% blocked.\n2. Switched to 10mm Rigid scope.\n3. Snared 3 large + 10 small lesions.\n4. Removed tissue for path.\n5. APC used to clean up base.\n6. Result: 90% open.\n7. No complications.\n\nPlan: Admit to ward.",
+            5: "Patient has a tracheal tumor blocking 90 percent of the airway. We put him to sleep and looked with the flex scope first. Saw the polyps. Put in the 10mm rigid scope. Used the snare to cut off the big ones and a bunch of small ones too. Suctioned them out. Used the APC to burn the rest of it down. Got it open to about 90 percent. We wanted to stent it but he said no because of the cough. Sent him to the floor.",
+            6: "The procedure was performed in the main operating room under general anesthesia. Initial inspection revealed 3 polypoid lesions causing 90% obstruction in the proximal trachea. A 10mm non-ventilating rigid tracheoscope was inserted. Using an electrocautery snare, the proximal lesions and approximately 10 distal lesions were resected. APC was used to paint and shave the remaining tumor burden. The airway was restored to 90% patency. No stent was placed. The patient was transferred to the ward.",
+            7: "[Indication]\nTracheal obstruction, endotracheal tumor.\n[Anesthesia]\nGeneral, LMA converted to Rigid.\n[Description]\n90% obstruction by polypoid lesions visualized. 10mm rigid scope placed. Snare resection of 13+ lesions performed. APC used for residual tumor destruction. 90% luminal patency achieved.\n[Plan]\nWard admission. Oncology consult for PDT/Brachytherapy.",
+            8: "We performed a bronchoscopic debulking for a patient with severe tracheal obstruction. Upon entering with the bronchoscope, we found a cluster of polyps blocking nearly the entire airway. We switched to a rigid tracheoscope to facilitate resection. Using a snare, we successfully removed the three main polyps and about ten smaller ones. We then applied APC to the tumor base to ensure hemostasis and further reduce the tumor burden. We achieved a 90% airway opening. Per the patient's request, no stent was placed.",
+            9: "The procedure was performed in the main operating room. After administration of sedatives, the bronchoscope was inserted. We advanced into the subglottic space. There were 3 polypoid lesions blocking the airway. A 10mm rigid tracheoscope was inserted. The flexible bronchoscope was introduced, and the electrocautery snare was used to transect the lesions. We removed about 10 other lesions in the same fashion. We used APC to ablate the remaining tumor area. At the end, the trachea was 90% open. The rigid bronchoscope was removed."
         }
     }
     return variations
 
 def get_base_data_mocks():
-    # Names and ages to match the flow (mocking extraction from a real source)
+    # Define base names and ages for the 4 distinct patients found in the source file
     return [
-        {"idx": 0, "orig_name": "Robert Martinez", "orig_age": 66, "names": ["John Smith", "David Johnson", "Michael Williams", "James Brown", "Robert Jones", "William Garcia", "Richard Miller", "Thomas Davis", "Charles Rodriguez"]},
-        {"idx": 1, "orig_name": "Angela Davis", "orig_age": 65, "names": ["Mary Wilson", "Patricia Martinez", "Jennifer Anderson", "Linda Taylor", "Elizabeth Thomas", "Barbara Hernandez", "Susan Moore", "Jessica Martin", "Sarah Jackson"]},
-        {"idx": 2, "orig_name": "James Wilson", "orig_age": 65, "names": ["Joseph White", "Thomas Lopez", "Charles Lee", "Christopher Gonzalez", "Daniel Harris", "Matthew Clark", "Anthony Lewis", "Mark Robinson", "Donald Walker"]},
-        {"idx": 3, "orig_name": "Thomas Jackson", "orig_age": 65, "names": ["Paul Perez", "Steven Hall", "Andrew Young", "Kenneth Allen", "Joshua Sanchez", "Kevin Wright", "Brian King", "George Scott", "Edward Green"]},
-        {"idx": 4, "orig_name": "Richard Brown", "orig_age": 65, "names": ["Ronald Baker", "Timothy Adams", "Jason Nelson", "Jeffrey Hill", "Ryan Ramirez", "Jacob Campbell", "Gary Mitchell", "Nicholas Roberts", "Eric Carter"]},
-        {"idx": 5, "orig_name": "Patricia Anderson", "orig_age": 65, "names": ["Karen Phillips", "Nancy Evans", "Lisa Turner", "Betty Torres", "Margaret Parker", "Sandra Collins", "Ashley Edwards", "Kimberly Stewart", "Donna Flores"]},
+        {
+            "idx": 0, 
+            "orig_name": "Logan Pierce", # From Note 0 text (fistula)
+            "orig_age": 67, 
+            "names": ["John Vance", "Arthur Higgins", "Robert Kinsley", "William O'Connor", "James P. Miller", "Edward Stone", "Richard Davis", "Thomas Clark", "Gary Wright"]
+        },
+        {
+            "idx": 1, 
+            "orig_name": "Unknown", # Note 1 had unknown name
+            "orig_age": 55, # Assigning a base age for variation
+            "names": ["Sarah Jenkins", "Linda Carter", "Nancy Hughes", "Karen Smith", "Barbara Lopez", "Mary Ann Davidson", "Susan White", "Margaret Lewis", "Betty King"]
+        },
+        {
+            "idx": 2, 
+            "orig_name": "Unknown", # Note 2 had unknown name
+            "orig_age": 65, # Assigning a base age
+            "names": ["Michael Foster", "Robert G. Turner", "David Myers", "Joseph Anderson", "Frank Mitchell", "Paul Reynolds", "George Baker", "Kenneth Roberts", "Steven Phillips"]
+        },
+        {
+            "idx": 3, 
+            "orig_name": "Unknown", # Note 3 had unknown name
+            "orig_age": 60, # Assigning a base age
+            "names": ["Marie Hall", "Patricia Campbell", "Elizabeth Allen", "Jennifer Young", "Linda Hernandez", "Barbara King", "Dorothy Wright", "Helen Scott", "Carol Green"]
+        }
     ]
 
 def main():
-    # Load original data
+    # Load original data from source file
     try:
         with open(SOURCE_FILE, 'r', encoding='utf-8') as f:
             source_data = json.load(f)
     except FileNotFoundError:
         print(f"Error: Source file not found: {SOURCE_FILE}")
+        print("Please ensure the file exists or update SOURCE_FILE path.")
         return
     except json.JSONDecodeError as e:
         print(f"Error: Invalid JSON in source file: {e}")
         return
     
     if not isinstance(source_data, list):
-        print(f"Error: Source file must contain a JSON array.")
+        print(f"Error: Source file must contain a JSON array, got {type(source_data)}")
         return
     
     print(f"Loaded {len(source_data)} notes from {SOURCE_FILE}")
@@ -124,37 +122,60 @@ def main():
     
     generated_notes = []
     
+    # Iterate through each original note in source data
     for idx, original_note in enumerate(source_data):
         if idx >= len(base_data):
-            break
+            print(f"Warning: More notes in source than base_data entries. Skipping note {idx}.")
+            continue
             
         record = base_data[idx]
         orig_age = record['orig_age']
         
         # Iterate through the 9 styles
         for style_num in range(1, 10):
+            
+            # Deep copy the original note structure
             note_entry = copy.deepcopy(original_note)
             
-            # Variations
+            # Determine new random age (+/- 3 years)
             new_age = orig_age + random.randint(-3, 3)
+            
+            # Determine new random date (within 2025)
             rand_date_obj = generate_random_date(2025, 2025)
             rand_date_str = rand_date_obj.strftime("%Y-%m-%d")
+            
+            # Get the specific name assigned
             new_name = record['names'][style_num - 1]
             
-            # Apply changes
-            note_entry["note_text"] = variations_text[idx][style_num]
+            # Update note_text with the variation
+            if idx in variations_text and style_num in variations_text[idx]:
+                note_entry["note_text"] = variations_text[idx][style_num]
+            else:
+                print(f"Warning: Variation not found for Note {idx}, Style {style_num}")
+                continue
             
+            # Update registry_entry fields if they exist
             if "registry_entry" in note_entry:
-                if "patient_age" in note_entry["registry_entry"]:
-                    note_entry["registry_entry"]["patient_age"] = new_age
+                # Update Patient MRN
+                if "patient_mrn" in note_entry["registry_entry"]:
+                    # Create a mock MRN base if 'Unknown' or use existing
+                    base_mrn = note_entry["registry_entry"]["patient_mrn"]
+                    if base_mrn == "Unknown" or base_mrn == "UNKNOWN":
+                        base_mrn = f"IP2025{idx:03d}"
+                    note_entry["registry_entry"]["patient_mrn"] = f"{base_mrn}_syn_{style_num}"
+                
+                # Update Procedure Date
                 if "procedure_date" in note_entry["registry_entry"]:
                     note_entry["registry_entry"]["procedure_date"] = rand_date_str
-                if "patient_mrn" in note_entry["registry_entry"]:
-                    # Create a synthetic MRN
-                    base_mrn = note_entry["registry_entry"]["patient_mrn"]
-                    note_entry["registry_entry"]["patient_mrn"] = f"{base_mrn}_syn_{style_num}"
+                
+                # Update Patient Demographics/Age if present
+                if "patient_demographics" in note_entry["registry_entry"] and isinstance(note_entry["registry_entry"]["patient_demographics"], dict):
+                     note_entry["registry_entry"]["patient_demographics"]["age_years"] = new_age
+                     note_entry["registry_entry"]["patient_demographics"]["gender"] = "Male" if idx in [0, 2, 3] else "Female" # Attempt to infer gender from original
+                elif "patient_age" in note_entry["registry_entry"]: # Handle flat structure if present
+                     note_entry["registry_entry"]["patient_age"] = new_age
 
-            # Add synthetic metadata
+            # Add metadata about the synthetic generation
             note_entry["synthetic_metadata"] = {
                 "source_file": SOURCE_FILE,
                 "original_index": idx,
@@ -165,8 +186,8 @@ def main():
             
             generated_notes.append(note_entry)
 
-    # Output to JSON
-    output_filename = output_dir / "synthetic_blvr_notes_part_014.json"
+    # Output to JSON in Synthetic_expansions folder
+    output_filename = output_dir / "synthetic_bronch_notes_part_014.json"
     with open(output_filename, 'w', encoding='utf-8') as f:
         json.dump(generated_notes, f, indent=2, ensure_ascii=False)
     

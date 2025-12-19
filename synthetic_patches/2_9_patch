@@ -1,0 +1,60 @@
+[
+  {
+    "op": "add",
+    "path": "/fee_schedules/physician_2025_pleural/codes/76604",
+    "value": {
+      "description": "Ultrasound, chest (includes mediastinum), real time with image documentation",
+      "work_rvu": 0.55,
+      "total_facility_rvu": 1.64,
+      "mpfs_facility_payment": 53,
+      "global_days": 0,
+      "total_nonfacility_rvu": 1.64,
+      "mpfs_nonfacility_payment": 53
+    }
+  },
+  {
+    "op": "add",
+    "path": "/cms_rvus/imaging/76604",
+    "value": {
+      "description": "Us exam chest",
+      "work_rvu": 0.55,
+      "facility_pe_rvu": 1.05,
+      "nonfacility_pe_rvu": 1.05,
+      "mp_rvu": 0.04,
+      "total_facility_rvu": 1.64,
+      "total_nonfacility_rvu": 1.64,
+      "mpfs_facility_payment": 53,
+      "mpfs_nonfacility_payment": 53,
+      "global_days": "XXX",
+      "mult_proc_indicator": 0,
+      "status_code": "A",
+      "is_add_on": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/rvus/76604",
+    "value": {
+      "work": 0.55,
+      "pe": 1.05,
+      "mp": 0.04
+    }
+  },
+  {
+    "op": "add",
+    "path": "/code_lists/thoracic_ultrasound",
+    "value": [
+      "76604"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/code_lists/imaging_chest/0",
+    "value": "76604"
+  },
+  {
+    "op": "replace",
+    "path": "/metadata/changelog/5",
+    "value": "v2.9: Added missing codes from registry review (32997, 32662, 33015, 32602, 76604)"
+  }
+]

@@ -1,0 +1,323 @@
+[
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/clinical_context/lesion_location",
+      "value": "Right Lower Lobe (Superior Segment)"
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/procedures_performed/transbronchial_biopsy/locations",
+      "value": [
+        "RLL Superior Segment"
+      ]
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/granular_data/navigation_targets/0/target_lobe",
+      "value": "RLL"
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/granular_data/navigation_targets/0/target_location_text",
+      "value": "Right Lower Lobe Superior Segment area of known nodule"
+    },
+    {
+      "op": "add",
+      "path": "/1/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T14:50:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "primary_family": "bronchoscopy_ebus_linear",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "31653",
+              "modifier": null,
+              "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "4 nodal stations (11L, 7, 10R, 11R) sampled per registry data."
+            },
+            {
+              "sequence": 2,
+              "code": "31628",
+              "modifier": "XS",
+              "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+              "units": 1,
+              "role": "secondary",
+              "selection_status": "selected",
+              "selection_reason": "Biopsy of peripheral RLL lesion (parenchyma), distinct from EBUS nodes.",
+              "is_add_on": false
+            },
+            {
+              "sequence": 3,
+              "code": "+31654",
+              "modifier": null,
+              "description": "Bronchoscopy; with EBUS for peripheral lesion (radial)",
+              "units": 1,
+              "role": "add_on",
+              "selection_status": "selected",
+              "selection_reason": "Radial EBUS used to verify peripheral lesion location.",
+              "is_add_on": true
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "conversion_factor": 32.3562,
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31653",
+              "units": 1,
+              "work_rvu": 4.96,
+              "total_facility_rvu": 7.7,
+              "mpfs_facility_payment": 249,
+              "is_primary": true
+            },
+            {
+              "code": "31628",
+              "units": 1,
+              "work_rvu": 3.55,
+              "total_facility_rvu": 5.53,
+              "mpfs_facility_payment": 179,
+              "is_primary": false
+            },
+            {
+              "code": "+31654",
+              "units": 1,
+              "work_rvu": 1.4,
+              "total_facility_rvu": 2.11,
+              "mpfs_facility_payment": 68,
+              "is_primary": false
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 9.91,
+            "total_facility_rvu": 15.34,
+            "estimated_facility_payment_unadjusted": 496,
+            "notes": "Values unadjusted for geography. Multiple endoscopy reduction applies."
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31653",
+              "summary": "Selected for EBUS-TBNA of 4 stations."
+            },
+            {
+              "code": "31628",
+              "summary": "Selected for TBLB of RLL mass. Distinct from EBUS targets."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/2/cpt_codes",
+      "value": [
+        32609
+      ]
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/billing/cpt_codes",
+      "value": [
+        {
+          "code": "32609",
+          "description": "Thoracoscopy, diagnostic; with biopsy(ies) of pleura",
+          "units": 1,
+          "modifiers": [
+            "LT"
+          ]
+        }
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/2/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T14:50:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "primary_family": "thoracoscopy",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "32609",
+              "modifier": "LT",
+              "description": "Thoracoscopy, diagnostic; with biopsy(ies) of pleura",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "Medical thoracoscopy with parietal pleural biopsy."
+            },
+            {
+              "sequence": 2,
+              "code": "32551",
+              "description": "Tube thoracostomy",
+              "role": "bundled_only",
+              "selection_status": "dropped",
+              "selection_reason": "Bundled into thoracoscopy (32609) when performed same side/session."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_pleural",
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "32609",
+              "units": 1,
+              "work_rvu": 4.58,
+              "total_facility_rvu": 4.58,
+              "mpfs_facility_payment": 244,
+              "is_primary": true
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 4.58,
+            "total_facility_rvu": 4.58,
+            "estimated_facility_payment_unadjusted": 244
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "32609",
+              "summary": "Primary service: rigid thoracoscopy with biopsy."
+            },
+            {
+              "code": "32551",
+              "summary": "Chest tube placement is integral to the conclusion of a thoracoscopic procedure."
+            }
+          ],
+          "rules_applied": [
+            {
+              "rule_id": "thoracoscopy_supersedes_pleural_drainage",
+              "outcome": "dropped",
+              "codes_affected": [
+                "32551"
+              ],
+              "details": "Tube thoracostomy bundled."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/3/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T14:50:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "primary_family": "bronchoscopy_ebus_linear",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "31652",
+              "modifier": null,
+              "description": "Bronchoscopy; with EBUS sampling, 1-2 nodal stations",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "EBUS-TBNA of station 4R (1 station)."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31652",
+              "units": 1,
+              "work_rvu": 4.46,
+              "total_facility_rvu": 6.96,
+              "mpfs_facility_payment": 225,
+              "is_primary": true
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 4.46,
+            "total_facility_rvu": 6.96,
+            "estimated_facility_payment_unadjusted": 225
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31652",
+              "summary": "Correctly selected for 1 station EBUS-TBNA."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/4/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T14:50:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "primary_family": "bronchoscopy_ebus_linear",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "31652",
+              "modifier": null,
+              "description": "Bronchoscopy; with EBUS sampling, 1-2 nodal stations",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "EBUS-TBNA of 2 stations (7, 4L)."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31652",
+              "units": 1,
+              "work_rvu": 4.46,
+              "total_facility_rvu": 6.96,
+              "mpfs_facility_payment": 225,
+              "is_primary": true
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 4.46,
+            "total_facility_rvu": 6.96,
+            "estimated_facility_payment_unadjusted": 225
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31652",
+              "summary": "Correctly selected for 2 stations (range 1-2)."
+            }
+          ]
+        }
+      }
+    }
+  ]

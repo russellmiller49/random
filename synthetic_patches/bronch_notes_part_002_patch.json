@@ -1,0 +1,93 @@
+{
+  "correction_type": "billing_update",
+  "knowledge_base_version": "ip_coding_billing.v2.8",
+  "corrections": [
+    {
+      "patient_mrn": "IP2026000_syn_1",
+      "original_score": 8,
+      "correction_rationale": "Removed 31628 (Transbronchial Biopsy). Documentation indicates TBLB and TBNA (31629) were performed on the same RUL nodule. Per NCCI guidelines, these are bundled when targeting the same lesion.",
+      "corrected_billing": {
+        "cpt_codes": [
+          {
+            "code": "31629",
+            "description": "Bronchoscopy, rigid or flexible; with transbronchial needle aspiration biopsy(s)",
+            "units": 1,
+            "modifier": null
+          },
+          {
+            "code": "+31627",
+            "description": "Bronchoscopy, rigid or flexible; with computer-assisted, image-guided navigation",
+            "units": 1,
+            "modifier": null
+          },
+          {
+            "code": "31624",
+            "description": "Bronchoscopy, rigid or flexible; with bronchial alveolar lavage",
+            "units": 1,
+            "modifier": "59"
+          },
+          {
+            "code": "31634",
+            "description": "Bronchoscopy, rigid or flexible; with balloon occlusion, assessment of air leak, airway sizing, and documentation",
+            "units": 1,
+            "modifier": "59"
+          }
+        ],
+        "icd10_codes": [
+          "R91.1",
+          "J44.9"
+        ],
+        "total_rvu": 18.83,
+        "work_rvu": 12.15,
+        "notes": "Values updated to exclude 31628."
+      }
+    },
+    {
+      "patient_mrn": "IP2026001_syn_1",
+      "original_score": 7,
+      "correction_rationale": "Removed 31628 (Transbronchial Biopsy). Documentation indicates TBLB and TBNA (31629) were performed on the same RLL target. 31628 is a column 2 code to 31629 and requires a distinct target to be billable.",
+      "corrected_billing": {
+        "cpt_codes": [
+          {
+            "code": "31629",
+            "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s)",
+            "units": 1
+          },
+          {
+            "code": "+31633",
+            "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s), each additional lobe (add-on)",
+            "units": 1
+          },
+          {
+            "code": "31645",
+            "description": "Bronchoscopy; with therapeutic aspiration of tracheobronchial tree, initial",
+            "units": 1,
+            "modifier": "59"
+          },
+          {
+            "code": "31624",
+            "description": "Bronchoscopy; with bronchoalveolar lavage",
+            "units": 1
+          },
+          {
+            "code": "+31627",
+            "description": "Bronchoscopy; with computer-assisted, image-guided navigation (add-on)",
+            "units": 1
+          },
+          {
+            "code": "+31654",
+            "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+            "units": 1
+          }
+        ],
+        "icd10_codes": [
+          "R91.8",
+          "J95.811"
+        ],
+        "total_rvu": 21.78,
+        "work_rvu": 14.18,
+        "notes": "Values updated to exclude 31628."
+      }
+    }
+  ]
+}

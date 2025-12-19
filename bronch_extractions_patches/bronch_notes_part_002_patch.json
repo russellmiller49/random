@@ -1,0 +1,207 @@
+[
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31629",
+            "description": "Bronchoscopy, rigid or flexible; with transbronchial needle aspiration biopsy(s), trachea, main stem and/or lobar bronchus(i)",
+            "modifier": null,
+            "modifiers": [],
+            "units": 1
+          },
+          {
+            "code": "+31627",
+            "description": "Bronchoscopy, rigid or flexible; with computer-assisted, image-guided navigation (List separately in addition to code for primary procedure)",
+            "modifier": null,
+            "modifiers": [],
+            "units": 1
+          },
+          {
+            "code": "31624",
+            "description": "Bronchoscopy, rigid or flexible; with bronchial alveolar lavage",
+            "modifier": "59",
+            "modifiers": [
+              "59"
+            ],
+            "units": 1
+          },
+          {
+            "code": "31628",
+            "description": "Bronchoscopy, rigid or flexible; with transbronchial lung biopsy(s), single lobe",
+            "modifier": "59",
+            "modifiers": [
+              "59"
+            ],
+            "units": 1
+          },
+          {
+            "code": "31634",
+            "description": "Bronchoscopy, rigid or flexible; with balloon occlusion, assessment of air leak, airway sizing, and documentation",
+            "modifier": "59",
+            "modifiers": [
+              "59"
+            ],
+            "units": 1
+          }
+        ],
+        "icd10_codes": [
+          "R91.1",
+          "J44.9"
+        ],
+        "total_rvu": 24.36,
+        "work_rvu": 15.7,
+        "practice_expense_rvu": null,
+        "malpractice_rvu": null
+      }
+    },
+    {
+      "op": "add",
+      "path": "/0/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-18",
+        "changes": [
+          "Updated billing RVUs to match 2025 Facility Fee Schedule (Total: 24.36, Work: 15.70)."
+        ]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31629",
+            "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s)",
+            "units": 1
+          },
+          {
+            "code": "31628",
+            "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+            "units": 1
+          },
+          {
+            "code": "31645",
+            "description": "Bronchoscopy; with therapeutic aspiration of tracheobronchial tree, initial",
+            "modifier": "59",
+            "units": 1
+          },
+          {
+            "code": "31624",
+            "description": "Bronchoscopy; with bronchoalveolar lavage",
+            "units": 1
+          },
+          {
+            "code": "+31633",
+            "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s), each additional lobe (add-on)",
+            "units": 1
+          },
+          {
+            "code": "+31627",
+            "description": "Bronchoscopy; with computer-assisted, image-guided navigation (add-on)",
+            "units": 1
+          },
+          {
+            "code": "+31654",
+            "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+            "units": 1
+          }
+        ],
+        "icd10_codes": [
+          "R91.8",
+          "J95.811"
+        ],
+        "total_rvu": 27.31,
+        "work_rvu": 17.73,
+        "practice_expense_rvu": null,
+        "malpractice_rvu": null
+      }
+    },
+    {
+      "op": "add",
+      "path": "/1/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-18",
+        "changes": [
+          "Corrected billing RVUs to 2025 standards (Total: 27.31, Work: 17.73). Previous values were inconsistent."
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/2/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-18",
+        "changes": [
+          "Verified billing values (31645); no changes needed."
+        ]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31653",
+            "description": "Bronchoscopy with EBUS sampling, 3 or more nodal stations",
+            "units": 1
+          },
+          {
+            "code": "31625",
+            "description": "Bronchoscopy with bronchial or endobronchial biopsy(s)",
+            "units": 1
+          },
+          {
+            "code": "31623",
+            "description": "Bronchoscopy with brushing or protected brushings",
+            "units": 1
+          },
+          {
+            "code": "+31654",
+            "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+            "units": 1
+          }
+        ],
+        "icd10_codes": [
+          "R59.0",
+          "R91.8"
+        ],
+        "total_rvu": 18.92,
+        "work_rvu": 12.1,
+        "practice_expense_rvu": null,
+        "malpractice_rvu": null
+      }
+    },
+    {
+      "op": "add",
+      "path": "/3/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-18",
+        "changes": [
+          "Populated missing billing RVUs (Total: 18.92, Work: 12.10) for EBUS/Biopsy case."
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/4/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.1.0",
+        "patch_date": "2025-12-18",
+        "changes": [
+          "Verified billing values (31624, 99152); no changes needed."
+        ]
+      }
+    }
+  ]

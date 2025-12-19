@@ -1,0 +1,645 @@
+[
+    {
+      "op": "add",
+      "path": "/0/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T16:00:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "primary_family": "pleural_intrapleural_treatment",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "32561",
+              "description": "Instillation, via chest tube/catheter, fibrinolytic agent, first day",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "Therapeutic instillation of tPA/DNase for empyema (initial day).",
+              "note_spans": [
+                {
+                  "start": 0,
+                  "end": 0,
+                  "snippet": "Instillation of agents for fibrinolysis (initial)... 10 mg/5 mg tPA/Dnase"
+                }
+              ]
+            },
+            {
+              "sequence": 2,
+              "code": "76604",
+              "modifier": "26",
+              "description": "Ultrasound, chest, real time with image documentation",
+              "units": 1,
+              "role": "secondary",
+              "selection_status": "selected",
+              "selection_reason": "Diagnostic ultrasound evaluating loculations and echogenicity; distinct from guidance.",
+              "note_spans": [
+                {
+                  "start": 0,
+                  "end": 0,
+                  "snippet": "CHEST ULTRASOUND FINDINGS... Echogenicity: Hyperechoic... Loculations: Thick"
+                }
+              ]
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_pleural",
+          "rvu_source": "cms_rvus.pleural",
+          "conversion_factor": 32.3562,
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "32561",
+              "units": 1,
+              "work_rvu": 1.39,
+              "total_facility_rvu": 2.09,
+              "mpfs_facility_payment": 68.0,
+              "rvu_source_path": "fee_schedules.physician_2025_pleural.codes.32561"
+            },
+            {
+              "code": "76604",
+              "units": 1,
+              "work_rvu": 0.6,
+              "total_facility_rvu": 0.85,
+              "mpfs_facility_payment": 27.0,
+              "rvu_source_path": "estimated_cms_2025"
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 1.99,
+            "total_facility_rvu": 2.94,
+            "estimated_facility_payment_unadjusted": 95.0
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "32561",
+              "summary": "Supported by documentation of initial day fibrinolytic instillation via existing chest tube."
+            },
+            {
+              "code": "76604",
+              "summary": "Supported by detailed diagnostic findings (hyperechoic, thick loculations) requiring interpretation. Modifier 26 indicates professional component."
+            }
+          ],
+          "global_comments": [
+            "Chest tube insertion (32551) not reported as tube was placed on prior date (12/15)."
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "32561",
+            "description": "Instillation, via chest tube/catheter, fibrinolytic agent, first day",
+            "units": 1
+          },
+          {
+            "code": "76604",
+            "modifier": "26",
+            "description": "Ultrasound, chest, real time with image documentation",
+            "units": 1
+          }
+        ],
+        "icd10_codes": [
+          "J86.9"
+        ],
+        "total_rvu": 2.94,
+        "work_rvu": 1.99
+      }
+    },
+    {
+      "op": "add",
+      "path": "/1/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T16:00:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "primary_family": "pleural_intrapleural_treatment",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "32561",
+              "description": "Instillation, via chest tube/catheter, fibrinolytic agent, first day",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "Therapeutic instillation of tPA/DNase for hemothorax (initial day).",
+              "note_spans": [
+                {
+                  "start": 0,
+                  "end": 0,
+                  "snippet": "Instillation... initial day... 10 mg/5 mg tPA/Dnase"
+                }
+              ]
+            },
+            {
+              "sequence": 2,
+              "code": "76604",
+              "modifier": "26",
+              "description": "Ultrasound, chest, real time with image documentation",
+              "units": 1,
+              "role": "secondary",
+              "selection_status": "selected",
+              "selection_reason": "Diagnostic ultrasound evaluating loculations and echogenicity.",
+              "note_spans": [
+                {
+                  "start": 0,
+                  "end": 0,
+                  "snippet": "CHEST ULTRASOUND FINDINGS... Hyperechoic... Thick Loculations"
+                }
+              ]
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_pleural",
+          "rvu_source": "cms_rvus.pleural",
+          "conversion_factor": 32.3562,
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "32561",
+              "units": 1,
+              "work_rvu": 1.39,
+              "total_facility_rvu": 2.09,
+              "mpfs_facility_payment": 68.0,
+              "rvu_source_path": "fee_schedules.physician_2025_pleural.codes.32561"
+            },
+            {
+              "code": "76604",
+              "units": 1,
+              "work_rvu": 0.6,
+              "total_facility_rvu": 0.85,
+              "mpfs_facility_payment": 27.0,
+              "rvu_source_path": "estimated_cms_2025"
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 1.99,
+            "total_facility_rvu": 2.94,
+            "estimated_facility_payment_unadjusted": 95.0
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "32561",
+              "summary": "Supported by documentation of tPA/DNase instillation via existing tube."
+            },
+            {
+              "code": "76604",
+              "summary": "Supported by documentation of diagnostic findings (loculated hemothorax)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "32561",
+            "description": "Instillation, via chest tube/catheter, fibrinolytic agent, first day",
+            "units": 1
+          },
+          {
+            "code": "76604",
+            "modifier": "26",
+            "description": "Ultrasound, chest, real time with image documentation",
+            "units": 1
+          }
+        ],
+        "icd10_codes": [
+          "J94.2",
+          "J86.0"
+        ],
+        "total_rvu": 2.94,
+        "work_rvu": 1.99
+      }
+    },
+    {
+      "op": "add",
+      "path": "/2/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T16:00:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "primary_family": "pleural_intrapleural_treatment",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "32561",
+              "description": "Instillation, via chest tube/catheter, fibrinolytic agent, first day",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "Therapeutic instillation of tPA/DNase for complex effusion (initial day).",
+              "note_spans": [
+                {
+                  "start": 0,
+                  "end": 0,
+                  "snippet": "Instillation... initial day... 10 mg/5 mg tPA/Dnase"
+                }
+              ]
+            },
+            {
+              "sequence": 2,
+              "code": "76604",
+              "modifier": "26",
+              "description": "Ultrasound, chest, real time with image documentation",
+              "units": 1,
+              "role": "secondary",
+              "selection_status": "selected",
+              "selection_reason": "Diagnostic ultrasound evaluating loculations and echogenicity.",
+              "note_spans": [
+                {
+                  "start": 0,
+                  "end": 0,
+                  "snippet": "CHEST ULTRASOUND FINDINGS... Isoechoic... Thick Loculations"
+                }
+              ]
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_pleural",
+          "rvu_source": "cms_rvus.pleural",
+          "conversion_factor": 32.3562,
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "32561",
+              "units": 1,
+              "work_rvu": 1.39,
+              "total_facility_rvu": 2.09,
+              "mpfs_facility_payment": 68.0,
+              "rvu_source_path": "fee_schedules.physician_2025_pleural.codes.32561"
+            },
+            {
+              "code": "76604",
+              "units": 1,
+              "work_rvu": 0.6,
+              "total_facility_rvu": 0.85,
+              "mpfs_facility_payment": 27.0,
+              "rvu_source_path": "estimated_cms_2025"
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 1.99,
+            "total_facility_rvu": 2.94,
+            "estimated_facility_payment_unadjusted": 95.0
+          }
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "32561",
+              "summary": "Supported by documentation of tPA/DNase instillation via existing tube."
+            },
+            {
+              "code": "76604",
+              "summary": "Supported by documentation of diagnostic findings (complex septated effusion)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "32561",
+            "description": "Instillation, via chest tube/catheter, fibrinolytic agent, first day",
+            "units": 1
+          },
+          {
+            "code": "76604",
+            "modifier": "26",
+            "description": "Ultrasound, chest, real time with image documentation",
+            "units": 1
+          }
+        ],
+        "icd10_codes": [
+          "J86.0"
+        ],
+        "total_rvu": 2.94,
+        "work_rvu": 1.99
+      }
+    },
+    {
+      "op": "add",
+      "path": "/3/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T16:00:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "primary_family": "bronchoscopy_therapeutic",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "31630",
+              "description": "Bronchoscopy; with tracheal/bronchial dilation",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "Highest valued procedure. Balloon dilation at RB2 orifice (RUL).",
+              "note_spans": [
+                {
+                  "start": 0,
+                  "end": 0,
+                  "snippet": "Balloon dilation was performed at RB2 orifice"
+                }
+              ]
+            },
+            {
+              "sequence": 2,
+              "code": "31625",
+              "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)",
+              "units": 1,
+              "role": "secondary",
+              "selection_status": "selected",
+              "selection_reason": "Endobronchial biopsy at Bronchus Intermedius. Distinct from dilation site (RB2).",
+              "note_spans": [
+                {
+                  "start": 0,
+                  "end": 0,
+                  "snippet": "Endobronchial biopsy was performed at Bronchus Intermedius"
+                }
+              ]
+            },
+            {
+              "sequence": 3,
+              "code": "31645",
+              "description": "Bronchoscopy; with therapeutic aspiration of tracheobronchial tree, initial",
+              "units": 1,
+              "role": "secondary",
+              "selection_status": "selected",
+              "selection_reason": "Therapeutic aspiration of mucus from RMS, BI, LMS. Distinct purpose from dilation.",
+              "note_spans": [
+                {
+                  "start": 0,
+                  "end": 0,
+                  "snippet": "Successful therapeutic aspiration... clean out Right Mainstem, Bronchus Intermedius, and Left Mainstem"
+                }
+              ]
+            },
+            {
+              "sequence": 4,
+              "code": "31624",
+              "description": "Bronchoscopy; with bronchoalveolar lavage",
+              "units": 1,
+              "role": "secondary",
+              "selection_status": "selected",
+              "selection_reason": "BAL at RLL. Distinct site from dilation (RB2) and biopsy (BI).",
+              "note_spans": [
+                {
+                  "start": 0,
+                  "end": 0,
+                  "snippet": "Bronchial alveolar lavage was performed at RLL"
+                }
+              ]
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "rvu_source": "cms_rvus.bronchoscopy",
+          "conversion_factor": 32.3562,
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31630",
+              "units": 1,
+              "work_rvu": 3.81,
+              "total_facility_rvu": 6.27,
+              "mpfs_facility_payment": 203.0,
+              "is_primary": true
+            },
+            {
+              "code": "31625",
+              "units": 1,
+              "work_rvu": 3.11,
+              "total_facility_rvu": 4.93,
+              "mpfs_facility_payment": 160.0,
+              "is_primary": false
+            },
+            {
+              "code": "31645",
+              "units": 1,
+              "work_rvu": 2.78,
+              "total_facility_rvu": 4.47,
+              "mpfs_facility_payment": 145.0,
+              "is_primary": false
+            },
+            {
+              "code": "31624",
+              "units": 1,
+              "work_rvu": 2.63,
+              "total_facility_rvu": 4.24,
+              "mpfs_facility_payment": 137.0,
+              "is_primary": false
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 12.33,
+            "total_facility_rvu": 19.91,
+            "estimated_facility_payment_unadjusted": 645.0,
+            "estimated_facility_payment_after_mppr": 424.0
+          },
+          "mppr_assumptions": "Primary 31630 @100%. Others reduced by 50% of difference from base 31622 (Work ~2.53, Facility ~4.20). Estimated Total: $203 + (~$148) + (~$140) + (~$137 - 50% red). Approx $424."
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31630",
+              "summary": "Primary code for balloon dilation of RB2."
+            },
+            {
+              "code": "31625",
+              "summary": "Separate procedure for biopsy of Bronchus Intermedius (distinct from RB2)."
+            },
+            {
+              "code": "31645",
+              "summary": "Therapeutic aspiration of multiple airways for mucus plugging; supported as distinct."
+            },
+            {
+              "code": "31624",
+              "summary": "BAL of RLL; distinct anatomic site from dilation and biopsy."
+            }
+          ],
+          "global_comments": [
+            "Multiple Endoscopy Rule applies. 31630 is primary.",
+            "Stents inspected but not manipulated; no stent codes."
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31630",
+            "description": "Bronchoscopy; with tracheal/bronchial dilation",
+            "units": 1
+          },
+          {
+            "code": "31625",
+            "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)",
+            "units": 1
+          },
+          {
+            "code": "31645",
+            "description": "Bronchoscopy; with therapeutic aspiration of tracheobronchial tree, initial",
+            "units": 1
+          },
+          {
+            "code": "31624",
+            "description": "Bronchoscopy; with bronchoalveolar lavage",
+            "units": 1
+          }
+        ],
+        "icd10_codes": [
+          "J98.09"
+        ],
+        "total_rvu": 19.91,
+        "work_rvu": 12.33
+      }
+    },
+    {
+      "op": "add",
+      "path": "/4/registry_entry/coding_support",
+      "value": {
+        "version": "coding_support.v1",
+        "generated_at": "2025-12-18T16:00:00Z",
+        "generator": "IP-Coder-Patch-GPT",
+        "knowledge_base_version": "ip_coding_billing.v2.9",
+        "coding_summary": {
+          "primary_family": "bronchoscopy_therapeutic_airway_tumor",
+          "lines": [
+            {
+              "sequence": 1,
+              "code": "31641",
+              "modifier": "22",
+              "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method",
+              "units": 1,
+              "role": "primary",
+              "selection_status": "selected",
+              "selection_reason": "Primary ablation of papillomas at multiple sites (larynx, trachea). Modifier 22 for increased complexity supported by note.",
+              "note_spans": [
+                {
+                  "start": 0,
+                  "end": 0,
+                  "snippet": "Endobronchial papillomatous tumors... treated... Cryospray... electro-cautery"
+                }
+              ]
+            },
+            {
+              "sequence": 2,
+              "code": "31630",
+              "description": "Bronchoscopy; with tracheal/bronchial dilation",
+              "units": 1,
+              "role": "secondary",
+              "selection_status": "dropped",
+              "selection_reason": "Bundled: Rigid dilation of proximal trachea is integral to destruction/relief of stenosis (31641) at the same site."
+            },
+            {
+              "sequence": 3,
+              "code": "31625",
+              "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)",
+              "units": 1,
+              "role": "secondary",
+              "selection_status": "dropped",
+              "selection_reason": "Bundled: Biopsy of lesion subsequently destroyed at same session."
+            },
+            {
+              "sequence": 4,
+              "code": "31645",
+              "description": "Bronchoscopy; with therapeutic aspiration of tracheobronchial tree",
+              "units": 1,
+              "role": "secondary",
+              "selection_status": "dropped",
+              "selection_reason": "Bundled: Aspiration of secretions/debris generated during procedure."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "rvu_source": "cms_rvus.bronchoscopy",
+          "conversion_factor": 32.3562,
+          "setting": "facility",
+          "per_code": [
+            {
+              "code": "31641",
+              "units": 1,
+              "work_rvu": 5.25,
+              "total_facility_rvu": 8.4,
+              "mpfs_facility_payment": 272.0,
+              "is_primary": true
+            }
+          ],
+          "totals": {
+            "total_work_rvu": 5.25,
+            "total_facility_rvu": 8.4,
+            "estimated_facility_payment_unadjusted": 272.0
+          },
+          "notes": "Modifier 22 may result in additional payment upon review; base payment shown."
+        },
+        "coding_rationale": {
+          "per_code": [
+            {
+              "code": "31641",
+              "summary": "Primary therapeutic code for multi-modal destruction (cryo, cautery) of papillomas. Modifier 22 justified by extensive work."
+            }
+          ],
+          "global_comments": [
+            "Dilation (31630) and Biopsy (31625) at same site as destruction (31641) are bundled.",
+            "Therapeutic aspiration (31645) integral to debris clearance during destruction."
+          ]
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/4/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31641",
+            "modifier": "22",
+            "description": "Bronchoscopy; with destruction of tumor or relief of stenosis by any method",
+            "units": 1
+          }
+        ],
+        "icd10_codes": [
+          "J98.09"
+        ],
+        "total_rvu": 8.4,
+        "work_rvu": 5.25
+      }
+    }
+  ]

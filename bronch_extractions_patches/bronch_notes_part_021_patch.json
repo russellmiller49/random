@@ -1,0 +1,354 @@
+[
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31652",
+            "description": "Bronchoscopy; with EBUS sampling, 1-2 nodal stations",
+            "units": 1
+          },
+          {
+            "code": "31628",
+            "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+            "units": 1
+          },
+          {
+            "code": "+31632",
+            "description": "Bronchoscopy; with transbronchial lung biopsy(s), each additional lobe (add-on)",
+            "units": 2
+          },
+          {
+            "code": "+31654",
+            "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+            "units": 1
+          }
+        ],
+        "total_rvu": 17.68,
+        "work_rvu": 11.41
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/coding_support",
+      "value": {
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31652",
+              "description": "Bronchoscopy EBUS 1-2 nodes",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Primary EBUS code (4R sampled)."
+            },
+            {
+              "code": "31628",
+              "description": "Bronchoscopy lung biopsy 1 lobe",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Biopsy of LUL nodule."
+            },
+            {
+              "code": "+31632",
+              "description": "Bronchoscopy lung biopsy addl lobe",
+              "units": 2,
+              "selection_status": "selected",
+              "selection_reason": "Biopsies of RUL and RML (research protocol included)."
+            },
+            {
+              "code": "+31654",
+              "description": "Bronchoscopy EBUS peripheral",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Radial EBUS for peripheral LUL nodule."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "totals": {
+            "total_work_rvu": 11.41,
+            "total_facility_rvu": 17.68,
+            "estimated_facility_payment_unadjusted": 572
+          }
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31653",
+            "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+            "units": 1
+          },
+          {
+            "code": "31629",
+            "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s)",
+            "modifier": "XS",
+            "units": 1
+          }
+        ],
+        "total_rvu": 13.59,
+        "work_rvu": 8.71
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/coding_support",
+      "value": {
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy EBUS 3+ nodes",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "EBUS of 4L, 4R, 7, 11R."
+            },
+            {
+              "code": "31629",
+              "description": "Bronchoscopy TBNA",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "TBNA of RML tumor (distinct from EBUS nodes)."
+            },
+            {
+              "code": "31625",
+              "description": "Bronchoscopy biopsy",
+              "selection_status": "dropped",
+              "selection_reason": "Bundled with 31629 (same lesion sampled by needle and forceps)."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "totals": {
+            "total_work_rvu": 8.71,
+            "total_facility_rvu": 13.59,
+            "estimated_facility_payment_unadjusted": 440
+          }
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31653",
+            "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+            "units": 1
+          },
+          {
+            "code": "31628",
+            "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+            "units": 1
+          },
+          {
+            "code": "+31632",
+            "description": "Bronchoscopy; with transbronchial lung biopsy(s), each additional lobe (add-on)",
+            "units": 1
+          },
+          {
+            "code": "31624",
+            "description": "Bronchoscopy; with bronchoalveolar lavage",
+            "units": 1
+          }
+        ],
+        "total_rvu": 19.01,
+        "work_rvu": 12.14
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/coding_support",
+      "value": {
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31653",
+              "description": "Bronchoscopy EBUS 3+ nodes",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "4R, 7, 4L sampled."
+            },
+            {
+              "code": "31628",
+              "description": "Bronchoscopy lung biopsy 1 lobe",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "RML biopsy."
+            },
+            {
+              "code": "+31632",
+              "description": "Bronchoscopy lung biopsy addl lobe",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "RLL biopsy."
+            },
+            {
+              "code": "31624",
+              "description": "Bronchoscopy BAL",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "BAL performed."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "totals": {
+            "total_work_rvu": 12.14,
+            "total_facility_rvu": 19.01,
+            "estimated_facility_payment_unadjusted": 615
+          }
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31629",
+            "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s)",
+            "units": 1
+          },
+          {
+            "code": "31628",
+            "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+            "modifier": "59",
+            "units": 1
+          },
+          {
+            "code": "+31627",
+            "description": "Bronchoscopy; with computer-assisted, image-guided navigation (add-on)",
+            "units": 1
+          },
+          {
+            "code": "+31654",
+            "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+            "units": 1
+          }
+        ],
+        "total_rvu": 16.60,
+        "work_rvu": 10.97
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/coding_support",
+      "value": {
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31629",
+              "description": "Bronchoscopy TBNA",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Needle biopsy of RUL nodule (primary sampling)."
+            },
+            {
+              "code": "31628",
+              "description": "Bronchoscopy lung biopsy 1 lobe",
+              "units": 1,
+              "modifier": "59",
+              "selection_status": "selected",
+              "selection_reason": "Forceps biopsy of RUL nodule (distinct modality/samples)."
+            },
+            {
+              "code": "+31627",
+              "description": "Bronchoscopy navigation",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "SuperDimension navigation used."
+            },
+            {
+              "code": "+31654",
+              "description": "Bronchoscopy EBUS peripheral",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Radial EBUS visualization."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "totals": {
+            "total_work_rvu": 10.97,
+            "total_facility_rvu": 16.60,
+            "estimated_facility_payment_unadjusted": 537
+          }
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/4/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31628",
+            "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+            "units": 1
+          },
+          {
+            "code": "+31654",
+            "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+            "units": 1
+          }
+        ],
+        "total_rvu": 7.64,
+        "work_rvu": 4.95
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/4/registry_entry/coding_support",
+      "value": {
+        "coding_summary": {
+          "lines": [
+            {
+              "code": "31628",
+              "description": "Bronchoscopy lung biopsy 1 lobe",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Forceps biopsy of peripheral nodule."
+            },
+            {
+              "code": "+31654",
+              "description": "Bronchoscopy EBUS peripheral",
+              "units": 1,
+              "selection_status": "selected",
+              "selection_reason": "Radial EBUS localization."
+            },
+            {
+              "code": "31629",
+              "description": "Bronchoscopy TBNA",
+              "selection_status": "dropped",
+              "selection_reason": "Bundled with 31628 (same lesion); user selected 31628."
+            }
+          ]
+        },
+        "financial_analysis": {
+          "calendar_year": 2025,
+          "fee_schedule_name": "physician_2025_airway",
+          "totals": {
+            "total_work_rvu": 4.95,
+            "total_facility_rvu": 7.64,
+            "estimated_facility_payment_unadjusted": 247
+          }
+        }
+      }
+    }
+  ]

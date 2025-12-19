@@ -1,0 +1,189 @@
+[
+    {
+      "op": "add",
+      "path": "/0/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.2.0",
+        "patch_date": "2025-12-18T16:00:00Z",
+        "changes": [
+          "Validated existing coding; 31645 appropriate for mucus plug removal treating respiratory failure."
+        ]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/billing/cpt_codes",
+      "value": [
+        {
+          "code": "31626",
+          "description": "Bronchoscopy; with placement of fiducial markers",
+          "units": 1
+        },
+        {
+          "code": "31629",
+          "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s)",
+          "units": 1
+        },
+        {
+          "code": "31628",
+          "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+          "units": 1,
+          "modifier": "59"
+        },
+        {
+          "code": "+31627",
+          "description": "Bronchoscopy; with computer-assisted, image-guided navigation",
+          "units": 1
+        },
+        {
+          "code": "+31654",
+          "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s)",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/billing/total_rvu",
+      "value": 17.67
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/billing/work_rvu",
+      "value": 11.38
+    },
+    {
+      "op": "add",
+      "path": "/1/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.2.0",
+        "patch_date": "2025-12-18T16:00:00Z",
+        "changes": [
+          "Dropped 31645 (incidental aspiration).",
+          "Retained 31628 and 31629 (distinct targets Lingula vs LUL Anterior, same lobe, 59 justified)."
+        ]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/billing/cpt_codes",
+      "value": [
+        {
+          "code": "31653",
+          "description": "Bronchoscopy; with EBUS sampling, 3 or more nodal stations",
+          "units": 1
+        },
+        {
+          "code": "31626",
+          "description": "Bronchoscopy; with placement of fiducial markers",
+          "units": 1
+        },
+        {
+          "code": "31629",
+          "description": "Bronchoscopy; with transbronchial needle aspiration biopsy(s) (Navigated RLL)",
+          "units": 1,
+          "modifier": "59"
+        },
+        {
+          "code": "+31627",
+          "description": "Bronchoscopy; with computer-assisted, image-guided navigation (add-on)",
+          "units": 1
+        },
+        {
+          "code": "+31654",
+          "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/billing/total_rvu",
+      "value": 25.01
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/billing/work_rvu",
+      "value": 14.29
+    },
+    {
+      "op": "add",
+      "path": "/2/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.2.0",
+        "patch_date": "2025-12-18T16:00:00Z",
+        "changes": [
+          "Dropped 31628, 31623, 31624 (bundled into 31629 for same RLL lesion).",
+          "Dropped 31645 (incidental)."
+        ]
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/billing/cpt_codes",
+      "value": [
+        {
+          "code": "31652",
+          "description": "Bronchoscopy; with EBUS sampling, 1-2 nodal stations",
+          "units": 1
+        },
+        {
+          "code": "31628",
+          "description": "Bronchoscopy; with transbronchial lung biopsy(s), single lobe",
+          "units": 1
+        },
+        {
+          "code": "31625",
+          "description": "Bronchoscopy; with bronchial or endobronchial biopsy(s)",
+          "units": 1
+        },
+        {
+          "code": "31624",
+          "description": "Bronchoscopy; with bronchoalveolar lavage",
+          "units": 1
+        },
+        {
+          "code": "+31654",
+          "description": "EBUS for peripheral lesion(s) during bronchoscopic intervention(s) (add-on)",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/billing/total_rvu",
+      "value": 23.77
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/billing/work_rvu",
+      "value": 15.15
+    },
+    {
+      "op": "add",
+      "path": "/3/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.2.0",
+        "patch_date": "2025-12-18T16:00:00Z",
+        "changes": [
+          "Dropped 31645 (incidental airway clearance)."
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/4/patch_metadata",
+      "value": {
+        "patched": true,
+        "patch_version": "1.2.0",
+        "patch_date": "2025-12-18T16:00:00Z",
+        "changes": [
+          "Verified 32561 for initial day fibrinolysis."
+        ]
+      }
+    }
+  ]

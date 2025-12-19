@@ -1,0 +1,20 @@
+[
+  { "op": "remove", "path": "/18/registry_entry/billing/cpt_codes/1" },
+  { "op": "remove", "path": "/19/registry_entry/billing/cpt_codes/1" },
+  { "op": "remove", "path": "/20/registry_entry/billing/cpt_codes/1" },
+  { "op": "remove", "path": "/21/registry_entry/billing/cpt_codes/1" },
+  { "op": "remove", "path": "/22/registry_entry/billing/cpt_codes/1" },
+  { "op": "remove", "path": "/23/registry_entry/billing/cpt_codes/1" },
+  { "op": "remove", "path": "/24/registry_entry/billing/cpt_codes/1" },
+  { "op": "remove", "path": "/25/registry_entry/billing/cpt_codes/1" },
+  { "op": "remove", "path": "/26/registry_entry/billing/cpt_codes/1" },
+  { "op": "remove", "path": "/27/registry_entry/billing/cpt_codes/1" },
+  { "op": "remove", "path": "/28/registry_entry/billing/cpt_codes/1" },
+  { "op": "remove", "path": "/29/registry_entry/billing/cpt_codes/1" },
+  { "op": "remove", "path": "/30/registry_entry/billing/cpt_codes/1" },
+  { "op": "remove", "path": "/31/registry_entry/billing/cpt_codes/1" },
+  { "op": "remove", "path": "/32/registry_entry/billing/cpt_codes/1" },
+  { "op": "remove", "path": "/33/registry_entry/billing/cpt_codes/1" },
+  { "op": "remove", "path": "/34/registry_entry/billing/cpt_codes/1" },
+  { "op": "remove", "path": "/35/registry_entry/billing/cpt_codes/1" }
+]

@@ -1,0 +1,252 @@
+[
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31631",
+            "description": "Bronchoscopy, rigid or flexible; with placement of tracheal stent(s)",
+            "units": 1,
+            "modifier": null,
+            "modifiers": []
+          }
+        ],
+        "icd10_codes": [
+          "J39.8"
+        ],
+        "total_rvu": 7.15,
+        "work_rvu": 4.36,
+        "practice_expense_rvu": 2.31,
+        "malpractice_rvu": 0.48
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/0/registry_entry/coding_support/financial_analysis",
+      "value": {
+        "calendar_year": 2025,
+        "fee_schedule_name": "physician_2025_airway",
+        "setting": "facility",
+        "conversion_factor": 32.3562,
+        "per_code": [
+          {
+            "code": "31631",
+            "units": 1,
+            "work_rvu": 4.36,
+            "total_facility_rvu": 7.15,
+            "mpfs_facility_payment": 231
+          }
+        ],
+        "totals": {
+          "total_work_rvu": 4.36,
+          "total_facility_rvu": 7.15,
+          "estimated_facility_payment_unadjusted": 231
+        }
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31631",
+            "description": "Bronchoscopy, rigid or flexible; with placement of tracheal stent(s)",
+            "units": 1,
+            "modifier": null,
+            "modifiers": []
+          },
+          {
+            "code": "31625",
+            "description": "Bronchoscopy, rigid or flexible; with bronchial or endobronchial biopsy(s)",
+            "units": 1,
+            "modifier": "59",
+            "modifiers": [
+              "59"
+            ]
+          }
+        ],
+        "icd10_codes": [
+          "J86.0",
+          "C33",
+          "J95.04",
+          "J39.8"
+        ],
+        "total_rvu": 12.08,
+        "work_rvu": 7.47,
+        "practice_expense_rvu": 3.78,
+        "malpractice_rvu": 0.83
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/1/registry_entry/coding_support/financial_analysis",
+      "value": {
+        "calendar_year": 2025,
+        "fee_schedule_name": "physician_2025_airway",
+        "setting": "facility",
+        "conversion_factor": 32.3562,
+        "per_code": [
+          {
+            "code": "31631",
+            "units": 1,
+            "work_rvu": 4.36,
+            "total_facility_rvu": 7.15,
+            "mpfs_facility_payment": 231,
+            "is_primary": true
+          },
+          {
+            "code": "31625",
+            "units": 1,
+            "work_rvu": 3.11,
+            "total_facility_rvu": 4.93,
+            "mpfs_facility_payment": 160,
+            "is_primary": false
+          }
+        ],
+        "totals": {
+          "total_work_rvu": 7.47,
+          "total_facility_rvu": 12.08,
+          "estimated_facility_payment_unadjusted": 391,
+          "estimated_facility_payment_after_mppr": 311
+        },
+        "mppr_assumptions": "Endoscopy family reduction (base 31622) applied to secondary code."
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31635",
+            "description": "Bronchoscopy, rigid or flexible; with removal of foreign body",
+            "units": 1,
+            "modifier": null,
+            "modifiers": []
+          },
+          {
+            "code": "31645",
+            "description": "Bronchoscopy, rigid or flexible; with therapeutic aspiration of tracheobronchial tree, initial",
+            "units": 1,
+            "modifier": "59",
+            "modifiers": [
+              "59"
+            ]
+          }
+        ],
+        "icd10_codes": [
+          "T85.628A",
+          "J18.9",
+          "C15.9",
+          "J39.8"
+        ],
+        "total_rvu": 10.01,
+        "work_rvu": 6.2,
+        "practice_expense_rvu": 3.11,
+        "malpractice_rvu": 0.7
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/2/registry_entry/coding_support/financial_analysis",
+      "value": {
+        "calendar_year": 2025,
+        "fee_schedule_name": "physician_2025_airway",
+        "setting": "facility",
+        "conversion_factor": 32.3562,
+        "per_code": [
+          {
+            "code": "31635",
+            "units": 1,
+            "work_rvu": 3.42,
+            "total_facility_rvu": 5.54,
+            "mpfs_facility_payment": 179,
+            "is_primary": true
+          },
+          {
+            "code": "31645",
+            "units": 1,
+            "work_rvu": 2.78,
+            "total_facility_rvu": 4.47,
+            "mpfs_facility_payment": 145,
+            "is_primary": false
+          }
+        ],
+        "totals": {
+          "total_work_rvu": 6.2,
+          "total_facility_rvu": 10.01,
+          "estimated_facility_payment_unadjusted": 324,
+          "estimated_facility_payment_after_mppr": 310.5
+        },
+        "mppr_assumptions": "Endoscopy family reduction applied to 31645 (Difference from 31622 base)."
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/billing",
+      "value": {
+        "cpt_codes": [
+          {
+            "code": "31641",
+            "description": "Bronchoscopy, rigid or flexible; with tumor destruction or relief of stenosis by any method",
+            "units": 1,
+            "modifier": null,
+            "modifiers": []
+          },
+          {
+            "code": "31635",
+            "description": "Bronchoscopy, rigid or flexible; with removal of foreign body",
+            "units": 1,
+            "modifier": "59",
+            "modifiers": [
+              "59"
+            ]
+          }
+        ],
+        "icd10_codes": [
+          "J39.8"
+        ],
+        "total_rvu": 13.94,
+        "work_rvu": 8.67,
+        "practice_expense_rvu": 4.34,
+        "malpractice_rvu": 0.93
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/3/registry_entry/coding_support/financial_analysis",
+      "value": {
+        "calendar_year": 2025,
+        "fee_schedule_name": "physician_2025_airway",
+        "setting": "facility",
+        "conversion_factor": 32.3562,
+        "per_code": [
+          {
+            "code": "31641",
+            "units": 1,
+            "work_rvu": 5.25,
+            "total_facility_rvu": 8.4,
+            "mpfs_facility_payment": 272,
+            "is_primary": true
+          },
+          {
+            "code": "31635",
+            "units": 1,
+            "work_rvu": 3.42,
+            "total_facility_rvu": 5.54,
+            "mpfs_facility_payment": 179,
+            "is_primary": false
+          }
+        ],
+        "totals": {
+          "total_work_rvu": 8.67,
+          "total_facility_rvu": 13.94,
+          "estimated_facility_payment_unadjusted": 451,
+          "estimated_facility_payment_after_mppr": 383.5
+        },
+        "mppr_assumptions": "Endoscopy family reduction applied to secondary code."
+      }
+    }
+  ]

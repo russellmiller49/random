@@ -1,0 +1,82 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/1/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/2/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/3/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/4/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/5/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/6/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/7/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/8/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/9/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/10/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/11/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/12/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/13/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/14/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  },
+  {
+    "op": "replace",
+    "path": "/15/registry_entry/procedures_performed/airway_dilation/performed",
+    "value": false
+  }
+]

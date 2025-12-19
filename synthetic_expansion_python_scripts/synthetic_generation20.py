@@ -4,160 +4,125 @@ import datetime
 import copy
 from pathlib import Path
 
-# Source file for JSON elements
-SOURCE_FILE = "consolidated_verified_notes_v2_8_part_020.json"
+# Source file containing the original verified notes
+SOURCE_FILE = "bronch_extractions_patched/bronch_notes_part_020.json"
+# Output directory for the synthetic file
 OUTPUT_DIR = "Synthetic_expansions"
 
 def generate_random_date(start_year, end_year):
+    """Generates a random date within the specified years."""
     start = datetime.date(start_year, 1, 1)
     end = datetime.date(end_year, 12, 31)
     return start + (end - start) * random.random()
 
-def get_base_data_mocks():
-    """
-    Returns mock names for the 10 patients in the source file.
-    Indexes 0-9 correspond to the notes in consolidated_verified_notes_v2_8_part_020.json
-    """
-    return [
-        # Note 0: David Brown (EMN LUL)
-        {"idx": 0, "orig_age": 59, "names": ["James Miller", "Robert Chen", "William Baker", "Thomas Clark", "David Wilson", "Richard Lee", "Joseph Hall", "Charles Allen", "Christopher Young"]},
-        # Note 1: Angela White (Robotic RML + Pneumo)
-        {"idx": 1, "orig_age": 63, "names": ["Patricia Davis", "Linda Martinez", "Barbara Taylor", "Elizabeth Anderson", "Jennifer White", "Maria Garcia", "Susan Robinson", "Margaret Wright", "Dorothy King"]},
-        # Note 2: Michael Green (Rigid Tracheal Stent)
-        {"idx": 2, "orig_age": 72, "names": ["John Scott", "James Green", "Robert Adams", "Michael Nelson", "William Hill", "David Carter", "Richard Mitchell", "Joseph Perez", "Thomas Roberts"]},
-        # Note 3: Linda Davis (Rigid LMS Stent)
-        {"idx": 3, "orig_age": 69, "names": ["Mary Turner", "Patricia Phillips", "Linda Campbell", "Barbara Parker", "Elizabeth Evans", "Jennifer Edwards", "Maria Collins", "Susan Stewart", "Margaret Sanchez"]},
-        # Note 4: Samuel Ortiz (Flex Cryo RMS)
-        {"idx": 4, "orig_age": 55, "names": ["Charles Morris", "Christopher Rogers", "Daniel Reed", "Matthew Cook", "Anthony Morgan", "Donald Bell", "Mark Murphy", "Paul Bailey", "Steven Rivera"]},
-        # Note 5: Karen Young (BLVR LUL Zephyr)
-        {"idx": 5, "orig_age": 68, "names": ["Nancy Cooper", "Karen Richardson", "Lisa Cox", "Betty Howard", "Helen Ward", "Sandra Torres", "Donna Peterson", "Carol Gray", "Ruth Ramirez"]},
-        # Note 6: Thomas Baker (BLVR RUL Spiration)
-        {"idx": 6, "orig_age": 61, "names": ["George James", "Kenneth Watson", "Andrew Brooks", "Edward Kelly", "Joshua Sanders", "Brian Price", "Kevin Bennett", "Ronald Wood", "Timothy Barnes"]},
-        # Note 7: Emily Rogers (BLVR LLL Zephyr)
-        {"idx": 7, "orig_age": 70, "names": ["Sharon Ross", "Michelle Henderson", "Laura Coleman", "Sarah Jenkins", "Kimberly Perry", "Deborah Powell", "Jessica Long", "Shirley Patterson", "Cynthia Hughes"]},
-        # Note 8: Brian Scott (WLL Left)
-        {"idx": 8, "orig_age": 42, "names": ["Jason Flores", "Jeffrey Washington", "Ryan Butler", "Jacob Simmons", "Gary Foster", "Nicholas Gonzales", "Eric Bryant", "Stephen Alexander", "Larry Russell"]},
-        # Note 9: Olivia Perez (WLL Right)
-        {"idx": 9, "orig_age": 37, "names": ["Melissa Griffin", "Brenda Diaz", "Amy Hayes", "Anna Myers", "Rebecca Ford", "Virginia Hamilton", "Kathleen Graham", "Pamela Sullivan", "Martha Wallace"]}
-    ]
-
 def get_variations():
     """
-    Contains the 9 stylistic variations for each of the 10 notes in Part 020.
+    Returns a dictionary of manually crafted text variations.
+    Structure: Note_Index (0-4) -> Style_Index (1-9) -> Text
+    
+    Styles:
+    1. Terse Surgeon
+    2. Academic Attending
+    3. Billing Coder
+    4. Trainee/Resident
+    5. Sloppy Dictation
+    6. Header-less
+    7. Templated
+    8. Narrative Flow
+    9. Synonym Swapper
     """
+    
     variations = {
-        0: { # David Brown: EMN/Radial EBUS LUL
-            1: "Procedure: EMN bronchoscopy LUL.\n- SuperDimension nav used.\n- Radial EBUS: eccentric view.\n- 5 forceps biopsies, 2 brushes taken.\n- Fluoroscopy confirmed tool position.\n- Complications: Minor bleeding, stopped w/ ice/epi.\n- Plan: Discharge home.",
-            2: "Operative Report: The patient underwent electromagnetic navigation bronchoscopy utilizing the SuperDimension system. A 22 mm nodule in the left upper lobe was targeted. CT-to-body divergence was minimal (4 mm). Radial endobronchial ultrasound interrogation revealed an eccentric signature consistent with a solid lesion. Transbronchial sampling was performed via forceps and cytology brush under fluoroscopic guidance. Rapid on-site evaluation was suspicious for malignancy.",
-            3: "Coding Data: Bronchoscopy with EMN (31627) and Radial EBUS (31654). Diagnostic transbronchial biopsy (31628) performed on a single lesion in the Left Upper Lobe. Navigation required for peripheral access; registration error 4mm. Fluoroscopic guidance utilized. ROSE services utilized.",
-            4: "Resident Procedure Note\nAttending: Dr. Hart\nPt: 59M, LUL nodule.\n1. Time out.\n2. EMN mapping (SuperDimension).\n3. Navigated to LUL target.\n4. REBUS showed eccentric view.\n5. Biopsies x5 and brush x2 obtained.\n6. ROSE: Suspicious.\n7. Pt tolerated well, reversed w/ Naloxone.",
-            5: "we did the nav bronch on mr brown today for that lul spot using superdimension it went okay registration was like 4mm off. radial ebus showed the lesion eccentric view took 5 bites with forceps and 2 brushes rose guy said it looked bad maybe cancer. little bit of bleeding used ice saline. had to give naloxone at the end cause he was sleepy.",
-            6: "Electromagnetic navigational bronchoscopy with radial EBUS and fluoroscopic guidance was performed for a left upper lobe nodule. The SuperDimension platform was used with CT-based planning. Registration error was 4 mm. Radial EBUS showed an eccentric view of the solid lesion. Five forceps biopsies and two brushings were performed. Minor bleeding was controlled with iced saline. ROSE was suspicious for malignancy. The patient was reversed with Naloxone and discharged.",
-            7: "[Indication]\n22 mm PET-avid LUL nodule.\n[Anesthesia]\nModerate sedation (Versed/Fentanyl).\n[Description]\nSuperDimension EMN used to navigate to LUL. Radial EBUS: Eccentric view. Fluoroscopy confirmed position. 5 TBBx and 2 brushes collected. ROSE positive for atypia.\n[Plan]\nDischarge. Follow up Oncology.",
-            8: "The patient was brought to the bronchoscopy suite for evaluation of a left upper lobe nodule. After inducing moderate sedation, the SuperDimension electromagnetic navigation system was employed to reach the target. We obtained an eccentric view on radial EBUS. Subsequently, five forceps biopsies and two brushings were taken under fluoroscopic visualization. Although there was minor bleeding, it was easily controlled. Preliminary pathology suggests malignancy.",
-            9: "Technique: Electromagnetic guidance with radial ultrasound for sampling of a LUL mass.\nSubject: 59-year-old male.\nDetails: Navigated to the lesion using SuperDimension. Acquired an eccentric ultrasound signal. Harvested 5 tissue samples and 2 brushings. Bleeding was halted with vasoconstrictors. Pathology indicates carcinoma."
+        0: { # Note 0: RLL Tumor Debulking (Snare + APC)
+            1: "Indication: Metastatic RLL airway obstruction.\nAnesthesia: General, ETT.\nProcedure:\n- Exam: Normal left side. RLL polypoid tumor obstructing basilar segments.\n- Action: Snare resection performed. APC applied to base for hemostasis.\n- Toileting: Purulent distal secretions suctioned.\nResult: 90% patency achieved.\nPlan: PACU.",
+            2: "OPERATIVE REPORT: The patient presented with widely metastatic disease complicated by an endobronchial component. Under general anesthesia, rigid inspection of the tracheobronchial tree revealed a polypoid neoplasm occluding the anterior, lateral, and posterior basilar segments of the right lower lobe. Mechanical debulking was executed utilizing an electrocautery snare. Subsequent thermal ablation via Argon Plasma Coagulation (APC) was applied to the tumor base to ensure hemostasis. Post-obstructive purulence was evacuated via therapeutic aspiration. Re-establishment of lobar patency to approximately 90% was confirmed.",
+            3: "Procedures Performed: Bronchoscopy with tumor destruction (CPT 31641) and therapeutic aspiration (CPT 31645).\nDetails: The RLL tumor was identified. Primary destruction was achieved using a combination of electrocautery snare and non-contact APC ablation (31641). Following tumor removal, distinct therapeutic aspiration was required to clear copious purulent secretions from the distal airways (31645). Hemostasis was confirmed.",
+            4: "Procedure Note\nAttending: [Name]\nResident: [Name]\nIndication: RLL mass.\nSteps:\n1. Time out performed.\n2. ETT placed.\n3. Scope advanced to RLL.\n4. Tumor visualized blocking basilar segments.\n5. Snare used to remove tumor.\n6. APC used to burn base.\n7. Suctioned pus from behind the blockage.\n8. Scope removed. No complications.",
+            5: "procedure note for rll tumor removal patient under general anesthesia used the olympus scope saw the tumor in the right lower lobe blocking the segments used the snare to cut it out and then apc to stop the bleeding sucked out a bunch of pus from behind it looks about 90 percent open now no complications send to recovery.",
+            6: "The patient was placed under general anesthesia and intubated. We inserted the bronchoscope and examined the airways. The left side was clear. In the right lower lobe, a polypoid tumor was found obstructing the basilar segments. We used an electrocautery snare to resect the lesion and then applied APC to the base for cauterization. We also performed therapeutic suctioning of purulent secretions found distally. The airway is now patent.",
+            7: "[Indication]\nEndobronchial nodule, metastatic disease.\n[Anesthesia]\nGeneral, ETT.\n[Description]\nRLL tumor obstructing basilar segments identified. Lesion removed via electrocautery snare. Base treated with APC. Purulent secretions aspirated.\n[Plan]\nTransfer to PACU. Discharge pending criteria.",
+            8: "The patient was brought to the bronchoscopy suite and placed under general anesthesia. We introduced the bronchoscope through the endotracheal tube. Upon reaching the right lower lobe, we identified a polypoid tumor that was obstructing the anterior, lateral, and posterior basilar segments. We successfully removed the mass using an electrocautery snare. Following removal, we used APC to cauterize the base of the lesion. We also noted and removed purulent secretions from the distal airways. The procedure concluded with the airway largely patent.",
+            9: "Procedure: Bronchoscopic resection and ablation.\nTechnique: The endobronchial mass in the RLL was excised using a hot loop. The attachment site was coagulated with argon plasma. Post-obstructive exudate was aspirated from the distal bronchi. The lumen was restored to 90% caliber."
         },
-        1: { # Angela White: Robotic RML + Pneumothorax
-            1: "Procedure: Robotic bronch (Monarch) RML nodule.\n- Radial EBUS: concentric.\n- Cryobiopsy x4, Forceps x4.\n- ROSE: Adenocarcinoma.\n- Complication: Pneumothorax.\n- Action: Pigtail chest tube placed.\n- Plan: Admit for chest tube management.",
-            2: "Procedural Narrative: The patient underwent Monarch robotic-assisted bronchoscopy targeting a 14 mm RML lesion. Upon navigation, a concentric radial EBUS view was achieved. Confirmatory cone-beam CT verified tool-in-lesion status. Sampling via cryoprobe and forceps yielded tissue consistent with metastatic adenocarcinoma. Post-procedural imaging revealed a right apical pneumothorax, necessitating the insertion of a pigtail catheter connected to water seal.",
-            3: "Billable Services: 31627 (Nav), 31654 (REBUS), 31629 (Robotic/Nav Biopsy), 31645 (Cryobiopsy initial lobe). Target: RML. Modality: Robotic Bronchoscopy with Cone Beam CT. Complication managed: Chest tube placement (separate service). Diagnosis: Malignant neoplasm.",
-            4: "Procedure: Robotic Bronchoscopy (RML)\nSteps:\n1. General Anesthesia.\n2. Monarch robot navigated to RML.\n3. REBUS concentric view.\n4. Cone beam CT spin.\n5. 4 cryo biopsies, 4 forceps biopsies.\n6. Complication: Pneumothorax on post-op film. Pigtail placed.\nPlan: Admit to floor.",
-            5: "procedure note for angela white we used the monarch robot to get to that rml nodule 14mm. radial ebus was concentric which is good. did cone beam to check. took 4 cryo and 4 forceps biopsies rose looks like adeno. unfortunately she popped a lung small pneumo so we put in a pigtail chest tube. admitting her for observation.",
-            6: "Monarch robotic-assisted navigational bronchoscopy with radial EBUS, cryobiopsy, and forceps biopsies of a right middle lobe nodule was performed. The patient is a 63-year-old female. Navigation to the RML was successful with a concentric REBUS view. Cone-beam CT confirmed tool-in-lesion. Sampling with cryoprobe and forceps was performed. A small right apical pneumothorax was noted post-procedure requiring pigtail chest tube placement. The patient was admitted.",
-            7: "[Indication]\n14 mm PET-avid RML nodule.\n[Anesthesia]\nGeneral endotracheal anesthesia.\n[Description]\nMonarch robotic navigation to RML. REBUS concentric. CBCT confirmation. Cryobiopsy x4 and Forceps x4 performed. Diagnosis: Adenocarcinoma.\n[Complication]\nPneumothorax requiring chest tube.\n[Plan]\nAdmit to telemetry.",
-            8: "Under general anesthesia, we utilized the Monarch robotic platform to navigate to a nodule in the right middle lobe. A concentric view was visualized on radial EBUS, and placement was verified via cone-beam CT. We proceeded to take four cryobiopsies and four standard forceps biopsies. While bleeding was mild, a post-procedure chest x-ray revealed a pneumothorax. A pigtail chest tube was inserted without difficulty, and the patient was admitted for monitoring.",
-            9: "Operation: Robotic-guided sampling of RML mass.\nTechnique: Utilized Monarch system. Validated location with cone-beam imaging. Extracted tissue using cryoprobe and forceps. \nAdverse Event: Lung collapse (pneumothorax) detected subsequently; managed via thoracic catheter insertion.\nOutcome: Tissue analysis indicates malignancy."
+        1: { # Note 1: BPF Glue Instillation
+            1: "Dx: Post-pneumonectomy BPF.\nAnesthesia: GA, 8.5 ETT.\nFindings: Right tree normal. Left stump has pinpoint fistula.\nAction: Glue applied via Veno-seal catheter.\nResult: Fistula sealed visually.\n complications: None.",
+            2: "OPERATIVE NARRATIVE: The patient, status post-pneumonectomy, presented with a broncho-pleural fistula. Following induction of general anesthesia and placement of an 8.5 mm endotracheal tube, the airway was inspected. The right hemithorax was unremarkable. Examination of the left mainstem stump revealed a pinpoint fistulous tract. A Veno-seal delivery catheter was navigated to the site, and cyanoacrylate sealant was instilled. Visual confirmation suggested successful occlusion of the defect without propagation of the fistula.",
+            3: "Service: Bronchoscopy (CPT 31622). Note: Therapeutic intervention (glue) performed but billed as diagnostic due to coding limitations.\nFindings: Visualization of left mainstem bronchial stump revealed a pinpoint broncho-pleural fistula.\nIntervention: Endobronchial glue instillation using Veno-seal system. Fistula sealed. Right airways inspected and normal.",
+            4: "Resident Note\nIndication: BPF.\nStaff: Dr. X.\nSteps:\n1. Patient intubated (8.5 ETT).\n2. Scope introduced.\n3. Checked right side - normal.\n4. Looked at left stump - saw pinpoint leak.\n5. Passed glue catheter.\n6. Applied glue to hole.\n7. Looks sealed.\nPlan: Monitor.",
+            5: "bpf closure procedure patient intubated with 8.5 tube went down with the q190 scope right side looked fine went to the left stump saw the small fistula hole used the veno seal thing to put glue in it looks like it closed up fine no bleeding extubated.",
+            6: "The patient was intubated and the bronchoscope was inserted. We examined the right bronchial tree which was normal. On the left, we visualized the post-pneumonectomy stump and identified a pinpoint broncho-pleural fistula. We advanced a catheter through the working channel and applied tissue glue to the fistula. The defect appeared to be sealed successfully. The scope was withdrawn.",
+            7: "[Indication]\nPost-pneumonectomy broncho-pleural fistula.\n[Anesthesia]\nGeneral, 8.5 ETT.\n[Description]\nRight airways normal. Left stump visualized with pinpoint fistula. Sealed with endobronchial glue via Veno-seal catheter.\n[Plan]\nObserve.",
+            8: "We proceeded with the bronchoscopy to address the patient's post-pneumonectomy fistula. After establishing an airway with an 8.5 ETT, we navigated the bronchoscope to the carina. The right lung was clear. We carefully inspected the left stump and found a small, pinpoint fistula. Using the Veno-seal system, we applied glue directly to the defect. The fistula appeared to close completely upon inspection.",
+            9: "Procedure: Bronchoscopy with sealant application.\nTarget: Left mainstem stump.\nFindings: Dehiscence/Fistula noted.\nIntervention: Tissue adhesive was deployed via catheter to obturate the tract. Complete occlusion was achieved."
         },
-        2: { # Michael Green: Rigid Tracheal Stent
-            1: "Procedure: Rigid bronch, debulking, stenting.\n- Lesion: Distal trachea/carina (90% occlusion).\n- Action: Mechanical coring, APC.\n- Stent: 14x50mm Silicone (Dumon) Y-stent equivalent placement.\n- Result: <10% residual obstruction.\n- Plan: Keep intubated, ICU.",
-            2: "Operative Summary: The patient presented with critical central airway obstruction due to a distal tracheal tumor involving the carina. Rigid bronchoscopy (size 12) was employed. The exophytic mass was mechanically debrided and cauterized with Argon Plasma Coagulation. Following recanalization, a 14 x 50 mm silicone straight stent was deployed to maintain patency across the carinal involvements. The patient was transferred to the ICU intubated.",
-            3: "Codes: 31641 (Tumor destruction/debulking), 31631 (Tracheal stent), 31636 (Bronchial stent - Y stent extension). Indication: Malignant central airway obstruction (90%). Technique: Rigid bronchoscopy with mechanical coring and APC. Device: Silicone stent spanning trachea and mainstem.",
-            4: "Resident Note: Rigid Bronchoscopy\nIndication: Tracheal tumor.\n1. Induction GA, Rigid #12 inserted.\n2. Mass at distal trachea/carina coring out.\n3. APC used for hemostasis.\n4. Silicone stent 14x50mm placed.\n5. Airway patent at end.\nPlan: ICU, mechanical ventilation.",
-            5: "rigid bronch on mr green for that big tracheal tumor choking him off. we cored it out with the barrel and used some apc. bleeding was about 50cc. put in a silicone stent 14 by 50 to keep it open. blood pressure dropped a bit on induction but he's fine now. sending to icu still on the vent.",
-            6: "Rigid bronchoscopy with mechanical debulking, Argon plasma coagulation, and Silicone stent placement was performed for a 72-year-old male with distal tracheal tumor. There was 90 percent obstruction. Mechanical coring and APC reduced obstruction to less than 10 percent. A 14 x 50 mm silicone stent was placed. Transient hypotension occurred during induction. The patient remained intubated and was transferred to the ICU.",
-            7: "[Indication]\nCritical central airway obstruction (Trachea/Carina).\n[Anesthesia]\nGeneral, Rigid Bronchoscope #12.\n[Description]\nMechanical debulking and APC of exophytic tumor. 14x50mm Silicone stent deployed.\n[Plan]\nICU admission, remain intubated.",
-            8: "We performed a therapeutic rigid bronchoscopy to relieve a 90% obstruction in the distal trachea and carina. Using the rigid barrel, we mechanically cored out the tumor and applied argon plasma coagulation to the base. Once the airway was patent, we deployed a 14 x 50 mm silicone stent to bridge the distal trachea and main carina. The patient tolerated the procedure with only transient hypotension and was transferred to the ICU for ongoing care.",
-            9: "Intervention: Rigid airway recanalization and stenting.\nTarget: Distal tracheal malignancy.\nMethod: Physical debulking via rigid scope and thermal ablation (APC). Implanted a silicone prosthesis (14x50mm).\nResult: Luminal patency restored. \nDisposition: Critical care unit."
+        2: { # Note 2: EBUS + LUL Peripheral Biopsy (Microforceps)
+            1: "Indication: Lung nodule.\nAnesthesia: LMA, Propofol.\nEBUS: Station 7 sampled (benign).\nPeripheral: LUL Apical-posterior nodule found with ultrathin scope.\nBiopsy: Microforceps x1. ROSE: Malignant.\n complications: None.",
+            2: "PROCEDURE: Combined EBUS-TBNA and peripheral bronchoscopy.\nNARRATIVE: The airway was secured with an LMA. A convex probe EBUS was utilized to survey the mediastinum; station 7 met sampling criteria and was aspirated, yielding benign lymphocytes. An ultrathin bronchoscope (PX190) was then navigated to the left upper lobe apical-posterior segment. The target nodule was identified visually. Micro-forceps biopsies were obtained. Rapid On-Site Evaluation (ROSE) confirmed malignancy. Hemostasis was secured.",
+            3: "Codes: 31652 (EBUS 1 station), 31625 (Bronchial biopsy).\nDetails:\n1. EBUS-TBNA: Station 7 sampled with 22G needle (1 station).\n2. Endobronchial Biopsy: Ultrathin scope navigated to LUL Apical-posterior segment. Lesion visualized. Biopsy performed with micro-forceps (31625).\nPathology: Cytology sent; ROSE positive for malignancy.",
+            4: "Procedure: EBUS + Biopsy\nPatient: [Name]\nSteps:\n1. LMA placed.\n2. White light exam normal.\n3. EBUS scope in. Sampled station 7.\n4. Switched to ultrathin scope.\n5. Went to LUL apico-posterior.\n6. Saw nodule.\n7. Biopsied with little forceps.\n8. Path said cancer.\nPlan: Oncology referral.",
+            5: "ebus and biopsy for lung nodule propofol sedation lma used. checked airways first normal. did ebus on station 7 got some lymph nodes benign. switched to the thin scope went to the left upper lobe found the nodule in the apical posterior segment took bites with the micro forceps rose said cancer no bleeding procedure done.",
+            6: "We placed an LMA and started with a standard airway inspection which was unremarkable. We then used the EBUS scope to sample station 7. The cytology was benign. We switched to the PX190 ultrathin scope and navigated to the LUL apical-posterior segment. We saw the nodule and biopsied it with micro-forceps. The pathologist confirmed malignancy in the room. No complications.",
+            7: "[Indication]\nPulmonary nodule staging.\n[Anesthesia]\nPropofol, LMA.\n[Description]\nEBUS-TBNA of Station 7 (Benign). Ultrathin bronchoscopy to LUL Apical-posterior segment. Nodule visualized. Micro-forceps biopsy performed (Malignant).\n[Plan]\nAwait final path.",
+            8: "The patient underwent a diagnostic bronchoscopy for a lung nodule. We used an LMA for the airway. First, we performed EBUS staging, sampling station 7, which appeared benign. We then exchanged scopes for an ultrathin video bronchoscope. Navigating into the left upper lobe, we visually located the nodule in the apical-posterior segment. Using micro-forceps, we obtained tissue samples which were confirmed as malignant by the on-site pathologist.",
+            9: "Procedure: EBUS and peripheral sampling.\nTarget: Station 7 and LUL lesion.\nAction: Station 7 aspirated. LUL apical-posterior nodule identified via ultrathin scope. Lesion sampled with micro-forceps.\nResult: Nodal station benign; lung lesion malignant."
         },
-        3: { # Linda Davis: Rigid LMS Stent
-            1: "Procedure: Rigid bronch, LMS debulking, SEMS placement.\n- Findings: LMS 100% occluded by tumor.\n- Action: Mechanical debulking + APC.\n- Stent: 12x40mm Covered SEMS in LMS.\n- Result: Lung re-expanded.\n- Plan: PACU, extubated.",
-            2: "Procedure Note: Ms. Davis underwent rigid bronchoscopy for a complete malignant obstruction of the left mainstem bronchus. The lesion was friable and occlusive. Mechanical recanalization was achieved via the rigid barrel and forceps, supplemented by APC. To prevent restenosis, a 12 x 40 mm covered self-expanding metallic stent (SEMS) was deployed under fluoroscopic guidance. Post-operative imaging confirmed left lung re-expansion.",
-            3: "Billing: 31641 (Destruction of tumor), 31636 (Stent placement, bronchial). Location: Left Mainstem Bronchus. Devices: Covered SEMS 12x40mm. Technique: Rigid bronchoscopy with jet ventilation. Fluoroscopy utilized for stent deployment.",
-            4: "Procedure: Rigid Bronchoscopy w/ Stent\nPt: Linda Davis, 69F.\n1. Rigid scope #11 passed.\n2. LMS completely blocked.\n3. Debulked with suction/forceps/APC.\n4. 12x40mm covered metal stent placed.\n5. CXR shows lung up.\nPlan: PACU, nasal cannula.",
-            5: "dictation for linda davis rigid bronch she had that left lung collapse from the tumor in the left main. we opened it up with the rigid scope and apc. put in a metal stent covered 12 by 40. bleeding was minimal. she woke up fine extubated her. xray looks good lung is up.",
-            6: "Rigid bronchoscopy with tumor debulking and placement of covered metallic stent in the left mainstem bronchus was performed. The patient had complete collapse of the left lung. Mechanical debulking and APC were used to open the lumen. A 12 x 40 mm covered self-expanding metallic stent was deployed. EBL was 30 mL. The patient was extubated and transferred to PACU.",
-            7: "[Indication]\nLeft lung collapse, malignant LMS obstruction.\n[Anesthesia]\nGeneral, Rigid #11, Jet ventilation.\n[Description]\nTumor debulked from LMS. 12x40mm Covered SEMS deployed. Patent airway achieved.\n[Plan]\nPACU, monitor O2 sats.",
-            8: "Due to complete collapse of the left lung from a malignant obstruction, we performed a rigid bronchoscopy. We mechanically debulked the tumor in the left mainstem bronchus and applied APC to the base. Once the airway was sufficiently open, we placed a 12 x 40 mm covered metallic stent under fluoroscopic guidance. The patient was extubated in the OR, and immediate chest x-ray showed successful re-expansion of the lung.",
-            9: "Service: Rigid airway restoration and prosthesis insertion.\nSite: Left mainstem bronchus.\nTechnique: Tumor excision via rigid barrel and thermal coagulation. Insertion of covered metallic scaffold (SEMS).\nOutcome: Re-aeration of the left lung."
+        3: { # Note 3: EBUS 3 Stations (7, 4R, 4L)
+            1: "Indication: Mediastinal adenopathy.\nAnesthesia: MAC, LMA.\nEBUS: Sampled stations 7, 4R, 4L.\nTechnique: 22G/19G needles. 5 passes/station.\nResult: 4R = Granuloma. Others pending.\nComplications: None.",
+            2: "PROCEDURE: Endobronchial Ultrasound-Guided Transbronchial Needle Aspiration (EBUS-TBNA).\nCLINICAL SUMMARY: Evaluation of mediastinal lymphadenopathy.\nDETAILS: Under MAC, the EBUS scope was introduced. Sonographic evaluation identified enlargement of subcarinal (7) and paratracheal (4R, 4L) stations. Systematic sampling was performed with 5 passes per station using 22G and 19G needles. ROSE evaluation of station 4R demonstrated granulomatous inflammation. The procedure was concluded without incident.",
+            3: "Billing Code: 31653 (EBUS-TBNA 3+ stations).\nJustification: Three distinct mediastinal nodal stations were sampled: Station 7, Station 4R, and Station 4L.\nTechnique: 5 passes per station to ensure adequacy. ROSE performed on 4R (Granuloma).",
+            4: "Resident Note\nProcedure: EBUS\nIndication: Lymph nodes.\nSteps:\n1. LMA/Propofol.\n2. White light exam normal.\n3. EBUS scope in.\n4. Found nodes at 7, 4R, 4L.\n5. Stuck each one 5 times.\n6. 4R showed granuloma.\n7. Suctioned airway, all good.",
+            5: "ebus for lymph nodes propofol lma. airway looked normal. used the ebus scope to sample station 7 and 4r and 4l. did 5 passes at each one sent for cytology. rose said 4r was granulomas. no bleeding finished up.",
+            6: "The patient was sedated with propofol and an LMA was placed. We performed a standard inspection followed by EBUS. We identified and sampled lymph nodes at stations 7, 4R, and 4L. We performed five passes at each station. On-site pathology showed granulomas in station 4R. The airway was cleared of secretions and the patient was recovered.",
+            7: "[Indication]\nMediastinal adenopathy.\n[Anesthesia]\nMAC, Propofol.\n[Description]\nEBUS-TBNA performed on 3 stations: 7, 4R, and 4L. 5 passes per station. ROSE: Granuloma in 4R.\n[Plan]\nAwait final cytology.",
+            8: "We performed an EBUS bronchoscopy to investigate the patient's enlarged mediastinal lymph nodes. After inserting the LMA, we used the convex probe to locate nodes at stations 7, 4R, and 4L. We thoroughly sampled all three stations with multiple needle passes. Preliminary results from the 4R node indicate granulomatous disease.",
+            9: "Procedure: EBUS-TBNA.\nTargets: Subcarinal and bilateral paratracheal nodes.\nAction: Stations 7, 4R, and 4L were aspirated. 5 excursions per target.\nFindings: Granulomatous reaction noted in 4R."
         },
-        4: { # Samuel Ortiz: Flex Cryo RMS
-            1: "Procedure: Flex bronch, cryo-debulking RMS.\n- Finding: 70% obstruction RMS.\n- Action: Cryoprobe activation x multiple. Mechanical removal.\n- Result: 20% residual.\n- Complication: Mild ooze.\n- Plan: Discharge home.",
-            2: "Operative Note: Mr. Ortiz presented with a polypoid tumor obstructing the right mainstem bronchus. Flexible bronchoscopy was initiated. The cryotherapy probe was utilized to perform cryoadhesion and extraction of tumor tissue. This was supplemented by mechanical debridement. The airway caliber was significantly improved from 70% to 20% obstruction. Hemostasis was secured with epinephrine.",
-            3: "Coding: 31641 (Tumor destruction, flexible). Note: No stent placed. Technique involved cryotherapy probe for debulking of malignant endobronchial lesion in Right Mainstem. Mechanical forceps used for residual cleanup.",
-            4: "Resident Procedure Note\nProcedure: Flex Bronch w/ Cryo\n1. Moderate sedation.\n2. RMS tumor seen (70% blocked).\n3. Cryo probe used to debulk.\n4. Forceps used for cleanup.\n5. Airway now patent.\nPlan: Home today.",
-            5: "we did a flex bronch on mr ortiz for that tumor in the right mainstem. used the cryo probe to freeze and pull chunks of it out. got it pretty open maybe 20 percent left. little bit of bleeding used some cold saline. he is going home today.",
-            6: "Flexible bronchoscopy with cryotherapy and mechanical debulking for endobronchial tumor was performed. Findings included a polypoid tumor in the right mainstem bronchus causing 70 percent obstruction. Multiple cycles of cryotherapy were applied. Residual obstruction was 20 percent. Mild oozing was controlled. The patient was discharged home.",
-            7: "[Indication]\nSymptomatic RMS obstruction (Tumor).\n[Anesthesia]\nModerate Sedation.\n[Description]\nFlexible cryoprobe used to debulk RMS mass. Forceps used for residual. Obstruction reduced from 70% to 20%.\n[Plan]\nDischarge to home.",
-            8: "We performed a flexible bronchoscopy to address a tumor obstructing the right mainstem bronchus. Using a cryoprobe, we performed multiple freeze-thaw cycles to adhere to and remove significant portions of the tumor. We cleared the remaining debris with forceps. The airway obstruction was reduced from 70% to approximately 20%. The patient tolerated the procedure well and will be discharged.",
-            9: "Procedure: Flexible airway clearance via cryo-ablation.\nTarget: Right mainstem neoplasm.\nAction: Utilized cryo-adhesion to extract tumor tissue. Mechanical removal of debris.\nResult: Restoration of airway patency."
-        },
-        5: { # Karen Young: BLVR LUL Zephyr
-            1: "Procedure: BLVR LUL (Zephyr).\n- Chartis: No CV.\n- Implants: 3 Zephyr valves (LB1+2, LB3).\n- Result: Good seal, no pneumo.\n- Plan: Admit, CXR protocol.",
-            2: "Procedure Note: Ms. Young, a candidate for lung volume reduction, underwent flexible bronchoscopy. The left upper lobe was targeted. Chartis assessment confirmed the absence of collateral ventilation. Subsequently, three Zephyr endobronchial valves were deployed into the LB1+2 and LB3 segments. Visual inspection confirmed appropriate seating and occlusion. There were no immediate complications.",
-            3: "Billing: 31647 (Initial lobe BLVR), 31651 (Addl segments). Device: Zephyr Valves x3. Location: LUL. Indication: Severe Emphysema. Diagnostic: Chartis assessment (bundled). Disposition: Inpatient observation.",
-            4: "Resident Note: BLVR LUL\n1. GA, 8.0 ETT.\n2. Chartis check LUL -> Negative CV.\n3. Placed 3 Zephyr valves (LB1+2, LB3).\n4. Checked for leaks - none.\n5. CXR negative for pneumo.\nPlan: Admit for obs.",
-            5: "procedure note for karen young blvr lul. we checked with chartis and it looked good no flow. put in three zephyr valves in the upper lobe segments. everything looks sealed up. no pneumothorax on the xray. admitting her to the floor.",
-            6: "Bronchoscopic lung volume reduction with Zephyr endobronchial valves to the left upper lobe was performed. The target was selected based on CT fissure analysis. Chartis confirmed absence of collateral ventilation. Three Zephyr valves were placed in LUL segments. There were no complications. The patient was admitted for observation.",
-            7: "[Indication]\nSevere LUL Emphysema.\n[Anesthesia]\nGeneral, ETT.\n[Description]\nChartis negative for CV. 3 Zephyr valves deployed in LUL. Good occlusion.\n[Plan]\nAdmit, serial CXRs.",
-            8: "We proceeded with bronchoscopic lung volume reduction targeting the left upper lobe. After inducing general anesthesia, we used the Chartis system to confirm there was no collateral ventilation in the target lobe. We then placed three Zephyr valves into the LB1+2 and LB3 segments. The valves were well-seated with no air leak. The patient was extubated and admitted for routine post-BLVR monitoring.",
-            9: "Operation: Endobronchial valve implantation (Zephyr) for volume reduction.\nSite: Left Upper Lobe.\nDetails: Verified lobar isolation via Chartis. Deployed 3 valves. Confirmed occlusion.\nOutcome: Uncomplicated."
-        },
-        6: { # Thomas Baker: BLVR RUL Spiration
-            1: "Procedure: BLVR RUL (Spiration).\n- Analysis: CT fissure only (No Chartis).\n- Implants: 2 Spiration valves (RB1, RB2+3).\n- Result: Good collapse.\n- Plan: Admit, CXR.",
-            2: "Operative Report: Mr. Baker underwent bronchoscopic lung volume reduction targeting the Right Upper Lobe. Target selection was based on radiographic fissure integrity; physiologic mapping was not performed. Two Spiration valves were deployed into the apical (RB1) and posterior/anterior (RB2+3) segments. Bronchoscopic evaluation demonstrated effective airway occlusion and distal collapse.",
-            3: "Coding: 31647 (Initial lobe). Note: Only 2 valves placed in RUL. Device: Spiration (Olympus). Assessment: Anatomic (CT) only. Anesthesia: MAC. Disposition: Floor admission.",
-            4: "Procedure: BLVR RUL\n1. MAC sedation.\n2. Navigated to RUL.\n3. Placed 2 Spiration valves (RB1, RB2+3).\n4. Confirmed position.\n5. No pneumo.\nPlan: Admit.",
-            5: "blvr procedure for mr baker using spiration valves. target was rul based on the cat scan. didn't do chartis. put in two valves one in the apical one in the other segments. looks like the lung collapsed down nicely. sending him to the floor.",
-            6: "Bronchoscopic lung volume reduction using Spiration valves targeting the right upper lobe was performed. The patient is a 61-year-old male with RUL-predominant emphysema. Two Spiration valves were placed in RUL segments RB1 and RB2+3. There was good collapse of RUL airways. No immediate pneumothorax was noted. The patient was admitted.",
-            7: "[Indication]\nRUL Emphysema.\n[Anesthesia]\nMAC.\n[Description]\n2 Spiration valves deployed in RUL (RB1, RB2+3). Good lobar collapse observed.\n[Plan]\nAdmit for observation.",
-            8: "We performed lung volume reduction on Mr. Baker using Spiration valves in the right upper lobe. We relied on CT analysis for target selection. Under MAC sedation, we placed two valves into the segmental bronchi of the RUL. Immediate bronchoscopic inspection showed good collapse of the distal airways. He was admitted for overnight observation to monitor for pneumothorax.",
-            9: "Procedure: Implantation of Spiration valves for emphysema.\nLocation: Right Upper Lobe.\nAction: Deployed 2 valves into segmental airways. \nResult: Observed airway collapse. \nPlan: Inpatient monitoring."
-        },
-        7: { # Emily Rogers: BLVR LLL Zephyr
-            1: "Procedure: BLVR LLL (Zephyr).\n- Chartis: Low/Borderline flow.\n- Implants: 2 Zephyr valves.\n- Complication: Transient desat (86%).\n- Plan: Admit, monitor closely.",
-            2: "Procedure Note: Ms. Rogers underwent BLVR targeting the Left Lower Lobe. Chartis assessment revealed low but persistent airflow, indicative of borderline collateral ventilation; however, the decision was made to proceed. Two Zephyr valves were deployed. Although there was a transient desaturation event, it resolved with oxygen therapy. Valve seating appeared adequate.",
-            3: "Billing: 31647 (Initial), 31651 (Addl). Device: Zephyr. Location: LLL. Indication: Heterogeneous Emphysema. Note: Borderline CV status noted. Complication: Hypoxia (transient).",
-            4: "Resident Note: BLVR LLL\n1. GA / ETT.\n2. Chartis LLL -> Borderline.\n3. Decided to place valves (x2 Zephyr).\n4. Pt desatted to 86%, fixed with FiO2.\n5. No pneumo on CXR.\nPlan: Admit.",
-            5: "emily rogers for blvr lll. chartis was a bit iffy showed some flow but we went ahead. put in two zephyr valves. she dropped her sats to 86 for a minute but came back up. valves look good. admitting her to telemetry.",
-            6: "Bronchoscopic lung volume reduction with Zephyr valves to the left lower lobe was performed. Chartis showed low but persistent airflow. Two Zephyr valves were placed in LLL segments. Transient desaturation to 86 percent occurred but was corrected. There was no pneumothorax on immediate CXR. The patient was admitted to a monitored bed.",
-            7: "[Indication]\nLLL Emphysema.\n[Anesthesia]\nGeneral.\n[Description]\nChartis: Borderline CV. 2 Zephyr valves deployed in LLL. Transient desaturation managed with O2.\n[Plan]\nAdmit to monitor.",
-            8: "Ms. Rogers underwent a BLVR procedure for her left lower lobe emphysema. The Chartis assessment was equivocal, showing some low collateral flow, but we proceeded with valve placement. Two Zephyr valves were implanted in the LLL. The patient experienced a brief period of desaturation which resolved quickly with increased oxygen. We admitted her to a monitored bed out of an abundance of caution.",
-            9: "Intervention: Endobronchial valve placement (Zephyr).\nTarget: Left Lower Lobe.\nDetails: Collateral ventilation assessment was borderline. Implanted 2 valves. Managed transient hypoxia.\nDisposition: Inpatient admission."
-        },
-        8: { # Brian Scott: WLL Left
-            1: "Procedure: Whole Lung Lavage (Left).\n- Indication: PAP.\n- Method: DLT, 30L warm saline in, 25L out.\n- Findings: Milky effluent cleared over time.\n- Complication: Hypotension (pressors).\n- Plan: ICU, intubated.",
-            2: "Operative Report: Mr. Scott, diagnosed with pulmonary alveolar proteinosis, underwent therapeutic whole lung lavage of the left lung. A double-lumen endotracheal tube was utilized for isolation. We instilled a total of 30 liters of warmed saline in aliquots, retrieving 25 liters. The effluent transitioned from opaque/milky to clear. Hemodynamics were supported with vasopressors during the procedure. The patient was transferred to the ICU intubated.",
-            3: "Coding: 32997 (Total lung lavage, unilateral). Side: Left. Volume: 30L instilled. Method: General Anesthesia w/ DLT. Note: This is a therapeutic lavage for PAP, not a diagnostic BAL.",
-            4: "Resident Note: WLL Left\n1. 37Fr DLT placed.\n2. Isolated Left lung.\n3. Lavaged with 30L total.\n4. Fluid cleared up nicely.\n5. BP dropped, gave pressors.\nPlan: ICU.",
-            5: "doing a whole lung lavage on brian scott for his pap. left side today. put in a dlt. ran about 30 liters of saline through him got 25 back. looked like milk at first then clear. blood pressure got soft so anesthesia gave him some pressors. going to the icu intubated.",
-            6: "Whole lung lavage of the left lung for pulmonary alveolar proteinosis was performed. 30 L of warm saline was instilled and 25 L returned. The effluent cleared progressively. Transient hypotension was treated with vasopressors. The patient remained intubated and was transported to the ICU.",
-            7: "[Indication]\nPulmonary Alveolar Proteinosis.\n[Anesthesia]\nGA, DLT.\n[Description]\nLeft lung lavage. 30L In / 25L Out. Effluent cleared.\n[Complication]\nHypotension (managed).\n[Plan]\nICU, mech vent.",
-            8: "We performed a therapeutic whole lung lavage on the left lung for Mr. Scott's alveolar proteinosis. Using a double-lumen tube, we ventilated the right lung while lavaging the left with 30 liters of warm saline. The return fluid (25L total) cleared significantly by the end. He experienced some hypotension which was managed by anesthesia. He remains intubated for transport to the ICU.",
-            9: "Procedure: Total pulmonary lavage (Left).\nIndication: Autoimmune PAP.\nTechnique: Large volume saline instillation (30L) via double-lumen airway.\nResult: Clearance of proteinaceous material.\nStatus: ICU care."
-        },
-        9: { # Olivia Perez: WLL Right
-            1: "Procedure: Whole Lung Lavage (Right).\n- Context: Post-Left WLL 2 wks ago.\n- Method: DLT, 36L in, 30L out.\n- Complication: Desat to 80s, resolved with pause.\n- Plan: Extubated, ICU monitoring.",
-            2: "Procedure Note: Ms. Perez returned for the second stage of her treatment for PAP, undergoing right whole lung lavage. A double-lumen tube was placed. The right lung was lavaged with 36 liters of saline, yielding 30 liters of effluent which cleared progressively. A desaturation event occurred during a dwell cycle but resolved with recruitment maneuvers. She was successfully extubated and transferred to the ICU.",
-            3: "Coding: 32997 (Total lung lavage, unilateral). Side: Right. Volume: 36L instilled. History: Previous Left WLL 2 weeks prior (separate session). Outcome: Extubated in OR.",
-            4: "Procedure: Right Lung Lavage\n1. DLT placed (35Fr).\n2. Lavaged Right lung (36L total).\n3. 30L returned.\n4. Sats dropped to 80s once, paused and recruited.\n5. Extubated.\nPlan: ICU on high-flow.",
-            5: "right side lung lavage for olivia perez. she had the left done last week. used a dlt. put in 36 liters got 30 back. she desatted a bit to the 80s but we fixed it. extubated her at the end. sending to icu on high flow.",
-            6: "Whole lung lavage of the right lung was performed for pulmonary alveolar proteinosis. The patient is status post left lung lavage. 36 L of saline was instilled with 30 L return. Brief desaturation occurred but improved with recruitment. The patient was extubated in the OR and transported to the ICU.",
-            7: "[Indication]\nPAP, Right side.\n[Anesthesia]\nGA, DLT.\n[Description]\nRight lung lavage. 36L In / 30L Out. Cleared secretions.\n[Complication]\nTransient hypoxia.\n[Plan]\nExtubate, ICU.",
-            8: "Ms. Perez underwent the planned right-sided whole lung lavage today. We used a double-lumen tube to isolate the lung and instilled 36 liters of saline, recovering 30 liters. The fluid cleared as expected. She had one episode of desaturation that required us to pause and recruit the lung, but she recovered well. We were able to extubate her in the operating room before transfer to the ICU.",
-            9: "Procedure: Total pulmonary lavage (Right).\nIndication: Alveolar proteinosis.\nAction: Instilled 36L saline. Recovered 30L. \nAdverse Event: Transient hypoxemia.\nDisposition: Extubated, critical care monitoring."
+        4: { # Note 4: EBUS 11R (4R measured only)
+            1: "Indication: Molecular markers.\nAnesthesia: General, LMA.\nEBUS: Station 4R viewed (8.4mm), not sampled. Station 11R sampled (7 passes).\nROSE: Adenocarcinoma.\nComplications: None.",
+            2: "PROCEDURE: EBUS-TBNA for staging and molecular profiling.\nFINDINGS: The airway was inspected via LMA and found to be normal. EBUS examination revealed an enlarged station 4R node (8.4mm), which was not sampled. Station 11R was identified and sampled via transbronchial needle aspiration (22G needle, 7 passes) to ensure adequate cellularity for molecular testing. ROSE confirmed adenocarcinoma.",
+            3: "Code: 31652 (EBUS-TBNA 1-2 stations).\nRationale: Only one station (11R) was sampled. Station 4R was imaged/measured but not aspirated, therefore it does not count toward the 31653 threshold.\nPathology: Adenocarcinoma confirmed on site.",
+            4: "Resident Note\nProcedure: EBUS\nIndication: Cancer staging.\nSteps:\n1. LMA/General.\n2. Scope in.\n3. Saw 4R node, didn't stick it.\n4. Went to 11R, did 7 passes for markers.\n5. Path said Adeno.\n6. Done.",
+            5: "ebus for markers propofol fentanyl lma. looked at 4r it was smallish 8mm didnt biopsy. went to 11r and biopsied that one 7 times to get enough tissue. rose said adenocarcinoma. no bleeding.",
+            6: "Under general anesthesia with an LMA, we performed an EBUS. We visualized station 4R but decided not to sample it. We proceeded to station 11R and performed 7 needle passes to obtain tissue for molecular markers. Rapid pathology confirmed adenocarcinoma. The patient tolerated the procedure well.",
+            7: "[Indication]\nMolecular markers.\n[Anesthesia]\nGeneral, LMA.\n[Description]\nStation 4R imaged (8.4mm). Station 11R sampled (7 passes). ROSE: Adenocarcinoma.\n[Plan]\nOncology f/u.",
+            8: "The patient presented for EBUS staging to obtain tissue for molecular markers. We used an LMA for the airway. We identified a lymph node at station 4R but elected to sample the node at station 11R instead. We performed seven passes to ensure sufficient tissue. The immediate pathology reading was consistent with adenocarcinoma.",
+            9: "Procedure: EBUS-guided aspiration.\nTarget: Hilar node 11R.\nAction: 4R was sonographically assessed but not entered. 11R was aspirated 7 times.\nResult: Positive for adenocarcinoma."
         }
     }
     return variations
+
+def get_base_data_mocks():
+    """
+    Mock data to assign consistent identities to the 5 distinct notes in the source file.
+    Names are generated to be distinct across the 9 variations.
+    """
+    return [
+        # Note 0: RLL Tumor
+        {"idx": 0, "orig_name": "Unknown", "orig_age": 68, "names": [
+            "John Smith", "Robert Jones", "Michael Brown", "David Miller", "William Wilson",
+            "Richard Moore", "Joseph Taylor", "Thomas Anderson", "Charles Thomas"
+        ]},
+        # Note 1: BPF Glue
+        {"idx": 1, "orig_name": "Unknown", "orig_age": 72, "names": [
+            "Mary Johnson", "Patricia Williams", "Jennifer Davis", "Linda Martinez", "Elizabeth Garcia",
+            "Barbara Rodriguez", "Susan Lopez", "Jessica Hernandez", "Sarah Gonzalez"
+        ]},
+        # Note 2: EBUS LUL
+        {"idx": 2, "orig_name": "Unknown", "orig_age": 65, "names": [
+            "James White", "John Lee", "Robert Harris", "Michael Clark", "William Lewis",
+            "David Robinson", "Richard Walker", "Joseph Perez", "Thomas Hall"
+        ]},
+        # Note 3: EBUS 3 Stations
+        {"idx": 3, "orig_name": "Unknown", "orig_age": 59, "names": [
+            "Margaret Young", "Dorothy Allen", "Lisa King", "Nancy Wright", "Karen Scott",
+            "Betty Torres", "Helen Nguyen", "Sandra Hill", "Donna Flores"
+        ]},
+        # Note 4: EBUS 11R
+        {"idx": 4, "orig_name": "Unknown", "orig_age": 61, "names": [
+            "Daniel Green", "Paul Adams", "Mark Nelson", "Donald Baker", "George Carter",
+            "Kenneth Mitchell", "Steven Roberts", "Edward Phillips", "Brian Evans"
+        ]}
+    ]
 
 def main():
     # Load original data from source file
@@ -166,6 +131,7 @@ def main():
             source_data = json.load(f)
     except FileNotFoundError:
         print(f"Error: Source file not found: {SOURCE_FILE}")
+        print("Please ensure the file exists or update SOURCE_FILE path.")
         return
     except json.JSONDecodeError as e:
         print(f"Error: Invalid JSON in source file: {e}")
@@ -212,23 +178,34 @@ def main():
             new_name = record['names'][style_num - 1]
             
             # Update note_text with the variation
+            # Handle potential missing index in variations_text if source has more notes than expected
             if idx in variations_text and style_num in variations_text[idx]:
                 note_entry["note_text"] = variations_text[idx][style_num]
+            else:
+                # Fallback if text variation isn't defined (shouldn't happen with correct setup)
+                note_entry["note_text"] = f"Variation {style_num} for note {idx} (Content missing in script map)."
             
             # Update registry_entry fields if they exist
             if "registry_entry" in note_entry:
-                # Update text in registry entry as well to match
-                if "note_text" in note_entry["registry_entry"]:
-                     note_entry["registry_entry"]["note_text"] = note_entry["note_text"]
-
+                # Update Patient Age
+                # Some registry entries might have patient_age directly or inside patient_demographics
                 if "patient_age" in note_entry["registry_entry"]:
                     note_entry["registry_entry"]["patient_age"] = new_age
+                elif "patient_demographics" in note_entry["registry_entry"] and note_entry["registry_entry"]["patient_demographics"]:
+                     note_entry["registry_entry"]["patient_demographics"]["age"] = new_age
+
+                # Update Procedure Date
                 if "procedure_date" in note_entry["registry_entry"]:
                     note_entry["registry_entry"]["procedure_date"] = rand_date_str
-                # Update patient MRN to make it unique
+                
+                # Update MRN
                 if "patient_mrn" in note_entry["registry_entry"]:
-                    note_entry["registry_entry"]["patient_mrn"] = f"{note_entry['registry_entry']['patient_mrn']}_syn_{style_num}"
-            
+                    original_mrn = note_entry["registry_entry"]["patient_mrn"]
+                    if original_mrn == "UNKNOWN" or original_mrn == "Unknown":
+                        # Generate a mock MRN base if unknown
+                        original_mrn = f"IP20260{idx}"
+                    note_entry["registry_entry"]["patient_mrn"] = f"{original_mrn}_syn_{style_num}"
+
             # Add metadata about the synthetic generation
             note_entry["synthetic_metadata"] = {
                 "source_file": SOURCE_FILE,
@@ -241,7 +218,7 @@ def main():
             generated_notes.append(note_entry)
 
     # Output to JSON in Synthetic_expansions folder
-    output_filename = output_dir / "synthetic_blvr_notes_part_020.json"
+    output_filename = output_dir / "synthetic_bronch_notes_part_020.json"
     with open(output_filename, 'w', encoding='utf-8') as f:
         json.dump(generated_notes, f, indent=2, ensure_ascii=False)
     
